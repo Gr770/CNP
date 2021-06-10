@@ -1,0 +1,4 @@
+﻿l_english:
+ diplomacy_foreign_special.1017.friends_a:0 "[target_list_member_a.Custom('CTPShortName')|U] and I might become friends"
+ diplomacy_foreign_special.1017.friends_b:0 "[target_list_member_b.Custom('CTPShortName')|U] and I might become friends"
+ diplomacy_foreign_special.1017.friends_c:0 "[target_list_member_c.Custom('CTPShortName')|U] and I might become friends"

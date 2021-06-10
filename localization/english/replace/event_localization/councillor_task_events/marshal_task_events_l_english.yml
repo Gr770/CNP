@@ -1,0 +1,7 @@
+﻿l_english:
+ marshal_task.2101.notification:0 "[commander.Custom('CTPShortNameNoTooltip')] Gained Trait: [commander.Custom('CommanderTraitBeingTaught')]"
+ marshal_task.2102.notification:0 "Knight Improved: [commander.Custom('CTPShortName')]"
+ marshal_task.0302.notification.a:0 "Commander Significantly Improved: [commander.Custom('CTPShortName')]"
+ marshal_task.0302.notification.b:0 "Commander Improved: [commander.Custom('CTPShortName')]"
+ marshal_task.0303.notification.a:0 "Knight Significantly Improved: [commander.Custom('CTPShortName')]"
+ marshal_task.0303.notification.c:0 "Knight Became Blademaster: [commander.Custom('CTPShortName')]"

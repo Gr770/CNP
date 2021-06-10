@@ -1,0 +1,3 @@
+﻿l_english:
+ learning_theology_special.1102.b.success:0 "I outwit [scholar.Custom('CTPShortNameNoTooltip')]"
+ learning_theology_special.1102.b.failure:0 "[scholar.Custom('CTPShortNameNoTooltip')] reveals my duplicity"

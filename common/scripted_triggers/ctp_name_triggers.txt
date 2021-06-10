@@ -1,0 +1,12 @@
+﻿ctp_is_loaded = {
+	always = yes
+}
+
+is_ctp_supported_culture = {
+	has_culture_group = culture_group:arabic_group
+}
+
+KoH_loaded_checker = { 
+    trigger_if = { KoH_is_loaded = yes }
+    trigger_else = { always = no }
+}

@@ -1,0 +1,4 @@
+﻿l_english:
+ adultery.0002.c.tt:0 "My [spymaster|E] will continue to spy on [lover_spouse.Custom('CTPShortName')]"
+ adultery.0003.b.tt:0 "[spouse.Custom('CTPShortName')|U] may forgive you, or not..."
+ adultery.1002.a.confession_tt:0 "[adultery_spouse.Custom('CTPShortName')|U] will learn the truth"

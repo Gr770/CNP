@@ -1,0 +1,11 @@
+﻿l_english:
+ fp1_other_decisions.0021.desc:0 "Terrifying news from [sacrificer.GetPrimaryTitle.GetNameNoTierNoTooltip]! It seems that the foul [sacrificer.Custom('GetUnbelieverName')], [sacrificer.Custom('CTPShortName')], has sacrificed noble [sacrificed_hof.GetTitledFirstName] to [sacrificer.GetHerHis] disgusting faith.\n\n"
+ fp1_other_decisions.0021.cheaper_holy_wars.tt:0 "[holy_wars|E] against [sacrificer.Custom('CTPShortName')] are now significantly cheaper"
+ fp1_other_decisions.0021.easier_holy_wars.tt:0 "[holy_wars|E] against [sacrificer.Custom('CTPShortName')] require less [piety_levels|E] than usual"
+ fp1_other_decisions.0021.ghw_target_preference.tt:0 "[great_holy_wars|E] are more likely against [sacrificer.Custom('CTPShortName')]"
+
+ fp1_other_decisions.0023.desc.intro:0 "[unlucky_guest.GetFaith.GetAdherentNamePlural] everywhere are in shock. Our beloved [unlucky_guest.Custom('CTPShortName')] has been sacrificed to the foul [gf_faith.GetAdherentNamePlural], and, what's worse, by the #EMP express order#! of one of our own.\n\n"
+ fp1_other_decisions.0023.desc.has_excommunication:0 "[blotter.Custom('CTPShortName')] has been summarily excommunicated and [blotter.GetHerHis] blasphemous actions decried to all good [unlucky_guest.GetFaith.GetAdherentNamePluralNoTooltip]."
+ fp1_other_decisions.0023.desc.does_not_have_excommunication:0 "All righteous [unlucky_guest.GetFaith.GetAdherentNamePluralNoTooltip] call for [blotter.Custom('CTPShortName')], cursed be [blotter.GetHerHis] name, to be cast out of the faith."
+
+ fp1_other_decisions.0024.desc.intro:0 "What possessed me? What minion of [unlucky_guest.GetFaith.DevilName] took root in my brain that I allowed myself to #EMP publicly#! condone the sacrifice of [unlucky_guest.Custom('CTPShortName')] to foreign idols? My blasphemy is the dinner gossip of every righteous [unlucky_guest.GetFaith.GetAdherentName] the world over!\n\n"

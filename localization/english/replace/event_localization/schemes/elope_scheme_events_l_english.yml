@@ -1,0 +1,4 @@
+﻿l_english:
+ elope.0001.a.tt:0 "I attempt to Elope with [target.Custom('CTPShortName')]"
+ elope.2000.c.success:0 "[target.Custom('CTPShortName')|U] is convinced"
+ elope.2000.c.failure:0 "[target.Custom('CTPShortName')|U] feels dismissed"

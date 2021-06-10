@@ -1,0 +1,10 @@
+﻿l_english:
+ intrigue_temptation.3100.b.tt:0 "I try to coax a secret out of [propositioning_courtier.Custom('CTPShortNameNoTooltip')]"
+ intrigue_temptation.3100.b.tt.secret_gained:0 "In bed, [propositioning_courtier.Custom('CTPShortNameNoTooltip')] tells such interesting tales."
+ intrigue_temptation.3100.b.tt.xp_gained:0 "Sadly,[propositioning_courtier.Custom('CTPShortNameNoTooltip')] knows nothing."
+ intrigue_temptation.3110.a.tt_success:0 "[potential_deviant.Custom('CTPShortNameNoTooltip')] discovers a new hobby"
+ intrigue_temptation.3110.a.tt_fail:0 "[potential_deviant.Custom('CTPShortNameNoTooltip')] is repulsed by my lewdness"
+ intrigue_temptation.3120.a.tt_success:0 "[tempted_guest.Custom('CTPShortNameNoTooltip')] is enthralled"
+ intrigue_temptation.3120.a.tt_fail:0 "[tempted_guest.Custom('CTPShortNameNoTooltip')] is repulsed"
+ intrigue_temptation.3160.a.tt_success:0 "Surprised, [sometime_rival.Custom('CTPShortNameNoTooltip')] reciprocates"
+ intrigue_temptation.3160.a.tt_fail:0 "Disgusted, [sometime_rival.Custom('CTPShortNameNoTooltip')] throws you off"

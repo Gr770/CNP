@@ -1,0 +1,6 @@
+﻿l_english:
+ court_outcome.0003.a.tt:0 "[owner.Custom('CTPShortName')|U] might become my Soulmate"
+ court_outcome.0003.b.tt:0 "[owner.Custom('CTPShortName')|U] will #bold not#! become my Soulmate"
+ court_outcome.kiss.tt:0 "[target.Custom('CTPShortName')|U] and I share a kiss"
+ court_outcome.1100.b.failure:0 "[target.Custom('CTPShortName')|U] is hurt by the intruder"
+ court_outcome.1100.b.success:0 "[target.Custom('CTPShortName')|U] escapes unharmed"

@@ -1,0 +1,13 @@
+﻿l_english:
+ witch.2001.a.tt:1 "You go ahead with your plan to convert [target.Custom('CTPShortName')] to the path of [owner.GetFaith.WitchGodName]"
+ witch.2003.b.tt:0 "[target.Custom('CTPShortName')|U] must know of your [secret|E] to be invited to a $activity_witch_ritual$"
+ convert_to_witchcraft_interaction_desc:0 "Attempt to convert [recipient.Custom('CTPShortNameNoTooltip')] to the ways of [actor.GetFaith.WitchGodName]"
+ convert_to_witchcraft_desc:0 "I will lead [SCHEME.GetTarget.Custom('CTPShortNameNoTooltip')] down the path of [SCHEME.GetOwner.GetFaith.WitchGodName] and show [SCHEME.GetTarget.GetHerHim] the true extent of [SCHEME.GetOwner.GetFaith.WitchGodHerHis|U] power."
+ witch.4001.a.success:0 "You make a fool of [annoying_clergy.Custom('CTPShortNameNoTooltip')]"
+ witch.4001.a.failure:0 "[annoying_clergy.Custom('CTPShortNameNoTooltip')] discovers your scheme"
+ witch.4001.b.success:0 "You break [annoying_clergy.Custom('CTPShortNamePossessiveNoTooltip')] faith in [annoying_clergy.GetFaith.HighGodName]"
+ witch.4001.b.neutral:0 "[annoying_clergy.Custom('CTPShortNameNoTooltip')] is uncertain"
+ witch.4001.b.failure:0 "You fail to influence [annoying_clergy.Custom('CTPShortNameNoTooltip')]"
+ witch_4001_corruption_success_effect.tt:0 "You can [blackmail|E] [annoying_clergy.Custom('CTPShortName')] about [annoying_clergy.GetHerHis] [secret|E]"
+ witch.4030.c.success:0 "[convince_target_1.Custom('CTPShortName')|U] is enthralled by the tome"
+ witch.4030.c.failure:0 "[convince_target_1.Custom('CTPShortName')|U] burns the tome"

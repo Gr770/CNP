@@ -1,0 +1,928 @@
+﻿CTPNameCheck = {
+    type = character
+    text = {
+        trigger = {
+            OR = {
+                has_character_flag = name_pack_support
+                AND = {
+                    exists = house
+                    house = {
+                        any_in_list = {
+                            variable = name_pack_support_house
+                            this = root
+                        }
+                    }
+                }
+                any_in_global_list = {
+                    variable = name_pack_support_global
+                    this = root
+                }
+            }
+        }
+        localization_key = CTP_supported_name
+    }
+    text = {
+        fallback = yes
+		localization_key = CTP_nonsupported_name
+    }
+}
+CTPFullName = {
+	type = character
+	text = {
+		trigger = {
+			has_culture_group = culture_group:arabic_group
+		}
+		localization_key = CTP_Full_Name_Arabic
+	}
+	text = {
+		fallback = yes
+		localization_key = CTP_Full_Name_Default
+	}
+}
+CTPFullNameConcept = {
+	type = character
+	text = {
+		trigger = {
+			has_culture_group = culture_group:arabic_group
+		}
+		localization_key = CTP_Full_Name_Concept_Arabic
+	}
+	text = {
+		fallback = yes
+		localization_key = CTP_Full_Name_Default
+	}
+}
+CTPName = {
+    type = character
+    text = {
+        trigger ={
+            is_local_player = yes
+        }
+        localization_key = CTP_Me
+    }
+    text = {
+		trigger = {
+			has_culture_group = culture_group:arabic_group
+		}
+		localization_key = CTP_Name_Arabic
+	}
+	text = {
+		fallback = yes
+		localization_key = CTP_Name_Default
+	}
+}
+CTPShortName = {
+    type = character
+    text = {
+        trigger ={
+            is_local_player = yes
+        }
+        localization_key = CTP_Me
+    }
+    text = {
+		trigger = {
+			has_culture_group = culture_group:arabic_group
+		}
+		localization_key = CTP_Short_Name_Arabic
+	}
+	text = {
+		fallback = yes
+		localization_key = CTP_Short_Name_Default
+	}
+}
+CTPNameNoTooltip = {
+    type = character
+    text = {
+        trigger ={
+            is_local_player = yes
+        }
+        localization_key = CTP_Me_no_tooltip
+    }
+    text = {
+		trigger = {
+			has_culture_group = culture_group:arabic_group
+		}
+		localization_key = CTP_Name_Arabic_no_tooltip
+	}
+	text = {
+		fallback = yes
+		localization_key = CTP_Name_Default_no_tooltip
+	}
+}
+CTPShortNameNoTooltip = {
+    type = character
+    text = {
+        trigger ={
+            is_local_player = yes
+        }
+        localization_key = CTP_Me_no_tooltip
+    }
+    text = {
+		trigger = {
+			has_culture_group = culture_group:arabic_group
+		}
+		localization_key = CTP_Short_Name_Arabic_no_tooltip
+	}
+	text = {
+		fallback = yes
+		localization_key = CTP_Short_Name_Default_no_tooltip
+	}
+}
+CTPNameNotMe = {
+    type = character
+    text = {
+		trigger = {
+			has_culture_group = culture_group:arabic_group
+		}
+		localization_key = CTP_Name_Arabic
+	}
+	text = {
+		fallback = yes
+		localization_key = CTP_Name_Default_not_me
+	}
+}
+CTPShortNameNotMe = {
+    type = character
+    text = {
+		trigger = {
+			has_culture_group = culture_group:arabic_group
+		}
+		localization_key = CTP_Short_Name_Arabic
+	}
+	text = {
+		fallback = yes
+		localization_key = CTP_Short_Name_Default_not_me
+	}
+}
+CTPNameNotMeNoTooltip = {
+    type = character
+    text = {
+		trigger = {
+			has_culture_group = culture_group:arabic_group
+		}
+		localization_key = CTP_Name_Arabic_no_tooltip
+	}
+	text = {
+		fallback = yes
+		localization_key = CTP_Name_Default_no_tooltip_not_me
+	}
+}
+CTPShortNameNotMeNoTooltip = {
+    type = character
+    text = {
+		trigger = {
+			has_culture_group = culture_group:arabic_group
+		}
+		localization_key = CTP_Short_Name_Arabic_no_tooltip
+	}
+	text = {
+		fallback = yes
+		localization_key = CTP_Short_Name_Default_no_tooltip_not_me
+	}
+}
+CTPNamePossessive = {
+    type = character
+    text = {
+        trigger ={
+            is_local_player = yes
+        }
+        localization_key = CTP_My
+    }
+    text = {
+		trigger = {
+			has_culture_group = culture_group:arabic_group
+		}
+		localization_key = CTP_Name_Arabic_possessive
+	}
+	text = {
+		fallback = yes
+		localization_key = CTP_Name_Default_possessive
+	}
+}
+CTPShortNamePossessive = {
+    type = character
+    text = {
+        trigger ={
+            is_local_player = yes
+        }
+        localization_key = CTP_My
+    }
+    text = {
+		trigger = {
+			has_culture_group = culture_group:arabic_group
+		}
+		localization_key = CTP_Short_Name_Arabic_possessive
+	}
+	text = {
+		fallback = yes
+		localization_key = CTP_Short_Name_Default_possesive
+	}
+}
+CTPNamePossessiveNoTooltip = {
+    type = character
+    text = {
+        trigger ={
+            is_local_player = yes
+        }
+        localization_key = CTP_My_no_tooltip
+    }
+    text = {
+		trigger = {
+			has_culture_group = culture_group:arabic_group
+		}
+		localization_key = CTP_Name_Arabic_no_tooltip_possessive
+	}
+	text = {
+		fallback = yes
+		localization_key = CTP_Name_Default_no_tooltip_possessive
+	}
+}
+CTPShortNamePossessiveNoTooltip = {
+    type = character
+    text = {
+        trigger ={
+            is_local_player = yes
+        }
+        localization_key = CTP_My_no_tooltip
+    }
+    text = {
+		trigger = {
+			has_culture_group = culture_group:arabic_group
+		}
+		localization_key = CTP_Short_Name_Arabic_no_tooltip_possessive
+	}
+	text = {
+		fallback = yes
+		localization_key = CTP_Short_Name_Default_no_tooltip_possesive
+	}
+}
+CTPNamePossessiveNotMy = {
+    type = character
+    text = {
+		trigger = {
+			has_culture_group = culture_group:arabic_group
+		}
+		localization_key = CTP_Name_Arabic_possessive
+	}
+	text = {
+		fallback = yes
+		localization_key = CTP_Name_Default_possessive_not_my
+	}
+}
+CTPShortNamePossessiveNotMy = {
+    type = character
+    text = {
+		trigger = {
+			has_culture_group = culture_group:arabic_group
+		}
+		localization_key = CTP_Short_Name_Arabic_possessive
+	}
+	text = {
+		fallback = yes
+		localization_key = CTP_Short_Name_Default_possesive_not_my
+	}
+}
+CTPNamePossessiveNoTooltipNotMy = {
+    type = character
+    text = {
+		trigger = {
+			has_culture_group = culture_group:arabic_group
+		}
+		localization_key = CTP_Name_Arabic_no_tooltip_possessive
+	}
+	text = {
+		fallback = yes
+		localization_key = CTP_Name_Default_no_tooltip_possessive_not_my
+	}
+}
+CTPShortNamePossessiveNoTooltipNotMy = {
+    type = character
+    text = {
+		trigger = {
+			has_culture_group = culture_group:arabic_group
+		}
+		localization_key = CTP_Short_Name_Arabic_no_tooltip_possessive
+	}
+	text = {
+		fallback = yes
+		localization_key = CTP_Short_Name_Default_no_tooltip_possesive_not_my
+	}
+}
+CharacterTier = {
+    type = character
+    text = {
+        trigger = {
+            highest_held_title_tier = tier_empire
+        }
+        localization_key = Emperor
+    }
+    text = {
+        trigger = {
+            NOT = {
+                has_government = theocracy_government
+                has_government = holy_order_government
+            }
+            exists = primary_spouse
+            primary_spouse = {
+                highest_held_title_tier = tier_empire
+                OR = {
+                    has_government = feudal_government
+                    has_government = clan_government
+                    has_government = tribal_government
+                }
+            }
+        }
+        localization_key = Emperor_consort
+    }
+    text = {
+        trigger = {
+            NOT = {
+                has_government = theocracy_government
+                has_government = holy_order_government
+            }
+            OR = {
+                AND = {
+                    exists = father
+                    father = {
+                        highest_held_title_tier = tier_empire
+                        OR = {
+                            has_government = feudal_government
+                            has_government = clan_government
+                            has_government = tribal_government
+                        }
+                    }
+                }
+                AND = {
+                    exists = mother
+                    mother = {
+                        highest_held_title_tier = tier_empire
+                        OR = {
+                            has_government = feudal_government
+                            has_government = clan_government
+                            has_government = tribal_government
+                        }
+                    }
+                }
+            }
+        }
+        localization_key = Emperor_prince
+    }
+    text = {
+        trigger = {
+            highest_held_title_tier = tier_kingdom
+            is_independent_ruler = yes
+        }
+        localization_key = independent_king
+    }
+    text = {
+        trigger = {
+            NOT = {
+                has_government = theocracy_government
+                has_government = holy_order_government
+            }
+            exists = primary_spouse
+            primary_spouse = {
+                highest_held_title_tier = tier_kingdom
+                is_independent_ruler = yes
+                OR = {
+                    has_government = feudal_government
+                    has_government = clan_government
+                    has_government = tribal_government
+                }
+            }
+        }
+        localization_key = independent_king_consort
+    }
+    text = {
+        trigger = {
+            NOT = {
+                has_government = theocracy_government
+                has_government = holy_order_government
+            }
+            OR = {
+                AND = {
+                    exists = father
+                    father = {
+                        highest_held_title_tier = tier_kingdom
+                        is_independent_ruler = yes
+                        OR = {
+                            has_government = feudal_government
+                            has_government = clan_government
+                            has_government = tribal_government
+                        }
+                    }
+                }
+                AND = {
+                    exists = mother
+                    mother = {
+                        highest_held_title_tier = tier_kingdom
+                        is_independent_ruler = yes
+                        OR = {
+                            has_government = feudal_government
+                            has_government = clan_government
+                            has_government = tribal_government
+                        }
+                    }
+                }
+            }
+        }
+        localization_key = independent_king_prince
+    }
+    text = {
+        trigger = {
+            highest_held_title_tier = tier_kingdom
+        }
+        localization_key = King
+    }
+    text = {
+        trigger = {
+            NOT = {
+                has_government = theocracy_government
+                has_government = holy_order_government
+            }
+            exists = primary_spouse
+            primary_spouse = {
+                highest_held_title_tier = tier_kingdom
+                OR = {
+                    has_government = feudal_government
+                    has_government = clan_government
+                    has_government = tribal_government
+                }
+            }
+        }
+        localization_key = King_consort
+    }
+    text = {
+        trigger = {
+            NOT = {
+                has_government = theocracy_government
+                has_government = holy_order_government
+            }
+            OR = {
+                AND = {
+                    exists = father
+                    father = {
+                        highest_held_title_tier = tier_kingdom
+                        OR = {
+                            has_government = feudal_government
+                            has_government = clan_government
+                            has_government = tribal_government
+                        }
+                    }
+                }
+                AND = {
+                    exists = mother
+                    mother = {
+                        highest_held_title_tier = tier_kingdom
+                        OR = {
+                            has_government = feudal_government
+                            has_government = clan_government
+                            has_government = tribal_government
+                        }
+                    }
+                }
+            }
+        }
+        localization_key = King_prince
+    }
+    text = {
+        trigger = {
+            highest_held_title_tier = tier_duchy
+            is_independent_ruler = yes
+        }
+        localization_key = independent_duke
+    }
+    text = {
+        trigger = {
+            NOT = {
+                has_government = theocracy_government
+                has_government = holy_order_government
+            }
+            exists = primary_spouse
+            primary_spouse = {
+                highest_held_title_tier = tier_duchy
+                is_independent_ruler = yes
+                OR = {
+                    has_government = feudal_government
+                    has_government = clan_government
+                    has_government = tribal_government
+                }
+            }
+        }
+        localization_key = independent_duke_consort
+    }
+    text = {
+        trigger = {
+            highest_held_title_tier = tier_duchy
+        }
+        localization_key = Duke
+    }
+    text = {
+        trigger = {
+            NOT = {
+                has_government = theocracy_government
+                has_government = holy_order_government
+            }
+            exists = primary_spouse
+            primary_spouse = {
+                highest_held_title_tier = tier_duchy
+                OR = {
+                    has_government = feudal_government
+                    has_government = clan_government
+                    has_government = tribal_government
+                }
+            }
+        }
+        localization_key = Duke_consort
+    }
+    text = {
+        trigger = {
+            highest_held_title_tier = tier_county
+            is_independent_ruler = yes
+        }
+        localization_key = independent_count
+    }
+    text = {
+        trigger = {
+            NOT = {
+                has_government = theocracy_government
+                has_government = holy_order_government
+            }
+            exists = primary_spouse
+            primary_spouse = {
+                highest_held_title_tier = tier_county
+                is_independent_ruler = yes
+                OR = {
+                    has_government = feudal_government
+                    has_government = clan_government
+                    has_government = tribal_government
+                }
+            }
+        }
+        localization_key = independent_count_consort
+    }
+    text = {
+        trigger = {
+            highest_held_title_tier = tier_county
+        }
+        localization_key = Count
+    }
+    text = {
+        trigger = {
+            NOT = {
+                has_government = theocracy_government
+                has_government = holy_order_government
+            }
+            exists = primary_spouse
+            primary_spouse = {
+                highest_held_title_tier = tier_county
+                OR = {
+                    has_government = feudal_government
+                    has_government = clan_government
+                    has_government = tribal_government
+                }
+            }
+        }
+        localization_key = Count_consort
+    }
+    text = {
+        trigger = {
+            highest_held_title_tier = tier_barony
+        }
+        localization_key = Baron
+    }
+    text = {
+        trigger = {
+            NOT = {
+                has_government = theocracy_government
+                has_government = holy_order_government
+            }
+            exists = primary_spouse
+            primary_spouse = {
+                highest_held_title_tier = tier_barony
+                OR = {
+                    has_government = feudal_government
+                    has_government = clan_government
+                    has_government = tribal_government
+                }
+            }
+        }
+        localization_key = Baron_consort
+    }
+    text = {
+        trigger = {
+            is_lowborn = no
+        }
+        localization_key = lord
+    }
+    text = {
+        fallback = yes
+        localization_key = default
+    }
+}
+CharacterGender = {
+    type = character
+    text = {
+        trigger = {
+            is_male = no
+        }
+        localization_key = _female
+    }
+    text = {
+        fallback = yes
+        localization_key = _male
+    }
+}
+CharacterGov = {
+    type = character
+    text = {
+        trigger = {
+            root.faith.religious_head = root
+        }
+        localization_key = _hof
+    }
+    text = {
+        trigger = {
+            has_government = theocracy_government
+        }
+        localization_key = _theo
+    }
+    text = {
+        trigger = {
+            has_government = holy_order_government
+        }
+        localization_key = _ho
+    }
+    text = {
+        trigger = {
+            OR = {
+                has_government = feudal_government
+                AND = {
+                    exists = primary_spouse
+                    primary_spouse = {
+                        has_government = feudal_government
+                    }
+                }
+                AND = {
+                    exists = father
+                    father = {
+                        has_government = feudal_government
+                    }
+                }
+                AND = {
+                    exists = mother
+                    mother = {
+                        has_government = feudal_government
+                    }
+                }
+            }
+        }
+        localization_key = _feudal
+    }
+    text = {
+        trigger = {
+            OR = {
+                has_government = clan_government
+                AND = {
+                    exists = primary_spouse
+                    primary_spouse = {
+                        has_government = clan_government
+                    }
+                }
+                AND = {
+                    exists = father
+                    father = {
+                        has_government = clan_government
+                    }
+                }
+                AND = {
+                    exists = mother
+                    mother = {
+                        has_government = clan_government
+                    }
+                }
+            }
+        }
+        localization_key = _clan
+    }
+    text = {
+        trigger = {
+            OR = {
+                has_government = tribal_government
+                AND = {
+                    exists = primary_spouse
+                    primary_spouse = {
+                        has_government = tribal_government
+                    }
+                }
+                AND = {
+                    exists = father
+                    father = {
+                        has_government = tribal_government
+                    }
+                }
+                AND = {
+                    exists = mother
+                    mother = {
+                        has_government = tribal_government
+                    }
+                }
+            }
+        }
+        localization_key = _tribal
+    }
+    text = {
+        trigger = {
+            has_government = republic_government
+        }
+        localization_key = _republic
+    }
+    text = {
+        trigger = {
+            has_government = mercenary_government
+        }
+        localization_key = _mercenary
+    }
+    text = {
+        fallback = yes
+        localization_key = _default
+    }
+}
+CharacterCulture = {
+    type = character
+	text = {
+		trigger = {
+			has_culture_group = culture_group:arabic_group
+		}
+		localization_key = _arabic
+	}
+	text = {
+		fallback = yes
+		localization_key = _default
+	}
+}
+CharacterReligion = {
+    type = character
+    text = {
+        trigger = {
+            root.faith = faith:ashari
+        }
+        localization_key = _ashari
+    }
+    text = {
+        trigger = {
+            root.faith = faith:muwalladi
+        }
+        localization_key = _muwalladi
+    }
+    text = {
+        trigger = {
+            root.faith = faith:maturidi
+        }
+        localization_key = _maturidi
+    }
+    text = {
+        trigger = {
+            root.faith = faith:masmudi
+        }
+        localization_key = _masmudi
+    }
+    text = {
+        trigger = {
+            root.faith = faith:mutazila
+        }
+        localization_key = _mutazila
+    }
+    text = {
+        trigger = {
+            root.faith = faith:quranist
+        }
+        localization_key = _quranist
+    }
+    text = {
+        trigger = {
+            root.faith = faith:ismaili
+        }
+        localization_key = _ismaili
+    }
+    text = {
+        trigger = {
+            root.faith = faith:qarmatian
+        }
+        localization_key = _qarmatian
+    }
+    text = {
+        trigger = {
+            root.faith = faith:nizari
+        }
+        localization_key = _nizari
+    }
+    text = {
+        trigger = {
+            root.faith = faith:zayidi
+        }
+        localization_key = _zayidi
+    }
+    text = {
+        trigger = {
+            root.faith = faith:imami
+        }
+        localization_key = _imami
+    }
+    text = {
+        trigger = {
+            root.faith = faith:ghulat
+        }
+        localization_key = _ghulat
+    }
+    text = {
+        trigger = {
+            root.faith = faith:alawite
+        }
+        localization_key = _alawite
+    }
+    text = {
+        trigger = {
+            root.faith = faith:druze
+        }
+        localization_key = _druze
+    }
+    text = {
+        trigger = {
+            root.faith = faith:ibadi
+        }
+        localization_key = _ibadi
+    }
+    text = {
+        trigger = {
+            root.faith = faith:azariqa
+        }
+        localization_key = _azariqa
+    }
+    text = {
+        trigger = {
+            root.faith = faith:najdat
+        }
+        localization_key = _najdat
+    }
+    text = {
+        trigger = {
+            root.faith = faith:sufri
+        }
+        localization_key = _sufri
+    }
+    text = {
+        fallback = yes
+        localization_key = _default
+    }
+}
+CharacterPat = {
+	type = character
+	text = {
+		trigger = {
+			exists = father
+            father = {
+                OR = {
+                    has_character_flag = name_pack_support
+                    AND = {
+                        exists = house
+                        house = {
+                            any_in_list = {
+                                variable = name_pack_support_house
+                                this = prev.prev
+                            }
+                        }
+                    }
+                    any_in_global_list = {
+                        variable = name_pack_support_global
+                        this = prev
+                    }
+                }
+            }
+		}
+		localization_key = CTP_Patronym
+	}
+    text = {
+        trigger = {
+            exists = father
+        }
+        localization_key = CTP_nonsupported_Patronym
+    }
+	text = {
+		fallback = yes
+		localization_key = Gui_blank
+	}
+}
+NickCheck = {
+	type = character
+	text = {
+		trigger = {
+			has_any_nickname = yes
+		}
+		localization_key = CTP_NickName
+	}
+	text = {
+		fallback = yes
+		localization_key = Gui_blank
+	}
+}

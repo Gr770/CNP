@@ -1,0 +1,2 @@
+﻿l_english:
+ event_false_convert_interface.desc:0 "[ROOT.Char.Custom('CTPShortName')] has renounced [ROOT.Char.GetHerHis] public faith for [ROOT.Char.GetFaith.GetName], revealing [ROOT.Char.GetHerHim]self as a crypto-religionist."

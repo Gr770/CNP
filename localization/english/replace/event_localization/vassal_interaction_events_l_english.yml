@@ -1,0 +1,2 @@
+﻿l_english:
+ vassal_interaction.war_ender_gives_up:1 "[recipient.Custom('CTPShortName')|U] has given up their war, on [actor.Custom('CTPShortNamePossessive')] orders"

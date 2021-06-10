@@ -1,0 +1,7 @@
+﻿l_english:
+ war_event.1901:1 "Your liege won their war with [defender_loser.Custom('CTPShortName')]!"
+ war_event.1902:1 "Your liege lost their war with [attacker_winner.Custom('CTPShortName')]!"
+ war_event.1903:1 "Your liege has signed a White Peace with [defender_white_peace.Custom('CTPShortName')]!"
+ war_event.1904:1 "Your liege has signed a White Peace with [attacker_white_peace.Custom('CTPShortName')]!"
+ war_event.1905:1 "Your liege lost their war with [defender_winner.Custom('CTPShortName')]!"
+ war_event.1906:1 "Your liege won their war with [attacker_loser.Custom('CTPShortName')]!"

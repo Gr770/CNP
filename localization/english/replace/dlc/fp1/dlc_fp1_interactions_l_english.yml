@@ -1,0 +1,9 @@
+﻿l_english:
+ designate_gruesome_festivals_sacrifice_interaction_desc:0 "Select [recipient.Custom('CTPShortNameNoTooltip')] as your personal [designate_chief_sacrifice_chief_sacrifice|E] in the upcoming [actor.Custom('GruesomeFestivalName')]"
+
+ remove_designated_gruesome_festivals_sacrifice_interaction_desc:0 "Stop [recipient.Custom('CTPShortNameNoTooltip')] from being your [designate_chief_sacrifice_chief_sacrifice|E] at the upcoming [actor.Custom('GruesomeFestivalName')]"
+
+ TBC_PROWESS_ACTOR:0 "[actor.Custom('CTPShortNamePossessive')|U] [prowess|E]: $VALUE|=+0$"
+
+ designate_shieldmaiden_interaction_desc:0 "Offer [recipient.GetFirstNameNoTooltip] the opportunity to fight in your ranks as a [recipient.Custom('ShieldPersonFemaleMale')|U].\n\n#weak A [recipient.Custom('ShieldPersonFemaleMale')|U] can serve as a [actor.Custom('KnightCulture')] or [commander|E], and might even save you from [murder|E] attempts. Only [close_family|E] members can be offered to become a [recipient.Custom('ShieldPersonFemaleMale')|U].#!"
+ designate_shieldmaiden_interaction_notification:0 "[recipient.Custom('CTPShortName')] became a [recipient.Custom('ShieldPersonFemaleMale')|U]!"

@@ -1,0 +1,32 @@
+﻿on_birth_child = {
+	events = {
+		ctpname.999
+		ctpname.998
+		ctpname.997
+		ctpname.996
+		ctpname.500
+	}
+}
+on_death = {
+	on_actions = {
+		on_arabic_death
+	}
+}
+on_arabic_death = {
+	trigger = {
+		has_culture_group = culture_group:arabic_group
+	}
+	events = {
+		ctpname.995
+		ctpname.994
+		ctpname.993
+		ctpname.992
+		ctpname.400
+	}
+}
+#on_game_start = {
+	#events = {
+		#ctpname.002
+		#ctpname.003
+	#}
+#}

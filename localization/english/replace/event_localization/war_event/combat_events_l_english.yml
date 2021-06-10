@@ -1,0 +1,14 @@
+﻿l_english:
+ combatant_captured_in_battle_friendly_player:1 "You captured [TARGET_CHARACTER.Custom('CTPNameNoTooltip')] after the battle!"
+ combatant_captured_in_battle_friendly:0 "[CHARACTER.Custom('CTPNameNoTooltip')] captured [TARGET_CHARACTER.Custom('CTPNameNoTooltip')] after the battle!"
+ combatant_captured_in_battle_enemy_player:1 "You were captured by [CHARACTER.Custom('CTPNameNoTooltip')] after the battle!"
+ combatant_captured_in_battle_enemy:0 "[TARGET_CHARACTER.Custom('CTPNameNoTooltip')] was captured by [CHARACTER.Custom('CTPNameNoTooltip')] after the battle!"
+
+ combatant_killed_in_battle_friendly_player:1 "You slew [TARGET_CHARACTER.Custom('CTPNameNoTooltip')] while [TARGET_CHARACTER.GetSheHe] was retreating from battle!"
+ combatant_killed_in_battle_friendly:0 "[CHARACTER.Custom('CTPNameNoTooltip')] slew [TARGET_CHARACTER.Custom('CTPNameNoTooltip')] while [CHARACTER.GetSheHe] was retreating from battle!"
+ combatant_killed_in_battle_enemy_player:1 "You were slain by [CHARACTER.Custom('CTPNameNoTooltip')] during the retreat!"
+ combatant_killed_in_battle_enemy:0 "[TARGET_CHARACTER.Custom('CTPNameNoTooltip')] was slain by [CHARACTER.Custom('CTPNameNoTooltip')] during the retreat!"
+
+ combatant_killed_in_battle_no_killer_friendly_player:1 "One of your soldiers slew [TARGET_CHARACTER.Custom('CTPNameNoTooltip')] while [TARGET_CHARACTER.GetSheHe] was retreating from battle!"
+ combatant_killed_in_battle_no_killer_friendly:1 "One of our soldiers slew [TARGET_CHARACTER.Custom('CTPNameNoTooltip')] while [TARGET_CHARACTER.GetSheHe] was retreating from battle!"
+ combatant_killed_in_battle_no_killer_enemy:0 "[TARGET_CHARACTER.Custom('CTPNameNoTooltip')] was slain by an enemy soldier during the retreat!"

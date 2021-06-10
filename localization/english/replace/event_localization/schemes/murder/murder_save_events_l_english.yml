@@ -1,0 +1,2 @@
+﻿l_english:
+ murder_save.targets_guile_legacy_save_used_up:0 "[target.Custom('CTPShortName')|U] cannot be saved by [GetDynastyPerk( 'guile_legacy_5' ).GetName] again"

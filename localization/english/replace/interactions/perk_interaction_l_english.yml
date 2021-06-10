@@ -1,0 +1,3 @@
+﻿l_english:
+ demand_payment_interaction_desc:0 "Force a [recipient.Custom('CTPShortNameNoTooltip')] to pay you gold as payment for a [hook|E] you hold"
+ buy_claim_interaction_desc:0 "Pay [piety|E] to gain a [claim|E] on one of [recipient.Custom('CTPShortNamePossessiveNoTooltip')] valid titles #weak ([buy_claim|E])#!"

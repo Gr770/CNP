@@ -1,0 +1,3 @@
+﻿l_english:
+ diplomacy_family.0007.placeholder.tt:0 "[voter.Custom('CTPShortName')|U] will vote to elect [candidate.Custom('CTPShortName')] as the next ruler of [title.GetNameNoTier]"
+ diplomacy_family.0008.a.tt:0 "[disagreeable_heir.Custom('CTPShortName')|U] might overcome [disagreeable_heir.GetHerHis] flaws"

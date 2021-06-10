@@ -1,0 +1,9 @@
+﻿l_english:
+ party_baron_negative_attitude_counter_stress_tt:0 "Because of your #V negative attitude#! towards [TARGET_CHARACTER.Custom('CTPShortName')]:"
+ party_baron_positive_attitude_counter_stress_tt:0 "Because of your #V positive attitude#! towards [TARGET_CHARACTER.Custom('CTPShortName')]:"
+ party_baron_move_towards_positive_tt:0 "Move towards a #V positive attitude#! against [party_baron.Custom('CTPShortName')]"
+ party_baron_move_towards_negative_tt:0 "Move towards a #V negative attitude#! against [party_baron.Custom('CTPShortName')]"
+ party_baron.2001.positive:0 "It seems that [party_baron.Custom('CTPShortName')], entirely of [party_baron.GetHerHis] own initiative, has spoken to [vassal.Custom2('MyCharacterIntroduction', ROOT.Char )] about me.\n\nIt might have been cause for concern, if not for the fact that [vassal.GetFirstNameNoTooltip] now seems far more friendly and supportive!"
+ party_baron.2003.repentant_cannot_scheme:0 "For as long as [owner.Custom('CTPShortName')] is repentant, [owner.GetSheHe] cannot start [hostile_schemes|E] against you"
+ party_baron.9001.a.tt:0 "[party_baron.Custom('CTPShortName')] is celebrating in [party_baron.GetFaith.PositiveAfterLife]"
+ party_baron.9001.b.tt:0 "[party_baron.Custom('CTPShortName')] is finally gone for good."

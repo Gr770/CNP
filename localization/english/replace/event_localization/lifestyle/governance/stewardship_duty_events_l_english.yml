@@ -1,0 +1,2 @@
+﻿l_english:
+ stewardship_duty_0001_mediation_success.tt:0 "[arguer_1.Custom('CTPShortName')|U] and [arguer_2.Custom('CTPShortName')] gain [opinion|e] of each other"

@@ -1,0 +1,145 @@
+﻿scripted_gui_trigger_ctp_kunya_male = {
+	first = scripted_gui_ctp_kunya_male
+	third = scripted_gui_ctp_kunya_male
+	global = scripted_gui_ctp_kunya_male
+}
+scripted_gui_trigger_ctp_kunya_male_non_support = {
+	first = scripted_gui_ctp_kunya_male_non_support
+	third = scripted_gui_ctp_kunya_male_non_support
+	global = scripted_gui_ctp_kunya_male_non_support
+}
+ctp_blank_trigger_kunya = {
+	first = ctp_blank_kunya
+	third = ctp_blank_kunya
+	global = ctp_blank_kunya
+}
+scripted_gui_trigger_ctp_kunya_female = {
+	first = scripted_gui_ctp_kunya_female
+	third = scripted_gui_ctp_kunya_female
+	global = scripted_gui_ctp_kunya_female
+}
+scripted_gui_trigger_ctp_kunya_female_non_support = {
+	first = scripted_gui_ctp_kunya_female_non_support
+	third = scripted_gui_ctp_kunya_female_non_support
+	global = scripted_gui_ctp_kunya_female_non_support
+}
+scripted_gui_trigger_laqab_obey_god_command = {
+	first = scripted_gui_laqab_obey_god_command
+	third = scripted_gui_laqab_obey_god_command
+	global = scripted_gui_laqab_obey_god_command
+}
+scripted_gui_trigger_laqab_supporter_religion = {
+	first = scripted_gui_laqab_supporter_religion
+	third = scripted_gui_laqab_supporter_religion
+	global = scripted_gui_laqab_supporter_religion
+}
+scripted_gui_trigger_laqab_seeker_victory_god = {
+	first = scripted_gui_laqab_seeker_victory_god
+	third = scripted_gui_laqab_seeker_victory_god
+	global = scripted_gui_laqab_seeker_victory_god
+}
+scripted_gui_trigger_laqab_truth_summoner = {
+	first = scripted_gui_laqab_truth_summoner
+	third = scripted_gui_laqab_truth_summoner
+	global = scripted_gui_laqab_truth_summoner
+}
+scripted_gui_trigger_laqab_muayyad = {
+	first = scripted_gui_laqab_muayyad
+	third = scripted_gui_laqab_muayyad
+	global = scripted_gui_laqab_muayyad
+}
+scripted_gui_trigger_laqab_vault_dynasty = {
+	first = scripted_gui_laqab_vault_dynasty
+	third = scripted_gui_laqab_vault_dynasty
+	global = scripted_gui_laqab_vault_dynasty
+}
+scripted_gui_trigger_laqab_light_dynasty = {
+	first = scripted_gui_laqab_light_dynasty
+	third = scripted_gui_laqab_light_dynasty
+	global = scripted_gui_laqab_light_dynasty
+}
+scripted_gui_trigger_laqab_mutamid_dynasty = {
+	first = scripted_gui_laqab_mutamid_dynasty
+	third = scripted_gui_laqab_mutamid_dynasty
+	global = scripted_gui_laqab_mutamid_dynasty
+}
+scripted_gui_trigger_laqab_zaim_dynasty = {
+	first = scripted_gui_laqab_zaim_dynasty
+	third = scripted_gui_laqab_zaim_dynasty
+	global = scripted_gui_laqab_zaim_dynasty
+}
+scripted_gui_trigger_laqab_knowledge_faith = {
+	first = scripted_gui_laqab_knowledge_faith
+	third = scripted_gui_laqab_knowledge_faith
+	global = scripted_gui_laqab_knowledge_faith
+}
+scripted_gui_trigger_laqab_adornment_worshipers = {
+	first = scripted_gui_laqab_adornment_worshipers
+	third = scripted_gui_laqab_adornment_worshipers
+	global = scripted_gui_laqab_adornment_worshipers
+}
+scripted_gui_trigger_laqab_prophet_seal = {
+	first = scripted_gui_laqab_prophet_seal
+	third = scripted_gui_laqab_prophet_seal
+	global = scripted_gui_laqab_prophet_seal
+}
+scripted_gui_trigger_laqab_possessor_lights = {
+	first = scripted_gui_laqab_possessor_lights
+	third = scripted_gui_laqab_possessor_lights
+	global = scripted_gui_laqab_possessor_lights
+}
+scripted_gui_trigger_get_name = {
+	first = scripted_gui_get_name
+	third = scripted_gui_get_name
+	global = scripted_gui_get_name
+}
+scripted_gui_trigger_laqab_lion_god = {
+	first = scripted_gui_laqab_lion_god
+	third = scripted_gui_laqab_lion_god
+	global = scripted_gui_laqab_lion_god
+}
+scripted_gui_trigger_laqab_strengthened_god = {
+	first = scripted_gui_laqab_strengthened_god
+	third = scripted_gui_laqab_strengthened_god
+	global = scripted_gui_laqab_strengthened_god
+}
+scripted_gui_trigger_laqab_blessed_god = {
+	first = scripted_gui_laqab_blessed_god
+	third = scripted_gui_laqab_blessed_god
+	global = scripted_gui_laqab_blessed_god
+}
+scripted_gui_trigger_laqab_dependent_god = {
+	first = scripted_gui_laqab_dependent_god
+	third = scripted_gui_laqab_dependent_god
+	global = scripted_gui_laqab_dependent_god
+}
+scripted_gui_trigger_laqab_relies_god = {
+	first = scripted_gui_laqab_relies_god
+	third = scripted_gui_laqab_relies_god
+	global = scripted_gui_laqab_relies_god
+}
+scripted_gui_trigger_laqab_refuge_god = {
+	first = scripted_gui_laqab_refuge_god
+	third = scripted_gui_laqab_refuge_god
+	global = scripted_gui_laqab_refuge_god
+}
+scripted_gui_trigger_laqab_trusts_god = {
+	first = scripted_gui_laqab_trusts_god
+	third = scripted_gui_laqab_trusts_god
+	global = scripted_gui_laqab_trusts_god
+}
+scripted_gui_trigger_laqab_help_god = {
+	first = scripted_gui_laqab_help_god
+	third = scripted_gui_laqab_help_god
+	global = scripted_gui_laqab_help_god
+}
+scripted_gui_trigger_laqab_righteousness_faith = {
+	first = scripted_gui_laqab_righteousness_faith
+	third = scripted_gui_laqab_righteousness_faith
+	global = scripted_gui_laqab_righteousness_faith
+}
+scripted_gui_trigger_laqab_purity_faith = {
+	first = scripted_gui_laqab_purity_faith
+	third = scripted_gui_laqab_purity_faith
+	global = scripted_gui_laqab_purity_faith
+}

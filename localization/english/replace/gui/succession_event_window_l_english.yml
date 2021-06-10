@@ -1,0 +1,4 @@
+﻿l_english:
+ SUCCESSION_EVENT_WINDOW_CLOSE:1 "Continue as [SuccessionEventWindow.GetPlayerHeir.Custom('CTPShortNameNotMeNoTooltip')]"
+ SUCCESSION_EVENT_WINDOW_HEADING_LINEAGE:0 "Lineage of [SuccessionEventWindow.GetPlayerHeir.Custom('CTPShortNameNotMeNoTooltip')]"
+ SUCCESSION_LOST_TITLE_SHARE:0 "[SuccessionEventWindowLostTitlesItem.GetHeir.Custom('CTPNameNoTooltip')]"

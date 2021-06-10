@@ -1,0 +1,7 @@
+﻿l_english:
+ yearly_1010_save_abductee_random_list_effect.success.tt:0 "[abductee.Custom('CTPShortName')|U] is rescued"
+ yearly_1010_save_abductee_random_list_effect.failure.tt:0 "[abductee.Custom('CTPShortName')|U] is abducted by [abductor.Custom('CTPShortName')]"
+ yearly.1080.a.success.tt:0 "If [suspicious.Custom('CTPShortName')] is hiding something, it will be revealed"
+ yearly.1082.a.tt:0 "[suspicious.Custom('CTPShortName')|U] seems innocent"
+ yearly.1083.a.tt:0 "The investigation of [suspicious.Custom('CTPShortName')] failed"
+ yearly.1090.travelers_family:0 "[traveler.Custom('CTPShortName')|U] and [traveler.GetHerHis] family"

@@ -1,0 +1,3 @@
+﻿l_english:
+ trait_specific_ongoing.2001.a.success:0 "You convince [clergy.GetCouncilTitle] [clergy.Custom('CTPShortName')] that your visions are holy"
+ trait_specific_ongoing.2001.a.failure:0 "[clergy.GetCouncilTitle|U] [clergy.Custom('CTPShortName')] is disturbed by your tales"

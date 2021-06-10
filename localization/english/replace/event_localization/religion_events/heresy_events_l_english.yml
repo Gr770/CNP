@@ -1,0 +1,4 @@
+﻿l_english:
+ heresy.0011.notification.heresy:1 "[convert_ruler.Custom2('HierarchicalStatus', me)] Embraces Heresy: [convert_ruler.Custom('CTPShortNameNoTooltip')]"
+ heresy.0011.notification.same_faith:1 "[convert_ruler.Custom2('HierarchicalStatus', me)] Embraces the True Faith: [convert_ruler.Custom('CTPShortNameNoTooltip')]"
+ heresy.0011.notification.other:1 "[convert_ruler.Custom2('HierarchicalStatus', me)] Changes Faith: [convert_ruler.Custom('CTPShortNameNoTooltip')]"

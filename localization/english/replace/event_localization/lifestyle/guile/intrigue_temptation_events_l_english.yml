@@ -1,0 +1,7 @@
+﻿l_english:
+ intrigue_temptation.3021.a.tt:0 "Assign [potential_date.Custom('CTPShortName')] as my current favorite, who I can pay special attention to"
+ intrigue_temptation.3021.a.favorite_exists.tt:0 "My current favorite is [favorite.Custom('CTPShortName')]"
+ intrigue_temptation.3021.b.tt:0 "Keep [potential_date.Custom('CTPShortName')] for consideration"
+ intrigue_temptation.3021.b.2_dates.tt:0 "I have picked [date_1.Custom('CTPShortName')] and [date_2.Custom('CTPShortName')] and can pick #V 1#! more"
+ intrigue_temptation.3021.b.1_date.tt:0 "I have picked [date_1.Custom('CTPShortName')] and can pick #V 2#! more"
+ intrigue_temptation.3021.c.tt:0 "Discard [potential_date.Custom('CTPShortNamePossessive')] portrait"

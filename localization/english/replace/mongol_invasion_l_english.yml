@@ -1,0 +1,5 @@
+﻿l_english:
+ mongol_invasion.2001.a.tt:0 "You become a vassal of [mongol_emperor.Custom('CTPShortName')]"
+ mongol_invasion.2001.b.tt:0 "[mongol_emperor.Custom('CTPShortName')|U] declares war on you"
+ mongol_invasion.2101.b.tt:0 "@warning_icon! [mongol_emperor.Custom('CTPShortName')] breaks [mongol_emperor.GetHerHis] alliance with you and may go to war instead!"
+ mongol_invasion.2111.b.tt:0 "@warning_icon! [mongol_emperor.Custom('CTPShortName')] breaks [mongol_emperor.GetHerHis] alliance with you"

@@ -1,0 +1,4 @@
+﻿l_english:
+ WAR_LEADER_TOOLTIP:1 "#T [war_leader|E]:#!\n[CHARACTER.Custom('CTPNameNotMe')]"
+ WAR_PARTICIPANT_TOOLTIP:0 "#T [CHARACTER.Custom('CTPNameNotMeNoTooltip')]#!"
+ WAR_OVERVIEW_BENEFICIARY_NAME:0 "[CHARACTER.Custom('CTPName')]"

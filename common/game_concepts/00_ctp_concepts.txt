@@ -1,0 +1,21 @@
+﻿tier_name = {
+}
+teknonym = {
+	alias = { paedonym }
+}
+given_name = {
+}
+patronym = {
+}
+ism = {
+	parent = given_name
+}
+laqab = {
+	parent = nickname
+}
+kunya = {
+	parent = teknonym
+}
+nasab = {
+	parent = patronym
+}

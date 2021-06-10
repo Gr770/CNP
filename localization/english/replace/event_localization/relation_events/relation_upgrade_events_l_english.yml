@@ -1,0 +1,5 @@
+﻿l_english:
+ relation_upgrade.2001.a.success:0 "[lover_1.Custom('CTPShortName')|U] accepts your offer"
+ relation_upgrade.2001.a.failure:0 "[lover_1.Custom('CTPShortName')|U] does not get the hint"
+ relation_upgrade.2001.b.success:0 "[lover_1.Custom('CTPShortName')|U] feels the same way"
+ relation_upgrade.2001.b.failure:0 "[lover_1.Custom('CTPShortName')|U] does not feel the same way"

@@ -1,0 +1,7 @@
+﻿l_english:
+ religious_interaction.2400.desc:0 "The paige trembles with fear as [recipient.GetSheHe] reads [actor.GetTitledFirstNamePossessive] fiery letter to me, challenging me to a public debate about the virtues and vices of our shared faith, and calling into question my adherence to the base tenets of [recipient.GetFaith.GetNameNoTooltip].\n\nMy servant stutters over the words, as the letter's tone leaves no doubt about [actor.Custom('CTPShortNamePossessiveNoTooltip')] opinion of my piety.""
+ religious_interaction.2400.a.tt_success:0 "The public debate humiliates [actor.Custom('CTPShortNameNoTooltip')]"
+ religious_interaction.2400.a.tt_fail:0 "[actor.Custom('CTPShortNameNoTooltip')] successfully calls my faith into question"
+ religious_interaction.2400.b.tt:0 "[actor.Custom('CTPShortNameNoTooltip')] will be informed"
+ religious_interaction.2400.b_turned_down:0 "[recipient.Custom('CTPShortName')|U] has turned down my challenge to debate"
+ religious_interaction.2403.a.tt:0 "[victim.Custom('CTPShortName')] suffers a heart attack and [character_death_dies|E]"

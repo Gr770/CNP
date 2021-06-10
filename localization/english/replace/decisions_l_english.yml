@@ -1,0 +1,6 @@
+﻿l_english:
+ portguese_convert_list:1 "Every [THIS.Char.GetCulture.GetGroup.GetName] [culture_group|E] subject in [THIS.Char.Custom('CTPNamePossessive')] Portuguese realm"
+ converted_culture_msg_title:0 "[converting_character.Custom('CTPShortName')|U] converted [culture|E]"
+ promote_hungarian_settlement_decision_tooltip:0 "Welcome new Christian Settlers in [ROOT.Char.GetPrimaryTitle.Custom('CTPTitleNoTooltip')]"
+ secede_from_empire_decision_desc:0 "[ROOT.Char.GetLiege.GetTitledFirstNamePossessive] incompetence has left [ROOT.Char.GetLiege.GetPrimaryTitle.Custom('CTPTitleNoTooltip')] unable to protect its subjects from their enemies, both internal and external. Even a new ruler would be hard-pressed to undo all of the damage [ROOT.Char.GetLiege.GetSheHe] has done.\n\nIt is a far wiser course of action for us to split off and form a new realm, living or dying on our own merits instead of being dragged down with the rest of the Empire."
+ secede_from_empire_decision_debug:0 "[ROOT.Char.GetPrimaryTitle.GetNmae] seceded from [ROOT.Char.GetLiege.GetPrimaryTitle.Custom('CTPTitleNoTooltip')] clearing [debt_cleared.GetValue] in debt"

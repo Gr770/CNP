@@ -1,0 +1,5 @@
+﻿l_english:
+ lover.3111.a.success:0 "[lover.Custom('CTPShortName')|U] agrees to become exclusive"
+ lover.3111.a.failure:0 "My suggestion makes [lover.Custom('CTPShortName')] uncomfortable"
+ lover.3112.b.remain_together.tt:0 "[THIS.Char.Custom('CTPShortName')] remains your [lover|E]"
+ lover.2004.a.tt:1 "You confront [lover.Custom('CTPShortName')]"

@@ -1,0 +1,6 @@
+﻿l_english:
+ set_court_physician_effect.tt:0 "[THIS.Char.Custom('CTPShortName')] becomes [court_physician|E]"
+ fire_court_physician_effect.tt:0 "[THIS.Char.Custom('CTPShortName')] is no longer [court_physician|E]"
+ invalidate_physician_effect.t:1 "[invalidated_physician.Custom('CTPShortNameNoTooltip')|U] is no longer your Court Physician"
+ health.2102.a.dead.tt:0 "[THIS.Char.Custom('CTPShortName')] died during the outbreak"
+ health.2102.a.surviving.tt:0 "[THIS.Char.Custom('CTPShortName')] fell ill but recovered during the outbreak"

@@ -1,0 +1,5 @@
+﻿l_english:
+ martial_authority.2050.a.tt:1 "You will spend more time together with [right_hand_person.Custom('CTPShortName')]"
+ martial_authority.2050.toast.title:0 "[right_hand_person.Custom('CTPShortName')] is now serving as your right-hand [right_hand_person.GetWomanMan]"
+ martial_authority_special.1100.b.success.tt:1 "You convince [officer.Custom('CTPShortNameNoTooltip')]"
+ martial_authority_special.1100.b.failure.tt:1 "[officer.Custom('CTPShortNameNoTooltip')] gives you an impressive tongue-lashing"

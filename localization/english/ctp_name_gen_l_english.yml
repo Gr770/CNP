@@ -1,0 +1,95 @@
+﻿l_english:
+
+#Full Name
+ 
+ CTP_Full_Name_Concept_Arabic: "#TOOLTIP:GAME_CONCEPT,tier_name [ROOT.Char.GetTitleAsNameNoTooltip] #!#TOOLTIP:GAME_CONCEPT,laqab [GetScriptedGui('scripted_gui_ctp_laqab').ExecuteTooltip(GuiScope.SetRoot(ROOT.Char.MakeScope).End)]#!#TOOLTIP:GAME_CONCEPT,kunya [GetScriptedGui('scripted_gui_ctp_tek').ExecuteTooltip(GuiScope.SetRoot(ROOT.Char.MakeScope).End)]#!#TOOLTIP:GAME_CONCEPT,ism [ROOT.Char.Custom('CTPNameCheck')]#!#TOOLTIP:GAME_CONCEPT,nasab [ROOT.Char.Custom('CharacterPat')]#!#TOOLTIP:GAME_CONCEPT,nickname [ROOT.Char.Custom('NickCheck')]#!"
+ CTP_Full_Name_Arabic: "[ROOT.Char.GetTitleAsNameNoTooltip] [GetScriptedGui('scripted_gui_ctp_laqab').ExecuteTooltip(GuiScope.SetRoot(ROOT.Char.MakeScope).End)][GetScriptedGui('scripted_gui_ctp_tek').ExecuteTooltip(GuiScope.SetRoot(ROOT.Char.MakeScope).End)][ROOT.Char.Custom('CTPNameCheck')][ROOT.Char.Custom('CharacterPat')][ROOT.Char.Custom('NickCheck')]"
+ 
+ CTP_Name_Arabic: "#ONCLICK:CHARACTER,[ROOT.Char.GetID] #TOOLTIP:CHARACTER,[ROOT.Char.GetID] #high #L [ROOT.Char.GetTitleAsNameNoTooltip] [GetScriptedGui('scripted_gui_ctp_laqab_tek_name_check').ExecuteTooltip(GuiScope.SetRoot(ROOT.Char.MakeScope).End)][ROOT.Char.Custom('NickCheck')]#!#!#!#!"
+ CTP_Name_Arabic_no_tooltip: "#high [ROOT.Char.GetTitleAsNameNoTooltip] [GetScriptedGui('scripted_gui_ctp_laqab_tek_name_check').ExecuteTooltip(GuiScope.SetRoot(ROOT.Char.MakeScope).End)][ROOT.Char.Custom('NickCheck')]#!"
+ CTP_Name_Arabic_possessive: "#ONCLICK:CHARACTER,[ROOT.Char.GetID] #TOOLTIP:CHARACTER,[ROOT.Char.GetID] #high #L [ROOT.Char.GetTitleAsNameNoTooltip] [GetScriptedGui('scripted_gui_ctp_laqab_tek_name_check').ExecuteTooltip(GuiScope.SetRoot(ROOT.Char.MakeScope).End)]'s#!#!#!#!"
+ CTP_Name_Arabic_no_tooltip_possesive: "#high [ROOT.Char.GetTitleAsNameNoTooltip] [GetScriptedGui('scripted_gui_ctp_laqab_tek_name_check').ExecuteTooltip(GuiScope.SetRoot(ROOT.Char.MakeScope).End)]'s#!"
+
+ CTP_Short_Name_Arabic: "#ONCLICK:CHARACTER,[ROOT.Char.GetID] #TOOLTIP:CHARACTER,[ROOT.Char.GetID] #high #L [GetScriptedGui('scripted_gui_ctp_laqab_tek_name_check').ExecuteTooltip(GuiScope.SetRoot(ROOT.Char.MakeScope).End)]#!#!#!#!"
+ CTP_Short_Name_Arabic_no_tooltip: "#high [GetScriptedGui('scripted_gui_ctp_laqab_tek_name_check').ExecuteTooltip(GuiScope.SetRoot(ROOT.Char.MakeScope).End)]#!"
+ CTP_Short_Name_Arabic_possessive: "#ONCLICK:CHARACTER,[ROOT.Char.GetID] #TOOLTIP:CHARACTER,[ROOT.Char.GetID] #high #L [GetScriptedGui('scripted_gui_ctp_laqab_tek_name_check').ExecuteTooltip(GuiScope.SetRoot(ROOT.Char.MakeScope).End)]'s#!#!#!#!"
+ CTP_Short_Name_Arabic_no_tooltip_possessive: "#high [GetScriptedGui('scripted_gui_ctp_laqab_tek_name_check').ExecuteTooltip(GuiScope.SetRoot(ROOT.Char.MakeScope).End)]'s#!"
+
+ CTP_Me: "#ONCLICK:CHARACTER,[ROOT.Char.GetID] #TOOLTIP:CHARACTER,[ROOT.Char.GetID] #high #L Me#!#!#!#!"
+ CTP_Me_no_tooltip: "#high Me#!"
+ CTP_My: "#ONCLICK:CHARACTER,[ROOT.Char.GetID] #TOOLTIP:CHARACTER,[ROOT.Char.GetID] #high #L My#!#!#!#!"
+ CTP_My_no_tooltip: "#high My#!"
+
+ CTP_Full_Name_Default: "[ROOT.Char.GetUINameNotMeNoTooltip]"
+
+ CTP_Name_Default: "[ROOT.Char.GetUIName]"
+ CTP_Name_Default_not_me: "[ROOT.Char.GetUINameNotMe]"
+ CTP_Name_Default_no_tooltip: "[ROOT.Char.GetUINameNoTooltip]"
+ CTP_Name_Default_no_tooltip_not_me: "[ROOT.Char.GetUINameNotMeNoTooltip]"
+ CTP_Name_Default_possessive: "[ROOT.Char.GetUINamePossessive]"
+ CTP_Name_Default_possessive_not_my: "[ROOT.Char.GetUINamePossessiveNotMy]"
+ CTP_Name_Default_no_tooltip_possessive: "[ROOT.Char.GetUINamePossessiveNoTooltip]"
+ CTP_Name_Default_no_tooltip_possessive_not_my: "[ROOT.Char.GetUINamePossessiveNotMyNoTooltip]"
+
+ CTP_Short_Name_Default: "[ROOT.Char.GetShortUIName]"
+ CTP_Short_Name_Default_not_me: "[ROOT.Char.GetShortUINameNotMe]"
+ CTP_Short_Name_Default_no_tooltip: "[ROOT.Char.GetShortUINameNoTooltip]"
+ CTP_Short_Name_Default_no_tooltip_not_me: "[ROOT.Char.GetShortUINameNotMeNoTooltip]"
+ CTP_Short_Name_Default_possesive: "[ROOT.Char.GetShortUINamePossessive]"
+ CTP_Short_Name_Default_possesive_not_my: "[ROOT.Char.GetShortUINamePossessiveNotMy]"
+ CTP_Short_Name_Default_no_tooltip_possesive: "[ROOT.Char.GetShortUINamePossessiveNoTooltip]"
+ CTP_Short_Name_Default_no_tooltip_possesive_not_my: "[ROOT.Char.GetShortUINamePossessiveNotMyNoTooltip]"
+
+#Name
+ CTP_supported_name: "[Localize(Concatenate(ROOT.Char.GetFirstNameNoTooltip,ROOT.Char.Custom('CharacterCulture')))]"
+ CTP_nonsupported_name: "[ROOT.Char.GetFirstNameNoTooltip]"
+
+#Patronym
+
+ CTP_Patronym: " [Localize(Concatenate(Concatenate(Concatenate(ROOT.Char.GetFather.GetFirstNameNoTooltip,ROOT.Char.Custom('CharacterCulture')),'_pat_dad'),ROOT.Char.Custom('CharacterGender')))]"
+ CTP_nonsupported_Patronym: " [Localize(Concatenate(Concatenate('CTPPatPrefix', ROOT.Char.Custom('CharacterCulture')),ROOT.Char.Custom('CharacterGender')))][ROOT.Char.GetFather.GetFirstNameNoTooltip]"
+ CTPPatPrefix_arabic_male: "ibn "
+ CTPPatPrefix_arabic_female: "bint "
+#Nickname
+
+ CTP_NickName: " [ROOT.Char.GetNickname]"
+ Gui_blank: ""
+
+#Tek
+ scripted_gui_ctp_kunya_male: "[Localize(Concatenate(Concatenate(TARGET_CHARACTER.GetFirstNameNoTooltip,CHARACTER.Custom('CharacterCulture')),'_tek_dad'))] "
+ scripted_gui_ctp_kunya_female: "[Localize(Concatenate(Concatenate(TARGET_CHARACTER.GetFirstNameNoTooltip,CHARACTER.Custom('CharacterCulture')),'_tek_mom'))] "
+ scripted_gui_ctp_kunya_male_non_support: "ʾAbū [TARGET_CHARACTER.GetFirstNameNoTooltip] "
+ scripted_gui_ctp_kunya_female_non_support: "ʾUmm [TARGET_CHARACTER.GetFirstNameNoTooltip] "
+ ctp_blank_kunya: ""
+
+#Get Name
+ scripted_gui_get_name: "[CHARACTER.Custom('CTPNameCheck')]"
+
+#Arab Laqabs
+
+ scripted_gui_laqab_obey_god_command: "at-Ṭāʾiʿ li-Amr biʾllāh "
+ scripted_gui_laqab_supporter_religion: "an-Nāṣir Lideenʾllāh "
+ scripted_gui_laqab_seeker_victory_god: "al-Mustanṣir bi-ʾllāh "
+ scripted_gui_laqab_truth_summoner: "al-Daʿī ilaʾl-ḥaqq "
+ scripted_gui_laqab_muayyad: "al-Muʾayyad bi-ʾllāh "
+ scripted_gui_laqab_vault_dynasty: "Samāʾ ad-Dawla "
+ scripted_gui_laqab_light_dynasty: "Nūr ad-Dawla "
+ scripted_gui_laqab_mutamid_dynasty: "Muʿtamid ad-Dawla "
+ scripted_gui_laqab_zaim_dynasty: "Zaʿim ad-Dawla "
+ scripted_gui_laqab_knowledge_faith: "ʿAlīm ad-Dīn "
+ scripted_gui_laqab_adornment_worshipers: "Zayn al-Abidin"
+ scripted_gui_laqab_prophet_seal: "Khātam an-Nabīyīn "
+ scripted_gui_laqab_possessor_lights: "Ḏū an-Nūrayn "
+ scripted_gui_laqab_lion_god: "ʿAsad ʾllāh "
+ scripted_gui_laqab_strengthened_god: "al-Muʿtazz bi-ʾllāh "
+ scripted_gui_laqab_blessed_god: "al-Muwaffaq bi-ʾllāh "
+ scripted_gui_laqab_dependent_god: "al-Muʿtamid ʿalā ʾllāh "
+ scripted_gui_laqab_relies_god: "al-Mutawakkil ʿalā ʾllāh "
+ scripted_gui_laqab_refuge_god: "al-Muʿtaṣim bi-ʾllāh "
+ scripted_gui_laqab_trusts_god: "al-Wāthiq bi-ʾllāh "
+ scripted_gui_laqab_help_god: "al-Mustaʿin bi-ʾllah "
+ scripted_gui_laqab_righteousness_faith: "Ṣalāḥ ad-Dīn "
+ scripted_gui_laqab_purity_faith: "ʿIṣmat ad-Dīn "
+
+ tier_gen_CTP: "[ROOT.Char.GetTitleAsNameNoTooltip] "
+ ####"[Localize(Concatenate(Concatenate(Concatenate(Concatenate(ROOT.Char.Custom('CharacterTier'),ROOT.Char.Custom('CharacterGender')),ROOT.Char.Custom('CharacterGov')),ROOT.Char.Custom('CharacterCulture')),ROOT.Char.Custom('CharacterReligion')))]"

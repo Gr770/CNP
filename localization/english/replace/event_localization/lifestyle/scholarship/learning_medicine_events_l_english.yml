@@ -1,0 +1,8 @@
+﻿l_english:
+ learning_medicine.2002.b.success.tt:0 "If [herbalist.Custom('CTPShortName')] has a Witch Secret, it will be revealed to me"
+ learning_medicine.2025.a.tt:0 "I confront [spouse.Custom('CTPShortName')]"
+ learning_medicine.2030.c.tt:0 "If [confider_target.Custom('CTPShortName')] has a [secret|E], [confider_target.GetSheHe] will reveal it to me"
+ learning_medicine_special.2100.b.tt_success.tt:0 "[fish_alchemist.Custom('CTPShortNameNoTooltip')] joins my court as a loyal servant"
+ learning_medicine_special.2100.b.tt_failure.tt:0 "[fish_alchemist.Custom('CTPShortNameNoTooltip')] flees my court, incensed"
+ learning_medicine_special.2100.c.tt:0 "[fish_alchemist.Custom('CTPShortNameNoTooltip')] is burned at the stake"
+ learning_medicine_special.2100.d.tt:0 "[fish_alchemist.Custom('CTPShortNameNoTooltip')] is thrown from my court, embittered"

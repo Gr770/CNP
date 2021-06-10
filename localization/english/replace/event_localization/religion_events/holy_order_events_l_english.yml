@@ -1,0 +1,3 @@
+﻿l_english:
+ holy_order.hired_message:1 "[holy_order.GetName] has been called by [actor.Custom('CTPName')]"
+ holy_order.hired_by_enemy:1 "[holy_order.GetName] has been called by [actor.Custom('CTPName')], and now stand against us"
