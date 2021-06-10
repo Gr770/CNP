@@ -1219,9 +1219,16 @@ scripted_gui_ctp_laqab_tek_name_check = {
 		}
 	}
 }
+CTP_text_edit = {
+	scope = character
+	effect = {
+		remove_character_flag = name_pack_support
+	}
+}
 CTP_name_dad = {
 	scope = character
 	effect = {
+		remove_character_flag = name_pack_support
 		father = {
 			save_scope_as = the_dad
 		}
@@ -1257,6 +1264,7 @@ CTP_name_dad = {
 CTP_name_mom = {
 	scope = character
 	effect = {
+		remove_character_flag = name_pack_support
 		mother = {
 			save_scope_as = the_mom
 		}
@@ -1292,6 +1300,7 @@ CTP_name_mom = {
 CTP_name_granddad1 = {
 	scope = character
 	effect = {
+		remove_character_flag = name_pack_support
 		father.father = {
 			save_scope_as = the_granddad
 		}
@@ -1327,6 +1336,7 @@ CTP_name_granddad1 = {
 CTP_name_granddad2 = {
 	scope = character
 	effect = {
+		remove_character_flag = name_pack_support
 		mother.father = {
 			save_scope_as = the_granddad
 		}
@@ -1362,6 +1372,7 @@ CTP_name_granddad2 = {
 CTP_name_grandmom1 = {
 	scope = character
 	effect = {
+		remove_character_flag = name_pack_support
 		father.mother = {
 			save_scope_as = the_grandmom
 		}
@@ -1397,6 +1408,7 @@ CTP_name_grandmom1 = {
 CTP_name_grandmom2 = {
 	scope = character
 	effect = {
+		remove_character_flag = name_pack_support
 		mother.mother = {
 			save_scope_as = the_grandmom
 		}
@@ -1432,6 +1444,7 @@ CTP_name_grandmom2 = {
 CTP_random_ancestor = {
 	scope = character
 	effect = {
+		remove_character_flag = name_pack_support
 		IF = {
 			limit = { is_ctp_supported_culture = yes }
 			IF = {
@@ -1482,6 +1495,7 @@ CTP_random_ancestor = {
 CTP_faith_names = {
 	scope = character
 	effect = {
+		remove_character_flag = name_pack_support
 		IF = {
 			limit = { 
 				is_ctp_supported_culture = yes
@@ -1596,7 +1610,7 @@ CTP_faith_names = {
 							}
 						}
 					}
-					100 = {
+					50 = {
 						change_first_name = Muhammad
 					}
 				}
@@ -2040,11 +2054,11 @@ CTP_culture_names = {
 			IF = {
 				limit = { has_culture_group = culture_group:arabic_group }
 				random_list = {
-					200 = {
-						change_first_name = Muhammad
-					}
 					100 = {
 						random_list = {
+							1 = {
+								change_first_name = Muhammad
+							}
 							1 = {
 								change_first_name = Ahmad
 							}
@@ -2826,7 +2840,7 @@ CTP_culture_names = {
 								change_first_name = Ruqayya
 							}
 							1 = {
-								change_first_name = Safiya
+								change_first_name = Safiyya
 							}
 							1 = {
 								change_first_name = Salima

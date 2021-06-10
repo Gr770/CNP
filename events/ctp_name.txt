@@ -1,172 +1,172 @@
 ﻿namespace = ctpname
-ctpname.001 = {
-    type = character_event
-	hidden = yes
-    immediate = {
-        save_scope_as = ctp_holder
-        IF = {
-            limit = {
-                OR = {
-                    vassal_contract_has_flag = has_palatinate_contract
-                    AND = {
-                        NOT = {
-                            highest_held_title_tier > tier_duchy
-                        }
-                        exists = primary_spouse
-                        primary_spouse = {
-                            vassal_contract_has_flag = has_palatinate_contract
-                        }
-                    }
-                }
-            }
-            IF = {
-                limit = {
-                    exists = dynasty_house
-                }
-                dynasty_house = {
-                    add_to_variable_list = { name = house_palatine target = scope:ctp_holder }
-                }
-            }
-            else = {
-                add_to_global_variable_list = { name = global_palatine target = scope:ctp_holder }
-            }
-        }
-        else_if = {
-            limit = {
-                OR = {
-                    vassal_contract_has_flag = has_march_contract
-                    AND = {
-                        NOT = {
-                            highest_held_title_tier >= tier_duchy
-                        }
-                        exists = primary_spouse
-                        primary_spouse = {
-                            vassal_contract_has_flag = has_march_contract
-                        }
-                    }
-                }
-            }
-            IF = {
-                limit = {
-                    exists = dynasty_house
-                }
-                dynasty_house = {
-                    add_to_variable_list = { name = house_marquess target = scope:ctp_holder }
-                }
-            }
-            else = {
-                add_to_global_variable_list = { name = global_marquess target = scope:ctp_holder }
-            }
-        }
-    }
-}
-ctpname.002 = {
-	type = none
-	hidden = yes
-	trigger = {
-		always = yes
-	}
-    immediate = {
-		add_to_global_variable_list = { name = laqab_truth_summoner target = character:45108 }
-		add_to_global_variable_list = { name = laqab_lion_god target = character:33911 }
-		add_to_global_variable_list = { name = laqab_strengthened_god target = character:34014 }
-		add_to_global_variable_list = { name = laqab_seeker_victory_god target = character:34012 }
-		add_to_global_variable_list = { name = laqab_relies_god target = character:34010 }
-		add_to_global_variable_list = { name = laqab_refuge_god target = character:34008 }
-		add_to_global_variable_list = { name = laqab_trusts_god target = character:34009 }
-		add_to_global_variable_list = { name = laqab_help_god target = character:34013 }
-		dynasty:100721 = {
-			add_to_variable_list = { name = dynasty_list_ctp_sons target = character:34010 }
-		}
-		character:45108 = {
-			add_character_flag = laqab_assigned
-			remove_nickname = yes
-		}
-		character:163166 = {
-			give_nickname = nick_younger_missionary
-		}
-		character:33926 = {
-			give_nickname = nick_muslim_prophet
-		}
-		character:34014 = {
-			change_first_name = Muhammad
-			add_character_flag = laqab_assigned
-		}
-		character:34012 = {
-			change_first_name = Muhammad
-		}
-		character:34017 = {
-			change_first_name = Talha
-			add_character_flag = had_eldest_son
-			set_variable = { name = var_dad_eldest_son value = character:34018 }
-		}
-		character:34016 = {
-			change_first_name = Ahmad
-		}
-		character:34010 = {
-			change_first_name = Jafar
-		}
-		character:34008 = {
-			change_first_name = Muhammad
-		}
-		character:34009 = {
-			change_first_name = Harun
-		}
-		character:34015 = {
-			change_first_name = Muhammad
-		}
-		character:34005 = {
-			change_first_name = Harun
-			give_nickname = nick_orthodox
-		}
-		character:34013 = {
-			change_first_name = Ahmad
-		}
-		character:34018 = {
-			change_first_name = Ahmad
-		}
-	}
-}
-ctpname.003 = {
-	type = none
-	hidden = yes
-	trigger = {
-		year = 1184
-		KoH_loaded_checker = yes
-	}
-	immediate = {
-		add_to_global_variable_list = { name = laqab_righteousness_faith target = character:226000 }
-		add_to_global_variable_list = { name = laqab_purity_faith target = character:1000230506 }
-		character:226000 = {
-			change_first_name = Yusuf
-			add_character_flag = had_eldest_son
-			set_variable = { name = var_dad_eldest_son value = character:226051 }
-		}
-		character:226053 = {
-			change_first_name = Eyyub
-		}
-		character:1000230506 = {
-			change_first_name = Asimat
-		}
-		character:226052 = {
-			change_first_name = Adil
-		}
-	}
-}
-ctpname.004 = {
-	type = none
-	hidden = yes
-	trigger = {
-		year = 1066
-	}
-	immediate = {
-		add_to_global_variable_list = { name = laqab_blessed_god target = character:34017 }
-		add_to_global_variable_list = { name = laqab_dependent_god target = character:34016 }
-		dynasty:100721 = {
-			add_to_variable_list = { name = dynasty_list_ctp_sons target = character:34018 }
-		}
-	}
-}
+#ctpname.001 = {
+#    type = character_event
+#	hidden = yes
+ #   immediate = {
+  #      save_scope_as = ctp_holder
+#        IF = {
+#            limit = {
+#                OR = {
+#                    vassal_contract_has_flag = has_palatinate_contract
+#                    AND = {
+#                        NOT = {
+#                            highest_held_title_tier > tier_duchy
+#                        }
+#                        exists = primary_spouse
+#                        primary_spouse = {
+#                            vassal_contract_has_flag = has_palatinate_contract
+#                        }
+#                    }
+#                }
+#            }
+#            IF = {
+#                limit = {
+#                    exists = dynasty_house
+#                }
+#                dynasty_house = {
+#                    add_to_variable_list = { name = house_palatine target = scope:ctp_holder }
+#                }
+#            }
+#            else = {
+#                add_to_global_variable_list = { name = global_palatine target = scope:ctp_holder }
+#            }
+#        }
+#        else_if = {
+#            limit = {
+#                OR = {
+#                    vassal_contract_has_flag = has_march_contract
+#                    AND = {
+#                        NOT = {
+#                            highest_held_title_tier >= tier_duchy
+#                        }
+#                        exists = primary_spouse
+#                        primary_spouse = {
+#                            vassal_contract_has_flag = has_march_contract
+#                        }
+#                    }
+#                }
+#            }
+#            IF = {
+#                limit = {
+#                    exists = dynasty_house
+#                }
+#                dynasty_house = {
+#                    add_to_variable_list = { name = house_marquess target = scope:ctp_holder }
+#                }
+#            }
+#            else = {
+#                add_to_global_variable_list = { name = global_marquess target = scope:ctp_holder }
+#            }
+#        }
+#    }
+#}
+#ctpname.002 = {
+#	type = none
+#	hidden = yes
+#	trigger = {
+#		always = yes
+#	}
+ #   immediate = {
+#		add_to_global_variable_list = { name = laqab_truth_summoner target = character:45108 }
+#		add_to_global_variable_list = { name = laqab_lion_god target = character:33911 }
+#		add_to_global_variable_list = { name = laqab_strengthened_god target = character:34014 }
+#		add_to_global_variable_list = { name = laqab_seeker_victory_god target = character:34012 }
+#		add_to_global_variable_list = { name = laqab_relies_god target = character:34010 }
+#		add_to_global_variable_list = { name = laqab_refuge_god target = character:34008 }
+#		add_to_global_variable_list = { name = laqab_trusts_god target = character:34009 }
+#		add_to_global_variable_list = { name = laqab_help_god target = character:34013 }
+#		dynasty:100721 = {
+#			add_to_variable_list = { name = dynasty_list_ctp_sons target = character:34010 }
+#		}
+#		character:45108 = {
+#			add_character_flag = laqab_assigned
+#			remove_nickname = yes
+#		}
+#		character:163166 = {
+#			give_nickname = nick_younger_missionary
+#		}
+#		character:33926 = {
+#			give_nickname = nick_muslim_prophet
+#		}
+#		character:34014 = {
+#			change_first_name = Muhammad
+#			add_character_flag = laqab_assigned
+#		}
+#		character:34012 = {
+#			change_first_name = Muhammad
+#		}
+#		character:34017 = {
+#			change_first_name = Talha
+#			add_character_flag = had_eldest_son
+#			set_variable = { name = var_dad_eldest_son value = character:34018 }
+#		}
+#		character:34016 = {
+#			change_first_name = Ahmad
+#		}
+#		character:34010 = {
+#			change_first_name = Jafar
+#		}
+#		character:34008 = {
+#			change_first_name = Muhammad
+#		}
+#		character:34009 = {
+#			change_first_name = Harun
+#		}
+#		character:34015 = {
+#			change_first_name = Muhammad
+#		}
+#		character:34005 = {
+#			change_first_name = Harun
+#			give_nickname = nick_orthodox
+#		}
+#		character:34013 = {
+#			change_first_name = Ahmad
+#		}
+#		character:34018 = {
+#			change_first_name = Ahmad
+#		}
+#	}
+#}
+#ctpname.003 = {
+#	type = none
+#	hidden = yes
+#	trigger = {
+#		year = 1184
+#		KoH_loaded_checker = yes
+#	}
+#	immediate = {
+#		add_to_global_variable_list = { name = laqab_righteousness_faith target = character:226000 }
+#		add_to_global_variable_list = { name = laqab_purity_faith target = character:1000230506 }
+#		character:226000 = {
+#			change_first_name = Yusuf
+#			add_character_flag = had_eldest_son
+#			set_variable = { name = var_dad_eldest_son value = character:226051 }
+#		}
+#		character:226053 = {
+#			change_first_name = Eyyub
+#		}
+#		character:1000230506 = {
+#			change_first_name = Asimat
+#		}
+#		character:226052 = {
+#			change_first_name = Adil
+#		}
+#	}
+#}
+#ctpname.004 = {
+#	type = none
+#	hidden = yes
+#	trigger = {
+#		year = 1066
+#	}
+#	immediate = {
+#		add_to_global_variable_list = { name = laqab_blessed_god target = character:34017 }
+#		add_to_global_variable_list = { name = laqab_dependent_god target = character:34016 }
+#		dynasty:100721 = {
+#			add_to_variable_list = { name = dynasty_list_ctp_sons target = character:34018 }
+#		}
+#	}
+#}
 ctpname.999 = {
 	type = character_event
 	hidden = yes
@@ -379,11 +379,11 @@ ctpname.500 = {
 			IF = {
 				limit = { has_culture_group = culture_group:arabic_group }
 				random_list = {
-					200 = {
-						change_first_name = Muhammad
-					}
 					100 = {
 						random_list = {
+							1 = {
+								change_first_name = Muhammad
+							}
 							1 = {
 								change_first_name = Ahmad
 							}
@@ -512,7 +512,7 @@ ctpname.500 = {
                             0 = {
                                 modifier = {
                                     OR = {
-                                        has_culture = culture:levanite
+                                        has_culture = culture:levantine
                                         has_culture = culture:egyptian
                                     }
                                     has_religion = religion:christianity_religion
@@ -1119,7 +1119,7 @@ ctpname.500 = {
                             0 = {
                                 modifier = {
                                     OR = {
-                                        has_culture = culture:levanite
+                                        has_culture = culture:levantine
                                         has_culture = culture:egyptian
                                     }
                                     has_religion = religion:christianity_religion
@@ -1144,7 +1144,7 @@ ctpname.500 = {
                                 }
                             }
                             0 = {
-                                modfier = {
+                                modifier = {
                                     has_culture = culture:andalusian
                                     has_religion = religion:christianity_religion
                                     add = 1
@@ -1394,7 +1394,7 @@ ctpname.500 = {
 								change_first_name = Ruqayya
 							}
 							1 = {
-								change_first_name = Safiya
+								change_first_name = Safiyya
 							}
 							1 = {
 								change_first_name = Salima
@@ -1457,7 +1457,7 @@ ctpname.500 = {
                                 modifier = {
                                     OR = {
                                         has_culture = culture:egyptian
-                                        has_cutlure = culture:levanite
+                                        has_cutlure = culture:levantine
                                     }
                                     has_religion = religion:christianity_religion
                                     add = 3

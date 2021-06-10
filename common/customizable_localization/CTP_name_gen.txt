@@ -1,4 +1,48 @@
-﻿CTPNameCheck = {
+﻿CTPTierCheck = {
+    type = character
+    text = {
+        trigger = {
+            OR = {
+                is_ruler = yes
+                AND = {
+                    exists = father
+                    father = {
+                        highest_held_title_tier >= tier_kingdom
+                        OR = {
+                            has_government = feudal_government
+                            has_government = clan_government
+                        }
+                    }
+                }
+                AND = {
+                    exists = mother
+                    mother = {
+                        highest_held_title_tier >= tier_kingdom
+                        OR = {
+                            has_government = feudal_government
+                            has_government = clan_government
+                        }
+                    }
+                }
+                AND = {
+                    is_male = no
+                    any_child = {
+                        highest_held_title_tier >= tier_kingdom
+                        OR = {
+                            has_government = feudal_government
+                            has_government = clan_government
+                        }
+                    }
+                }
+            }
+        }
+    }
+	text = {
+		fallback = yes
+		localization_key = Gui_blank
+	}
+}
+CTPNameCheck = {
     type = character
     text = {
         trigger = {
@@ -889,13 +933,13 @@ CharacterPat = {
                         house = {
                             any_in_list = {
                                 variable = name_pack_support_house
-                                this = prev.prev
+                                this = root.father
                             }
                         }
                     }
                     any_in_global_list = {
                         variable = name_pack_support_global
-                        this = prev
+                        this = root.father
                     }
                 }
             }
