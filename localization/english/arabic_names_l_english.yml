@@ -2014,6 +2014,12 @@
  Rabia_arabic_pat_dad_male: "ibn Rabīʿa"
  Rabia_arabic_pat_dad_female: "bint Rabīʿa"
 
+ Rafi_arabic: "Rāfiʿ"
+ Rafi_arabic_tek_mom: "ʾUmm Rāfiʿ"
+ Rafi_arabic_tek_dad: "ʾAbū Rāfiʿ"
+ Rafi_arabic_pat_dad_male: "ibn Rāfiʿ"
+ Rafi_arabic_pat_dad_female: "bint Rāfiʿ"
+
  Rashid_arabic: "ar-Rāšid"
  Rashid_arabic_tek_mom: "ʾUmm ar-Rāšid"
  Rashid_arabic_tek_dad: "ʾAbū l-Rāšid"
@@ -2821,6 +2827,10 @@
  Hafsa_arabic_tek_mom: "ʾUmm Ḥafṣa"
  Hafsa_arabic_tek_dad: "ʾAbū Ḥafṣa"
 
+ Hagar_arabic: "Hājar"
+ Hagar_arabic_tek_mom: "ʾUmm Hājar"
+ Hagar_arabic_tek_dad: "ʾAbū Hājar"
+
  Hakima_arabic: "Ḥakīma"
  Hakima_arabic_tek_mom: "ʾUmm Ḥakīma"
  Hakima_arabic_tek_dad: "ʾAbū Ḥakīma"
@@ -2848,6 +2858,10 @@
  Hanifa_arabic: "Ḥanīfa"
  Hanifa_arabic_tek_mom: "ʾUmm Ḥanīfa"
  Hanifa_arabic_tek_dad: "ʾAbū Ḥanīfa"
+
+ Hassana_arabic: "Ḥassāna"
+ Hassana_arabic_tek_mom: "ʾUmm Ḥassāna"
+ Hassana_arabic_tek_dad: "ʾAbū Ḥassāna"
 
  Eve_arabic: "Ḥawāʿ"
  Eve_arabic_tek_mom: "ʾUmm Ḥawāʿ"

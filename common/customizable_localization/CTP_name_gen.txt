@@ -36,6 +36,7 @@
                 }
             }
         }
+        localization_key = CTP_tier_checked
     }
 	text = {
 		fallback = yes
