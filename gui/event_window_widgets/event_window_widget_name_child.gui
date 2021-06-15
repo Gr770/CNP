@@ -30,7 +30,6 @@ vbox = {
 
 			state = {
 				name = "b1"
-				on_start = "[EventWindowWidgetNameCharacter.SetCurrentName( Character.GetFirstNameBase )]"
 				next = "b2"
 			}
 
@@ -96,6 +95,7 @@ vbox = {
 		event_button_round = {
 			onclick = "[EventWindowWidgetNameCharacter.SetCurrentNameCultural( EventWindowWidgetNameCharacter.GetRandomAvailableAncestorName )]"
 			onclick = "[GetScriptedGui('CTP_random_ancestor').Execute(GuiScope.SetRoot(EventWindowWidgetNameCharacter.GetCharacter.MakeScope).End)]"
+			onclick = "[EventWindowWidgetNameCharacter.SetCurrentName( Character.GetFirstNameBase )]"
 			onclick = "[PdxGuiTriggerAllAnimations('name_refresh')]"
 			tooltip = "event_window_widget_name_child_after_random_ancestor"
 			using = tooltip_se
@@ -110,6 +110,7 @@ vbox = {
 			visible = "[Character.GetFaith.HasReservedNames( Character.IsFemale )]"
 			onclick = "[EventWindowWidgetNameCharacter.SetCurrentNameCultural( EventWindowWidgetNameCharacter.GetRandomAvailableFaithName )]"
 			onclick = "[GetScriptedGui('CTP_faith_names').Execute(GuiScope.SetRoot(EventWindowWidgetNameCharacter.GetCharacter.MakeScope).End)]"
+			onclick = "[EventWindowWidgetNameCharacter.SetCurrentName( Character.GetFirstNameBase )]"
 			onclick = "[PdxGuiTriggerAllAnimations('name_refresh')]"
 			tooltip =  "event_window_widget_name_child_random_faith_name"
 			using = tooltip_se
@@ -125,6 +126,7 @@ vbox = {
 		event_button_round = {
 			onclick = "[EventWindowWidgetNameCharacter.SetCurrentName( EventWindowWidgetNameCharacter.GetRandomAvailableCultureName )]"
 			onclick = "[GetScriptedGui('CTP_culture_names').Execute(GuiScope.SetRoot(EventWindowWidgetNameCharacter.GetCharacter.MakeScope).End)]"
+			onclick = "[EventWindowWidgetNameCharacter.SetCurrentName( Character.GetFirstNameBase )]"
 			onclick = "[PdxGuiTriggerAllAnimations('name_refresh')]"
 			tooltip =  "event_window_widget_name_child_random_cultural_name"
 			using = tooltip_se
