@@ -3079,6 +3079,9 @@
  Nadiyya_arabic: "Nādiyya"
  Nadiyya_arabic_tek_mom: "ʾUmm Nādiyya"
  Nadiyya_arabic_tek_dad: "ʾAbū Nādiyya"
+ Nadiya_arabic: "Nādiyya"
+ Nadiya_arabic_tek_mom: "ʾUmm Nādiyya"
+ Nadiya_arabic_tek_dad: "ʾAbū Nādiyya"
 
  Nafisa_arabic: "Nafīsa"
  Nafisa_arabic_tek_mom: "ʾUmm Nafīsa"
@@ -3570,6 +3573,11 @@
  Abdal-Kaliq_arabic_tek_dad: "ʾAbū ʿAbd al-Ḵāliq"
  Abdal-Kaliq_arabic_pat_dad_male: "ibn ʿAbd al-Ḵāliq"
  Abdal-Kaliq_arabic_pat_dad_female: "bint ʿAbd al-Ḵāliq"
+ Abdal-Khaliq_arabic: "ʿAbd al-Ḵāliq"
+ Abdal-Khaliq_arabic_tek_mom: "ʾUmm ʿAbd al-Ḵāliq"
+ Abdal-Khaliq_arabic_tek_dad: "ʾAbū ʿAbd al-Ḵāliq"
+ Abdal-Khaliq_arabic_pat_dad_male: "ibn ʿAbd al-Ḵāliq"
+ Abdal-Khaliq_arabic_pat_dad_female: "bint ʿAbd al-Ḵāliq"
 
  Abdallah_arabic: "ʿAbd Allāh"
  Abdallah_arabic_tek_mom: "ʾUmm ʿAbd Allāh"
@@ -3849,6 +3857,9 @@
  Amatal-Kaliq_arabic: "ʾAmat al-Ḵāliq"
  Amatal-Kaliq_arabic_tek_mom: "ʾUmm ʾAmat al-Ḵāliq"
  Amatal-Kaliq_arabic_tek_dad: "ʾAbū ʾAmat al-Ḵāliq"
+ Amatal-Khaliq_arabic: "ʾAmat al-Ḵāliq"
+ Amatal-Khaliq_arabic_tek_mom: "ʾUmm ʾAmat al-Ḵāliq"
+ Amatal-Khaliq_arabic_tek_dad: "ʾAbū ʾAmat al-Ḵāliq"
 
  Amatallah_arabic: "ʾAmat Allāh"
  Amatallah_arabic_tek_mom: "ʾUmm ʾAmat Allāh"
