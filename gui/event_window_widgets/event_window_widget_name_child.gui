@@ -30,6 +30,7 @@ vbox = {
 
 			state = {
 				name = "b1"
+				onstart = "[EventWindowWidgetNameCharacter.SetCurrentName( Character.GetFirstNameBase )]"
 				next = "b2"
 			}
 
