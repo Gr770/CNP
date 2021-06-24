@@ -30,3 +30,12 @@ on_arabic_death = {
 		#ctpname.003
 	#}
 #}
+on_title_gain = {
+	trigger = {
+		has_culture_group = culture_group:arabic_group
+	}
+	events = {
+		arabicnamepack.001
+		arabicnamepack.002
+	}
+}
