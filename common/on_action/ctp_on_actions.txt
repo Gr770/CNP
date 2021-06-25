@@ -39,3 +39,21 @@ on_title_gain = {
 		arabicnamepack.002
 	}
 }
+on_title_gain_usurpation = {
+	trigger = {
+		has_culture_group = culture_group:arabic_group
+	}
+	events = {
+		arabicnamepack.001
+		arabicnamepack.002
+	}
+}
+on_title_gain_inheritance = {
+	trigger = {
+		has_culture_group = culture_group:arabic_group
+	}
+	events = {
+		arabicnamepack.001
+		arabicnamepack.002
+	}
+}

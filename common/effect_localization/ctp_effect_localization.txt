@@ -183,3 +183,8 @@ scripted_gui_trigger_laqab_manifest_command_god = {
 	third = scripted_gui_laqab_manifest_command_god
 	global = scripted_gui_laqab_manifest_command_god
 }
+scripted_gui_trigger_get_name = {
+	first = scripted_gui_get_name
+	third = scripted_gui_get_name
+	global = scripted_gui_get_name
+}

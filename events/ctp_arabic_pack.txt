@@ -1,4 +1,4 @@
-﻿name = arabicnamepack
+﻿namespace = arabicnamepack
 arabicnamepack.001 = {
     type = character_event
 	theme = faith

@@ -98,6 +98,7 @@ CTPFullNameConcept = {
 	}
 }
 CTPName = {
+    type = character
     text = {
         trigger ={
             is_local_player = yes
@@ -116,6 +117,7 @@ CTPName = {
 	}
 }
 CTPShortName = {
+    type = character
     text = {
         trigger ={
             is_local_player = yes
