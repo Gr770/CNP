@@ -1493,7 +1493,7 @@ CTP_random_ancestor = {
 			add_character_flag = name_pack_support
 		}
 		custom_description_no_bullet = {
-			text = scripted_gui_grab_ancestor
+			text = scripted_gui_grab_name_widget
 			subject = scope:the_ancestor
 			object = scope:the_ancestor
 		}
