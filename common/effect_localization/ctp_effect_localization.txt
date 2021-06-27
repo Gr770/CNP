@@ -188,3 +188,13 @@ scripted_gui_trigger_get_name = {
 	third = scripted_gui_get_name
 	global = scripted_gui_get_name
 }
+scripted_gui_grab_name_widget = {
+	first = scripted_gui_grab_name_widget_done
+	third = scripted_gui_grab_name_widget_done
+	global = scripted_gui_grab_name_widget_done
+}
+scripted_gui_grab_name_widget_no_support = {
+	first = scripted_gui_grab_name_widget_no_support_done
+	third = scripted_gui_grab_name_widget_no_support_done
+	global = scripted_gui_grab_name_widget_no_support_done
+}
