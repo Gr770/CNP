@@ -90,6 +90,7 @@ vbox = {
 		
 		event_button_round = {
 			visible = "[GetScriptedGui('CTP_pack_support').IsShown(GuiScope.SetRoot(EventWindowWidgetNameCharacter.GetCharacter.MakeScope).End)]"
+			onclick = "[GerScriptedGui('CTP_random_ancestor').Execute(GuiScope.SetRoot(EventWindowWidgetNameCharacter.GetCharacter.MakeScope).End)]"
 			onclick = "[EventWindowWidgetNameCharacter.SetCurrentName( GetScriptedGui('CTP_random_ancestor').ExecuteTooltip(GuiScope.SetRoot(EventWindowWidgetNameCharacter.GetCharacter.MakeScope).End) )]"
 			onclick = "[PdxGuiTriggerAllAnimations('name_refresh')]"
 			tooltip = "event_window_widget_name_child_after_random_ancestor"
@@ -116,6 +117,7 @@ vbox = {
 	
 		event_button_round = {
 			visible = "[GetScriptedGui('CTP_faith_name_support').IsShown(GuiScope.SetRoot(EventWindowWidgetNameCharacter.GetCharacter.MakeScope).End)]"
+			onclick = "[GetScriptedGui('CTP_faith_names').Execute(GuiScope.SetRoot(EventWindowWidgetNameCharacter.GetCharacter.MakeScope).End)]"
 			onclick = "[EventWindowWidgetNameCharacter.SetCurrentName( GetScriptedGui('CTP_faith_names').ExecuteTooltip(GuiScope.SetRoot(EventWindowWidgetNameCharacter.GetCharacter.MakeScope).End) )]"
 			onclick = "[PdxGuiTriggerAllAnimations('name_refresh')]"
 			tooltip =  "event_window_widget_name_child_random_faith_name"
@@ -146,6 +148,7 @@ vbox = {
 	
 		event_button_round = {
 			visible = "[GetScriptedGui('CTP_pack_support').IsShown(GuiScope.SetRoot(EventWindowWidgetNameCharacter.GetCharacter.MakeScope).End)]"
+			onclick = "[GetScriptedGui('CTP_culture_names').Execute(GuiScope.SetRoot(EventWindowWidgetNameCharacter.GetCharacter.MakeScope).End)]"
 			onclick = "[EventWindowWidgetNameCharacter.SetCurrentName( GetScriptedGui('CTP_culture_names').ExecuteTooltip(GuiScope.SetRoot(EventWindowWidgetNameCharacter.GetCharacter.MakeScope).End) )]"
 			onclick = "[PdxGuiTriggerAllAnimations('name_refresh')]"
 			tooltip =  "event_window_widget_name_child_random_cultural_name"
