@@ -35,15 +35,12 @@ vbox = {
 			}
 
 			state = {
-				name = "ancestor_name_refresh"
-				next = "ancestor_name"
-				using = Animation_Refresh_FadeOut
+				name = "culture_name_refresh"
+				next = "name_refresh"
+				trigger_on_create = yes
 				duration = 0.05
-			}
-
-			state = {
-				name = "ancestor_name"
-				
+				on_start = "[GetScriptedGui('CTP_culture_names').Execute(GuiScope.SetRoot(EventWindowWidgetNameCharacter.GetCharacter.MakeScope).End)]"
+				on_finish = "[EventWindowWidgetNameCharacter.SetCurrentName( GetScriptedGui('CTP_culture_names').ExecuteTooltip(GuiScope.SetRoot(EventWindowWidgetNameCharacter.GetCharacter.MakeScope).End) )]"
 			}
 		}
 	}
@@ -104,7 +101,7 @@ vbox = {
 			visible = "[GetScriptedGui('CTP_pack_support').IsShown(GuiScope.SetRoot(EventWindowWidgetNameCharacter.GetCharacter.MakeScope).End)]"
 			onclick = "[GerScriptedGui('CTP_random_ancestor').Execute(GuiScope.SetRoot(EventWindowWidgetNameCharacter.GetCharacter.MakeScope).End)]"
 			onclick = "[EventWindowWidgetNameCharacter.SetCurrentName( GetScriptedGui('CTP_random_ancestor').ExecuteTooltip(GuiScope.SetRoot(EventWindowWidgetNameCharacter.GetCharacter.MakeScope).End) )]"
-			onclick = "[PdxGuiTriggerAllAnimations('ancestor_name_refresh')]"
+			onclick = "[PdxGuiTriggerAllAnimations('name_refresh')]"
 			tooltip = "event_window_widget_name_child_after_random_ancestor"
 			using = tooltip_se
 	
@@ -160,9 +157,7 @@ vbox = {
 	
 		event_button_round = {
 			visible = "[GetScriptedGui('CTP_pack_support').IsShown(GuiScope.SetRoot(EventWindowWidgetNameCharacter.GetCharacter.MakeScope).End)]"
-			onclick = "[GetScriptedGui('CTP_culture_names').Execute(GuiScope.SetRoot(EventWindowWidgetNameCharacter.GetCharacter.MakeScope).End)]"
-			onclick = "[EventWindowWidgetNameCharacter.SetCurrentName( GetScriptedGui('CTP_culture_names').ExecuteTooltip(GuiScope.SetRoot(EventWindowWidgetNameCharacter.GetCharacter.MakeScope).End) )]"
-			onclick = "[PdxGuiTriggerAllAnimations('name_refresh')]"
+			onclick = "[PdxGuiTriggerAllAnimations('culture_name_refresh')]"
 			tooltip =  "event_window_widget_name_child_random_cultural_name"
 			using = tooltip_se
 	
