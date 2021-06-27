@@ -19,24 +19,46 @@ vbox = {
 		{
 		    name = "no_name_needed"
 		    text = "[EventWindowWidgetNameCharacter.GetCurrentName]"
-			ontextedited = "[GetScriptedGui('CTP_text_edit').Execute(GuiScope.SetRoot(EventWindowWidgetNameCharacter.GetCharacter.MakeScope).End)]"
 			ontextedited = "[EventWindowWidgetNameCharacter.OnEditCurrentName]"
+			ontextedited = "[GetScriptedGui('CTP_text_edit').Execute(GuiScope.SetRoot(EventWindowWidgetNameCharacter.GetCharacter.MakeScope).End)]"
+			
 			
 			state = {
 				name = "name_refresh"
-				next = "b1"
+				next = "b"
 				using = Animation_Refresh_FadeOut
 			}
 
 			state = {
-				name = "b1"
-				onstart = "[EventWindowWidgetNameCharacter.SetCurrentName( Character.GetFirstNameBase )]"
-				next = "b2"
+				name = "b"
+				using = Animation_Refresh_FadeIn
 			}
 
 			state = {
-				name = "b2"
-				using = Animation_Refresh_FadeIn
+				name = "culture_name_refresh"
+				next = "name_refresh"
+				trigger_on_create = yes
+				duration = 0.05
+				on_start = "[GetScriptedGui('CTP_culture_names').Execute(GuiScope.SetRoot(EventWindowWidgetNameCharacter.GetCharacter.MakeScope).End)]"
+				on_finish = "[EventWindowWidgetNameCharacter.SetCurrentName( EventWindowWidgetNameCharacter.GetCharacter.GetFirstNameNoTooltip)]"
+			}
+
+			state = {
+				name = "faith_name_refresh"
+				next = "name_refresh"
+				trigger_on_create = yes
+				duration = 0.05
+				on_start = "[GetScriptedGui('CTP_faith_names').Execute(GuiScope.SetRoot(EventWindowWidgetNameCharacter.GetCharacter.MakeScope).End)]"
+				on_finish = "[EventWindowWidgetNameCharacter.SetCurrentName( EventWindowWidgetNameCharacter.GetCharacter.GetFirstNameNoTooltip)]"
+			}
+
+			state = {
+				name = "ancestor_name_refresh"
+				next = "name_refresh"
+				trigger_on_create = yes
+				duration = 0.05
+				on_start = "[GetScriptedGui('CTP_random_ancestor').Execute(GuiScope.SetRoot(EventWindowWidgetNameCharacter.GetCharacter.MakeScope).End)]"
+				on_finish = "[EventWindowWidgetNameCharacter.SetCurrentName( EventWindowWidgetNameCharacter.GetCharacter.GetFirstNameNoTooltip)]"
 			}
 		}
 	}
@@ -94,9 +116,22 @@ vbox = {
 	hbox = {
 		
 		event_button_round = {
+			visible = "[GetScriptedGui('CTP_pack_support').IsShown(GuiScope.SetRoot(EventWindowWidgetNameCharacter.GetCharacter.MakeScope).End)]"
+			onclick = "[GerScriptedGui('CTP_random_ancestor').Execute(GuiScope.SetRoot(EventWindowWidgetNameCharacter.GetCharacter.MakeScope).End)]"
+			onclick = "[EventWindowWidgetNameCharacter.SetCurrentName( GetScriptedGui('CTP_random_ancestor').ExecuteTooltip(GuiScope.SetRoot(EventWindowWidgetNameCharacter.GetCharacter.MakeScope).End) )]"
+			onclick = "[PdxGuiTriggerAllAnimations('ancestor_name_refresh')]"
+			tooltip = "event_window_widget_name_child_after_random_ancestor"
+			using = tooltip_se
+	
+			button_dynasty_tree = {
+				parentanchor = center
+				alwaystransparent = yes
+			}
+		}
+
+		event_button_round = {
+			visible = "[GetScriptedGui('CTP_no_pack_support').IsShown(GuiScope.SetRoot(EventWindowWidgetNameCharacter.GetCharacter.MakeScope).End)]"
 			onclick = "[EventWindowWidgetNameCharacter.SetCurrentNameCultural( EventWindowWidgetNameCharacter.GetRandomAvailableAncestorName )]"
-			onclick = "[GetScriptedGui('CTP_random_ancestor').Execute(GuiScope.SetRoot(EventWindowWidgetNameCharacter.GetCharacter.MakeScope).End)]"
-			onclick = "[EventWindowWidgetNameCharacter.SetCurrentName( Character.GetFirstNameBase )]"
 			onclick = "[PdxGuiTriggerAllAnimations('name_refresh')]"
 			tooltip = "event_window_widget_name_child_after_random_ancestor"
 			using = tooltip_se
@@ -108,10 +143,22 @@ vbox = {
 		}
 	
 		event_button_round = {
-			visible = "[Character.GetFaith.HasReservedNames( Character.IsFemale )]"
+			visible = "[GetScriptedGui('CTP_faith_name_support').IsShown(GuiScope.SetRoot(EventWindowWidgetNameCharacter.GetCharacter.MakeScope).End)]"
+			onclick = "[PdxGuiTriggerAllAnimations('faith_name_refresh')]"
+			tooltip =  "event_window_widget_name_child_random_faith_name"
+			using = tooltip_se
+	
+			highlight_icon = {
+				datacontext = "[Character.GetFaith]"
+				texture = "[Faith.GetIcon]"
+				parentanchor = center
+				size = { 35 35 }
+			}
+		}
+	
+		event_button_round = {
+			visible = "[And( Character.GetFaith.HasReservedNames( Character.IsFemale ), GetScriptedGui('CTP_faith_name_no_support').IsShown(GuiScope.SetRoot(EventWindowWidgetNameCharacter.GetCharacter.MakeScope).End) )]"
 			onclick = "[EventWindowWidgetNameCharacter.SetCurrentNameCultural( EventWindowWidgetNameCharacter.GetRandomAvailableFaithName )]"
-			onclick = "[GetScriptedGui('CTP_faith_names').Execute(GuiScope.SetRoot(EventWindowWidgetNameCharacter.GetCharacter.MakeScope).End)]"
-			onclick = "[EventWindowWidgetNameCharacter.SetCurrentName( Character.GetFirstNameBase )]"
 			onclick = "[PdxGuiTriggerAllAnimations('name_refresh')]"
 			tooltip =  "event_window_widget_name_child_random_faith_name"
 			using = tooltip_se
@@ -125,9 +172,22 @@ vbox = {
 		}
 	
 		event_button_round = {
+			visible = "[GetScriptedGui('CTP_pack_support').IsShown(GuiScope.SetRoot(EventWindowWidgetNameCharacter.GetCharacter.MakeScope).End)]"
+			onclick = "[PdxGuiTriggerAllAnimations('culture_name_refresh')]"
+			tooltip =  "event_window_widget_name_child_random_cultural_name"
+			using = tooltip_se
+	
+			highlight_icon = {
+				name = "culture"
+				texture = "gfx/interface/icons/icon_culture.dds"
+				size = { 35 35 }
+				parentanchor = center
+			}
+		}
+	
+		event_button_round = {
+			visible = "[GetScriptedGui('CTP_no_pack_support').IsShown(GuiScope.SetRoot(EventWindowWidgetNameCharacter.GetCharacter.MakeScope).End)]"
 			onclick = "[EventWindowWidgetNameCharacter.SetCurrentName( EventWindowWidgetNameCharacter.GetRandomAvailableCultureName )]"
-			onclick = "[GetScriptedGui('CTP_culture_names').Execute(GuiScope.SetRoot(EventWindowWidgetNameCharacter.GetCharacter.MakeScope).End)]"
-			onclick = "[EventWindowWidgetNameCharacter.SetCurrentName( Character.GetFirstNameBase )]"
 			onclick = "[PdxGuiTriggerAllAnimations('name_refresh')]"
 			tooltip =  "event_window_widget_name_child_random_cultural_name"
 			using = tooltip_se

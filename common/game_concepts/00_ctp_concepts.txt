@@ -1,11 +1,16 @@
 ﻿tier_name = {
+	parent = personal_name
 }
 teknonym = {
-	alias = { paedonym }
+	alias = { paedonym teknonymic }
+	parent = personal_name
 }
 given_name = {
+	parent = personal_name
 }
 patronym = {
+	alias = { patronymic }
+	parent = personal_name
 }
 ism = {
 	parent = given_name
@@ -18,4 +23,16 @@ kunya = {
 }
 nasab = {
 	parent = patronym
+}
+nisba = {
+	parent = nickname
+}
+matronym = {
+	alias = { matronymic }
+	parent = personal_name
+}
+regal_name = {
+	parent = personal_name
+}
+personal_name = {
 }

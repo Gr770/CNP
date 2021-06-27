@@ -143,3 +143,13 @@ scripted_gui_trigger_laqab_purity_faith = {
 	third = scripted_gui_laqab_purity_faith
 	global = scripted_gui_laqab_purity_faith
 }
+scripted_gui_grab_name_widget = {
+	first = scripted_gui_grab_name_widget_done
+	third = scripted_gui_grab_name_widget_done
+	global = scripted_gui_grab_name_widget_done
+}
+scripted_gui_grab_name_widget_no_support = {
+	first = scripted_gui_grab_name_widget_no_support_done
+	third = scripted_gui_grab_name_widget_no_support_done
+	global = scripted_gui_grab_name_widget_no_support_done
+}
