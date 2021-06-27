@@ -105,5 +105,7 @@
  scripted_gui_laqab_trusting_god: "al-Wāṯiq bi-llāh"
  scripted_gui_laqab_manifest_command_god: "aẓ-Ẓāhir bi-ʾAmr Allāh"
 
+ scripted_gui_laqab_blessed_of_god: "al-Muwaffaq bi-llāh"
+
  tier_gen_CTP: "[Localize(Concatenate(Concatenate(Concatenate(Concatenate(ROOT.Char.Custom('CharacterTier'),ROOT.Char.Custom('CharacterGender')),ROOT.Char.Custom('CharacterGov')),ROOT.Char.Custom('CharacterCulture')),ROOT.Char.Custom('CharacterReligion')))]"
  ####"[Localize(Concatenate(Concatenate(Concatenate(Concatenate(ROOT.Char.Custom('CharacterTier'),ROOT.Char.Custom('CharacterGender')),ROOT.Char.Custom('CharacterGov')),ROOT.Char.Custom('CharacterCulture')),ROOT.Char.Custom('CharacterReligion')))]"

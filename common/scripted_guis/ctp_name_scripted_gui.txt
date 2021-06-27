@@ -92,10 +92,10 @@
 					OR = {
 						has_character_flag = name_pack_support
 						AND = {
-							exists = house
-							house = {
+							exists = dynasty
+							dynasty = {
 								any_in_list = {
-									variable = name_pack_support_house
+									variable = name_pack_support_dynasty
 									this = scope:scripted_gui_eldest_son
 								}
 							}
@@ -132,10 +132,10 @@
 					OR = {
 						has_character_flag = name_pack_support
 						AND = {
-							exists = house
-							house = {
+							exists = dynasty
+							dynasty = {
 								any_in_list = {
-									variable = name_pack_support_house
+									variable = name_pack_support_dynasty
 									this = scope:scripted_gui_eldest_son
 								}
 							}
@@ -172,10 +172,10 @@
 					OR = {
 						has_character_flag = name_pack_support
 						AND = {
-							exists = house
-							house = {
+							exists = dynasty
+							dynasty = {
 								any_in_list = {
-									variable = name_pack_support_house
+									variable = name_pack_support_dynasty
 									this = scope:scripted_gui_eldest_daughter
 								}
 							}
@@ -212,10 +212,10 @@
 					OR = {
 						has_character_flag = name_pack_support
 						AND = {
-							exists = house
-							house = {
+							exists = dynasty
+							dynasty = {
 								any_in_list = {
-									variable = name_pack_support_house
+									variable = name_pack_support_dynasty
 									this = scope:scripted_gui_eldest_daughter
 								}
 							}
@@ -1327,10 +1327,10 @@ scripted_gui_ctp_laqab_tek_name_check = {
 					OR = {
 						has_character_flag = name_pack_support
 						AND = {
-							exists = house
-							house = {
+							exists = dynasty
+							dynasty = {
 								any_in_list = {
-									variable = name_pack_support_house
+									variable = name_pack_support_dynasty
 									this = scope:scripted_gui_eldest_son
 								}
 							}
@@ -1367,10 +1367,10 @@ scripted_gui_ctp_laqab_tek_name_check = {
 					OR = {
 						has_character_flag = name_pack_support
 						AND = {
-							exists = house
-							house = {
+							exists = dynasty
+							dynasty = {
 								any_in_list = {
-									variable = name_pack_support_house
+									variable = name_pack_support_dynasty
 									this = scope:scripted_gui_eldest_son
 								}
 							}
@@ -1407,10 +1407,10 @@ scripted_gui_ctp_laqab_tek_name_check = {
 					OR = {
 						has_character_flag = name_pack_support
 						AND = {
-							exists = house
-							house = {
+							exists = dynasty
+							dynasty = {
 								any_in_list = {
-									variable = name_pack_support_house
+									variable = name_pack_support_dynasty
 									this = scope:scripted_gui_eldest_daughter
 								}
 							}
@@ -1447,10 +1447,10 @@ scripted_gui_ctp_laqab_tek_name_check = {
 					OR = {
 						has_character_flag = name_pack_support
 						AND = {
-							exists = house
-							house = {
+							exists = dynasty
+							dynasty = {
 								any_in_list = {
-									variable = name_pack_support_house
+									variable = name_pack_support_dynasty
 									this = scope:scripted_gui_eldest_daughter
 								}
 							}
@@ -1512,10 +1512,10 @@ CTP_name_dad = {
 					}
 					AND = {
 						scope:the_dad = {
-							exists = house
-							house = {
+							exists = dynasty
+							dynasty = {
 								any_in_list = {
-									variable = name_pack_support_house
+									variable = name_pack_support_dynasty
 									this = scope:the_dad
 								}
 							}
@@ -1548,10 +1548,10 @@ CTP_name_mom = {
 					}
 					AND = {
 						scope:the_mom = {
-							exists = house
-							house = {
+							exists = dynasty
+							dynasty = {
 								any_in_list = {
-									variable = name_pack_support_house
+									variable = name_pack_support_dynasty
 									this = scope:the_mom
 								}
 							}
@@ -1584,10 +1584,10 @@ CTP_name_granddad1 = {
 					}
 					AND = {
 						scope:the_granddad = {
-							exists = house
-							house = {
+							exists = dynasty
+							dynasty = {
 								any_in_list = {
-									variable = name_pack_support_house
+									variable = name_pack_support_dynasty
 									this = scope:the_granddad
 								}
 							}
@@ -1620,10 +1620,10 @@ CTP_name_granddad2 = {
 					}
 					AND = {
 						scope:the_granddad = {
-							exists = house
-							house = {
+							exists = dynasty
+							dynasty = {
 								any_in_list = {
-									variable = name_pack_support_house
+									variable = name_pack_support_dynasty
 									this = scope:the_granddad
 								}
 							}
@@ -1656,10 +1656,10 @@ CTP_name_grandmom1 = {
 					}
 					AND = {
 						scope:the_grandmom = {
-							exists = house
-							house = {
+							exists = dynasty
+							dynasty = {
 								any_in_list = {
-									variable = name_pack_support_house
+									variable = name_pack_support_dynasty
 									this = scope:the_grandmom
 								}
 							}
@@ -1692,10 +1692,10 @@ CTP_name_grandmom2 = {
 					}
 					AND = {
 						scope:the_grandmom = {
-							exists = house
-							house = {
+							exists = dynasty
+							dynasty = {
 								any_in_list = {
-									variable = name_pack_support_house
+									variable = name_pack_support_dynasty
 									this = scope:the_grandmom
 								}
 							}
@@ -1758,7 +1758,7 @@ CTP_random_ancestor = {
 								exists = house
 								house = {
 									any_in_list = {
-										variable = name_pack_support_house
+										variable = name_pack_support_dynasty
 										this = scope:the_ancestor
 									}
 								}

@@ -24,12 +24,12 @@ on_arabic_death = {
 		ctpname.400
 	}
 }
-#on_game_start = {
-	#events = {
-		#ctpname.002
+on_game_start = {
+	events = {
+		ctpname.002
 		#ctpname.003
-	#}
-#}
+	}
+}
 on_title_gain = {
 	trigger = {
 		has_culture_group = culture_group:arabic_group

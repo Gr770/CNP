@@ -50,10 +50,10 @@ CTPNameCheck = {
             OR = {
                 has_character_flag = name_pack_support
                 AND = {
-                    exists = house
-                    house = {
+                    exists = dynasty
+                    dynasty = {
                         any_in_list = {
-                            variable = name_pack_support_house
+                            variable = name_pack_support_dynasty
                             this = root
                         }
                     }
@@ -930,10 +930,10 @@ CharacterPat = {
                 OR = {
                     has_character_flag = name_pack_support
                     AND = {
-                        exists = house
-                        house = {
+                        exists = dynasty
+                        dynasty = {
                             any_in_list = {
-                                variable = name_pack_support_house
+                                variable = name_pack_support_dynasty
                                 this = root.father
                             }
                         }

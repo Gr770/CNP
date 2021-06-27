@@ -3842,6 +3842,12 @@
  Abdul-Wahid_arabic_pat_dad_male: "ibn ʿAbd al-Waḥid"
  Abdul-Wahid_arabic_pat_dad_female: "bint ʿAbd al-Waḥid"
 
+ Adbal-Ward: "ʿAbd al-Ward"
+ Abdal-Ward_arabic_tek_mom: "ʾUmm ʿAbd al-Ward"
+ Abdal-Ward_arabic_tek_dad: "ʾAbū ʿAbd al-Ward"
+ Abdal-Ward_arabic_pat_dad_male: "ibn ʿAbd al-Ward"
+ Abdal-Ward_arabic_pat_dad_female: "bint ʿAbd al-Ward"
+
  Amatal-Aziz_arabic: "ʾAmat al-ʿAzīz"
  Amatal-Aziz_arabic_tek_mom: "ʾUmm ʾAmat al-ʿAzīz"
  Amatal-Aziz_arabic_tek_dad: "ʾAbū ʾAmat al-ʿAzīz"

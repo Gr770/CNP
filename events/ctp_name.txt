@@ -60,113 +60,148 @@
 #        }
 #    }
 #}
-#ctpname.002 = {
-#	type = none
-#	hidden = yes
-#	trigger = {
-#		always = yes
-#	}
- #   immediate = {
-#		add_to_global_variable_list = { name = laqab_truth_summoner target = character:45108 }
-#		add_to_global_variable_list = { name = laqab_lion_god target = character:33911 }
-#		add_to_global_variable_list = { name = laqab_strengthened_god target = character:34014 }
-#		add_to_global_variable_list = { name = laqab_seeker_victory_god target = character:34012 }
-#		add_to_global_variable_list = { name = laqab_relies_god target = character:34010 }
-#		add_to_global_variable_list = { name = laqab_refuge_god target = character:34008 }
-#		add_to_global_variable_list = { name = laqab_trusts_god target = character:34009 }
-#		add_to_global_variable_list = { name = laqab_help_god target = character:34013 }
-#		dynasty:100721 = {
-#			add_to_variable_list = { name = dynasty_list_ctp_sons target = character:34010 }
-#		}
-#		character:45108 = {
-#			add_character_flag = laqab_assigned
-#			remove_nickname = yes
-#		}
-#		character:163166 = {
-#			give_nickname = nick_younger_missionary
-#		}
-#		character:33926 = {
-#			give_nickname = nick_muslim_prophet
-#		}
-#		character:34014 = {
-#			change_first_name = Muhammad
-#			add_character_flag = laqab_assigned
-#		}
-#		character:34012 = {
-#			change_first_name = Muhammad
-#		}
-#		character:34017 = {
-#			change_first_name = Talha
-#			add_character_flag = had_eldest_son
-#			set_variable = { name = var_dad_eldest_son value = character:34018 }
-#		}
-#		character:34016 = {
-#			change_first_name = Ahmad
-#		}
-#		character:34010 = {
-#			change_first_name = Jafar
-#		}
-#		character:34008 = {
-#			change_first_name = Muhammad
-#		}
-#		character:34009 = {
-#			change_first_name = Harun
-#		}
-#		character:34015 = {
-#			change_first_name = Muhammad
-#		}
-#		character:34005 = {
-#			change_first_name = Harun
-#			give_nickname = nick_orthodox
-#		}
-#		character:34013 = {
-#			change_first_name = Ahmad
-#		}
-#		character:34018 = {
-#			change_first_name = Ahmad
-#		}
-#	}
-#}
-#ctpname.003 = {
-#	type = none
-#	hidden = yes
-#	trigger = {
-#		year = 1184
-#		KoH_loaded_checker = yes
-#	}
-#	immediate = {
-#		add_to_global_variable_list = { name = laqab_righteousness_faith target = character:226000 }
-#		add_to_global_variable_list = { name = laqab_purity_faith target = character:1000230506 }
-#		character:226000 = {
-#			change_first_name = Yusuf
-#			add_character_flag = had_eldest_son
-#			set_variable = { name = var_dad_eldest_son value = character:226051 }
-#		}
-#		character:226053 = {
-#			change_first_name = Eyyub
-#		}
-#		character:1000230506 = {
-#			change_first_name = Asimat
-#		}
-#		character:226052 = {
-#			change_first_name = Adil
-#		}
-#	}
-#}
-#ctpname.004 = {
-#	type = none
-#	hidden = yes
-#	trigger = {
-#		year = 1066
-#	}
-#	immediate = {
-#		add_to_global_variable_list = { name = laqab_blessed_god target = character:34017 }
-#		add_to_global_variable_list = { name = laqab_dependent_god target = character:34016 }
-#		dynasty:100721 = {
-#			add_to_variable_list = { name = dynasty_list_ctp_sons target = character:34018 }
-#		}
-#	}
-#}
+ctpname.002 = {
+	type = none
+	hidden = yes
+	trigger = {
+		always = yes
+	}
+    immediate = {
+		add_to_global_variable_list = { name = name_pack_support_global target = character:bedouin00162 }
+		dynasty:7344 = {
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:159737 }
+		}
+		dynasty:7348 = {
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:159738 }
+		}
+		dynasty:12279 = {
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:74039 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:74040 }
+		}
+		dynasty:101727 = {
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:34014 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:34015 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:34016 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:34017 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:34018 }
+		}
+		dynasty:1029123 = {
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:levantine000008 } #incorrect
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:159732 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:146080 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:146081 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:302361 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:levantine000004 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:levantine000005 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:levantine000007 }
+		}
+		dynasty:1042113 = {
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:levantine000010 }
+		}
+		dynasty:1042127 = {
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:levantine000009 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:levantine000012 }
+		}
+		dynasty:bedouindyn007 = {
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:bedouin0052 }
+		}
+		### Living Chars
+		character:34014 = {
+			change_first_name = Muhammad
+			add_to_global_variable_list = { name = laqab_strengthened_god target = this }
+			add_character_flag = has_caliph_laqab	
+		}
+		character:34015 = {
+			change_first_name = Muhammad
+		}
+		character:34016 = {
+			change_first_name = Ahmad
+		}
+		character:34017 = {
+			change_first_name = Talha
+			add_character_flag = had_eldest_son
+			set_variable = { name = var_dad_eldest_son value = character:34018 }
+		}
+		character:34018 = {
+			change_first_name = Ahmad
+		}
+		character:74039 = {
+			add_character_flag = had_eldest_son
+			set_variable = { name = var_dad_eldest_son value = character:74040 }
+		}
+		character:146080 = {
+			add_character_flag = had_eldest_son
+			set_variable = { name = var_dad_eldest_son value = character:146081 }
+		}
+		character:159738 = {
+			change_first_name = Ahmad
+			add_to_global_variable_list = { name = laqab_fortifier_dynasty target = this }
+			add_character_flag = has_laqab
+		}
+		character:levantine000004 = {
+			add_character_flag = had_eldest_son
+			set_variable = { name = var_dad_eldest_son value = character:levantine000006 }
+		}
+		character:levantine000005 = {
+			add_character_flag = had_eldest_son
+			set_variable = { name = var_mom_eldest_son value = character:levantine000006 }
+		}
+		character:levantine000009 = {
+			add_character_flag = had_eldest_son
+			set_variable = { name = var_dad_eldest_son value = character:levantine000012 }
+		}
+		character:bedouin0052 = {
+			change_first_name = Malik
+		}
+		character:bedouin0060 = {
+			add_character_flag = had_eldest_son
+			set_variable = { name = var_dad_eldest_son value = character:bedouin0061 }
+		}
+		character:bedouin0074 = {
+			add_character_flag = had_eldest_son
+			set_variable = { name = var_dad_eldest_son value = character:bedouin0075 }
+		}
+		###Dead Chars
+	}
+}
+ctpname.003 = {
+	type = none
+	hidden = yes
+	trigger = {
+		year >= 1066
+	}
+	immediate = {
+		dynasty:12279 = {
+			add_to_variable_list = { name = dynasty_list_ctp_sons target = character:74040 }
+		}
+		dynasty:101727 = {
+			add_to_variable_list = { name = dynasty_list_ctp_sons target = character:34018 }
+		}
+		dynasty:1029123 = {
+			add_to_variable_list = { name = dynasty_list_ctp_sons target = character:146081 }
+			add_to_variable_list = { name = dynasty_list_ctp_sons target = character:levantine000006 }
+		}
+		dynasty:1042127 = {
+			add_to_variable_list = { name = dynasty_list_ctp_sons target = character:levantine000012 }
+		}
+		dynasty:1042152 = {
+			add_to_variable_list = { name = dynasty_list_ctp_sons target = character:bedouin0061 }
+		}
+		dynasty:bedouindyn010 = {
+			add_to_variable_list = { name = dynasty_list_ctp_sons target = character:bedouin0075 }
+		}
+		###Dead Chars
+		character:34016 = {
+			add_to_global_variable_list = { name = laqab_dependent_god target = this}
+		}
+		character:34017 = {
+			add_to_global_variable_list = { name = laqab_blessed_of_god target = this }
+		}
+		character:34018 = {
+			add_to_global_variable_list = { name = laqab_seeker_support_god target = this }
+		}
+	}
+}
 ctpname.999 = {
 	type = character_event
 	hidden = yes
@@ -359,7 +394,7 @@ ctpname.400 = {
 	}
 	immediate = {
 		IF = { limit = { exists = house }
-			house = { add_to_variable_list = { name = name_pack_support_house target = root} }
+			house = { add_to_variable_list = { name = name_pack_support_dynasty target = root} }
 		}
 		else = {
 			add_to_global_variable_list = { name = name_pack_support_global target = root }
