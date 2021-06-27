@@ -261,14 +261,79 @@ scripted_gui_ctp_laqab = {
 		hidden_effect = {
 			IF = {
 				every_in_global_list = {
-					variable = laqab_obey_god_command
+					variable = laqab_strengthened_god
 					limit = { scope:effect_root = THIS }
-					save_scope_as = laqab_obey_god_command_scope
+					save_scope_as = laqab_strengthened_god_scope
 				}
 				every_in_global_list = {
-					variable = laqab_supporter_religion
+					variable = laqab_ruler_command_god
 					limit = { scope:effect_root = THIS }
-					save_scope_as = laqab_supporter_religion_scope
+					save_scope_as = laqab_ruler_command_god_scope
+				}
+				every_in_global_list = {
+					variable = laqab_supporter_god
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_supporter_god_scope
+				}
+				every_in_global_list = {
+					variable = laqab_guided_god
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_guided_god_scope
+				}
+				every_in_global_list = {
+					variable = laqab_content_god
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_content_god_scope
+				}
+				every_in_global_list = {
+					variable = laqab_triumphant_god
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_triumphant_god_scope
+				}
+				every_in_global_list = {
+					variable = laqab_follower_command_god
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_follower_command_god_scope
+				}
+				every_in_global_list = {
+					variable = laqab_mighty_god
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_mighty_god_scope
+				}
+				every_in_global_list = {
+					variable = laqab_follower_command_2_god
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_follower_command_2_god_scope
+				}
+				every_in_global_list = {
+					variable = laqab_enlighten_command_god
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_enlighten_command_god_scope
+				}
+				every_in_global_list = {
+					variable = laqab_seeker_helper_god
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_seeker_helper_god_scope
+				}
+				every_in_global_list = {
+					variable = laqab_satisfied_god
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_satisfied_god_scope
+				}
+				every_in_global_list = {
+					variable = laqab_superior_god
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_superior_god_scope
+				}
+				every_in_global_list = {
+					variable = laqab_adherent_god
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_adherent_god_scope
+				}
+				every_in_global_list = {
+					variable = laqab_seeker_aid_god
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_seeker_aid_god_scope
 				}
 				every_in_global_list = {
 					variable = laqab_seeker_victory_god
@@ -276,69 +341,24 @@ scripted_gui_ctp_laqab = {
 					save_scope_as = laqab_seeker_victory_god_scope
 				}
 				every_in_global_list = {
-					variable = laqab_muayyad
+					variable = laqab_seeker_direction_god
 					limit = { scope:effect_root = THIS }
-					save_scope_as = laqab_muayyad_scope
+					save_scope_as = laqab_seeker_direction_god_scope
 				}
 				every_in_global_list = {
-					variable = laqab_vault_dynasty
+					variable = laqab_holding_fast_god
 					limit = { scope:effect_root = THIS }
-					save_scope_as = laqab_vault_dynasty_scope
+					save_scope_as = laqab_holding_fast_god_scope
 				}
 				every_in_global_list = {
-					variable = laqab_light_dynasty
+					variable = laqab_seeker_aid_2_god
 					limit = { scope:effect_root = THIS }
-					save_scope_as = laqab_light_dynasty_scope
+					save_scope_as = laqab_seeker_aid_2_god_scope
 				}
 				every_in_global_list = {
-					variable = laqab_mutamid_dynasty
+					variable = laqab_seeker_support_god
 					limit = { scope:effect_root = THIS }
-					save_scope_as = laqab_mutamid_dynasty_scope
-				}
-				every_in_global_list = {
-					variable = laqab_zaim_dynasty
-					limit = { scope:effect_root = THIS }
-					save_scope_as = laqab_zaim_dynasty_scope
-				}
-				every_in_global_list = {
-					variable = laqab_knowledge_faith
-					limit = { scope:effect_root = THIS }
-					save_scope_as = laqab_knowledge_faith_scope
-				}
-				every_in_global_list = {
-					variable = laqab_adornment_worshipers
-					limit = { scope:effect_root = THIS }
-					save_scope_as = laqab_adornment_worshipers_scope
-				}
-				every_in_global_list = {
-					variable = laqab_prophet_seal
-					limit = { scope:effect_root = THIS }
-					save_scope_as = laqab_prophet_seal_scope
-				}
-				every_in_global_list = {
-					variable = laqab_possessor_lights
-					limit = { scope:effect_root = THIS }
-					save_scope_as = laqab_possessor_lights_scope
-				}
-				every_in_global_list = {
-					variable = laqab_truth_summoner
-					limit = { scope:effect_root = THIS }
-					save_scope_as = laqab_truth_summoner_scope
-				}
-				every_in_global_list = {
-					variable = laqab_lion_god
-					limit = { scope:effect_root = THIS }
-					save_scope_as = laqab_lion_god_scope
-				}
-				every_in_global_list = {
-					variable = laqab_strengthened_god
-					limit = { scope:effect_root = THIS }
-					save_scope_as = laqab_strengthened_god_scope
-				}
-				every_in_global_list = {
-					variable = laqab_blessed_god
-					limit = { scope:effect_root = THIS }
-					save_scope_as = laqab_blessed_god_scope
+					save_scope_as = laqab_seeker_support_god_scope
 				}
 				every_in_global_list = {
 					variable = laqab_dependent_god
@@ -346,63 +366,208 @@ scripted_gui_ctp_laqab = {
 					save_scope_as = laqab_dependent_god_scope
 				}
 				every_in_global_list = {
-					variable = laqab_relies_god
+					variable = laqab_seeker_refuge_god
 					limit = { scope:effect_root = THIS }
-					save_scope_as = laqab_relies_god_scope
+					save_scope_as = laqab_seeker_refuge_god_scope
 				}
 				every_in_global_list = {
-					variable = laqab_refuge_god
+					variable = laqab_reliant_god
 					limit = { scope:effect_root = THIS }
-					save_scope_as = laqab_refuge_god_scope
+					save_scope_as = laqab_reliant_god_scope
 				}
 				every_in_global_list = {
-					variable = laqab_trusts_god
+					variable = laqab_obedient_god
 					limit = { scope:effect_root = THIS }
-					save_scope_as = laqab_trusts_god_scope
+					save_scope_as = laqab_obedient_god_scope
 				}
 				every_in_global_list = {
-					variable = laqab_help_god
+					variable = laqab_faithful_god
 					limit = { scope:effect_root = THIS }
-					save_scope_as = laqab_help_god_scope
+					save_scope_as = laqab_faithful_god_scope
 				}
 				every_in_global_list = {
-					variable = laqab_righteousness_faith
+					variable = laqab_helpful_religion_god
 					limit = { scope:effect_root = THIS }
-					save_scope_as = laqab_righteousness_faith_scope
+					save_scope_as = laqab_helpful_religion_god_scope
 				}
 				every_in_global_list = {
-					variable = laqab_purity_faith
+					variable = laqab_executor_command_god
 					limit = { scope:effect_root = THIS }
-					save_scope_as = laqab_purity_faith_scope
+					save_scope_as = laqab_executor_command_god_scope
+				}
+				every_in_global_list = {
+					variable = laqab_content_2_god
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_content_2_god_scope
+				}
+				every_in_global_list = {
+					variable = laqab_rightly_guided_god
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_rightly_guided_god_scope
+				}
+				every_in_global_list = {
+					variable = laqab_obedient_command_god
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_obedient_command_god_scope
+				}
+				every_in_global_list = {
+					variable = laqab_trusting_god
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_trusting_god_scope
+				}
+				every_in_global_list = {
+					variable = laqab_manifest_command_god
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_manifest_command_god_scope
 				}
 			}
 		}
 		IF = {
 			limit = {
-				exists = scope:laqab_obey_god_command_scope
+				exists = scope:laqab_strengthened_god_scope
 			}
 			custom_description_no_bullet = {
-				text = scripted_gui_trigger_laqab_obey_god_command
+				text = scripted_gui_trigger_laqab_strengthened_god
 				subject = scope:effect_root
 				object = scope:effect_root
 			}
 		}
 		else_if = {
 			limit = {
-				exists = scope:laqab_purity_faith_scope
+				exists = scope:laqab_supporter_god_scope
 			}
 			custom_description_no_bullet = {
-				text = scripted_gui_trigger_laqab_purity_faith
+				text = scripted_gui_trigger_laqab_supporter_god
 				subject = scope:effect_root
 				object = scope:effect_root
 			}
 		}
 		else_if = {
 			limit = {
-				exists = scope:laqab_supporter_religion_scope
+				exists = scope:laqab_ruler_command_god_scope
 			}
 			custom_description_no_bullet = {
-				text = scripted_gui_trigger_laqab_supporter_religion
+				text = scripted_gui_trigger_laqab_ruler_command_god
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_guided_god_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_guided_god
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_content_god_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_content_god
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_triumphant_god_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_triumphant_god
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_follower_command_god_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_follower_command_god
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_mighty_god_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_mighty_god
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_follower_command_2_god_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_follower_command_2_god
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_enlighten_command_god_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_enlighten_command_god
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_seeker_helper_god_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_seeker_helper_god
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_satisfied_god_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_satisfied_god
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_superior_god_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_superior_god
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_adherent_god_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_adherent_god
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_seeker_aid_god_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_seeker_aid_god
 				subject = scope:effect_root
 				object = scope:effect_root
 			}
@@ -419,130 +584,40 @@ scripted_gui_ctp_laqab = {
 		}
 		else_if = {
 			limit = {
-				exists = scope:laqab_truth_summoner_scope
+				exists = scope:laqab_seeker_direction_god_scope
 			}
 			custom_description_no_bullet = {
-				text = scripted_gui_trigger_laqab_truth_summoner
+				text = scripted_gui_trigger_laqab_seeker_direction_god
 				subject = scope:effect_root
 				object = scope:effect_root
 			}
 		}
 		else_if = {
 			limit = {
-				exists = scope:laqab_muayyad_scope
+				exists = scope:laqab_holding_fast_god_scope
 			}
 			custom_description_no_bullet = {
-				text = scripted_gui_trigger_laqab_muayyad
+				text = scripted_gui_trigger_laqab_holding_fast_god
 				subject = scope:effect_root
 				object = scope:effect_root
 			}
 		}
 		else_if = {
 			limit = {
-				exists = scope:laqab_vault_dynasty_scope
+				exists = scope:laqab_seeker_aid_2_god_scope
 			}
 			custom_description_no_bullet = {
-				text = scripted_gui_trigger_laqab_vault_dynasty
+				text = scripted_gui_trigger_laqab_seeker_aid_2_god
 				subject = scope:effect_root
 				object = scope:effect_root
 			}
 		}
 		else_if = {
 			limit = {
-				exists = scope:laqab_light_dynasty_scope
+				exists = scope:laqab_seeker_support_god_scope
 			}
 			custom_description_no_bullet = {
-				text = scripted_gui_trigger_laqab_light_dynasty
-				subject = scope:effect_root
-				object = scope:effect_root
-			}
-		}
-		else_if = {
-			limit = {
-				exists = scope:laqab_mutamid_dynasty_scope
-			}
-			custom_description_no_bullet = {
-				text = scripted_gui_trigger_laqab_mutamid_dynasty
-				subject = scope:effect_root
-				object = scope:effect_root
-			}
-		}
-		else_if = {
-			limit = {
-				exists = scope:laqab_zaim_dynasty_scope
-			}
-			custom_description_no_bullet = {
-				text = scripted_gui_trigger_laqab_zaim_dynasty
-				subject = scope:effect_root
-				object = scope:effect_root
-			}
-		}
-		else_if = {
-			limit = {
-				exists = scope:laqab_knowledge_faith_scope
-			}
-			custom_description_no_bullet = {
-				text = scripted_gui_trigger_laqab_knowledge_faith
-				subject = scope:effect_root
-				object = scope:effect_root
-			}
-		}
-		else_if = {
-			limit = {
-				exists = scope:laqab_adornment_worshipers_scope
-			}
-			custom_description_no_bullet = {
-				text = scripted_gui_trigger_laqab_adornment_worshipers
-				subject = scope:effect_root
-				object = scope:effect_root
-			}
-		}
-		else_if = {
-			limit = {
-				exists = scope:laqab_prophet_seal_scope
-			}
-			custom_description_no_bullet = {
-				text = scripted_gui_trigger_laqab_prophet_seal
-				subject = scope:effect_root
-				object = scope:effect_root
-			}
-		}
-		else_if = {
-			limit = {
-				exists = scope:laqab_possessor_lights_scope
-			}
-			custom_description_no_bullet = {
-				text = scripted_gui_trigger_laqab_possessor_lights
-				subject = scope:effect_root
-				object = scope:effect_root
-			}
-		}
-		else_if = {
-			limit = {
-				exists = scope:laqab_lion_god_scope
-			}
-			custom_description_no_bullet = {
-				text = scripted_gui_trigger_laqab_lion_god
-				subject = scope:effect_root
-				object = scope:effect_root
-			}
-		}
-		else_if = {
-			limit = {
-				exists = scope:laqab_strengthened_god_scope
-			}
-			custom_description_no_bullet = {
-				text = scripted_gui_trigger_laqab_strengthened_god
-				subject = scope:effect_root
-				object = scope:effect_root
-			}
-		}
-		else_if = {
-			limit = {
-				exists = scope:laqab_blessed_god_scope
-			}
-			custom_description_no_bullet = {
-				text = scripted_gui_trigger_laqab_blessed_god
+				text = scripted_gui_trigger_laqab_seeker_support_god
 				subject = scope:effect_root
 				object = scope:effect_root
 			}
@@ -559,50 +634,110 @@ scripted_gui_ctp_laqab = {
 		}
 		else_if = {
 			limit = {
-				exists = scope:laqab_relies_god_scope
+				exists = scope:laqab_seeker_refuge_god_scope
 			}
 			custom_description_no_bullet = {
-				text = scripted_gui_trigger_laqab_relies_god
+				text = scripted_gui_trigger_laqab_seeker_refuge_god
 				subject = scope:effect_root
 				object = scope:effect_root
 			}
 		}
 		else_if = {
 			limit = {
-				exists = scope:laqab_refuge_god_scope
+				exists = scope:laqab_reliant_god_scope
 			}
 			custom_description_no_bullet = {
-				text = scripted_gui_trigger_laqab_refuge_god
+				text = scripted_gui_trigger_laqab_reliant_god
 				subject = scope:effect_root
 				object = scope:effect_root
 			}
 		}
 		else_if = {
 			limit = {
-				exists = scope:laqab_trusts_god_scope
+				exists = scope:laqab_obedient_god_scope
 			}
 			custom_description_no_bullet = {
-				text = scripted_gui_trigger_laqab_trusts_god
+				text = scripted_gui_trigger_laqab_obedient_god
 				subject = scope:effect_root
 				object = scope:effect_root
 			}
 		}
 		else_if = {
 			limit = {
-				exists = scope:laqab_help_god_scope
+				exists = scope:laqab_faithful_god_scope
 			}
 			custom_description_no_bullet = {
-				text = scripted_gui_trigger_laqab_help_god
+				text = scripted_gui_trigger_laqab_faithful_god
 				subject = scope:effect_root
 				object = scope:effect_root
 			}
 		}
 		else_if = {
 			limit = {
-				exists = scope:laqab_righteousness_faith_scope
+				exists = scope:laqab_helpful_religion_god_scope
 			}
 			custom_description_no_bullet = {
-				text = scripted_gui_trigger_laqab_righteousness_faith
+				text = scripted_gui_trigger_laqab_helpful_religion_god
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_executor_command_god_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_executor_command_god
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_content_2_god_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_content_2_god
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_rightly_guided_god_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_rightly_guided_god
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_obedient_command_god_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_obedient_command_god
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_trusting_god_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_trusting_god
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_manifest_command_god_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_manifest_command_god
 				subject = scope:effect_root
 				object = scope:effect_root
 			}
@@ -623,14 +758,79 @@ scripted_gui_ctp_laqab_tek_name_check = {
 		hidden_effect = {
 			IF = {
 				every_in_global_list = {
-					variable = laqab_obey_god_command
+					variable = laqab_strengthened_god
 					limit = { scope:effect_root = THIS }
-					save_scope_as = laqab_obey_god_command_scope
+					save_scope_as = laqab_strengthened_god_scope
 				}
 				every_in_global_list = {
-					variable = laqab_supporter_religion
+					variable = laqab_ruler_command_god
 					limit = { scope:effect_root = THIS }
-					save_scope_as = laqab_supporter_religion_scope
+					save_scope_as = laqab_ruler_command_god_scope
+				}
+				every_in_global_list = {
+					variable = laqab_supporter_god
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_supporter_god_scope
+				}
+				every_in_global_list = {
+					variable = laqab_guided_god
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_guided_god_scope
+				}
+				every_in_global_list = {
+					variable = laqab_content_god
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_content_god_scope
+				}
+				every_in_global_list = {
+					variable = laqab_triumphant_god
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_triumphant_god_scope
+				}
+				every_in_global_list = {
+					variable = laqab_follower_command_god
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_follower_command_god_scope
+				}
+				every_in_global_list = {
+					variable = laqab_mighty_god
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_mighty_god_scope
+				}
+				every_in_global_list = {
+					variable = laqab_follower_command_2_god
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_follower_command_2_god_scope
+				}
+				every_in_global_list = {
+					variable = laqab_enlighten_command_god
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_enlighten_command_god_scope
+				}
+				every_in_global_list = {
+					variable = laqab_seeker_helper_god
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_seeker_helper_god_scope
+				}
+				every_in_global_list = {
+					variable = laqab_satisfied_god
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_satisfied_god_scope
+				}
+				every_in_global_list = {
+					variable = laqab_superior_god
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_superior_god_scope
+				}
+				every_in_global_list = {
+					variable = laqab_adherent_god
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_adherent_god_scope
+				}
+				every_in_global_list = {
+					variable = laqab_seeker_aid_god
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_seeker_aid_god_scope
 				}
 				every_in_global_list = {
 					variable = laqab_seeker_victory_god
@@ -638,69 +838,24 @@ scripted_gui_ctp_laqab_tek_name_check = {
 					save_scope_as = laqab_seeker_victory_god_scope
 				}
 				every_in_global_list = {
-					variable = laqab_muayyad
+					variable = laqab_seeker_direction_god
 					limit = { scope:effect_root = THIS }
-					save_scope_as = laqab_muayyad_scope
+					save_scope_as = laqab_seeker_direction_god_scope
 				}
 				every_in_global_list = {
-					variable = laqab_vault_dynasty
+					variable = laqab_holding_fast_god
 					limit = { scope:effect_root = THIS }
-					save_scope_as = laqab_vault_dynasty_scope
+					save_scope_as = laqab_holding_fast_god_scope
 				}
 				every_in_global_list = {
-					variable = laqab_light_dynasty
+					variable = laqab_seeker_aid_2_god
 					limit = { scope:effect_root = THIS }
-					save_scope_as = laqab_light_dynasty_scope
+					save_scope_as = laqab_seeker_aid_2_god_scope
 				}
 				every_in_global_list = {
-					variable = laqab_mutamid_dynasty
+					variable = laqab_seeker_support_god
 					limit = { scope:effect_root = THIS }
-					save_scope_as = laqab_mutamid_dynasty_scope
-				}
-				every_in_global_list = {
-					variable = laqab_zaim_dynasty
-					limit = { scope:effect_root = THIS }
-					save_scope_as = laqab_zaim_dynasty_scope
-				}
-				every_in_global_list = {
-					variable = laqab_knowledge_faith
-					limit = { scope:effect_root = THIS }
-					save_scope_as = laqab_knowledge_faith_scope
-				}
-				every_in_global_list = {
-					variable = laqab_adornment_worshipers
-					limit = { scope:effect_root = THIS }
-					save_scope_as = laqab_adornment_worshipers_scope
-				}
-				every_in_global_list = {
-					variable = laqab_prophet_seal
-					limit = { scope:effect_root = THIS }
-					save_scope_as = laqab_prophet_seal_scope
-				}
-				every_in_global_list = {
-					variable = laqab_possessor_lights
-					limit = { scope:effect_root = THIS }
-					save_scope_as = laqab_possessor_lights_scope
-				}
-				every_in_global_list = {
-					variable = laqab_truth_summoner
-					limit = { scope:effect_root = THIS }
-					save_scope_as = laqab_truth_summoner_scope
-				}
-				every_in_global_list = {
-					variable = laqab_lion_god
-					limit = { scope:effect_root = THIS }
-					save_scope_as = laqab_lion_god_scope
-				}
-				every_in_global_list = {
-					variable = laqab_strengthened_god
-					limit = { scope:effect_root = THIS }
-					save_scope_as = laqab_strengthened_god_scope
-				}
-				every_in_global_list = {
-					variable = laqab_blessed_god
-					limit = { scope:effect_root = THIS }
-					save_scope_as = laqab_blessed_god_scope
+					save_scope_as = laqab_seeker_support_god_scope
 				}
 				every_in_global_list = {
 					variable = laqab_dependent_god
@@ -708,34 +863,59 @@ scripted_gui_ctp_laqab_tek_name_check = {
 					save_scope_as = laqab_dependent_god_scope
 				}
 				every_in_global_list = {
-					variable = laqab_relies_god
+					variable = laqab_seeker_refuge_god
 					limit = { scope:effect_root = THIS }
-					save_scope_as = laqab_relies_god_scope
+					save_scope_as = laqab_seeker_refuge_god_scope
 				}
 				every_in_global_list = {
-					variable = laqab_refuge_god
+					variable = laqab_reliant_god
 					limit = { scope:effect_root = THIS }
-					save_scope_as = laqab_refuge_god_scope
+					save_scope_as = laqab_reliant_god_scope
 				}
 				every_in_global_list = {
-					variable = laqab_trusts_god
+					variable = laqab_obedient_god
 					limit = { scope:effect_root = THIS }
-					save_scope_as = laqab_trusts_god_scope
+					save_scope_as = laqab_obedient_god_scope
 				}
 				every_in_global_list = {
-					variable = laqab_help_god
+					variable = laqab_faithful_god
 					limit = { scope:effect_root = THIS }
-					save_scope_as = laqab_help_god_scope
+					save_scope_as = laqab_faithful_god_scope
 				}
 				every_in_global_list = {
-					variable = laqab_righteousness_faith
+					variable = laqab_helpful_religion_god
 					limit = { scope:effect_root = THIS }
-					save_scope_as = laqab_righteousness_faith_scope
+					save_scope_as = laqab_helpful_religion_god_scope
 				}
 				every_in_global_list = {
-					variable = laqab_purity_faith
+					variable = laqab_executor_command_god
 					limit = { scope:effect_root = THIS }
-					save_scope_as = laqab_purity_faith_scope
+					save_scope_as = laqab_executor_command_god_scope
+				}
+				every_in_global_list = {
+					variable = laqab_content_2_god
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_content_2_god_scope
+				}
+				every_in_global_list = {
+					variable = laqab_rightly_guided_god
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_rightly_guided_god_scope
+				}
+				every_in_global_list = {
+					variable = laqab_obedient_command_god
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_obedient_command_god_scope
+				}
+				every_in_global_list = {
+					variable = laqab_trusting_god
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_trusting_god_scope
+				}
+				every_in_global_list = {
+					variable = laqab_manifest_command_god
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_manifest_command_god_scope
 				}
 			}
 			IF = {
@@ -822,30 +1002,150 @@ scripted_gui_ctp_laqab_tek_name_check = {
 		}
 		IF = {
 			limit = {
-				exists = scope:laqab_obey_god_command_scope
+				exists = scope:laqab_strengthened_god_scope
 			}
 			custom_description_no_bullet = {
-				text = scripted_gui_trigger_laqab_obey_god_command
+				text = scripted_gui_trigger_laqab_strengthened_god
 				subject = scope:effect_root
 				object = scope:effect_root
 			}
 		}
 		else_if = {
 			limit = {
-				exists = scope:laqab_purity_faith_scope
+				exists = scope:laqab_supporter_god_scope
 			}
 			custom_description_no_bullet = {
-				text = scripted_gui_trigger_laqab_purity_faith
+				text = scripted_gui_trigger_laqab_supporter_god
 				subject = scope:effect_root
 				object = scope:effect_root
 			}
 		}
 		else_if = {
 			limit = {
-				exists = scope:laqab_supporter_religion_scope
+				exists = scope:laqab_ruler_command_god_scope
 			}
 			custom_description_no_bullet = {
-				text = scripted_gui_trigger_laqab_supporter_religion
+				text = scripted_gui_trigger_laqab_ruler_command_god
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_guided_god_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_guided_god
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_content_god_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_content_god
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_triumphant_god_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_triumphant_god
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_follower_command_god_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_follower_command_god
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_mighty_god_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_mighty_god
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_follower_command_2_god_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_follower_command_2_god
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_enlighten_command_god_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_enlighten_command_god
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_seeker_helper_god_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_seeker_helper_god
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_satisfied_god_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_satisfied_god
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_superior_god_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_superior_god
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_adherent_god_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_adherent_god
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_seeker_aid_god_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_seeker_aid_god
 				subject = scope:effect_root
 				object = scope:effect_root
 			}
@@ -862,130 +1162,40 @@ scripted_gui_ctp_laqab_tek_name_check = {
 		}
 		else_if = {
 			limit = {
-				exists = scope:laqab_truth_summoner_scope
+				exists = scope:laqab_seeker_direction_god_scope
 			}
 			custom_description_no_bullet = {
-				text = scripted_gui_trigger_laqab_truth_summoner
+				text = scripted_gui_trigger_laqab_seeker_direction_god
 				subject = scope:effect_root
 				object = scope:effect_root
 			}
 		}
 		else_if = {
 			limit = {
-				exists = scope:laqab_muayyad_scope
+				exists = scope:laqab_holding_fast_god_scope
 			}
 			custom_description_no_bullet = {
-				text = scripted_gui_trigger_laqab_muayyad
+				text = scripted_gui_trigger_laqab_holding_fast_god
 				subject = scope:effect_root
 				object = scope:effect_root
 			}
 		}
 		else_if = {
 			limit = {
-				exists = scope:laqab_vault_dynasty_scope
+				exists = scope:laqab_seeker_aid_2_god_scope
 			}
 			custom_description_no_bullet = {
-				text = scripted_gui_trigger_laqab_vault_dynasty
+				text = scripted_gui_trigger_laqab_seeker_aid_2_god
 				subject = scope:effect_root
 				object = scope:effect_root
 			}
 		}
 		else_if = {
 			limit = {
-				exists = scope:laqab_light_dynasty_scope
+				exists = scope:laqab_seeker_support_god_scope
 			}
 			custom_description_no_bullet = {
-				text = scripted_gui_trigger_laqab_light_dynasty
-				subject = scope:effect_root
-				object = scope:effect_root
-			}
-		}
-		else_if = {
-			limit = {
-				exists = scope:laqab_mutamid_dynasty_scope
-			}
-			custom_description_no_bullet = {
-				text = scripted_gui_trigger_laqab_mutamid_dynasty
-				subject = scope:effect_root
-				object = scope:effect_root
-			}
-		}
-		else_if = {
-			limit = {
-				exists = scope:laqab_zaim_dynasty_scope
-			}
-			custom_description_no_bullet = {
-				text = scripted_gui_trigger_laqab_zaim_dynasty
-				subject = scope:effect_root
-				object = scope:effect_root
-			}
-		}
-		else_if = {
-			limit = {
-				exists = scope:laqab_knowledge_faith_scope
-			}
-			custom_description_no_bullet = {
-				text = scripted_gui_trigger_laqab_knowledge_faith
-				subject = scope:effect_root
-				object = scope:effect_root
-			}
-		}
-		else_if = {
-			limit = {
-				exists = scope:laqab_adornment_worshipers_scope
-			}
-			custom_description_no_bullet = {
-				text = scripted_gui_trigger_laqab_adornment_worshipers
-				subject = scope:effect_root
-				object = scope:effect_root
-			}
-		}
-		else_if = {
-			limit = {
-				exists = scope:laqab_prophet_seal_scope
-			}
-			custom_description_no_bullet = {
-				text = scripted_gui_trigger_laqab_prophet_seal
-				subject = scope:effect_root
-				object = scope:effect_root
-			}
-		}
-		else_if = {
-			limit = {
-				exists = scope:laqab_possessor_lights_scope
-			}
-			custom_description_no_bullet = {
-				text = scripted_gui_trigger_laqab_possessor_lights
-				subject = scope:effect_root
-				object = scope:effect_root
-			}
-		}
-		else_if = {
-			limit = {
-				exists = scope:laqab_lion_god_scope
-			}
-			custom_description_no_bullet = {
-				text = scripted_gui_trigger_laqab_lion_god
-				subject = scope:effect_root
-				object = scope:effect_root
-			}
-		}
-		else_if = {
-			limit = {
-				exists = scope:laqab_strengthened_god_scope
-			}
-			custom_description_no_bullet = {
-				text = scripted_gui_trigger_laqab_strengthened_god
-				subject = scope:effect_root
-				object = scope:effect_root
-			}
-		}
-		else_if = {
-			limit = {
-				exists = scope:laqab_blessed_god_scope
-			}
-			custom_description_no_bullet = {
-				text = scripted_gui_trigger_laqab_blessed_god
+				text = scripted_gui_trigger_laqab_seeker_support_god
 				subject = scope:effect_root
 				object = scope:effect_root
 			}
@@ -1002,50 +1212,110 @@ scripted_gui_ctp_laqab_tek_name_check = {
 		}
 		else_if = {
 			limit = {
-				exists = scope:laqab_relies_god_scope
+				exists = scope:laqab_seeker_refuge_god_scope
 			}
 			custom_description_no_bullet = {
-				text = scripted_gui_trigger_laqab_relies_god
+				text = scripted_gui_trigger_laqab_seeker_refuge_god
 				subject = scope:effect_root
 				object = scope:effect_root
 			}
 		}
 		else_if = {
 			limit = {
-				exists = scope:laqab_refuge_god_scope
+				exists = scope:laqab_reliant_god_scope
 			}
 			custom_description_no_bullet = {
-				text = scripted_gui_trigger_laqab_refuge_god
+				text = scripted_gui_trigger_laqab_reliant_god
 				subject = scope:effect_root
 				object = scope:effect_root
 			}
 		}
 		else_if = {
 			limit = {
-				exists = scope:laqab_trusts_god_scope
+				exists = scope:laqab_obedient_god_scope
 			}
 			custom_description_no_bullet = {
-				text = scripted_gui_trigger_laqab_trusts_god
+				text = scripted_gui_trigger_laqab_obedient_god
 				subject = scope:effect_root
 				object = scope:effect_root
 			}
 		}
 		else_if = {
 			limit = {
-				exists = scope:laqab_help_god_scope
+				exists = scope:laqab_faithful_god_scope
 			}
 			custom_description_no_bullet = {
-				text = scripted_gui_trigger_laqab_help_god
+				text = scripted_gui_trigger_laqab_faithful_god
 				subject = scope:effect_root
 				object = scope:effect_root
 			}
 		}
 		else_if = {
 			limit = {
-				exists = scope:laqab_righteousness_faith_scope
+				exists = scope:laqab_helpful_religion_god_scope
 			}
 			custom_description_no_bullet = {
-				text = scripted_gui_trigger_laqab_righteousness_faith
+				text = scripted_gui_trigger_laqab_helpful_religion_god
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_executor_command_god_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_executor_command_god
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_content_2_god_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_content_2_god
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_rightly_guided_god_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_rightly_guided_god
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_obedient_command_god_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_obedient_command_god
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_trusting_god_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_trusting_god
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_manifest_command_god_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_manifest_command_god
 				subject = scope:effect_root
 				object = scope:effect_root
 			}
