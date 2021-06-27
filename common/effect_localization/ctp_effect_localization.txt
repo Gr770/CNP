@@ -148,3 +148,8 @@ scripted_gui_grab_name_widget = {
 	third = scripted_gui_grab_name_widget_done
 	global = scripted_gui_grab_name_widget_done
 }
+scripted_gui_grab_name_widget_no_support = {
+	first = scripted_gui_grab_name_widget_no_support_done
+	third = scripted_gui_grab_name_widget_no_support_done
+	global = scripted_gui_grab_name_widget_no_support_done
+}

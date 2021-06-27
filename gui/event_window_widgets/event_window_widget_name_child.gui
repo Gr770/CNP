@@ -33,6 +33,18 @@ vbox = {
 				name = "b"
 				using = Animation_Refresh_FadeIn
 			}
+
+			state = {
+				name = "ancestor_name_refresh"
+				next = "ancestor_name"
+				using = Animation_Refresh_FadeOut
+				duration = 0.05
+			}
+
+			state = {
+				name = "ancestor_name"
+				
+			}
 		}
 	}
 
@@ -92,7 +104,7 @@ vbox = {
 			visible = "[GetScriptedGui('CTP_pack_support').IsShown(GuiScope.SetRoot(EventWindowWidgetNameCharacter.GetCharacter.MakeScope).End)]"
 			onclick = "[GerScriptedGui('CTP_random_ancestor').Execute(GuiScope.SetRoot(EventWindowWidgetNameCharacter.GetCharacter.MakeScope).End)]"
 			onclick = "[EventWindowWidgetNameCharacter.SetCurrentName( GetScriptedGui('CTP_random_ancestor').ExecuteTooltip(GuiScope.SetRoot(EventWindowWidgetNameCharacter.GetCharacter.MakeScope).End) )]"
-			onclick = "[PdxGuiTriggerAllAnimations('name_refresh')]"
+			onclick = "[PdxGuiTriggerAllAnimations('ancestor_name_refresh')]"
 			tooltip = "event_window_widget_name_child_after_random_ancestor"
 			using = tooltip_se
 	

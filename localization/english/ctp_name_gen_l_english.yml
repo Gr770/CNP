@@ -67,7 +67,8 @@
 
 #Get Name
  scripted_gui_get_name: "[CHARACTER.Custom('CTPNameCheck')]"
- scripted_gui_grab_name_widget_done: "[Localize(CHARACTER.GetFirstNameBase)]"
+ scripted_gui_grab_name_widget_done: "[CHARACTER.GetFirstNameBase]"
+ scripted_gui_grab_name_widget_no_support_done: "[Localize(CHARACTER.GetFirstNameBase)]"
 
 #Arab Laqabs
 
