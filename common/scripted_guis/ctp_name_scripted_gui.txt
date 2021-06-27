@@ -1,4 +1,4 @@
-scripted_gui_ctp_tek = {
+﻿scripted_gui_ctp_tek = {
 	scope = character
 	effect = {
 		save_scope_as = effect_root
@@ -1447,6 +1447,12 @@ CTP_pack_support = {
 		is_ctp_supported_culture = yes
 	}
 }
+CTP_no_pack_support = {
+	scope = character
+	is_shown = {
+		is_ctp_supported_culture = no
+	}
+}
 CTP_random_ancestor = {
 	scope = character
 	effect = {
@@ -1455,6 +1461,7 @@ CTP_random_ancestor = {
 			limit = { is_male = yes }
 			random_ancestor = {
 				limit = { is_male = yes }
+				even_if_dead = yes
 				save_scope_as = the_ancestor
 			}
 		}
@@ -1462,6 +1469,7 @@ CTP_random_ancestor = {
 			limit = { is_male = no }
 			random_ancestor = {
 				limit = { is_male = no }
+				even_if_dead = yes
 				save_scope_as = the_ancestor
 			}
 		}
@@ -1509,729 +1517,435 @@ CTP_faith_name_support = {
 		}
 	}
 }
+CTP_faith_name_no_support = {
+	scope = character
+	is_shown = {
+		NOT = {
+			is_ctp_supported_culture = yes
+			OR = {
+				has_religion = religion:islam_religion
+				has_religion = religion:christianity_religion
+			}
+		}
+	}
+}
 CTP_faith_names = {
 	scope = character
 	effect = {
-		remove_character_flag = name_pack_support
-		IF = {
-			limit = { 
-				is_ctp_supported_culture = yes
-				is_male = yes
-			}
+		hidden_effect = {
+			save_scope_as = effect_root
+			remove_character_flag = name_pack_support
 			IF = {
-				limit = { has_religion = religion:islam_religion }
-				add_character_flag = name_pack_support
-				random_list = {
-					10 = {
-						random_list = {
-							1 = {
-								custom_description_no_bullet = {
-									text = Abdal-Ahad
+				limit = { 
+					is_ctp_supported_culture = yes
+					is_male = yes
+				}
+				IF = {
+					limit = { has_religion = religion:islam_religion }
+					add_character_flag = name_pack_support
+					random_list = {
+						10 = {
+							random_list = {
+								1 = {
+									change_first_name = Abdal-Ahad
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Abdal-Azim
+								1 = {
+									change_first_name = Abdal-Azim
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Abdal-Basir
+								1 = {
+									change_first_name = Abdal-Basir
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Abdal-Fattah
+								1 = {
+									change_first_name = Abdal-Fattah
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Abdal-Ghani
+								1 = {
+									change_first_name = Abdal-Ghani
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Abdal-Hakim
+								1 = {
+									change_first_name = Abdal-Hakim
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Abdal-Halim
+								1 = {
+									change_first_name = Abdal-Halim
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Abdal-Hayy
+								1 = {
+									change_first_name = Abdal-Hayy
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Abdal-Jabbar
+								1 = {
+									change_first_name = Abdal-Jabbar
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Abdal-Khaliq
+								1 = {
+									change_first_name = Abdal-Khaliq
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Abdal-Majid
+								1 = {
+									change_first_name = Abdal-Majid
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Abdan-Nasir
+								1 = {
+									change_first_name = Abdan-Nasir
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Abdal-Qahir
+								1 = {
+									change_first_name = Abdal-Qahir
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Abdal-Qawi
+								1 = {
+									change_first_name = Abdal-Qawi
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Abdar-Rahim
+								1 = {
+									change_first_name = Abdar-Rahim
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Abdar-Rashid
+								1 = {
+									change_first_name = Abdar-Rashid
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Abdar-Razzaq
+								1 = {
+									change_first_name = Abdar-Razzaq
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Abdas-Salam
+								1 = {
+									change_first_name = Abdas-Salam
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Abdas-Samad
+								1 = {
+									change_first_name = Abdas-Samad
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Abdal-Wahhab
+								1 = {
+									change_first_name = Abdal-Wahhab
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Abdal-Wahid
+								1 = {
+									change_first_name = Abdal-Wahid
 								}
 							}
 						}
-					}
-					25 = {
-						random_list = {
-							1 = {
-								custom_description_no_bullet = {
-									text = Abdal-Hamid
+						25 = {
+							random_list = {
+								1 = {
+									change_first_name = Abdal-Hamid
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Abdal-Haqq
+								1 = {
+									change_first_name = Abdal-Haqq
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Abdal-Karim
+								1 = {
+									change_first_name = Abdal-Karim
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Abdal-Qadir
+								1 = {
+									change_first_name = Abdal-Qadir
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Ubayd-Allah
+								1 = {
+									change_first_name = Ubayd-Allah
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Muslim
+								1 = {
+									change_first_name = Muslim
 								}
 							}
 						}
-					}
-					50 = {
-						random_list = {
-							1 = {
-								custom_description_no_bullet = {
-									text = Abdal-Aziz
+						50 = {
+							random_list = {
+								1 = {
+									change_first_name = Abdal-Aziz
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Abd-Allah
+								1 = {
+									change_first_name = Abd-Allah
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Abdar-Rahman
+								1 = {
+									change_first_name = Abdar-Rahman
 								}
 							}
 						}
-					}
-					50 = {
-						custom_description_no_bullet = {
-							text = Muhammad
+						50 = {
+							change_first_name = Muhammad
 						}
 					}
 				}
-			}
-			IF = {
-				limit = { has_religion = religion:christianity_religion }
-				add_character_flag = name_pack_support
-				random_list = {
-					1 = {
-						custom_description_no_bullet = {
-							text = Abdal-Masih
+				IF = {
+					limit = { has_religion = religion:christianity_religion }
+					add_character_flag = name_pack_support
+					random_list = {
+						1 = {
+							change_first_name = Abdal-Masih
 						}
-					}
-					1 = {
-						custom_description_no_bullet = {
-							text = Adam
+						1 = {
+							change_first_name = Adam
 						}
-					}
-					1 = {
-						custom_description_no_bullet = {
-							text = Ayyub
+						1 = {
+							change_first_name = Ayyub
 						}
-					}
-					1 = {
-						custom_description_no_bullet = {
-							text = Dawud
+						1 = {
+							change_first_name = Dawud
 						}
-					}
-					1 = {
-						custom_description_no_bullet = {
-							text = Harun
+						1 = {
+							change_first_name = Harun
 						}
-					}
-					1 = {
-						custom_description_no_bullet = {
-							text = Ibrahim
+						1 = {
+							change_first_name = Ibrahim
 						}
-					}
-					1 = {
-						custom_description_no_bullet = {
-							text = Idris
+						1 = {
+							change_first_name = Idris
 						}
-					}
-					1 = {
-						custom_description_no_bullet = {
-							text = Ilyas
+						1 = {
+							change_first_name = Ilyas
 						}
-					}
-					1 = {
-						custom_description_no_bullet = {
-							text = Imran
+						1 = {
+							change_first_name = Imran
 						}
-					}
-					1 = {
-						custom_description_no_bullet = {
-							text = Isa
+						1 = {
+							change_first_name = Isa
 						}
-					}
-					1 = {
-						custom_description_no_bullet = {
-							text = Ishaq
+						1 = {
+							change_first_name = Ishaq
 						}
-					}
-					1 = {
-						custom_description_no_bullet = {
-							text = Ishaya
+						1 = {
+							change_first_name = Ishaya
 						}
-					}
-					1 = {
-						custom_description_no_bullet = {
-							text = Ismail
+						1 = {
+							change_first_name = Ismail
 						}
-					}
-					1 = {
-						custom_description_no_bullet = {
-							text = Jibrail
+						1 = {
+							change_first_name = Jibrail
 						}
-					}
-					1 = {
-						custom_description_no_bullet = {
-							text = Musa
+						1 = {
+							change_first_name = Musa
 						}
-					}
-					1 = {
-						custom_description_no_bullet = {
-							text = Nuh
+						1 = {
+							change_first_name = Nuh
 						}
-					}
-					1 = {
-						custom_description_no_bullet = {
-							text = Sulayman
+						1 = {
+							change_first_name = Sulayman
 						}
-					}
-					1 = {
-						custom_description_no_bullet = {
-							text = Yahya
+						1 = {
+							change_first_name = Yahya
 						}
-					}
-					1 = {
-						custom_description_no_bullet = {
-							text = Yaqub
+						1 = {
+							change_first_name = Yaqub
 						}
-					}
-					1 = {
-						custom_description_no_bullet = {
-							text = Yusuf
+						1 = {
+							change_first_name = Yusuf
 						}
-					}
-					1 = {
-						custom_description_no_bullet = {
-							text = Zakariyya
+						1 = {
+							change_first_name = Zakariyya
 						}
-					}
-					0 = {
-						modifier = {
-							NOT = {
+						0 = {
+							modifier = {
+								NOT = {
+									has_culture = culture:andalusian
+								}
+								add = 10
+							}
+							random_list = {
+								1 = {
+									change_first_name = Butrus
+								}
+								1 = {
+									change_first_name = Samuil
+								}
+								1 = {
+									change_first_name = Siman
+								}
+								1 = {
+									change_first_name = Mikhail
+								}
+							}
+						}
+						0 = {
+							modifier = {
 								has_culture = culture:andalusian
+								add = 10
 							}
-							add = 10
-						}
-						random_list = {
-							1 = {
-								custom_description_no_bullet = {
-									text = Butrus
+							random_list = {
+								1 = {
+									change_first_name = Adhfunsh
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Samuil
+								1 = {
+									change_first_name = Ardun
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Siman
+								1 = {
+									change_first_name = Armaqand
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Mikhail
+								1 = {
+									change_first_name = Balashk
 								}
-							}
-						}
-					}
-					0 = {
-						modifier = {
-							has_culture = culture:andalusian
-							add = 10
-						}
-						random_list = {
-							1 = {
-								custom_description_no_bullet = {
-									text = Adhfunsh
+								1 = {
+									change_first_name = Barmand
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Ardun
+								1 = {
+									change_first_name = Bashkwal
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Armaqand
+								1 = {
+									change_first_name = Butra
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Balashk
+								1 = {
+									change_first_name = Faranda
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Barmand
+								1 = {
+									change_first_name = Furtun
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Bashkwal
+								1 = {
+									change_first_name = Furwila
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Butra
+								1 = {
+									change_first_name = Ghalind
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Faranda
+								1 = {
+									change_first_name = Gharsiyya
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Furtun
+								1 = {
+									change_first_name = Inriq
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Furwila
+								1 = {
+									change_first_name = Khayma
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Ghalind
+								1 = {
+									change_first_name = Mighil
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Gharsiyya
+								1 = {
+									change_first_name = Qarla
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Inriq
+								1 = {
+									change_first_name = Rudhmir
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Khayma
+								1 = {
+									change_first_name = Shanjuh
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Mighil
+								1 = {
+									change_first_name = Shanjul
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Qarla
+								1 = {
+									change_first_name = Wannaqo
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Rudhmir
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Shanjuh
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Shanjul
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Wannaqo
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Lubb
+								1 = {
+									change_first_name = Lubb
 								}
 							}
 						}
-					}
-					0 = {
-						modifier = {
-							has_culture = culture:levanite
-							add = 1
-						}
-						random_list = {
-							1 = {
-								custom_description_no_bullet = {
-									text = Qustantin
-								}
-							}
-						}
-					}
-					0 = {
-						modifier = {
-							OR = {
-								has_culture = culture:egyptian
+						0 = {
+							modifier = {
 								has_culture = culture:levanite
+								add = 1
 							}
-							add = 5
-						}
-						random_list = {
-							1 = {
-								custom_description_no_bullet = {
-									text = Abdal-Jalil
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Abd-Allah
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Abdal-Latif
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Abdal-Malik
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Abdan-Nur
+							random_list = {
+								1 = {
+									change_first_name = Qustantin
 								}
 							}
 						}
-					}
-					0 = {
-						modifier = {
-							has_culture = culture:egyptian
-							add = 31
-						}
-						random_list = {
-							1 = {
-								custom_description_no_bullet = {
-									text = Hany
+						0 = {
+							modifier = {
+								OR = {
+									has_culture = culture:egyptian
+									has_culture = culture:levanite
 								}
+								add = 5
 							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Aziz
+							random_list = {
+								1 = {
+									change_first_name = Abdal-Jalil
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Zakariyya
+								1 = {
+									change_first_name = Abd-Allah
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Girgis
+								1 = {
+									change_first_name = Abdal-Latif
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Onsi
+								1 = {
+									change_first_name = Abdal-Malik
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Samih
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Yaqub
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Tawadros
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Usire
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Shenouda
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Ruweis
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Habib
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Bishoy
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Abadir
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Iraja
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Hor
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Tekla
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Qozman
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Bashnouna
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Abamun
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Naguib
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Rami
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Babnouda
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Barsouma
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Abatta
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Hanna
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Meena
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Ata
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Malik
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Ghali
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Boutros
+								1 = {
+									change_first_name = Abdan-Nur
 								}
 							}
 						}
-					}
-				}
-			}
-		}
-		IF = {
-			limit = { 
-				is_ctp_supported_culture = yes
-				is_male = no
-			}
-			IF = {
-				limit = { has_religion = religion:islam_religion }
-				add_character_flag = name_pack_support
-				random_list = {
-					25 = {
-						random_list = {
-							1 = {
-								custom_description_no_bullet = {
-									text = Amatal-Aziz
-								}
+						0 = {
+							modifier = {
+								has_culture = culture:egyptian
+								add = 31
 							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Amatal-Hamid
+							random_list = {
+								1 = {
+									change_first_name = Hany
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Amatal-Izz
+								1 = {
+									change_first_name = Aziz
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Amatal-Khaliq
+								1 = {
+									change_first_name = Zakariyya
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Amat-Allah
+								1 = {
+									change_first_name = Girgis
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Amatal-Latif
+								1 = {
+									change_first_name = Onsi
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Amatal-Malik
+								1 = {
+									change_first_name = Samih
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Amatan-Nur
+								1 = {
+									change_first_name = Yaqub
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Amatar-Rabb
+								1 = {
+									change_first_name = Tawadros
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Amatar-Rahim
+								1 = {
+									change_first_name = Usire
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Amatar-Rahman
+								1 = {
+									change_first_name = Shenouda
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Amatal-Wahhab
+								1 = {
+									change_first_name = Ruweis
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Muslima
+								1 = {
+									change_first_name = Habib
+								}
+								1 = {
+									change_first_name = Bishoy
+								}
+								1 = {
+									change_first_name = Abadir
+								}
+								1 = {
+									change_first_name = Iraja
+								}
+								1 = {
+									change_first_name = Hor
+								}
+								1 = {
+									change_first_name = Tekla
+								}
+								1 = {
+									change_first_name = Qozman
+								}
+								1 = {
+									change_first_name = Bashnouna
+								}
+								1 = {
+									change_first_name = Abamun
+								}
+								1 = {
+									change_first_name = Naguib
+								}
+								1 = {
+									change_first_name = Rami
+								}
+								1 = {
+									change_first_name = Babnouda
+								}
+								1 = {
+									change_first_name = Barsouma
+								}
+								1 = {
+									change_first_name = Abatta
+								}
+								1 = {
+									change_first_name = Hanna
+								}
+								1 = {
+									change_first_name = Meena
+								}
+								1 = {
+									change_first_name = Ata
+								}
+								1 = {
+									change_first_name = Malik
+								}
+								1 = {
+									change_first_name = Ghali
+								}
+								1 = {
+									change_first_name = Boutros
 								}
 							}
 						}
@@ -2240,1291 +1954,1447 @@ CTP_faith_names = {
 			}
 			IF = {
 				limit = { 
-					has_religion = religion:christianity_religion
+					is_ctp_supported_culture = yes
+					is_male = no
 				}
-				add_character_flag = name_pack_support
-				random_list = {
-					3 = {
-						random_list = {
-							1 = {
-								custom_description_no_bullet = {
-									text = Amatal-Latif
+				IF = {
+					limit = { has_religion = religion:islam_religion }
+					add_character_flag = name_pack_support
+					random_list = {
+						25 = {
+							random_list = {
+								1 = {
+									change_first_name = Amatal-Aziz
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Amatal-Malik
+								1 = {
+									change_first_name = Amatal-Hamid
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Amatan-Nur
+								1 = {
+									change_first_name = Amatal-Izz
+								}
+								1 = {
+									change_first_name = Amatal-Khaliq
+								}
+								1 = {
+									change_first_name = Amat-Allah
+								}
+								1 = {
+									change_first_name = Amatal-Latif
+								}
+								1 = {
+									change_first_name = Amatal-Malik
+								}
+								1 = {
+									change_first_name = Amatan-Nur
+								}
+								1 = {
+									change_first_name = Amatar-Rabb
+								}
+								1 = {
+									change_first_name = Amatar-Rahim
+								}
+								1 = {
+									change_first_name = Amatar-Rahman
+								}
+								1 = {
+									change_first_name = Amatal-Wahhab
+								}
+								1 = {
+									change_first_name = Muslima
 								}
 							}
 						}
 					}
-					0 = {
-						modifier = {
-							has_culture = culture:andalusian
-							add = 3
+				}
+				IF = {
+					limit = { 
+						has_religion = religion:christianity_religion
+					}
+					add_character_flag = name_pack_support
+					random_list = {
+						3 = {
+							random_list = {
+								1 = {
+									change_first_name = Amatal-Latif
+								}
+								1 = {
+									change_first_name = Amatal-Malik
+								}
+								1 = {
+									change_first_name = Amatan-Nur
+								}
+							}
 						}
-						random_list = {
-							1 = {
-								custom_description_no_bullet = {
-									text = Awraka
-								}
+						0 = {
+							modifier = {
+								has_culture = culture:andalusian
+								add = 3
 							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Awriya
+							random_list = {
+								1 = {
+									change_first_name = Awraka
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Ayluh
+								1 = {
+									change_first_name = Awriya
 								}
-							}
-							3 = {
-								custom_description_no_bullet = {
-									text = Dhuna
+								1 = {
+									change_first_name = Ayluh
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Gislan
+								3 = {
+									change_first_name = Dhuna
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Labbuna
+								1 = {
+									change_first_name = Gislan
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Munya
+								1 = {
+									change_first_name = Labbuna
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Sara
+								1 = {
+									change_first_name = Munya
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Simana
+								1 = {
+									change_first_name = Sara
+								}
+								1 = {
+									change_first_name = Simana
 								}
 							}
 						}
 					}
 				}
 			}
+		}
+		custom_description_no_bullet = {
+			text = scripted_gui_grab_name_widget
+			object = scope:effect_root
+			subject = scope:effect_root
 		}
 	}
 }
 CTP_culture_names = {
 	scope = character
 	effect = {
-		remove_character_flag = name_pack_support
-		IF = {
-			limit = { 
-				is_ctp_supported_culture = yes
-				is_male = yes
-			}
-			add_character_flag = name_pack_support
+		hidden_effect = {
+			save_scope_as = effect_root
+			remove_character_flag = name_pack_support
 			IF = {
-				limit = { has_culture_group = culture_group:arabic_group }
-				random_list = {
-					100 = {
-						random_list = {
-							1 = {
-								custom_description_no_bullet = {
-									text = Muhammad
+				limit = { 
+					is_ctp_supported_culture = yes
+					is_male = yes
+				}
+				add_character_flag = name_pack_support
+				IF = {
+					limit = { has_culture_group = culture_group:arabic_group }
+					random_list = {
+						100 = {
+							random_list = {
+								1 = {
+									change_first_name = Muhammad
+								}
+								1 = {
+									change_first_name = Ahmad
+								}
+								1 = {
+									change_first_name = Ali
+								}
+								1 = {
+									change_first_name = Hasan
+								}
+								1 = {
+									change_first_name = Husayn
+								}
+								1 = {
+									change_first_name = Jafar
+								}
+								1 = {
+									change_first_name = Musa
+								}
+								1 = {
+									change_first_name = Umar
+								}
+								1 = {
+									change_first_name = Uthman
+								}
+								1 = {
+									change_first_name = Yahya
 								}
 							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Ahmad
+						}
+						50 = {
+							random_list = {
+								1 = {
+									change_first_name = Abbas
+								}
+								1 = {
+									change_first_name = Adam
+								}
+								1 = {
+									change_first_name = Amr
+								}
+								1 = {
+									change_first_name = Ayyub
+								}
+								1 = {
+									change_first_name = Dulaf
+								}
+								1 = {
+									change_first_name = Dawud
+								}
+								1 = {
+									change_first_name = Fadl
+								}
+								1 = {
+									change_first_name = Fath
+								}
+								1 = {
+									change_first_name = Hadi
+								}
+								1 = {
+									change_first_name = Harun
+								}
+								1 = {
+									change_first_name = Hisham
+								}
+								1 = {
+									change_first_name = Ibrahim
+								}
+								1 = {
+									change_first_name = Idris
+								}
+								1 = {
+									change_first_name = Ilyas
+								}
+								1 = {
+									change_first_name = Isa
+								}
+								1 = {
+									change_first_name = Ishaq
+								}
+								1 = {
+									change_first_name = Ismail
+								}
+								1 = {
+									change_first_name = Jibrail
+								}
+								1 = {
+									change_first_name = Khalid
+								}
+								1 = {
+									change_first_name = Luqman
+								}
+								1 = {
+									change_first_name = Lut
+								}
+								1 = {
+									change_first_name = Marwan
+								}
+								1 = {
+									change_first_name = Maslama
+								}
+								1 = {
+									change_first_name = Muawiya
+								}
+								1 = {
+									change_first_name = Nuh
+								}
+								1 = {
+									change_first_name = Qasim
+								}
+								1 = {
+									change_first_name = Said
+								}
+								1 = {
+									change_first_name = Yazid
+								}
+								1 = {
+									change_first_name = Yunus
+								}
+								1 = {
+									change_first_name = Yusuf
 								}
 							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Ali
+						}
+						25 = {
+							random_list = {
+								1 = {
+									change_first_name = Aban
+								}
+								1 = {
+									change_first_name = Adi
+								}
+								1 = {
+									change_first_name = Ala
+								}
+								1 = {
+									change_first_name = Amin
+								}
+								1 = {
+									change_first_name = Anas
+								}
+								1 = {
+									change_first_name = Aqil
+								}
+								1 = {
+									change_first_name = As
+								}
+								1 = {
+									change_first_name = Asad
+								}
+								1 = {
+									change_first_name = Ashhab
+								}
+								1 = {
+									change_first_name = Asif
+								}
+								1 = {
+									change_first_name = Asim
+								}
+								1 = {
+									change_first_name = Aslam
+								}
+								1 = {
+									change_first_name = Ata
+								}
+								1 = {
+									change_first_name = Aws
+								}
+								1 = {
+									change_first_name = Badr
+								}
+								1 = {
+									change_first_name = Bahr
+								}
+								1 = {
+									change_first_name = Bakkar
+								}
+								1 = {
+									change_first_name = Bakr
+								}
+								1 = {
+									change_first_name = Balj
+								}
+								1 = {
+									change_first_name = Bashir
+								}
+								1 = {
+									change_first_name = Bilal
+								}
+								1 = {
+									change_first_name = Bishr
+								}
+								1 = {
+									change_first_name = Bukayr
+								}
+								1 = {
+									change_first_name = Fajr
+								}
+								1 = {
+									change_first_name = Faraj
+								}
+								1 = {
+									change_first_name = Furat
+								}
+								1 = {
+									change_first_name = Futays
+								}
+								1 = {
+									change_first_name = Ghalib
+								}
+								1 = {
+									change_first_name = Ghazi
+								}
+								1 = {
+									change_first_name = Habib
+								}
+								1 = {
+									change_first_name = Hafs
+								}
+								1 = {
+									change_first_name = Hakam
+								}
+								1 = {
+									change_first_name = Hamdan
+								}
+								1 = {
+									change_first_name = Hamid
+								}
+								1 = {
+									change_first_name = Hamza
+								}
+								1 = {
+									change_first_name = Harith
+								}
+								1 = {
+									change_first_name = Harmala
+								}
+								1 = {
+									change_first_name = Hashim
+								}
+								1 = {
+									change_first_name = Haytham
+								}
+								1 = {
+									change_first_name = Hayyan
+								}
+								1 = {
+									change_first_name = Hazm
+								}
+								1 = {
+									change_first_name = Hilal
+								}
+								1 = {
+									change_first_name = Himas
+								}
+								1 = {
+									change_first_name = Hubab
+								}
+								1 = {
+									change_first_name = Hubaysh
+								}
+								1 = {
+									change_first_name = Huda
+								}
+								1 = {
+									change_first_name = Hunayn
+								}
+								1 = {
+									change_first_name = Imran
+								}
+								1 = {
+									change_first_name = Ishaya
+								}
+								1 = {
+									change_first_name = Jabir
+								}
+								1 = {
+									change_first_name = Jahhaf
+								}
+								1 = {
+									change_first_name = Jahl
+								}
+								1 = {
+									change_first_name = Jalil
+								}
+								1 = {
+									change_first_name = Jamal
+								}
+								1 = {
+									change_first_name = Jami
+								}
+								1 = {
+									change_first_name = Jamil
+								}
+								1 = {
+									change_first_name = Jubayr
+								}
+								1 = {
+									change_first_name = Juda
+								}
+								1 = {
+									change_first_name = Kamil
+								}
+								1 = {
+									change_first_name = Khalaf
+								}
+								1 = {
+									change_first_name = Khaldun
+								}
+								1 = {
+									change_first_name = Khalil
+								}
+								1 = {
+									change_first_name = Khattab
+								}
+								1 = {
+									change_first_name = Khayr
+								}
+								1 = {
+									change_first_name = Layth
+								}
+								1 = {
+									change_first_name = Maad
+								}
+								1 = {
+									change_first_name = Maan
+								}
+								1 = {
+									change_first_name = Mabad
+								}
+								1 = {
+									change_first_name = Mahbub
+								}
+								1 = {
+									change_first_name = Mahdi
+								}
+								1 = {
+									change_first_name = Malik
+								}
+								1 = {
+									change_first_name = Mamar
+								}
+								1 = {
+									change_first_name = Mansur
+								}
+								1 = {
+									change_first_name = Masud
+								}
+								1 = {
+									change_first_name = Matar
+								}
+								1 = {
+									change_first_name = Maymun
+								}
+								1 = {
+									change_first_name = Mihran
+								}
+								1 = {
+									change_first_name = Miqdam
+								}
+								1 = {
+									change_first_name = Mirdas
+								}
+								1 = {
+									change_first_name = Mubarak
+								}
+								1 = {
+									change_first_name = Mudar
+								}
+								1 = {
+									change_first_name = Mujahid
+								}
+								1 = {
+									change_first_name = Mulahhab
+								}
+								1 = {
+									change_first_name = Muntasir
+								}
+								1 = {
+									change_first_name = Musab
+								}
+								1 = {
+									change_first_name = Mustafa
+								}
+								1 = {
+									change_first_name = Muti
+								}
+								1 = {
+									change_first_name = Nabit
+								}
+								1 = {
+									change_first_name = Nafi
+								}
+								1 = {
+									change_first_name = Naim
+								}
+								1 = {
+									change_first_name = Najih
+								}
+								1 = {
+									change_first_name = Najm
+								}
+								1 = {
+									change_first_name = Nasir
+								}
+								1 = {
+									change_first_name = Nasr
+								}
+								1 = {
+									change_first_name = Nazir
+								}
+								1 = {
+									change_first_name = Numan
+								}
+								1 = {
+									change_first_name = Nusayr
+								}
+								1 = {
+									change_first_name = Qabisa
+								}
+								1 = {
+									change_first_name = Qaim
+								}
+								1 = {
+									change_first_name = Qatada
+								}
+								1 = {
+									change_first_name = Qays
+								}
+								1 = {
+									change_first_name = Qurra
+								}
+								1 = {
+									change_first_name = Qutayba
+								}
+								1 = {
+									change_first_name = Rabi
+								}
+								1 = {
+									change_first_name = Rabia
+								}
+								1 = {
+									change_first_name = Rafi
+								}
+								1 = {
+									change_first_name = Rashid
+								}
+								1 = {
+									change_first_name = Rawwad
+								}
+								1 = {
+									change_first_name = Ridwan
+								}
+								1 = {
+									change_first_name = Ruh
+								}
+								1 = {
+									change_first_name = Rushd
+								}
+								1 = {
+									change_first_name = Sabah
+								}
+								1 = {
+									change_first_name = Sad
+								}
+								1 = {
+									change_first_name = Sadiq
+								}
+								1 = {
+									change_first_name = Sadun
+								}
+								1 = {
+									change_first_name = Sahl
+								}
+								1 = {
+									change_first_name = Sahnun
+								}
+								1 = {
+									change_first_name = Salama
+								}
+								1 = {
+									change_first_name = Salih
+								}
+								1 = {
+									change_first_name = Salim
+								}
+								1 = {
+									change_first_name = Salman
+								}
+								1 = {
+									change_first_name = Shadhan
+								}
+								1 = {
+									change_first_name = Sharaf
+								}
+								1 = {
+									change_first_name = Sharif
+								}
+								1 = {
+									change_first_name = Shariq
+								}
+								1 = {
+									change_first_name = Shayban
+								}
+								1 = {
+									change_first_name = Shuja
+								}
+								1 = {
+									change_first_name = Shumayl
+								}
+								1 = {
+									change_first_name = Sinan
+								}
+								1 = {
+									change_first_name = Sufyan
+								}
+								1 = {
+									change_first_name = Sulayman
+								}
+								1 = {
+									change_first_name = Tahir
+								}
+								1 = {
+									change_first_name = Talha
+								}
+								1 = {
+									change_first_name = Tamim
+								}
+								1 = {
+									change_first_name = Tammam
+								}
+								1 = {
+									change_first_name = Tarif
+								}
+								1 = {
+									change_first_name = Tariq
+								}
+								1 = {
+									change_first_name = Tayyib
+								}
+								1 = {
+									change_first_name = Ubayda
+								}
+								1 = {
+									change_first_name = Ubayy
+								}
+								1 = {
+									change_first_name = Ulaym
+								}
+								1 = {
+									change_first_name = Umayr
+								}
+								1 = {
+									change_first_name = Umayya
+								}
+								1 = {
+									change_first_name = Uqba
+								}
+								1 = {
+									change_first_name = Urayb
+								}
+								1 = {
+									change_first_name = Usama
+								}
+								1 = {
+									change_first_name = Utba
+								}
+								1 = {
+									change_first_name = Uways
+								}
+								1 = {
+									change_first_name = Wadi
+								}
+								1 = {
+									change_first_name = Wahb
+								}
+								1 = {
+									change_first_name = Wahid
+								}
+								1 = {
+									change_first_name = Walid
+								}
+								1 = {
+									change_first_name = Wasim
+								}
+								1 = {
+									change_first_name = Yala
+								}
+								1 = {
+									change_first_name = Yamut
+								}
+								1 = {
+									change_first_name = Yaqub
+								}
+								1 = {
+									change_first_name = Yasir
+								}
+								1 = {
+									change_first_name = Zakariyya
+								}
+								1 = {
+									change_first_name = Zayd
+								}
+								1 = {
+									change_first_name = Zayn
+								}
+								1 = {
+									change_first_name = Ziyad
+								}
+								1 = {
+									change_first_name = Zubayr
+								}
+								1 = {
+									change_first_name = Zuhayr
 								}
 							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Hasan
+						}
+						10 = {
+							random_list = {
+								1 = {
+									change_first_name = Abbad
+								}
+								1 = {
+									change_first_name = Abid
+								}
+								1 = {
+									change_first_name = Adil
+								}
+								1 = {
+									change_first_name = Affan
+								}
+								1 = {
+									change_first_name = Aghlab
+								}
+								1 = {
+									change_first_name = Awn
+								}
+								1 = {
+									change_first_name = Aziz
+								}
+								1 = {
+									change_first_name = Barakat
+								}
+								1 = {
+									change_first_name = Buhayr
+								}
+								1 = {
+									change_first_name = Buwayh
+								}
+								1 = {
+									change_first_name = Fahr
+								}
+								1 = {
+									change_first_name = Ghassan
+								}
+								1 = {
+									change_first_name = Hajjaj
+								}
+								1 = {
+									change_first_name = Haris
+								}
+								1 = {
+									change_first_name = Jarir
+								}
+								1 = {
+									change_first_name = Kumayl
+								}
+								1 = {
+									change_first_name = Mahmud
+								}
+								1 = {
+									change_first_name = Mundhir
+								}
+								1 = {
+									change_first_name = Muttalib
+								}
+								1 = {
+									change_first_name = Nizar
+								}
+								1 = {
+									change_first_name = Razin
+								}
+								1 = {
+									change_first_name = Sattar
+								}
+								1 = {
+									change_first_name = Shabib
+								}
+								1 = {
+									change_first_name = Subh
+								}
+								1 = {
+									change_first_name = Sulaym
+								}
+								1 = {
+									change_first_name = Thabit
+								}
+								1 = {
+									change_first_name = Ubayd
 								}
 							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Husayn
+						}
+						1 = {
+							random_list = {
+								1 = {
+									change_first_name = Afrasiyab
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Jafar
+								1 = {
+									change_first_name = Bahram
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Musa
+								1 = {
+									change_first_name = Dinar
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Umar
+								1 = {
+									change_first_name = Shajar
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Uthman
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Yahya
+								1 = {
+									change_first_name = Waki
 								}
 							}
 						}
 					}
-					50 = {
-						random_list = {
-							1 = {
-								custom_description_no_bullet = {
-									text = Abbas
+				}
+			}
+			IF = {
+				limit = { 
+					is_ctp_supported_culture = yes
+					is_male = no
+				}
+				add_character_flag = name_pack_support
+				IF = {
+					limit = { has_culture_group = culture_group:arabic_group }
+					random_list = {
+						100 = {
+							random_list = {
+								1 = {
+									change_first_name = Aisha
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Adam
+								1 = {
+									change_first_name = Fatima
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Amr
+								1 = {
+									change_first_name = Hind
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Ayyub
+								1 = {
+									change_first_name = Khadija
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Dulaf
+								1 = {
+									change_first_name = Layla
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Dawud
+								1 = {
+									change_first_name = Maryam
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Fadl
+								1 = {
+									change_first_name = Zaynab
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Fath
+							}	
+						}
+						50 = {
+							random_list = {
+								1 = {
+									change_first_name = Aliya
+								}	
+								1 = {
+									change_first_name = Arwa
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Hadi
+								1 = {
+									change_first_name = Hawa
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Harun
+								1 = {
+									change_first_name = Khalida
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Hisham
+								1 = {
+									change_first_name = Nadiya
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Ibrahim
+								1 = {
+									change_first_name = Nur
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Idris
+								1 = {
+									change_first_name = Ruqayya
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Ilyas
+								1 = {
+									change_first_name = Safiyya
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Isa
+								1 = {
+									change_first_name = Salima
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Ishaq
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Ismail
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Jibrail
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Khalid
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Luqman
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Lut
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Marwan
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Maslama
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Muawiya
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Nuh
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Qasim
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Said
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Yazid
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Yunus
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Yusuf
+								1 = {
+									change_first_name = Salma
 								}
 							}
 						}
-					}
-					25 = {
-						random_list = {
-							1 = {
-								custom_description_no_bullet = {
-									text = Aban
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Adi
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Ala
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Amin
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Anas
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Aqil
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = As
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Asad
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Ashhab
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Asif
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Asim
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Aslam
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Ata
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Aws
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Badr
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Bahr
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Bakkar
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Bakr
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Balj
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Bashir
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Bilal
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Bishr
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Bukayr
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Fajr
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Faraj
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Furat
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Futays
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Ghalib
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Ghazi
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Habib
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Hafs
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Hakam
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Hamdan
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Hamid
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Hamza
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Harith
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Harmala
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Hashim
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Haytham
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Hayyan
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Hazm
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Hilal
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Himas
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Hubab
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Hubaysh
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Huda
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Hunayn
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Imran
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Ishaya
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Jabir
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Jahhaf
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Jahl
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Jalil
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Jamal
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Jami
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Jamil
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Jubayr
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Juda
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Kamil
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Khalaf
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Khaldun
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Khalil
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Khattab
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Khayr
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Layth
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Maad
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Maan
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Mabad
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Mahbub
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Mahdi
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Malik
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Mamar
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Mansur
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Masud
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Matar
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Maymun
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Mihran
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Miqdam
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Mirdas
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Mubarak
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Mudar
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Mujahid
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Mulahhab
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Muntasir
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Musab
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Mustafa
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Muti
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Nabit
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Nafi
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Naim
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Najih
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Najm
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Nasir
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Nasr
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Nazir
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Numan
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Nusayr
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Qabisa
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Qaim
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Qatada
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Qays
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Qurra
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Qutayba
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Rabi
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Rabia
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Rafi
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Rashid
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Rawwad
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Ridwan
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Ruh
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Rushd
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Sabah
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Sad
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Sadiq
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Sadun
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Sahl
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Sahnun
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Salama
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Salih
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Salim
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Salman
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Shadhan
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Sharaf
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Sharif
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Shariq
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Shayban
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Shuja
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Shumayl
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Sinan
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Sufyan
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Sulayman
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Tahir
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Talha
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Tamim
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Tammam
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Tarif
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Tariq
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Tayyib
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Ubayda
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Ubayy
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Ulaym
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Umayr
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Umayya
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Uqba
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Urayb
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Usama
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Utba
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Uways
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Wadi
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Wahb
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Wahid
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Walid
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Wasim
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Yala
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Yamut
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Yaqub
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Yasir
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Zakariyya
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Zayd
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Zayn
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Ziyad
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Zubayr
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Zuhayr
+						25 = {
+							random_list = {
+								1 = {
+									change_first_name = Abbasa
+								}
+								1 = {
+									change_first_name = Abla
+								}
+								1 = {
+									change_first_name = Afiya
+								}
+								1 = {
+									change_first_name = Amina
+								}
+								1 = {
+									change_first_name = Asma
+								}
+								1 = {
+									change_first_name = Atika
+								}
+								1 = {
+									change_first_name = Aziza
+								}
+								1 = {
+									change_first_name = Daniya
+								}
+								1 = {
+									change_first_name = Dima
+								}
+								1 = {
+									change_first_name = Durr
+								}
+								1 = {
+									change_first_name = Fahra
+								}
+								1 = {
+									change_first_name = Fajr
+								}
+								1 = {
+									change_first_name = Fannu
+								}
+								1 = {
+									change_first_name = Ghada
+								}
+								1 = {
+									change_first_name = Ghaliba
+								}
+								1 = {
+									change_first_name = Ghaniya
+								}
+								1 = {
+									change_first_name = Habiba
+								}
+								1 = {
+									change_first_name = Hafsa
+								}
+								1 = {
+									change_first_name = Hagar
+								}
+								1 = {
+									change_first_name = Halima
+								}
+								1 = {
+									change_first_name = Hamda
+								}
+								1 = {
+									change_first_name = Hamida
+								}
+								1 = {
+									change_first_name = Hanifa
+								}
+								1 = {
+									change_first_name = Hassana
+								}
+								1 = {
+									change_first_name = Hawra
+								}
+								1 = {
+									change_first_name = Hayal
+								}
+								1 = {
+									change_first_name = Hubaba
+								}
+								1 = {
+									change_first_name = Huda
+								}
+								1 = {
+									change_first_name = Humayda
+								}
+								1 = {
+									change_first_name = Hushayma
+								}
+								1 = {
+									change_first_name = Ibtisam
+								}
+								1 = {
+									change_first_name = Inan
+								}
+								1 = {
+									change_first_name = Ishraq
+								}
+								1 = {
+									change_first_name = Jalida
+								}
+								1 = {
+									change_first_name = Jalila
+								}
+								1 = {
+									change_first_name = Jamila
+								}
+								1 = {
+									change_first_name = Jawhara
+								}
+								1 = {
+									change_first_name = Jawra
+								}
+								1 = {
+									change_first_name = Jumana
+								}
+								1 = {
+									change_first_name = Kanza
+								}
+								1 = {
+									change_first_name = Karima
+								}
+								1 = {
+									change_first_name = Khawla
+								}
+								1 = {
+									change_first_name = Kinda
+								}
+								1 = {
+									change_first_name = Lubaba
+								}
+								1 = {
+									change_first_name = Maha
+								}
+								1 = {
+									change_first_name = Mahbuba
+								}
+								1 = {
+									change_first_name = Mahuna
+								}
+								1 = {
+									change_first_name = Mamara
+								}
+								1 = {
+									change_first_name = Mashuq
+								}
+								1 = {
+									change_first_name = Maymuna
+								}
+								1 = {
+									change_first_name = Maysun
+								}
+								1 = {
+									change_first_name = Muhja
+								}
+								1 = {
+									change_first_name = Mulayka
+								}
+								1 = {
+									change_first_name = Mumina
+								}
+								1 = {
+									change_first_name = Muna
+								}
+								1 = {
+									change_first_name = Muta
+								}
+								1 = {
+									change_first_name = Muzahima
+								}
+								1 = {
+									change_first_name = Muzna
+								}
+								1 = {
+									change_first_name = Nafisa
+								}
+								1 = {
+									change_first_name = Naima
+								}
+								1 = {
+									change_first_name = Najat
+								}
+								1 = {
+									change_first_name = Najiya
+								}
+								1 = {
+									change_first_name = Najma
+								}
+								1 = {
+									change_first_name = Nasiba
+								}
+								1 = {
+									change_first_name = Nasira
+								}
+								1 = {
+									change_first_name = Nazhun
+								}
+								1 = {
+									change_first_name = Nuwayra
+								}
+								1 = {
+									change_first_name = Qamar
+								}
+								1 = {
+									change_first_name = Qasima
+								}
+								1 = {
+									change_first_name = Qasmuna
+								}
+								1 = {
+									change_first_name = Rabia
+								}
+								1 = {
+									change_first_name = Radiya
+								}
+								1 = {
+									change_first_name = Rafiqa
+								}
+								1 = {
+									change_first_name = Rafqa
+								}
+								1 = {
+									change_first_name = Rahil
+								}
+								1 = {
+									change_first_name = Rashida
+								}
+								1 = {
+									change_first_name = Rasis
+								}
+								1 = {
+									change_first_name = Rayhana
+								}
+								1 = {
+									change_first_name = Rubab
+								}
+								1 = {
+									change_first_name = Ruhayma
+								}
+								1 = {
+									change_first_name = Rumayla
+								}
+								1 = {
+									change_first_name = Saada
+								}
+								1 = {
+									change_first_name = Sada
+								}
+								1 = {
+									change_first_name = Sakan
+								}
+								1 = {
+									change_first_name = Salwa
+								}
+								1 = {
+									change_first_name = Sama
+								}
+								1 = {
+									change_first_name = Samra
+								}
+								1 = {
+									change_first_name = Shams
+								}
+								1 = {
+									change_first_name = Shan
+								}
+								1 = {
+									change_first_name = Shariya
+								}
+								1 = {
+									change_first_name = Shifa
+								}
+								1 = {
+									change_first_name = Suad
+								}
+								1 = {
+									change_first_name = Sukayna
+								}
+								1 = {
+									change_first_name = Sura
+								}
+								1 = {
+									change_first_name = Tahira
+								}
+								1 = {
+									change_first_name = Tarifa
+								}
+								1 = {
+									change_first_name = Thuwayba
+								}
+								1 = {
+									change_first_name = Ubayda
+								}
+								1 = {
+									change_first_name = Ulayya
+								}
+								1 = {
+									change_first_name = Usayma
+								}
+								1 = {
+									change_first_name = Utayyqa
+								}
+								1 = {
+									change_first_name = Wahida
+								}
+								1 = {
+									change_first_name = Wallada
+								}
+								1 = {
+									change_first_name = Yamina
+								}
+								1 = {
+									change_first_name = Zahida
+								}
+								1 = {
+									change_first_name = Zahira
+								}
+								1 = {
+									change_first_name = Zahra
+								}
+								1 = {
+									change_first_name = Zunayra
 								}
 							}
 						}
-					}
-					10 = {
-						random_list = {
-							1 = {
-								custom_description_no_bullet = {
-									text = Abbad
+						10 = {
+							random_list = {
+								1 = {
+									change_first_name = Abida
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Abid
+								1 = {
+									change_first_name = Adila
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Adil
+								1 = {
+									change_first_name = Afira
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Affan
+								1 = {
+									change_first_name = Arib
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Aghlab
+								1 = {
+									change_first_name = Bilqis
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Awn
+								1 = {
+									change_first_name = Burayha
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Aziz
+								1 = {
+									change_first_name = Buthayna
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Barakat
+								1 = {
+									change_first_name = Daana
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Buhayr
+								1 = {
+									change_first_name = Ghamama
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Buwayh
+								1 = {
+									change_first_name = Hakima
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Fahr
+								1 = {
+									change_first_name = Hamduna
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Ghassan
+								1 = {
+									change_first_name = Juml
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Hajjaj
+								1 = {
+									change_first_name = Lidhdha
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Haris
+								1 = {
+									change_first_name = Lubna
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Jarir
+								1 = {
+									change_first_name = Mahabba
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Kumayl
+								1 = {
+									change_first_name = Mayya
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Mahmud
+								1 = {
+									change_first_name = Sattara
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Mundhir
+								1 = {
+									change_first_name = Sawwab
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Muttalib
+								1 = {
+									change_first_name = Shajar
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Nizar
+								1 = {
+									change_first_name = Shajara
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Razin
+								1 = {
+									change_first_name = Shakira
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Sattar
+								1 = {
+									change_first_name = Taqiya
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Shabib
+								1 = {
+									change_first_name = Zabiba
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Subh
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Sulaym
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Thabit
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Ubayd
+								1 = {
+									change_first_name = Zummurrud
 								}
 							}
 						}
-					}
-					1 = {
-						random_list = {
-							1 = {
-								custom_description_no_bullet = {
-									text = Afrasiyab
+						1 = {
+							random_list = {
+								1 = {
+									change_first_name = Amsha
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Bahram
+								1 = {
+									change_first_name = Asmuna
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Dinar
+								1 = {
+									change_first_name = Athl
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Shajar
+								1 = {
+									change_first_name = Ayshuna
 								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Waki
+								1 = {
+									change_first_name = Baraka
+								}
+								1 = {
+									change_first_name = Dinar
+								}
+								1 = {
+									change_first_name = Fathuna
+								}
+								1 = {
+									change_first_name = Fatna
+								}
+								1 = {
+									change_first_name = Faynan
+								}
+								1 = {
+									change_first_name = Futayma
+								}
+								1 = {
+									change_first_name = Ghaya
+								}
+								1 = {
+									change_first_name = Halawa
+								}
+								1 = {
+									change_first_name = Idlal
+								}
+								1 = {
+									change_first_name = Itimad
+								}
+								1 = {
+									change_first_name = Judur
+								}
+								1 = {
+									change_first_name = Kafat
+								}
+								1 = {
+									change_first_name = Marjan
+								}
+								1 = {
+									change_first_name = Masabih
+								}
+								1 = {
+									change_first_name = Muzayna
+								}
+								1 = {
+									change_first_name = Narjis
+								}
+								1 = {
+									change_first_name = Num
+								}
+								1 = {
+									change_first_name = Nuzha
+								}
+								1 = {
+									change_first_name = Rah
+								}
+								1 = {
+									change_first_name = Ray
+								}
+								1 = {
+									change_first_name = Saduna
+								}
+								1 = {
+									change_first_name = Sihr
+								}
+								1 = {
+									change_first_name = Sut
+								}
+								1 = {
+									change_first_name = Tamu
+								}
+								1 = {
+									change_first_name = Tarub
+								}
+								1 = {
+									change_first_name = Tazunt
+								}
+								1 = {
+									change_first_name = Umayna
+								}
+								1 = {
+									change_first_name = Urtatlim
+								}
+								1 = {
+									change_first_name = Ward
+								}
+								1 = {
+									change_first_name = Yahaira
+								}
+								1 = {
+									change_first_name = Yanduza
+								}
+								1 = {
+									change_first_name = Zannu
 								}
 							}
 						}
@@ -3532,962 +3402,10 @@ CTP_culture_names = {
 				}
 			}
 		}
-		IF = {
-			limit = { 
-				is_ctp_supported_culture = yes
-				is_male = no
-			}
-			add_character_flag = name_pack_support
-			IF = {
-				limit = { has_culture_group = culture_group:arabic_group }
-				random_list = {
-					100 = {
-						random_list = {
-							1 = {
-								custom_description_no_bullet = {
-									text = Aisha
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Fatima
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Hind
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Khadija
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Layla
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Maryam
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Zaynab
-								}
-							}
-						}	
-					}
-					50 = {
-						random_list = {
-							1 = {
-								custom_description_no_bullet = {
-									text = Aliya
-								}
-							}	
-							1 = {
-								custom_description_no_bullet = {
-									text = Arwa
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Hawa
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Khalida
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Nadiya
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Nur
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Ruqayya
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Safiyya
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Salima
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Salma
-								}
-							}
-						}
-					}
-					25 = {
-						random_list = {
-							1 = {
-								custom_description_no_bullet = {
-									text = Abbasa
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Abla
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Afiya
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Amina
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Asma
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Atika
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Aziza
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Daniya
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Dima
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Durr
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Fahra
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Fajr
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Fannu
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Ghada
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Ghaliba
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Ghaniya
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Habiba
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Hafsa
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Hagar
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Halima
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Hamda
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Hamida
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Hanifa
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Hassana
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Hawra
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Hayal
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Hubaba
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Huda
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Humayda
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Hushayma
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Ibtisam
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Inan
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Ishraq
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Jalida
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Jalila
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Jamila
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Jawhara
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Jawra
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Jumana
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Kanza
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Karima
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Khawla
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Kinda
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Lubaba
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Maha
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Mahbuba
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Mahuna
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Mamara
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Mashuq
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Maymuna
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Maysun
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Muhja
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Mulayka
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Mumina
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Muna
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Muta
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Muzahima
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Muzna
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Nafisa
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Naima
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Najat
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Najiya
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Najma
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Nasiba
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Nasira
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Nazhun
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Nuwayra
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Qamar
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Qasima
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Qasmuna
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Rabia
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Radiya
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Rafiqa
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Rafqa
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Rahil
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Rashida
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Rasis
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Rayhana
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Rubab
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Ruhayma
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Rumayla
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Saada
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Sada
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Sakan
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Salwa
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Sama
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Samra
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Shams
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Shan
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Shariya
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Shifa
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Suad
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Sukayna
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Sura
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Tahira
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Tarifa
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Thuwayba
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Ubayda
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Ulayya
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Usayma
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Utayyqa
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Wahida
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Wallada
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Yamina
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Zahida
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Zahira
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Zahra
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Zunayra
-								}
-							}
-						}
-					}
-					10 = {
-						random_list = {
-							1 = {
-								custom_description_no_bullet = {
-									text = Abida
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Adila
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Afira
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Arib
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Bilqis
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Burayha
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Buthayna
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Daana
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Ghamama
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Hakima
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Hamduna
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Juml
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Lidhdha
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Lubna
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Mahabba
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Mayya
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Sattara
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Sawwab
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Shajar
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Shajara
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Shakira
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Taqiya
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Zabiba
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Zummurrud
-								}
-							}
-						}
-					}
-					1 = {
-						random_list = {
-							1 = {
-								custom_description_no_bullet = {
-									text = Amsha
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Asmuna
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Athl
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Ayshuna
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Baraka
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Dinar
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Fathuna
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Fatna
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Faynan
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Futayma
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Ghaya
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Halawa
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Idlal
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Itimad
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Judur
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Kafat
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Marjan
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Masabih
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Muzayna
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Narjis
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Num
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Nuzha
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Rah
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Ray
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Saduna
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Sihr
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Sut
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Tamu
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Tarub
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Tazunt
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Umayna
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Urtatlim
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Ward
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Yahaira
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Yanduza
-								}
-							}
-							1 = {
-								custom_description_no_bullet = {
-									text = Zannu
-								}
-							}
-						}
-					}
-				}
-			}
+		custom_description_no_bullet = {
+			text = scripted_gui_grab_name_widget
+			object = scope:effect_root
+			subject = scope:effect_root
 		}
 	}
 }
