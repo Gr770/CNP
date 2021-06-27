@@ -1456,64 +1456,53 @@ CTP_no_pack_support = {
 CTP_random_ancestor = {
 	scope = character
 	effect = {
-		remove_character_flag = name_pack_support
-		IF = {
-			limit = { is_male = yes }
-			random_ancestor = {
+		hidden_effect = {
+			save_scope_as = effect_root
+			remove_character_flag = name_pack_support
+			IF = {
 				limit = { is_male = yes }
-				even_if_dead = yes
-				save_scope_as = the_ancestor
+				random_ancestor = {
+					limit = { is_male = yes }
+					even_if_dead = yes
+					save_scope_as = the_ancestor
+				}
 			}
-		}
-		IF = {
-			limit = { is_male = no }
-			random_ancestor = {
+			IF = {
 				limit = { is_male = no }
-				even_if_dead = yes
-				save_scope_as = the_ancestor
+				random_ancestor = {
+					limit = { is_male = no }
+					even_if_dead = yes
+					save_scope_as = the_ancestor
+				}
 			}
-		}
-		IF = {
-			limit = {
-				OR = {
-					AND = {
-						scope:the_ancestor = {
-							has_character_flag = name_pack_support
+			IF = {
+				limit = {
+					OR = {
+						AND = {
+							scope:the_ancestor = {
+								has_character_flag = name_pack_support
+							}
 						}
-					}
-					AND = {
-						scope:the_ancestor = {
-							exists = house
-							house = {
-								any_in_list = {
-									variable = name_pack_support_house
-									this = scope:the_ancestor
+						AND = {
+							scope:the_ancestor = {
+								exists = house
+								house = {
+									any_in_list = {
+										variable = name_pack_support_house
+										this = scope:the_ancestor
+									}
 								}
 							}
 						}
-					}
-					any_in_global_list = {
-						variable = name_pack_support_global
-						this = scope:the_ancestor
+						any_in_global_list = {
+							variable = name_pack_support_global
+							this = scope:the_ancestor
+						}
 					}
 				}
+				add_character_flag = name_pack_support
 			}
-			add_character_flag = name_pack_support
-		}
-		IF = {
-			limit = { has_character_flag = name_pack_support }
-			custom_description_no_bullet = {
-				text = scripted_gui_grab_name_widget
-				subject = scope:the_ancestor
-				object = scope:the_ancestor
-			}
-		}
-		else = {
-			custom_description_no_bullet = {
-				text = scripted_gui_grab_name_widget_no_support
-				subject = scope:the_ancestor
-				object = scope:the_ancestor
-			}
+			change_first_name = { template_character = scope:the_ancestor }
 		}
 	}
 }
@@ -2073,11 +2062,6 @@ CTP_faith_names = {
 					}
 				}
 			}
-		}
-		custom_description_no_bullet = {
-			text = scripted_gui_grab_name_widget
-			object = scope:effect_root
-			subject = scope:effect_root
 		}
 	}
 }
@@ -3411,11 +3395,6 @@ CTP_culture_names = {
 					}
 				}
 			}
-		}
-		custom_description_no_bullet = {
-			text = scripted_gui_grab_name_widget
-			object = scope:effect_root
-			subject = scope:effect_root
 		}
 	}
 }
