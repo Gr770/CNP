@@ -111,6 +111,8 @@
  scripted_gui_laqab_guide: "al-Hādī "
  scripted_gui_laqab_guided_god_2: "al-Mahdī bi-llāh "
  scripted_gui_laqab_blood_shedder: "as-Saffāḥ "
+ scripted_gui_laqab_seal_prophets: "Khātam an-Nabīyīn"
+ scripted_gui_laqab_guide_to_truth: "al-Hādī ila l-Ḥaqq"
 
  tier_gen_CTP: "[Localize(Concatenate(Concatenate(Concatenate(Concatenate(ROOT.Char.Custom('CharacterTier'),ROOT.Char.Custom('CharacterGender')),ROOT.Char.Custom('CharacterGov')),ROOT.Char.Custom('CharacterCulture')),ROOT.Char.Custom('CharacterReligion')))]"
  ####"[Localize(Concatenate(Concatenate(Concatenate(Concatenate(ROOT.Char.Custom('CharacterTier'),ROOT.Char.Custom('CharacterGender')),ROOT.Char.Custom('CharacterGov')),ROOT.Char.Custom('CharacterCulture')),ROOT.Char.Custom('CharacterReligion')))]"
