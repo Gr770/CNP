@@ -1,0 +1,26 @@
+﻿get_caliph_name = {
+    picture = "gfx/interface/illustrations/decisions/decision_personal_religious.dds"
+
+    desc = get_caliph_name_desc
+	selection_tooltip = get_caliph_name_tooltip
+
+    ai_goal = yes
+
+    is_shown = {
+		NOT = {
+			has_character_flag = has_caliph_laqab
+		}
+        has_title = title:d_sunni
+    }
+
+    effect = {
+        trigger_event = {
+            id = arabicnamepack.001
+            days = -1
+        }
+    }
+
+    ai_will_do = {
+        base = 80
+    }
+}
