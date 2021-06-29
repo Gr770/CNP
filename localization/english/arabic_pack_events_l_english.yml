@@ -1,0 +1,18 @@
+﻿l_english:
+
+get_caliph_laqab: "Set your Regal Name"
+get_caliph_laqab_desc: "It is tradition for new caliphs to have a pious laqab as there form of address."
+get_caliph_laqab_tooltip: "Generate a caliph laqab."
+get_caliph_laqab_confirm: "Prepare yours now."
+get_caliph_laqab_effect: "Achieve a new pious form of address."
+get_regnal_laqab: "Set your Regal Name"
+get_regnal_laqab_desc: "It is tradition for new rulers to have a laqab during the time of jihad."
+get_regnal_laqab_tooltip: "Generate a regnal laqab."
+get_regnal_laqab_confirm: "Prepare yours now."
+get_regnal_laqab_effect: "Achieve a new form of address."
+arabicnamepack.001.t: "A Pious Name"
+arabicnamepack.001.desc: "Upon becoming the head of the caliphate, many were wondering how you should be called. Your supporters shall wait no longer. You shall be called #high [GetScriptedGui('scripted_gui_ctp_laqab').ExecuteTooltip(GuiScope.SetRoot(ROOT.Char.MakeScope).End)]#!."
+arabicnamepack.001.a: "No, no... Not good enough."
+arabicnamepack.001.a.tt: "Randomly set a new name."
+arabicnamepack.001.b: "This fits me!"
+arabicnamepack.001.b.tt: "Set you laqab to the above."
