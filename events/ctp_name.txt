@@ -445,6 +445,7 @@ ctpname.002 = {
 		}
 		character:34014 = {
 			change_first_name = Muhammad
+			add_character_flag = has_caliph_laqab
 			add_to_global_variable_list = { name = laqab_triumphant_god target = this }
 		}
 		character:163021 = {

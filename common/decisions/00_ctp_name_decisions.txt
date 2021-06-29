@@ -4,8 +4,6 @@
     desc = get_caliph_name_desc
 	selection_tooltip = get_caliph_name_tooltip
 
-    ai_goal = yes
-
     is_shown = {
 		NOT = {
 			has_character_flag = has_caliph_laqab
@@ -23,4 +21,6 @@
     ai_will_do = {
         base = 80
     }
+
+    ai_goal = yes
 }
