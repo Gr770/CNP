@@ -764,7 +764,7 @@ ctpname.003 = {
 			add_to_global_variable_list = { name = laqab_seeker_support_god target = this }
 		}
 		character:159399 = {
-			add_to_global_variable_list = { name = laqab_guide_to_truth target = this }
+			add_to_global_variable_list = { name = laqab_summoner_truth target = this }
 		}
 	}
 }

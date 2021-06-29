@@ -8,7 +8,14 @@
 		NOT = {
 			has_character_flag = has_caliph_laqab
 		}
-        has_title = title:d_sunni
+        OR = {
+            has_title = title:d_sunni
+            has_title = title:d_shiite
+            AND = {
+                has_faith = faith:zayidi
+				root.faith.head_of_faith = root
+            }
+        }
     }
 
     effect = {
