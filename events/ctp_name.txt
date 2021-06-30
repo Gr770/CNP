@@ -481,6 +481,9 @@ ctpname.002 = {
 			add_to_global_variable_list = { name = laqab_summoner_truth target = this }
 			add_character_flag = has_caliph_laqab
 		}
+		character:bedouin0017 = {
+			change_first_name = Abdal-Hamid
+		}
 		character:70294 = {
 			add_character_flag = had_eldest_son
 			set_variable = { name = var_mom_eldest_son value = character:73686 }

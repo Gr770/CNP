@@ -20,4 +20,3 @@
  EVENT_SIGNATURE:0 "[CHARACTER.Custom('CTPNameNoTooltip')]"
  INTERACTION_REPLY_ITEM:1 "#T $INTERACTION$\n#!Sender: [CHARACTER.Custom('CTPName')]\n"
  BETROTHAL_ACTION_ITEM:0 "#T [CHARACTER.Custom('CTPName')] and [TARGET_CHARACTER.Custom('CTPName')] can marry#!\n#I Click to view\nRight-click to break betrothal#! "
- CHARACTER_ARMY_COMPOSITION_NAME:0 "Army of [CHARACTER.Custom('CTPShortNameNotMe')]"
