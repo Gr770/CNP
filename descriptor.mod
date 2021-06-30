@@ -6,6 +6,6 @@ tags={
 }
 name="CTP Experimental"
 picture="thumbnail.png"
-supported_version="1.4.2"
+supported_version="1.4.4"
 path="C:/Users/Mrgcg/Documents/Paradox Interactive/Crusader Kings III/mod/CTPExperimental"
 remote_file_id="2442795877"

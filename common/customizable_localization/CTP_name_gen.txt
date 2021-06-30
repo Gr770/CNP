@@ -917,6 +917,42 @@ CharacterReligion = {
         localization_key = _sufri
     }
     text = {
+        trigger = {
+            root.religion = religion:islam_religion
+        }
+        localization_key = _islam
+    }
+    text = {
+        trigger = {
+            root.faith = faith:catholic
+        }
+        localization_key = _catholic
+    }
+    text = {
+        trigger = {
+            root.faith = faith:orthodox
+        }
+        localization_key = _orthodox
+    }
+    text = {
+        trigger = {
+            root.faith = faith:coptic
+        }
+        localization_key = _coptic
+    }
+    text = {
+        trigger = {
+            root.faith = faith:iconoclast
+        }
+        localization_key = _iconoclast
+    }
+    text = {
+        trigger = {
+            root.religion = religion:christianity_religion
+        }
+        localization_key = _christian
+    }
+    text = {
         fallback = yes
         localization_key = _default
     }
