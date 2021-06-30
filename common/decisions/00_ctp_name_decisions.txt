@@ -14,7 +14,7 @@
             has_title = title:d_shiite
             AND = {
                 has_faith = faith:zayidi
-				root.faith.head_of_faith = root
+				root.faith.religious_head = root
             }
         }
     }
@@ -61,7 +61,7 @@ get_regnal_laqab = {
             has_title = title:d_shiite
             AND = {
                 has_faith = faith:zayidi
-				root.faith.head_of_faith = root
+				root.faith.religious_head = root
             }
 		}
     }

@@ -652,7 +652,6 @@ ctpname.002 = {
 	}
 }
 ctpname.003 = {
-	type = none
 	hidden = yes
 	trigger = {
 		year >= 1066
@@ -2058,7 +2057,7 @@ ctpname.500 = {
                                 modifier = {
                                     OR = {
                                         has_culture = culture:egyptian
-                                        has_cutlure = culture:levantine
+                                        has_culture = culture:levantine
                                     }
                                     has_religion = religion:christianity_religion
                                     add = 3

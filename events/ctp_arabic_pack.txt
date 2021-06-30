@@ -1,4 +1,4 @@
-namespace = arabicnamepack
+﻿namespace = arabicnamepack
 arabicnamepack.001 = {
     type = character_event
 	theme = faith
@@ -58,7 +58,7 @@ arabicnamepack.001 = {
 			0 = {
 				modifier = {
 					has_faith = faith:zayidi
-					root.faith.head_of_faith = root
+					root.faith.religious_head = root
 					add = 12
 				}
 				random_list = {
@@ -118,7 +118,7 @@ arabicnamepack.001 = {
 						has_title = title:d_shiite
 						AND = {
 							has_faith = faith:zayidi
-							root.faith.head_of_faith = root
+							root.faith.religious_head = root
 						}
 					}
 					add = 1
@@ -539,9 +539,6 @@ arabicnamepack.001 = {
 	option = {
 		name = arabicnamepack.001.b
 		custom_tooltip = arabicnamepack.001.b.tt
-		ai_will_do = {
-			base = 100
-		}
 		add_character_flag = has_caliph_laqab
 	}
 }
@@ -667,9 +664,6 @@ arabicnamepack.002 = {
 	option = {
 		name = arabicnamepack.001.b
 		custom_tooltip = arabicnamepack.001.b.tt
-		ai_will_do = {
-			base = 100
-		}
 		add_character_flag = has_regnal_laqab
 	}
 }

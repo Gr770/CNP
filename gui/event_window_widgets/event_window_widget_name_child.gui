@@ -117,7 +117,7 @@ vbox = {
 		
 		event_button_round = {
 			visible = "[GetScriptedGui('CTP_pack_support').IsShown(GuiScope.SetRoot(EventWindowWidgetNameCharacter.GetCharacter.MakeScope).End)]"
-			onclick = "[GerScriptedGui('CTP_random_ancestor').Execute(GuiScope.SetRoot(EventWindowWidgetNameCharacter.GetCharacter.MakeScope).End)]"
+			onclick = "[GetScriptedGui('CTP_random_ancestor').Execute(GuiScope.SetRoot(EventWindowWidgetNameCharacter.GetCharacter.MakeScope).End)]"
 			onclick = "[EventWindowWidgetNameCharacter.SetCurrentName( GetScriptedGui('CTP_random_ancestor').ExecuteTooltip(GuiScope.SetRoot(EventWindowWidgetNameCharacter.GetCharacter.MakeScope).End) )]"
 			onclick = "[PdxGuiTriggerAllAnimations('ancestor_name_refresh')]"
 			tooltip = "event_window_widget_name_child_after_random_ancestor"
