@@ -334,3 +334,7 @@
  mongol_demand_subjugation_interaction_desc:0 "Demand that [recipient.Custom('CTPShortNameNoTooltip')] becomes your [vassal|E], under threat of [war|E]"
  mongol_demand_subjugation_interaction_tooltip:0 "[recipient.Custom('CTPShortName')|U] gets a chance to respond"
  deposed_and_become_wanderer:0 "[recipient.Custom('CTPShortNameNoTooltip')] is [deposed|E] and becomes a [wanderer|E]"
+
+ GRANT_VASSAL_PROPOSAL:1 "Good tidings! I have decided to make [secondary_actor.Custom('CTPFullName2')] your vassal."
+ RETRACT_VASSAL_PROPOSAL:1 "I have come to the conclusion that, for the greater good of [secondary_actor.GetPrimaryTitle.GetNameNoTierNoTooltip], [recipient.Custom('CTPFullName2')] must be placed as a vassal under my direct authority."
+ auto_accept_interaction_ai:1 "It is in [TARGET_CHARACTER.Custom('CTPFirstNamePossessiveNoTooltip')] best interests"

@@ -1,0 +1,2 @@
+﻿l_english:
+ death_management.pinned.desc:2 "A person of interest to you, [dead_character.Custom.('CTPFullName2NoTooltip')], [dead_character.GetDeathReason]."

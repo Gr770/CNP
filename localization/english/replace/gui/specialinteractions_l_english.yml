@@ -145,3 +145,4 @@
  grant_title_modifier_stack_discontent:3 "The [faction|E] [recipient.Custom('CTPShortName')] belongs to loses some [discontent|E]"
  DECLARE_WAR_PLEDGED_TO_GHW_DESC:0 "You are pledged in a [great_holy_war|E] against [TARGET_CHARACTER.Custom('CTPShortName')], when it starts this [war|E] will end inconclusively. Do you wish to start the [war|E] anyway?"
  PLEDGE_GHW_ALREADY_AT_WAR_DESC:0 "You are already in a [war|E] against [TARGET_CHARACTER.Custom('CTPShortName')], when this [great_holy_war|E] starts that [war|E] will end inconclusively. Do you wish to pledge anyway?"
+ WAR_DEFENDER_ALLY_TOOLTIP:0 "[Character.Custom('CTPFullNameNicknamedNoTooltipRegnal')|T]\n[WarAllyItem.GetAllianceReason]"
