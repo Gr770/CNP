@@ -217,7 +217,7 @@ CTPTitledFirstNameOrMe = {
 	}
 	text = {
 		fallback = yes
-		localization_key = CTP_Titled_first_Name_Or_Me_Default_no_tooltip
+		localization_key = CTP_Titled_first_Name_Or_Me_Default
 	}
 }
 CTPTitledFirstNameOrMeNoTooltip = {
@@ -250,6 +250,25 @@ CTPTitledFirstNamePossessive = {
 	text = {
 		fallback = yes
 		localization_key = CTP_Titled_first_Name_Default_possessive
+	}
+}
+CTPTitledFirstNamePossessiveOrMy = {
+    type = character
+    text = {
+        trigger ={
+            is_local_player = yes
+        }
+        localization_key = CTP_My
+    }
+	text = {
+		trigger = {
+			has_culture_group = culture_group:arabic_group
+		}
+		localization_key = CTP_Name_Arabic_possessive
+	}
+	text = {
+		fallback = yes
+		localization_key = CTP_Titled_first_Name_Default_possessive_or_my
 	}
 }
 CTPTitledFirstNamePossessiveNoTooltip = {
@@ -432,7 +451,7 @@ CTPFirstName = {
 		trigger = {
 			has_culture_group = culture_group:arabic_group
 		}
-		localization_key = CTP_First_Name_Arabic
+		localization_key = CTP_Short_Name_Arabic
 	}
 	text = {
 		fallback = yes

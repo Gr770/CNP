@@ -52,7 +52,7 @@
  CTP_Full_Name_Nicknamed_Default_no_tooltip: "[ROOT.Char.GetFullNameNicknamedNoTooltip]"
  CTP_Full_Name_Nicknamed_Default_no_tooltip_regnal: "[ROOT.Char.GetFullNameNicknamedNoTooltipRegnal]"
 
- CTP_First_Name_Arabic: ""
+ CTP_First_Name_Default: "[ROOT.Char.GetFirstName]"
  CTP_First_Name_Default_no_tooltip: "[ROOT.Char.GetFirstNameNoTooltip]"
  CTP_First_Name_Or_Me_Default: "[ROOT.Char.GetFirstNameOrMe]"
  CTP_First_Name_Default_possessive: "[ROOT.Char.GetFirstNamePossessive]"
@@ -78,9 +78,10 @@
  CTP_Titled_first_Name_Nick_Default: "[ROOT.Char.GetTitledFirstNameNicknamed]"
  CTP_Titled_first_Name_Nick_Default_no_tooltip: "[ROOT.Char.GetTitledFirstNameNicknamedNoTooltip]"
  CTP_Titled_first_Name_Default_no_tooltip: "[ROOT.Char.GetTitledFirstNameNoTooltip]"
- CTP_Titled_first_Name_Or_Me_Default_no_tooltip: "[ROOT.Char.GetTitledFirstNameOrMe]"
+ CTP_Titled_first_Name_Or_Me_Default: "[ROOT.Char.GetTitledFirstNameOrMe]"
  CTP_Titled_first_Name_Or_Me_Default_no_tooltip: "[ROOT.Char.GetTitledFirstNameOrMeNoTooltip]"
  CTP_Titled_first_Name_Default_possessive: "[ROOT.Char.GetTitledFirstNamePossessive]"
+ CTP_Titled_first_Name_Default_possessive_or_my: "[ROOT.Char.GetTitledFirstNamePossessiveOrMy]"
  CTP_Titled_first_Name_Default_possessive_no_tooltip: "[ROOT.Char.GetTitledFirstNamePossessiveNoTooltip]"
  CTP_Titled_first_Name_Default_possessive_or_my_no_tooltip: "[ROOT.Char.GetTitledFirstNamePossessiveOrMyNoTooltip]"
 
