@@ -378,6 +378,41 @@ scripted_gui_trigger_laqab_manifest = {
 	third = scripted_gui_laqab_manifest
 	global = scripted_gui_laqab_manifest
 }
+scripted_gui_trigger_laqab_blessed_of_god = {
+	first = scripted_gui_laqab_blessed_of_god
+	third = scripted_gui_laqab_blessed_of_god
+	global = scripted_gui_laqab_blessed_of_god
+}
+scripted_gui_trigger_laqab_honorable = {
+	first = scripted_gui_laqab_honorable
+	third = scripted_gui_laqab_honorable
+	global = scripted_gui_laqab_honorable
+}
+scripted_gui_trigger_laqab_faithful = {
+	first = scripted_gui_laqab_faithful
+	third = scripted_gui_laqab_faithful
+	global = scripted_gui_laqab_faithful
+}
+scripted_gui_trigger_laqab_guide = {
+	first = scripted_gui_laqab_guide
+	third = scripted_gui_laqab_guide
+	global = scripted_gui_laqab_guide
+}
+scripted_gui_trigger_laqab_guided_god_2 = {
+	first = scripted_gui_laqab_guided_god_2
+	third = scripted_gui_laqab_guided_god_2
+	global = scripted_gui_laqab_guided_god_2
+}
+scripted_gui_trigger_laqab_blood_shedder = {
+	first = scripted_gui_laqab_blood_shedder
+	third = scripted_gui_laqab_blood_shedder
+	global = scripted_gui_laqab_blood_shedder
+}
+scripted_gui_trigger_laqab_seal_prophets = {
+	first = scripted_gui_laqab_seal_prophets
+	third = scripted_gui_laqab_seal_prophets
+	global = scripted_gui_laqab_seal_prophets
+}
 scripted_gui_trigger_get_name = {
 	first = scripted_gui_get_name
 	third = scripted_gui_get_name

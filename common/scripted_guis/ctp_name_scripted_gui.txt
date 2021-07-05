@@ -615,6 +615,41 @@ scripted_gui_ctp_laqab = {
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_manifest_scope
 				}
+				every_in_global_list = {
+					variable = laqab_blessed_of_god
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_blessed_of_god_scope
+				}
+				every_in_global_list = {
+					variable = laqab_honorable
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_honorable_scope
+				}
+				every_in_global_list = {
+					variable = laqab_faithful
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_faithful_scope
+				}
+				every_in_global_list = {
+					variable = laqab_guide
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_guide_scope
+				}
+				every_in_global_list = {
+					variable = laqab_guided_god_2
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_guided_god_2_scope
+				}
+				every_in_global_list = {
+					variable = laqab_blood_shedder
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_blood_shedder_scope
+				}
+				every_in_global_list = {
+					variable = laqab_seal_prophets
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_seal_prophets_scope
+				}
 			}
 		}
 		IF = {
@@ -1327,6 +1362,76 @@ scripted_gui_ctp_laqab = {
 				object = scope:effect_root
 			}
 		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_blessed_of_god_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_blessed_of_god
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_honorable_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_honorable
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_faithful_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_faithful
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_guide_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_guide
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_guided_god_2_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_guided_god_2
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_blood_shedder_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_blood_shedder
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_seal_prophets_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_seal_prophets
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
 		else = {
 			custom_description_no_bullet = {
 				text = ctp_blank_trigger_kunya
@@ -1696,6 +1801,41 @@ scripted_gui_ctp_laqab_tek_name_check = {
 					variable = laqab_manifest
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_manifest_scope
+				}
+				every_in_global_list = {
+					variable = laqab_blessed_of_god
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_blessed_of_god_scope
+				}
+				every_in_global_list = {
+					variable = laqab_honorable
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_honorable_scope
+				}
+				every_in_global_list = {
+					variable = laqab_faithful
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_faithful_scope
+				}
+				every_in_global_list = {
+					variable = laqab_guide
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_guide_scope
+				}
+				every_in_global_list = {
+					variable = laqab_guided_god_2
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_guided_god_2_scope
+				}
+				every_in_global_list = {
+					variable = laqab_blood_shedder
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_blood_shedder_scope
+				}
+				every_in_global_list = {
+					variable = laqab_seal_prophets
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_seal_prophets_scope
 				}
 			}
 			IF = {
@@ -2486,6 +2626,76 @@ scripted_gui_ctp_laqab_tek_name_check = {
 			}
 			custom_description_no_bullet = {
 				text = scripted_gui_trigger_laqab_manifest
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_blessed_of_god_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_blessed_of_god
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_honorable_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_honorable
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_faithful_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_faithful
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_guide_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_guide
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_guided_god_2_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_guided_god_2
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_blood_shedder_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_blood_shedder
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_seal_prophets_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_seal_prophets
 				subject = scope:effect_root
 				object = scope:effect_root
 			}
