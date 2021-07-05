@@ -1149,6 +1149,7 @@ CharacterGov = {
             OR = {
                 root.faith.religious_head = root
                 any_in_global_list = {
+                    variable = global_list_dead_hofs
                     this = root
                 }
             }
