@@ -431,7 +431,7 @@ ctpname.002 = {
 		}
 		character:34014 = {
 			change_first_name = Muhammad
-			add_to_global_variable_list = { name = laqab_triumphant_god target = this }
+			add_to_global_variable_list = { name = laqab_strengthened_god target = this }
 		}
 		character:163021 = {
 			change_first_name = Uthman
@@ -443,8 +443,7 @@ ctpname.002 = {
 			change_first_name = Jafar
 		}
 		character:34012 = {
-			change_first_name = Muhammad
-			add_to_global_variable_list = { name = laqab_strengthened_god target = this }
+			add_to_global_variable_list = { name = laqab_triumphant_god target = this }
 		}
 		character:34015 = {
 			change_first_name = Muhammad
