@@ -1120,7 +1120,7 @@ CharacterTier = {
     }
     text = {
         trigger = {
-            is_lowborn = no
+            has_trait = sayyid
         }
         localization_key = lord
     }

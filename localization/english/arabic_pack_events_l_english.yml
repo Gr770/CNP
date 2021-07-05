@@ -1,7 +1,7 @@
 ﻿l_english:
 
 get_caliph_laqab: "Set your Regnal Name"
-get_caliph_laqab_desc: "It is tradition for new caliphs to have a pious laqab as there form of address."
+get_caliph_laqab_desc: "It is tradition for new caliphs to have a pious laqab as their form of address."
 get_caliph_laqab_tooltip: "Generate a caliph laqab."
 get_caliph_laqab_confirm: "Prepare yours now."
 get_caliph_laqab_effect: "Achieve a new pious form of address."
