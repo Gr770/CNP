@@ -221,5 +221,9 @@
  scripted_gui_laqab_fortifier_dynasty: "Muʿizz ad-Dawla "
  scripted_gui_laqab_orthodox_dynasty: "Rašīd ad-Dawla "
 
+ scripted_gui_laqab_gives_victory_righteousness_faith: "an-Nāṣir Ṣalāḥ ad-Dīn "
+ scripted_gui_laqab_purity_faith_f: "ʿIṣmat ad-Dīn "
+ scripted_gui_just_sword_faith: "al-ʿĀdil Sayf ad-Dīn "
+
  tier_gen_CTP: "[Localize(Concatenate(Concatenate(Concatenate(Concatenate(ROOT.Char.Custom('CharacterTier'),ROOT.Char.Custom('CharacterGender')),ROOT.Char.Custom('CharacterGov')),ROOT.Char.Custom('CharacterCulture')),ROOT.Char.Custom('CharacterReligion')))]"
  ####"[Localize(Concatenate(Concatenate(Concatenate(Concatenate(ROOT.Char.Custom('CharacterTier'),ROOT.Char.Custom('CharacterGender')),ROOT.Char.Custom('CharacterGov')),ROOT.Char.Custom('CharacterCulture')),ROOT.Char.Custom('CharacterReligion')))]"

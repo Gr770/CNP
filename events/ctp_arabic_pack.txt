@@ -655,6 +655,116 @@ arabicnamepack.002 = {
 			remove_list_global_variable = { name = laqab_the_summoning target = root }
 			remove_character_flag = laqab_the_summoning
 		}
+		else_if = {
+			limit = { has_character_flag = laqab_the_victorious }
+			remove_list_global_variable = { name = laqab_the_victorious target = root }
+			remove_character_flag = laqab_the_victorious
+		}
+		else_if = {
+			limit = { has_character_flag = laqab_the_empowering }
+			remove_list_global_variable = { name = laqab_the_empowering target = root }
+			remove_character_flag = laqab_the_empowering
+		}
+		else_if = {
+			limit = { has_character_flag = laqab_gives_victory }
+			remove_list_global_variable = { name = laqab_gives_victory target = root }
+			remove_character_flag = laqab_gives_victory
+		}
+		else_if = {
+			limit = { has_character_flag = laqab_restorer_religion_god }
+			remove_list_global_variable = { name = laqab_restorer_religion_god target = root }
+			remove_character_flag = laqab_restorer_religion_god
+		}
+		else_if = {
+			limit = { has_character_flag = laqab_best }
+			remove_list_global_variable = { name = laqab_best target = root }
+			remove_character_flag = laqab_best
+		}
+		else_if = {
+			limit = { has_character_flag = laqab_best }
+			remove_list_global_variable = { name = laqab_best target = root }
+			remove_character_flag = laqab_best
+		}
+		else_if = {
+			limit = { has_character_flag = laqab_most_noble }
+			remove_list_global_variable = { name = laqab_most_noble target = root }
+			remove_character_flag = laqab_most_noble
+		}
+		else_if = {
+			limit = { has_character_flag = laqab_peerless }
+			remove_list_global_variable = { name = laqab_peerless target = root }
+			remove_character_flag = laqab_peerless
+		}
+		else_if = {
+			limit = { has_character_flag = laqab_mighty }
+			remove_list_global_variable = { name = laqab_mighty target = root }
+			remove_character_flag = laqab_mighty
+		}
+		else_if = {
+			limit = { has_character_flag = laqab_dominant }
+			remove_list_global_variable = { name = laqab_dominant target = root }
+			remove_character_flag = laqab_dominant
+		}
+		else_if = {
+			limit = { has_character_flag = laqab_magnanimous }
+			remove_list_global_variable = { name = laqab_magnanimous target = root }
+			remove_character_flag = laqab_magnanimous
+		}
+		else_if = {
+			limit = { has_character_flag = laqab_perfect }
+			remove_list_global_variable = { name = laqab_perfect target = root }
+			remove_character_flag = laqab_perfect
+		}
+		else_if = {
+			limit = { has_character_flag = laqab_exalted }
+			remove_list_global_variable = { name = laqab_exalted target = root }
+			remove_character_flag = laqab_exalted
+		}
+		else_if = {
+			limit = { has_character_flag = laqab_beneficent }
+			remove_list_global_variable = { name = laqab_beneficent target = root }
+			remove_character_flag = laqab_beneficent
+		}
+		else_if = {
+			limit = { has_character_flag = laqab_glorifying }
+			remove_list_global_variable = { name = laqab_glorifying target = root }
+			remove_character_flag = laqab_glorifying
+		}
+		else_if = {
+			limit = { has_character_flag = laqab_striving_islam }
+			remove_list_global_variable = { name = laqab_striving_islam target = root }
+			remove_character_flag = laqab_striving_islam
+		}
+		else_if = {
+			limit = { has_character_flag = laqab_victorious }
+			remove_list_global_variable = { name = laqab_victorious target = root }
+			remove_character_flag = laqab_victorious
+		}
+		else_if = {
+			limit = { has_character_flag = laqab_merciful }
+			remove_list_global_variable = { name = laqab_merciful target = root }
+			remove_character_flag = laqab_merciful
+		}
+		else_if = {
+			limit = { has_character_flag = laqab_joyous }
+			remove_list_global_variable = { name = laqab_joyous target = root }
+			remove_character_flag = laqab_joyous
+		}
+		else_if = {
+			limit = { has_character_flag = laqab_pious }
+			remove_list_global_variable = { name = laqab_pious target = root }
+			remove_character_flag = laqab_pious
+		}
+		else_if = {
+			limit = { has_character_flag = laqab_triumphat }
+			remove_list_global_variable = { name = laqab_triumphat target = root }
+			remove_character_flag = laqab_triumphat
+		}
+		else_if = {
+			limit = { has_character_flag = laqab_manifest }
+			remove_list_global_variable = { name = laqab_manifest target = root }
+			remove_character_flag = laqab_manifest
+		}
 		trigger_event = {
 			id = arabicnamepack.002
 			days = -1

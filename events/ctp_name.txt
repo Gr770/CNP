@@ -1347,6 +1347,55 @@ ctpname.004 = {
 		}
 	}
 }
+ctpname.007 = {
+	type = none
+	hidden = yes
+	trigger = {
+		current_date > 1083.12.31
+	}
+	immediate = {
+		add_to_global_variable_list = { name = name_pack_support_global target = character:1000230506 }
+		dynasty:24000 = {
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:226000 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:226054 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:226052 }
+		}
+		character:226052 = {
+			change_first_name = Ahmed
+			add_to_global_variable_list = { name = laqab_just_sword_faith target = this }
+		}
+		character:1000230506 = {
+			change_first_name = Asimat
+			add_to_global_variable_list = { name = laqab_purity_faith_f target = this }
+		}
+		character:226054 = {
+			change_first_name = Ghazi
+		}
+		character:226000 = {
+			change_first_name = Yusuf
+			add_to_global_variable_list = { name = laqab_gives_victory_righteousness_faith target = this }
+		}
+	}
+}
+ctpname.008 = {
+	type = none
+	hidden = yes
+	trigger = {
+		game_start_date = 1084.1.1
+	}
+	immediate = {
+		character:226052 = {
+			add_character_flag = has_regnal_laqab
+			add_character_flag = had_eldest_son
+			set_variable = { name = var_dad_eldest_son value = character:226051 }
+		}
+		character:226000 = {
+			add_character_flag = has_regnal_laqab
+			add_character_flag = had_eldest_son
+			set_variable = { name = var_dad_eldest_son value = character:226051 }
+		}
+	}
+}
 ctpname.999 = {
 	type = character_event
 	hidden = yes
