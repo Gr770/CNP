@@ -100,7 +100,7 @@
  CTPPatPrefix_arabic_female: "bint "
 #Nickname
 
- CTP_NickName: " [ROOT.Char.GetNickname]"
+ CTP_NickName: " '[ROOT.Char.GetNickname]'"
  Gui_blank: ""
 
 #Tek
@@ -194,7 +194,19 @@
  scripted_gui_laqab_guide: "al-Hādī "
  scripted_gui_laqab_guided_god_2: "al-Mahdī bi-llāh "
  scripted_gui_laqab_blood_shedder: "as-Saffāḥ "
- scripted_gui_laqab_seal_prophets: "Khātam an-Nabīyīn"
+ scripted_gui_laqab_seal_prophets: "Khātam an-Nabīyīn "
+
+ scripted_gui_laqab_fort_dynasty: "Hisn ad-Dawla "
+ scripted_gui_laqab_qadir: "al-Qādir bi-llāh "
+ scripted_gui_laqab_victorious_will_god: "al-Qāhir bi-llāh "
+ scripted_gui_laqab_dignity_dynasty: "al-Qāhir bi-llāh "
+ scripted_gui_laqab_Alam: "Alam ad-Dīn "
+ scripted_gui_laqab_Zaim: "Zaʿim ad-Dawla "
+ scripted_gui_laqab_Mutamid_dynasty: "Muʿtamid ad-Dawla "
+ scripted_gui_laqab_Husam: "Husam ad-Dawla "
+ scripted_gui_laqab_lion_cub_dynasty: "Šibl ad-Dawla "
+ scripted_gui_laqab_lion_dynasty: "ʾAsad ad-Dawla "
+ scripted_gui_laqab_fortifier_dynasty: "Muʿizz ad-Dawla "
 
  tier_gen_CTP: "[Localize(Concatenate(Concatenate(Concatenate(Concatenate(ROOT.Char.Custom('CharacterTier'),ROOT.Char.Custom('CharacterGender')),ROOT.Char.Custom('CharacterGov')),ROOT.Char.Custom('CharacterCulture')),ROOT.Char.Custom('CharacterReligion')))]"
  ####"[Localize(Concatenate(Concatenate(Concatenate(Concatenate(ROOT.Char.Custom('CharacterTier'),ROOT.Char.Custom('CharacterGender')),ROOT.Char.Custom('CharacterGov')),ROOT.Char.Custom('CharacterCulture')),ROOT.Char.Custom('CharacterReligion')))]"
