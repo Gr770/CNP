@@ -408,11 +408,6 @@ scripted_gui_trigger_laqab_blood_shedder = {
 	third = scripted_gui_laqab_blood_shedder
 	global = scripted_gui_laqab_blood_shedder
 }
-scripted_gui_trigger_laqab_seal_prophets = {
-	first = scripted_gui_laqab_seal_prophets
-	third = scripted_gui_laqab_seal_prophets
-	global = scripted_gui_laqab_seal_prophets
-}
 scripted_gui_trigger_laqab_fort_dynasty = {
 	first = scripted_gui_laqab_fort_dynasty
 	third = scripted_gui_laqab_fort_dynasty

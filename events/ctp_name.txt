@@ -57,7 +57,6 @@ ctpname.002 = {
 		add_to_global_variable_list = { name = global_list_dead_hofs target = character:163021 }
 		add_to_global_variable_list = { name = global_list_dead_hofs target = character:163015 }
 		add_to_global_variable_list = { name = global_list_dead_hofs target = character:163014 }
-		add_to_global_variable_list = { name = global_list_dead_hofs target = character:33922 }
 		add_to_global_variable_list = { name = global_list_dead_hofs target = character:168592 }
 		add_to_global_variable_list = { name = global_list_dead_hofs target = character:161510 }
 		add_to_global_variable_list = { name = global_list_dead_hofs target = character:161519 }
@@ -387,9 +386,6 @@ ctpname.002 = {
 		}
 		dynasty:bedouindyn013 = {
 			add_to_variable_list = { name = name_pack_support_dynasty target = character:bedouin0159 }
-		}
-		character:33922 = {
-			add_to_global_variable_list = { name = laqab_seal_prophets target = this }	
 		}
 		character:33910 = {
 			change_first_name = Imran

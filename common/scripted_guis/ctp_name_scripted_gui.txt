@@ -646,11 +646,6 @@ scripted_gui_ctp_laqab = {
 					save_scope_as = laqab_blood_shedder_scope
 				}
 				every_in_global_list = {
-					variable = laqab_seal_prophets
-					limit = { scope:effect_root = THIS }
-					save_scope_as = laqab_seal_prophets_scope
-				}
-				every_in_global_list = {
 					variable = laqab_fort_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_fort_dynasty_scope
@@ -1484,16 +1479,6 @@ scripted_gui_ctp_laqab = {
 		}
 		else_if = {
 			limit = {
-				exists = scope:laqab_seal_prophets_scope
-			}
-			custom_description_no_bullet = {
-				text = scripted_gui_trigger_laqab_seal_prophets
-				subject = scope:effect_root
-				object = scope:effect_root
-			}
-		}
-		else_if = {
-			limit = {
 				exists = scope:laqab_fort_dynasty_scope
 			}
 			custom_description_no_bullet = {
@@ -2011,11 +1996,6 @@ scripted_gui_ctp_laqab_tek_name_check = {
 					variable = laqab_blood_shedder
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_blood_shedder_scope
-				}
-				every_in_global_list = {
-					variable = laqab_seal_prophets
-					limit = { scope:effect_root = THIS }
-					save_scope_as = laqab_seal_prophets_scope
 				}
 				every_in_global_list = {
 					variable = laqab_fort_dynasty
@@ -2926,16 +2906,6 @@ scripted_gui_ctp_laqab_tek_name_check = {
 			}
 			custom_description_no_bullet = {
 				text = scripted_gui_trigger_laqab_blood_shedder
-				subject = scope:effect_root
-				object = scope:effect_root
-			}
-		}
-		else_if = {
-			limit = {
-				exists = scope:laqab_seal_prophets_scope
-			}
-			custom_description_no_bullet = {
-				text = scripted_gui_trigger_laqab_seal_prophets
 				subject = scope:effect_root
 				object = scope:effect_root
 			}

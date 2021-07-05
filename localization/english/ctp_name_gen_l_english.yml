@@ -15,6 +15,16 @@
  CTP_Short_Name_Arabic_possessive: "#ONCLICK:CHARACTER,[ROOT.Char.GetID] #TOOLTIP:CHARACTER,[ROOT.Char.GetID] #high #L [GetScriptedGui('scripted_gui_ctp_laqab_tek_name_check').ExecuteTooltip(GuiScope.SetRoot(ROOT.Char.MakeScope).End)]'s#!#!#!#!"
  CTP_Short_Name_Arabic_no_tooltip_possessive: "#high [GetScriptedGui('scripted_gui_ctp_laqab_tek_name_check').ExecuteTooltip(GuiScope.SetRoot(ROOT.Char.MakeScope).End)]'s#!"
 
+ CTP_Name_Arabic_no_format: "#ONCLICK:CHARACTER,[ROOT.Char.GetID] #TOOLTIP:CHARACTER,[ROOT.Char.GetID] #L [Localize(Concatenate(Concatenate(Concatenate(Concatenate(ROOT.Char.Custom('CharacterTier'),ROOT.Char.Custom('CharacterGender')),ROOT.Char.Custom('CharacterGov')),ROOT.Char.Custom('CharacterCulture')),ROOT.Char.Custom('CharacterReligion')))][GetScriptedGui('scripted_gui_ctp_laqab_tek_name_check').ExecuteTooltip(GuiScope.SetRoot(ROOT.Char.MakeScope).End)][ROOT.Char.Custom('NickCheck')]#!#!#!"
+ CTP_Name_Arabic_no_tooltip_no_format: "[Localize(Concatenate(Concatenate(Concatenate(Concatenate(ROOT.Char.Custom('CharacterTier'),ROOT.Char.Custom('CharacterGender')),ROOT.Char.Custom('CharacterGov')),ROOT.Char.Custom('CharacterCulture')),ROOT.Char.Custom('CharacterReligion')))][GetScriptedGui('scripted_gui_ctp_laqab_tek_name_check').ExecuteTooltip(GuiScope.SetRoot(ROOT.Char.MakeScope).End)][ROOT.Char.Custom('NickCheck')]"
+ CTP_Name_Arabic_possessive_no_format: "#ONCLICK:CHARACTER,[ROOT.Char.GetID] #TOOLTIP:CHARACTER,[ROOT.Char.GetID] #L [Localize(Concatenate(Concatenate(Concatenate(Concatenate(ROOT.Char.Custom('CharacterTier'),ROOT.Char.Custom('CharacterGender')),ROOT.Char.Custom('CharacterGov')),ROOT.Char.Custom('CharacterCulture')),ROOT.Char.Custom('CharacterReligion')))][GetScriptedGui('scripted_gui_ctp_laqab_tek_name_check').ExecuteTooltip(GuiScope.SetRoot(ROOT.Char.MakeScope).End)]'s#!#!#!"
+ CTP_Name_Arabic_no_tooltip_possesive_no_format: "[Localize(Concatenate(Concatenate(Concatenate(Concatenate(ROOT.Char.Custom('CharacterTier'),ROOT.Char.Custom('CharacterGender')),ROOT.Char.Custom('CharacterGov')),ROOT.Char.Custom('CharacterCulture')),ROOT.Char.Custom('CharacterReligion')))][GetScriptedGui('scripted_gui_ctp_laqab_tek_name_check').ExecuteTooltip(GuiScope.SetRoot(ROOT.Char.MakeScope).End)]'s"
+
+ CTP_Short_Name_Arabic_no_format: "#ONCLICK:CHARACTER,[ROOT.Char.GetID] #TOOLTIP:CHARACTER,[ROOT.Char.GetID] #L [GetScriptedGui('scripted_gui_ctp_laqab_tek_name_check').ExecuteTooltip(GuiScope.SetRoot(ROOT.Char.MakeScope).End)]#!#!#!"
+ CTP_Short_Name_Arabic_no_tooltip_no_format: "[GetScriptedGui('scripted_gui_ctp_laqab_tek_name_check').ExecuteTooltip(GuiScope.SetRoot(ROOT.Char.MakeScope).End)]"
+ CTP_Short_Name_Arabic_possessive_no_format: "#ONCLICK:CHARACTER,[ROOT.Char.GetID] #TOOLTIP:CHARACTER,[ROOT.Char.GetID] #L [GetScriptedGui('scripted_gui_ctp_laqab_tek_name_check').ExecuteTooltip(GuiScope.SetRoot(ROOT.Char.MakeScope).End)]'s#!#!#!"
+ CTP_Short_Name_Arabic_no_tooltip_possessive_no_format: "[GetScriptedGui('scripted_gui_ctp_laqab_tek_name_check').ExecuteTooltip(GuiScope.SetRoot(ROOT.Char.MakeScope).End)]'s"
+
  CTP_Title_as_Name_Arabic: "#ONCLICK:CHARACTER,[ROOT.Char.GetID] #TOOLTIP:CHARACTER,[ROOT.Char.GetID] #high #L [Localize(Concatenate(Concatenate(Concatenate(Concatenate(ROOT.Char.Custom('CharacterTier'),ROOT.Char.Custom('CharacterGender')),ROOT.Char.Custom('CharacterGov')),ROOT.Char.Custom('CharacterCulture')),ROOT.Char.Custom('CharacterReligion')))]#!#!#!#!"
  CTP_Title_as_Name_Arabic_no_tooltip: "#high [Localize(Concatenate(Concatenate(Concatenate(Concatenate(ROOT.Char.Custom('CharacterTier'),ROOT.Char.Custom('CharacterGender')),ROOT.Char.Custom('CharacterGov')),ROOT.Char.Custom('CharacterCulture')),ROOT.Char.Custom('CharacterReligion')))]#!"
  CTP_Title_as_Name_Arabic_possesive: "#ONCLICK:CHARACTER,[ROOT.Char.GetID] #TOOLTIP:CHARACTER,[ROOT.Char.GetID] #high #L [Localize(Concatenate(Concatenate(Concatenate(Concatenate(ROOT.Char.Custom('CharacterTier'),ROOT.Char.Custom('CharacterGender')),ROOT.Char.Custom('CharacterGov')),ROOT.Char.Custom('CharacterCulture')),ROOT.Char.Custom('CharacterReligion')))]'s#!#!#!#!"
@@ -194,8 +204,6 @@
  scripted_gui_laqab_guide: "al-Hādī "
  scripted_gui_laqab_guided_god_2: "al-Mahdī bi-llāh "
  scripted_gui_laqab_blood_shedder: "as-Saffāḥ "
- scripted_gui_laqab_seal_prophets: "Khātam an-Nabīyīn "
-
  scripted_gui_laqab_fort_dynasty: "Hisn ad-Dawla "
  scripted_gui_laqab_qadir: "al-Qādir bi-llāh "
  scripted_gui_laqab_victorious_will_god: "al-Qāhir bi-llāh "
