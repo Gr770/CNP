@@ -443,6 +443,7 @@ ctpname.002 = {
 			change_first_name = Jafar
 		}
 		character:34012 = {
+			change_first_name = Muhammad
 			add_to_global_variable_list = { name = laqab_triumphant_god target = this }
 		}
 		character:34015 = {
