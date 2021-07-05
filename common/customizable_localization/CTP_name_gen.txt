@@ -207,7 +207,7 @@ CTPTitledFirstNameOrMe = {
         trigger ={
             is_local_player = yes
         }
-        localization_key = CTP_Me
+        localization_key = CTP_Me_no_format
     }
 	text = {
 		trigger = {
@@ -226,7 +226,7 @@ CTPTitledFirstNameOrMeNoTooltip = {
         trigger ={
             is_local_player = yes
         }
-        localization_key = CTP_Me
+        localization_key = CTP_Me_no_tooltip_no_format
     }
 	text = {
 		trigger = {
@@ -258,7 +258,7 @@ CTPTitledFirstNamePossessiveOrMy = {
         trigger ={
             is_local_player = yes
         }
-        localization_key = CTP_My
+        localization_key = CTP_My_no_format
     }
 	text = {
 		trigger = {
@@ -290,7 +290,7 @@ CTPTitledFirstNamePossessiveOrMyNoTooltip = {
         trigger ={
             is_local_player = yes
         }
-        localization_key = CTP_My
+        localization_key = CTP_My_no_tooltip_no_format
     }
 	text = {
 		trigger = {
@@ -387,7 +387,7 @@ CTPRegNameOrMe = {
         trigger ={
             is_local_player = yes
         }
-        localization_key = CTP_Me
+        localization_key = CTP_Me_no_format
     }
 	text = {
 		trigger = {
@@ -432,7 +432,7 @@ CTPRegNamePossessiveOrMy = {
         trigger ={
             is_local_player = yes
         }
-        localization_key = CTP_My
+        localization_key = CTP_My_no_format
     }
 	text = {
 		trigger = {
@@ -477,7 +477,7 @@ CTPFirstNameOrMe = {
         trigger ={
             is_local_player = yes
         }
-        localization_key = CTP_Me
+        localization_key = CTP_Me_no_format
     }
 	text = {
 		trigger = {
@@ -496,7 +496,7 @@ CTPFirstNamePossessiveOrMy = {
         trigger ={
             is_local_player = yes
         }
-        localization_key = CTP_My
+        localization_key = CTP_My_no_format
     }
 	text = {
 		trigger = {
