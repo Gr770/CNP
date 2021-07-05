@@ -413,6 +413,61 @@ scripted_gui_trigger_laqab_seal_prophets = {
 	third = scripted_gui_laqab_seal_prophets
 	global = scripted_gui_laqab_seal_prophets
 }
+scripted_gui_trigger_laqab_fort_dynasty = {
+	first = scripted_gui_laqab_fort_dynasty
+	third = scripted_gui_laqab_fort_dynasty
+	global = scripted_gui_laqab_fort_dynasty
+}
+scripted_gui_trigger_laqab_qadir = {
+	first = scripted_gui_laqab_qadir
+	third = scripted_gui_laqab_qadir
+	global = scripted_gui_laqab_qadir
+}
+scripted_gui_trigger_laqab_victorious_will_god = {
+	first = scripted_gui_laqab_victorious_will_god
+	third = scripted_gui_laqab_victorious_will_god
+	global = scripted_gui_laqab_victorious_will_god
+}
+scripted_gui_trigger_laqab_dignity_dynasty = {
+	first = scripted_gui_laqab_dignity_dynasty
+	third = scripted_gui_laqab_dignity_dynasty
+	global = scripted_gui_laqab_dignity_dynasty
+}
+scripted_gui_trigger_laqab_Alam = {
+	first = scripted_gui_laqab_Alam
+	third = scripted_gui_laqab_Alam
+	global = scripted_gui_laqab_Alam
+}
+scripted_gui_trigger_laqab_Zaim = {
+	first = scripted_gui_laqab_Zaim
+	third = scripted_gui_laqab_Zaim
+	global = scripted_gui_laqab_Zaim
+}
+scripted_gui_trigger_laqab_Mutamid_dynasty = {
+	first = scripted_gui_laqab_Mutamid_dynasty
+	third = scripted_gui_laqab_Mutamid_dynasty
+	global = scripted_gui_laqab_Mutamid_dynasty
+}
+scripted_gui_trigger_laqab_Husam = {
+	first = scripted_gui_laqab_Husam
+	third = scripted_gui_laqab_Husam
+	global = scripted_gui_laqab_Husam
+}
+scripted_gui_trigger_laqab_lion_cub_dynasty = {
+	first = scripted_gui_laqab_lion_cub_dynasty
+	third = scripted_gui_laqab_lion_cub_dynasty
+	global = scripted_gui_laqab_lion_cub_dynasty
+}
+scripted_gui_trigger_laqab_lion_dynasty = {
+	first = scripted_gui_laqab_lion_dynasty
+	third = scripted_gui_laqab_lion_dynasty
+	global = scripted_gui_laqab_lion_dynasty
+}
+scripted_gui_trigger_laqab_fortifier_dynasty = {
+	first = scripted_gui_laqab_fortifier_dynasty
+	third = scripted_gui_laqab_fortifier_dynasty
+	global = scripted_gui_laqab_fortifier_dynasty
+}
 scripted_gui_trigger_get_name = {
 	first = scripted_gui_get_name
 	third = scripted_gui_get_name

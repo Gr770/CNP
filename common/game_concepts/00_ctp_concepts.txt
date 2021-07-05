@@ -36,6 +36,7 @@ matronym = {
 	parent = personal_name
 }
 regnal_name = {
+	alias = { regnal_names }
 	parent = personal_name
 }
 personal_name = {
