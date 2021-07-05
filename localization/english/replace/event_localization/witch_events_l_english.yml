@@ -1,13 +1,89 @@
 ﻿l_english:
+ child_witch_conversion_success_effect.desc:0 "[child.Custom('CTPFirstNameNoTooltip')] is convinced"
+ child_witch_conversion_failure_effect.desc:0 "[child.Custom('CTPFirstNameNoTooltip')] is doubtful"
+ child_witch_conversion_critical_failure_effect.desc:0 "[child.Custom('CTPFirstNameNoTooltip')] reveals my secret"
+ child_witch_conversion_critical_failure_effect.liege.desc:0 "[child.Custom('CTPFirstNameNoTooltip')] reveals witch guardian"
+
+ witch.1002.b:0 "[child.Custom('CTPFirstNameNoTooltip')] is a lost cause."
+
+ witch.2001.start.desc:0 "I cannot force [target.Custom('CTPFirstName')] to see the truth, but I have done all I can to open [target.GetHerHis] mind to it."
+ witch.2001.secrecy.desc:0 "I pray to [owner.GetFaith.WitchGodName] that [target.Custom('CTPFirstNameNoTooltip')] has connected to something in our innocent conversations and the sacred texts I left in [target.GetHerHis] chambers."
+ witch.2001.no_secrecy.desc:0 "I pray to [owner.GetFaith.WitchGodName] that [target.Custom('CTPFirstNameNoTooltip')] has connected to something in those long discussions and the sacred texts I gave [target.GetHerHim]."
+ witch.2001.end.desc:0 "\n\nNow I must go to [target.GetHerHim] and extend the invitation to [owner.GetFaith.WitchGodHerHis|U] communion — or give up on this endeavor."
+ witch.2001.b2:0 "[target.Custom('CTPFirstNameNoTooltip')] isn't ready."
  witch.2001.a.tt:1 "You go ahead with your plan to convert [target.Custom('CTPShortName')] to the path of [owner.GetFaith.WitchGodName]"
+
+ witch.2002.start.desc:0 "As I open my eyes in the dark, I am immediately overwhelmed by an ominous feeling. Is someone watching me?\n\n"Are you ready to embrace the truth, [ROOT.Char.Custom('CTPFirstNameNoTooltip')]?""
+ witch.2002.c:0 "The world will know of your sin, [owner.Custom('CTPFirstNameNoTooltip')]!"
+
+ witch.2003.desc:0 "I watch the sleeping shape of [target.Custom('CTPFirstName')] while I send a quick prayer to [owner.GetFaith.WitchGodName]. As soon as the last whispered word pass my lips, [target.GetSheHe] stirs, as if [target.GetHerHis] subconscious mind has waited for this moment.\n\nWhen I step out of the shadows and offer [target.Custom('CTPFirstNameNoTooltip')] [owner.GetFaith.WitchGodHerHis|U] blessing, there is no fear or hesitation in [target.GetHerHis] eyes. No, [target.GetHerHis] acceptance is whole-hearted and hungry."
+
  witch.2003.b.tt:0 "[target.Custom('CTPShortName')|U] must know of your [secret|E] to be invited to a $activity_witch_ritual$"
+ 
+ witch.2004.start.desc:0 "[target.Custom('CTPFirstName')] stirs from sleep as I climb through [target.GetHerHis] window. "Who goes there?" [target.GetSheHe] demands with an unsteady voice.\n\n"My name is not relevant. I am here in the service of [owner.GetFaith.WitchGodName]."\n\n"
+ witch.2004.discovered.desc:0 "[target.Custom('CTPFirstNameNoTooltip')] squints. "[ROOT.Char.Custom('CTPFirstNameNoTooltip')], is that you? '[owner.GetFaith.WitchGodName|U]'? What is this nonsense?!"
+ witch.2004.not_discovered.desc:0 "[target.Custom('CTPFirstNameNoTooltip')] scrambles out of bed, reaching for something on [target.GetHerHis] bedside table. Probably nothing good. "I want nothing to do with you or your lies! Begone, demon!" [target.Custom('CTPFirstNameNoTooltip')] shouts, and I am not slow to obey."
+ 
+ witch.2005.end.desc:0 "[ROOT.Char.Custom('CTPFirstNameNoTooltip')], is that you? '[owner.GetFaith.WitchGodName|U]'? [target.GetLiege.Custom2('MyCharacterIntroduction', target)|U] will hear of your blasphemy!""
+ 
+ witch.2006.desc:0 "[target.Custom2('MyCharacterIntroduction', ROOT.Char)|U] is not in [target.GetHerHis] bed as I sneak through [target.GetHerHis] window on my mission from [owner.GetFaith.WitchGodName]. Where would–\n\n"Who is that?!"\n\nI twist around to find [target.Custom('CTPTitledFirstName')] crouched over a pentagram sketched on the floor."
+ 
+ witch.talk.2010:1 "[target.Custom('CTPFirstName')] and I talk about [owner.GetFaith.WitchGodName] and [owner.GetFaith.WitchGodHerHis] will for many hours. When the sky subtly shifts to blue at the horizon, we make our farewells."
+ witch.leave.2010:0 "Once I have imparted the most essential of [ROOT.Char.GetFaith.WitchGodHerHis|U] wisdom onto [target.Custom('CTPFirstName')], and given [target.GetHerHim] [target.GetHerHis] very own grimoire, I take my leave."
+ 
  convert_to_witchcraft_interaction_desc:0 "Attempt to convert [recipient.Custom('CTPShortNameNoTooltip')] to the ways of [actor.GetFaith.WitchGodName]"
  convert_to_witchcraft_desc:0 "I will lead [SCHEME.GetTarget.Custom('CTPShortNameNoTooltip')] down the path of [SCHEME.GetOwner.GetFaith.WitchGodName] and show [SCHEME.GetTarget.GetHerHim] the true extent of [SCHEME.GetOwner.GetFaith.WitchGodHerHis|U] power."
+ 
+ activity_witch_ritual_name:0 "[ACTIVITY.GetOwner.Custom('CTPRegNamePossessiveOrMy')|U] Grand Rite"
+ 
+ witch.3001.t:0 "Dear [ROOT.Char.Custom('SisterBrother')|U] [ROOT.Char.Custom('CTPFirstNameNoTooltip')],"
+ 
+ witch.3003.b:0 "You will be my guest of honor, [new_guest.Custom('CTPFirstNameNoTooltip')]."
+ 
+ witch.3014.guest.good.desc:0 "[host.Custom('CTPTitledFirstName')] leads us through a spectacular ceremony. The ancient prayers roll of our tongues in an enchanting pattern, full of beauty and promise. We begin to dance, building towards a magnificent crescendo. We reach it together, howling [ROOT.Char.GetFaith.WitchGodHerHis|U] name at the moon as one."
+ witch.3014.guest.bad.desc:0 "[host.Custom('CTPTitledFirstName')] leads us through an awkward ceremony. [host.GetSheHe|U] is trying hard to to make the night special, but [host.GetHerHis] attempts are feeble. At least the guest list is interesting..."
+ witch.3014.guest.fallback.desc:0 "[host.Custom('CTPTitledFirstName')] leads us through a ceremony with all the right words and gestures. The ancient prayers roll of our tongues in an enchanting pattern, but the beauty and power that usually accompanies it is diminished; [host.Custom('CTPTitledFirstNameNoTooltip')] does well enough, but something is missing nonetheless."
+witch.3014.a:0 "Experiment with herbs together with [herbalist.Custom('CTPFirstNameNoTooltip')]."
+ witch.3014.a.knowledge:0 "[herbalist.Custom('CTPFirstNameNoTooltip')] teaches me something new"
+ witch.3014.b.start:0 "Ask [teacher.Custom('CTPFirstNameNoTooltip')] to instruct me in the art of"
+ witch.3014.d:0 "Spend time with the [new_guest.Custom('ComplimentAdjective')] [new_guest.Custom('CTPFirstNameNoTooltip')]."
+ 
+ witch.3015.new_guest.desc:0 "I stumble upon my new acquaintance, [sex_partner.Custom('CTPFirstName')], by a moonlit pond."
+ 
+ witch.3017.end.desc:0 "I did not see where [sex_partner.Custom('CTPFirstName')] went, but I don't need to. I am drawn to [sex_partner.GetHerHim] like a lodestone to iron. When I find [sex_partner.GetHerHim], there is no surprise in [sex_partner.GetHerHis] beautiful eyes — only love and desire."
+ 
+ witch.4001.witch.desc:0 "But why would I listen to [annoying_clergy.GetHerHim], when [ROOT.Char.GetFaith.WitchGodName] embraces us as we are, flaws and all? What a sad little life [annoying_clergy.Custom('CTPFirstNameNoTooltip')] must live!"
  witch.4001.a.success:0 "You make a fool of [annoying_clergy.Custom('CTPShortNameNoTooltip')]"
  witch.4001.a.failure:0 "[annoying_clergy.Custom('CTPShortNameNoTooltip')] discovers your scheme"
  witch.4001.b.success:0 "You break [annoying_clergy.Custom('CTPShortNamePossessiveNoTooltip')] faith in [annoying_clergy.GetFaith.HighGodName]"
  witch.4001.b.neutral:0 "[annoying_clergy.Custom('CTPShortNameNoTooltip')] is uncertain"
  witch.4001.b.failure:0 "You fail to influence [annoying_clergy.Custom('CTPShortNameNoTooltip')]"
  witch_4001_corruption_success_effect.tt:0 "You can [blackmail|E] [annoying_clergy.Custom('CTPShortName')] about [annoying_clergy.GetHerHis] [secret|E]"
+ witch.4002.gluttonous.desc:0 "[annoying_clergy.Custom('CTPTitledFirstName')] gorged [annoying_clergy.GetHerselfHimself] on the drug-laced cakes I had sent to [annoying_clergy.GetHerHis] chambers. [annoying_clergy.GetSheHe|U] then proceeded to wander around town with jam and crumbles smeared around [annoying_clergy.GetHerHis] mouth, before falling asleep on the steps of the [annoying_clergy.GetFaith.HouseOfWorship]!"
+ witch.4002.lustful.desc:0 "I wrote a particularly explicit poem about [lustful_desc.Custom2('MyCharacterIntroduction', ROOT.Char)] and [lustful_desc.GetHerHis] "[lustful_desc.Custom('ObjectifiedFeature')]", forged [annoying_clergy.Custom('CTPTitledFirstNamePossessive')] signature, and had it delivered to the [lustful_desc.GetLadyLord]'s chambers. [lustful_desc.Custom('CTPFirstName')] was #EMP not#! pleased with the dedication, nor was [lustful_desc.GetSheHe] discreet about it."
+ witch.4002.craven.desc:0 "While [annoying_clergy.Custom('CTPTitledFirstName')] was sleeping, I slipped a rat between [annoying_clergy.GetHerHis] sheets. I barely had time to hide before [annoying_clergy.GetSheHe] awoke with a scream, threw [annoying_clergy.GetHerselfHimself] out of bed and ran out the door — naked as the day [annoying_clergy.GetSheHe] was born!"
+ witch.4002.vengeful.desc:0 "I bribed a clerk to convince [annoying_clergy.Custom('CTPTitledFirstName')] that [vengeful_desc.Custom2('MyCharacterIntroduction', ROOT.Char)] had been insulting [annoying_clergy.GetHerHim] behind [annoying_clergy.GetHerHis] back. The following days, [annoying_clergy.Custom('CTPFirstNameNoTooltip')] was incredibly rude to poor [vengeful_desc.Custom('CTPFirstNameNoTooltip')] every chance [annoying_clergy.GetSheHe] got. In the end, [vengeful_desc.Custom('CTPFirstNameNoTooltip')] confronted [annoying_clergy.GetHerHim] about [annoying_clergy.GetHerHis] malicious behavior. [annoying_clergy.Custom('CTPFirstNameNoTooltip')] had nothing to say in [annoying_clergy.GetHerHis] defense."
+ witch.4002.wrathful.desc:0 "I happen to know that [annoying_clergy.Custom('CTPTitledFirstName')] is one mean drunk, and that [annoying_clergy.GetSheHe] is a little infatuated with one of my servants. I had the [wrathful_desc.GetWomanMan] bring a bottle of very expensive and even stronger liquor to [annoying_clergy.Custom('CTPTitledFirstNamePossessiveNoTooltip')] chambers. Motivated with the promise of a promotion, [wrathful_desc.GetSheHe] got [annoying_clergy.GetHerHim] drunk just in time for [annoying_clergy.Custom('GetReligiousRite')]."
+ witch.4002.arrogant.desc:0 "Even though [annoying_clergy.GetSheHe] tries to hide it, I know [annoying_clergy.Custom('CTPTitledFirstName')] is very concerned about [annoying_clergy.GetHerHis] looks. [annoying_clergy.GetSheHe|U] has an ointment which [annoying_clergy.GetSheHe] applies religiously every morning. I snook into [annoying_clergy.GetHerHis] chambers and added some irritating herbs to it. The next day, [annoying_clergy.Custom('CTPTitledFirstNamePossessiveNoTooltip')] face was covered with hives!"
+ witch.4002.end.desc:0 "\n\nIt was the only thing my courtiers talked about last night. [annoying_clergy.Custom('CTPFirstNameNoTooltip')] will never live this one down!"
+ 
+ witch.4003.desc:0 "Hidden in the secret passage behind [annoying_clergy.Custom('CTPTitledFirstNamePossessive')] chambers, I gleefully listen to the [annoying_clergy.Custom('InsultAdjective')] [annoying_clergy.Custom('WomanManPossessive')] groans and sighs. [annoying_clergy.GetSheHe|U] has read the tome I left on [annoying_clergy.GetHerHis] bed — in fact, [annoying_clergy.GetSheHe] has been unable to put it down.\n\nThe truths within seems to have had a significant impact on [annoying_clergy.GetHerHis] faith. "Oh, [annoying_clergy.GetFaith.HighGodName]! I need a sign! I have believed in you, exerted your will on Earth, but now... All I can see are the contradictions, the fallacies, the... the lies!"\n\n[annoying_clergy.Custom('CTPTitledFirstNamePossessiveNoTooltip')] voice shatters to incoherent sobs."
+ 
+ witch.4004.desc:0 "Under the innocent guise of theological queries, I have sowed doubt in [annoying_clergy.Custom('CTPTitledFirstNamePossessive')] heart. I can tell [annoying_clergy.GetHerHis] faith is wavering from [annoying_clergy.GetHerHis] uncertain answers and the shadow of worry that falls upon [annoying_clergy.GetHerHis] face when [annoying_clergy.GetSheHe] thinks no one is watching.\n\nI am not there, not yet, but a final attempt #EMP should#! break [annoying_clergy.GetHerHim]."
+ 
+ witch.4005.desc:0 "I left a tome of uncomfortable truths in [annoying_clergy.Custom('CTPTitledFirstNamePossessive')] chambers, but I saw [annoying_clergy.GetHerHim] throw it in the fire after reading just a few pages. The challenge must have strengthened [annoying_clergy.GetHerHis] faith — I can no longer detect any uncertainty in [annoying_clergy.GetHerHis] heart."
+ 
+ witch.4020.a:0 "Wise [ROOT.Char.GetFaith.WitchGodMistressMaster|U], bring [prayer_witch_1.Custom('CTPFirstNameNoTooltip')] peace and clarity!"
+ witch.4020.b:0 "Bestow your blessings onto [prayer_witch_2.Custom('CTPFirstNameNoTooltip')]!"
+ 
+ witch.4030.friend.desc:1 "My good [ROOT.GetCharacter.Custom2('RelationToMeShort' , SCOPE.sC('witch_friend'))] [witch_friend.Custom('CTPTitledFirstName')] has brought me a tome written in some strange code, its leather covers decorated with our [ROOT.Char.GetFaith.WitchGodMistressMaster|U]'s symbols.\n\n[witch_friend.GetSheHe|U] has only been able to decipher the first few pages so far, but they are deeply fascinating."
+
+ witch.4030.c:0 "Even [convince_target_1.Custom('CTPTitledFirstNameNoTooltip')] will be enticed by these secrets."
  witch.4030.c.success:0 "[convince_target_1.Custom('CTPShortName')|U] is enthralled by the tome"
  witch.4030.c.failure:0 "[convince_target_1.Custom('CTPShortName')|U] burns the tome"
+ witch.4030.d:0 "[convince_target_2.Custom('CTPTitledFirstNameNoTooltip')] will find this #EMP very#! interesting."
+
+ witch.4031.start.desc:0 "I have an unobstructed view of the tome, which I left on [convince_target.Custom('CTPTitledFirstNamePossessive')] desk, from the secret passage behind [convince_target.GetHerHis] chambers. [convince_target.GetHerHis|U] eyes are drawn to it as soon as [convince_target.GetSheHe] steps over the threshold, almost as if the book possesses its own, strange magic.\n\n"
+ witch.4031.end.desc:0 "When [convince_target.Custom('CTPFirstNameNoTooltip')] has finished reading the translated pages, [convince_target.GetSheHe] begins to pace back and forth. In the end, the tome's draw seems impossible to resist; [convince_target.GetSheHe] rushes back to the desk and grabs a quill."
+ 
+ witch.4032.end.desc:0 "[convince_target.Custom('CTPFirstNameNoTooltip')] does not even open the book. An audible gasp escapes [convince_target.GetHerHis] lips when [convince_target.GetSheHe] sees the strange symbols, and [convince_target.GetSheHe] throws it in the fire."

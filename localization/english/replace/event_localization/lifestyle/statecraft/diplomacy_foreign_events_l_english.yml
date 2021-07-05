@@ -1,4 +1,108 @@
 ﻿l_english:
+ diplomacy_foreign.1074.desc:0 "[heretic_ruler.Custom('CTPTitledFirstName')] rules over the nearby [target_county.GetName], which is home to a large number of devout [ROOT.Char.GetFaith.GetAdherentNamePluralNoTooltip]. The [heretic_ruler.GetFaith.GetAdherentName] [heretic_ruler.Custom('CTPTitleAsName')] could easily persecute the faithful [ROOT.Char.GetFaith.GetAdherentNamePluralNoTooltip] living there, and it is my responsibility to protect them from [heretic_ruler.GetHerHis] [ROOT.GetCharacter.Custom2('ToleranceValue', SCOPE.sC('heretic_ruler'))] influence."
+ diplomacy_foreign.1074.c:0 "Send an envoy to [heretic_ruler.Custom('CTPFirstNameNoTooltip')] to discuss their treatment."
+ diplomacy_foreign.1074.c.success:0 "[heretic_ruler.Custom('CTPFirstName')] welcomes my envoy openly"
+ diplomacy_foreign.1074.c.failure:0 "[heretic_ruler.Custom('CTPFirstName')] is suspicious of my envoy's intentions"
+
+ diplomacy_foreign.3001.a:0 "Start exchanging letters with [neighboring_ruler.Custom('CTPFirstNameNoTooltip')]."
+ diplomacy_foreign.3001.a.tt:1 "You will continue to receive letters from [neighboring_ruler.Custom('CTPFirstName')]"
+ diplomacy_foreign.3001.b:0 "Frame the [neighboring_ruler.Custom('CTPTitleAsNamePossessiveNoTooltip')] letter in my hall!"
+ 
+ diplomacy_foreign.3003.desc_dead:0 "My predecessor [dead_ruler.Custom('CTPTitledFirstName')] encouraged me to continue [dead_ruler.GetHerHis] correspondence with you. I must admit that I am not certain of what to write — I implore you, pick a subject!"
+ 
+ diplomacy_foreign.3007.desc_dead:0 "My predecessor [dead_ruler_2.Custom('CTPTitledFirstName')] encouraged me to continue [dead_ruler_2.GetHerHis] correspondence with you. The last letter you sent left me with a good impression!"
+ diplomacy_foreign.3007.a_random_list_bad:0 "I do not learn much from [neighboring_ruler.Custom('CTPFirstNamePossessiveNoTooltip')] letters"
+ diplomacy_foreign.3007.c_tt:0 "I attempt to convince [neighboring_ruler.Custom('CTPFirstNameNoTooltip')] that [neighboring_ruler.GetSheHe] owes me!"
+ diplomacy_foreign.3007.c_random_list_good:0 "I manage to convince [neighboring_ruler.Custom('CTPFirstNameNoTooltip')]"
+
+ diplomacy_foreign.3008.opening:0 "To the [neighboring_ruler.Custom2('RelationDescriptor', ROOT.Char)] [ROOT.Char.Custom('CTPTitledFirstNameNoTooltip')],"
+ diplomacy_foreign.3008.desc.dead:0 "My predecessor [dead_ruler_2.Custom('CTPTitledFirstName')] encouraged me to continue [dead_ruler_2.GetHerHis] correspondence with you. However, after the last letter you sent I am ending this exchange of letters now; it seems as if [dead_ruler_2.GetSheHe] was wrong about how engaging you are!"
+ 
+ diplomacy_foreign_special.1017.great:0 "[THIS.Char.Custom('CTPFirstName')] is impressed by my hospitality"
+ diplomacy_foreign_special.1017.good:0 "[THIS.Char.Custom('CTPFirstName')] enjoys [THIS.Char.GetHerHis] visit"
+ diplomacy_foreign_special.1017.bad:0 "[THIS.Char.Custom('CTPFirstName')] is disappointed and leaves early"
  diplomacy_foreign_special.1017.friends_a:0 "[target_list_member_a.Custom('CTPShortName')|U] and I might become friends"
  diplomacy_foreign_special.1017.friends_b:0 "[target_list_member_b.Custom('CTPShortName')|U] and I might become friends"
  diplomacy_foreign_special.1017.friends_c:0 "[target_list_member_c.Custom('CTPShortName')|U] and I might become friends"
+
+ diplomacy_foreign_special.1017.a.spouse:0 "[helper_spouse.Custom('CTPFirstNameNoTooltip')], put the servants to work!"
+ diplomacy_foreign_special.1018.a.tt:0 "[foreign_guest.Custom('CTPTitledFirstName')] will arrive shortly"
+
+ diplomacy_foreign_special.1019.start.desc:0 "The [foreign_guest.Custom('ComplimentAdjective')] [foreign_guest.Custom('CTPTitledFirstName')] is finally here! Tonight, we will have a feast to welcome our foreign guests.\n\n"
+ diplomacy_foreign_special.1019.spouse.desc:0 "My [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('helper_spouse') )] [helper_spouse.Custom('CTPFirstName')] has been hard at work with all the planning and preparations. [helper_spouse.GetSheHe|U] has asked me if I have any suggestions for the final touches."
+ diplomacy_foreign_special.1019.a.success.tt:0 "[foreign_guest.Custom('CTPTitledFirstNameNoTooltip')] feels right at home"
+ diplomacy_foreign_special.1019.a.failure.tt:1 "You were mistaken and [foreign_guest.Custom('CTPTitledFirstNameNoTooltip')] is insulted"
+ diplomacy_foreign_special.1019.b.rl.desc:0 "The outcome depends on [foreign_guest.Custom('CTPTitledFirstNamePossessiveNoTooltip')] personality"
+
+ diplomacy_foreign_special.1019.b.success.tt:0 "[foreign_guest.Custom('CTPTitledFirstNameNoTooltip')] appreciates the gesture, like most people would"
+ diplomacy_foreign_special.1019.b.failure.tt:0 "[foreign_guest.Custom('CTPTitledFirstNameNoTooltip')] would have preferred something simpler"
+ 
+ diplomacy_foreign_special.1020.desc:0 "If the sky is to be trusted, it seems like we will have lovely weather today! I have an excellent opportunity to show my guest [foreign_guest.Custom('CTPTitledFirstName')] the beauty of the local country. I wonder if [foreign_guest.GetSheHe] would like a vigorous hunting trip? Or perhaps a leisurely luncheon in the sun?"
+ diplomacy_foreign_special.1020.a.success.tt:0 "[foreign_guest.Custom('CTPTitledFirstNameNoTooltip')] enjoys the hunt"
+ diplomacy_foreign_special.1020.a.failure.tt:0 "[foreign_guest.Custom('CTPTitledFirstNameNoTooltip')] has a dreadful time"
+ diplomacy_foreign_special.1020.b.success.tt:0 "[foreign_guest.Custom('CTPTitledFirstNameNoTooltip')] enjoys the luncheon"
+
+ diplomacy_foreign_special.1021.desc:0 "I would like to show my guest [foreign_guest.Custom('CTPTitledFirstName')] the cultural highlights of [root_realm.GetNameNoTier]. The question is, would [foreign_guest.GetSheHe] prefer a grand dance with all the lords and ladies of the court, or a visit to our finest [ROOT.Char.GetFaith.HouseOfWorship]?"
+ diplomacy_foreign_special.1021.a.success.tt:0 "[foreign_guest.Custom('CTPTitledFirstNameNoTooltip')] enjoys the dance"
+ diplomacy_foreign_special.1021.b.success.tt:1 "[foreign_guest.Custom('CTPTitledFirstNameNoTooltip')] enjoys visiting the [ROOT.Char.GetFaith.HouseOfWorship]"
+
+ diplomacy_foreign_special.1022.desc:0 ""Your [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('interesting_relation') )] is a fine [interesting_relation.GetWomanMan]," [foreign_guest.Custom('CTPTitledFirstName')] says while ponderously swirling [foreign_guest.GetHerHis] cup of [foreign_guest.Custom('RegionalDrink')]. [foreign_guest.GetHerHis|U] eyes are set on [interesting_relation.Custom('CTPFirstName')], who is seated further down the table.\n\n"My dear [ROOT.GetCharacter.Custom('CTPTitledFirstNameNoTooltip')], do I have your permission to arrange a private audience with [interesting_relation.GetLadyLord] [interesting_relation.Custom('CTPFirstNameNoTooltip')]? Nothing untoward, of course. Just a simple dinner in my chambers.""
+ 
+ diplomacy_foreign_special.1023.desc:0 "I stayed in the hidden passage for the entirety of [foreign_guest.Custom('CTPTitledFirstNamePossessive')] and [interesting_relation.Custom('CTPFirstNamePossessive')] private meeting. My worries seem to have been entirely unfounded. No offers, no scheming, no seduction."
+ 
+ diplomacy_foreign_special.1024.desc:0 "I have been in this hidden passage for hours now, listening to [foreign_guest.Custom('CTPTitledFirstNamePossessive')] and [interesting_relation.Custom('CTPFirstNamePossessive')] seemingly endless conversation. There is nothing suspicious about their words, more than an unnatural mutual affinity for someone you just met."
+ 
+ diplomacy_foreign_special.1025.desc:0 "From within my hiding place in the hidden passage, I hear [foreign_guest.Custom('CTPTitledFirstNamePossessive')] deceitful words loud and clear. [foreign_guest.GetSheHe|U] is trying to poison [interesting_relation.Custom('CTPFirstNamePossessive')] mind against me, and it seems to be working."
+ 
+ diplomacy_foreign_special.1026.desc:0 "As the lewd suggestion passes [foreign_guest.Custom('CTPTitledFirstNamePossessive')] lips, I am not sure whether I am furious about [foreign_guest.GetHerHis] utter lack of decency, or impressed by [foreign_guest.GetHerHis] gall. Seducing my [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('interesting_relation') )] under my very roof!  I lean back against the cool wall of the hidden passage, trying to rein in the storm of emotion."
+ 
+ diplomacy_foreign_special.1027.desc:0 "Quiet as a whisper, I creep through the hidden passages all the way to [foreign_guest.Custom('CTPTitledFirstNamePossessive')] chambers. Once there, I crouch down, readying myself for a long evening.\n\nThen, out of nowhere, a hand grabs my shoulder and my body seizes up in terror. "Is this how you treat your guests, [ROOT.GetCharacter.Custom('CTPTitledFirstName')]?""
+ 
+ diplomacy_foreign_special.1028.desc:0 "During our walk through the gardens, [foreign_guest.Custom('CTPTitledFirstName')] and I have paused to admire the view. "The proportions, the colors — I have seen few things as beautiful as this, [ROOT.GetCharacter.Custom('CTPTitledFirstNameNoTooltip')]," [foreign_guest.GetSheHe] says and gestures at the sight before us.\n\nI feel as if I ought say something kind in turn. Perhaps something about [foreign_guest.GetHerHis]..."
+ diplomacy_foreign_special.1028.compliment.tt:1 "How well the compliment is received by [foreign_guest.Custom('CTPTitledFirstName')] is mainly based on how well it suits [foreign_guest.GetHerHim], but also [foreign_guest.GetHerHis] opinion of you and your [diplomacy|E] skill."
+ diplomacy_foreign_special.1029.good.message:0 "[foreign_guest.Custom('CTPTitledFirstName')] was flattered by my compliment!"
+ diplomacy_foreign_special.1029.neutral.message:0 "[foreign_guest.Custom('CTPTitledFirstName')] did not seem to notice my compliment."
+ diplomacy_foreign_special.1029.bad.message:0 "[foreign_guest.Custom('CTPTitledFirstName')] seemed insulted by my attempt at a compliment..."
+ diplomacy_foreign_special.1030.desc:0 "After what can only be described as a thoroughly pleasant visit, [foreign_guest.Custom('CTPTitledFirstName')] and [foreign_guest.GetHerHis] retinue is about to depart for [foreign_guest_realm.GetNameNoTierNoTooltip].\n\nBefore the [foreign_guest.Custom('CTPTitleTierName')] steps into [foreign_guest.GetHerHis] carriage, [foreign_guest.GetSheHe] [ROOT.GetCharacter.Custom('GestureOfFriendship')] and expresses [foreign_guest.GetHerHis]"
+ diplomacy_foreign_special.1030.bad_guest.desc:0 "The deceitful [foreign_guest.Custom('CTPTitledFirstName')] and [foreign_guest.GetHerHis] retinue is about to depart for [foreign_guest_realm.GetNameNoTierNoTooltip].\n\nBefore the [foreign_guest.Custom('CTPTitleTierName')] steps into [foreign_guest.GetHerHis] carriage, [foreign_guest.GetSheHe] [ROOT.GetCharacter.Custom('GestureOfFriendship')] and expresses [foreign_guest.GetHerHis]"
+ 
+ diplomacy_foreign_special.1031.desc:0 "The sun has barely risen when I notice one of [foreign_guest.Custom('CTPTitledFirstNamePossessive')] servants carrying a large chest. I follow the [dummy_servant_gender.GetWomanMan] to the courtyard, where I find my guest overseeing the loading of [foreign_guest.GetHerHis] carriages.\n\n[foreign_guest.Custom('CTPFirstName')] startles when I greet [foreign_guest.GetHerHim] and proceeds to make a vague excuse about a letter and some urgent business. Awkwardly, I wish him a safe journey and scamper back to my private quarters."
+ 
+ diplomacy_foreign.0100.desc:0 "I think it might be in the best interests of our realms to arrange a meeting with our heirs, [main_heir.Custom('CTPTitledFirstName')] and [other_heir.Custom('CTPTitledFirstName')]. Making sure that they build a stable and healthy relationship now would certainly ensure the future stability of our lands."
+ diplomacy_foreign.1101.desc:0 "The arranged meeting between [other_heir.Custom('CTPFirstName')] and [main_heir.Custom('CTPFirstName')] is the perfect opportunity to craft the foundations of a long-lasting relationship between my realm and [other_ruler.Custom('CTPTitledFirstNamePossessive')].\n\nI should be very careful when planning the encounter."
+ diplomacy_foreign.1101.a:0 "[other_heir.Custom('CTPFirstNameNoTooltip')] should come to [scoped_capital.GetNameNoTooltip]."
+
+ diplomacy_foreign.1101.b:0 "[main_heir.Custom('CTPTitledFirstNameNoTooltip')] will visit [other_ruler.Custom('CTPTitledFirstNamePossessiveNoTooltip')] court."
+ diplomacy_foreign.1102.desc:0 "[other_heir.Custom('CTPTitledFirstName')] is met with all pomp and circumstance appropriate for such a distinguished guest. [other_heir.GetSheHe|U] will remain in the [scoped_capital.GetNameNoTooltip] for a few weeks, during which [other_heir.GetSheHe] and [main_heir.Custom('CTPFirstName')] will get to know each other better."
+ diplomacy_foreign.1102.a.duel_success:0 "[other_heir.Custom('CTPTitledFirstNameNoTooltip')] is impressed by my hospitality"
+ tooltip.diplomacy_foreign.1102.a.duel_success:0 "[other_heir.Custom('CTPTitledFirstNameNoTooltip')] was impressed by my hospitality"
+ diplomacy_foreign.1102.b:0 "I shall flatter [other_heir.Custom('CTPFirstNameNoTooltip')] with lavish gifts!"
+ diplomacy_foreign.1102.c:0 "I trust [main_heir.Custom('CTPFirstNameNoTooltip')] to handle [main_heir.GetHerselfHimself]."
+ diplomacy_foreign.1102.c.tooltip.high:0 "[main_heir.Custom('CTPTitledFirstName')] will perform #P well#!"
+ diplomacy_foreign.1102.c.tooltip.medium:0 "[main_heir.Custom('CTPTitledFirstName')] will perform #P adequately#!"
+ diplomacy_foreign.1102.c.tooltip.low:0 "[main_heir.Custom('CTPTitledFirstName')] will perform #N poorly#!"
+ diplomacy_foreign.1103.start.desc:0 "The time for [other_heir.Custom('CTPTitledFirstName')] to return home has finally arrived."
+ diplomacy_foreign.1103.friendship.desc:0 "\n\nThings between [other_heir.GetHerHim] and [main_heir.Custom('CTPFirstName')] went even better than expected: the two of them have become inseparable."
+ diplomacy_foreign.1103.love.desc:0 "\n\nThings between [other_heir.GetHerHim] and [main_heir.Custom('CTPFirstName')] went even better than expected: it is clear that the two of them have fallen in love."
+ diplomacy_foreign.1103.rivalry.desc:0 "\n\nUnfortunately, things did not go as planned: [other_heir.Custom('CTPFirstNameNoTooltip')] and [main_heir.Custom('CTPFirstName')] simply cannot stand each other."
+ diplomacy_foreign.1103.opinion_gain.desc:0 "\n\nThings between [other_heir.GetHerHim] and [main_heir.Custom('CTPFirstName')] went as good as [other_ruler.Custom('CTPTitledFirstName')] and I had hoped, and the two young heirs will hopefully become good friends in time."
+ diplomacy_foreign.1103.opinion_loss.desc:0 "\n\nUnfortunately, things did not go as planned: [other_heir.Custom('CTPFirstNameNoTooltip')] and [main_heir.Custom('CTPFirstName')] do not seem to have much in common after all..."
+ diplomacy_foreign.1104.start.desc:0 "[main_heir.Custom('CTPFirstName')] has finally returned after [main_heir.GetHerHis] visit to [other_ruler.Custom('CTPTitledFirstNamePossessive')] court."
+ diplomacy_foreign.1104.prestige.desc:0 "\n\nIn accordance with [main_heir.GetHerHis] illustrious rank, [main_heir.GetSheHe] was treated graciously by [main_heir.GetHerHis] host, who publicly praised our family on many occasions during [main_heir.Custom('CTPFirstNamePossessiveNoTooltip')] stay."
+ diplomacy_foreign.1105.hostdead.desc:0 "With the unfortunate passing of [other_ruler.Custom('CTPTitledFirstName')], so goes our plan to make our children acquaint with each other and ensure an amicable relationship between our realms."
+ diplomacy_foreign.1105.guestdead.desc:0 "Sadly, my and [other_ruler.Custom('CTPTitledFirstNamePossessive')] plan has been cut short by the sudden passing of [other_heir.Custom('CTPFirstName')]."
+ diplomacy_foreign.1105.fallback.desc:0 "It appears Fate has conspired to prevent the meeting between [main_heir.Custom('CTPFirstName')] and [other_heir.Custom('CTPFirstName')]. Perhaps a new opportunity will present itself in the future."
+ 
+ diplomacy_foreign.1150.desc:0 "For a while now, I have been pondering over the discrepancies between the historical and current borders of [neighbor.Custom('CTPTitledFirstNamePossessive')] realm and mine. \n\n[neighbor.GetSheHe|U] rules over the [county.GetName], land that should rightfully belong to [ruler.GetPrimaryTitle.GetNameNoTierNoTooltip], while I currently control the [neighbor_county.GetName], over which [neighbor.Custom('CTPTitledFirstNameNoTooltip')] claims dominion."
+ diplomacy_foreign.1160.a.success:0 "I convince [neighbor.Custom('CTPTitledFirstName')]"
+ diplomacy_foreign.1160.a.failure:0 "[neighbor.Custom('CTPTitledFirstName')] refuses my proposal"
+ diplomacy_foreign.1151.desc:0 "Thanks to my keen, diplomatic senses, I was able to convince [neighbor.Custom('CTPTitledFirstName')] to relinquish [county.GetNameNoTier] in exchange for [neighbor_county.GetNameNoTier]. Hopefully, this act will prevent unnecessary bloodshed amongst our realms in the future."
+ diplomacy_foreign.1152.desc:0 "Sadly, I was not able to persuade [neighbor.Custom('CTPTitledFirstName')] to relinquish [county.GetNameNoTier] in exchange for [neighbor_county.GetNameNoTier]. I can only hope [neighbor.GetHerHis] stubbornness will not lead our realms to a dark path."
+ diplomacy_foreign.1153.desc:0 "[ruler.Custom('CTPTitledFirstName')] has presented me with a peculiar proposal today.\n\n[ruler.GetSheHe|U] states that [ruler.GetSheHe] is ready to relinquish [ruler.GetHerHis] control over [neighbor_county.GetNameNoTier], a province over which my realm has ancient claims, in exchange for the [county.GetName], over which [ruler.GetHerHis] ancestors allegedly held domain."
+ 
+ diplomacy_foreign.1200.spouse.desc:0 ""Working late again, my [ROOT.Char.GetLadyLord]?"\n\nMy [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('diplomacy_friend') )] peeks over my shoulder, glancing at the documents overflowing my desk. "I have some experience with these matters," [diplomacy_friend.GetSheHe] tentatively says. "Perhaps I could help you gain [neighbor_ruler.Custom('CTPTitledFirstNamePossessive')] trust?""
+ diplomacy_foreign.1200.relative.desc:0 ""I have heard you are focusing on improving the realm's status with its neighbors, [diplomacy_friend.Custom2('RelationToMe' , ROOT.GetCharacter )]." \n\n[diplomacy_friend.Custom('CTPFirstName')] approaches me amicably. "I have long taken an interest in these affairs, and I'd be happy to offer you my help gaining [neighbor_ruler.Custom('CTPTitledFirstNamePossessive')] trust. We are family, after all.""
+ diplomacy_foreign.1200.fallback.desc:0 "[diplomacy_friend.Custom('CTPTitledFirstName')] has been of real help in the past few days, aiding me in my efforts to strengthen the realm's ties with our neighbors. [diplomacy_friend.GetSheHe|U] has just offered [diplomacy_friend.GetHerselfHimself] again to help me gain [neighbor_ruler.Custom('CTPTitledFirstNamePossessive')] trust. \n\nIt is so hard to find someone one can truly rely on these days..."
+ diplomacy_foreign.1200.b:0 "I think I can handle [neighbor_ruler.Custom('CTPTitledFirstNameNoTooltip')]."
+ diplomacy_foreign.1200.b.failure:0 "I fail to impress [neighbor_ruler.Custom('CTPTitledFirstName')]"
+ diplomacy_foreign.1200.c:0 "[neighbor_ruler.Custom('CTPTitledFirstNameNoTooltip')] is not worth the effort..."

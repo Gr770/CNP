@@ -1,0 +1,38 @@
+﻿l_english:
+ stress_threshold.1701.h.confider.gain:0 "Maybe [friend.Custom('CTPFirstNameNoTooltip')] will support me?"
+ stress_threshold.1701.h.confider.effect:0 "[friend.Custom('CTPFirstNameNoTooltip')] will surely support me!"
+
+ stress_threshold.1711.desc.ambitious:0 ""You think you can wheedle a royal stamp out of me, burgher? I am a [ROOT.GetCharacter.Custom('CTPTitleAsNameNoTooltip')|L]!""
+ 
+ stress_threshold.1711.i:0 "I am the [ROOT.GetCharacter.Custom('CTPTitleAsNameNoTooltip')], I can do this!"
+
+ stress_threshold.1721.desc.chaste:0 "chaste [ROOT.GetCharacter.Custom('CTPTitleAsNameNoTooltip')], but it feels like I am always tempted by the pleasures of the flesh. Those of my station should not feel these libidinous stirrings."
+ stress_threshold.1721.desc.temperate:0 "temperate [ROOT.GetCharacter.Custom('CTPTitleAsNameNoTooltip')], but my mouth seems to water constantly. Everything makes me hungry. Why am I so damnably, uncharacteristically hungry?"
+ stress_threshold.1721.desc.generous:0 "generous [ROOT.GetCharacter.Custom('CTPTitleAsNameNoTooltip')], but no matter how much I give away, there's always someone else with a begging bowl outside the walls. Others of my station do not seem to have these problems."
+ stress_threshold.1721.desc.calm:0 "calm [ROOT.GetCharacter.Custom('CTPTitleAsNameNoTooltip')], but every #EMP one#! of my courtiers seems determined to fry my nerves. Small crises dominate my days, and I can feel myself cracking in a way that others of my station never do."
+ stress_threshold.1721.desc.humble:0 "humble [ROOT.GetCharacter.Custom('CTPTitleAsNameNoTooltip')], but it feels like my every action reeks of pride. Others of my station live so modestly, but I seem to flaunt my magnificence at each opportunity, and I cannot stand it."
+ stress_threshold.1721.desc.honest:0 "honest [ROOT.GetCharacter.Custom('CTPTitleAsNameNoTooltip')], but with every proclamation and law, I can see lies of omission and little errors twisting my meaning. Others of my station are so diligent and open, so why must I be cursed with this deceitful nature?"
+ stress_threshold.1721.desc.craven:0 "noble [ROOT.GetCharacter.Custom('CTPTitleAsNameNoTooltip')], but I am simply too craven to act as bravely as others of my station, and it seems like my subjects notice constantly."
+ stress_threshold.1721.desc.content:0 "noble [ROOT.GetCharacter.Custom('CTPTitleAsNameNoTooltip')], content with my lot and unburdened by needless ambition, but I feel that I act so much more jealous and prideful than others of my station."
+ stress_threshold.1721.desc.cynical_no_collide:0 "rational [ROOT.GetCharacter.Custom('CTPTitleAsNameNoTooltip')], but my subjects always seem to adore the philosophies of others and never my own musings."
+ stress_threshold.1721.desc.paranoid:0 "cautious [ROOT.GetCharacter.Custom('CTPTitleAsNameNoTooltip')], but I can't predict everything. There are always more traitors to find, more plotters hiding in secret rooms. Other courts never seem to have this much treason, and I can only blame myself for inspiring it."
+ stress_threshold.1721.desc.callous:0 "realistic [ROOT.GetCharacter.Custom('CTPTitleAsNameNoTooltip')], but my subjects take everything I do as mean-spirited, fussing about petty trivialities constantly. Others of my station don't seem to have problems controlling their inferiors."
+ stress_threshold.1721.desc.compassionate:0 "compassionate [ROOT.GetCharacter.Custom('CTPTitleAsNameNoTooltip')], but others of my station seem to be so much more beloved than I. I just cannot connect with people as well as I would like."
+ stress_threshold.1721.desc.fickle:0 "flexible [ROOT.GetCharacter.Custom('CTPTitleAsNameNoTooltip')], but no matter how many times I change my mind, no matter how much new information I get, others of my station seem better able to change than I."
+ stress_threshold.1721.desc.vengeful:0 "just [ROOT.GetCharacter.Custom('CTPTitleAsNameNoTooltip')], avenging slights and meting out retribution, but others of my station always seem to deliver vengeance so much swifter."
+ stress_threshold.1721.desc.forgiving:0 "forgiving [ROOT.GetCharacter.Custom('CTPTitleAsNameNoTooltip')], but still my subjects are afraid to come to me with their problem. Others of my station seem to be the confidants to hundreds, and I don't know how I can make my people trust me like that."
+ stress_threshold.1721.desc.fallback:0 "noble [ROOT.GetCharacter.Custom('CTPTitleAsNameNoTooltip')], but I am riddled with imperfections."
+
+ stress_threshold.1731.f.confider.gain:0 "I'll talk to [friend.Custom('CTPFirstNameNoTooltip')] about this on the way."
+ 
+ stress_threshold.2311.desc.generous:0 "Was I truly a generous [ROOT.GetCharacter.Custom('CTPTitleAsNameNoTooltip')]? Did I actually help people?"
+ stress_threshold.2311.desc.humble:0 "Was I really good enough? Would not another [ROOT.GetCharacter.Custom('CTPTitleAsNameNoTooltip')] have been more suited?"
+ stress_threshold.2311.l:0 "I cannot make mistakes, I am a [ROOT.GetCharacter.Custom('CTPTitleAsNameNoTooltip')]!"
+
+ stress_threshold.2341.desc.intro:0 "Damnation, I need time to myself too! So what if I don't come to court for a few days, or even a month? Ruling is my prerogative, and I will exercise it, or leave it, at my leisure.\n\nI am the [ROOT.GetCharacter.Custom('CTPTitleAsNameNoTooltip')],"
+ 
+ stress_threshold.3411.desc.intro:0 "I can't do this. I just can't do this. I can't be [ROOT.GetCharacter.Custom('CTPTitleAsNameNoTooltip')|L] one moment longer! How does anyone ever #EMP manage#! this seething mass of stress? No matter how"
+ 
+ stress_threshold.3421.desc.lazy:0 "My eyes remain shut. I swing gently in my cloth sling, alone in the tallest tower I own, save for the messenger and a [ROOT.GetCharacter.Custom('CTPTitleAsNamePossessiveNoTooltip')|L] ransom in soft pillows and blankets."
+ 
+ jealousy_at_court_effect.confider.list:0 "All [courtiers|E] will consider [friend.Custom('CTPFirstNameNoTooltip')] a sycophant"

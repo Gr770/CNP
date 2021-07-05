@@ -1,2 +1,100 @@
 ﻿l_english:
+ seduce_outcome.permanent_block:0 "[owner.Custom('CTPTitledFirstName')] will never attempt to seduce me again"
+ seduce_outcome.cooldown:0 "[owner.Custom('CTPTitledFirstName')] will not attempt to seduce me again for some time"
+
+ seduce_outcome.0001.desc:0 "[target.Custom('CTPTitledFirstNamePossessive')] reactions to my advances tell me everything I need to know. The time has come to put my plan into action.\n\n"
+ seduce_outcome.0001.a:0 "[target.Custom('CTPFirstNameNoTooltip')] will be mine!"
+ seduce_outcome.0001.a.tt:0 "I go ahead with my attempt to seduce [target.Custom('CTPTitledFirstName')]"
+ 
  seduce_outcome.0003.a.tt:1 "[owner.Custom('CTPShortName')|U] might become my lover"
+ 
+ seduce_outcome.0004.desc:0 "As I look down upon my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('target') )], the [ROOT.Char.Custom2('DescriptorPositive', SCOPE.sC('target'))] [target.Custom('CTPTitledFirstName')], sleeping in my arms I find myself smiling with satisfaction and bliss.\n\nTo think that [target.GetSheHe] returns the affection and devotion I feel!"
+ 
+ seduce_outcome.0005.desc:0 "With the death of my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('target') )] [target.Custom('CTPTitledFirstName')], my plans for our future no longer matter.\n\nWhatever may once have been, it is now dead."
+ 
+ seduce_outcome.2010.desc:0 "I arrive at [target.Custom('CTPRegNamePossessive')] chambers with two kinds of thirsts, and carrying plenty of wine for the first of them. It is instantly obvious that [target.GetSheHe] is of the same mind as I.\n\nThe first kiss seals the pact, and then we spend the next day and night drinking, loving, drinking, loving..."
+ 
+ seduce_outcome.2040.desc:0 "As the shadows lengthen I find [target.Custom('CTPTitledFirstName')] in the darkness beneath the castle wall, waiting for me.\n\n[target.GetSheHe|U] comes towards me, hesitantly at first, then eagerly. I hear [target.GetHerHis] breath quicken as I pull [target.GetHerHim] close. In the shade of the wall we make love, the guards patrolling above oblivious to our passion..."
+ 
+ seduce_outcome.2301.desc:0 "A shiver of anticipation finds its way up my spine as I find my way to [target.Custom('CTPTitledFirstNamePossessive')] chambers. As soon as [target.GetSheHe] opens the door [target.GetSheHe] [target.Custom('quirk_pos_present')], smiles [target.Custom('quirk_pos_adverb')], and pulls me inside with a grip on my [ROOT.Char.Custom('GetUpperClothingArticle')].\n\nAs [target.GetHerHis] arms envelop me the fire in my chest burst into flames, and the rest of the night is spent in a warm and fiery haze."
+ seduce_outcome.2301.a:0 "Oh [target.Custom('CTPFirstNameNoTooltip')], my [target.Custom('LoverPetName')], let us meet again!"
+ 
+ seduce_outcome.2302.desc_court_owner:0 ""You came all this way for me, my [ROOT.Char.Custom('LoverPetName')]?"\n\nAfter searching the hallways of [court_owner.Custom('CTPTitledFirstNamePossessive')] [court_owner.Custom('ResidenceBuilding')], clad in servants' garb to avoid notice, I find [target.GetHerHim] in a secluded garden."
+ seduce_outcome.2302.desc_not_court_owner:1 ""You came all this way for me, my [ROOT.Char.Custom('LoverPetName')]?"\n\nAfter searching the hallways of [target.Custom('CTPTitledFirstNamePossessive')] [target.Custom('ResidenceBuilding')], clad in servants' garb to avoid notice, I find [target.Custom('CTPFirstName')] in a secluded garden."
+ 
+ seduce_outcome.2303.desc:0 ""[ROOT.Char.Custom2('ComplimentSentence', SCOPE.sC('target'))|U]."\n\n"I will never tire of your [owner.Custom('quirk_pos_adjective')] smile," [target.Custom('CTPTitledFirstName')] counters with a blush, "nor your embrace."\n\nThe mumbling adorations we share soon turns incomprehensible, but what they are replaced by speaks an even clearer language."
+ 
+ seduce_outcome.2304.desc:0 "[target.Custom('CTPTitledFirstName')] and I crouch side by side, the [ROOT.Char.Custom('LocalAnimalDesc')] [ROOT.Char.Custom('LocalAnimal')] in front of us unaware of our presence. My own attention is unwavering — especially as [target.Custom('CTPFirstNamePossessive')] [target.Custom('GetClothingArticle')] brushes against me. When I reach over to embrace [target.GetHerHim] I find that [target.GetSheHe] also had [target.GetHerHis] attention #EMP elsewhere#!.\n\nAs the [ROOT.Char.Custom('LocalAnimal')] disappears into the [ROOT.Char.Custom('TerrainType')] our naked flesh is already cradled by the soft earth, as well as each other."
+ 
+ seduce_outcome.2305.desc_ending:0 ""\n\nNo sooner have I read the letter delivered from [target.Custom('CTPTitledFirstName')] than I am on my way to [target.GetHerHis] chambers."
+ 
+ seduce_outcome.2306.desc:0 "The servants have all been sent away, and our bed has been decorated with [SCOPE.Custom('SeductionObjectMultiple')]. As [target.Custom('CTPTitledFirstName')] enters our chambers [target.GetSheHe] smiles [target.Custom('quirk_pos_adverb')] and joins me without any hesitation.\n\nWith the help of hands, mouths, and limbs we reaffirm the devotion we swore before [ROOT.Char.GetFaith.HighGodName] – perhaps in a more carnal fashion than intended."
+ 
+ seduce_outcome.2307.desc:0 "As I draw close to [target.Custom('CTPTitledFirstName')] I do not know whether to tear the clothes from [target.GetHerHis] body or punch the [target.Custom('quirk_neg_adjective')] smile of [target.GetHerHis] face. [target.GetSheHe|U] kisses me — a challenge — and I drag [target.GetHerHim] closer — a fitting riposte.\n\nThe warring feelings in my chest are echoed by our bodies; we spend the night delivering both insult and bliss unto each other."
+ 
+ seduce_outcome.2308.desc_illigal:0 "As my [target.Custom('ComplimentAdjective')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('target'))] [target.Custom('CTPTitledFirstName')] smiles [target.Custom('quirk_pos_adverb')] I find it hard to remember that the attraction I feel is frowned upon.\n\nAnd then — as [target.GetSheHe] tugs up my [ROOT.Char.Custom('GetUpperClothingArticle')] and lets [target.GetHerHis] hands roam — I find that I do not care. "
+ seduce_outcome.2308.desc_not_illigal:0 "As my [target.Custom('ComplimentAdjective')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('target'))] [target.Custom('CTPTitledFirstName')] smiles [target.Custom('quirk_pos_adverb')] I drop any pretense of restraint. Tearing the [ROOT.Char.Custom('GetUpperClothingArticle')] of [target.GetHerHim], putting my hands around [target.GetHerHis] waist, my mouth on [target.GetHerHis] neck, my aching desire against [target.GetHerHis] own...\n\n"
+ 
+ seduce_outcome.2309.desc_opening:0 "I find my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('target'))] [target.Custom('CTPTitledFirstName')] waiting eagerly."
+ 
+ seduce_outcome.2900.t:0 "[target_liege.Custom('CTPTitledFirstNamePossessiveNoTooltip')] Wrath"
+ seduce_outcome.2900.end.desc:1 "are still uncomfortably close. Before anyone can spot me, I dismount and hide behind some [target_liege.Custom('OutdoorsHidingPlace')] by the side of the road.\n\nMy heart is thundering like a drum as the hunting party gallops past. "Hurry! [ROOT.Char.Custom('CTPTitledFirstNameNoTooltip')] cannot have gotten far!""
+ 
+ seduce_outcome.3010.desc:0 "[owner.Custom('CTPTitledFirstName') ] arrives at my chambers, evidently with two kinds of thirsts, and carrying plenty of wine for the first of them. It takes little effort to show that I am of the same mind as [owner.GetSheHe].\n\nThe first kiss seals the pact and then we spend the next day and night drinking, loving, drinking, loving..."
+
+ seduce_outcome.3020.desc:0 "The privy is a small space, and the air reeks of foul things recently deposited. But it is private, oh so private...\n\nI gaze hungrily at [owner.Custom('CTPTitledFirstName') ], removing my garments. [owner.GetSheHe|U] does the same, and as we kiss a wave of lust rises to make us forget both the spatial discomfort and the dismal views and smells that surround us."
+
+ seduce_outcome.3030.a.desc:0 "[owner.Custom('CTPTitledFirstName') ] arrives, bearing food — lots of it; he knows I like it. [owner.GetSheHe|U] waves [owner.GetHerHis] hand, and I pliantly take my garments off and lie down. [owner.GetSheHe|U] sets the scene, placing cheese, fruit, honey. On my body, beside me."
+ 
+ seduce_outcome.3040.desc:0 "As the shadows lengthen I see [owner.Custom('CTPTitledFirstName')] approach me in the darkness beneath the castle wall, smiling [target.Custom('quirk_pos_adverb')] as [owner.GetSheHe] whispers: “You know why I have come.”\n\nI go towards [owner.GetHerHim], hesitantly at first, then eagerly. My pulse quickens as [owner.GetSheHe] pulls me close. In the shade of the wall we make love, the guards patrolling above oblivious to our passion."
+
+ seduce_outcome.3301.desc:0 "A shiver of anticipation finds its way up my spine as a knock resounds through the stillness of my chambers. Could it be #EMP [owner.GetHerHim]#!?\n\nI am greeted by [owner.Custom('CTPTitledFirstName')], smiling [owner.Custom('quirk_pos_adverb')], lust plain on [owner.GetHerHis] face. At last! As [owner.GetHerHis] arms envelop me the fire in my chest burst into flames, and the rest of the night is spent in a warm and fiery haze."
+ seduce_outcome.3301.a:0 "Oh [owner.Custom('CTPFirstNameNoTooltip')], my [owner.Custom('LoverPetName')], let us meet again!"
+ seduce_outcome.3301.b:0 "That [owner.Custom('CTPTitleTierName')] sure knows how to please a [ROOT.Char.GetWomanMan]."
+ 
+ seduce_outcome.3302.desc_opening:1 "Strolling in the gardens I am suddenly greeted by a sight sweeter than any flower: [owner.Custom('CTPTitledFirstName')] wearing servants' garb and a [owner.Custom('quirk_pos_adjective')] smile.\n\n"
+ seduce_outcome.3302.desc_not_court_owner:0 ""Nothing could keep me from you, my [ROOT.Char.Custom('LoverPetName')] – neither distance, nor [court_owner.Custom('CTPTitledFirstName')]!""
+ seduce_outcome.3302.desc_end:0 "\n\nI quickly discard the servants' [ROOT.Char.Custom('GetUpperClothingArticle')] [owner.GetSheHe] is wearing, followed by all other clothes. After all, I want to thank [owner.Custom('CTPFirstName')] for coming all this way!"
+ 
+ seduce_outcome.3303.desc:0 ""[ROOT.Char.Custom2('ComplimentSentence', SCOPE.sC('owner'))|U]."\n\n"I will never tire of your [target.Custom('quirk_pos_adjective')] smile," [owner.Custom('CTPTitledFirstName')] counters with a blush, "nor your embrace."\n\nThe mumbling adorations we share soon turns incomprehensible, but what they are replaced by speaks an even clearer language."
+ 
+ seduce_outcome.3304.desc:0 "[owner.Custom('CTPTitledFirstName')] and I crouch side by side, the [owner.Custom('LocalAnimalDesc')] [owner.Custom('LocalAnimal')] in front of us unaware of our presence. My own attention is unwavering — especially as [owner.Custom('CTPFirstNamePossessive')] [owner.Custom('GetClothingArticle')] brush against me. When I reach over to embrace [owner.GetHerHim] I find that [owner.GetSheHe] also had [owner.GetHerHis] attention #EMP elsewhere#!.\n\nAs the [owner.Custom('LocalAnimal')] disappears into the [ROOT.Char.Custom('TerrainType')] our naked flesh is already cradled by the soft earth, as well as each other."
+
+ seduce_outcome.3305.desc:1 ""[letterAuthor.Custom2('love_letter', SCOPE.sC('love_letter_target'))]"\n\nThe appreciation I feel towards [owner.Custom('CTPFirstName')] for writing me such a poem pales in comparison to the passion with which I thank [owner.GetHerHim]."
+ 
+ seduce_outcome.3306.desc:0 "As I return to the chambers I share with [owner.Custom('CTPTitledFirstName')] I am greeted by an unexpected — but appreciated — sight. Our bed has been decorated with [SCOPE.Custom('SeductionObjectMultiple')], and [owner.Custom('CTPFirstName')] [owner.GetHerselfHimself] is reclining on it, smiling [owner.Custom('quirk_pos_adverb')].\n\nWith hands, mouth, and limbs we reaffirm the devotion we swore before [ROOT.Char.GetFaith.HighGodName] – perhaps in a more carnal fashion than intended."
+ 
+ seduce_outcome.3307.desc:0 "As [owner.Custom('CTPTitledFirstName')] draws close I do not know whether to tear the clothes from [owner.GetHerHis] body or punch the [owner.Custom('quirk_neg_adjective')] smile of [owner.GetHerHis] face. I kiss [owner.GetHerHim] – a challenge — and [owner.GetSheHe] drags me closer — a fitting riposte.\n\nThe warring feelings in my chest are echoed by our bodies; we spend the night delivering both insult and bliss unto each other."
+ 
+ seduce_outcome.3308.desc_illigal:0 "As my [owner.Custom('ComplimentAdjective')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))] [owner.Custom('CTPTitledFirstName')] smiles [owner.Custom('quirk_pos_adverb')] I find it hard to remember that the attraction I feel is frowned upon.\n\nAnd then — as [owner.GetSheHe] tugs up my [ROOT.Char.Custom('GetUpperClothingArticle')] and lets [owner.GetHerHis] hands roam — I find that I do not care. "
+ seduce_outcome.3308.desc_not_illigal:0 "As my [owner.Custom('ComplimentAdjective')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))] [owner.Custom('CTPTitledFirstName')] smiles [owner.Custom('quirk_pos_adverb')] and tears the [ROOT.Char.Custom('GetUpperClothingArticle')] off me I melt into [owner.GetHerHis] arms. [owner.GetSheHe|U] puts [owner.GetHerHis] hands around my waist, [owner.GetHerHis] mouth on my neck, [owner.GetHerHis] aching desire against my own...\n\n"
+ 
+ seduce_outcome.3309.desc_opening:0 "My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))] [owner.Custom('CTPTitledFirstName')] approaches me eagerly."
+ 
+ seduce_outcome.4001.incest.desc:0 ""I like you [ROOT.Char.Custom('CTPFirstNameNoTooltip')], I truly do," [target.Custom('CTPTitledFirstName')] smiles [target.Custom('quirk_pos_adverb')] as [target.GetSheHe] turns me away. "But you are my #EMP [target.Custom2('RelationToMe', SCOPE.sC('owner') )]#!, and that is— well, who knows what the future might hold.""
+ seduce_outcome.4001.regular.desc:0 ""You are [target.Custom2('ComplimentAdjectiveArticle', ROOT.Char)] [ROOT.Char.GetWomanMan] [ROOT.Char.Custom('CTPFirstNameNoTooltip')], but I do not like you that way," says [target.Custom('CTPTitledFirstName')] and [target.Custom('quirk_neg_present')]. "Only [target.GetFaith.HighGodName] knows what the future might hold for us.""
+ 
+ seduce_outcome.4002.desc:0 "When I enter [target.Custom('CTPTitledFirstNamePossessive')] chamber late at night, I am not greeted by a sweet embrace, but a sneering [target.Custom('InsultNoun')]!\n\n"I have endured your laughable attempts to charm me out of politeness. But this I cannot stomach! Stay away from me, you [ROOT.Char.Custom('InsultAdjective')] [ROOT.Char.Custom('InsultNounSexual')]!""
+ 
+ seduce_outcome.4003.plot.desc:0 "[target.Custom('CTPTitledFirstName')] welcomes me with a mischievous smile, and [target.GetHerHis] eager hands immediately get to work on buttons and laces. Within a few heartbeats, I stand naked and shivering before [target.GetHerHim]. But when I attempt to return the favor, [target.Custom('CTPFirstNameNoTooltip')] pushes me away — and screams!\n\n"Guards! There is an intruder in my chambers! #EMP Guards!#!"\n\nBare as a newborn babe, I bolt across the room and crawl out the window."
+ seduce_outcome.4003.regular.desc:0 "As I made my climb up to [target.Custom('CTPTitledFirstNamePossessive')] window, [target.GetHerHis] shocked scream was not the welcome I had in mind! I have no time to stop [target.GetHerHim] before [target.GetSheHe] runs for the door and flings it open.\n\n"Help! Guards! There is an intruder in my chambers!"\n\nBefore this night gets any worse, I crawl back the way I came."
+ 
+ seduce_outcome.4004.incest.desc:0 ""Sweetest [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('target') )], are you there? It is I – [ROOT.Char.Custom('CTPFirstNameNoTooltip')]!""
+ seduce_outcome.4004.end.desc:0 "\n\nThe door cracks open, revealing an anguished [target.Custom('CTPFirstName')]. "Forgive me [target.Custom2('RelationToMeShort', ROOT.Char)], but I cannot do this. I wish... No, it is too dangerous!"\n\nLost for words, [target.GetSheHe] kisses me quickly, and slams the door in my face!"
+ seduce_outcome.4004.sodomy.desc:0 ""[target.Custom('LoverPetName')|U], are you there? It is I – [ROOT.Char.Custom('CTPFirstNameNoTooltip')]!""
+ 
+ seduce_outcome.4005.desc:0 "The trellis below [target.Custom('CTPTitledFirstNamePossessive')] window looks less than sturdy, but nothing will come between me and my loins' desire! At the end of the perilous climb, my fingers curl around [target.GetHerHis] windowsill.\n\n"[target.Custom('CTPFirstNameNoTooltip')]! Open up, my [target.Custom('LoverPetName')]! It is I – [ROOT.Char.Custom('CTPFirstNameNoTooltip')]!" I tap on the shutters, but no one answers.\n\n"What did you just call my [target_liege.Custom2('RelationToMeShort', SCOPE.sC('target'))], you [ROOT.Char.Custom('InsultAdjective')] [ROOT.Char.Custom('InsultNounSexual')]?!" I look up. [target_liege.Custom('CTPTitledFirstName')] is leaning out of the window above me!"
+
+ seduce_outcome.4900.desc:0 "I am heading for my chambers to enjoy some blessed sleep when I hear a faint rustle from a window. Just the wind, I think — until the wind starts to speak.\n\n"[target.Custom('CTPFirstNameNoTooltip')]! Open up, my [target.Custom('LoverPetName')]! It is I – [owner.Custom('CTPFirstNameNoTooltip')]!" I push the shutters open, and lo and behold; a [owner.GetWomanMan] has climbed up to [target.Custom('CTPTitledFirstNamePossessive')] window! It is [owner.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)]!"
+ 
+ seduce_outcome.8101.desc:0 "There can no longer be any doubt. [owner.Custom('CTPTitledFirstName')] – my own [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner') )] – wants to be more than family...\n\n"
+ seduce_outcome.8101.b.tt:0 "I will not discourage [owner.Custom('CTPFirstNameNoTooltip')] from [owner.GetHerHis] pursuit"
+ 
+ seduce_outcome.blocked_from_seduction:0 "I will not be able to attempt seducing [target.Custom('CTPTitledFirstName')] again"
+
+ seduce_outcome.8102.desc:0 ""This has gone too far, [target.Custom2('RelationToMe', SCOPE.sC('owner') )]. I am your [owner.Custom2('RelationToMe', SCOPE.sC('target') )] for [ROOT.Char.GetFaith.HighGodNamePossessive] sake!"\n\n[target.Custom('CTPFirstName')] [target.Custom('quirk_neg_present')] as [target.GetSheHe] makes [target.GetHerHis] disdain for my romantic advances clear."
+ 
+ seduce_outcome.8103.desc:0 ""You disgust me, [owner.Custom('CTPFirstNameNoTooltip')]. I am your [owner.Custom2('RelationToMe', SCOPE.sC('target') )] for [ROOT.Char.GetFaith.HighGodNamePossessive] sake! I will bring your grotesque perversions to light, trust my word!"\n\n[target.Custom('CTPFirstName')] [target.Custom('quirk_neg_present')] as [target.GetSheHe] makes [target.GetHerHis] disdain for my romantic advances clear."
+ 
+ seduce_outcome.4100.desc:0 "While out on a walk, I spot [target.Custom('CTPFirstName')] beckoning to me at a distance. I give chase, and after catching [target.GetHerHim], we hide out of sight. We eagerly explore each other's bodies, and I'm swept away in a storm of fiery kisses and breathless sighs. Suddenly, [target.Custom('CTPFirstNameNoTooltip')] breaks our kiss by placing a finger on my lips.\n\n"It's been fun," [target.GetSheHe] says in a lighthearted voice as [target.GetSheHe] pulls away, "but I've grown tired of this game, it's time that "
+ seduce_outcome.4100.desc_married:0 "I resume the responsibility I have as [target_spouse.Custom('CTPTitledFirstNamePossessive')] [target_spouse.Custom2('RelationToMeShort', target)].""

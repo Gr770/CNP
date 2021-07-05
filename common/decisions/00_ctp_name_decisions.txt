@@ -1,0 +1,84 @@
+﻿get_caliph_laqab = {
+    picture = "gfx/interface/illustrations/decisions/decision_personal_religious.dds"
+
+    desc = get_caliph_laqab_desc
+	selection_tooltip = get_caliph_laqab_tooltip
+
+    is_shown = {
+        is_ctp_supported_culture = yes
+		NOT = {
+			has_character_flag = has_caliph_laqab
+		}
+        OR = {
+            has_title = title:d_sunni
+            has_title = title:d_shiite
+            AND = {
+                has_faith = faith:zayidi
+				root.faith.religious_head = root
+            }
+        }
+    }
+
+    effect = {
+        trigger_event = {
+            id = arabicnamepack.001
+            days = -1
+        }
+        custom_description = {
+            text = get_caliph_laqab_trigger
+        }
+    }
+
+    ai_will_do = {
+        base = 80
+    }
+
+    ai_goal = yes
+}
+get_regnal_laqab = {
+    picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+    desc = get_regnal_laqab_desc
+    selection_tooltip = get_regnal_laqab_tooltip
+
+    is_shown = {
+        is_ctp_supported_culture = yes
+        root.culture = {
+            has_cultural_era_or_later = culture_era_high_medieval 
+        }
+        is_independent_ruler = yes
+        highest_held_title_tier >= tier_duchy
+        OR = {
+            has_culture = culture:bedouin
+            has_culture = culture:levantine
+            has_culture = culture:egyptian
+            has_culture = culture:yemeni
+        }
+		NOT = {
+			has_character_flag = has_caliph_laqab
+			has_character_flag = has_regnal_laqab
+            has_title = title:d_sunni
+            has_title = title:d_shiite
+            AND = {
+                has_faith = faith:zayidi
+				root.faith.religious_head = root
+            }
+		}
+    }
+
+    effect = {
+        trigger_event = {
+            id = arabicnamepack.002
+            days = -1
+        }
+        custom_description = {
+            text = get_regnal_laqab_trigger
+        }
+    }
+
+    ai_will_do = {
+        base = 80
+    }
+
+    ai_goal = yes
+}

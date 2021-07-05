@@ -1,0 +1,16 @@
+﻿l_english:
+ stress_trait_coping_decisions.1002.desc:0 ""[ROOT.Char.Custom('CTPFirstNameNoTooltip')]! Hello!"\n\nSuddenly my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('fellow_drunkard'))] [fellow_drunkard.Custom('CTPTitledFirstName')] sits down beside me, cup in hand. Apparently [fellow_drunkard.GetSheHe] has also taken to the tavern to relax, and we spend the rest of the night drinking together. I haven't felt so relaxed in #EMP months!#!"
+ 
+ stress_trait_coping_decisions.1003.desc:0 "I am drinking alone in the tavern when I suddenly see my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('original_drunkard'))] [original_drunkard.Custom('CTPTitledFirstName')] sit down across from me.\n\nI quickly make my way over, and we spend the rest of the night drinking together. [original_drunkard.GetSheHe|U] really knows how to have a good time!"
+
+ stress_trait_coping_decisions.2002.desc_ending_rival:0 "On the floor I find a note: #EMP "I hope you enjoyed the [ROOT.Char.Custom('AttractionWomanMan')] I sent you. Your rival, [rival.Custom('CTPTitledFirstName')]."#!"
+ stress_trait_coping_decisions.2002.b:0 "[rival.Custom('CTPFirstNameNoTooltip')]! You snake!"
+
+ stress_trait_coping_decisions.3001.desc_vassal:1 ""[vassal.Custom('CTPTitledFirstName')], my dear [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('vassal'))]!" I smile [ROOT.Char.Custom('quirk_neg_adverb')].\n\n"Were you born such [vassal.Custom('InsultAdjectiveArticle')] [vassal.Custom('InsultNoun')], or did that develop later in life?""
+ stress_trait_coping_decisions.3001.desc_has_vassals:0 "As soon as all vassals are seated, and [vassal.Custom('CTPTitledFirstName')] starts talking, I smile [ROOT.Char.Custom('quirk_neg_adverb')].\n\n"[vassal.Custom('CTPTitledFirstNameNoTooltip')], sorry to interrupt, but why are you always such [vassal.Custom('InsultAdjectiveArticle')] [vassal.Custom('InsultNoun')]? And you, [vassal_2.Custom('CTPTitledFirstName')], were you born a [vassal_2.Custom('InsultNoun')], or did that develop later in life?""
+ stress_trait_coping_decisions.3001.desc_has_vassal:0 "As soon as everyone is seated, and [vassal.Custom('CTPTitledFirstName')] starts talking, I smile [ROOT.Char.Custom('quirk_neg_adverb')].\n\n"[vassal.Custom('CTPTitledFirstNameNoTooltip')], sorry to interrupt, but why are you always such [vassal.Custom('InsultAdjectiveArticle')] [vassal.Custom('InsultNoun')]?""
+ 
+ stress_trait_coping_decisions.5002.desc:0 "I... I [secret.Custom('SecretDescriptionFirstPerson')]. No, wait... That wasn't me– it was [secret_character.Custom('CTPTitledFirstName')]!"\n\nThe outraged cry from my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('secret_character'))] does nothing to hamper my relief."
+ 
+ stress_trait_coping_decisions.7001.desc:1 "After a long conversation with my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('confidant'))] [confidant.Custom('CTPTitledFirstName')] I can feel my thoughts calming down."
+ stress_trait_coping_decisions.7001.desc_ending:2 "\n\nHowever, as I rejoin the court I can see the jealousy on the courtiers' faces... After all, who wouldn't want to have [confidant.Custom('CTPFirstNamePossessive')] trust?"

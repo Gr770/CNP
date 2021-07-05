@@ -1,5 +1,6 @@
 ﻿l_english:
  MILITARY_STRENGTH_RATIO:0 "[CHARACTER.Custom('CTPShortName')|U] has $VALUE|V%0$ of our number of Soldiers"
+ 
  REALM_WINDOW_DIPLOMACY_TOOLTIP_WAR_ATTACKER:2 "#tooltip_subheading #attacker_color Attacking#! [DEFENDER.Custom('CTPName')] in the [WAR.GetName|V]#!\nWar Started: [WAR.GetStartDate.GetString|V]"
  REALM_WINDOW_DIPLOMACY_TOOLTIP_WAR_DEFENDER:2 "#tooltip_subheading #defender_color Defending#! against [ATTACKER.Custom('CTPName')] in the [WAR.GetName|V]#!\nWar Started: [WAR.GetStartDate.GetString|V]"
  REALM_WINDOW_DIPLOMACY_TOOLTIP_WAR_PARTICIPANT:0 "$BULLET_WITH_TAB$[CHARACTER.Custom('CTPName')|U]"
@@ -12,4 +13,5 @@
  REALM_WINDOW_DIPLOMACY_TOOLTIP_RAID_ON:0 "#T Raided by [CHARACTER.Custom('CTPName')]#!\nHostile until [DATE.GetString|V]"
  REALM_WINDOW_DIPLOMACY_TOOLTIP_RAID_BY:0 "#T Raiding [CHARACTER.Custom('CTPName')]#!\nHostile until [DATE.GetString|V]"
  REALM_WINDOW_SIZE_TT:3 "#T [realm_size|E]: [Character.RealmSize|V] [counties|E]\n#!Counties in [Character.Custom('CTPShortNamePossessive')] [domain|E]: [Character.NumberOfDirectlyHeldCounties|V]\nCounties in [vassal|E] Realms: [Subtract_int32(Character.RealmSize, Character.NumberOfDirectlyHeldCounties)|V] "
+ 
  REALM_OF_CHARACTER:0 "Realm of [CHARACTER.Custom('CTPName')]"

@@ -1,5 +1,67 @@
 ﻿l_english:
+ relation_upgrade.0001.desc.opening:0 "As [ROOT.Char.Custom('CTPTitleAsNameNoTooltip')], I have been obliged to attend a local [ROOT.Char.Custom('MartialTournamentAdjective')] tournament, but the contestants have been delayed — the tourney won't start for at least another hour.\n\n"
+ 
+ relation_upgrade.0001.rival:0 "Push [rival.Custom('CTPFirstNameNoTooltip')] into the horses' water trough to liven things up."
+ relation_upgrade.0001.friend:0 "Spend some time with [friend.Custom('CTPFirstNameNoTooltip')] under the pavilion."
+ relation_upgrade.0001.lover:0 "Ask [lover.Custom('CTPFirstNameNoTooltip')] to join me for some "[ROOT.Char.Custom('MartialTournamentAdjective')]" of our own."
+ 
+ relation_upgrade.0011.rival.accept.toast:0 "[rival.Custom('CTPFirstNameNoTooltip')] takes offense"
+ relation_upgrade.0011.rival.decline.toast:0 "[rival.Custom('CTPFirstNameNoTooltip')] laughs it off"
+ relation_upgrade.0011.friend.accept:0 "Ah, its good to see you [source.Custom('CTPFirstNameNoTooltip')]!"
+ relation_upgrade.0011.friend.accept.toast:0 "You and [friend.Custom('CTPFirstNameNoTooltip')] get to know each other"
+ relation_upgrade.0011.friend.decline.toast:0 "[friend.Custom('CTPFirstNameNoTooltip')] is not interested"
+ relation_upgrade.0011.lover.accept.toast:0 "[lover.Custom('CTPFirstNameNoTooltip')] accepts my proposal"
+ relation_upgrade.0011.lover.decline.toast:0 "[lover.Custom('CTPFirstNameNoTooltip')] laughs me off"
+
+ relation_upgrade.1001.desc.intro:0 "By [ROOT.GetCharacter.GetFaith.HighGodName], this party is #EMP boring#!! [terrible_party_host.Custom('CTPFirstName')] has got to be the worst host the world has ever #EMP seen#!. How can mortal [ROOT.GetCharacter.GetWomanMan] be expected to endure this snoring celebration of mediocrity?\n\nMy eyes cast about the room, looking for a diversion, any diversion."
+ relation_upgrade.1001.desc.friend:0 "[potential_friend.Custom('CTPFirstName')] gives me a friendly wave from a nearby balcony."
+ relation_upgrade.1001.desc.lover:0 "[potential_lover.Custom('CTPFirstName')] sighs wistfully as [potential_lover.GetSheHe] walks past me."
+ relation_upgrade.1001.desc.rival:0 "In the corner, [potential_rival.Custom('CTPFirstName')] stares daggers at me."
+ relation_upgrade.1001.a:0 "Perhaps I could get to know [potential_friend.Custom('CTPFirstNameNoTooltip')] better?"
+ relation_upgrade.1001.b:0 "[potential_lover.Custom('CTPFirstNameNoTooltip')], would you care for a moonlit walk?"
+ relation_upgrade.1001.c:0 "Hey [potential_rival.Custom('CTPFirstNameNoTooltip')], want to hear what I #EMP really#! think of you?"
+ relation_upgrade.1001.c.tt:0 "[potential_rival.Custom('CTPFirstNameNoTooltip')] reacts to your tirade..."
+ relation_upgrade.1001.d.tt_fail:0 "Clearly #EMP YOU#! ruined [terrible_party_host.Custom('CTPFirstNamePossessiveNoTooltip')] party"
+ relation_upgrade.1001.h:0 "[terrible_party_host.Custom('CTPFirstName')], you are a terrible host!"
+ 
+ relation_upgrade.1002.desc:0 "I have been stuck at this torturous party (that [terrible_party_host.Custom('CTPFirstName')] has more or less totally failed to throw) for what feels like #EMP hours#!, limply waving at everyone who wanders past.\n\nThe thought of throwing myself from this balcony is starting to gain appeal, when I feel a tap on my shoulder.\n\n"Excuse me, [potential_friend.Custom('CTPFirstNameNoTooltip')]?", says [party_root.Custom('CTPTitledFirstName')], "do you fancy a walk away from here?""
+ relation_upgrade.1002.a.tt:0 "[potential_friend.Custom('CTPFirstNameNoTooltip')] accepts your offer"
+ relation_upgrade.1002.b.tt:0 "[potential_friend.Custom('CTPFirstNameNoTooltip')] turns you down politely"
+ relation_upgrade.1002.c.tt:0 "[potential_friend.Custom('CTPFirstNameNoTooltip')] slanders you instead"
+
+ relation_upgrade.1003.desc:0 "I have no idea how [terrible_party_host.Custom('CTPFirstName')] convinced me to attend [terrible_party_host.GetHerHis] awful, dreary mess of a party. I can only think that it must have been a moment of madness, or perhaps the promise that [party_root.Custom('CTPTitledFirstName')] might also be in attendance.\n\nI walked past [party_root.GetHerHis] earlier in the evening, but [party_root.GetSheHe] did not seem to notice my deliberate sigh of loneliness. Or at least, [party_root.GetSheHe] did not resp-\n\n"My dear [potential_lover.Custom('CTPFirstNameNoTooltip')]! Care for a moonlight stroll?""
+ relation_upgrade.1003.a:0 "[party_root.Custom('CTPFirstNameNoTooltip')], I thought you'd never ask!"
+ relation_upgrade.1003.a.tt:0 "[potential_lover.Custom('CTPFirstNameNoTooltip')] would be delighted"
+ relation_upgrade.1003.b.tt_custom_relation:0 "[party_root.Custom('CTPFirstNameNoTooltip')] will no longer attempt to become your [lover|E]."
+ relation_upgrade.1003.b.tt:0 "[potential_lover.Custom('CTPFirstNameNoTooltip')] just wants to be friends"
+ relation_upgrade.1003.c.tt:0 "[potential_lover.Custom('CTPFirstNameNoTooltip')] gives you no response"
+
+ relation_upgrade.1004.desc:0 "By [ROOT.GetCharacter.GetFaith.HighGodName], [terrible_party_host.Custom('CTPFirstName')] can't throw a feast to save [terrible_party_host.GetHerHis] life! No music, bland food, no dancing, barely any light, and [terrible_party_host.GetSheHe] invited that cur, [party_root.Custom('CTPTitledFirstName')]!\n\n"$relation_upgrade.1001.c$" Yells the irritating [party_root.GetWomanMan] clear across the room, grabbing the attention of the entire herd of sleepy guests and marching over, transparently intent on giving me a piece of [party_root.GetHerHis] mind."
+ relation_upgrade.1004.a.tt:0 "[potential_rival.Custom('CTPFirstNameNoTooltip')] rages back"
+ relation_upgrade.1004.b.tt:0 "[potential_rival.Custom('CTPFirstNameNoTooltip')] refuses to sink to your level"
+
+ relation_upgrade.2101.desc_opening_physician:0 "My [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('physician'))] [physician.Custom('CTPTitledFirstName')] holds me back; the diseased body of a commoner –"
+ relation_upgrade.2101.a_tt_rival:0 "[rival.Custom('CTPTitledFirstName')] will probably become your rival"
+ relation_upgrade.2101.a_tt_nemesis:0 "[rival.Custom('CTPTitledFirstName')] will probably become your nemesis"
+
+ relation_upgrade.2102.tt:0 "One of [rival.Custom('CTPTitledFirstNamePossessive')] courtiers contracts the disease"
+ 
+ relation_upgrade.2001.lover.desc:0 "I have strategically selected a seat next to the [lover_1.Custom('ComplimentAdjective')] [lover_1.Custom('CTPTitledFirstName')]. [lover_1.GetSheHe|U] has drawn me into a discussion about [lover_1.Custom('herhis_subject_of_interest')]."
+ relation_upgrade.2001.soulmate.desc:0 "My [lover_1.Custom('LoverPetName')] [lover_1.Custom('CTPTitledFirstName')] is playing absent-mindedly with my hair as [lover_1.GetSheHe] tells me about [lover_1.Custom('herhis_subject_of_interest')]."
  relation_upgrade.2001.a.success:0 "[lover_1.Custom('CTPShortName')|U] accepts your offer"
  relation_upgrade.2001.a.failure:0 "[lover_1.Custom('CTPShortName')|U] does not get the hint"
+ relation_upgrade.2001.b:0 "[lover_1.Custom('CTPFirstNameNoTooltip')] — I think I love you."
  relation_upgrade.2001.b.success:0 "[lover_1.Custom('CTPShortName')|U] feels the same way"
  relation_upgrade.2001.b.failure:0 "[lover_1.Custom('CTPShortName')|U] does not feel the same way"
+
+ relation_upgrade.2002.lover_dinner.desc:0 "At dinner, I find myself seated next to the [lover_2.Custom('ComplimentAdjective')] [lover_2.Custom('CTPTitledFirstName')]."
+ relation_upgrade.2002.lover_party.desc:0 "The [lover_2.Custom('ComplimentAdjective')] [lover_2.Custom('CTPTitledFirstName')] is an unexpected but welcome guest at my dinner party."
+ relation_upgrade.2002.lover.desc:0 "We end up talking about [lover_1.Custom('my_subject_of_interest')] — a topic I could spend hours on. To my delight, [lover_2.Custom('CTPFirstNameNoTooltip')] is an excellent listener. [lover_2.GetHerHis|U] interest in what I have to say seems truly genuine, and [lover_2.GetHerHis] follow-up questions are thoughtful and intelligent.\n\nBefore I know it, we are the only ones left at the dinner table. As [lover_2.Custom('CTPFirstNameNoTooltip')] leans closer to hear me better, I can feel my pulse quicken..."
+ relation_upgrade.2002.soulmate.desc:0 "I am playing absent-mindedly with my [lover_2.Custom('LoverPetName')] [lover_2.Custom('CTPTitledFirstNamePossessive')], [lover_2.GetHerHis] head resting against my chest, as I tell [lover_2.GetHerHim] about [lover_1.Custom('my_subject_of_interest')]. [lover_2.GetSheHe|U] is an excellent listener — encouraging me with gentle hums and nods, and asking thoughtful questions. The way [lover_2.GetSheHe] truly cares about a topic so close to my heart makes me all warm inside."
+ 
+ relation_upgrade.2003.lover.desc:0 "As I lean in and make my suggestion, the gleam in [lover_1.Custom('CTPFirstNamePossessive')] eyes takes on the essence of another kind of passion. [lover_1.GetSheHe|U] hesitates for a moment, her cheeks reddening, but [lover_1.GetHerHis] inner conflict resolves quickly.\n\n"Wait here, just for a little while, so no one grows suspicious. Then come to my chambers." As [lover_1.Custom('CTPFirstNameNoTooltip')] hurries off, I can't take my eyes of [lover_1.GetHerHim]."
+ relation_upgrade.2003.soulmate_start.desc:0 "My declaration of love catches [lover_1.Custom('CTPFirstName')] off-guard. [lover_1.GetHerHis|U] hand becomes still in my hair, and I can feel [lover_1.GetHerHis] heart pound against my cheek. My own is beating just as hard.\n\n"
+ relation_upgrade.2003.soulmate_end.desc:0 ""Is it true, [lover_2.Custom('CTPFirstNameNoTooltip')]? I have felt the same way for such a long time, but I never thought..."\n\nThe kiss which follows is the sweetest thing I have ever known."
+ 
+ relation_upgrade.2004.lover.desc:0 "[lover_1.Custom('CTPFirstName')] does not get my hint — or perhaps [lover_1.GetSheHe] is ignoring it to save me the embarrassment of rejection.\n\nOur conversation about [lover_1.Custom('my_subject_of_interest')] continues. Luckily, [lover_1.Custom('CTPFirstNameNoTooltip')] interest in the subject overshadows my awkwardness."
+ relation_upgrade.2004.soulmate_end.desc:0 ""I do care for you, [lover_2.Custom('CTPFirstNameNoTooltip')], and I enjoy our time together. Can we just leave it at that?"\n\nAfter an awkward apology, I dive back into the conversation about [lover_1.Custom('my_subject_of_interest')], desperate to dispel the tension between us."

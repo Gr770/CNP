@@ -1,2 +1,8 @@
 ﻿l_english:
  varangian_arrived.desc:0 "[varangian_candidate.Custom('CTPShortName')|U] has joined the Varangian Guard"
+
+ varangian.1002.ending:0 "\n\n"I am home, [returning_varangian.Custom2('RelationToMeShort', ROOT.Char )]!" [returning_varangian.Custom('CTPFirstNameNoTooltip')] bellows. "There have been many a time I thought I would never see these shores again, but I am finally back."\n\nAs strange as it is to see my [ROOT.Char.Custom2('RelationToMeShort', returning_varangian )] after all these years, I cannot deny that I am impressed with [varangian_candidate.GetHerHis] [emperor.GetCulture.GetNameNoTooltip] dress, [varangian_candidate.GetHerHis] foreign jewelry, and the heavy coffer [returning_varangian.GetSheHe] has brought with [returning_varangian.GetHerHim]."
+ varangian.1002.a:0 "Welcome home, [returning_varangian.Custom('CTPFirstNameNoTooltip')]!"
+
+ varangian.3001.desc:0 "[varangian.Custom2('MyCharacterIntroduction', ROOT.Char)] has died while serving in the Varangian Guard!\n\nI have received a missive from the [emperor.Custom('CTPTitledFirstName')] praising [varangian.GetHerHis] name, and describing how [varangian.GetSheHe] fought valiantly to save the life of the [emperor.Custom('CTPTitleAsNameNoTooltip')] from vicious assassins.\n\nNothing can ever bring [varangian.Custom('CTPFirstNameNoTooltip')] back, but the posthumous reward of gold from the [emperor.Custom('CTPTitleAsNameNoTooltip')] helps ease the sorrow."
+ varangian.3001.a:0 "Brave until the end, [varangian.Custom('CTPFirstNameNoTooltip')]..."

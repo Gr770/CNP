@@ -9,6 +9,7 @@
  CLAIM_CB_NAME:0 "[CLAIMANT.Custom('CTPShortNamePossessive')|U] [claims|E]"
  CLAIM_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][CLAIMANT.Custom('CTPShortName')][TITLE.GetName]"
  peasant_war_defeat_desc:0 "The [peasant_faction|E] is disbanded and [attacker.Custom('CTPShortName')] is imprisoned. All rebelling [counties|E] have their [county_opinion|E] forcibly increased."
+ CLAIMANT_WAR_NAME:2 "War for [CLAIMANT.Custom('CTPTitledFirstNamePossessive')] Claim on the [TITLE.GetBaseName]"
  claim_cb_victory_desc_attacker:1 "[claimant.Custom('CTPShortName')|U] gains the contested [title|E]."
  claim_cb_victory_desc:1 "[claimant.Custom('CTPShortName')|U] gains the contested [title|E]."
  claim_cb_white_peace_desc:1 "[defender.Custom('CTPShortName')|U] keeps the contested [title|E]."
@@ -16,10 +17,12 @@
  claim_cb_defeat_desc_attacker_claimant:1 "[defender.Custom('CTPShortName')|U] keeps the contested [title|E]. You lose your [claim|E]."
  claim_cb_defeat_desc_attacker:1 "[defender.Custom('CTPShortName')|U] keeps the contested [title|E]. [claimant.Custom('CTPShortName')|U] loses [claimant.GetHerHis] [claim|E]."
  claim_cb_defeat_desc:1 "[defender.Custom('CTPShortName')|U] keeps the contested [title|E]. [attacker.Custom('CTPShortName')|U] loses [attacker.GetHerHis] [claim|E]."
+
  independence_war_victory_desc_local_player_attacker_alone:0 "[attacker.Custom('CTPShortName')|U] gain independence from [defender.Custom('CTPShortName')]."
  independence_war_victory_desc_local_player_defender_attacker_alone:0 "[attacker.Custom('CTPShortName')|U] gains independence from [defender.Custom('CTPShortName')]."
  player_independence_war_victory_desc_local_player_defender_attacker_alone:0 "[attacker.Custom('CTPShortName')|U] gains independence from you."
  independence_war_victory_desc_local_player_attacker:0 "[attacker.Custom('CTPShortName')|U] and all rebellious vassals of [defender.Custom('CTPShortName')] become independent."
+ independence_war_victory_desc_local_player_defender:0 "All your rebellious vassals become independent."
  independence_war_victory_desc:0 "All rebellious vassals of [defender.Custom('CTPShortName')] become independent."
  player_independence_war_white_peace_defender_desc:0 "[attacker.Custom('CTPShortName')|U] remains your vassal."
  player_independence_war_white_peace_attacker_desc:0 "You remain a vassal of [defender.Custom('CTPShortName')]."
@@ -49,7 +52,7 @@
 
  DEPOSE_WAR_NAME:0 "War against the Tyranny of [DEFENDER.Custom('CTPShortNameNotMe')]"
  EXCOMMUNICATION_WAR_NAME:0 "Excommunication War against [DEFENDER.Custom('CTPShortNameNotMe')]"
-
+ 
  populist_war_victory_desc:0 "Rebelling [counties|E] become an independent realm with [attacker.Custom('CTPShortName')] as its ruler."
  populist_war_defeat_desc:1 "Rebelling [counties|E] and [vassals|E] remain part of the realm. All rebelling $game_concept_vassals$ are [imprisoned|E] by [defender.Custom('CTPShortName')]."
  claimant_faction_war_white_peace_desc:2 "The contested [title|E] remains with [defender.Custom('CTPShortName')]. A [revoke_title_reason|E] is given on every rebelling vassal."
@@ -70,11 +73,9 @@
  vassalization_cb_victory_desc_attacker:0 "[defender.Custom('CTPShortName')|U] becomes your [vassal|E]."
  vassalization_cb_victory_desc_defender:0 "You become [attacker.Custom('CTPShortNamePossessive')] [vassal|E]."
  vassalization_cb_victory_desc:0 "[defender.Custom('CTPShortName')|U] becomes [attacker.Custom('CTPShortNamePossessive')] [vassal|E]."
- vassalization_cb_white_peace_desc_defender:0 "You remain independent."
  vassalization_cb_white_peace_desc:0 "[defender.Custom('CTPShortName')|U] remains independent."
  vassalization_cb_defeat_desc_attacker:0 "[defender.Custom('CTPShortName')|U] remains independent. All [factions|E] against you increase their [discontent|E]."
 
- 
  CONQUEST_CB_TITLE:3 "You will seize all territory within [defender.Custom('CTPShortNamePossessive')] [realm|E] that is part of the [THIS.GetLandedTitle.GetBaseName]"
  county_conquest_cb_victory_desc:1 "[attacker.Custom('CTPShortName')|U] gains the contested [title|E]."
  county_conquest_cb_white_peace_desc:1 "[defender.Custom('CTPShortName')|U] keeps the contested [title|E]."
@@ -112,6 +113,7 @@
  
  flowery_war_cb_prisoners.tt_attacker:1 "Between three and five of [defender.Custom('CTPShortNamePossessive')] [courtiers|E] will be taken prisoner, depending on [defender.GetHerHis] tier."
  flowery_war_cb_prisoners.tt_defender:1 "Between three and five of [attacker.Custom('CTPShortNamePossessive')] [courtiers|E] will be taken prisoner, depending on [attacker.GetHerHis] tier."
+
  tst_generic_war_lost_message.tt:1 "[attacker.Custom('CTPShortNameNoTooltip')] has beaten you in the [current_war.GetName]."
 
  norman_conquest_cb_defeat_desc:0 "[defender.Custom('CTPShortName')|U] keeps the Kingdom of England. [attacker.Custom('CTPShortName')|U] loses [attacker.GetHerHis] [claim|E] to it."
@@ -143,15 +145,14 @@
  sons_of_lothbrok_invasion_cb_defeat_desc_defender:0 "You keep your titles. [attacker.Custom('CTPShortName')|U] loses [prestige|E] and pays reparations to you."
  sons_of_lothbrok_invasion_cb_defeat_desc:0 "[defender.Custom('CTPShortName')|U] keeps [defender.GetHerHis] titles. [attacker.Custom('CTPShortName')|U] loses [prestige|E] and pays reparations to [defender.Custom('CTPShortName')|U]."
  
- religious_war_victory_desc:1 "Within the target [title|E], all titles held by [defender.GetFaith.GetAdjective] rulers are seized, and any [attacker.GetFaith.GetAdjective] rulers are vassalized by [attacker.Custom('CTPShortName')]."
-
  excommunication_war_victory_desc:0 "[defender.Custom('CTPShortName')|U] is [deposed|E]."
  excommunication_war_white_peace_desc:0 "[defender.Custom('CTPShortName')|U] keeps [defender.GetHerHis] titles."
- excommunication_war_white_peace_desc_defender:0 "You keep your titles."
  excommunication_war_defeat_desc_attacker:0 "[defender.Custom('CTPShortName')|U] keeps [defender.GetHerHis] titles. You lose [piety|E] and opinion with your [head_of_faith|E]."
- excommunication_war_defeat_desc_defender:0 "You keep your titles and gain [piety|E]."
  excommunication_war_defeat_desc:0 "[defender.Custom('CTPShortName')|U] keeps [defender.GetHerHis] titles and gains [piety|E]."
 
  flowery_war_cb_victory_desc:0 "Characters and county inhabitants of [defender.Custom('CTPShortNamePossessive')] realm are sacrificed by [attacker.Custom('CTPShortName')]."
-
+ 
  religious_war_victory_desc_doctrine_pluralism:0 "Within the target [title|E], all titles held by rulers are vassalized by [attacker.Custom('CTPShortName')]."
+
+ enemy_gained_new_ally:0 "[this_character.Custom('CTPTitledFirstName')] Formed New Alliance"
+ enemy_gained_new_ally_tt:0 "[other_character.Custom('CTPTitledFirstName')] might join the [this_war.GetName] as an enemy"

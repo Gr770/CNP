@@ -3,7 +3,9 @@
  ALL_CHILDREN_THIRD:0 "All of [CHARACTER.Custom('CTPShortNamePossessive')] Children:"
  COUNT_EQ_CHILDREN_THIRD:0 "Exactly $COUNT$ of [CHARACTER.Custom('CTPShortNamePossessive')] children:"
  COUNT_GT_EQ_CHILDREN_THIRD:0 "$COUNT$ of [CHARACTER.Custom('CTPShortNamePossessive')] children:"
+
  ALL_OF_THEIR_COURTIERS:0 "All of [CHARACTER.Custom('CTPShortNamePossessive')] Courtiers:"
  ANY_OF_THEIR_COURTIERS:0 "Any of [CHARACTER.Custom('CTPShortNamePossessive')] Courtiers:"
+
  ALL_OF_THEIR_HOOKED_CHARACTERS:0 "All of [CHARACTER.Custom('CTPShortNamePossessive')] hooked characters:"
  ANY_OF_THEIR_HOOKED_CHARACTERS:0 "Any of [CHARACTER.Custom('CTPShortNamePossessive')] hooked characters:"

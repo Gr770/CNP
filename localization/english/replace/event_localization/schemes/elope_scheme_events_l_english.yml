@@ -1,4 +1,28 @@
 ﻿l_english:
+ elope.0001.positive.desc:0 "The final preparations are in place. The escape route has been charted, the guards bribed and [target.Custom('CTPTitledFirstName')] is ready. Tonight, as darkness falls over [location.GetNameNoTooltip], I shall set my [target.Custom('LoverPetName')] free and make [target.GetHerHim] my [target.GetWifeHusband]."
+ elope.0001.negative.desc:0 "I go through the list in my head. The escape route has been charted, the guards should have received their bribes and hopefully the note I sent to [target.Custom('CTPTitledFirstName')] reached [target.GetHerHim] in time. But what if it did not? Maybe [target.GetSheHe] hasn't received it at all! And there are so many other things that might have gone wrong...\n\nThere is no time for doubt. This is my only chance. I must go to [target.GetHerHim], come what may, or abandon the endeavor."
+ elope.0001.a:0 "I am coming for you, [target.Custom('CTPFirstNameNoTooltip')]!"
  elope.0001.a.tt:0 "I attempt to Elope with [target.Custom('CTPShortName')]"
+
+ elope.1001.start.desc_brave:0 "As we wait, I cannot help but wonder where [target.Custom('CTPFirstName')] is now. Did [target.GetSheHe] make it out okay? Will there be pursuers?\n\nI spot a torch ahead, moving in our direction, and gesture to my guards to hide."
+ 
+ elope.1002.start.desc:1 "I am jarred awake by a hard knock on the door. "My [ROOT.Char.Custom('CTPTitleAsNameNoTooltip')]! A guard has been found dead and your [ROOT.GetCharacter.Custom2('RelationToMeShort' , SCOPE.sC('target'))] is missing!""
+ elope.1002.desc:0 "\n\nThe search goes on for hours. It is not until noon they uncover a signed letter from [target.Custom('CTPTitledFirstName')]. The handwriting is unmistakably [target.GetHersHis].\n\n"
+ elope.1002.apologetic_relationship.desc:0 ""My dearest [target.Custom('CTPFirstNameNoTooltip')], I am so very sorry, but I have to follow my heart. I have left you to marry the love of my life — [owner.Custom2('YourCharacterIntroductionNoComma', ROOT.Char)].""
+ 
+ elope.1003.target_root_family.desc:0 "your [ROOT.GetCharacter.Custom2('RelationToMeShort' , SCOPE.sC('target'))] [target.Custom('CTPFirstName')]"
+ elope.1003.target_keeper_relation.desc:0 "my [target_keeper.Custom2('RelationToMeShort' , SCOPE.sC('target'))] [target.Custom('CTPFirstName')]"
+ elope.1003.target_liege_subject.desc:0 "my subject [target.Custom('CTPFirstName')]"
+ elope.1003.owner_root_family.desc:0 "your [ROOT.GetCharacter.Custom2('RelationToMeShort' , SCOPE.sC('owner'))] [owner.Custom('CTPFirstName')]!"
+
+ elope.1011.end.desc:0 "On my command, we retreat through the underbrush. Our pursuers, on the other hand, have no regard for subtlety and close in quickly.\n\n"You can't hide forever, [ROOT.Char.Custom('CTPTitledFirstNameNoTooltip')]! We've captured one of your [dummy_soldier.GetWomenMen], and you will be next!""
+ 
+ elope.1012.desc:0 "An attempt to elope with [target.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)] has been thwarted! The captain of the guard tells me [owner.Custom2('YourCharacterIntroduction', ROOT.Char)] was scheming to steal [target.GetHerHim] away and marry [target.GetHerHim] in secret.\n\nAs if that wasn't enough, letters found in [target.Custom('CTPFirstNamePossessiveNoTooltip')] chambers indicate [target.GetSheHe] was in on the whole thing!"
+ elope.1012.b:0 "Treachery! Lock [target.Custom('CTPFirstNameNoTooltip')] up, #EMP now!#!"
+
+ elope.1021.a:0 "[target.Custom('CTPFirstNameNoTooltip')], my love... I pray you are alright."
+
+ elope.2000.titledname.desc:0 "[discoverer.Custom('CTPTitledFirstName')] finds out about our plans? Whenever [discoverer.GetSheHe] appears, I go stiff and speechless. It is only a matter of time until [discoverer.GetSheHe] notices!"
+ elope.2000.end.desc:0 "\n\nWe are running out of time. Please, my dearest [ROOT.Char.Custom('CTPFirstNameNoTooltip')], make haste!"
  elope.2000.c.success:0 "[target.Custom('CTPShortName')|U] is convinced"
  elope.2000.c.failure:0 "[target.Custom('CTPShortName')|U] feels dismissed"

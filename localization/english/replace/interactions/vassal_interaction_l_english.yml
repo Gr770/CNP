@@ -4,13 +4,21 @@
  start_independence_faction_interaction_desc:0 "Found an [independence_faction|E] against [recipient.Custom('CTPShortNameNoTooltip')]"
  join_independence_faction_interaction_desc:0 "Join the [independence_faction|E] against [recipient.Custom('CTPShortNameNoTooltip')]"
  create_claimant_faction_against_interaction_desc:0 "Found a [claimant_faction|E] against [secondary_actor.Custom('CTPShortNameNoTooltip')]"
+
  general_rebellion_decline_summary_warning:0 "@warning_icon!#X If [ROOT.Char.Custom('CTPShortNameNoTooltip')] declines [ROOT.Char.GetSheHe] will rise up in rebellion with other disgruntled [vassals|E]!#!"
+ 
  stop_vassal_war_negotiation:2 "Demand that [recipient.Custom('CTPShortName')] abandons [recipient.GetHerHis] war\n\n[recipient.Custom('CTPShortNamePossessive')] willingness to end the war is determined by:\n$BULLET_WITH_TAB$Both of your [diplomacy|E] skills\n$BULLET_WITH_TAB$The state of the war\n$BULLET_WITH_TAB$[recipient.GetHerHis|U] [traits|E]\n$BULLET_WITH_TAB$[recipient.GetHerHis|U] [opinion|E] of you\n$BULLET_WITH_TAB$Whether [recipient.GetSheHe] is [intimidated|E] or [cowed|E] by you"
  force_join_faction_interaction_desc:1 "Use a [hook|E] on [recipient.Custom('CTPShortName')] to force them to join your current [faction|E]"
+ 
  stop_attacker_vassal_war_decline_summary:1 "[recipient.Custom('CTPShortNameNoTooltip')] might ask for something in return"
+
  IS_FIGHTING_AGAINST_ME:1 "You are fighting [TARGET_CHARACTER.Custom('CTPShortName')]"
  I_HAVE_RECENTLY_ASKED_TO_STOP_WAR:1 "You recently asked [TARGET_CHARACTER.Custom('CTPShortName')] to stop a war"
+ 
  force_onto_council_desc:0 "Use a [hook|E] to force [recipient.Custom('CTPShortNameNoTooltip')] to grant you a [council|E] position of your choice"
  force_onto_council.desc.tt:0 "[Select_CString(actor.IsLocalPlayer,'You',actor.Custom('CTPShortName'))] [Select_CString(actor.IsLocalPlayer,'are','is')] made a [councillor|E]"
  force_onto_council.recipient.tt:0 "[actor.Custom('CTPShortName')] has become your [council_task.GetPositionName]"
+ 
  ask_for_pardon_interaction_accept_decline:0 "[recipient.Custom('CTPShortName')|U] declined your plea for pardon"
+
+ pardon_interaction_toast:0 "Your benevolent liege, [actor.Custom('CTPFirstName')], has pardoned your crimes!"

@@ -4,7 +4,6 @@
  TITLE_IS_HELD_BY:0 "[TITLE.GetName] is held by [TARGET_CHARACTER.Custom('CTPShortName')]"
  NOT_TITLE_IS_HELD_BY:0 "[TITLE.GetName] is #bold not#! held by [TARGET_CHARACTER.Custom('CTPShortName')]"
 
- # Character Relationship Triggers
  LIEGE_EQUAL_FIRST:1 "You are a vassal of [TARGET_CHARACTER.Custom('CTPShortName')]"
  NOT_LIEGE_EQUAL_FIRST:1 "You are #bold not#! a vassal of [TARGET_CHARACTER.Custom('CTPShortName')]"
  LIEGE_EQUAL_THIRD:0 "[CHARACTER.Custom('CTPShortName')|U] is [TARGET_CHARACTER.Custom('CTPShortNamePossessive')] vassal"
@@ -38,15 +37,12 @@
  PLAYER_HEIR_EQUAL_FIRST:2 "[TARGET_CHARACTER.Custom('CTPShortName')|U] is your [player_heir|E]"
  PLAYER_HEIR_EQUAL_THIRD:1 "[TARGET_CHARACTER.Custom('CTPShortName')|U] is [CHARACTER.Custom('CTPShortNamePossessive')] [player_heir|E]"
 
- # Character Attribute Triggers
  CHARACTER_FAITH_EQUAL_THIRD:0 "[CHARACTER.Custom('CTPShortName')|U] is [FAITH.GetAdjective]"
  NOT_CHARACTER_FAITH_EQUAL_THIRD:0 "[CHARACTER.Custom('CTPShortName')|U] is #bold not#! [FAITH.GetAdjective]"
  CHARACTER_RELIGION_EQUAL_THIRD:0 "[CHARACTER.Custom('CTPShortName')|U] is [RELIGION.GetAdjective]"
  NOT_CHARACTER_RELIGION_EQUAL_THIRD:0 "[CHARACTER.Custom('CTPShortName')|U] is #bold not#! [RELIGION.GetAdjective]"
  CHARACTER_CULTURE_EQUAL_THIRD:1 "[CHARACTER.Custom('CTPShortName')|U] is [TARGET_CULTURE.GetName]"
  NOT_CHARACTER_CULTURE_EQUAL_THIRD:1 "[CHARACTER.Custom('CTPShortName')|U] is #bold not#! [TARGET_CULTURE.GetName]"
- CHARACTER_CULTURE_GROUP_EQUAL_FIRST:1 "You are of a [CULTURE_GROUP.GetName] [culture|E]"
- NOT_CHARACTER_CULTURE_GROUP_EQUAL_FIRST:1 "You are #bold not#! of a [CULTURE_GROUP.GetName] [culture|E]"
  CHARACTER_CULTURE_GROUP_EQUAL_THIRD:0 "[CHARACTER.Custom('CTPShortName')|U] is of a [CULTURE_GROUP.GetName] [culture|E]"
  NOT_CHARACTER_CULTURE_GROUP_EQUAL_THIRD:0 "[CHARACTER.Custom('CTPShortName')|U] is #bold not#! of a [CULTURE_GROUP.GetName] [culture|E]"
 

@@ -1,0 +1,13 @@
+﻿l_english:
+ siege.0003.two_captured:0 "My [ROOT.Char.Custom2('RelationToMeShort', prisoner_1)] [prisoner_1.Custom('CTPFirstName')] and my [ROOT.Char.Custom2('RelationToMeShort', prisoner_2)] [prisoner_2.Custom('CTPFirstName')] were captured"
+ siege.0003.several_captured:0 "My [ROOT.Char.Custom2('RelationToMeShort', prisoner_1)] [prisoner_1.Custom('CTPFirstName')] and [ROOT.Var('num_other_relevant_captured_combatants').GetValue|V0] others were captured"
+ 
+ siege.0013.one_killed:0 "My courtier [casualty_1.Custom('CTPFirstName')] was killed"
+ siege.0013.two_killed:0 "My courtiers [casualty_1.Custom('CTPFirstName')] and [casualty_2.Custom('CTPFirstName')] were killed"
+ siege.0013.several_killed:0 "[casualty_1.Custom('CTPFirstName')] and [ROOT.Var('num_other_relevant_slain_combatants').GetValue|V0] of my other courtiers were killed"
+ siege.0103.message:1 "The Holding is now [occupied|E] by my foe [occupant.Custom('CTPTitledFirstName')] in the [war.GetName]"
+
+ siege.1005.pow_toast.desc.primary:1 "I took my foe [important_hostage.Custom('CTPTitledFirstName')] hostage during the Siege of [barony.GetNameNoTier]"
+ siege.1006.pow_toast.desc:1 "[occupant.Custom('CTPTitledFirstName')] took [important_hostage.Custom2('MyCharacterIntroduction', ROOT.Char)] hostage after the Siege of [barony.GetNameNoTier]"
+ siege.1007.pow_toast.desc:1 "[occupant.Custom('CTPTitledFirstName')] took [important_hostage.Custom2('NamePossessiveCharacterIntroduction', primary_siege_defender)] hostage after the Siege of [barony.GetNameNoTier]"
+ siege.1007.pow_toast.desc.primary:1 "[occupant.Custom('CTPTitledFirstName')] took my foe [important_hostage.Custom('CTPTitledFirstName')] hostage after the Siege of [barony.GetNameNoTier]"

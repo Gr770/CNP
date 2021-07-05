@@ -1,0 +1,9 @@
+﻿l_english:
+ diplomatic_scheme_lifestyle.1001.desc:0 "At first I was exchanging letters with [target.Custom('CTPTitledFirstName')] as a way to get to know [target.GetHerHim]. We soon struck a common chord, however, and now we are sending entire pages with thoughts on military strategy back and forth!"
+ 
+ diplomatic_scheme_lifestyle.3001.desc:0 "I know that it might be frowned upon by most, but to keep a close eye on [target.Custom('CTPTitledFirstName')] cannot be a bad thing. At least that is what I tell myself as I instruct my agents to record [target.GetHerHis] every like and dislike."
+ 
+ diplomatic_scheme_lifestyle.3101.desc_opening_good:1 ""While this is all rather flattering I am not sure what your intentions are."\n\n[target.Custom('CTPTitledFirstName')] [target.Custom('quirk_pos_present')] before continuing, "And you're always around... can you please leave me alone for a while?""
+ diplomatic_scheme_lifestyle.3101.desc_opening_bad:0 ""This has to stop!"\n\n[target.Custom('CTPTitledFirstName')] [target.Custom('quirk_neg_present')] before continuing, "I am not certain what your goal is, [ROOT.Char.Custom('CTPFirstNameNoTooltip')], but if it is to increase my dislike for you it has certainly succeeded!""
+ 
+ diplomatic_scheme_lifestyle.3201.desc:0 ""That [sacrificial_agent.Custom('InsultAdjective')] [sacrificial_agent.Custom('InsultNoun')] [sacrificial_agent.Custom('CTPFirstNameNoTooltip')] always skulks around — I can find no respite!"\n\nI have found [target.Custom('CTPTitledFirstName')] in the middle of [target.GetHerHis] fury, directed at my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('sacrificial_agent'))] [sacrificial_agent.Custom('CTPTitledFirstName')]."

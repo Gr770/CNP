@@ -1,0 +1,29 @@
+﻿l_english:
+ stress_threshold.1502.courtier.desc:0 "\n\n[scoped_courtier.Custom('CTPFirstName')], in particular, has become unbearable as of recent. I can barely stand to hear my [ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('scoped_courtier'))] incessant prattling."
+ 
+ stress_threshold.1504.desc:0 "Sometimes I feel like the entire world rests upon my shoulders. My responsibilities as [scoped_ruler.Custom('CTPTitleAsName')] of [scoped_ruler.GetPrimaryTitle.GetNameNoTier] are endless... I hardly have a moment left for myself."
+ 
+ stress_threshold.1601.confider.gain:0 ""[friend.Custom('CTPFirstName')], my friend, help me sort my thoughts out!""
+ stress_threshold.1601.confider.effect:0 ""[friend.Custom('CTPFirstName')], please listen to me like you always do!""
+ 
+ stress_threshold.1602.confider.gain:0 "Talking about it with [friend.Custom('CTPFirstName')] might help."
+ stress_threshold.1602.confider.effect:0 "Talking to [friend.Custom('CTPFirstName')] usually helps!"
+ 
+ stress_threshold.2001.desc:0 "Ungrateful wretches! Do they not know the sacrifices I make for their sake?\n\nEvery day I endlessly slave away to make this realm prosperous, yet all everyone ever does is complain and ask for more! And now [victim.Custom('CTPFirstNameNoTooltip')] goes so far as to question my orders!?"
+ stress_threshold.2001.arbitrary.gain:0 "I am the [ROOT.Char.Custom('CTPTitleAsNameNoTooltip')], my word is law!"
+ stress_threshold.2001.imprison_victim:0 "Lets see how grateful [victim.Custom('CTPFirstNameNoTooltip')] feels in the dungeon!"
+ 
+ stress_threshold.2201.desc.insult:0 ""You might be a [character_to_yell_at.Custom('CTPTitleAsName')], but you are also [character_to_yell_at.Custom('InsultAdjectiveArticle')] [character_to_yell_at.Custom('InsultNoun')]!"\n\n"
+ stress_threshold.2201.desc_liege:0 ""What has gotten into you, [ROOT.Char.Custom('CTPTitledFirstNameNoTooltip')]?! This behavior is unacceptable."
+ 
+ stress_threshold.2202.desc.liege:0 "The unprovoked anger expressed by my liege [stress_character.Custom('CTPTitledFirstName')] comes as a complete surprise."
+ stress_threshold.2202.desc.vassal:0 "The unprovoked anger expressed by my vassal [stress_character.Custom('CTPTitledFirstName')] comes as a complete surprise."
+ stress_threshold.2202.desc.other_relationship:0 "The unprovoked anger expressed by my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('stress_character'))] [stress_character.Custom('CTPTitledFirstName')] comes as a complete surprise."
+ 
+ stress_threshold.3101.kill_victim:0 "It is all [victim.Custom('CTPFirstNamePossessiveNoTooltip')] fault, I just know it!"
+ 
+ stress_threshold.3201.desc:0 "It's all too much, what worth is there in even trying?\n\nWe are in the middle of a dinner when it all just... falls apart. I have to go through new records from [county.GetNameNoTierNoTooltip], I have to settle a dozen local disputes, I have to–\n\n"Are you alright, my liege?" My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('vassal'))] [vassal.Custom('CTPTitledFirstName')] cautiously voices [vassal.GetHerHis] concern."
+ 
+ stress_threshold.3201.help:0 ""[vassal.Custom('CTPFirstNameNoTooltip')]... Please help me.""
+ stress_threshold.3201.wrathful.effect.success:0 "You beat up [vassal.Custom('CTPTitledFirstName')]"
+ stress_threshold.3201.wrathful.effect.failure:0 "[vassal.Custom('CTPTitledFirstName')] fights you off"

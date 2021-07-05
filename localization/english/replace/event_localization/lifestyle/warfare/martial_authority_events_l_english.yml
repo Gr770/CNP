@@ -1,5 +1,32 @@
 ﻿l_english:
+ martial_authority.1031.desc:0 "The bustling of an inn, a fine cider, a calm evening after a long day of training... My tankard is knocked out of my hand by a mercenary reeling from a blow, and all hope of relaxation drains away into the floor along with my cider.\n\n"Please, my [ROOT.Char.GetLadyLord]." The innkeeper begs, "[scoped_mercenary.Custom('CTPFirstNamePossessive')] thugs have been drinking me dry, without paying, for days! And their fighting is scaring the staff and guests!""
+ 
+ martial_authority.2040.desc:2 "After my army sets up camp, I hear a commotion coming from my $knight_culture_player_plural_possessive_no_tooltip_lowercase$ lodgings.\n\nInvestigating the disturbance, I find [first.Custom('CTPTitledFirstName')] and [second.Custom('CTPTitledFirstName')] in the middle of a heated argument while several onlookers edge them on."
+ 
+ martial_authority.2041.desc:0 "I get up and deliver a speech about how we are all fighting for the [ROOT.Char.GetPrimaryTitle.GetName] and how we must stand united against our foes, for if we don't, there are many outsiders who would take advantage of our internal squabbles to seize our lands and impose their rule on us.\n\nLooking abashed, [first.Custom('CTPTitledFirstName')] and [second.Custom('CTPTitledFirstName')] apologize and get ready to settle in for the night."
+ 
+ martial_authority.2050.desc.opening:0 "For all the authority I supposedly wield as [ROOT.Char.Custom('CTPTitleAsNameNoTooltip')], I cannot be everywhere in my realm at once. There will always be those who "forget" to obey my orders once my attention is turned elsewhere.\n\nThis is where [right_hand_person.Custom2('MyCharacterIntroduction', ROOT.Char)] could come in, who has been faithfully enforcing my decrees"
  martial_authority.2050.a.tt:1 "You will spend more time together with [right_hand_person.Custom('CTPShortName')]"
  martial_authority.2050.toast.title:0 "[right_hand_person.Custom('CTPShortName')] is now serving as your right-hand [right_hand_person.GetWomanMan]"
+
+ martial_authority.2051.desc:0 "In the course of helping me administer my realm as my right-hand [right_hand_person.GetWomanMan], [right_hand_person.Custom('CTPTitledFirstName')] and I have discovered that we have a lot in common!\n\nWe have built up a strong rapport during our time working together as a result of this, and I find myself wondering what the future will hold for us..."
+ 
+ martial_authority_special.1100.end.desc:0 "is trying to convince [soldier_friend.GetHerHis] commander, [officer.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)], of the advantages of an alternative strategy. [officer.Custom('CTPFirstNameNoTooltip')] will hear none of it — as I approach, the infuriated [officer.GetWomanMan] raises [officer.GetHerHis] fist..."
+ martial_authority_special.1100.b:0 "Mediate between [officer.Custom('CTPFirstNameNoTooltip')] and the soldier."
  martial_authority_special.1100.b.success.tt:1 "You convince [officer.Custom('CTPShortNameNoTooltip')]"
  martial_authority_special.1100.b.failure.tt:1 "[officer.Custom('CTPShortNameNoTooltip')] gives you an impressive tongue-lashing"
+
+ martial_authority_special.1101.desc:0 "My training has served me well. A few moments later, I have [officer.Custom('CTPTitledFirstName')] in a firm armlock. "Let this be a lesson," I state loudly, for everyone to hear. "Your [ROOT.Char.Custom('CTPTitleTierName')] does not look kindly on close-minded fools. No matter their rank."
+
+ martial_authority_special.1101.end.desc:0 "\n\nThe soldier beams with gratitude. "Thank you, my [ROOT.Char.GetLadyLord]. You will never know a more faithful servant than [soldier_friend.Custom('CTPFirstName')] [soldier_friend.GetDynastyName].""
+ martial_authority_special.1101.a:0 "Adopt [soldier_friend.Custom('CTPFirstNamePossessiveNoTooltip')] strategy."
+ 
+ martial_authority_special.1102.desc:0 "Knowing the consequences of harming a commander, the soldier does nothing to defend [soldier_friend.GetHerselfHimself] from the incoming blows. As blood is drawn I throw myself between them.\n\nPerhaps I should have known better than to brawl with a seasoned warrior. In the end, I must reveal my identity for [officer.Custom('CTPTitledFirstName')] to let me go. I skulk back to my tent before the news spread..."
+
+ martial_authority_special.1103.desc:0 "[officer.Custom('CTPTitledFirstNamePossessive')] arm freezes mid-blow as I raise my voice. The emotional intensity of my words seems to strike a chord – [officer.GetHerHis] expression softens to embarrassment. [officer.GetSheHe|U] stammers out an apology and scurries away."
+
+ martial_authority_special.1501.desc:1 "I am leading a patrol when we spot a group of figures emerging from the darkness of night. Hooded cloaks obscure their faces, but by one's ungainly gait I recognize [deserting_soldier.Custom('CTPTitledFirstName')], my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('deserting_soldier') )].\n\n"My [ROOT.Char.GetLadyLord]," whispers one of my men. "They are deserting. What should we do?""
+ 
+ martial_authority_special.1502.desc:0 "Every soldier present, both loyal and not, know that punishment for this kind of betrayal can be harsh. The air is thick with anticipation and fear.\n\n"My [ROOT.Char.GetLadyLord]," [deserting_soldier.Custom('CTPTitledFirstName')] meets my gaze with tired eyes, "They are only children. We just want to go home.""
+ 
+ martial_authority_special.1503.a.tt_execution:0 "[deserting_soldier.Custom('CTPTitledFirstNameNoTooltip')] was executed for [deserting_soldier.GetHerHis] crimes."

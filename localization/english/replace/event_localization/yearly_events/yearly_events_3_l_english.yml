@@ -1,0 +1,55 @@
+﻿l_english:
+ yearly.3001.desc:0 "I have received a missive from [neighbor.GetName]. It claims that [vassal.Custom('CTPTitledFirstName')], my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('vassal'))], has requested support in a plot against me!\n\n"There is nothing I value more than loyalty," [neighbor.Custom('CTPFirstNamePossessive')] letter reads, "hence why I share this with you.""
+ yearly.3001.friend_backs_neighbor:0 "\n\nThankfully my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('friend'))] [friend.Custom('CTPFirstName')] is there to advice me. "I have had my suspicions about [vassal.Custom('CTPFirstNameNoTooltip')] for some time. This all but confirms them.""
+ yearly.3001.friend_backs_vassal:0 "\n\nThankfully my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('friend'))] [friend.Custom('CTPFirstName')] is there to advice me. "I refuse to believe [vassal.Custom('CTPFirstNameNoTooltip')] would stoop so low.""
+ yearly.3001.a:0 "I will confront [vassal.Custom('CTPFirstNameNoTooltip')] in person."
+ yearly.3001.false_use_tt:0 "[vassal.Custom('CTPTitledFirstNameNoTooltip')] will use the insult to [vassal.GetHerHis] advantage"
+ yearly.3001.c:0 "The [neighbor.Custom('CTPTitleAsNameNoTooltip')] can't be trusted. My vassals have my support!"
+ yearly.3001.c.if_wrong_tt:0 "If [vassal.Custom('CTPFirstNameNoTooltip')] is disloyal"
+ yearly.3001.c.if_right:0 "If [vassal.Custom('CTPFirstNameNoTooltip')] is loyal"
+ yearly.3001.vassal_gains_strength:0 "[vassal.Custom('CTPTitledFirstNamePossessiveNoTooltip')] plots grow stronger"
+ yearly.3001.d:0 "I #EMP knew#! it! [vassal.Custom('CTPFirstNameNoTooltip')] will pay!"
+
+ yearly.3002.desc:0 "[vassal.Custom('CTPTitledFirstName')] can do nothing but confess when [vassal.GetSheHe] is confronted with [neighbor.Custom('CTPTitledFirstNamePossessive')] letter.\n\n"It was never... It was not... How can I make this right again?" [vassal.GetSheHe|U] [vassal.Custom('quirk_neg_present')], but I can see the fear written on [vassal.GetHerHis] face."
+ 
+ yearly.3003.desc:1 "When I present [neighbor.Custom('CTPTitledFirstNamePossessiveNoTooltip')] letter to [vassal.Custom('CTPTitledFirstName')], it is first met with confusion, then anger. "You believe [neighbor.GetHerHis] word over mine? Have I not always been a loyal servant!"\n [vassal.GetHerHis|U] indignation plants a seed of doubt in my mind. Perhaps I acted too quickly. I should make amends before I ruin this relationship any further!"
+ yearly.3003.friend:0 "\nThankfully, my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('friend'))] intervenes. "This is merely to warn you of [neighbor.Custom('CTPTitledFirstNamePossessive')] slander," [friend.Custom('CTPTitledFirstName')] says."
+  yearly.3003.c:0 "Yes, what [friend.Custom('CTPFirstNameNoTooltip')] says!"
+ yearly.3003.c.enable:0 "This option is available due to [friend.Custom('CTPTitledFirstNamePossessiveNoTooltip')] high Diplomacy"
+
+ yearly.3004.desc:0 "At a gathering of many of my vassals, I declare that I have knowledge of [vassal.Custom('CTPTitledFirstNamePossessive')] treachery.\n\nMany of my other vassals rose in support. "We all know it to be true. What will become of [vassal.GetHerHim]?""
+ yearly.3004.a:0 "[vassal.Custom('CTPFirstNameNoTooltip')] will make [vassal.GetHerHis] amends."
+ 
+ yearly.3005.desc:0 "At a gathering of many of my vassals, I declare that I have knowledge of [vassal.Custom('CTPTitledFirstNamePossessive')] treachery. However, [vassal.GetHerHis] fellow vassals are far from satisfied with a foreign [neighbor.GetLadyLord]'s letter.\n\n[vassal.Custom('CTPFirstName')] speaks for them all. "What evidence is there? If a letter was enough, would we not #EMP all#! be guilty?" The gathering murmurs in agreement. This is getting out of hand!"
+ 
+ yearly.3011.desc:0 "Ahead of another feast in the honor of my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('liege'))], [liege.Custom('CTPTitledFirstName')], [vassal.Custom('CTPTitledFirstName')] pays me a visit.\n\n"Neither of us are in the [liege.Custom('CTPTitleAsNamePossessiveNoTooltip')] best graces," [vassal.GetSheHe] points out, "but if we were to provide a spectacular show at the feast, we might improve our standing with [liege.GetHerHim].""
+ 
+ yearly.3012.desc:0 "Bodies swaying and twisting, the dancers [vassal.Custom('CTPTitledFirstName')] and I hired leaves everyone astounded. After the meal, [liege.Custom('CTPTitledFirstName')] [liege.GetHerselfHimself] approaches me. "That was truly something, [ROOT.Char.Custom('CTPFirstNameNoTooltip')]."\n\n[vassal.Custom('CTPFirstName')] and I cannot help but exchange a smile."
+ yearly.3012.b:0 "This was a very good idea, [vassal.Custom('CTPFirstNameNoTooltip')]."
+
+ yearly.3013.desc:0 "For all the sweeping legs and spinning arms, [liege.Custom('CTPTitledFirstName')] does not seem overly impressed with the dancers [vassal.Custom('CTPTitledFirstName')] and I hired for the feast. The [liege.Custom('CTPTitleAsNameNoTooltip')] listens to their dedication for us with a smile, but then quickly turns [liege.GetHerHis] attention back to the food.\n\n[vassal.Custom('CTPFirstName')] gives me a look of uncertainty, but [liege.Custom('CTPFirstName')] seems pleased enough."
+ 
+ yearly.3014.desc:0 "The dancers [vassal.Custom('CTPTitledFirstName')] and I hired are a disaster. Flailing and bouncing around, they seem more like a comedy troupe than the elegant show that was promised. [liege.Custom('CTPTitledFirstName')] does not seem pleased to be disturbed in the middle of [liege.GetHerHis] dinner, either.\n\nIt is only during the dedications to us that I realize this is not the same group as we negotiated with! Who could have-\n[nemesis.Custom('CTPTitledFirstName')]!"
+ yearly.3014.a:0 "Let me tell you about the villain who ruined this, [vassal.Custom('CTPFirstNameNoTooltip')]."
+ yearly.3014.b:0 "This is not our fault, [vassal.Custom('CTPFirstNameNoTooltip')]."
+ 
+ yearly.3021.desc:0 "It is clear now that [deathbed_character.Custom('CTPTitledFirstName')], my old [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('deathbed_character'))], is not long for this world.\n\nAs I go to [deathbed_character.GetHerHis] deathbed, I know that [deathbed_character.GetSheHe] has lived a long life. Yet there is never enough time to say goodbye, is there? I hold [deathbed_character.GetHerHis] hand until it grows cold and her breath grows still."
+ 
+ yearly.3031.desc:0 "Both [fellow_vassal.Custom2('MyCharacterIntroduction', ROOT.Char)] and I are held in esteem by our liege, [liege.Custom('CTPTitledFirstName')]. However, when it comes to handing out titles, honor and wealth, one of us will always be first among equals.\n\nThe upcoming gathering at [capital.GetNameNoTierNoTooltip] [liege.Custom('ResidenceBuilding')|U] gives me a chance to ensure that I am the one with the [liege.Custom('CTPTitleAsNamePossessiveNoTooltip')] favor."
+ yearly.3031.friend:0 "Having my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('best_friend'))] [best_friend.Custom('CTPTitledFirstName')] by my side will surely help as well."
+ yearly.3031.rival:0 "However, my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('nemesis'))] [nemesis.Custom('CTPTitledFirstName')] has made no secret of the fact that [nemesis.GetSheHe] intends to sabotage my efforts!"
+ yearly.3031.a.best_friend_success:0 "[best_friend.Custom('CTPFirstNameNoTooltip')] Distracts [fellow_vassal.Custom('CTPFirstNameNoTooltip')]"
+ yearly.3031.a.success:0 "I Become Friendly With the [liege.Custom('CTPTitleAsNameNoTooltip')]"
+ yearly.3031.a.failure:0 "[fellow_vassal.Custom('CTPFirstNameNoTooltip')] Befriends the [liege.Custom('CTPTitleAsNameNoTooltip')]"
+ yearly.3031.a.nemesis_failure:0 "[nemesis.Custom('CTPFirstNameNoTooltip')] Slanders Me"
+ yearly.3031.b.success:0 "I Impress the [liege.Custom('CTPTitleAsNameNoTooltip')]"
+ yearly.3031.b.failure:0 "The [liege.Custom('CTPTitleAsNameNoTooltip')] is More Impressed With [fellow_vassal.Custom('CTPFirstNameNoTooltip')]"
+ yearly.3031.c:0 "I know how to catch [liege.Custom('CTPFirstNamePossessiveNoTooltip')] attention..."
+ yearly.3031.c.unlock_tt:0 "This option is available due to my attractiveness to [liege.Custom('CTPTitledFirstNameNoTooltip')]"
+ yearly.3031.c.consequence:0 "[liege.Custom('CTPFirstNameNoTooltip')] may pursue me further"
+ 
+ yearly.3040.c:0 "The [religious_head.Custom('CTPTitleAsNameNoTooltip')] surely appreciates a devout [ROOT.Char.GetLadyLord]!"
+ 
+ yearly.3051.desc:0 "My [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))] has informed me of an obscure law in the [county.GetName], that states none but the [ROOT.Char.Custom('CTPTitleAsNameNoTooltip')] may be its protector.\n\nNormally such an archaic law would be dismissed, but it offers me a unique chance to put [vassal.Custom('CTPTitledFirstName')], my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('vassal'))] and current ruler of the [county.GetNameNoTooltip], in [vassal.GetHerHis] place."
+ yearly.3051.a:0 "The law is clear, the [ROOT.Char.Custom('CTPTitleAsNameNoTooltip')] has full rights!"
+ yearly.3051.b:0 "[vassal.Custom('CTPFirstNameNoTooltip')] can keep the title, by my grace."

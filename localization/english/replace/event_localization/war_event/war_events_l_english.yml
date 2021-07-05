@@ -5,3 +5,17 @@
  war_event.1904:1 "Your liege has signed a White Peace with [attacker_white_peace.Custom('CTPShortName')]!"
  war_event.1905:1 "Your liege lost their war with [defender_winner.Custom('CTPShortName')]!"
  war_event.1906:1 "Your liege won their war with [attacker_loser.Custom('CTPShortName')]!"
+ war_event.1001.desc:0 "It is strange how quickly a situation can change during war.\n\nIn the midst of fighting against [recipient.Custom2('MyCharacterIntroduction', ROOT.Char)], a missive from [liege_invalidator.Custom2('MyCharacterIntroduction', ROOT.Char)] arrives. [liege_invalidator.GetSheHe|U] is telling me to abandon my own cause and join [liege_invalidator.GetHerHim] in #EMP [liege_invalidator.GetHerHis]#! war against [recipient.Custom('CTPTitledFirstName')]."
+ 
+ war_event.3001.a.tt:0 "If I do not earn any [war_contribution|E] within 12 months I will lose a [prestige_level|E] and place my alliance with [war_owner.Custom('CTPTitledFirstNameNoTooltip')] at risk!"
+ 
+ war_event.3003.desc.end.2:0 "Your failure in this regard has severely damaged my trust in you, [ROOT.Char.Custom('CTPTitledFirstName')]."
+ 
+ war_event.neighbor_war.both_neighbors.desc:1 "Your neighbor [winner.Custom('CTPTitledFirstName')] won against your other neighbor [loser.Custom('CTPTitledFirstName')] in the [war.GetName]!"
+
+ war_event.neighbor_war.only_winner.desc:3 "Your neighbor [winner.Custom('CTPTitledFirstName')] has won against [loser.Custom2('YourCharacterIntroductionNoComma', this_player)] in the [war.GetName]!"
+
+ war_event.neighbor_war.only_loser.desc:2 "Your neighbor [loser.Custom('CTPTitledFirstName')] has lost against [winner.Custom2('YourCharacterIntroductionNoComma', this_player)] in the [war.GetName]!"
+
+ war_event.3101.desc:0 "News have reached me of [defender.Custom('CTPTitledFirstNamePossessive')] conversion to [defender.GetFaith.GetNameNoTooltip]. I no longer have a [ROOT.Char.GetFaith.HighGodName]-given right to wage war on [defender.GetPrimaryTitle.GetNameNoTierNoTooltip]."
+

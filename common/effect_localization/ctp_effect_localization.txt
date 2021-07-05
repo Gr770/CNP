@@ -183,6 +183,296 @@ scripted_gui_trigger_laqab_manifest_command_god = {
 	third = scripted_gui_laqab_manifest_command_god
 	global = scripted_gui_laqab_manifest_command_god
 }
+scripted_gui_trigger_laqab_supporter_religion_god = {
+	first = scripted_gui_laqab_supporter_religion_god
+	third = scripted_gui_laqab_supporter_religion_god
+	global = scripted_gui_laqab_supporter_religion_god
+}
+scripted_gui_trigger_laqab_execute_god_decrees = {
+	first = scripted_gui_laqab_execute_god_decrees
+	third = scripted_gui_laqab_execute_god_decrees
+	global = scripted_gui_laqab_execute_god_decrees
+}
+scripted_gui_trigger_laqab_mighty_through_god = {
+	first = scripted_gui_laqab_mighty_through_god
+	third = scripted_gui_laqab_mighty_through_god
+	global = scripted_gui_laqab_mighty_through_god
+}
+scripted_gui_trigger_laqab_conqueror_through_god = {
+	first = scripted_gui_laqab_conqueror_through_god
+	third = scripted_gui_laqab_conqueror_through_god
+	global = scripted_gui_laqab_conqueror_through_god
+}
+scripted_gui_trigger_laqab_guardian_religion_god = {
+	first = scripted_gui_laqab_guardian_religion_god
+	third = scripted_gui_laqab_guardian_religion_god
+	global = scripted_gui_laqab_guardian_religion_god
+}
+scripted_gui_trigger_laqab_victor_help_god = {
+	first = scripted_gui_laqab_victor_help_god
+	third = scripted_gui_laqab_victor_help_god
+	global = scripted_gui_laqab_victor_help_god
+}
+scripted_gui_trigger_laqab_glorifier_religion_god = {
+	first = scripted_gui_laqab_glorifier_religion_god
+	third = scripted_gui_laqab_glorifier_religion_god
+	global = scripted_gui_laqab_glorifier_religion_god
+}
+scripted_gui_trigger_laqab_manifest_religion_god = {
+	first = scripted_gui_laqab_manifest_religion_god
+	third = scripted_gui_laqab_manifest_religion_god
+	global = scripted_gui_laqab_manifest_religion_god
+}
+scripted_gui_trigger_laqab_summoner_truth = {
+	first = scripted_gui_laqab_summoner_truth
+	third = scripted_gui_laqab_summoner_truth
+	global = scripted_gui_laqab_summoner_truth
+}
+scripted_gui_trigger_laqab_divinely_guided = {
+	first = scripted_gui_laqab_divinely_guided
+	third = scripted_gui_laqab_divinely_guided
+	global = scripted_gui_laqab_divinely_guided
+}
+scripted_gui_trigger_laqab_the_selfless = {
+	first = scripted_gui_laqab_the_selfless
+	third = scripted_gui_laqab_the_selfless
+	global = scripted_gui_laqab_the_selfless
+}
+scripted_gui_trigger_laqab_the_chosen = {
+	first = scripted_gui_laqab_the_chosen
+	third = scripted_gui_laqab_the_chosen
+	global = scripted_gui_laqab_the_chosen
+}
+scripted_gui_trigger_laqab_the_elected = {
+	first = scripted_gui_laqab_the_elected
+	third = scripted_gui_laqab_the_elected
+	global = scripted_gui_laqab_the_elected
+}
+scripted_gui_trigger_laqab_the_approved = {
+	first = scripted_gui_laqab_the_approved
+	third = scripted_gui_laqab_the_approved
+	global = scripted_gui_laqab_the_approved
+}
+scripted_gui_trigger_laqab_the_appointed = {
+	first = scripted_gui_laqab_the_appointed
+	third = scripted_gui_laqab_the_appointed
+	global = scripted_gui_laqab_the_appointed
+}
+scripted_gui_trigger_laqab_the_trusting = {
+	first = scripted_gui_laqab_the_trusting
+	third = scripted_gui_laqab_the_trusting
+	global = scripted_gui_laqab_the_trusting
+}
+scripted_gui_trigger_laqab_the_summoning = {
+	first = scripted_gui_laqab_the_summoning
+	third = scripted_gui_laqab_the_summoning
+	global = scripted_gui_laqab_the_summoning
+}
+scripted_gui_trigger_laqab_the_victorious = {
+	first = scripted_gui_laqab_the_victorious
+	third = scripted_gui_laqab_the_victorious
+	global = scripted_gui_laqab_the_victorious
+}
+scripted_gui_trigger_laqab_the_empowering = {
+	first = scripted_gui_laqab_the_empowering
+	third = scripted_gui_laqab_the_empowering
+	global = scripted_gui_laqab_the_empowering
+}
+scripted_gui_trigger_laqab_gives_victory = {
+	first = scripted_gui_laqab_gives_victory
+	third = scripted_gui_laqab_gives_victory
+	global = scripted_gui_laqab_gives_victory
+}
+scripted_gui_trigger_laqab_restorer_religion_god = {
+	first = scripted_gui_laqab_restorer_religion_god
+	third = scripted_gui_laqab_restorer_religion_god
+	global = scripted_gui_laqab_restorer_religion_god
+}
+scripted_gui_trigger_laqab_just = {
+	first = scripted_gui_laqab_just
+	third = scripted_gui_laqab_just
+	global = scripted_gui_laqab_just
+}
+scripted_gui_trigger_laqab_best = {
+	first = scripted_gui_laqab_best
+	third = scripted_gui_laqab_best
+	global = scripted_gui_laqab_best
+}
+scripted_gui_trigger_laqab_most_noble = {
+	first = scripted_gui_laqab_most_noble
+	third = scripted_gui_laqab_most_noble
+	global = scripted_gui_laqab_most_noble
+}
+scripted_gui_trigger_laqab_peerless = {
+	first = scripted_gui_laqab_peerless
+	third = scripted_gui_laqab_peerless
+	global = scripted_gui_laqab_peerless
+}
+scripted_gui_trigger_laqab_mighty = {
+	first = scripted_gui_laqab_mighty
+	third = scripted_gui_laqab_mighty
+	global = scripted_gui_laqab_mighty
+}
+scripted_gui_trigger_laqab_dominant = {
+	first = scripted_gui_laqab_dominant
+	third = scripted_gui_laqab_dominant
+	global = scripted_gui_laqab_dominant
+}
+scripted_gui_trigger_laqab_magnanimous = {
+	first = scripted_gui_laqab_magnanimous
+	third = scripted_gui_laqab_magnanimous
+	global = scripted_gui_laqab_magnanimous
+}
+scripted_gui_trigger_laqab_perfect = {
+	first = scripted_gui_laqab_perfect
+	third = scripted_gui_laqab_perfect
+	global = scripted_gui_laqab_perfect
+}
+scripted_gui_trigger_laqab_exalted = {
+	first = scripted_gui_laqab_exalted
+	third = scripted_gui_laqab_exalted
+	global = scripted_gui_laqab_exalted
+}
+scripted_gui_trigger_laqab_beneficent = {
+	first = scripted_gui_laqab_beneficent
+	third = scripted_gui_laqab_beneficent
+	global = scripted_gui_laqab_beneficent
+}
+scripted_gui_trigger_laqab_striving_islam = {
+	first = scripted_gui_laqab_striving_islam
+	third = scripted_gui_laqab_striving_islam
+	global = scripted_gui_laqab_striving_islam
+}
+scripted_gui_trigger_laqab_glorifying = {
+	first = scripted_gui_laqab_glorifying
+	third = scripted_gui_laqab_glorifying
+	global = scripted_gui_laqab_glorifying
+}
+scripted_gui_trigger_laqab_victorious = {
+	first = scripted_gui_laqab_victorious
+	third = scripted_gui_laqab_victorious
+	global = scripted_gui_laqab_victorious
+}
+scripted_gui_trigger_laqab_merciful = {
+	first = scripted_gui_laqab_merciful
+	third = scripted_gui_laqab_merciful
+	global = scripted_gui_laqab_merciful
+}
+scripted_gui_trigger_laqab_joyous = {
+	first = scripted_gui_laqab_joyous
+	third = scripted_gui_laqab_joyous
+	global = scripted_gui_laqab_joyous
+}
+scripted_gui_trigger_laqab_pious = {
+	first = scripted_gui_laqab_pious
+	third = scripted_gui_laqab_pious
+	global = scripted_gui_laqab_pious
+}
+scripted_gui_trigger_laqab_triumphat = {
+	first = scripted_gui_laqab_triumphat
+	third = scripted_gui_laqab_triumphat
+	global = scripted_gui_laqab_triumphat
+}
+scripted_gui_trigger_laqab_manifest = {
+	first = scripted_gui_laqab_manifest
+	third = scripted_gui_laqab_manifest
+	global = scripted_gui_laqab_manifest
+}
+scripted_gui_trigger_laqab_blessed_of_god = {
+	first = scripted_gui_laqab_blessed_of_god
+	third = scripted_gui_laqab_blessed_of_god
+	global = scripted_gui_laqab_blessed_of_god
+}
+scripted_gui_trigger_laqab_honorable = {
+	first = scripted_gui_laqab_honorable
+	third = scripted_gui_laqab_honorable
+	global = scripted_gui_laqab_honorable
+}
+scripted_gui_trigger_laqab_faithful = {
+	first = scripted_gui_laqab_faithful
+	third = scripted_gui_laqab_faithful
+	global = scripted_gui_laqab_faithful
+}
+scripted_gui_trigger_laqab_guide = {
+	first = scripted_gui_laqab_guide
+	third = scripted_gui_laqab_guide
+	global = scripted_gui_laqab_guide
+}
+scripted_gui_trigger_laqab_guided_god_2 = {
+	first = scripted_gui_laqab_guided_god_2
+	third = scripted_gui_laqab_guided_god_2
+	global = scripted_gui_laqab_guided_god_2
+}
+scripted_gui_trigger_laqab_blood_shedder = {
+	first = scripted_gui_laqab_blood_shedder
+	third = scripted_gui_laqab_blood_shedder
+	global = scripted_gui_laqab_blood_shedder
+}
+scripted_gui_trigger_laqab_seal_prophets = {
+	first = scripted_gui_laqab_seal_prophets
+	third = scripted_gui_laqab_seal_prophets
+	global = scripted_gui_laqab_seal_prophets
+}
+scripted_gui_trigger_laqab_fort_dynasty = {
+	first = scripted_gui_laqab_fort_dynasty
+	third = scripted_gui_laqab_fort_dynasty
+	global = scripted_gui_laqab_fort_dynasty
+}
+scripted_gui_trigger_laqab_qadir = {
+	first = scripted_gui_laqab_qadir
+	third = scripted_gui_laqab_qadir
+	global = scripted_gui_laqab_qadir
+}
+scripted_gui_trigger_laqab_victorious_will_god = {
+	first = scripted_gui_laqab_victorious_will_god
+	third = scripted_gui_laqab_victorious_will_god
+	global = scripted_gui_laqab_victorious_will_god
+}
+scripted_gui_trigger_laqab_dignity_dynasty = {
+	first = scripted_gui_laqab_dignity_dynasty
+	third = scripted_gui_laqab_dignity_dynasty
+	global = scripted_gui_laqab_dignity_dynasty
+}
+scripted_gui_trigger_laqab_Alam = {
+	first = scripted_gui_laqab_Alam
+	third = scripted_gui_laqab_Alam
+	global = scripted_gui_laqab_Alam
+}
+scripted_gui_trigger_laqab_Zaim = {
+	first = scripted_gui_laqab_Zaim
+	third = scripted_gui_laqab_Zaim
+	global = scripted_gui_laqab_Zaim
+}
+scripted_gui_trigger_laqab_Mutamid_dynasty = {
+	first = scripted_gui_laqab_Mutamid_dynasty
+	third = scripted_gui_laqab_Mutamid_dynasty
+	global = scripted_gui_laqab_Mutamid_dynasty
+}
+scripted_gui_trigger_laqab_Husam = {
+	first = scripted_gui_laqab_Husam
+	third = scripted_gui_laqab_Husam
+	global = scripted_gui_laqab_Husam
+}
+scripted_gui_trigger_laqab_lion_cub_dynasty = {
+	first = scripted_gui_laqab_lion_cub_dynasty
+	third = scripted_gui_laqab_lion_cub_dynasty
+	global = scripted_gui_laqab_lion_cub_dynasty
+}
+scripted_gui_trigger_laqab_lion_dynasty = {
+	first = scripted_gui_laqab_lion_dynasty
+	third = scripted_gui_laqab_lion_dynasty
+	global = scripted_gui_laqab_lion_dynasty
+}
+scripted_gui_trigger_laqab_fortifier_dynasty = {
+	first = scripted_gui_laqab_fortifier_dynasty
+	third = scripted_gui_laqab_fortifier_dynasty
+	global = scripted_gui_laqab_fortifier_dynasty
+}
+scripted_gui_trigger_laqab_orthodox_dynasty = {
+	first = scripted_gui_laqab_orthodox_dynasty
+	third = scripted_gui_laqab_orthodox_dynasty
+	global = scripted_gui_laqab_orthodox_dynasty
+}
 scripted_gui_trigger_get_name = {
 	first = scripted_gui_get_name
 	third = scripted_gui_get_name
@@ -197,4 +487,14 @@ scripted_gui_grab_name_widget_no_support = {
 	first = scripted_gui_grab_name_widget_no_support_done
 	third = scripted_gui_grab_name_widget_no_support_done
 	global = scripted_gui_grab_name_widget_no_support_done
+}
+get_caliph_laqab_trigger = {
+	first = get_caliph_laqab_effect
+	third = get_caliph_laqab_effect
+	global = get_caliph_laqab_effect
+}
+get_regnal_laqab_trigger = {
+	first = get_regnal_laqab_effect
+	third = get_regnal_laqab_effect
+	global = get_regnal_laqab_effect
 }

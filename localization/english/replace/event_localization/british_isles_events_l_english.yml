@@ -1,0 +1,24 @@
+﻿l_english:
+ british_isles.3002.desc.irish:0 "By Grace of [scoped_pope.GetHerHis|U] Holiness [scoped_pope.Custom('CTPFirstName')], Vicar of Christ and heir to the throne of Saint Peter, [scoped_ruler.Custom('CTPFullName2')] has been given right of divine rule over the Eire and all the tribes therein.\n\nAny Irish lord who will disobey the Papal writ and refuse to submit will face the wrath of [scoped_ruler.Custom('CTPTitledFirstName')], [scoped_ruler.GetHerHis] [scoped_ruler.GetCulture.GetName] armies, and God Almighty."
+ 
+ british_isles.4002.desc:0 "After centuries of struggle, [founder.Custom('CTPFullName2')] has restored the ancient kingdom of Dumnonia, called [founder.GetPrimaryTitle.GetNameNoTier] by its inhabitants, and thrown back their island's foreign invaders.\n\nThough the other lords of the British Isles are unlikely to brook this upstart power infringing on what they view as their ancestral lands, the [founder.GetPrimaryTitle.GetAdjective] people have weathered worse invasions than anything this modern age can muster. Already, they prepare to resist the inevitable grim-retaliation..."
+ 
+ british_isles.1011.outro:0 "\n\nMy foe [ntd_recipient.Custom('CTPTitledFirstName')] is foremost among my contenders for rule of the land. If [ntd_recipient.GetSheHe] were to agree to #EMP partition#! the country, rather than compete for it, there are few who could gainsay our combined might..."
+ 
+ british_isles.1021.intro:0 "[ntd_actor.Custom('CTPTitledFirstName')] is, perhaps, my greatest competition for rule of $k_england$.\n\nAccordingly, a letter in [ntd_actor.GetHerHis] handwriting and with [ntd_actor.GetHerHis] seal offering to split the realm with me is just about the last thing I expected today.\n\n"
+ british_isles.1021.a.accepted.tt:0 "You and [ntd_recipient.Custom('CTPTitledFirstNameNoTooltip')] divide the Realm between you"
+ 
+ negotiate_the_danelaw_accept_effect.de_jure_holdings_recognised.tt:0 "All $k_england_adj$ [duchies|E] that [ntd_nord.Custom('CTPTitledFirstName')] holds at least one [county|E] in become [de_jure|E] part of $k_danelaw_article$$k_danelaw$"
+ 
+ british_isles.1022.desc:0 "In a bid to solidify their own personal power, it seems [ntd_actor.Custom('CTPTitledFirstName')] and [ntd_recipient.Custom('CTPTitledFirstName')] have signed a devilish treaty, dividing the realm of $k_england$ between them!\n\nHenceforth, areas currently under Nordic control will be subject to $k_danelaw_article$$k_danelaw$, while the remaining native states are acknowledged as $k_england_adj$ territory."
+ 
+ british_isles.1051.desc:0 "At long last, none can contest my rule as the #EMP true#! [victor.Custom('CTPTitleAsNameNoTooltip')] of [england.GetNameNoTierNoTooltip]. With the pretender state dealt with, my ultimate hegemony over the whole of Britannia is all but assured."
+ british_isles.1051.a:0 "One realm, one [victor.Custom('CTPTitleAsNameNoTooltip')]!"
+ 
+ british_isles.1052.desc:0 "[loser.GetFaith.FateGodName|U] played a cruel trick on me this day, handing a decisive victory to [victor.Custom('CTPTitledFirstName')] in the battle for $k_england$.\n\nThough I can no longer claim to rule the lands I once did, this matter is not settled as long as my line still draws breath."
+ 
+ british_isles.1053.desc:0 "Recent affairs have left [victor.Custom('CTPTitledFirstName')] as the sole serious contender to the $k_england_adj$ throne. Though not all yet willingly bow to the exultant monarch, it can at least be said that $k_england$ is, in spirit, whole again."
+ 
+ british_isles.1062.desc:0 "That cur! That wretch! That [founder.Custom('InsultAdjective')], [founder.Custom('InsultAdjective')] #EMP [founder.Custom('InsultNoun')]!#!\n\nThough the realms of $k_england$ and $k_danelaw_article$$k_danelaw$ have been partitioned for far too long, #EMP everyone#! knew that, some day, they would have been reunited.\n\nUntil today.\n\nIn a grand, pompous declaration, [founder.Custom('CTPTitledFirstName')] has formally renounced any claim of control over $k_england$, and, by proxy, removed any hope of easily reuniting my realm with the lands of $k_danelaw_article$$k_danelaw$!"
+ 
+ british_isles.1063.desc:0 "For years now, $k_england$ has been divided between the lands of [england.Custom('CTPTitledFirstName')], and [founder.Custom('CTPTitledFirstName')]. Though both nominally equal in rank, the tacit understanding has always been that each realm wishes to eliminate the other and elevate their monarch as the sole ruler of a united $k_england$.\n\nNo longer.\n\nIn dramatic fashion, [founder.Custom('CTPTitledFirstNameNoTooltip')] has announced that [founder.GetSheHe] is ceding any claim of dominion over the rest of the realm, and that [founder.GetSheHe] will henceforth rule an independent and sovereign realm."

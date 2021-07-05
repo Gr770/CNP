@@ -1,0 +1,6 @@
+﻿l_english:
+ activity_feast_name:0 "[ACTIVITY.GetOwner.Custom('CTPRegNamePossessiveOrMy')|U] Feast"
+ activity_hunt_name:0 "[ACTIVITY.GetOwner.Custom('CTPRegNamePossessiveOrMy')|U] Hunt"
+ activity_meditation_name:0 "[ACTIVITY.GetOwner.Custom('CTPRegNamePossessiveOrMy')|U] Secluded Meditation"
+ activity_meditation_desc:0 "[ACTIVITY.GetOwner.Custom('CTPTitledFirstName')] has retreated into seclusion so that they may meditate in peace."
+ activity_playdate_name:0 "[ACTIVITY.GetOwner.Custom('CTPRegNamePossessiveOrMy')|U] Peer Meet"

@@ -1,0 +1,32 @@
+﻿l_english:
+ martial_strategy.3010.desc.start:0 "I am sitting around the map table with [impatient_commander.Custom('CTPTitledFirstName')] and [patient_commander.Custom('CTPTitledFirstName')], discussing our strategy for the ongoing war.\n\n[impatient_commander.Custom('CTPFirstNameNoTooltip')]"
+ martial_strategy.3010.desc.middle:0 "while [patient_commander.Custom('CTPFirstNameNoTooltip')]"
+ martial_strategy.3010.a:0 "[impatient_commander.Custom('CTPTitledFirstNameNoTooltip')] has the right idea here!"
+ martial_strategy.3010.b:0 "I would rather use [patient_commander.Custom('CTPTitledFirstNamePossessiveNoTooltip')] plan."
+ 
+ martial_strategy.3010.desc.response.start:0 "I am sitting in on a strategy meeting with [my_liege.Custom('CTPTitledFirstName')] and [other_commander.Custom('CTPTitledFirstName')], discussing our plans for the ongoing war."
+
+ martial_strategy.3011.desc:0 "\n\n[my_liege.Custom('CTPTitledFirstName')] is very receptive to my ideas, favoring them over the ones proposed by [other_commander.Custom('CTPFirstName')]. Now we're going to go ahead and use them to shape our strategic policy for the ongoing war!"
+ martial_strategy.3011.a.disapprove:0 "Who knew [my_liege.Custom('CTPFirstNameNoTooltip')] could see reason?"
+ martial_strategy.3011.a:0 "I knew [my_liege.Custom('CTPTitledFirstNameNoTooltip')] would like my ideas!"
+
+ martial_strategy.3012.desc:0 "\n\nUnfortunately [my_liege.Custom('CTPTitledFirstName')] is dismissive of my ideas, instead favoring the ones proposed by [other_commander.Custom('CTPFirstName')]. Now we're going to go ahead and use them to shape our strategic policy for the ongoing war!"
+ martial_strategy.3012.a.disapprove:0 "[my_liege.Custom('CTPFirstNameNoTooltip')] foolishness does not surprise me."
+ martial_strategy.3012.a:0 "Time will tell if [my_liege.Custom('CTPFirstNamePossessiveNoTooltip')] choice was correct."
+
+ martial_strategy.3013.desc:0 "[my_liege.Custom('CTPTitledFirstName')] has decided to take a hands-off approach, allowing both [other_commander.Custom('CTPFirstName')] and I to act as we see fit."
+ 
+ martial_strategy.3014.desc:0 "\n\n[my_liege.Custom('CTPTitledFirstName')] has combined my ideas with [other_commander.Custom('CTPFirstNamePossessive')], merging them into a single cohesive strategy that will give us a significant advantage on the battlefield!"
+ martial_strategy.3014.a.disapprove:0 "Despite [my_liege.Custom('CTPFirstNamePossessiveNoTooltip')] failings, [my_liege.GetSheHe] is a skilled general."
+ martial_strategy.3014.a:0 "I am impressed by [my_liege.Custom('CTPTitledFirstNamePossessiveNoTooltip')] plan."
+
+ martial_strategy_special.1304.a.tt1:0 "We quickly level [siege_proposer.Custom('CTPTitledFirstNamePossessiveNoTooltip')] forces"
+ 
+ martial_strategy_special.1399.desc:0 "Among the celebrating soldiers I find [siege_proposer.Custom('CTPTitledFirstName')], who congratulates me on a charge well lead."
+ 
+ martial_strategy_special.1401.commander:0 "[commander.Custom('CTPTitledFirstName')]"
+ 
+ martial_strategy_special.1404.c:0 "Take the men home, [knight.Custom('CTPFirstName')]. I am tired of searching."
+ martial_strategy_special.1404.d:0 "[soldier_friend.Custom('CTPTitledFirstName')] can take charge of these troops."
+ 
+ martial_strategy_special.1405.desc:1 "As I am passing through a small village I notice that, though clad in simple cloth, the town's guards are all carrying weapons with my mark on them!\n\nWelcoming me in the muddy street was [zealot.Custom('CTPTitledFirstName')], the self-proclaimed "divine guardian" of the town. My soldiers laid down their armor to help this preaches serve [zealot.GetFaith.HighGodName]!"

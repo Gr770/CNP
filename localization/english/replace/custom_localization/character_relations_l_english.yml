@@ -19,3 +19,6 @@
  BLOCKER_TOO_OLD_FOR_CHILDREN:0 "@warning_icon!#X [CHARACTER.Custom('CTPShortNameNotMe')] is too old#!"
  BLOCKER_TRAIT_BLOCKING_CHILDREN:0 "@warning_icon!#X [CHARACTER.Custom('CTPShortNameNotMe')] is [TRAIT.GetName( CHARACTER.Self )|L]#!"
  BLOCKER_TOO_MANY_CHILDREN:0 "@warning_icon!#X [CHARACTER.Custom('CTPShortNameNotMe')] and [TARGET_CHARACTER.Custom('CTPShortNameNotMe')] have too many children together#!"
+ PLAYER_OPINION_UNIMPORTANT:0 "Because [Character.Custom('CTPFirstName')] is played by [Character.PlayerName], their behavior will not be affected by Opinion"
+ PLAYER_OPINION_UNIMPORTANT_SELF:0 "Because [Character.Custom('CTPFirstName')] is played by you, Opinion does not dictate your behavior"
+ CHARACTER_IS_KNIGHT:1 "#T $knight_culture_player_no_tooltip$#!\n[Character.Custom('CTPFirstName')] is a $knight_culture_player$ in [Character.GetKnightArmy.GetName]"

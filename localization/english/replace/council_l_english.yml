@@ -1,5 +1,4 @@
 ﻿l_english:
- 
  COUNCIL_SAME_CHARACTER:0 "[CHARACTER.Custom('CTPShortName')|U] can not be Councillor and Council owner at the same time."
  COUNCIL_NOT_LIEGE:0 "[CHARACTER.Custom('CTPShortName')|U] must be the liege of [TARGET_CHARACTER.Custom('CTPShortName')] to assign it as Councillor."
  COUNCIL_NOT_VALID_POSITION:0 "[CHARACTER.Custom('CTPShortName')|U] can not have a $NAME$ councillor in the council."
@@ -17,6 +16,8 @@
  COUNCIL_CANT_CANCEL_NO_RUNING:0 "[CHARACTER.Custom('CTPShortName')|U] is not running any task."
  START_COUNCIL_TASK_SEND_COURT:1 "Send your [COUNCIL_TASK.GetPositionName] to [COUNCIL_TASK_TYPE.GetName] on [TARGET.Custom('CTPShortNamePossessive')] court"
  COUNCILLOR_CAN_CHANGE_ONCE:0 "@warning_icon!#X Once appointed as [COUNCIL_POSITION_TYPE.GetName|V], [CHARACTER.Custom('CTPShortName')] cannot be fired or assigned another position#!"
+ COUNCILLOR_LIEGE_MISSING_SPOUSE:1 "[CouncilWindow.GetCharacter.Custom('CTPFirstName')] has no [available_spouse|E]"
+ 
  councillor_leaving_court_marriage_notification:0 "Your [council_task.GetPositionName], [councillor.Custom('CTPShortNameNoTooltip')|U], left [councillor.GetHerHis] position and your court as a result of [councillor.GetHerHis] marriage to a landed spouse."
  councillor_leaving_court_landed_notification:0 "Your [council_task.GetPositionName], [councillor.Custom('CTPShortNameNoTooltip')|U], left [councillor.GetHerHis] position and your court as a result of [councillor.GetHerHim] inheriting a title."
  councillor_leaving_court_generic_fallback_notification:0 "Your [council_task.GetPositionName], [councillor.Custom('CTPShortNameNoTooltip')|U], has left [councillor.GetHerHis] position and your court."

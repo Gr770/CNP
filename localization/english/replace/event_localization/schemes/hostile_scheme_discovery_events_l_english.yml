@@ -1,0 +1,20 @@
+﻿l_english:
+ hostile_scheme_discovery.1001.close_relation:0 "My [spymaster.GetCouncilTitle] has come to me with grave news. [spymaster.GetSheHe|U] is certain that [agent.Custom('CTPTitledFirstName')], my own [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('agent'))] is scheming against me!"
+ hostile_scheme_discovery.1001.close_relation_no_spymaster:0 "Grave news have reached me. [agent.Custom('CTPTitledFirstName')], my own [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('agent'))] is scheming against me!"
+ hostile_scheme_discovery.1001.close_relation_other_target:0 "My [spymaster.GetCouncilTitle] has come to me with grave news. [spymaster.GetSheHe|U] is certain that [agent.Custom('CTPTitledFirstName')], my own [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('agent'))] is scheming against my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('targeted_courtier'))] [targeted_courtier.Custom('CTPTitledFirstName')]!"
+ hostile_scheme_discovery.1001.close_relation_no_spymaster_other_target:0 "Grave news have reached me. [agent.Custom('CTPTitledFirstName')], my own [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('agent'))] is scheming against my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('targeted_courtier'))] [targeted_courtier.Custom('CTPTitledFirstName')]!"
+ hostile_scheme_discovery.1001.desc:0 "My [spymaster.GetCouncilTitle] has come to me with a discovery. [spymaster.GetSheHe|U] is certain that my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('agent'))], [agent.Custom('CTPTitledFirstName')], is scheming against me!"
+ hostile_scheme_discovery.1001.desc_no_spymaster:0 "Grave news have reached me. It has been discovered that my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('agent'))], [agent.Custom('CTPTitledFirstName')], is scheming against me!"
+ hostile_scheme_discovery.1001.desc_other_target:0 "My [spymaster.GetCouncilTitle] has come to me with a discovery. [spymaster.GetSheHe|U] is certain that my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('agent'))], [agent.Custom('CTPTitledFirstName')], is scheming against my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('targeted_courtier'))] [targeted_courtier.Custom('CTPTitledFirstName')]!"
+ hostile_scheme_discovery.1001.desc_no_spymaster_other_target:0 "Grave news have reached me. It has been discovered that my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('agent'))], [agent.Custom('CTPTitledFirstName')], is scheming against my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('targeted_courtier'))] [targeted_courtier.Custom('CTPTitledFirstName')]!"
+ hostile_scheme_discovery.1001.c:0 "Whether true or not, I will not accuse [agent.Custom('CTPFirstNameNoTooltip')]."
+ hostile_scheme_discovery.1001.c.tt:0 "[agent.Custom('CTPFirstNameNoTooltip')] goes free."
+
+ hostile_scheme_discovery.2001.target_other:0 "my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('target'))], [target.Custom('CTPTitledFirstName')]!"
+ 
+ hostile_scheme_discovery.3001.intro:0 "[agent.Custom('CTPTitledFirstName')], my agent at [court_owner.Custom('CTPTitledFirstNamePossessive')] court, has been discovered!"
+ hostile_scheme_discovery.3001.imprisoned:0 "\n\nNow the [court_owner.Custom('CTPTitleAsName')] has placed [agent.GetHerHim] under lock and key."
+ hostile_scheme_discovery.3001.a:0 "Curse [court_owner.Custom('CTPTitledFirstNameNoTooltip')], and [court_owner.GetHerHis] [spymaster.GetCouncilTitle]!"
+
+ hostile_scheme_discovery.4001.opening:0 "My plot against my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('target'))], [target.Custom('CTPTitledFirstName')], has been discovered!"
+ hostile_scheme_discovery.4002.opening:0 "My scheme to see my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('target'))] dead has been discovered! Now everyone knows of my plan to kill [target.Custom('CTPTitledFirstName')]."

@@ -1,0 +1,10 @@
+﻿l_english:
+ fabricate_hook_ongoing.0001.desc:1 "[target.Custom('CTPTitledFirstNamePossessive')] [target.Custom2('RelationToMe', SCOPE.sC('family_member'))], [family_member.Custom('CTPTitledFirstName')], has been unusually forthcoming. Even knowing that I might not have entirely pure intentions for [target.Custom('CTPFirstName')], [family_member.GetSheHe] is more than willing to answer my questions."
+ 
+ fabricate_hook_ongoing.0002.desc:0 "[target.Custom('CTPTitledFirstName')] seems unusually careful around [target.GetHerHis] [target.Custom2('RelationToMeShort', hooking_character )], [hooking_character.Custom('CTPTitledFirstName')]. This kind of deference can only mean that [hooking_character.Custom('CTPFirstNameNoTooltip')] has some kind of leverage on [target.GetHerHim].\n\nPerhaps there is something for me to learn, here?"
+ 
+ fabricate_hook_ongoing.0003.desc_servant:0 "My agents have made contact with [servant.Custom('CTPTitledFirstName')], a servant in my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('target'))] [target.Custom('CTPTitledFirstNamePossessive')] [target.Custom('ResidenceBuilding')]."
+ fabricate_hook_ongoing.0003.desc:0 "My agents have made contact with a servant in my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('target'))] [target.Custom('CTPTitledFirstNamePossessive')] [target.Custom('ResidenceBuilding')]."
+ fabricate_hook_ongoing.0003.desc_ending:0 "\n\nWith the right incentive [dummy_servant_gender.GetSheHe] is willing to start some #EMP whispers#! about [target.Custom('CTPTitledFirstNameNoTooltip')] not being nearly as [target.Custom('FormalComplimentAdjective')] as [target.GetSheHe] seems!"
+ 
+ fabricate_hook_ongoing.0005.desc:0 "People describe [target.Custom('CTPTitledFirstName')] as both [target.Custom('ComplimentAdjective')] and [target.Custom('InsultAdjective')], which tells me more about their relationship to [target.GetHerHim] than anything else.\n\nAlso, a curious number of people mention how often [target.GetSheHe] [ROOT.Char.Custom2('QuirkPresentPosOrNeg', SCOPE.sC('target'))] and talks about [target.Custom('herhis_subject_of_interest')]."

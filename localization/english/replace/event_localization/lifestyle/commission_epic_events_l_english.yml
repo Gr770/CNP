@@ -1,0 +1,53 @@
+﻿l_english:
+ CommissionEpicComposer_composer:0 "[second.Custom('CTPTitledFirstName')]"
+ 
+ commission_epic.0001.a:0 "[writer.Custom('CTPTitledFirstName')], the accomplished storyteller!"
+ writer_writes_epic:0 "[writer.Custom('CTPTitledFirstName')] the storyteller composes the epic"
+ commission_epic.0001.b:0 "I will gather some of my best [ROOT.Char.Custom('CommissionEpicScribes')]."
+ servant_writes_epic:0 "[servant.Custom('CTPTitledFirstName')] the servant composes the epic"
+
+ commission_epic.0002.writer:0 "My Family Epic seems to be progressing well, and some lines already sound like they will be quoted for decades to come, but [writer.Custom('CTPTitledFirstName')] has a lot of questions about the focus of the story.\n\nIt would be easier to answer if [writer.GetSheHe] wrote it all first. Then I could tell [writer.GetHerHim] what I dislike about it, but [writer.GetSheHe] insists [writer.GetSheHe] needs answers now."
+ commission_epic.0002.servant:0 "[servant.Custom('CTPFirstName')], the servant I ordered to work on my family history, seems to be struggling a little. That [servant.GetSheHe] is making any progress at all is quite impressive, however. As it turns out [servant.GetSheHe] can neither read nor rhyme.\n\nYet [servant.GetSheHe] works day and night, and has now come to me with an important question. "What exactly should it be about, my [ROOT.Char.GetLadyLord]?""
+ 
+ commission_epic.1002.composer:0 "[composer.Custom('CTPTitledFirstName')] is telling [powerful_vassal.Custom2('MyCharacterIntroduction', ROOT.Char)] about several exciting details [composer.GetSheHe] has discovered about my ancestors. "Now, I believe the part with the [ROOT.Char.Custom('CompositionDetail')] might actually be true, since—"\n\nIt is fascinating, to be sure, but does [composer.GetSheHe] not have a grand [ROOT.Char.Custom('CompositionType')] to complete? As for this particular anecdote..."
+
+ commission_epic.1003.composer:0 "[composer.Custom('CTPTitledFirstName')] has been caught trying to sneak off from [composer.GetHerHis] duties! Thankfully a guard recognized [composer.GetHerHim] as [composer.GetSheHe] passed the gates.\n\n"It is exhausting work," [composer.GetSheHe] defends [composer.GetHerselfHimself]. "Day and night, my benevolent [ROOT.Char.GetLadyLord]! I am desperate for a few days' rest.""
+ 
+ commission_epic.1004.b:0 "[composer.Custom('CTPTitledFirstName')] can do it [composer.GetHerselfHimself]."
+ 
+ commission_epic.1005.composer:0 "[composer.Custom('CTPFirstName')] has"
+ 
+ commission_epic.1006.a:0 "You have always been my friend, [vassal.Custom('CTPFirstNameNoTooltip')]!"
+ 
+ commission_epic.2001.desc:1 "\n\nIt seems that the [county.GetName] was never intended to be permanently in the hands of the House [vassal.GetHouse.GetName]. I could make a reasonable claim against [vassal.Custom('CTPTitledFirstName')]!"
+ commission_epic.2001.b:0 "[vassal.Custom('CTPFirstNameNoTooltip')] would surely want to formalize the grant."
+ commission_epic.2001.c.flavor:0 "But make certain the [vassal.Custom('CTPTitleTierName')] knows."
+ 
+ commission_epic.2003.desc:0 "It seems as if [court_chaplain.Custom('CTPFirstName')] has been [ROOT.Char.Custom('CompositionTypeActionPP')] parts of my new family epic. Of course, [court_chaplain.GetSheHe] has discovered "discrepancies" between promises made in the past and our current reality.\n\nI can tell that [court_chaplain.GetSheHe] will not let it go anytime soon. "Surely you can see how wise and benevolent it would be to fulfill your forebears' promise, even now?""
+ 
+ commission_epic.2005.desc:0 "My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('chancellor'))], [chancellor.Custom('CTPTitledFirstName')], is [ROOT.Char.Custom('CompositionTypeActionPP')] my family epic as it is slowly coming together.\n\n"A lot of it is not very plausible, such as the part with the [ROOT.Char.Custom('CompositionDetail')]," [chancellor.GetSheHe] tells me. "On the other hand, who is to say what the past was like? If you are already doing embellishments, why not take it as far as we can?""
+ 
+ commission_epic.2006.desc:0 "I do not know whether to be relieved or disconcerted about the enthusiasm my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('court_chaplain'))], [court_chaplain.Custom('CTPTitledFirstName')], shows after [ROOT.Char.Custom('CompositionTypeActionPP')] the completed parts of my family epic.\n\n"This is a telling of a wonderful moral!" [court_chaplain.GetSheHe] claims. "The [ROOT.Char.GetDynasty.GetBaseName] dynasty has always seen greatness when advised by clerics, and dark times when it has failed to heed that advice! I hope it is a lesson you will heed equally well.""
+ commission_epic.2006.c.same_dynasty:0 "This option is available because [court_chaplain.Custom('CTPFirstNameNoTooltip')] is of the same [dynasty|E] as me"
+
+ commission_epic.9001.writer:0 "\n\nThe epic [ROOT.Char.Custom('CompositionType')] of my family is finally complete, and [composer.Custom('CTPTitledFirstName')] has reason to be proud!"
+ commission_epic.9001.servant:0 "It seems I was wise in choosing [composer.Custom('CTPTitledFirstName')] to compose the [ROOT.Char.Custom('CompositionType')] of my family. Despite [composer.GetHerHis] challenges, the completed work is quite impressive."
+ 
+ commission_epic.9002.writer:0 "[composer.Custom('CTPTitledFirstName')] has completed my family epic, and what a glorious [ROOT.Char.Custom('CompositionType')] [composer.GetSheHe] has composed!"
+ 
+ commission_epic.9101.desc:0 "After all the time [composer.Custom('CTPTitledFirstName')] has spent at my court, and how well [composer.GetSheHe] has gotten to know me, it feels strange that [composer.GetSheHe] is about to depart.\n\n"I have other places to go, and other stories that need telling," [composer.GetSheHe] tries to explain."
+ 
+ commission_epic.9102.desc:0 "[composer.Custom('CTPTitledFirstName')] has proven [composer.GetHerselfHimself] far more capable than I would expect from a simple servant. Had I not known better, I might have thought [composer.GetHerHim] from a lineage of poets!\n\nAfter all the time we have spent together, it seems strange that [composer.GetSheHe] should return to shoveling dirt, or whatever it was [composer.GetSheHe] used to."
+ 
+ commission_epic.9103.desc:0 "After all the time [composer.Custom('CTPTitledFirstName')] has spent at my court, and how well [composer.GetSheHe] has gotten to know me, it that [composer.GetSheHe] is not going far.\n\n[composer.Custom('CTPFirstNameNoTooltip')] agrees. "I have many stories yet to tell, and it seems right that I should continue telling them here.""
+ 
+ commission_epic.9104.desc:0 "After all the time [composer.Custom('CTPTitledFirstName')] has spent at my court, and how well [composer.GetSheHe] has gotten to know me, it feels strange that [composer.GetSheHe] is not here to see the reception of [composer.GetHerHis] work.\n\nLearned people and children alike are [ROOT.Char.Custom('CompositionTypeActionPP')] it, and even I find it to be an inspiration."
+ commission_epic.9104.b.flavor:0 "[ROOT.Char.Custom('CompositionTypeActionPP')|U] the story, I have to wonder. Did [composer.Custom('CTPFirstNameNoTooltip')] know this was how it would end?"
+
+ commission_epic.9998.imprisoned_by_me:0 "With [composer.Custom('CTPTitledFirstName')] in my dungeon,"
+ commission_epic.9998.imprisoned:0 "With [composer.Custom('CTPTitledFirstName')] imprisoned,"
+ commission_epic.9998.incapacitated:0 "With [composer.Custom('CTPTitledFirstName')] in [composer.GetHerHis] current state,"
+ commission_epic.9998.left_court:0 "With [composer.Custom('CTPTitledFirstName')] no longer at my court,"
+
+ commission_epic.9999.murdered_by_me:0 "Considering the drastic measures I had to take towards [composer.Custom('CTPTitledFirstName')], it seems as if [composer.GetSheHe] was never truly a good fit to compose my family epic after all.\n\nThankfully my [ROOT.Char.Custom('CommissionEpicScribes')] are quite capable of doing it by themselves."
+ commission_epic.9999.died:0 "With the passing of [composer.Custom('CTPTitledFirstName')], my family epic stands incomplete.\n\nIt will be a difficult task, but my [ROOT.Char.Custom('CommissionEpicScribes')] will have to continue the efforts."

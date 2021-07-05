@@ -1,0 +1,3 @@
+﻿l_english:
+ NAMED_OPINION_MODIFIER:0 "$MODIFIER$ ([CHARACTER.Custom('CTPFirstName')])"
+ MODIFIER_FROM_TITLE_LAWS:1 "[TITLE.Custom('CTPRegNamePossessive')|U] [title_laws|E]"

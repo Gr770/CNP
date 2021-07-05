@@ -1,2 +1,40 @@
 ﻿l_english:
+ martial_chivalry.0001.easy_fight:0 "\n\nAlthough [duel_opponent.Custom('CTPTitledFirstName')] seemed no threat at first, it quickly became clear that [duel_opponent.GetSheHe] would be unable to stop [duel_opponent.GetHerHis] wild and vicious strikes from hurting me!"
+ martial_chivalry.0001.a.tt:1 "[duel_opponent.Custom('CTPTitledFirstName')] will hopefully come to serve you well."
+ 
+ martial_chivalry.2010.like.desc:0 "who waves at me. I walk over to greet [challenger.GetHerHim].\n\nWe talk about our weapon practice for a while, trading tricks and advice. Just as I am about to leave for another round, [challenger.Custom('CTPTitledFirstNamePossessive')] face lights up and [challenger.GetSheHe] suggests we practice together."
+ martial_chivalry.2010.dislike.desc:0 "eyeing me while nonchalantly swinging [challenger.GetHerHis] [challenger.Custom('signature_weapon')] back and forth.\n\n"My [ROOT.Char.Custom('CTPTitleTierName')]!" [challenger.Custom('CTPFirstNamePossessive')] words boom across the courtyard. "Would you not prefer to test your skills against me instead?""
  martial_chivalry.2010.a.failure1.tt:0 "[challenger.Custom('CTPShortNameNoTooltip')] gains the advantage in the duel"
+
+ martial_chivalry.2011.start.desc:0 "The sounds of [ROOT.Char.Custom('signature_weapon')] clashing against [challenger.Custom('signature_weapon')] echoes between the courtyard walls. All eyes are on us; everyone wants to see their [ROOT.Char.Custom('CTPTitleTierName')] fighting [ROOT.Char.GetHerHis] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('challenger'))].\n\n"
+ martial_chivalry.2011.end.desc:0 "The crowd applauds as I lunge and their admiration makes me bold. Instead of pulling back, I attempt a new technique I have been practicing. The movements flow through me and into my [ROOT.Char.Custom('signature_weapon')] as if we were one. [challenger.Custom('CTPTitledFirstName')] is defenseless before me."
+ 
+ martial_chivalry.2013.end.desc:0 "Through the use of a dirty trick, [challenger.Custom('CTPFirstName')] gains an early advantage. There is no time to object, nor do I want to act like a bellyacher. But I cannot let it go, and my frustration throws me off balance. I make an ill-advised lunge and my opponent strikes me to the ground."
+ 
+ martial_chivalry.2014.desc:0 "Judging by the exclamations from the crowd, they can hardly believe their eyes as I roll away from [challenger.Custom('CTPFirstNamePossessive')] [challenger.Custom('signature_weapon')] and disarm [challenger.GetHerHim] in one, swift movement. I know it was a dangerous move, but sometimes you have to take great risks to achieve glorious victories."
+ 
+ martial_chivalry.2015.desc:0 "I make a desperate last attack, but [challenger.Custom('CTPFirstName')] is quick. [challenger.GetSheHe|U] parries instinctively, but as my attack was unexpected, [challenger.GetSheHe] is not in full control of [challenger.GetHerHis] weapon. Paralyzing pain sears through my arm."
+ 
+ martial_chivalry.3000.desc:0 "Today I am observing [bad_commander.Custom('CTPTitledFirstName')] as [bad_commander.GetSheHe] trains some of [bad_commander.GetHerHis] new levies, but the recruits under [bad_commander.GetHerHis] command resemble a disorganized mob more than an army.\n\nI look on as [bad_commander.GetSheHe] struggles to gain control of the situation, clearly pushed to [bad_commander.GetHerHis] limits."
+ martial_chivalry.3000.b.attempt:0 "[bad_commander.Custom('CTPTitledFirstNameNoTooltip')] will make a decision based on [bad_commander.GetHerHis] personality"
+ martial_chivalry.3000.b.tt.s:1 "[bad_commander.Custom('CTPTitledFirstNameNoTooltip')] accepts your advice"
+ martial_chivalry.3000.b.tt.f:0 "[bad_commander.Custom('CTPTitledFirstNameNoTooltip')] refuses to listen"
+ 
+ martial_chivalry.3000.response.desc:0 "[my_liege.Custom('CTPTitledFirstName')] stopped by to observe me today while I was training my new levies.\n\nEmbarrassingly, my undisciplined soldiers fell into a disorderly mob while trying to complete their exercises!"
+ martial_chivalry.3001.desc:0 "Even worse, [my_liege.Custom('CTPFirstName')] has blamed me personally for this failure."
+ martial_chivalry.3001.c:0 "I have failed [my_liege.Custom('CTPTitledFirstNameNoTooltip')]."
+
+ martial_chivalry.3002.desc:0 "Now [my_liege.Custom('CTPFirstName')] is lecturing me on the basics of how to train new troops!"
+ martial_chivalry.3002.a:0 "Accept [my_liege.Custom('CTPFirstNamePossessiveNoTooltip')] advice gracefully."
+ 
+ martial_chivalry.3003.desc.1:0 "I pull [bad_commander.Custom('CTPTitledFirstName')] over to one side while [bad_commander.GetHerHis] recruits attempt to continue their training. "The key thing with training new soldiers is instilling discipline!" I tell [bad_commander.GetHerHim]. "Without that, you will be unable to depend on them to follow your orders...""
+ martial_chivalry.3003.desc.2:0 "\n\nAfter I finish, [bad_commander.Custom('CTPFirstName')] thanks me before strolling back onto the field, where [bad_commander.GetSheHe] quickly takes control of the situation."
+ martial_chivalry.3003.a:0 "This will make [bad_commander.Custom('CTPFirstNameNoTooltip')] a better commander."
+
+ martial_chivalry.3004.desc:0 "As I tap [bad_commander.Custom('CTPTitledFirstName')] on [bad_commander.GetHerHis] shoulder, [bad_commander.GetSheHe] throws up [bad_commander.GetHerHis] hands and shouts "This is #EMP not#! my fault [ROOT.Char.Custom('CTPFirstNameNoTooltip')]! These idiotic peasants don't know their right hand from their left! How can anyone be expected to turn this rabble into an army!?""
+ martial_chivalry.3004.b:0 "[bad_commander.Custom('CTPTitledFirstNameNoTooltip')] will regret this display of impudence!"
+ martial_chivalry.3004.a:0 "I am disappointed in [bad_commander.Custom('CTPTitledFirstNameNoTooltip')]."
+
+ martial_chivalry.3005.desc:0 "To my relief [my_liege.Custom('CTPFirstName')] approached me after the exercise to comfort me and encourage my efforts."
+ 
+ martial_chivalry_special.1202.desc:0 "[soldier.Custom('CTPTitledFirstName')] glances at the mud-fields at the bottom of the hill. "Those could serve as the outline of an enemy army," [soldier.GetSheHe] says.\n\nI inform my [ROOT.Char.Custom('MountedWarriorTermPlural')] as I inspect their battle-line, preparing them for the strategy at hand."

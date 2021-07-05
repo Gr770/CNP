@@ -1,3 +1,20 @@
 ﻿l_english:
+ learning_scholarship.1201.desc:0 "Feathers of gleaming metal, eyes of precious stones, a voice singing with the chimes of bells... The mechanical bird which has been gifted to me by [bird_sender.Custom2('MyCharacterIntroduction', ROOT.Char)] is a true masterpiece!\n\n"This bird was crafted by the finest artificers in all of [bird_sender.GetPrimaryTitle.GetNameNoTierNoTooltip]," [bird_sender.Custom('CTPTitledFirstNamePossessiveNoTooltip')] letter reads. "I think you will find it quite intriguing.""
+ learning_scholarship.1201.c.success:0 "[bird_sender.Custom('CTPTitledFirstNameNoTooltip')] is a learned [bird_sender.GetWomanMan]"
+ learning_scholarship.1201.c.failure:0 "[bird_sender.Custom('CTPTitledFirstNameNoTooltip')] is insulted"
+
+ learning_scholarship.1401.c:0 "[bishop.Custom('CTPTitledFirstNameNoTooltip')], I require your assistance!"
+ 
+ learning_scholarship.3001.desc:0 "I beckon my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('chaplain'))], [chaplain.Custom('CTPTitledFirstName')], to join me in the circle of brass orbs and candles arranged on staves throughout the dark room. The incense cloying the air to ward off the bad vapors makes our eyes tear up in little time. "This is how, through the corner of our eyes, we will spot the inscrutable form of angels."\n\nHowever, [chaplain.Custom('CTPFirstNameNoTooltip')] soon takes pause. "This feels wrong. These are divine beings, not meant for mortal eyes to see.""
+ learning_scholarship.3001.c.tt1:0 "I convince [chaplain.Custom('CTPFirstName')] to assist me"
+ learning_scholarship.3001.c.toast.tt1:0 "[chaplain.Custom('CTPFirstName')] was persuaded by my plea."
+ learning_scholarship.3001.c.tt2:0 "I fail to sway [chaplain.Custom('CTPFirstName')]"
+ learning_scholarship.3001.c.toast.tt2:0 "[chaplain.Custom('CTPFirstName')] dismissed my reasons"
+
+ learning_scholarship_special.2012.a:0 "Help me uncover this, [realm_priest.Custom('CTPFirstNameNoTooltip')]!"
  learning_scholarship_special.2012.a.success:0 "[realm_priest.Custom('CTPShortNameNoTooltip')] finds the answer"
  learning_scholarship_special.2012.a.failure:0 "[realm_priest.Custom('CTPShortNameNoTooltip')] finds a kind of answer"
+ learning_scholarship_special.2012.c.friendship_tooltip:0 "This option is available due to my friendship with [realm_priest.Custom('CTPFirstNameNoTooltip')]"
+
+ learning_scholarship.4000.c:0 "I have to work late to prepare lessons for dear [child_educated.Custom('CTPFirstNameNoTooltip')]."
+ learning_scholarship.4000.c.tt:0 "[spouse_uninterested_in_study.Custom('CTPFirstName')] is not the [spouse_uninterested_in_study.GetMotherFather] of [child_educated.Custom('CTPFirstNameNoTooltip')]."

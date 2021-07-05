@@ -1,0 +1,4 @@
+﻿l_english:
+ stress_threshold_prison.1021.desc:0 "There is little enjoyment down here in the dark of the dungeons. A puddle of stale water, a disgusting bucket, a pile of small stones—\n\nThe dark shape of [fellow_prisoner.Custom('CTPTitledFirstName')] in the cell across from mine suddenly looks like an excellent target."
+ 
+ stress_threshold_prison.1031.desc:0 "Locked up here, I am supposed to be weak and pacified. Hah!\n\nHere in the darkness I gather my strength and tear my enemies limb from limb with my mind! Over and over again, every day they are reborn and every day I destroy them like the vermin they are! Especially my wretched jailer, [jailer.Custom('CTPTitledFirstName')]... [jailer.GetSheHe] will suffer the most!"

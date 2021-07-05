@@ -1,3 +1,61 @@
 ﻿l_english:
+ trait_specific_ongoing.1005.desc:0 "As I walk outside during a foggy night an apparition suddenly appears, and in a booming voice it speaks.\n\n"[ROOT.Char.Custom('CTPFirstNameNoTooltip')]! It has been too long!"\n\nIt is my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('dead_person') )], [dead_person.Custom('CTPTitledFirstName')], who I believed had [dead_person.GetDeathReason]!"
+ 
+ trait_specific_ongoing.1006.desc:0 "For a year I have been receiving frequent visits from my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('dead_person') )] [dead_person.Custom('CTPTitledFirstName')], day in and day out. [dead_person.GetSheHe|U] is adamant that no one else is allowed to see [dead_person.GetHerHim], but people are starting to worry...\n\nHow am I supposed to focus on my [ROOT.Char.Custom('child_object_of_interest')] when [dead_person.GetSheHe] acts like this?!"
+ 
+ trait_specific_ongoing.1008.desc:0 "I am spending a day with my friend [friend.Custom('CTPTitledFirstName')] when suddenly everything starts spiraling...\n\nSteely gray, bloody red, a screaming face, deep crimson seas...\n\nI come to crouched over [friend.GetHerHis] body, bloody knife in hand."
+ trait_specific_ongoing.1008.a:0 "[friend.Custom('CTPFirstNameNoTooltip')]! Oh no... I must hide the body."
+ 
  trait_specific_ongoing.2001.a.success:0 "You convince [clergy.GetCouncilTitle] [clergy.Custom('CTPShortName')] that your visions are holy"
  trait_specific_ongoing.2001.a.failure:0 "[clergy.GetCouncilTitle|U] [clergy.Custom('CTPShortName')] is disturbed by your tales"
+ 
+ trait_specific_ongoing.2002.desc:0 "My search for the knowledge promised by the Messengers has taken me to some unusual places. Dark alleys, seedy taverns, dusty bookshops — I have gone where no [ROOT.Char.Custom('CTPTitleAsNameNoTooltip')] has gone before, and my reward has been great indeed.\n\nI have uncovered a number of tomes about [ROOT.Char.GetFaith.WitchGodName] and the powers [ROOT.Char.GetFaith.WitchGodSheHe] bestows upon [ROOT.Char.GetFaith.WitchGodHerHis] followers. I am tempted, that I cannot deny."
+ trait_specific_ongoing.2002.a:0 "Dark [ROOT.Char.GetFaith.WitchGodMistressMaster], I am your humble servant!"
+ 
+ trait_specific_ongoing.2015.physician.desc:0 "\n\n[physician.Custom2('MyCharacterIntroduction', ROOT.Char)|U] must have overheard [chaplain.GetHerHim]. "What the [ROOT.Char.Custom('CTPTitleAsNameNoTooltip')] needs is peace and quiet, not threats of damnation!""
+ trait_specific_ongoing.2015.c:0 "What would you suggest, [physician.Custom('CTPFirstNameNoTooltip')]?"
+ 
+ trait_specific_ongoing.2016.physician1.desc:0 "[physician.Custom('CTPTitledFirstName')] told me to get plenty of rest and to avoid shiny objects, loud noises and extreme weather."
+ trait_specific_ongoing.2016.fasting1.desc:0 "[chaplain.Custom('CTPTitledFirstName')] instructed me to only have one small meal in the evening, and gave me a long list of foods to exclude. Dairy, meat, eggs, sweets, alcohol, oils, pungent spices, vegetables that grow below ground..."
+ trait_specific_ongoing.2016.prayer1.desc:0 "[chaplain.Custom('CTPTitledFirstName')] told me to spend at least three hours a day in focused prayer and directed me to a dozen sections in the [ROOT.Char.GetFaith.ReligiousText] for further studies."
+ trait_specific_ongoing.2016.a.physician:0 "You have my thanks, [physician.Custom('CTPFirstNameNoTooltip')]!"
+ 
+ trait_specific_ongoing.2025.b:0 "I am the [ROOT.Char.Custom('CTPTitleAsNameNoTooltip')] — I do not care what they think."
+ trait_specific_ongoing.2025.c:0 "Where is [helper.Custom('CTPFirstNameNoTooltip')]? I need [helper.GetHerHis] help!"
+ 
+ trait_specific_ongoing.3001.desc:0 "My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('sympathetic_character') )] [sympathetic_character.Custom('CTPTitledFirstName')] approaches me as I am done holding court, with people still mingling around.\n\n"My [ROOT.Char.GetLadyLord], I have heard that you too suffer from periods of... melancholy. Perhaps we could discuss our experiences?""
+ 
+ trait_specific_ongoing.3002.desc:0 ""My [ROOT.Char.GetLadyLord]," my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('court_physician'))] [court_physician.Custom('CTPTitledFirstName')] approaches me one evening. "I have some remedies we could try for your insistent melancholy. It might get a bit worse before it gets better, but it's worth trying!""
+ 
+ trait_specific_ongoing.3003.desc:0 ""To cure these kinds of affliction it is very important to air out the bad thoughts," my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('court_physician'))] [court_physician.Custom('CTPTitledFirstName')] assures me. "Come to me a couple of times every week, and we will talk about what weighs on you.""
+ 
+ trait_specific_ongoing.3004.desc:0 ""For you to feel better we have to work on both your thoughts and your routines," my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('court_physician'))] [court_physician.Custom('CTPTitledFirstName')] informs me. "I will help you identify your negative thoughts and habits and work to change these.""
+
+ trait_specific_ongoing.3005.desc:0 ""Exercise and bodily stimulation are effective in balancing your humors," my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('court_physician'))] [court_physician.Custom('CTPTitledFirstName')] tells me. "You will make three rounds of your [ROOT.Char.Custom('ResidenceBuilding')] every day.""
+
+ trait_specific_ongoing.3006.desc:0 ""These bad thoughts and this melancholy are clearly the result of evil spirits or demons," my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('court_physician'))] [court_physician.Custom('CTPTitledFirstName')] tells me. "We will task a [ROOT.Char.Custom('DefaultPriestTitle')] to pray over you to banish the evil within.""
+
+ trait_specific_ongoing.3007.desc:0 "After all the things my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('court_physician'))] [court_physician.Custom('CTPTitledFirstName')] has put me through I slowly come to the realization that I am #EMP feeling#! things again."
+
+ trait_specific_ongoing.3008.desc_physician_died:0 "My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('court_physician'))] [court_physician.Custom('CTPTitledFirstName')] passed away before [court_physician.GetSheHe] could finish treating me for my melancholy, but the directions [court_physician.GetSheHe] left behind helped me to fulfill the treatment myself."
+ trait_specific_ongoing.3008.desc_no_depression:0 "I do not have to continue the routine my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('court_physician'))] [court_physician.Custom('CTPTitledFirstName')] set before me to rid me of my melancholy since I am already free of the affliction!"
+ trait_specific_ongoing.3008.desc_fallback:0 "My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('court_physician'))] [court_physician.Custom('CTPTitledFirstName')] has not finished [court_physician.GetHerHis] treatment of my melancholy, but I feel the darkness lifting from me."
+
+ trait_specific_ongoing.3015.end.desc:0 "I know exactly how [unsympathetic.GetSheHe] will react.\n\n"Why am I even surprised anymore," [unsympathetic.Custom('CTPTitledFirstNameNoTooltip')] says with a sigh, and my heart sinks. "
+
+ trait_specific_ongoing.5001.desc_opening:0 "My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('victim') )] [victim.Custom('CTPTitledFirstName')] and I find ourselves alone as the rest of the court has ambled off to sleep.\n\n"
+ trait_specific_ongoing.5001.b:0 ""Please, [victim.Custom('CTPFirstNameNoTooltip')], go on.""
+
+ trait_specific_ongoing.5002.desc:0 "My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('murderer') )] [murderer.Custom('CTPTitledFirstName')] and I find ourselves alone as the rest of the court has ambled off to sleep.\n\nAs the night goes on [murderer.GetSheHe] grows more and more intense, [murderer.GetHerHis] eyes never straying far from any exposed flesh on my body. Just as I am about to question [murderer.GetHerHis] intentions [murderer.GetSheHe] draws a knife and smiles."
+ 
+ trait_specific_ongoing.5003.desc_opening:0 "My servant [servant.Custom('CTPTitledFirstName')] has caught my attention – the shape of [servant.GetHerHis] arms, the curving of [servant.GetHerHis] neck... As I corner [servant.GetHerHim] alone in a pantry [servant.GetSheHe] asks what I want of [servant.GetHerHim], a flirty smile on [servant.GetHerHis] lips.\n\n"I crave your body," I answer as I press up against [servant.GetHerHim]."
+ 
+ trait_specific_ongoing.5005.desc:0 "Late one evening I stumble upon my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('courtier'))] [courtier.Custom('CTPTitledFirstName')] taking a nap.\n\nI have never noticed before, but [courtier.GetSheHe] really does have a scrumptious body..."
+
+ trait_specific_ongoing.6001.desc:0 "To get myself excited before meeting with my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover') )] [lover.Custom('CTPTitledFirstName')] I bring out [ROOT.Char.Custom('DeviantObjectArticle')] – #EMP oh...!#!\n\nI am so caught up in it, exploring its ins and outs, that I do not hear the door open. What I do hear is [lover.Custom('CTPFirstNamePossessiveNoTooltip')] gasp as [lover.GetSheHe] sees what I am doing."
+ 
+ trait_specific_ongoing.6002.desc:0 "As I go to pay a visit to my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('liege') )] [liege.Custom('CTPTitledFirstName')] I am shown to [liege.GetHerHis] quarters.\n\nI open the door to find [liege.GetHerHim] in the throes of ecstasy, aided by [ROOT.Char.Custom('DeviantObjectArticle')] – I didn't even know it could be used in such a way!"
+
+ trait_specific_ongoing.6003.desc_opening:0 "I am in the throes of ecstasy, aided by [ROOT.Char.Custom('DeviantObjectArticle')], as my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('vassal') )] [vassal.Custom('CTPTitledFirstName')] walks into the room.\n\n"
+ trait_specific_ongoing.6003.desc_joined:0 "I can see [vassal.GetHerHim] hesitate, but then [vassal.GetSheHe] closes the door and walks inside. "Oh, [liege.Custom('CTPTitledFirstNameNoTooltip')], that looks... That looks #EMP interesting#!! Here, let me help you.""
+ trait_specific_ongoing.6003.desc_exposed:0 "Horrified [vassal.GetSheHe] throws the door wide open, "[liege.Custom('CTPTitledFirstNameNoTooltip')], what is the meaning of this?!""

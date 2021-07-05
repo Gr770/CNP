@@ -2,6 +2,7 @@
  ARMY_SUPPLY_COMMANDER_BREAKDOWN:0 "#T [commander|E] [CHARACTER.Custom('CTPName')]#!#indent_newline:3 \n[CHARACTER.GetModifierDescription( 'supply_capacity_mult' )]\n[CHARACTER.GetModifierDescription( 'supply_capacity_add' )]#!"
  ARMY_SUPPLY_CAPACITY_INCREASED_BY_COMMANDER:0 "Supply capacity increased by [CHARACTER.GetContextTooltip( 'ARMY_SUPPLY_COMMANDER_BREAKDOWN', CHARACTER.Custom('CTPNameNoTooltip') )]\n\n"
  ARMY_SUPPLY_CAPACITY_LOWERED_BY_COMMANDER:0 "Supply capacity decreased by [CHARACTER.GetContextTooltip( 'ARMY_SUPPLY_COMMANDER_BREAKDOWN', CHARACTER.Custom('CTPNameNoTooltip') )]\n\n"
+ TT_REORG_VASSAL_LEVIES:0 "#T [levies|E]\n#![soldiers|E]: [soldier_i][RegimentReorgEntry.GetSoldierCount]/[RegimentReorgEntry.GetMaxSoldierCount]\nFrom [vassal|E] [RegimentReorgEntry.GetRegiment.GetFromVassal.Custom('CTPName')]\n\n$REORG_INSTRUCTION$"
  KNIGHT_REGIMENT_NAME:1 "[CHARACTER.Custom('CTPShortNameNoTooltip')]"
  START_RAID_ALLY:0 "@warning_icon!#X Cannot [raid|E] your ally [CHARACTER.Custom('CTPShortName')]#!"
  TROOP_LIST_KNIGHT:1 "[CHARACTER.Custom('CTPShortName')|U]: [CHARACTER.GetSkill( 'prowess' )] [prowess_i|E]"

@@ -1,6 +1,28 @@
 ﻿l_english:
+ escape_from_prison_decision_failure_outcome.tt:0 "[imprisoner.Custom('CTPTitledFirstName')] might be... displeased"
+
+ tribal_challenge_ruler_decision:0 "Challenge the [ROOT.Char.GetLiege.Custom('CTPTitleAsNameNoTooltip')|U]"
+ tribal_challenge_ruler_decision_desc:0 "[ROOT.Char.GetLiege.Custom('CTPFirstName')] carries the title of [ROOT.Char.GetLiege.Custom('CTPTitleAsNameNoTooltip')] as if it is unquestionably [ROOT.Char.GetLiege.GetHersHis]; as if it is not skill and strength alone that should decide our leader.\n\nI, [ROOT.Char.Custom('CTPFullName2NoTooltip')], question [ROOT.Char.GetLiege.GetHerHis] right to the title, to all of [ROOT.Char.GetLiege.GetPrimaryTitle.GetNameNoTier], and I will be silent no longer!"
+ tribal_challenge_ruler_decision_tooltip:0 "Challenge the [ROOT.Char.GetLiege.Custom('CTPTitleAsNameNoTooltip')|U] for [ROOT.Char.GetLiege.GetHerHis] title and [ROOT.Char.GetLiege.GetHerHis] land"
+ tribal_challenge_ruler_effect_tooltip:0 "[liege_to_challenge.Custom('CTPTitledFirstNameNoTooltip')] will decide upon the challenge\n"
+ tribal_challenge_ruler_decision_confirm:0 "Challenge [ROOT.Char.GetLiege.Custom('CTPTitledFirstNameNoTooltip')]!"
+
+ repay_loan_decision_decision_desc:0 "To have a debt hanging over me is unbecoming of a [ROOT.Char.Custom('CTPTitleAsNameNoTooltip')] – the time has come to repay the money I owe."
+ 
+ take_vow_of_poverty_decision_desc:0 "Money is the root of all evil. While I cannot feasibly give away everything and remain [ROOT.Char.Custom('CTPTitleAsNameNoTooltip')], I can vow to give a portion of my income away each month."
+ 
+ raise_runestone_decision_desc:0 "[ROOT.Var('ancestor_to_bury').Char.Custom2('MyCharacterIntroduction', ROOT.Char)|U] has passed away. I will raise a runestone to honor [ROOT.Var('ancestor_to_bury').Char.GetHerHis] life, and to bring fame to all who bear the name [ROOT.Var('ancestor_to_bury').Char.GetDynasty.GetName]. Future generations will never forget the greatness of [ROOT.Var('ancestor_to_bury').Char.Custom('CTPFullNameNicknamedNoTooltip')]!"
+ 
  portguese_convert_list:1 "Every [THIS.Char.GetCulture.GetGroup.GetName] [culture_group|E] subject in [THIS.Char.Custom('CTPNamePossessive')] Portuguese realm"
+ 
+ invite_knights_decision_desc:1 "As the [ROOT.Char.Custom('CTPTitleAsNameNoTooltip')] of [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip], I need brave $knight_culture_player_plural_no_tooltip_lowercase$ to defend the realm and conquer new lands. I will send out a herald to let my subjects know I am in search of skilled warriors."
+ minor_decisions.0001.desc:1 "[knight.Custom('CTPTitledFirstName')] heeded my summons and has arrived at court as my guest"
+ 
  converted_culture_msg_title:0 "[converting_character.Custom('CTPShortName')|U] converted [culture|E]"
- promote_hungarian_settlement_decision_tooltip:0 "Welcome new Christian Settlers in [ROOT.Char.GetPrimaryTitle.Custom('CTPTitleNoTooltip')]"
- secede_from_empire_decision_desc:0 "[ROOT.Char.GetLiege.GetTitledFirstNamePossessive] incompetence has left [ROOT.Char.GetLiege.GetPrimaryTitle.Custom('CTPTitleNoTooltip')] unable to protect its subjects from their enemies, both internal and external. Even a new ruler would be hard-pressed to undo all of the damage [ROOT.Char.GetLiege.GetSheHe] has done.\n\nIt is a far wiser course of action for us to split off and form a new realm, living or dying on our own merits instead of being dragged down with the rest of the Empire."
- secede_from_empire_decision_debug:0 "[ROOT.Char.GetPrimaryTitle.GetNmae] seceded from [ROOT.Char.GetLiege.GetPrimaryTitle.Custom('CTPTitleNoTooltip')] clearing [debt_cleared.GetValue] in debt"
+ 
+ secede_from_empire_decision_desc:0 "[ROOT.Char.GetLiege.Custom('CTPTitledFirstNamePossessive')] incompetence has left [ROOT.Char.GetLiege.GetPrimaryTitle.GetNameNoTooltip] unable to protect its subjects from their enemies, both internal and external. Even a new ruler would be hard-pressed to undo all of the damage [ROOT.Char.GetLiege.GetSheHe] has done.\n\nIt is a far wiser course of action for us to split off and form a new realm, living or dying on our own merits instead of being dragged down with the rest of the Empire."
+ secede_from_empire_decision_trigger_debt:0 "[CHARACTER.Custom('CTPTitledFirstName')] is more than 25 years in debt"
+ secede_from_empire_decision_trigger_war:0 "[CHARACTER.Custom('CTPTitledFirstName')] has been fighting the same offensive war for more than 25 years"
+ secede_from_empire_decision_notification:0 "[ROOT.Char.Custom('CTPTitledFirstName')] Gained Independence"
+ 
+ negotiate_the_danelaw_integrate_duchies_decision_confirm:0 "One realm, one [ROOT.Char.Custom('CTPTitleAsNameNoTooltip')]."

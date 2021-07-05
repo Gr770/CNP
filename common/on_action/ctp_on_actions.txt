@@ -22,38 +22,14 @@ on_arabic_death = {
 		ctpname.993
 		ctpname.992
 		ctpname.400
+		ctpname.001
 	}
 }
-#on_game_start = {
-	#events = {
-		#ctpname.002
-		#ctpname.003
-	#}
-#}
-on_title_gain = {
-	trigger = {
-		has_culture_group = culture_group:arabic_group
-	}
+on_game_start = {
 	events = {
-		arabicnamepack.001
-		arabicnamepack.002
-	}
-}
-on_title_gain_usurpation = {
-	trigger = {
-		has_culture_group = culture_group:arabic_group
-	}
-	events = {
-		arabicnamepack.001
-		arabicnamepack.002
-	}
-}
-on_title_gain_inheritance = {
-	trigger = {
-		has_culture_group = culture_group:arabic_group
-	}
-	events = {
-		arabicnamepack.001
-		arabicnamepack.002
+		ctpname.002
+		ctpname.003
+		ctpname.004
+		ctpname.005
 	}
 }

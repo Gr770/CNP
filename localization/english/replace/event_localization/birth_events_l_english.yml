@@ -1,2 +1,78 @@
 ﻿l_english:
+ birth.father_is_former_consort_toast_tt:0 "[mother.Custom('CTPTitledFirstName')] has given birth to our [child.Custom('GetDaughterSon')]"
+ birth.father_is_former_consort_toast_tt_twins:0 "[mother.Custom('CTPTitledFirstName')] has given birth to twins"
+
+ birth.1001.same_gender_heir.desc:0 "One day, child, you will carry on my legacy. What name would befit a [ROOT.Char.Custom('CTPTitleAsNameNoTooltip')]?"
+ 
+ birth.1001.desc.twin_dead_father:0 "I have given birth to beautiful [child.Custom('TwinDaughtersSonsChildren')]! [father.Custom('CTPFirstName')] would have adored them..."
+ birth.1001.desc_dead_father:0 "I have given birth to a beautiful [child.Custom('GetDaughterSon')]! [father.Custom('CTPFirstName')] would have adored him..."
+ 
+ birth.1002.unmarried:0 "that [child.GetHerHis] father is in fact [real_father.Custom('CTPFullName2')]."
+ birth.1002.unmarried.twin:0 "that their father is in fact [real_father.Custom('CTPFullName2')]."
+ birth.1002.boy_name.desc:0 "\n\nA part of me wants to name my son after [real_father.Custom('CTPFirstNameNoTooltip')], but I fear that would not be wise..."
+ birth.1002.a.tt:0 "The world at large is none the wiser to [child.Custom('CTPFirstNamePossessiveNoTooltip')] true parentage"
+ birth.1002.c:0 "I wonder where [real_father.Custom('CTPFirstNameNoTooltip')] is right now..."
+
+ birth.1003.loves_mother.desc:1 "Oh, [mother.Custom('CTPFirstName')], you have been so brave! So strong! Words cannot describe my love for you, and now we have"
+ birth.1003.likes_mother.desc:0 "With a tired yet blissful smile, [mother.Custom('CTPFirstName')] presents me with"
+ birth.1003.dislikes_mother.desc:1 "Praise [ROOT.Char.GetFaith.FertilityGodName], [mother.Custom('CTPFirstNameNoTooltip')] has given birth to"
+ 
+ birth.1006.unmarried:0 "\n\nThankfully, [mother.Custom('CTPFirstNameNoTooltip')] has kept quiet about me, and no one else knows the truth, at least for now..."
+ birth.1006.a.mother_message:0 "[real_father.Custom('CTPTitledFirstName')] has learned that [real_father.GetSheHe] is the true father"
+ 
+ known_bastard_birth_event_tooltip:0 "[child.Custom('CTPFirstNameNoTooltip')] will be a [bastard|E] of House [child.GetHouse.GetBaseName]"
+ legitimized_known_bastard_birth_event_tooltip:0 "[child.Custom('CTPFirstNameNoTooltip')] will be a [legitimized_bastard|E] of House [child.GetHouse.GetBaseName]"
+
+ birth.2001.desc.father.standard:0 "Out of wedlock, [mother.Custom('CTPTitledFirstName')] has given birth to our [child.Custom('GetDaughterSon')]. Though I ought to be joyful, my heart is heavy with doubt and fear.\n\nSo it will stay until I have made my decision."
+ birth.2001.desc.father.twins:0 "Out of wedlock, [mother.Custom('CTPTitledFirstName')] has given birth to our children. Though I ought to be joyful, my heart is heavy with doubt and fear.\n\nSo it will stay until I have made my decision."
  bastard_remains_bastard_tt:0 "[child.Custom('CTPShortName')|U] remains an unlegitimized [bastard|E]"
+
+ birth.2002.desc.standard:0 "Not only have I been blessed with a newborn [child.Custom('GetDaughterSon')] – [child.GetHerHis] [legitimizer.GetMotherFather], [legitimizer.Custom('CTPTitledFirstName')], has chosen to legitimize [child.GetHerHim]!"
+ birth.2002.desc.twins:0 "Not only have I been blessed with newborn twins — their [legitimizer.GetMotherFather], [legitimizer.Custom('CTPTitledFirstName')], has chosen to legitimize them!"
+ 
+ birth.2003.desc.standard_start:0 "I wish I could celebrate the birth of our [child.Custom('GetDaughterSon')], but [legitimizer.Custom('CTPTitledFirstName')] has made it clear that the babe will not be considered a true member of [legitimizer.GetHerHis] house."
+ birth.2003.desc.twin_start:0 "I wish I could celebrate the birth of our children, but [legitimizer.Custom('CTPTitledFirstName')] has made it clear the babes are not to be true members of [legitimizer.GetHerHis] house."
+ birth.2003.desc.landed_end:0 "\n\nThe brand of bastard-hood never washes off completely, though the acknowledgment of a [legitimizer.Custom('CTPTitleTierName')] surely would have helped..."
+ birth.2003.a:0 "I wish things were otherwise, little [child.Custom('CTPFirstNameNoTooltip')]!"
+
+ birth.2004.desc.standard:0 "As it turns out, my newborn [child.Custom('GetDaughterSon')] might have a fine future awaiting [child.GetHerHim], after all. [child.GetHerHis|U] [secondary_legitimizer.GetMotherFather], [secondary_legitimizer.Custom('CTPTitledFirstName')], has welcomed [child.GetHerHim] into house [secondary_legitimizer.GetDynastyName]."
+ birth.2004.desc.twins:0 "As it turns out, my newborns might have fine futures awaiting them, after all. Their [secondary_legitimizer.GetMotherFather], [secondary_legitimizer.Custom('CTPTitledFirstName')], has welcomed them into house [secondary_legitimizer.GetDynastyName]."
+ 
+ birth.2102.t:0 "[real_father.Custom('CTPTitledFirstNamePossessiveNoTooltip')|U] Spawn"
+ birth.2102.desc:0 "My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('mother'))], [mother.Custom('CTPTitledFirstName')], has given birth to a child sired by another man. Now [mother.GetSheHe] is nursing [real_father.Custom('CTPTitledFirstNamePossessive')] [child.Custom('GetDaughterSon')]. They call [child.GetHerHim] [child.Custom('CTPFirstName')]."
+ birth.2102.desc.twin:1 "My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('mother'))], [mother.Custom('CTPTitledFirstName')], has given birth to [real_father.Custom('CTPTitledFirstNamePossessive')] [child.Custom('TwinDaughtersSonsChildren')]. They call them [child.Custom('CTPFirstName')] and [child_2.Custom('CTPFirstName')]."
+ 
+ birth.2104.desc:0 "My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('real_father'))], [real_father.Custom('CTPTitledFirstName')], sired a child with [mother.Custom('CTPTitledFirstName')]. Now [mother.Custom('CTPFirstName')] is nursing the spawn of my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('real_father'))]."
+ birth.2104.desc.twin:0 "My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('real_father'))], [real_father.Custom('CTPTitledFirstName')], sired children with [mother.Custom('CTPTitledFirstName')]. Now [mother.Custom('CTPFirstName')] is nursing the spawn of my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('real_father'))]."
+ 
+ birth.3002.desc:0 "As the door to the birthing chamber opens, I am not greeted by smiling midwives and a crying babe, but instead [mother.Custom('CTPTitledFirstNamePossessive')] heart-wrenching wails.\n\n"I am so sorry, my [ROOT.Char.GetLadyLord]." The midwife does not look me in the eye. In her arms is a tiny, covered bundle. "Your [dummy_gender.Custom('DaughterSon')]... [dummy_gender.GetSheHe|U] is in [ROOT.Char.GetFaith.PositiveAfterLife] now.""
+ 
+ birth.3012.start.desc:0 "When the midwife finally exits the birth chamber with a softly crying bundle in her arms, relief washes over me.\n\nThen I see the look on her face.\n\n"I am sorry, my [ROOT.Char.GetLadyLord]. [mother.GetLadyLord|U] [mother.Custom('CTPFirstNameNoTooltip')]..." Words fail her, but the tone of her voice says it all.\n\nOne life has been extinguished, but"
+ 
+ birth.3022.desc:0 "As I wait outside the birthing chamber, each minute feels like a lifetime. [mother.Custom('CTPFirstNamePossessive')] screams have ceased with no infant's cry replace it. Something is wrong; I can feel it in my bones.\n\nThe door opens. The midwife's wretched expression confirms all my fears.\n\n"I am so very sorry, my [ROOT.Char.GetLadyLord]. [mother.GetLadyLord|U] [mother.Custom('CTPFirstNameNoTooltip')]... Your [dummy_gender.Custom('DaughterSon')]... They are both in [ROOT.Char.GetFaith.PositiveAfterLife] now.""
+ 
+ birth.3031.start.desc:0 "All babies cry, but with little [child.Custom('CTPFirstName')] there is no end to the tears. I desperately want the midwife to ease my worries, but her furrowed brow makes everything worse.\n\n"
+ birth.3031.a:0 "Hush now, [child.Custom('CTPFirstNameNoTooltip')]! Please don't cry!"
+
+ birth.3035.desc:0 "The weakness that has plagued my [child.Custom('GetDaughterSon')] since [child.GetHerHis] birth has finally released its hold on [child.GetHerHim]! Relief washes over me as I see [child.Custom('CTPFirstName')] running around with all the other children."
+ birth.3035.a:0 "May you grow strong, [child.Custom('CTPFirstNameNoTooltip')]."
+
+ birth.3041.one_child.desc:0 "little [child.Custom('CTPFirstNameNoTooltip')],"
+ 
+ birth.9002.worrying.desc:0 "[suggester.Custom('CTPTitledFirstName')] looks up at me with a worrying gleam in [suggester.GetHerHis] eyes."
+ birth.9002.tears.desc:0 "[suggester.Custom('CTPTitledFirstName')] wipes tears from [suggester.GetHerHis] cheeks and addresses me without taking [suggester.GetHerHis] eyes off our [child.Custom('GetDaughterSon')]."
+ birth.9002.pride.desc:0 "[suggester.Custom('CTPTitledFirstName')] looks up at me, head held high and eyes glowing with pride."
+ birth.9002.conviction.desc:0 "[suggester.Custom('CTPTitledFirstName')] looks up at me, [suggester.GetHerHis] eyes gleaming with burning conviction."
+ birth.9002.surprisingly_calm.desc:0 "[suggester.Custom('CTPTitledFirstName')] looks up at me, [suggester.GetHerHis] face surprisingly serene."
+ birth.9002.calm.desc:0 "[suggester.Custom('CTPTitledFirstName')] looks up at me, [suggester.GetHerHis] face the picture of serenity."
+ birth.9002.devotion.desc:0 "[suggester.Custom('CTPTitledFirstNamePossessive')] gaze meets mine. [suggester.GetHerHis|U] eyes are full of loving devotion."
+ birth.9002.suggester_relative.desc:0 "could we name [child.GetHerHim] [namesake.Custom('CTPFirstNameNoTooltip')], after my [namesake.Custom('ComplimentAdjective')] [suggester.Custom2('RelationToMeShort', SCOPE.sC('namesake'))]?""
+ birth.9002.namer_relative.desc:0 "perhaps we should name [child.GetHerHim] [namesake.Custom('CTPFirstNameNoTooltip')]? After your [namesake.Custom('ComplimentAdjective')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('namesake'))]?""
+ birth.9002.suggesters_name.desc:0 "I think we should name [child.GetHerHim] [suggester.Custom('CTPFirstNameNoTooltip')], after me. What do you say?""
+ birth.9002.namers_name.desc:0 "let us name [child.GetHerHim] [ROOT.Char.Custom('CTPFirstNameNoTooltip')], after you.""
+ birth.9002.nice_name.desc:0 "I have been thinking. I want us to name [child.GetHerHim] [namesake.Custom('CTPFirstNameNoTooltip')]. I always loved that name.""
+ 
+ birth.9002.a1:0 "A lovely idea. [namesake.Custom('CTPFirstNameNoTooltip')] it is."
+ birth.9002.a.tt.1:0 "We name our child [namesake.Custom('CTPFirstNameNoTooltip')]"
+ 
+ birth.9003.desc:0 "I gently pick up the babe from [suggester.Custom('CTPTitledFirstNamePossessive')] arms and look into [child.GetHerHis] perfect little eyes. Who will you become?"

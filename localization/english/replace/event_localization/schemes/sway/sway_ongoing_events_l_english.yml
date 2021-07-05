@@ -1,0 +1,18 @@
+﻿l_english:
+ sway_ongoing.1002.success.tt:0 "At the discretion of [friend.Custom('CTPTitledFirstNameNoTooltip')]:"
+ 
+ sway_ongoing.1005.t:0 "Sway: The Good [target.Custom('CTPTitleAsNameNoTooltip')]"
+ sway_ongoing.1005.a:0 "[target.Custom('CTPTitledFirstNameNoTooltip')], without a doubt!"
+ 
+ sway_ongoing.5013.desc_opening:0 "A library where the books are stacked in corners, unfinished building project all over the place – most notably a whole dining hall – and a chest of gold just standing in the middle of a hallway...\n\n[target.Custom('CTPTitledFirstNamePossessive')] [target.Custom('ResidenceBuilding')] is a mess!"
+ sway_ongoing.5012.a.tt:0 "[target.Custom('CTPTitledFirstNameNoTooltip')] will react to the action you take"
+ 
+ sway_ongoing.5013.desc_expansion_success:0 "All it needed was some dedicated attention – I soon have [target.Custom('CTPTitledFirstNamePossessiveNoTooltip')] dining hall well on its way to completion."
+ sway_ongoing.5013.desc_expansion_failure:0 "Despite all my efforts [target.Custom('CTPTitledFirstNamePossessiveNoTooltip')] dining hall seems to be in a worse state when I am done than when I started..."
+ sway_ongoing.5013.desc_library_success:0 "Bound books, loose documents, decorated spines... After a lot of reshuffling there is finally some semblance of order in the chaos that is [target.Custom('CTPTitledFirstNamePossessiveNoTooltip')] library."
+ sway_ongoing.5013.desc_library_failure:0 "Bound books, loose documents, decorated spines... No matter how hard I tried I could find no sense in the mess that is [target.Custom('CTPTitledFirstNamePossessiveNoTooltip')] library. "
+ sway_ongoing.5013.desc_gold_success:0 "As I explain the risks of keeping a chest of gold out in the open [target.Custom('CTPTitledFirstNamePossessiveNoTooltip')] eyes widen in realization.\n\n"Oh, of course it shouldn't be out there! Thank you [ROOT.Char.Custom('CTPTitledFirstNameNoTooltip')].""
+ sway_ongoing.5013.desc_gold_failure:0 "As I try to explain the risks of keeping a chest of gold out in the open I see [target.Custom('CTPTitledFirstNamePossessive')] eyes narrow.\n\n"And exactly #EMP why#! are you eyeing my gold?""
+ sway_ongoing.5013.desc_steal_success:0 ""My gold! Where has my gold gone?!"\n\nI find a distressed [target.Custom('CTPTitledFirstName')] standing in a corridor, empty chest before [target.GetHerHim]. "Oh, [ROOT.Char.Custom('CTPTitledFirstNameNoTooltip')], if only I had listened to you!""
+ 
+ sway_ongoing.5014.desc_opening:0 "I spot [target.Custom('CTPTitledFirstName')] by the entrance, waiting to see me off in the morning. As I walk up I hear [target.GetHerHim] muttering to [target.GetHerselfHimself].\n\n"

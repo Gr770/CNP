@@ -4,3 +4,4 @@
  CAN_ATTACK_IS_SUBJECT_OF:0 "[CHARACTER.Custom('CTPShortName')|U] is a [vassal|E] of [TARGET_CHARACTER.Custom('CTPShortName')]"
  CAN_ATTACK_NOT_LANDED:0 "[CHARACTER.Custom('CTPShortName')|U] is not landed"
  TITLE_VIEW_SUCCESSION_DESCRIPTION_CHARACTER:0 "Realm succession: Will be inherited according to [CHARACTER.Custom('CTPShortNamePossessive')] $LAWS$ law"
+ TITLE_VIEW_SUCCESSION_DESCRIPTION_TITLE:0 "[title_succession|E]: Will be inherited according to [TITLE.Custom('CTPRegNamePossessive')] $LAWS$ law"

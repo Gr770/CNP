@@ -1,0 +1,9 @@
+﻿l_english:
+ send_poem_interaction_desc:0 "Send a touching personal work to [recipient.Custom('CTPTitledFirstNameNoTooltip')]"
+ send_poem_interaction.positive_auto_accept.tt:0 "As this poem is positive, [recipient.Custom('CTPFirstNameNoTooltip')] may accept it immediately if [recipient.GetSheHe] has a high enough [opinion|E] of you"
+ 
+ trait_specific_interactions.000.intro.part1:0 "The latest work of my [recipient.Custom2('RelationToMe', SCOPE.sC('actor'))], [actor.Custom('CTPTitledFirstName')], has become all the rage at court of late:"
+ trait_specific_interactions.000.intro.part3:0 "and [actor.Custom('CTPFirstNameNoTooltip')] has publicly dedicated it to #EMP me.#!"
+ 
+ trait_specific_interactions.0001.b:0 "[actor.Custom('CTPFirstNameNoTooltip')], I can see this is #EMP truly#! heartfelt!"
+ trait_specific_interactions.0041.t:0 "The Dastardly [recipient.Custom('CTPTitleAsNameNoTooltip')]"

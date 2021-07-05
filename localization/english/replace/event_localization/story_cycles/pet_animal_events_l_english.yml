@@ -1,0 +1,42 @@
+﻿l_english:
+ pet_animal.0103.desc:0 "As I walk outside I am greeted by the sight of my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('vassal'))] [vassal.Custom('CTPTitledFirstName')] crouching beside my cat [ROOT.Char.Custom('CatStoryName')], tenderly petting [ROOT.Char.Custom('CatStoryHerHis')] head.\n\n"This is quite the lovely cat you have, my [ROOT.Char.GetLadyLord].""
+ 
+ pet_animal.0105.desc_opening:0 "#EMP Meow!#!\n\nI look down to see that my cat [ROOT.Char.Custom('CatStoryName')] has dropped a scroll at my feet – sealed in my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('person'))] [person.Custom('CTPTitledFirstNamePossessive')] distinct style. Giving in to curiosity I skim the text...\n\n"
+ 
+ pet_animal.0106.desc:0 ""[ROOT.Char.Custom('CTPFirstNameNoTooltip')], this cat has to go!"\n\nMy [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('spouse'))] [spouse.Custom('CTPTitledFirstName')] is holding [ROOT.Char.Custom('CatStoryName')] up by the skin of [ROOT.Char.Custom('CatStoryHerHis')] neck, eyes red and nose running. "I cannot stand this anymore, I can barely breathe when [ROOT.Char.Custom('CatStorySheHe')] is around!""
+ pet_animal.0106.a:0 "I'll give [ROOT.Char.Custom('CatStoryHerHim')] to [receiver_1.Custom('CTPFirstNameNoTooltip')]..."
+ pet_animal.0106.b:0 "[receiver_2.Custom('CTPFirstNameNoTooltip')] could use a companion..."
+ pet_animal.0106.c:0 "[receiver_3.Custom('CTPFirstNameNoTooltip')] would take care of [ROOT.Char.Custom('CatStoryHerHim')]..."
+
+ pet_animal.0107.desc:0 ""My [giver.Custom2('RelationToMe', SCOPE.sC('spouse'))] will no longer stand poor [ROOT.Char.Custom('CatStoryNamePossessive')] company... So I will trust you to take care of [ROOT.Char.Custom('CatStoryHerHim')] in my stead."\n\nMy [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('giver'))] [giver.Custom('CTPTitledFirstName')] holds a [receiver.Custom('CatFurColor')] cat out towards me. "[ROOT.Char.Custom('CatStoryName')] is an excellent... an excellent companion.""
+ 
+ pet_animal.0108.desc_opening:0 "I visit my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('receiver'))] [receiver.Custom('CTPTitledFirstName')] to see how little [receiver.Custom('CatStoryName')] is doing in [receiver.GetHerHis] care.\n\n"
+pet_animal.0108.desc_dead_opening:1 "I visit my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('receiver'))] [receiver.Custom('CTPTitledFirstName')] to see how the cat is doing in [receiver.GetHerHis] care.\n\n"
+ pet_animal.0108.desc_dead_landed:0 "[receiver.GetSheHe|U] meets me outside [receiver.GetHerHis] [receiver.Custom('ResidenceBuilding')], no cat to be seen."
+ 
+ pet_animal.1107.desc:0 "I stumble upon my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('vassal'))] [vassal.Custom('CTPTitledFirstName')] crouching beside my dog [ROOT.Char.Custom('DogStoryName')], vigorously scratching [ROOT.Char.Custom('DogStoryHerHis')] stomach.\n\n"This dog of yours is quite the charmer, my [ROOT.Char.GetLadyLord]!""
+ 
+ pet_animal.1110.desc_your_dog:0 ""Well, [ROOT.Char.Custom('CTPTitledFirstNameNoTooltip')]... I guess we'll be related soon!""
+ 
+ pet_animal.1112.desc_dead:0 "When I finally get [ROOT.Char.Custom('DogStoryName')] to back off [other_owner.Custom('CTPFirstNamePossessiveNoTooltip')] dog is already growing cold."
+ pet_animal.1112.desc_alive:0 "When I finally get [ROOT.Char.Custom('DogStoryName')] to back off [other_owner.Custom('CTPTitledFirstNameNoTooltip')] leaves without as much as a backwards glance."
+ 
+ pet_animal.1114.desc:2 ""I am sorry, [ROOT.Char.Custom('CTPTitledFirstNameNoTooltip')]," says my [councillor.GetCouncilTitle] [councillor.Custom('CTPTitledFirstName')]. "I have to disagree with what you just–"\n\n#EMP *Grrr*#!\n\n[ROOT.Char.Custom('DogStoryName')] gives a guttural growl and [councillor.Custom('CTPTitledFirstNameNoTooltip')] jerks back, looking from the dog to me and back.\n\n"On second thought I think it is a great idea!""
+ 
+ pet_animal.1115.desc:2 ""Now on to the next point," my [councillor.GetCouncilTitle] [councillor.Custom('CTPTitledFirstName')] drones. "It is of the utmost importance that–"\n\n#EMP *Phhffrrt*#!\n\nThe silence that falls is only broken by the sound of [ROOT.Char.Custom('DogStoryName')] barking happily, having done [ROOT.Char.Custom('DogStoryHerHis')] business."
+ 
+ pet_animal.1116.desc:1 "Suddenly I stumble upon [courtier.Custom2('MyCharacterIntroduction', ROOT.Char)] with a dog practically in [courtier.GetHerHis] lap, vigorously scratching its [ROOT.Char.Custom('DogFurColor')] stomach. A dog that looks suspiciously similar to [ROOT.Char.Custom('DogStoryName')].\n\n"This is one precious companion you have, [ROOT.Char.Custom('CTPTitledFirstNameNoTooltip')]!""
+ 
+ pet_animal.1117.desc:1 "Suddenly I stumble upon [courtier.Custom2('MyCharacterIntroduction', ROOT.Char)] chastising a dog; a dog that looks suspiciously like [ROOT.Char.Custom('DogStoryName')] with torn paper and fabric all around [ROOT.Char.Custom('DogStoryHerHim')].\n\n"[ROOT.Char.Custom('CTPTitledFirstNameNoTooltip')]! This... This #EMP beast#! completely destroyed my chambers! Everything is in shreds!""
+ 
+ pet_animal.1190.a:0 "I'll give it to [receiver_1.Custom('CTPFirstNameNoTooltip')]..."
+ pet_animal.1190.b:0 "[receiver_2.Custom('CTPFirstNameNoTooltip')] could use a companion..."
+ pet_animal.1190.c:0 "[receiver_3.Custom('CTPFirstNameNoTooltip')] would take care of it..."
+
+ pet_animal.1192.desc_opening:0 "I visit my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('receiver'))] [receiver.Custom('CTPTitledFirstName')] to see how little [receiver.Custom('DogStoryName')] is doing in [receiver.GetHerHis] care.\n\n"
+ 
+ pet_animal.5001.desc:0 "As I pass by [rival_home.GetName] on a business errand I am approached by a [rival.Custom('CatFurColor')] cat. Where have I seen this cat before...? Ah! It's my [ROOT.Char.Custom2('RelationToMe' , SCOPE.sC('rival'))] [rival.Custom('CTPTitledFirstNamePossessive')] cat [rival.Custom('CatStoryName')]!\n\nAs it meows up at me and purr I feel a vicious smile spread across my face."
+ 
+ pet_animal.5002.desc:0 "As I pass by [rival_home.GetName] on a business errand I am approached by a [rival.Custom('DogFurColor')] dog. Where have I seen this dog before...? Ah! It's my [ROOT.Char.Custom2('RelationToMe' , SCOPE.sC('rival'))] [rival.Custom('CTPTitledFirstNamePossessive')] dog [rival.Custom('DogStoryName')]!\n\nI feel a vicious smile spread across my face as it barks happily at me with a wagging tail."
+ 
+ pet_animal.6003.b:0 "[neighboring_ruler.Custom('CTPTitledFirstName')] will be overjoyed to get this back!"

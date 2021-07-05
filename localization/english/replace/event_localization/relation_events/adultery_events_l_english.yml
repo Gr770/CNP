@@ -1,4 +1,73 @@
 ﻿l_english:
+adultery.0002.a:0 ""Do you have another, [lover_spouse.Custom('CTPFirstNameNoTooltip')]?""
+ adultery.0002.a.tt:0 "I confront [lover_spouse.Custom('CTPTitledFirstNameNoTooltip')]"
+ adultery.0002.b.success.innocent:0 "[lover_spouse.Custom('CTPTitledFirstName')] is innocent"
  adultery.0002.c.tt:0 "My [spymaster|E] will continue to spy on [lover_spouse.Custom('CTPShortName')]"
+ 
  adultery.0003.b.tt:0 "[spouse.Custom('CTPShortName')|U] may forgive you, or not..."
+
+ adultery.0004.desc:0 ""How can you even say such a thing, [spouse.Custom('CTPFirstNameNoTooltip')]? I would never take a lover!"\n\n[lover_spouse.Custom('CTPTitledFirstName')] seems genuinely upset as [lover_spouse.GetSheHe] denies my accusations."
+ 
+ adultery.0006.apologetic_start.desc:1 "[lover_spouse.Custom('CTPFirstNameNoTooltip')] is silent as if frozen in time, but I can see it in [lover_spouse.GetHerHis] eyes. My fears are true. I, too, seem to have frozen — except for my heart, which is beating hard.\n\nAs words finally spill from [lover_spouse.Custom('CTPFirstNamePossessiveNoTooltip')] lips, so do tears from [lover_spouse.GetHerHis] eyes. "Please, my dearest [lover_spouse.Custom2('RelationToMe', SCOPE.sC('spouse'))], you must forgive me. I beg of you! I... I will tell you everything. I have shared my bed with "
+ adultery.0006.unapologetic_start.desc:1 "[lover_spouse.Custom('CTPFirstNameNoTooltip')] did not expect my accusation, that much is clear. [lover_spouse.GetSheHe|U] is not shaken for long, though.\n\n"It took you long enough to notice, #EMP [lover_spouse.Custom2('RelationToMe', SCOPE.sC('spouse'))]#!." [lover_spouse.GetHerHis|U] words are dripping with venom. "Yes, I have lain with another – "
+ 
+ adultery.0007.start.desc:0 "My misgivings were not unfounded. I have found evidence of [lover_spouse.Custom('CTPFirstNamePossessiveNoTooltip')] infidelity!\n\n"
+ 
+ adultery.0009.desc:0 "[spouse.Custom('CTPTitledFirstNamePossessive')] tears hurt far worse than harsh words ever could. I stand crestfallen as [spouse.GetSheHe] hides [spouse.GetHerHis] face in a handkerchief.\n\n"I... I thought we were forever," [spouse.GetSheHe] whispers between sobs. "We promised. #EMP You#! promised, [ROOT.Char.Custom('CTPFirstNameNoTooltip')] — and still you shared your bed with another. I can never trust you again. It's over.""
+ 
+ adultery.1001.opening:0 "My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('mother'))], [mother.Custom('CTPTitledFirstName')], is with child, and I should be overjoyed. However, [mother.GetSheHe] has been acting strange, and I cannot shake the feeling that something is wrong.\n\n"
+ adultery.1001.a.tt:0 "Confront [mother.Custom('CTPFirstNameNoTooltip')] directly"
+ 
+ adultery.1002.worried:0 ""Tell me, is it truly mine?" [adultery_spouse.Custom('CTPTitledFirstName')] seems distraught. My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('adultery_spouse'))]'s eyes meets mine in a worried stare."
+ adultery.1002.desc_lunatic:0 ""Is the child mine?!" [adultery_spouse.Custom('CTPTitledFirstNamePossessive')] eyes roll violently in [adultery_spouse.GetHerHis] head. "They will tell me, you know!""
  adultery.1002.a.confession_tt:0 "[adultery_spouse.Custom('CTPShortName')|U] will learn the truth"
+ adultery.1002.b:0 "Of course it is yours, [adultery_spouse.Custom('CTPFirstNameNoTooltip')]!"
+ adultery.1002.c:0 "Of course it is yours, [adultery_spouse.Custom('CTPFirstNameNoTooltip')]!"
+
+ adultery.1003.desc:0 ""Of course the child is yours." [mother.Custom('CTPFirstName')] [ROOT.Char.Custom2('QuirkPresentPosOrNeg', SCOPE.sC('mother'))]. "Why would you ever think otherwise?""
+ adultery.1003.duel_success_tt:0 "If someone else is the father of [mother.Custom('CTPFirstNamePossessiveNoTooltip')] child, I will find evidence of [mother.GetHerHis] unfaithfulness"
+
+ adultery.1004.default_reaction:0 "Tears well up in [mother.Custom('CTPTitledFirstNamePossessive')] eyes."
+ adultery.1004.reaction_callous:0 "[mother.Custom('CTPTitledFirstName')] stares at me, [mother.GetHerHis] face unmoving."
+ adultery.1004.reaction_sadistic:0 "[mother.Custom('CTPTitledFirstName')] gives me a sarcastic smile."
+ adultery.1004.reaction_gluttonous:0 "[mother.Custom('CTPTitledFirstName')] tries to hide the tears welling up in [mother.GetHerHis] eyes behind [mother.GetHerHis] sweet roll."
+ adultery.1004.reaction_deceitful:0 ""I am so tired of lying." [mother.Custom('CTPTitledFirstName')] seems on the verge of tears."
+ adultery.1004.reaction_compassionate:0 ""You should sit down, my dear." There is real concern in [mother.Custom('CTPTitledFirstNamePossessive')] eyes."
+ adultery.1004.reaction_honest:0 ""I do not want to lie to you, or anyone." [mother.Custom('CTPTitledFirstNamePossessive')] eyes are red from crying."
+ adultery.1004.reaction_lunatic:0 "[mother.Custom('CTPTitledFirstName')] seems unusually clear-headed as [mother.GetSheHe] stares at me. Then [mother.GetHerHis] eyes cloud over. "Did the whispers tell you already?""
+ adultery.1004.reaction_positive_opinion:0 ""You must understand, I never want to hurt you." Tears are streaming down [mother.Custom('CTPTitledFirstNamePossessive')] face."
+ adultery.1004.reaction_negative_opinion:0 "[mother.Custom('CTPTitledFirstNamePossessive')] lips form a thin line in [mother.GetHerHis] rigid expression. "It is almost a relief, you know.""
+ adultery.1004.default_admission:0 "\n\nAfter a drawn-out silence, [mother.GetSheHe] finally admits it. "[real_father.Custom('CTPTitledFirstName')] is the true father of my child.""
+
+ adultery.1006.very_positive_opinion:0 ""Yes, [real_father.Custom('CTPTitledFirstName')] is the father." It was almost a relief to no longer keep this secret from [adultery_spouse.GetSheHe]."
+ adultery.1006.very_negative_opinion:0 ""Yes, [real_father.Custom('CTPTitledFirstName')] is the father." I could not help but enjoy rubbing it in."
+ adultery.1006.fallback:0 ""Yes, [real_father.Custom('CTPTitledFirstName')] is the father..." I was left with no choice but to confess."
+
+ adultery.1009.desc:0 "It seems that my fears may have been unfounded. Despite every effort on the part of my spies, I have found no indication that [mother.Custom('CTPTitledFirstName')] has been unfaithful.\n\nUnfortunately, [mother.GetSheHe] has found out about my suspicions, and is very disappointed in me."
+ 
+ adultery.2001.desc_dislike:0 "I wonder about [adultery_child.Custom('CTPTitledFirstName')] sometimes. The things [adultery_child.GetSheHe] says, [adultery_child.GetHerHis] aggravating personality, the way [adultery_child.GetSheHe] has of always getting on my nerves... [adultery_child.GetSheHe|U] is as foreign to me as any of my common subjects."
+ adultery.2001.desc_suspicious_mother:0 "My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('adultery_spouse'))] [adultery_spouse.Custom('CTPTitledFirstName')] is hiding something about our [adultery_child.Custom('GetDaughterSon')], I am certain of it! The furtive glances, her protectiveness of [adultery_child.Custom('CTPTitledFirstName')], the way [adultery_spouse.GetSheHe] avoids all my inquiries..."
+ adultery.2001.desc_mother_lover:0 "Ever since I learned that my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('adultery_spouse'))] [adultery_spouse.Custom('CTPTitledFirstName')] has been unfaithful to our union I look with suspicion upon everyone close to [adultery_spouse.GetHerHim]; every passing courtier, my own [ROOT.Char.Custom('ChildChildrenGender')]..."
+ adultery.2001.desc_fallback:0 "Whenever I talk about [adultery_child.Custom('CTPTitledFirstName')] with my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('adultery_spouse'))] [adultery_spouse.Custom('CTPTitledFirstName')] [adultery_spouse.GetSheHe] always grow distant. At first I thought nothing of it, but now I am starting to suspect that [adultery_spouse.Custom('CTPFirstName')] is hiding something."
+ adultery.2001.desc_end:1 "\n\nI do not question the heritage of my [adultery_child.Custom('GetDaughterSon')] [adultery_child.Custom('CTPTitledFirstName')] lightly, but doubt is gnawing at my mind."
+ adultery.2001.a.tt:0 "If [adultery_child.Custom('CTPFirstNameNoTooltip')] is not my trueborn child:"
+ 
+ adultery.2002.desc_no_child:0 "I wave at my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('adultery_spouse'))] [adultery_spouse.Custom('CTPTitledFirstName')] as [adultery_spouse.GetSheHe] walks across the garden, but [adultery_spouse.GetSheHe] demonstratively turns away.\n\nMy initial concerns about [adultery_spouse.GetHerHis] faithfulness seem to have been misgivings. However, [adultery_spouse.Custom('CTPFirstNameNoTooltip')] is not like to forget them anytime soon."
+ adultery.2002.desc_not_born:0 "I wave at my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('adultery_spouse'))] [adultery_spouse.Custom('CTPTitledFirstName')] as [adultery_spouse.GetSheHe] walks across the garden, but [adultery_spouse.GetSheHe] demonstratively turns away.\n\nMy initial concerns about [adultery_spouse.GetHerHis] faithfulness seem to have been misgivings. However, [adultery_spouse.Custom('CTPFirstNameNoTooltip')] is not like to forget them anytime soon."
+ adultery.2002.desc_spouse:0 "I wave at my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('adultery_spouse'))] [adultery_spouse.Custom('CTPTitledFirstName')] as [adultery_spouse.GetSheHe] walks across the garden, but [adultery_spouse.GetSheHe] demonstratively turns away.\n\nMy initial concerns about [adultery_child.Custom('CTPTitledFirstNamePossessive')] lineage seem to have been misgivings. However, they are not like to forget them anytime soon."
+ adultery.2002.desc:0 "I wave at my [adultery_child.Custom('GetDaughterSon')] [adultery_child.Custom('CTPTitledFirstName')] as [adultery_child.GetSheHe] walks across the garden, and I try to dispel my dark doubts.\n\nMy initial concerns about [adultery_child.Custom('CTPTitledFirstNamePossessive')] lineage seem to have been misgivings. However, they are not like to forget them anytime soon."
+ 
+ adultery.2003.desc:0 ""Yes fath— [ROOT.Char.Custom('CTPFirstNameNoTooltip')], [real_father.Custom('CTPTitledFirstName')] is my real [real_father.Custom('MotherFather')]!"\n\nThe pain of my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('adultery_spouse'))] [adultery_spouse.Custom('CTPTitledFirstNamePossessive')] betrayal is almost overshadowed by the relief of finally knowing the truth. To think that [adultery_spouse.GetSheHe] and [adultery_child.Custom('CTPFirstName')] has been keeping this hidden from me..."
+ 
+ adultery.2006.desc:0 "My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))] [owner.Custom('CTPTitledFirstName')] has learned that I am the [ROOT.Char.Custom('GetDaughterSon')] of my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('real_father'))] [real_father.Custom('CTPTitledFirstName')] and not [owner.GetHerHim]! At least it is not common knowledge...yet."
+ 
+ adultery.2008.desc:2 "This fear that has been growing in my chest was always justified!\n\nMy spies have discovered that I am not the father of [adultery_child.Custom('CTPTitledFirstName')]. [adultery_child.GetSheHe|U] is the result of an illicit union between [adultery_spouse.Custom('CTPFirstName')] and [real_father.Custom2('MyCharacterIntroduction', ROOT.Char)]!"
+ 
+ adultery.2009.desc:1 "Despite following [adultery_child.Custom('CTPTitledFirstName')] everywhere, my spies have found no indication that I should suspect [adultery_child.GetHerHis] lineage.\n\nUnfortunately, [adultery_child.Custom('CTPFirstNamePossessiveNoTooltip')] is still upset that I would harbor any suspicion at all."
+ 
+ adultery.3001.desc_father:1 "[father.Custom('CTPFirstName')], the [father.GetWomanMan] I have grown up thinking of as my father, is not related to me at all. My actual sire is [real_father.Custom('CTPTitledFirstName')]!"
+ adultery.3001.desc_no_father:0 "My [real_father.Custom('MotherFather')] is [real_father.Custom('CTPTitledFirstName')]!"
+
+ adultery.4001.t:0 "[adultery_spouse.Custom('CTPTitledFirstNamePossessiveNoTooltip')] Betrayal"
+ adultery.4001.threw.desc:0 "They say [adultery_spouse.GetSheHe] threw [adultery_spouse.GetHerselfHimself] at [sex_partner.GetHerHim] the moment they were alone, but that [sex_partner.Custom('CTPFirstNameNoTooltip')] could not stand the thought of it!"
+ adultery.4001.end.desc:0 "\n\nWhen I confront [adultery_spouse.Custom('CTPFirstName')], [adultery_spouse.GetSheHe] insists "it only happened once" – as if that takes the sting out of [adultery_spouse.GetHerHis] betrayal!"

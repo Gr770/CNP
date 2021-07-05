@@ -1,2 +1,5 @@
 ﻿l_english:
+ false_conversion.0030.desc_end:0 "Of course, as the [ROOT.Char.Custom('CTPTitleAsNameNoTooltip')], I could issue a public amnesty for all false converts..."
+ false_conversion.0031.desc:0 "My liege, [ROOT.Char.GetLiege.Custom('CTPTitledFirstName')], has issued a general notice throughout [ROOT.Char.GetLiege.GetPrimaryTitle.GetNameNoTier] that they wish all to worship the divine openly, regardless of the nature of their faith. [ROOT.Char.GetLiege.GetSheHe|U] is offering amnesty to those who practice their religions in secret."
+ 
  event_false_convert_interface.desc:0 "[ROOT.Char.Custom('CTPShortName')] has renounced [ROOT.Char.GetHerHis] public faith for [ROOT.Char.GetFaith.GetName], revealing [ROOT.Char.GetHerHim]self as a crypto-religionist."

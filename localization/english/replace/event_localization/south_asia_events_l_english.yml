@@ -1,0 +1,8 @@
+﻿l_english:
+ south_asia.0002.intro:0 "Crowds have been walking for days, or even weeks to attend the ceremony. [chakravarti.Custom('CTPTitledFirstNamePossessive')] entire life has led to this one moment."
+ 
+ south_asia.0003.text:0 "\n\nIt is only when my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('chakravarti'))] emerges from the holy springs that the full force of the moment strikes me. [chakravarti.GetHerHis|U] [chakravarti.GetFaith.AltPriestTermPlural] announce [chakravarti.GetHerHim] as the Chakravarti, the rightful ruler of all the world.\n\nAs [chakravarti.Custom('CTPTitledFirstName')] gazes over the plains below, I cannot help but feel that it is true."
+ 
+ south_asia.0004.text:0 "\n\nWith great rituals and hordes of believers at [chakravarti.GetHerHis] feet, [chakravarti.Custom('CTPTitledFirstName')] has adopted the mantle of the rightful ruler of the entire world."
+ 
+ south_asia.0012.desc:0 "With control over the entire course of the Ganges, [ruler_of_ganges.Custom('CTPTitledFirstName')] has claimed spiritual guardianship of its sacred waters. It is an unprecedented authority for someone to claim, but the [ruler_of_ganges.GetFaith.PriestNeuterPlural] have declared it true."

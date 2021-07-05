@@ -6,6 +6,7 @@
  death_dungeon_killer:1 "died in [TARGET_CHARACTER.Custom('CTPNamePossessive')] dungeon"
  death_battle_killer:0 "was slain in battle by [TARGET_CHARACTER.Custom('CTPName')]"
  death_head_ripped_off_killer:0 "had [CHARACTER.GetHerHis] head ripped off by [TARGET_CHARACTER.Custom('CTPName')]"
+ 
  death_cloven_in_half_killer:0 "was cloven in half by [TARGET_CHARACTER.Custom('CTPNamePossessive')] mighty axe"
  death_viciously_dismembered_killer:0 "was viciously dismembered by [TARGET_CHARACTER.Custom('CTPNamePossessive')] mighty axe"
  death_ripped_apart_limb_by_limb_killer:0 "was ripped apart limb by limb by [TARGET_CHARACTER.Custom('CTPName')]"
@@ -16,6 +17,7 @@
  death_strangled_with_own_intestines_killer:0 "was strangled with [CHARACTER.GetHerHis] own intestines by [TARGET_CHARACTER.Custom('CTPName')]"
  death_decapitated_killer:0 "was decapitated by [TARGET_CHARACTER.Custom('CTPName')]"
  death_piteously_cut_down_killer:0 "was piteously cut down by [TARGET_CHARACTER.Custom('CTPName')]"
+ 
  death_whipping_killer:0 "was whipped to death by [TARGET_CHARACTER.Custom('CTPName')]"
  death_torture_killer:0 "was tortured to death by [TARGET_CHARACTER.Custom('CTPName')]"
  death_treatment_killer:0 "died due to a botched treatment performed by [TARGET_CHARACTER.Custom('CTPName')]"

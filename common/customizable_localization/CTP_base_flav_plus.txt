@@ -1,0 +1,91 @@
+﻿ArabicIndepCountMale = {
+    type = character
+    text = {
+        trigger = {
+            has_culture = culture:andalusian
+        }
+        localization_key = count_feudalclan_male_andalusian_christian
+    }
+    text = {
+		localization_key = duke_default_male_arabic_group
+		fallback = yes
+    }
+}
+ArabicIndepCountFemale = {
+    type = character
+    text = {
+        trigger = {
+            has_culture = culture:andalusian
+        }
+        localization_key = count_feudalclan_female_andalusian_christian
+    }
+    text = {
+		localization_key = duke_default_female_arabic_group
+		fallback = yes
+    }
+}
+ArabicCountMale = {
+    type = character
+    text = {
+        trigger = {
+            has_culture = culture:andalusian
+        }
+        localization_key = count_feudalclan_male_andalusian_christian
+    }
+    text = {
+		localization_key = count_feudalclan_male_arabic_group
+		fallback = yes
+    }
+}
+ArabicCountFemale = {
+    type = character
+    text = {
+        trigger = {
+            has_culture = culture:andalusian
+        }
+        localization_key = count_feudalclan_female_andalusian_christian
+    }
+    text = {
+		localization_key = count_feudalclan_female_arabic_group
+		fallback = yes
+    }
+}
+ArabicBaronMale = {
+    type = character
+    text = {
+        trigger = {
+            has_culture = culture:andalusian
+        }
+        localization_key = baron_male_andalusian_christian
+    }
+    text = {
+		localization_key = count_feudalclan_male_arabic_group
+		fallback = yes
+    }
+}
+ArabicBaronFemale = {
+    type = character
+    text = {
+        trigger = {
+            has_culture = culture:andalusian
+        }
+        localization_key = baron_female_andalusian_christian
+    }
+    text = {
+		localization_key = baron_female_arabic_group
+		fallback = yes
+    }
+}
+ArabicBaronFemaleHolder = {
+    type = character
+    text = {
+        trigger = {
+            has_culture = culture:andalusian
+        }
+        localization_key = baron_female_andalusian_christian
+    }
+    text = {
+		localization_key = baron_female_arabic_group_holder
+		fallback = yes
+    }
+}

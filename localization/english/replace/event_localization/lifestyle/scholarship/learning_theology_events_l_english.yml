@@ -1,3 +1,50 @@
 ﻿l_english:
+ learning_theology.2020.desc:0 "[court_chaplain.GetCouncilTitle|U] [court_chaplain.Custom('CTPFirstName')] often quotes passages from the [ROOT.Char.GetFaith.ReligiousText] about the holy virtues. I should prove I have paid attention by quoting a passage of my own — preferably one which compliments [court_chaplain.GetHerHis] personality.\n\nI will memorize and recite a section on..."
+ 
+ learning_theology.2020.success.desc:0 "[court_chaplain.GetCouncilTitle|U] [court_chaplain.Custom('CTPFirstNameNoTooltip')] is flattered"
+ learning_theology.2020.neutral.desc:0 "[court_chaplain.GetCouncilTitle|U] [court_chaplain.Custom('CTPFirstNameNoTooltip')] is pleased"
+ learning_theology.2020.failure.desc:0 "[court_chaplain.GetCouncilTitle|U] [court_chaplain.Custom('CTPFirstNameNoTooltip')] thinks I am mocking [court_chaplain.GetHerHim]"
+
+ learning_theology.2021.desc:0 "I am sure [court_chaplain.GetCouncilTitle|U] [court_chaplain.Custom('CTPFirstName')] has said something about the virtues of being [SCOPE.Custom('virtue_choice')]. I cannot recall his exact words, so I allow myself some creativity.\n\nUnfortunately, the [court_chaplain.GetCouncilTitle|U] is rather conservative. "What are you talking about?" [court_chaplain.GetSheHe] sneers. "Those are not the words of [ROOT.Char.GetFaith.HighGodName]!""
+ 
+ learning_theology.3002.desc:0 "I have been studying the ancient religious texts and the writings of scholars, and they all seem to agree that [ROOT.Char.Custom('WorldDeadline')]. By my calculations we are less than a century away.\n\nHowever, my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('chaplain'))], [chaplain.Custom('CTPTitledFirstName')], urges me to keep it to myself. "Leave it to the [ROOT.Char.GetFaith.AltPriestTermPlural] and avoid panic. What if your calculations are wrong?""
+ learning_theology.3002.b:0 "A reasonable point, [chaplain.Custom('CTPFirstNameNoTooltip')]."
+ 
+ learning_theology.3011.desc_friend:0 "Exiting the [ROOT.Char.GetFaith.HouseOfWorship] in [temple_county.GetName], me and my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('believer'))] [believer.Custom('CTPTitledFirstName')] end up in the company of some local merchants."
+ learning_theology.3011.desc:0 "Exiting the [ROOT.Char.GetFaith.HouseOfWorship] in [temple_county.GetName] I end up in the company of some local merchants, as well as [believer.Custom('CTPTitledFirstName')]."
+ learning_theology.3011.a:0 "Help me convince them, [believer.Custom('CTPTitledFirstNameNoTooltip')]!"
+ 
+ learning_theology.3021.desc_opening:0 "My recent endeavors within the realm of theology have given me a greater appreciation for [ROOT.Char.GetFaith.HighGodNamePossessive] representatives on Earth. Trying to express some of these feelings, I will draft a letter to the [compliment_receiver.Custom('CTPTitleAsName')], [compliment_receiver.Custom('CTPFirstName')].\n\n"
+ learning_theology.3021.desc_friend:0 "I sit down with my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('believer'))], [believer.Custom('CTPTitledFirstName')],"
+ learning_theology.3021.success.tt:0 "At the discretion of [believer.Custom('CTPTitledFirstNameNoTooltip')]:"
+ 
+ learning_theology.3031.desc_bishop:0 "[bishop.GetCouncilTitle|U] [bishop.Custom('CTPFirstName')] condemns it as heresy, but the people ask for understanding..."
+ 
+ learning_theology_special.1001.e:0 "[vassal_pope.Custom('CTPTitledFirstNameNoTooltip')] must be informed of this!"
+ learning_theology_special.1001.e.success:0 "I convince [vassal_pope.Custom('CTPTitledFirstName')] to integrate my findings into current [THIS.Char.GetFaith.GetAdjective] dogma"
+ learning_theology_special.1001.e.failure:0 "[vassal_pope.Custom('CTPTitledFirstNameNoTooltip')] refuses to accept the text as genuine"
+ learning_theology_special.1001.e.failure.toast:0 "[vassal_pope.Custom('CTPTitledFirstName')] dismissed the text as an heretical hoax"
+ learning_theology_special.1001.a:0 "[bishop.Custom('CTPTitledFirstNameNoTooltip')] could help me study this text."
+ learning_theology_special.1001.a.desc:0 "Depending on how zealous [bishop.Custom('CTPTitledFirstName')] is"
+ learning_theology_special.1001.a.success.toast:0 "[bishop.Custom('CTPTitledFirstName')] congratulated me for the rare find"
+ learning_theology_special.1001.a.failure.toast:0 "[bishop.Custom('CTPTitledFirstName')] thanked me for delivering the heretical book to the pyre"
+
+ learning_theology_special.1002.b.desc:0 "It was no easy task convincing [vassal_pope.Custom('CTPTitledFirstName')] of the authenticity of the text first, and then the other major representative of the [ROOT.Char.GetFaith.GetAdjective] faith below [vassal_pope.GetHerHim], but my passion and my knowledge of theological matters won the day.\n\nSome notable representatives of our clergy still scoff at this unusual change in our doctrines, but most of the influential theocrats have been convinced of its legitimacy."
+ 
+ learning_theology_special.1003.a.desc:0 "In all [player_pope.GetHerHis] immense wisdom, [player_pope.Custom('CTPTitledFirstName')] has discovered an ancient religious text that significantly changes [ROOT.Char.GetFaith.GetAdjective] dogma.\n\nAfter discussing [player_pope.GetHerHis] findings with notable members of the clergy, the [player_pope.Custom('CTPTitleTierName')] decided to integrate the book's content in the faith's official doctrine."
+ learning_theology_special.1003.b.desc:0 "After laborious research and endless hours of theological studies, [pope_liege.Custom('CTPTitledFirstName')] has discovered an ancient religious text that significantly changes [ROOT.Char.GetFaith.GetAdjective] dogma.\n\nAfter bringing [pope_liege.GetHerHis] findings before [vassal_pope.Custom('CTPTitledFirstName')], the [vassal_pope.Custom('CTPTitleTierName')] decided to integrate the book's content in the faith's official doctrine."
+ 
+ learning_theology_special.1101.desc:0 ""Blessings upon you, my [ROOT.Char.GetLadyLord]. My name is [scholar.Custom('CTPTitledFirstName')]." The rabbi before me gives a respectful bow.\n\n"I have dedicated my life to studying and writing commentaries on the Tanakh and the Talmud. Perhaps my writings and my guidance would be of use to you in your own studies of the [ROOT.Char.GetFaith.ReligiousText].""
+ learning_theology_special.1101.desc.fallback:0 ""Greetings, my [ROOT.Char.GetLadyLord]. My name is [scholar.Custom('CTPTitledFirstName')]." The priest before me gives a respectful bow.\n\n"I have dedicated my life to studying and writing the [ROOT.Char.GetFaith.ReligiousText]. Perhaps my writings and my guidance would be of use to you in your own studies.""
+ 
+ learning_theology_special.1102.desc:0 "After days of hard labor we look upon the pages scattered before us; the commentaries we have written are exhaustive and detailed. Thanks to [scholar.Custom('CTPTitledFirstNamePossessive')] guidance, I have a newfound understanding of the [ROOT.Char.GetFaith.ReligiousText]."
+ learning_theology_special.1102.desc_dead:0 "After days of hard labor I look upon the pages scattered before me; the commentaries written are exhaustive and detailed. To bad [scholar.Custom('CTPTitledFirstName')] is not here to see it."
+ learning_theology_special.1102.a.success:0 "I convince [scholar.Custom('CTPTitledFirstNameNoTooltip')] to continue"
+ learning_theology_special.1102.a.failure:0 "[scholar.Custom('CTPTitledFirstNameNoTooltip')] is not convinced"
+ learning_theology_special.1102.c:0 "It is all thanks to [scholar.Custom('CTPFirstNameNoTooltip')]!"
+ learning_theology_special.1102.c.rl_desc:1 "Depending on how honorable [scholar.Custom('CTPTitledFirstNameNoTooltip')] is"
+ learning_theology_special.1102.c.success.toast:0 "[scholar.Custom('CTPTitledFirstName')] shared the glory with me"
+ learning_theology_special.1102.c.failure.toast:0 "[scholar.Custom('CTPTitledFirstName')] took all the credit"
+ 
  learning_theology_special.1102.b.success:0 "I outwit [scholar.Custom('CTPShortNameNoTooltip')]"
  learning_theology_special.1102.b.failure:0 "[scholar.Custom('CTPShortNameNoTooltip')] reveals my duplicity"

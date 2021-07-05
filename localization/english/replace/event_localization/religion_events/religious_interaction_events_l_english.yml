@@ -1,7 +1,43 @@
 ﻿l_english:
- religious_interaction.2400.desc:0 "The paige trembles with fear as [recipient.GetSheHe] reads [actor.GetTitledFirstNamePossessive] fiery letter to me, challenging me to a public debate about the virtues and vices of our shared faith, and calling into question my adherence to the base tenets of [recipient.GetFaith.GetNameNoTooltip].\n\nMy servant stutters over the words, as the letter's tone leaves no doubt about [actor.Custom('CTPShortNamePossessiveNoTooltip')] opinion of my piety.""
+ religious_interaction.1.a:0 "I am sorry, [secondary_recipient.Custom('CTPFirstNameNoTooltip')]."
+ 
+ religious_interaction.3.defensive_war:0 "May these funds help you defend the faith against [war_target.Custom('CTPTitledFirstName')] and [war_target.GetHerHis] invading [war_target.GetFaith.GetAdjective] hordes!"
+ religious_interaction.2.offensive_war:0 "May these funds bring you victory in your war against [war_target.Custom('CTPTitledFirstName')]!"
+ 
+ religious_interaction.4.child:0 "As [secondary_recipient.Custom('CTPTitledFirstName')] is a mere child, you are within your right to step in."
+ religious_interaction.4.they_are_female:0 "As [secondary_recipient.Custom('CTPTitledFirstName')] is a woman, you are within your right to step in."
+ religious_interaction.4.they_are_male:0 "As [secondary_recipient.Custom('CTPTitledFirstName')] is a man, you are within your right to step in."
+ 
+ religious_interaction.6.desc:0 "After much prayer and deliberation, I have decided to grant your request to divorce [secondary_actor.Custom('CTPFirstNameNoTooltip')] and their [secondary_recipient.GetWifeHusband], [secondary_recipient.Custom('CTPFirstNameNoTooltip')],"
+ religious_interaction.6.a:0 "I am sorry, [secondary_recipient.Custom('CTPFirstNameNoTooltip')]."
+
+ religious_interaction.1001.desc:1 "My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('actor'))], [actor.Custom('CTPTitledFirstName')], has seen me condemned as a sinner in a writ issued by [actor.GetHerHis] [actor.GetFaith.PriestNeuterPlural]!\n\nThis could be used as a legal basis to argue that I am unfit to rule [recipient.GetFaith.GetAdjective] lands."
+ religious_interaction.1001.a.revoke_tt:0 "[actor.Custom('CTPTitledFirstName')] can [revoke|E] one of my titles"
+
+ religious_interaction.1020:0 "I have heard some disturbing news from [actor.Custom('CTPTitledFirstName')] about your misdeeds."
+ religious_interaction.1022:0 "I am most disturbed by these tales you tell of [secondary_recipient.Custom('CTPTitledFirstNamePossessive')] misdeeds. It pains me to do so, but I agree that for the good of the [actor.GetFaith.GetAdjective] faith [secondary_recipient.GetSheHe] must be excommunicated."
+ religious_interaction.1000.positive:0 "I am glad [recipient.Custom('CTPFirstNameNoTooltip')] saw the wisdom in my request."
+ religious_interaction.1024.positive:0 "I am glad [recipient.Custom('CTPFirstNameNoTooltip')] saw the wisdom in this action."
+
+ religious_interaction.2100.desc:0 "After [ROOT.Char.GetFaith.HighGodName] knows how long in a dark cell, the harsh daylight of [capital.GetNameNoTitle] is blinding. The guards who escort me out of the [imprisoner.Custom('FortifiedBuilding')] and into the wilderness are surprisingly solemn — ceremonious, even.\n\nAs I lay my eyes on [imprisoner.Custom('CTPTitledFirstName')], flanked by a dozen [imprisoner.Custom('DefaultPriestTitlePlural')], the purpose of our little trip becomes clear.\n\n"[ROOT.Char.Custom('CTPFullName2NoTooltip')]. You will be left here, tied to this stake, and [imprisoner.GetFaith.HighGodName] shall determine your fate. If you are innocent, you shall live, but if you are guilty, you shall perish.""
+ 
+ religious_interaction.2101.end.desc:0 "\n\nWhen [imprisoner.Custom('CTPTitledFirstName')] returns and a flask is pressed against my lips, the haze of my mind clears. The [imprisoner.Custom('CTPTitleAsNameNoTooltip')] seems a little disappointed to find me alive, but the divine has spoken."
+ 
+ religious_interaction.2102.desc:0 "On the final eve of [prisoner.Custom('CTPTitledFirstNamePossessive')] trial, we find [prisoner.GetHerHim] unconscious, but still breathing.\n\n"It is a miracle!" the [ROOT.Char.Custom('DefaultPriestTitle')] declares, hands raised towards the heavens. "[ROOT.Char.GetFaith.HighGodName|U] has spoken! The [prisoner.GetWomanMan] is innocent!""
+ 
+ religious_interaction.2104.desc:0 "On the final eve of [prisoner.Custom('CTPTitledFirstNamePossessive')] trial, [prisoner.GetSheHe] does not move as we approach. One of the servants put a flask to [prisoner.GetHerHis] parched lips, but the water runs down [prisoner.GetHerHis] chin without response.\n\n"[ROOT.Char.GetFaith.HighGodName|U] has spoken!" the [ROOT.Char.Custom('DefaultPriestTitle')] declares, hands raised towards the heavens. "The [prisoner.GetWomanMan] is guilty!""
+
+ religious_interaction.2400.desc:0 "The paige trembles with fear as [recipient.GetSheHe] reads [actor.Custom('CTPTitledFirstNamePossessive')] fiery letter to me, challenging me to a public debate about the virtues and vices of our shared faith, and calling into question my adherence to the base tenets of [recipient.GetFaith.GetNameNoTooltip].\n\nMy servant stutters over the words, as the letter's tone leaves no doubt about [actor.Custom('CTPShortNamePossessiveNoTooltip')] opinion of my piety."
  religious_interaction.2400.a.tt_success:0 "The public debate humiliates [actor.Custom('CTPShortNameNoTooltip')]"
  religious_interaction.2400.a.tt_fail:0 "[actor.Custom('CTPShortNameNoTooltip')] successfully calls my faith into question"
  religious_interaction.2400.b.tt:0 "[actor.Custom('CTPShortNameNoTooltip')] will be informed"
  religious_interaction.2400.b_turned_down:0 "[recipient.Custom('CTPShortName')|U] has turned down my challenge to debate"
+
+ religious_interaction.2401.desc_won:0 "Over the course of an hour, I demolish [recipient.Custom('CTPTitledFirstName')], attacking [recipient.GetHerHis] piety, [recipient.GetHerHis] sense of virtue, and even calling into question [recipient.GetHerHis] fealty to [actor.GetFaith.HighGodName]. The crowd is vicious, pelting [recipient.Custom('CTPTitledFirstNameNoTooltip')] with rotten eggs and moldy cabbages till [recipient.GetSheHe] flees the hall."
+ religious_interaction.2401.desc_lost:0 "[recipient.Custom('CTPTitledFirstNamePossessive')] verbal onslaught begins immediately, barely giving me a chance to rebut, and before long the crowd has decided on the victor.\n\nI soldier on for a few minutes, braving the rain of rotting vegetables, but I'm finally forced to retreat when one of the peasantry hurls a live chicken at my head."
+ 
+ religious_interaction.2402.desc_won:0 "Despite [actor.Custom('CTPTitledFirstNamePossessive')] cock-sure attitude in challenging me to a debate, [actor.GetHerHis] resolve melts before my storm of withering words and pious criticisms. Before long, the crowd joins in, and my opponent retreats under a hail of mouldering vegetables and one particularly-aggressive rooster."
+ religious_interaction.2402.desc_lost:0 "Though I try my best, [actor.Custom('CTPTitledFirstName')] has clearly researched [actor.GetHerHis] arguments extremely well, and has the crowd eating out of [actor.GetHerHis] hand almost immediately. [actor.GetSheHe|U] continues to berate me for over an hour regardless, accusing me of every vice under the sun, and even insinuating that my loyalty to [recipient.GetFaith.HighGodName] is in question.\n\nEventually, I flee, trailed by a barrage of rotten produce from the crowd."
+
+ religious_interaction.2403.desc:0 "[victim.Custom('CTPTitledFirstName')] does not even stand a chance. Although [victim.GetSheHe] believes [victim.GetHerselfHimself] well prepared, I swat away [victim.GetHerHis] feeble arguments like they were flies. With every counterpoint, [victim.Custom('CTPFirstNameNoTooltip')] winces as if struck by a blow. As time passes, [victim.GetSheHe] seems so incapable of defending [victim.GetHerselfHimself] that even the crowd goes silent.\n\n"...and that is why," I say as I raise my hand dramatically, an accusatory finger pointed across the room, "you will never—"\nI stop when I realize [victim.Custom('CTPFirstNameNoTooltip')] is gasping for air and clutching"
  religious_interaction.2403.a.tt:0 "[victim.Custom('CTPShortName')] suffers a heart attack and [character_death_dies|E]"

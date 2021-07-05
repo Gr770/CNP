@@ -9,7 +9,7 @@ given_name = {
 	parent = personal_name
 }
 patronym = {
-	alias = { patronymic }
+	alias = { patronymic patronymics }
 	parent = personal_name
 }
 ism = {
@@ -17,6 +17,10 @@ ism = {
 }
 laqab = {
 	parent = nickname
+}
+official_laqab = {
+	alias = { official_laqabs }
+	parent = laqab
 }
 kunya = {
 	parent = teknonym
@@ -31,8 +35,10 @@ matronym = {
 	alias = { matronymic }
 	parent = personal_name
 }
-regal_name = {
+regnal_name = {
+	alias = { regnal_names }
 	parent = personal_name
 }
 personal_name = {
+	alias = { personal_names }
 }

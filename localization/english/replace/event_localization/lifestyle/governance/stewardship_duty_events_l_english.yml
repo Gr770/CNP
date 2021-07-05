@@ -1,2 +1,168 @@
 ﻿l_english:
+ stewardship_duty.0001.vassals.desc:0 "my vassals [arguer_1.Custom('CTPTitledFirstName')] and [arguer_2.Custom('CTPTitledFirstName')]"
+ stewardship_duty.0001.vassalandcourtier.desc:0 "my vassal [arguer_1.Custom('CTPTitledFirstName')] and [arguer_2.Custom2('MyCharacterIntroduction', ROOT.Char)]"
+ stewardship_duty.0001.b:0 ""Ugh, [arguer_2.Custom('CTPFirstNameNoTooltip')] is such a [arguer_2.Custom('InsultNoun')]!""
+ stewardship_duty.0001.c:0 ""Can you believe [arguer_1.Custom('CTPFirstNameNoTooltip')]? [arguer_1.GetSheHe|U] has some nerve!""
  stewardship_duty_0001_mediation_success.tt:0 "[arguer_1.Custom('CTPShortName')|U] and [arguer_2.Custom('CTPShortName')] gain [opinion|e] of each other"
+
+ stewardship_duty.0017.start.desc:0 "Another council meeting, another conflict. [councillor_1.GetCouncilTitle] [councillor_1.Custom('CTPFirstName')] and [councillor_2.GetCouncilTitle] [councillor_2.Custom('CTPFirstName')] are arguing violently about"
+ stewardship_duty.0017.end.desc:0 "\n\nAs [ROOT.GetCharacter.Custom('CTPTitleAsNameNoTooltip')], I could silence them with a single word, but I have a better idea. My diplomatic pursuits have given me insight on how to handle situations like these to please everyone."
+ stewardship_duty.0017.a:0 "Side with [councillor_1.Custom('CTPFirstNameNoTooltip')] without upsetting [councillor_2.Custom('CTPFirstNameNoTooltip')]."
+ stewardship_duty.0017.b:0 "Side with [councillor_2.Custom('CTPFirstNamePossessiveNoTooltip')] without upsetting [councillor_1.Custom('CTPFirstNameNoTooltip')]."
+ stewardship_duty.0017.c.criticial_success.desc:0 "I arranged a great compromise, pleasing both [councillor_1.Custom('CTPFirstName')] and [councillor_2.Custom('CTPFirstName')]."
+ stewardship_duty.0017.c.success.desc:0 "I arranged a good compromise, placating both [councillor_1.Custom('CTPFirstName')] and [councillor_2.Custom('CTPFirstName')]."
+ stewardship_duty.0017.c.failure.desc:0 "I fail to find a compromise, disappointing both [councillor_1.Custom('CTPFirstName')] and [councillor_2.Custom('CTPFirstName')]."
+
+ stewardship_duty.1055.desc:0 "A dramatic scene unfolds in my audience chamber as [new_mothers_parent.Custom2('MyCharacterIntroduction', ROOT.Char)] accuses [new_father.Custom2('MyCharacterIntroduction', ROOT.Char)] of impregnating [new_mothers_parent.GetHerHis] [new_mothers_parent.Custom2('RelationToMeShort', new_mother)][new_mother.Custom('Governance_1055_OutOfWedlock')].\n\n[new_fathers_parent.Custom('CTPTitledFirstName')] indignantly claims there is no proof of his son's guilt. "And even if it was him, it is surely [new_mother.Custom('CTPFirstNamePossessive')] fault for being a loose woman!"\n\nThe argument is heating up, and I must do something before things get out of hand. "
+ stewardship_duty.1055.a:0 "You will have the justice you desire, [new_mothers_parent.Custom('CTPFirstNameNoTooltip')]."
+ stewardship_duty.1055.b:0 "[new_father.Custom('CTPFirstNameNoTooltip')] is inculpable, he owes [new_mothers_parent.Custom('CTPFirstNameNoTooltip')] nothing!"
+ 
+ stewardship_duty.1062.a:0 "[client_1.Custom('CTPTitledFirstNameNoTooltip')] is known for growing beautiful gardens."
+ stewardship_duty.1062.b:0 "[client_2.Custom('CTPTitledFirstNamePossessiveNoTooltip')] religious poetry has moved many souls."
+ stewardship_duty.1062.c:0 "The discoveries made by [client_3.Custom('CTPTitledFirstNameNoTooltip')] show promise."
+
+ stewardship_duty.1063.desc:0 "After 5 years the funds I set aside for the patronage of my [client.Custom('Governance_1062_Client')] [client.Custom('CTPTitledFirstName')] have run out. I can now choose whether or not to renew my patronage for another 5 years or to let [client.GetHerHim] go."
+ 
+ stewardship_duty.1071.desc:0 "An influx of serfs has arrived in the [target_county.GetName] from the neighboring [origin_county.GetName]. They claim to be fleeing from the abusive rule of [origin_county_owner.Custom2('MyCharacterIntroduction', ROOT.Char)], and that they wish to live in my domain instead of [origin_county_owner.GetHerHis].\n\nLegally speaking they are still in bondage to [origin_county_owner.Custom('CTPFirstName')], but if I let them settle in my lands it would be almost impossible for [origin_county_owner.GetHerHim] to prove that they are actually [origin_county_owner.GetHerHis] serfs."
+ stewardship_duty.1071.a:0 "Graciously return the serfs to [origin_county_owner.Custom('CTPFirstNameNoTooltip')]."
+ stewardship_duty.1071.b:0 "Return the serfs, but give [origin_county_owner.Custom('CTPFirstNameNoTooltip')] a stern rebuke."
+ stewardship_duty.1071.c.compassionate:0 "I shall grant them refuge from [origin_county_owner.Custom('CTPFirstNameNoTooltip')]..."
+ stewardship_duty.1071.c.flavor:0 "...and hope [origin_county_owner.Custom('CTPFirstName')] does not learn of my involvement in this!"
+
+ stewardship_duty.1072.desc.subvassal:0 "I know you have resettled my serfs in your lands. Such an act subverts the very fabric of our society!\n\nThough I can do nothing about this now, rest assured that [origin_county_owner_liege.Custom('CTPTitledFirstName')] will know why I have fewer taxes for [origin_county_owner_liege.GetHerHim] this year."
+ 
+ stewardship_duty.4010.desc.start:0 "[faction_member.Custom('CTPTitledFirstName')] has been using [faction_member.GetHerHis] influence to push for the advancement of"
+ stewardship_duty.4010.desc.peasant:0 "the [targeting_faction.GetName]. They are unhappy being subjects of one they consider to be a [Root.Char.Custom2('GetUnbelieverAndForeignerTerm', faction_member)] and wish to instead have a ruler like [faction_leader.Custom('CTPTitledFirstName')], who shares their culture and faith."
+
+ stewardship_duty.4010.desc.end:0 "\n\nWhile I do not doubt [faction_member.Custom('CTPFirstNamePossessiveNoTooltip')] convictions, [faction_member.GetSheHe] is only human. If I can convince [faction_member.GetHerHim] to curb these activities, it will make it easier for me to consolidate the power I have over my vassals."
+ stewardship_duty.4010.attempt.tt:0 "[faction_member.Custom('CTPTitledFirstNamePossessiveNoTooltip')] decision will be based on [faction_member.GetHerHis] personality"
+ stewardship_duty.4010.success:0 "[faction_member.Custom('CTPTitledFirstNameNoTooltip')] accepts my offer"
+ stewardship_duty.4010.failure:0 "[faction_member.Custom('CTPTitledFirstNameNoTooltip')] rejects my offer"
+ stewardship_duty.4010.decline:0 "[faction_member.Custom('CTPTitledFirstNameNoTooltip')] is only exercising [faction_member.GetHerHis] rights."
+
+ stewardship_duty.4011-4.desc.start:0 "[my_liege.Custom('CTPTitledFirstName')] has approached me, claiming my association with the [targeting_faction.GetName] has been causing [my_liege.GetHerHim] undue hardship, and that it needs to stop."
+
+ stewardship_duty.4014.a:0 "I serve [faction_member.GetFaith.HighGodName] though serving [my_liege.Custom('CTPTitledFirstNameNoTooltip')]."
+
+ stewardship_duty.4015.desc:0 "By making it abundantly clear what [faction_member.GetSheHe] has to gain by being loyal to me, I managed to convince [faction_member.Custom('CTPTitledFirstName')] to drop [faction_member.GetHerHis] support for the [targeting_faction.GetName].\n\n[faction_member.GetHerHis|U] grievances were simply too insignificant compared to what I had to offer!"
+ 
+ stewardship_duty.4019.desc:0 "Despite my best efforts to convince [faction_member.GetHerHim], [faction_member.Custom('CTPTitledFirstName')] has refused to leave [targeting_faction.GetName], and [faction_member.GetSheHe] continues to advocate for their interests above mine."
+ 
+ stewardship_duty.4020.desc:0 "[faction_member.Custom('CTPTitledFirstName')] is no longer in a faction."
+ stewardship_duty.4020.desc.switch:0 "[faction_member.Custom('CTPTitledFirstName')] switched factions."
+
+ stewardship_duty.4040.desc:0 "My [ROOT.Char.Custom2('RelationToMe', my_vassal)] [my_vassal.Custom('CTPTitledFirstName')] has a contract with me that is quite lenient, exempting [my_vassal.GetHerHim] from many of the obligations I would typically expect from one of my vassals.\n\nIf I could get [my_vassal.GetHerHim] to consent to increased obligations, it would greatly benefit the realm in the long-term..."
+ stewardship_duty.4040.b.success:0 "[my_vassal.Custom('CTPFirstNameNoTooltip')] is persuaded to accept a contract change"
+ stewardship_duty.4040.b.failure:0 "[my_vassal.Custom('CTPFirstNameNoTooltip')] remains unwilling to accept a contract change"
+ stewardship_duty.4040.c.success:0 "[my_vassal.Custom('CTPFirstNameNoTooltip')] is coerced into accepting a contract change"
+ stewardship_duty.4040.c.failure:0 "[my_vassal.Custom('CTPFirstNameNoTooltip')] refuses to accept a contract change"
+ stewardship_duty.4040.d.tt:0 "#F [my_vassal.Custom('CTPFirstNameNoTooltip')] keeps [my_vassal.GetHerHis] current contract with my blessing:#!"
+
+ stewardship_duty.4040.contractchange:0 "I get to alter [my_vassal.Custom('CTPTitledFirstNamePossessive')] contract in my favor."
+
+ stewardship_duty.4041.desc:0 "In an effort to convince [my_vassal.Custom('CTPTitledFirstName')] to accept a more restrictive contract, I sat down with [my_vassal.GetHerHim] and explained all of the reasons why we needed to update it. \n\n[my_vassal.GetSheHe|U] was reluctant at first, but after much discussion I got [my_vassal.GetHerHim] to agree that it would be reasonable to make an alteration to [my_vassal.GetHerHis] contract."
+ 
+ stewardship_duty.4042.desc:0 "From the start of our conversation I could tell I would have a hard time convincing [my_vassal.Custom('CTPTitledFirstName')] to give up the rights [my_vassal.GetSheHe] is entitled to under [my_vassal.GetHerHis] contract.\n\nDespite my best efforts and pleas, [my_vassal.GetSheHe] stood firm, stating if I cannot make do with what [my_vassal.GetSheHe] currently gives me, that is my fault, not [my_vassal.GetHerHis]."
+ 
+ stewardship_duty.4043.desc:0 "It wasn't a negotiation — it was a demand. I made it clear to [my_vassal.Custom('CTPTitledFirstName')] [my_vassal.GetSheHe] continues to hold [my_vassal.GetHerHis] titles only because it pleases me, and that if [my_vassal.GetSheHe] wished to stay on my good side [my_vassal.GetSheHe] would need to make concessions.\n\n[my_vassal.GetSheHe|U] hastily agreed, glad for me to depart without further incident."
+ 
+ stewardship_duty.4044.desc:0 "[my_vassal.Custom('CTPTitledFirstName')] balked at my demand that [my_vassal.GetSheHe] accept a more restrictive contract.\n\n[my_vassal.GetSheHe|U] told me even though I was [ROOT.Char.Custom('CTPTitleAsNameNoTooltip')] and Ruler of this land, [my_vassal.GetHerHis] current contract entitles [my_vassal.GetHerHim] to certain privileges that I cannot simply take away — at least not rightfully."
+ 
+ stewardship_duty.4060.desc.default:0 "Even in the midst of war [faction_leader.Custom('CTPTitledFirstName')] and [faction_leader.GetHerHis] supporters in the [targeting_faction.GetName] are willing to use any excuse to push their agenda!"
+ stewardship_duty.4060.desc.self_claim:0 "Even in the midst of war [faction_leader.Custom('CTPTitledFirstName')] is willing to use any excuse to push [faction_leader.GetHerHis] claim on the [targeting_faction.GetSpecialTitle.GetName]!"
+ stewardship_duty.4060.desc.other_claim:0 "Even in the midst of war [faction_leader.Custom('CTPTitledFirstName')] is willing to use any excuse to push [targeting_faction.GetSpecialCharacter.Custom('CTPTitledFirstNamePossessive')] claim on the [targeting_faction.GetSpecialTitle.GetName]!"
+ stewardship_duty.4060.attempt.tt:0 "[faction_leader.Custom('CTPTitledFirstNameNoTooltip')] will make a decision based on [faction_leader.GetHerHis] personality"
+ 
+ stewardship_duty.5021.desc:0 "I am poring over the ledgers that detail my income from vassals. These numbers do not add up... The [ROOT.Char.Custom2('DescriptorNegative', SCOPE.sC('cheater_vassal'))] [cheater_vassal.Custom('CTPTitledFirstName')] has me for a fool and has been paying too little!"
+ stewardship_duty.5021.a:0 "The [cheater_vassal.Custom('CTPTitleAsNameNoTooltip')] must pay [cheater_vassal.GetHerHis] due."
+ stewardship_duty.5021.a.message_1:0 "[cheater_vassal.Custom('CTPFirstNameNoTooltip')] pays what [cheater_vassal.GetSheHe] owes me"
+ stewardship_duty.5021.a.message_2:0 "I suspect [cheater_vassal.Custom('CTPFirstNameNoTooltip')] is still withholding money"
+
+ stewardship_duty.7001.desc:0 "My two vassals [war_vassal.Custom('CTPTitledFirstName')] and [war_vassal_2.Custom('CTPTitledFirstName')] are locked in battle with each other. This '[war_scope.GetName]' risks destabilizing my realm, and I must act quickly if I want to intervene."
+ stewardship_duty.7001.a.desc_1:0 "[war_vassal.Custom('CTPFirstNameNoTooltip')] sees the wisdom in peace"
+ stewardship_duty.7001.a.desc_2:0 "[war_vassal.Custom('CTPFirstNameNoTooltip')] does not listen to my arguments"
+
+ stewardship_duty.7002.toast.peace:0 "[war_vassal.Custom('CTPFirstName')] and [war_vassal_2.Custom('CTPFirstName')] agreed to a white peace"
+
+ stewardship_duty.7023.desc:0 "The fact that I owe a substantial boon to [hook_holder.Custom('CTPTitledFirstName')] weighs heavy on me.\n\nIt would be a great relief If I could settle it now, on my terms. Waiting for [hook_holder.GetHerHim] to call it in could put me in a tight spot later."
+ stewardship_duty.7023.success:0 "I convince [hook_holder.Custom('CTPFirstNameNoTooltip')] to waive the favor I owe [hook_holder.GetHerHim]"
+ stewardship_duty.7023.failure:0 "[hook_holder.Custom('CTPFirstNameNoTooltip')] insists that I repay the favor I owe [hook_holder.GetHerHim]"
+ stewardship_duty.7023.a.success:0 "[hook_holder.Custom('CTPTitledFirstNameNoTooltip')] accepts my gold in lieu of the favor I owe [hook_holder.GetHerHim]"
+ stewardship_duty.7023.d.tt:0 "I still owe [hook_holder.Custom('CTPTitledFirstName')] a favor."
+
+ stewardship_duty.7023.invalidated.hooked_ruler:0 "As I no longer owe [hook_holder.Custom('CTPTitledFirstName')] a favor, my request for [hook_holder.GetHerHim] to waive it is no longer valid."
+ stewardship_duty.7023.invalidated.hook_holder:0 "As [hooked_ruler.Custom('CTPTitledFirstName')] no longer owes me a favor, [hooked_ruler.GetHerHis] request for me to waive it is no longer valid."
+
+ stewardship_duty.7025.refuse.tt:0 "[hooked_ruler.Custom('CTPTitledFirstName')] will still owe me a favor"
+
+ stewardship_duty_special.1201.desc:0 "My [steward.GetCouncilTitle], [steward.Custom('CTPTitledFirstName')], is proposing a quest that [steward.GetSheHe] claims would benefit the [ROOT.Char.Custom('RealmType')].\n\n[steward.GetSheHe|U] thinks I should travel with my retinue to chart the territories of [painting_land_owner.Custom('CTPTitledFirstName')]. I would get to know my realm better, and [steward.Custom('CTPFirstNameNoTooltip')] believes I would earn a deeper understanding of my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('painting_land_owner'))]."
+ 
+ stewardship_duty_special.1202.desc:0 "As we pass into [painting_land_owner.Custom('CTPTitledFirstNamePossessive')] lands, we are met by a [painting_land_owner.Custom('MountedWarriorTerm')] and [dummy_gender.GetHerHis] entourage.\n\n"[painting_land_owner.Custom('CTPTitledFirstName')] bids you welcome, my [ROOT.Char.Custom('my_title')]. You are more than welcome to stay in these lands for as long as you require.""
+ 
+ stewardship_duty_special.1206.desc:0 "I have seen several forts throughout the region, in various defensive positions among the shifting terrain. One morning as we approach one of them, I see the local [local_baron.Custom('CTPTitleAsNameNoTooltip')] guiding the tending of horses outside [local_baron.GetHerHis] gates."
+ stewardship_duty_special.1206.b:0 "Invite [local_baron.Custom('CTPTitledFirstName')] to eat with me tonight."
+
+ stewardship_duty_special.1207.b:0 "The innkeeper will be honored to host the [ROOT.Char.Custom('CTPTitleAsNameNoTooltip')]!"
+
+ stewardship_duty_special.1208.desc:0 "[painting_land_owner.Custom('CTPTitledFirstNamePossessive')] lands are crisscrossed with streams and rivers, makeshift bridges and fords making for most passageways. Surely these gentle waters could be more useful than this?"
+ 
+ stewardship_duty_special.1281.opening:0 "Hills and valleys, plains and lakes, highways and forest paths. I have seen it all in [painting_land_owner.Custom('CTPTitledFirstNamePossessive')] realm, and my cartographers have been eagerly making notes and coal sketches of every new sight."
+ stewardship_duty_special.1281.b:0 "[painting_land_owner.Custom('CTPTitledFirstName')] should hear of my findings."
+
+ stewardship_duty_special.1282.b:0 "[painting_land_owner.Custom('CTPFirstName')] should renew [painting_land_owner.GetHerHis] defenses... As should I!"
+
+ statecraft_mediation_favor_vassal_1:0 "This will be seen as favoring [vassal_1.Custom('CTPTitledFirstName')]"
+ statecraft_mediation_favor_vassal_2:0 "This will be seen as favoring [vassal_2.Custom('CTPTitledFirstName')]"
+
+ stewardship_duty_special.2001.desc:0 "The enmity between my vassals [vassal_1.Custom('CTPTitledFirstName')] and [vassal_2.Custom('CTPTitledFirstName')] is legendary, and it has gone so far that the other nobles of the realm have requested that I intervene.\n\nBorder disputes, tax rights, family history... They have a litany of disputes, and even here at my court they are barely able to maintain civility."
+ 
+ stewardship_duty_special.2011.desc:0 "I thought the discussion was fierce #EMP before#! the maps were brought out.\n\n[vassal_1.Custom('CTPTitledFirstName')] and [vassal_2.Custom('CTPTitledFirstName')] both have illustrations of their realm, and each illustration shows the same fording point as belonging to either of them. Neither seems willing to budge a foot of ground.\n\nNever have I seen a parchment cause so much anger, and it is clear that a new boundary must be settled."
+ stewardship_duty_special.2011.b:0 "[vassal_1.Custom('CTPFirstNameNoTooltip')] will be compensated for any loss."
+ stewardship_duty_special.2011.c:0 "[vassal_2.Custom('CTPFirstNameNoTooltip')] is #EMP very#! eager for me to make the right and just call..."
+ statecraft_mediation_debug_improve_contract:0 "#D Improve Feudal Contract with [vassal_2.Custom('CTPTitledFirstName')]#!"
+
+ stewardship_duty_special.2012.desc:0 "The day's discussions between [vassal_1.Custom('CTPTitledFirstName')] and [vassal_2.Custom('CTPTitledFirstName')] have not started well.\n\n"Ever since you were handed grandfather's shield—"\n"The shield again, truly? Here, at the [ROOT.Char.GetTitlePossessive] court?!""
+ 
+ stewardship_duty_special.2013.desc:0 "[vassal_1.Custom('CTPTitledFirstName')] claims that [vassal_2.Custom('CTPTitledFirstName')] is denying [vassal_1.GetHerHis] right to taxation.\n\n"Not at all!" [vassal_1.Custom('CTPFirstName')] protests. "The family in question has been on my side of the border for generations. A single field on the other side does not earn you a full tithe!""
+ stewardship_duty_special.2013.a:0 "If you cannot decide, the tithe reverts to the [ROOT.Char.Custom('CTPTitleAsNameNoTooltip')]."
+
+ stewardship_duty_special.2014.desc:0 ""[betrothal_candidate_lord.Custom('CTPTitledFirstNamePossessive')] [betrothal_candidate_lord.Custom2('RelationToMe', SCOPE.sC('betrothal_candidate'))] was promised to my [vassal_1.Custom2('RelationToMe', SCOPE.sC('vassal_1_betrothal_candidate'))] since—" [vassal_1.Custom('CTPTitledFirstName')] begins, before being predictably interrupted by [vassal_2.Custom('CTPTitledFirstName')].\n\n"[betrothal_candidate.Custom('CTPTitledFirstName')] was always meant to marry my [vassal_2.Custom2('RelationToMe', SCOPE.sC('vassal_2_betrothal_candidate'))]!""
+ stewardship_duty_special.2014.a:0 "[betrothal_candidate.Custom('CTPTitledFirstNameNoTooltip')] will be married to [vassal_1.Custom('CTPFirstNamePossessiveNoTooltip')] [vassal_1.Custom2('RelationToMe', SCOPE.sC('vassal_1_betrothal_candidate'))]."
+ stewardship_duty_special.2014.b:0 "A betrothal will be made with [vassal_2.Custom('CTPFirstNamePossessiveNoTooltip')] [vassal_2.Custom2('RelationToMe', SCOPE.sC('vassal_2_betrothal_candidate'))]."
+
+ stewardship_duty_special.2015.desc:0 ""There was the time [vassal_2.Custom('CTPTitledFirstName')] harbored a known thief!" [vassal_1.Custom('CTPTitledFirstName')] accuses.\n\n"By [vassal_2.GetFaith.HighGodName]!" [vassal_2.Custom('CTPFirstName')] has obviously heard this before. "You do not have right of judgement over my subjects, in my realm!"\n\n"Simply because he managed to escape before—"\n\nThey quickly fall to silence when I lift my hand and remind them of my presence."
+ stewardship_duty_special.2015.b:0 "If [vassal_2.Custom('CTPFirstNameNoTooltip')] has right of judgement, that is all that matters."
+ 
+ stewardship_duty_special.2018.desc:0 "[vassal_1.Custom('CTPTitledFirstName')] has yet another complaint today, of course. "The horses bred in [barony_1.GetNameNoTier] have long been famous, but now merchants from [barony_2.GetNameNoTier] are selling them as if they had bred them themselves! In [barony_2.GetNameNoTier]!"\n\n[vassal_2.Custom('CTPTitledFirstName')] objects to this. "They #EMP are#! bred there! Should the merchants lie about their wares?""
+ 
+ stewardship_duty_special.2019.desc:0 "[vassal_1.Custom('CTPTitledFirstName')] and [vassal_2.Custom('CTPTitledFirstName')] have been listing grievances for what feels like hours.\n\n"... and then there is the quarrymaster on the border who refused to pay taxes due to a writ of leniency #EMP you#! had offered!"\n"What?! You were the one who had already taken all they had when my collectors—"\n\nThey finally pause at the realization that they have both been had."
+ stewardship_duty_special.2019.d:0 "This is a crime against the [ROOT.Char.Custom('CTPTitleAsNameNoTooltip')], and the [ROOT.Char.Custom('CTPTitleAsNameNoTooltip')] will handle it!"
+ 
+ stewardship_duty_special.2021.desc:0 "[vassal_1.Custom('CTPTitledFirstName')] and [vassal_2.Custom('CTPTitledFirstName')] hold all manner of grievances against each other, from great to small.\n\n"[uninvited.Custom('CTPFirstName')] denied [uninvited.GetHerHis] landholders from attending my autumn feast!" [host.Custom('CTPFirstName')] complains.\n\n"Of course, I do not want my vassals to bring more fleas back home with them.""
+ stewardship_duty_special.2021.a:0 "They are [uninvited.Custom('CTPFirstNamePossessiveNoTooltip')] vassals. They must do as [uninvited.GetSheHe] demands."
+ 
+ stewardship_duty_special.2022.desc:0 ""[insulter.Custom('CTPTitledFirstName')] insulted my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('spouse'))] most grievously!" [insultee.Custom('CTPTitledFirstName')] blurts out. "Implying that [spouse.GetSheHe] shares a bed with pigs!"\n\n[insulter.Custom('CTPFirstName')] remains calm. "Sometimes the truth is less than flattering, [insultee.Custom('CTPFirstName')].""
+ 
+ stewardship_duty_special.2025.desc:0 "Given the leverage I hold on [hooked_vassal.Custom('CTPTitledFirstName')], I could request that whatever the outcome of [hooked_vassal.GetHerHis] quarrel with [other_vassal.Custom('CTPTitledFirstName')], [hooked_vassal.GetSheHe] will tell everyone what fair and just judgements I passed."
+ stewardship_duty_special.2025.a:0 "[hooked_vassal.Custom('CTPFirstNameNoTooltip')], there #EMP is#! something you can do for me..."
+ statecraft_mediation_progress_fairness:0 "[hooked_vassal.Custom('CTPFirstNameNoTooltip')] emphasizes how fair I am, significantly improving my chances of a positive outcome"
+
+ stewardship_duty_special.2026.desc:0 "Screams and bloody hands greet me. The cup has finally spilled over, and [killer.Custom('CTPTitledFirstName')] is standing over the body of [victim.Custom('CTPTitledFirstName')], [killer.Custom('signature_weapon')] still in hand.\n\n"This is the only fair settlement I would ever get.""
+ 
+ stewardship_duty_special.2027.desc:0 "[vassal_1.Custom('CTPTitledFirstName')] and [vassal_2.Custom('CTPTitledFirstNamePossessive')] disputes go on forever, and apparently it has already lasted for generations.\n\nParents, grandparents, distant ancestors, all quarreling over one matter or another. Is there even a way of breaking this chain?"
+ statecraft_mediation_favor_higher_prestige:0 "This will be seen as favoring [higher_prestige.Custom('CTPTitledFirstName')]"
+ statecraft_mediation_favor_lower_prestige:0 "This will be seen as favoring [lower_prestige.Custom('CTPTitledFirstName')]"
+
+ stewardship_duty_special.2071.desc:0 "It has been an exhausting process, but no longer are [vassal_1.Custom('CTPTitledFirstName')] and [vassal_2.Custom('CTPTitledFirstName')] constantly at each others' throats.\n\nIndeed, not only do they depart my court with their grievances settled, they do so as newfound friends."
+ 
+ stewardship_duty_special.2072.desc:0 "When [vassal_1.Custom('CTPTitledFirstName')] and [vassal_2.Custom('CTPTitledFirstName')] depart my court — at last — it is without any of the hate or venom that marked their arrival. We shall see if it lasts, but for now they hold a newfound respect for each other, thanks to my efforts."
+ 
+ stewardship_duty_special.2073.desc:0 ""This was never going to be a fair mediation, was it?!" [accuser.Custom('CTPTitledFirstName')] is deeply upset as [accuser.GetSheHe] marches out of the audience hall. "The favoritism on display here is sickening!"\n\n[favorite.Custom('CTPTitledFirstName')] remains calm. "I disagree with that, my [ROOT.Char.GetLadyLord].""
+ 
+ stewardship_duty_special.2074.desc:0 "When [vassal_1.Custom('CTPTitledFirstName')] and [vassal_2.Custom('CTPTitledFirstName')] arrived, I did not think they could be spitting more hatred and bitterness at each other. How wrong their departure proved me."
+ 
+ stewardship_duty_special.2081.both_dead:0 "With the deaths of [vassal_1.Custom('CTPTitledFirstName')] and [vassal_2.Custom('CTPTitledFirstName')], their petty fights are distant, small and meaningless."
+ stewardship_duty_special.2081.vassal_1:0 "With the death of [vassal_1.Custom('CTPTitledFirstName')], the fights and disputes [vassal_1.GetSheHe] had with [vassal_2.Custom('CTPTitledFirstName')] seem small, petty and meaningless."
+ stewardship_duty_special.2081.vassal_2:0 "With the death of [vassal_2.Custom('CTPTitledFirstName')], the fights and disputes [vassal_2.GetSheHe] had with [vassal_1.Custom('CTPTitledFirstName')] seem small, petty and meaningless."
+ 
+ stewardship_duty_special.2082.desc:0 "With [prisoner.Custom('CTPTitledFirstName')] locked away, the dispute between [prisoner.GetHerHim] and [other.Custom('CTPTitledFirstName')] seem a lot less important."

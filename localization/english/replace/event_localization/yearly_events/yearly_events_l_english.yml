@@ -1,0 +1,9 @@
+﻿l_english:
+ yearly.0001.a.success:0 "I take [mentor.Custom('CTPFirstNamePossessiveNoTooltip')] lessons to heart"
+ yearly.0001.a.failure:0 "[mentor.Custom('CTPFirstNameNoTooltip')] advises me on my current situation"
+ yearly.0001.b.success:0 "[mentor.Custom('CTPFirstNameNoTooltip')] takes my lessons to heart"
+ yearly.0001.b.failure:0 "I advise [mentor.Custom('CTPFirstNameNoTooltip')] on [mentor.GetHerHis] current situation"
+ yearly.0002.desc:0 "Having served me faithfully as my [councillor.Custom('CouncilPosition')], I entrusted [councillor.Custom('CTPTitledFirstName')] with the ability to travel freely within my court.\n\nHowever, I have now learned [councillor.GetSheHe] has taken advantage of my hospitality by being indiscreet with my [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('child') )] [child.Custom('CTPFirstName')]!"
+ yearly.0002.c:0 "I will make [councillor.Custom('CTPFirstNameNoTooltip')] rot in jail for crossing me!"
+ 
+ yearly.0003.start.desc:0 "At first, I thought it a joke — how could my [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('child'))] [child.Custom('CTPFirstName')] and [relative.Custom2('HerHisCharacterIntroductionNoComma', SCOPE.sC('child'))] be lovers?! Yet the letter my spies intercepted"

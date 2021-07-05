@@ -1,0 +1,23 @@
+﻿l_english:
+ stress_trait_ongoing.0506.desc_leper:0 "This wasting disease eats at my body slowly, flaking my flesh away day by day. A [ROOT.GetCharacter.Custom('CTPTitleAsNameNoTooltip')] I may be, but sometimes I fear my subjects look at me and see naught but a leper."
+ stress_trait_ongoing.0506.desc:0 "\n\nHashish should ease the pain, for a time. The only question is whether to consume it alone, or if company would help cheer me. [medication_friend.Custom('CTPTitledFirstName')] did ask if I wanted a companion this evening..."
+ stress_trait_ongoing.0506.b:0 "Perhaps [medication_friend.Custom('CTPFirstNameNoTooltip')] would care to share?"
+ stress_trait_ongoing.0511.desc:0 "I am enjoying a cool evening in the gardens of [hashishiyah_capital.GetNameNoTierNoTooltip], sat casually munching on a small stack of hashish-topped sweetcakes, when I suddenly feel the heavy, spittle-flecked breath of an enraged [crusty_old_person.Custom('CTPTitledFirstName')] on my cheek.\n\n"Put down that accursed-shrub, [ROOT.GetCharacter.Custom('CTPFirstNameNoTooltip')], and cease clouding your mind! [crusty_old_person.GetFaith.HighGodName] did not put you on this Earth so that you could waste your time away in a stupor!""
+ stress_trait_ongoing_0516.desc:0 ""—nd that is why this meeting is so important".\n\nWuh? Oh, right, yes, the meeting with [important_guest.Custom('CTPTitledFirstName')]. About... Something. What #EMP were#! we talking about? [important_guest.GetSheHe|U] looks very serious about it, whatever it was.\n\nI reach out, grab another hashish-topped cake, and begin nibbling thoughtfully. [important_guest.Custom('CTPFirstNameNoTooltip')] raises an eyebrow at my vacant pause, and it dawns on me that maybe I've had a few #EMP too#! many cakes."
+ stress_trait_ongoing.0516.a.tt_success:0 "[important_guest.Custom('CTPFirstNameNoTooltip')] is impressed by your calm, steady responses"
+ stress_trait_ongoing.0516.c:0 "Loosen up, [important_guest.Custom('CTPFirstNameNoTooltip')]. Have some hashish!"
+ 
+ stress_trait_ongoing.1501.desc_1_a:0 "I caught a glimpse of [obsession.Custom('CTPTitledFirstNamePossessive')] tantalizing cleavage when I passed [obsession.GetHerHim] in the hall this morning."
+ stress_trait_ongoing.1501.desc_1_b:0 "I noticed a suggestive bulge protruding from [obsession.Custom('CTPTitledFirstNamePossessive')] hose when I passed [obsession.GetHerHim] in the hall this morning."
+ stress_trait_ongoing.1501.desc_1_d:0 "I could not help but let my gaze wander over [obsession.Custom('CTPTitledFirstNamePossessive')] body when I passed [obsession.GetHerHim] in the hall this morning."
+ stress_trait_ongoing.1501.warning:0 "\n\nAlas, I know that [obsession.Custom('CTPFirstName')] has no interest in [ROOT.Char.GetWomenMen], and thus [obsession.GetSheHe] will have no interest in me."
+ stress_trait_ongoing.1501.a.success:0 "[obsession.Custom('CTPTitledFirstName')] has also been desiring me"
+ stress_trait_ongoing.1501.a.failure:0 "[obsession.Custom('CTPTitledFirstName')] rejects my advances"
+ stress_trait_ongoing.1501.d:0 "I should not objectify [obsession.Custom('CTPFirstName')] like this, it is #EMP wrong#!!"
+ 
+ stress_trait_ongoing.4502.a:0 "It's not like anyone will miss [prisoner.Custom('CTPTitledFirstName')]."
+ stress_trait_ongoing.4502.b:0 "[courtier.Custom('CTPTitledFirstName')] has it coming to [courtier.GetHerHim], anyway..."
+ 
+ stress_trait_ongoing.5001.desc:0 ""Come with me [ROOT.Char.Custom('CTPTitledFirstName')]; I have a surprise for you!" [giver.Custom2('MyCharacterIntroduction', ROOT.Char)] says excitedly. "I noticed you haven't been eating well, so I spent weeks seeking out the rarest delicacies I could find!"\n\nFollowing [giver.GetHerHim] into the banquet hall, I see a table piled with a wide variety of gourmet dishes. [ROOT.Char.Custom('GetExpensiveMeal')|U] and [ROOT.Char.Custom('GetExpensiveMealAlt')]... [ROOT.Char.Custom('GetExpensiveDessert')]... the smell alone makes my stomach turn.\n\n"Well? Dig in, my [ROOT.Char.GetLadyLord]!""
+ stress_trait_ongoing.5001.c.success:0 "[giver.Custom('CTPTitledFirstName')] thinks I enjoyed the meal"
+ stress_trait_ongoing.5001.c.failure:0 "[giver.Custom('CTPTitledFirstName')] notices that I did not eat the food"

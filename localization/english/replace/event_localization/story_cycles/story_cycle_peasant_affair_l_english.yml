@@ -1,0 +1,30 @@
+﻿l_english:
+ peasant_affair.1001.desc_opening:0 ""My [ROOT.Char.GetLadyLord], my heart would not know rest until I found you again! It is I, [peasant_character.Custom('CTPFirstNameNoTooltip')]. Surely you remember me, my [ROOT.Char.Custom('LoverPetName')]?"\n\n"
+ peasant_affair.1001.desc_child:0 "I cannot believe my eyes: the beautiful [peasant_character.GetWomanMan] I indulged in many moons ago, the [peasant_character.GetMotherFather] of my dear [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('peasant_child'))] [peasant_child.Custom('CTPTitledFirstName')], has shown up at court."
+ peasant_affair.1001.a_2:0 "[peasant_character.Custom('CTPFirstNameNoTooltip')] was it? You are welcome to stay here."
+ peasant_affair.1001.b:0 "[peasant_child.Custom('CTPFirstNameNoTooltip')] does deserve [peasant_child.GetHerHis] [peasant_character.GetMotherFather]..."
+ 
+ peasant_affair.2001.desc_known_father:0 "Many nights have passed since I shared a bed with my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('peasant_character'))], [peasant_character.Custom('CTPTitledFirstName')], but my longing only grows... "
+ peasant_affair.2001.desc_child:0 "Especially since my dear [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('peasant_child'))] [peasant_child.Custom('CTPTitledFirstName')], the result of our passion, is a constant reminder of [peasant_character.GetHerHim]!"
+ 
+ peasant_affair.2002.desc_child:1 "Even as my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))] [councillor.Custom('CTPTitledFirstName')] bows and scrapes, my eyes fall upon the curious face of my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('peasant_child'))] [peasant_child.Custom('CTPTitledFirstName')]."
+ peasant_affair.2002.desc:1 "Even as my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))] [councillor.Custom('CTPTitledFirstName')] bows and scrapes, my thoughts wander to that magical night..."
+ 
+ peasant_affair.2003.desc_opening:0 ""My [ROOT.Char.GetLadyLord], I present to you [peasant_character.Custom('CTPTitledFirstName')], brought before you upon your insistence."\n\n"
+ peasant_affair.2003.desc_dislike:0 "The peasant [peasant_character.GetWomanMan] of my dreams fights [councillor.Custom('CTPTitledFirstNamePossessive')] grasp, [peasant_character.GetHerHis] face twisted in anger and fear\n\n"Please my [ROOT.Char.GetLadyLord], let me go! That night was a mistake, I only wish to be left alone.""
+ peasant_affair.2003.desc_dislike_their_child:0 "The peasant [peasant_character.GetWomanMan] of my dreams fights [councillor.Custom('CTPTitledFirstNamePossessive')] grasp, [peasant_character.GetHerHis] face twisted in anger and fear as [peasant_character.GetSheHe] clutches [peasant_character.GetHerHis] [peasant_child.Custom('GetDaughterSon')] to [peasant_character.GetHerHis] side.\n\n"Please, my [ROOT.Char.GetLadyLord], let us go! I only wish to raise #EMP my#! [peasant_child.Custom('GetDaughterSon')] alone.""
+ peasant_affair.2003.a_alive:0 "Please [peasant_character.Custom('CTPFirstNameNoTooltip')], stay here at court."
+ peasant_affair.2003.a_dead:0 "Please [peasant_child.Custom('CTPFirstNameNoTooltip')], stay here at court."
+ peasant_affair.2003.b:0 "[peasant_child.Custom('CTPFirstNameNoTooltip')], my child, I want you to meet your [peasant_character.GetMotherFather]."
+ 
+ peasant_affair.3001.available_desc:0 "My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('peasant_character'))] [peasant_character.Custom('CTPFirstName')] has come to me with what [peasant_character.GetSheHe] thinks a humble request.\n\n"My dear, you know [peasant_child.Custom('CTPTitledFirstName')] to be your child. Please acknowledge [peasant_child.GetHerHim] as one of your lineage.""
+ peasant_affair.3001.unavailable_desc:0 "\n\nDoes [peasant_character.GetSheHe] not realize that with my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('other_spouse'))] [other_spouse.Custom('CTPTitledFirstName')], things are not entirely in my hands?"
+ peasant_affair.3001.a:0 "I will acknowledge [peasant_child.Custom('CTPTitledFirstNameNoTooltip')] to my blood and name."
+ peasant_affair.3001.d.tt:0 "I make it clear to [peasant_character.Custom('CTPTitledFirstNameNoTooltip')] that it will never happen."
+
+ peasant_affair.3002.available_desc:0 "My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('peasant_character'))] [peasant_character.Custom('CTPFirstName')] has come to me with what [peasant_character.GetSheHe] thinks a humble request.\n\n"You know as well as I do that [peasant_child.Custom('CTPTitledFirstName')] is mine. I beg of you, please let it be known.""
+ peasant_affair.3002.unavailable_desc:0 "\n\nDoes [peasant_character.GetSheHe] not realize that with my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('other_spouse'))] [other_spouse.Custom('CTPTitledFirstName')], things are not that simple!"
+ 
+ peasant_affair.3003.desc:0 ""Surely you remember the time we spent together as well as I do?" [peasant_character.Custom('CTPTitledFirstName')] has met me alone in a hallway. [peasant_character.GetSheHe|U] leans close to whisper in my ear. "What we had... I cannot give it up.""
+ 
+ peasant_affair.3004.desc:0 "[peasant_character.Custom('CTPTitledFirstName')] looks thoughtful as [peasant_character.GetSheHe] [peasant_character.Custom('quirk_pos_present')]. "You need a [peasant_character.Custom('WifeHusband')]," [peasant_character.GetSheHe] says at last. "I know I am not of noble birth, but think of everything we share...""

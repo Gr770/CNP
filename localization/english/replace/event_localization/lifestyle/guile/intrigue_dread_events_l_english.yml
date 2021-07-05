@@ -1,0 +1,57 @@
+﻿l_english:
+ intrigue_dread_special.1301.desc:0 ""...and how long before [ROOT.Char.GetSheHe] is plotting against #EMP us#!? This scheming is getting out of hand." [courtier_first.Custom('CTPTitledFirstName')] and [courtier_second.Custom('CTPTitledFirstName')] are standing with their heads close together, and they startle as I round the corner.\n\n"My [ROOT.Char.Custom('CTPTitleTierName')]! We were just talking about your... recreational activities. They seem to take up much of your time.""
+ 
+ intrigue_dread.1501.desc:0 ""How do you like the stew, my [ROOT.Char.GetLadyLord]?"\n\nMixed in with pieces of vegetables are fatty chunks of meat, the stringy texture interrupted with what looks to be short and sparse fur. When asked about the ingredients, my private cook [cannibal_cook.Custom('CTPTitledFirstName')] only smiles and tries to placate me.\n\n"My only wish is to serve #EMP you#!, my [ROOT.Char.GetLadyLord].""
+ 
+ intrigue_dread.1502.desc:0 "As I enter the kitchen it lies dark and empty, the air heavy with smoke. In a corner I find [cannibal_cook.Custom('CTPTitledFirstNamePossessive')] cookbook, covered in stains.\n\n#EMP When cooking liver, it has been noted that excessive beer consumption can significantly lower the quality of the organ-#!\nA cold feeling settles in my chest as I turn to another page.\n#EMP ...however, when cooking younger children beneath the age of-#!"
+ 
+ intrigue_dread.1503.desc:0 "Despite my best efforts I was not able to gain access to the kitchens in a way that would not arouse [cannibal_cook.Custom('CTPTitledFirstNamePossessive')] suspicions."
+ 
+ intrigue_dread.1801.mentor_desc:0 ""And just slightly more of this one would knock [test_subject.GetHerHim] out completely," [intrigue_mentor.Custom('CTPFirstName')] tells me. Our "volunteer", [test_subject.Custom('CTPTitledFirstName')] is almost completely out of it.\n\n[intrigue_mentor.Custom('CTPFirstName')] starts putting away the bottles. "Unfortunately I believe this might be all our subject is capable of tonight.""
+ intrigue_dread.1801.desc:0 "I offer [test_subject.Custom('CTPTitledFirstName')] my sincere thanks as [test_subject.GetSheHe] stares angrily at me through a haze of alchemy. It was not easy to find someone to "volunteer" to test my collection of... substances. For [test_subject.GetHerHim] it has been an evening of pain, burning sensations and occasional unconsciousness."
+ 
+ intrigue_dread.1901.b.tt:0 "This option is available because of [disliked_courtier.Custom('CTPFirstNamePossessiveNoTooltip')] [GetTrait('gregarious').GetName( GetPlayer )] trait"
+ intrigue_dread.1901.c.tt:0 "This option is available because of [disliked_courtier.Custom('CTPFirstNamePossessiveNoTooltip')] [GetTrait('greedy').GetName( GetPlayer )] trait"
+ intrigue_dread.1901.d.tt:0 "This option is available because of [disliked_courtier.Custom('CTPFirstNamePossessiveNoTooltip')] [GetTrait('lustful').GetName( GetPlayer )] trait"
+ 
+ intrigue_dread.4001.desc.single:0 "\n\nHowever, I can't help but wonder if [prisoner_1.Custom('CTPTitledFirstName')] is a suitable canvas for my great work?"
+ intrigue_dread.4001.a:0 "[prisoner_1.Custom('CTPTitledFirstNameNoTooltip')] is perfect!"
+ intrigue_dread.4001.b:0 "Maybe [prisoner_2.Custom('CTPTitledFirstNameNoTooltip')] is best?"
+ intrigue_dread.4001.c:0 "I would rather use [prisoner_3.Custom('CTPTitledFirstNameNoTooltip')]."
+ intrigue_dread.4001.a-c.tt:0 "I will use [THIS.Char.Custom('CTPTitledFirstName')] as my subject in this endeavor."
+ intrigue_dread.4001.kinslayer:0 "If [THIS.Char.Custom('CTPTitledFirstName')] is killed by this I could become known as a [GetTrait('kinslayer_3').GetName( GetPlayer )]."
+
+ intrigue_dread.4002.desc:0 "Now that I have my canvas selected, I need to decide what form my masterpiece shall take.\n\nI can think of many agonies I would love to inflict upon [victim.Custom('CTPTitledFirstName')], but if I am to create a true masterpiece I must focus on doing just one thing perfectly."
+ intrigue_dread.4002.c.flavor:0 "I will begin the long and arduous process of stripping away [victim.Custom('CTPTitledFirstNamePossessiveNoTooltip')] individuality, turning [victim.GetHerHim] into my loyal servant."
+ intrigue_dread.4002.c.success.desc:0 "I succeed in reshaping [victim.Custom('CTPFirstNamePossessiveNoTooltip')] mind to suit my purposes"
+ intrigue_dread.4002.c.failure.desc:0 "[victim.Custom('CTPFirstNameNoTooltip')] perishes before I can complete the process"
+
+ intrigue_dread.4004.desc:0 "In order to reshape [victim.Custom('CTPTitledFirstNamePossessive')] mind, I must first subject [victim.GetHerHim] to extreme stress.\n\nI should carefully select a method of torture that [victim.Custom('CTPFirstNameNoTooltip')] will be particularly vulnerable to — in doing so I can ensure that I will inflict the maximum amount of trauma possible."
+ intrigue_dread.4004.desc.followup:0 "[victim.Custom('CTPTitledFirstName')] is growing desensitized to my current method of torture, and it no longer has the same impact it used to. I will need to chose a different approach..."
+ intrigue_dread.4004.o.flavor:0 "This technique's effectiveness will vary based on [victim.Custom('CTPTitledFirstNamePossessiveNoTooltip')] [traits|E]."
+
+ intrigue_dread.4005.desc:0 "[victim.Custom('CTPTitledFirstName')] has finally given up hope, and no longer fights me in the dungeon.\n\nThis means it is time to move on to the second step, where I must create enough guilt and confusion in [victim.GetHerHis] mind to damage [victim.GetHerHis] sense of morality, purpose, and even identity."
+ intrigue_dread.4005.desc.followup:0 "[victim.Custom('CTPTitledFirstName')] is still clinging to the tattered remnants of [victim.GetHerHis] identity, damaged but not yet destroyed. I must employ another tactic to finish the job..."
+
+ intrigue_dread.4006.desc:0 "At long last I have stripped away the last vestiges of [victim.Custom('CTPTitledFirstNamePossessive')] identity. [victim.GetSheHe|U] is now an empty vessel, unable to interact with the world around [victim.GetHerHim]."
+ intrigue_dread.4006.a.tt:0 "I start work on turning [victim.Custom('CTPTitledFirstName')] into an obedient servant"
+
+ intrigue_dread.4007.desc:0 "It is done — [victim.Custom('CTPTitledFirstName')] stands before me, my obedient slave, willing to do whatever I ask of [victim.GetHerHim]."
+
+ intrigue_dread.4008.desc:0 "It has been several years since I released [victim.Custom('CTPTitledFirstName')] back in the world to do my bidding."
+
+ intrigue_dread.4011.desc:0 "With [victim.Custom('CTPTitledFirstName')] no longer in my dungeons, I cannot continue my work on transforming [victim.GetHerHim] into my masterpiece. This will put my plans on hold until I can acquire another suitably inspirational canvas, as even if I were to reacquire [victim.GetHerHim] it just would not be the same."
+ 
+ intrigue_dread.4013.desc:0 "It seems my administrations have proven too much for [victim.Custom('CTPTitledFirstName')], who passed away in my dungeons.\n\nNow I will be unable to complete my masterpiece unless I acquire another suitably inspirational canvas, and [ROOT.Char.GetFaith.HighGodName] knows how long that will take..."
+ 
+ intrigue_dread.4100.desc.intro:0 "Not a day goes by without some new inconsequential matter being brought to my attention in court. Today, it seems like it is [petitioner_1.Custom('CTPTitledFirstNamePossessive')] and [petitioner_2.Custom('CTPTitledFirstNamePossessive')] turn to waste my time with a petty dispute."
+ 
+ intrigue_dread.4100.c.support.petitioner_1:1 "If you support [petitioner_1.Custom('CTPTitledFirstName')]"
+ intrigue_dread.4100.c.support.petitioner_2:1 "If you support [petitioner_2.Custom('CTPTitledFirstName')]"
+ intrigue_dread.4100.d:0 "[scoped_chancellor.Custom('CTPTitledFirstNameNoTooltip')] should handle these matters."
+
+ intrigue_dread.4102.desc.commanders:0 "The core of the issue between [petitioner_1.Custom('CTPFirstName')] and [petitioner_2.Custom('CTPFirstName')] is related to some squabbling between the commanders and a few veterans of the army."
+ intrigue_dread.4102.desc.fallback:0 "I hoped that listening to their grievances would have revealed some deeper meaning to this entire matter, yet [petitioner_1.Custom('CTPFirstNamePossessive')] and [petitioner_2.Custom('CTPFirstNamePossessive')] bickering only sounds shallower to my ears."
+ intrigue_dread.4102.desc.antagonizer:0 "\n\nIf nothing else, I can say [scoped_antagonizer.Custom('CTPFirstNameNoTooltip')] is by far the most grating of the two petitioners."
+ intrigue_dread.4102.b:0 "[petitioner_1.Custom('CTPFirstNameNoTooltip')] is clearly in the right."
+ intrigue_dread.4102.c:0 "[petitioner_2.Custom('CTPFirstNamePossessiveNoTooltip')] words ring true to my ears."
