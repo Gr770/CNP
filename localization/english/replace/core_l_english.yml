@@ -28,5 +28,4 @@
  BETROTHAL_ACTION_ITEM:0 "#T [CHARACTER.Custom('CTPName')] and [TARGET_CHARACTER.Custom('CTPName')] can marry#!\n#I Click to view\nRight-click to break betrothal#! "
  
  CHARACTER_PORTRAIT_TOOLTIP:0 "[Character.Custom('CTPFullNameNicknamedNoTooltip')]\n[Character.GetDebugTooltip]"
- CHARACTER_ARMY_COMPOSITION_NAME:0 "Army of [CHARACTER.Custom('CTPShortNameNotMe')]"
  event_troop_default_name:2 "[ROOT.Char.Custom('CTPTitledFirstNamePossessiveNoTooltip')] Host"
