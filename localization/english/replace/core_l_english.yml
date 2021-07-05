@@ -1,6 +1,5 @@
 ﻿l_english:
  CHARACTER_DEFAULT_TOOLTIP:0 "[CHARACTER.Custom('CTPName')]\n[CHARACTER.PlayerName|D]\nID: [CHARACTER.GetID|V]\nHistorical ID: [CHARACTER.GetSlowHistoryIdForDebug|V]\nDynasty: [CHARACTER.GetDynastyName|V]\nCulture: [CHARACTER.GetCulture.GetName|V]\nFertility: [CHARACTER.GetFertility|%0V]\nHealth: [CHARACTER.GetHealth|1V]\n"
- CHARACTER_DEBUG_REAL_FATHER_TOOLTIP:0 "[Select_CString( ObjectsEqual( CHARACTER.GetFather, CHARACTER.GetRealFather ), '', 'Real Father: ' )][Select_CString( ObjectsEqual( CHARACTER.GetFather, CHARACTER.GetRealFather ), '', CHARACTER.GetRealFather.Custom('CTPName') )][Select_CString( ObjectsEqual( CHARACTER.GetFather, CHARACTER.GetRealFather ), '', '\n' )]" # This is horribly overcomplicated just to conditionally write some text
  
  CHARACTER_INCAPABLE_TOOLTIP:0 "#T Incapable#!\n[Character.Custom('CTPNameNotMe')] is [GetTrait('incapable').GetName( Character.Self )] and cannot take actions independently"
  CHARACTER_INTERACTION_REPLY:0 "[CHARACTER.Custom('CTPName')] is waiting for answer regarding $INTERACTION|D$."
