@@ -468,6 +468,11 @@ scripted_gui_trigger_laqab_fortifier_dynasty = {
 	third = scripted_gui_laqab_fortifier_dynasty
 	global = scripted_gui_laqab_fortifier_dynasty
 }
+scripted_gui_trigger_laqab_orthodox_dynasty = {
+	first = scripted_gui_laqab_orthodox_dynasty
+	third = scripted_gui_laqab_orthodox_dynasty
+	global = scripted_gui_laqab_orthodox_dynasty
+}
 scripted_gui_trigger_get_name = {
 	first = scripted_gui_get_name
 	third = scripted_gui_get_name

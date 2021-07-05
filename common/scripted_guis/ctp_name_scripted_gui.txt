@@ -705,6 +705,11 @@ scripted_gui_ctp_laqab = {
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_fortifier_dynasty_scope
 				}
+				every_in_global_list = {
+					variable = laqab_orthodox_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_orthodox_dynasty_scope
+				}
 			}
 		}
 		IF = {
@@ -1597,6 +1602,16 @@ scripted_gui_ctp_laqab = {
 				object = scope:effect_root
 			}
 		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_orthodox_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_orthodox_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
 		else = {
 			custom_description_no_bullet = {
 				text = ctp_blank_trigger_kunya
@@ -2056,6 +2071,11 @@ scripted_gui_ctp_laqab_tek_name_check = {
 					variable = laqab_fortifier_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_fortifier_dynasty_scope
+				}
+				every_in_global_list = {
+					variable = laqab_orthodox_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_orthodox_dynasty_scope
 				}
 			}
 			IF = {
@@ -3026,6 +3046,16 @@ scripted_gui_ctp_laqab_tek_name_check = {
 			}
 			custom_description_no_bullet = {
 				text = scripted_gui_trigger_laqab_fortifier_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_orthodox_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_orthodox_dynasty
 				subject = scope:effect_root
 				object = scope:effect_root
 			}

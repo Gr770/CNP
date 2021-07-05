@@ -207,6 +207,7 @@
  scripted_gui_laqab_lion_cub_dynasty: "Šibl ad-Dawla "
  scripted_gui_laqab_lion_dynasty: "ʾAsad ad-Dawla "
  scripted_gui_laqab_fortifier_dynasty: "Muʿizz ad-Dawla "
+ scripted_gui_laqab_orthodox_dynasty: "Rašīd ad-Dawla "
 
  tier_gen_CTP: "[Localize(Concatenate(Concatenate(Concatenate(Concatenate(ROOT.Char.Custom('CharacterTier'),ROOT.Char.Custom('CharacterGender')),ROOT.Char.Custom('CharacterGov')),ROOT.Char.Custom('CharacterCulture')),ROOT.Char.Custom('CharacterReligion')))]"
  ####"[Localize(Concatenate(Concatenate(Concatenate(Concatenate(ROOT.Char.Custom('CharacterTier'),ROOT.Char.Custom('CharacterGender')),ROOT.Char.Custom('CharacterGov')),ROOT.Char.Custom('CharacterCulture')),ROOT.Char.Custom('CharacterReligion')))]"

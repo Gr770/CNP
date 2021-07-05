@@ -1146,7 +1146,12 @@ CharacterGov = {
     type = character
     text = {
         trigger = {
-            root.faith.religious_head = root
+            OR = {
+                root.faith.religious_head = root
+                any_in_global_list = {
+                    this = root
+                }
+            }
         }
         localization_key = _hof
     }

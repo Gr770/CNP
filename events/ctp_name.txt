@@ -1,65 +1,15 @@
 ﻿namespace = ctpname
-#ctpname.001 = {
-#    type = character_event
-#	hidden = yes
- #   immediate = {
-  #      save_scope_as = ctp_holder
-#        IF = {
-#            limit = {
-#                OR = {
-#                    vassal_contract_has_flag = has_palatinate_contract
-#                    AND = {
-#                        NOT = {
-#                            highest_held_title_tier > tier_duchy
-#                        }
-#                        exists = primary_spouse
-#                        primary_spouse = {
-#                            vassal_contract_has_flag = has_palatinate_contract
-#                        }
-#                    }
-#                }
-#            }
-#            IF = {
-#                limit = {
-#                    exists = dynasty_house
-#                }
-#                dynasty_house = {
-#                    add_to_variable_list = { name = house_palatine target = scope:ctp_holder }
-#                }
-#            }
-#            else = {
-#                add_to_global_variable_list = { name = global_palatine target = scope:ctp_holder }
-#            }
-#        }
-#        else_if = {
-#            limit = {
-#                OR = {
-#                    vassal_contract_has_flag = has_march_contract
-#                    AND = {
-#                        NOT = {
-#                            highest_held_title_tier >= tier_duchy
-#                        }
-#                        exists = primary_spouse
-#                        primary_spouse = {
-#                            vassal_contract_has_flag = has_march_contract
-#                        }
-#                    }
-#                }
-#            }
-#            IF = {
-#                limit = {
-#                    exists = dynasty_house
-#                }
-#                dynasty_house = {
-#                    add_to_variable_list = { name = house_marquess target = scope:ctp_holder }
-#                }
-#            }
-#            else = {
-#                add_to_global_variable_list = { name = global_marquess target = scope:ctp_holder }
-#            }
-#        }
-#    }
-#}
+ctpname.001 = {
+	type = character_event
+	hidden = yes
+	trigger = {
+		is_ctp_supported_culture = yes
+		root.faith.religious_head = root
+	}
+	immediate = {
+		add_to_global_variable_list = { name = global_list_dead_hofs target = root }
+	}
+}
 ctpname.002 = {
 	type = none
 	hidden = yes
