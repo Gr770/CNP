@@ -1,0 +1,100 @@
+caliph_assign_laqab_interaction = {
+	desc = caliph_assign_laqab_interaction_desc
+
+	greeting = positive
+
+	popup_on_receive = yes
+
+	pause_on_receive = yes
+
+	use_diplomatic_range = yes
+
+	send_name = caliph_assign_laqab_interaction_send
+
+	cooldown = { years = 1 }
+
+	is_shown = {
+		scope:recipient = {
+			is_ctp_supported_culture = yes
+			has_religion = religion:islam_religion
+			faith.religious_head = scope:actor
+		}
+	}
+
+	is_valid = {
+		scope:recipient = {
+			NOT = {
+				has_character_flag = has_caliph_laqab
+				has_character_flag = has_regnal_laqab
+				has_character_flag = has_laqab
+			}
+		}
+		trigger_if = {
+			limit = {
+				scope:actor = {
+					is_ai = yes
+				}
+			}
+			scope:actor = {
+				opinion = {
+					target = scope:recipient
+					value >= 50
+				}
+			}
+		}
+	}
+	options_heading = caliph_assign_laqab_interaction_heading
+
+	send_option = {
+		current_description = desc						# Tooltip
+		localization = caliph_assign_laqab_interaction_send_option
+	}
+
+	on_send = {
+		scope:actor = {
+			trigger_event = {
+				id = arabicnamepack.003
+				days = 3
+			}
+		}
+	}
+
+	ai_targets = {
+		ai_recipients = neighboring_rulers
+		max = 2
+	}
+	ai_targets = {
+		ai_recipients = guests
+		max = 2
+	}
+	ai_targets = {
+		ai_recipients = courtiers
+		max = 2
+	}
+	ai_targets = {
+		ai_recipients = realm_characters
+		max = 2
+	}
+	ai_targets = {
+		ai_recipients = sub_realm_characters
+		max = 2
+	}
+	ai_targets = {
+		ai_recipients = vassals
+		max = 2
+	}
+	ai_targets = {
+		ai_recipients = liege
+		max = 2
+	}
+	ai_targets = {
+		ai_recipients = family
+		max = 2
+	}
+	ai_targets = {
+		ai_recipients = war_allies
+		max = 2
+	}
+	ai_frequency = 12
+	auto_accept = yes
+}
