@@ -878,6 +878,15 @@ CharacterTier = {
     }
     text = {
         trigger = {
+            has_council_position = councillor_court_chaplain
+            liege_or_court_owner = {
+                highest_held_title_tier = tier_empire
+            }
+        }
+        localization_key = Emperor_chaplain
+    }
+    text = {
+        trigger = {
             highest_held_title_tier = tier_kingdom
             is_independent_ruler = yes
         }
@@ -996,6 +1005,15 @@ CharacterTier = {
     }
     text = {
         trigger = {
+            has_council_position = councillor_court_chaplain
+            liege_or_court_owner = {
+                highest_held_title_tier = tier_kingdom
+            }
+        }
+        localization_key = King_chaplain
+    }
+    text = {
+        trigger = {
             highest_held_title_tier = tier_duchy
             is_independent_ruler = yes
         }
@@ -1043,6 +1061,15 @@ CharacterTier = {
             }
         }
         localization_key = Duke_consort
+    }
+    text = {
+        trigger = {
+            has_council_position = councillor_court_chaplain
+            liege_or_court_owner = {
+                highest_held_title_tier = tier_duchy
+            }
+        }
+        localization_key = Duke_chaplain
     }
     text = {
         trigger = {
@@ -1096,6 +1123,15 @@ CharacterTier = {
     }
     text = {
         trigger = {
+            has_council_position = councillor_court_chaplain
+            liege_or_court_owner = {
+                highest_held_title_tier = tier_county
+            }
+        }
+        localization_key = Count_chaplain
+    }
+    text = {
+        trigger = {
             highest_held_title_tier = tier_barony
         }
         localization_key = Baron
@@ -1120,13 +1156,22 @@ CharacterTier = {
     }
     text = {
         trigger = {
+            has_council_position = councillor_court_chaplain
+            liege_or_court_owner = {
+                highest_held_title_tier = tier_barony
+            }
+        }
+        localization_key = Baron_chaplain
+    }
+    text = {
+        trigger = {
             has_trait = sayyid
         }
         localization_key = lord
     }
     text = {
         fallback = yes
-        localization_key = default
+        localization_key = Default
     }
 }
 CharacterGender = {
@@ -1161,6 +1206,13 @@ CharacterGov = {
             }
         }
         localization_key = _hof
+    }
+    text = {
+        trigger = {
+            KoH_loaded_checker = yes
+            has_trait = koh_cardinal
+        }
+        localization_key = _cardinal
     }
     text = {
         trigger = {
