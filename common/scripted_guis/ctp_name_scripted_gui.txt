@@ -1,4 +1,10 @@
-﻿scripted_gui_ctp_tek = {
+﻿koh_exists = {
+	scope = character
+	is_shown = {
+		KoH_loaded_checker = yes
+	}
+}
+scripted_gui_ctp_tek = {
 	scope = character
 	effect = {
 		save_scope_as = effect_root
@@ -705,6 +711,31 @@ scripted_gui_ctp_laqab = {
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_orthodox_dynasty_scope
 				}
+				every_in_global_list = {
+					variable = laqab_gives_victory_righteousness_faith
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_gives_victory_righteousness_faith_scope
+				}
+				every_in_global_list = {
+					variable = laqab_purity_faith_f
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_purity_faith_f_scope
+				}
+				every_in_global_list = {
+					variable = laqab_just_sword_faith
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_just_sword_faith_scope
+				}
+				every_in_global_list = {
+					variable = laqab_victorious_pious_faith
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_victorious_pious_faith_scope
+				}
+				every_in_global_list = {
+					variable = laqab_help_faith
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_help_faith_scope
+				}
 			}
 		}
 		IF = {
@@ -1597,6 +1628,56 @@ scripted_gui_ctp_laqab = {
 				object = scope:effect_root
 			}
 		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_gives_victory_righteousness_faith_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_gives_victory_righteousness_faith
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_purity_faith_f_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_purity_faith_f
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_just_sword_faith_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_just_sword_faith
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_victorious_pious_faith_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_victorious_pious_faith
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_help_faith_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_help_faith
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
 		else = {
 			custom_description_no_bullet = {
 				text = ctp_blank_trigger_kunya
@@ -2056,6 +2137,31 @@ scripted_gui_ctp_laqab_tek_name_check = {
 					variable = laqab_orthodox_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_orthodox_dynasty_scope
+				}
+				every_in_global_list = {
+					variable = laqab_gives_victory_righteousness_faith
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_gives_victory_righteousness_faith_scope
+				}
+				every_in_global_list = {
+					variable = laqab_purity_faith_f
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_purity_faith_f_scope
+				}
+				every_in_global_list = {
+					variable = laqab_just_sword_faith
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_just_sword_faith_scope
+				}
+				every_in_global_list = {
+					variable = laqab_victorious_pious_faith
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_victorious_pious_faith_scope
+				}
+				every_in_global_list = {
+					variable = laqab_help_faith
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_help_faith_scope
 				}
 			}
 			IF = {
@@ -3032,6 +3138,56 @@ scripted_gui_ctp_laqab_tek_name_check = {
 		}
 		else_if = {
 			limit = {
+				exists = scope:laqab_gives_victory_righteousness_faith_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_gives_victory_righteousness_faith
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_purity_faith_f_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_purity_faith_f
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_just_sword_faith_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_just_sword_faith
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_victorious_pious_faith_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_victorious_pious_faith
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_help_faith_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_help_faith
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
 				exists = scope:scripted_gui_eldest_son
 				scope:scripted_gui_eldest_son = {
 					OR = {
@@ -3465,8 +3621,8 @@ CTP_random_ancestor = {
 						}
 						AND = {
 							scope:the_ancestor = {
-								exists = house
-								house = {
+								exists = dynasty
+								dynasty = {
 									any_in_list = {
 										variable = name_pack_support_dynasty
 										this = scope:the_ancestor
@@ -3486,6 +3642,104 @@ CTP_random_ancestor = {
 		}
 	}
 }
+faith_has_male_saints = {
+	scope = character
+	is_shown = {
+		faith = {
+			has_variable_list = faith_saints
+			any_in_list = {
+				variable = faith_saints
+				is_male = yes
+				exists = this
+			}
+		}
+	}
+}
+
+faith_has_female_saints = {
+	scope = character
+	is_shown = {
+		faith = {
+			has_variable_list = faith_saints
+			any_in_list = {
+				variable = faith_saints
+				is_male = no
+				exists = this
+			}
+		}
+	}
+}
+
+random_saint_male_name = {
+	scope = character
+	effect = {
+		remove_character_flag = name_pack_support
+		faith = {
+			random_in_list = {
+				variable = faith_saints
+				limit = { is_male = yes }
+				save_temporary_scope_as = named_saint
+			}
+		}
+		IF = {
+			limit = {
+				OR = {
+					scope:named_saint = {
+						exists = dynasty
+						dynasty = {
+							any_in_list = {
+								variable = name_pack_support_dynasty
+								this = scope:named_saint
+							}
+						}
+					}
+					any_in_global_list = {
+						variable = name_pack_support_global
+						this = scope:named_saint
+					}
+				}
+			}
+			add_character_flag = name_pack_support
+		}
+		change_first_name = { template_character = scope:named_saint }
+	}
+}
+
+random_saint_female_name = {
+	scope = character
+	effect = {
+		remove_character_flag = name_pack_support
+		faith = {
+			random_in_list = {
+				variable = faith_saints
+				limit = { is_male = no }
+				save_temporary_scope_as = named_saint
+			}
+		}
+		IF = {
+			limit = {
+				OR = {
+					scope:named_saint = {
+						exists = dynasty
+						dynasty = {
+							any_in_list = {
+								variable = name_pack_support_dynasty
+								this = scope:named_saint
+							}
+						}
+					}
+					any_in_global_list = {
+						variable = name_pack_support_global
+						this = scope:named_saint
+					}
+				}
+			}
+			add_character_flag = name_pack_support
+		}
+		change_first_name = { template_character = scope:named_saint }
+	}
+}
+
 CTP_faith_name_support = {
 	scope = character
 	is_shown = {
