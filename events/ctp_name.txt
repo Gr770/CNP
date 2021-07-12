@@ -1399,7 +1399,6 @@ ctpname.007 = {
 		}
 		dynasty:101727 = {
 			add_to_variable_list = { name = name_pack_support_dynasty target = character:227000 }
-			add_to_variable_list = { name = name_pack_support_dynasty target = character:34027 }
 			add_to_variable_list = { name = name_pack_support_dynasty target = character:144064 }
 			add_to_variable_list = { name = name_pack_support_dynasty target = character:144063 }
 			add_to_variable_list = { name = name_pack_support_dynasty target = character:144062 }
@@ -1432,7 +1431,7 @@ ctpname.007 = {
 			add_to_global_variable_list = { name = laqab_follower_command_2_god target = this }
 		}
 		character:144063 = {
-			change_first_name = Yusef
+			change_first_name = Yusuf
 			add_to_global_variable_list = { name = laqab_seeker_aid_god target = this }
 		}
 		character:144064 = {
