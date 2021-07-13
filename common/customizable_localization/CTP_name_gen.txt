@@ -1170,6 +1170,18 @@ CharacterTier = {
         localization_key = lord
     }
     text = {
+        trigger = {
+            exists = liege
+            liege.primary_title = {
+                any_in_list = {
+                    variable = republic_families_list
+                    this = root.house
+                }
+            }
+        }
+        localization_key = patrician
+    }
+    text = {
         fallback = yes
         localization_key = Default
     }
@@ -1194,6 +1206,18 @@ CharacterGov = {
             this = character:33922
         }
         localization_key = _prophet
+    }
+    text = {
+        trigger = {
+            faith = {
+                has_variable_list = faith_saints
+			any_in_list = {
+				variable = faith_saints
+				this = root
+			}
+            }
+        }
+        localization_key = _saint
     }
     text = {
         trigger = {
