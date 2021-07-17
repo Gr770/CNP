@@ -3945,11 +3945,65 @@
 
  #Sagas of Freyr
 
- Hasteinn_arabic: "Hasatin"
- Hasteinn_arabic_tek_mom: "ʾUmm Hasatin"
- Hasteinn_arabic_tek_dad: "ʾAbū Hasatin"
- Hasteinn_arabic_pat_dad_male: "ibn Hasatin"
- Hasteinn_arabic_pat_dad_female: "bint Hasatin"
+ Adalsteinn_arabic: "ʿAdalistiyn"
+ Adalsteinn_arabic_tek_mom: "ʾUmm ʿAdalistiyn"
+ Adalsteinn_arabic_tek_dad: "ʾAbū ʿAdalistiyn"
+ Adalsteinn_arabic_pat_dad_male: "ibn ʿAdalistiyn"
+ Adalsteinn_arabic_pat_dad_female: "bint ʿAdalistiyn"
+
+ Arnsteinn_arabic: "ʾArnistiyn"
+ Arnsteinn_arabic_tek_mom: "ʾUmm ʾArnistiyn"
+ Arnsteinn_arabic_tek_dad: "ʾAbū ʾArnistiyn"
+ Arnsteinn_arabic_pat_dad_male: "ibn ʾArnistiyn"
+ Arnsteinn_arabic_pat_dad_female: "bint ʾArnistiyn"
+
+ Eysteinn_arabic: "ʿAyistiyn"
+ Eysteinn_arabic_tek_mom: "ʾUmm ʿAyistiyn"
+ Eysteinn_arabic_tek_dad: "ʾAbū ʿAyistiyn"
+ Eysteinn_arabic_pat_dad_male: "ibn ʿAyistiyn"
+ Eysteinn_arabic_pat_dad_female: "bint ʿAyistiyn"
+
+ Freysteinn_arabic: "Firistiyn"
+ Freysteinn_arabic_tek_mom: "ʾUmm Firistiyn"
+ Freysteinn_arabic_tek_dad: "ʾAbū Firistiyn"
+ Freysteinn_arabic_pat_dad_male: "ibn Firistiyn"
+ Freysteinn_arabic_pat_dad_female: "bint Firistiyn"
+
+ Gunnsteinn_arabic: "Junistiyn"
+ Gunnsteinn_arabic_tek_mom: "ʾUmm Junistiyn"
+ Gunnsteinn_arabic_tek_dad: "ʾAbū Junistiyn"
+ Gunnsteinn_arabic_pat_dad_male: "ibn Junistiyn"
+ Gunnsteinn_arabic_pat_dad_female: "bint Junistiyn"
+
+ Hasteinn_arabic: "Hastiyn"
+ Hasteinn_arabic_tek_mom: "ʾUmm Hastiyn"
+ Hasteinn_arabic_tek_dad: "ʾAbū Hastiyn"
+ Hasteinn_arabic_pat_dad_male: "ibn Hastiyn"
+ Hasteinn_arabic_pat_dad_female: "bint Hastiyn"
+
+ Hafsteinn_arabic: "Hafistiyn"
+ Hafsteinn_arabic_tek_mom: "ʾUmm Hafistiyn"
+ Hafsteinn_arabic_tek_dad: "ʾAbū Hafistiyn"
+ Hafsteinn_arabic_pat_dad_male: "ibn Hafistiyn"
+ Hafsteinn_arabic_pat_dad_female: "bint Hafistiyn"
+
+ Hallsteinn_arabic: "Halistiyn"
+ Hallsteinn_arabic_tek_mom: "ʾUmm Halistiyn"
+ Hallsteinn_arabic_tek_dad: "ʾAbū Halistiyn"
+ Hallsteinn_arabic_pat_dad_male: "ibn Halistiyn"
+ Hallsteinn_arabic_pat_dad_female: "bint Halistiyn"
+
+ Josteinn_arabic: "Justiyn"
+ Josteinn_arabic_tek_mom: "ʾUmm Justiyn"
+ Josteinn_arabic_tek_dad: "ʾAbū Justiyn"
+ Josteinn_arabic_pat_dad_male: "ibn Justiyn"
+ Josteinn_arabic_pat_dad_female: "bint Justiyn"
+
+ Steinn_arabic: "Stiyn"
+ Steinn_arabic_tek_mom: "ʾUmm Stiyn"
+ Steinn_arabic_tek_dad: "ʾAbū Stiyn"
+ Steinn_arabic_pat_dad_male: "ibn Stiyn"
+ Steinn_arabic_pat_dad_female: "bint Stiyn"
 
  Ragnarr_arabic: "Rajnar"
  Ragnarr_arabic_tek_mom: "ʾUmm Rajnar"
