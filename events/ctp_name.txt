@@ -76,6 +76,10 @@ ctpname.002 = {
 		add_to_global_variable_list = { name = name_pack_support_global target = character:218006 }
 		add_to_global_variable_list = { name = name_pack_support_global target = character:218005 }
 		add_to_global_variable_list = { name = name_pack_support_global target = character:218004 }
+		dynasty:1059 = {
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:6878 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:6880 }
+		}
 		dynasty:576 = {
 			add_to_variable_list = { name = name_pack_support_dynasty target = character:159397 }
 			add_to_variable_list = { name = name_pack_support_dynasty target = character:159406 }
@@ -858,6 +862,12 @@ ctpname.003 = {
 		dynasty:2001069 = {
 			add_to_variable_list = { name = name_pack_support_dynasty target = character:302374 }
 		}
+		character:6878 = {
+			change_first_name = Hasteinn
+		}
+		character:6880 = {
+			change_first_name = Ragnarr
+		}
 		character:159270 = {
 			add_to_global_variable_list = { name = laqab_lion_cub_dynasty target = this }
 		}
@@ -1176,6 +1186,10 @@ ctpname.004 = {
 		game_start_date = 867.1.1
 	}
 	immediate = {
+		character:6878 = {
+			add_character_flag = had_eldest_son
+			set_variable = { name = var_dad_eldest_son value = character:6880 }
+		}
 		character:34014 = {
 			add_character_flag = has_caliph_laqab
 		}

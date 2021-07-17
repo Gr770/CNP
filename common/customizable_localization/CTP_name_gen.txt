@@ -1,4 +1,19 @@
-﻿CTPTierCheck = {
+﻿FakeIt = {
+    type = character
+    text = {
+        trigger = {
+            NOT = {
+                this = character:6880
+            }
+        }
+		localization_key = please_work
+    }
+    text = {
+		fallback = yes
+		localization_key = Gui_blank
+	}
+}
+CTPTierCheck = {
     type = character
     text = {
         trigger = {
@@ -79,6 +94,12 @@ CTPFullName = {
 		}
 		localization_key = CTP_Full_Name_Arabic
 	}
+    text = {
+        trigger = {
+            has_culture = culture:norse
+        }
+		localization_key = CTP_Full_Name_Norse
+    }
 	text = {
 		fallback = yes
 		localization_key = CTP_Full_Name_Default
@@ -1276,6 +1297,12 @@ CharacterCulture = {
 			has_culture_group = culture_group:arabic_group
 		}
 		localization_key = _arabic
+	}
+	text = {
+		trigger = {
+			has_culture = culture:norse
+		}
+		localization_key = _norse
 	}
 	text = {
 		fallback = yes

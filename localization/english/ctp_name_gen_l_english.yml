@@ -32,6 +32,9 @@
  CTP_Title_Tier_Name_Arabic: "[Localize(Concatenate(Concatenate(Concatenate(Concatenate(ROOT.Char.Custom('CharacterTier'),ROOT.Char.Custom('CharacterGender')),ROOT.Char.Custom('CharacterGov')),ROOT.Char.Custom('CharacterCulture')),ROOT.Char.Custom('CharacterReligion')))]"
  CTP_Title_Tier_Name_Arabic_possesive: "[Localize(Concatenate(Concatenate(Concatenate(Concatenate(ROOT.Char.Custom('CharacterTier'),ROOT.Char.Custom('CharacterGender')),ROOT.Char.Custom('CharacterGov')),ROOT.Char.Custom('CharacterCulture')),ROOT.Char.Custom('CharacterReligion')))]'s"
 
+ CTP_Full_Name_Norse: "[ROOT.Char.Custom('CTPNameCheck')] [ROOT.Char.Custom('FakeIt')][ROOT.Char.Custom('CharacterPat')]"
+ please_work: "[ROOT.Char.GetTitleAsName] "
+
  CTP_Me: "#ONCLICK:CHARACTER,[ROOT.Char.GetID] #TOOLTIP:CHARACTER,[ROOT.Char.GetID] #high #L Me#!#!#!#!"
  CTP_Me_no_tooltip: "#high Me#!"
  CTP_My: "#ONCLICK:CHARACTER,[ROOT.Char.GetID] #TOOLTIP:CHARACTER,[ROOT.Char.GetID] #high #L My#!#!#!#!"

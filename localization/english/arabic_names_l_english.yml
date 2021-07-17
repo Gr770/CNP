@@ -3942,3 +3942,17 @@
  Asimat_arabic: "ʿAzīmā"
  Asimat_arabic_tek_mom: "ʾUmm ʿAzīmā"
  Asimat_arabic_tek_dad: "ʾAbū ʿAzīmā"
+
+ #Sagas of Freyr
+
+ Hasteinn_arabic: "Hasatin"
+ Hasteinn_arabic_tek_mom: "ʾUmm Hasatin"
+ Hasteinn_arabic_tek_dad: "ʾAbū Hasatin"
+ Hasteinn_arabic_pat_dad_male: "ibn Hasatin"
+ Hasteinn_arabic_pat_dad_female: "bint Hasatin"
+
+ Ragnarr_arabic: "Rajnar"
+ Ragnarr_arabic_tek_mom: "ʾUmm Rajnar"
+ Ragnarr_arabic_tek_dad: "ʾAbū Rajnar"
+ Ragnarr_arabic_pat_dad_male: "ibn Rajnar"
+ Ragnarr_arabic_pat_dad_female: "bint Rajnar"
