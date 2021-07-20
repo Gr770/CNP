@@ -1446,6 +1446,27 @@ CharacterReligion = {
     }
     text = {
         trigger = {
+            root.faith = faith:barghawata
+            ME_loaded_checker = yes
+        }
+        localization_key = _barghawata
+    }
+    text = {
+        trigger = {
+            root.faith = faith:nukkari
+            ME_loaded_checker = yes
+        }
+        localization_key = _nukkari
+    }
+    text = {
+        trigger = {
+            root.faith = faith:wahbiya
+            ME_loaded_checker = yes
+        }
+        localization_key = _wahbiya
+    }
+    text = {
+        trigger = {
             root.religion = religion:islam_religion
         }
         localization_key = _islam
