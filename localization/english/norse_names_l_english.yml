@@ -47,9 +47,9 @@
  Ann_norse_pat_dad_male: "Ánsson"
  Ann_norse_pat_dad_female: "Ánsdóttir"
 
- Arinbjorn_norse: "Arnbjǫrn"
- Arinbjorn_norse_pat_dad_male: "Arnbjarnarson"
- Arinbjorn_norse_pat_dad_female: "Arnbjarnardóttir"
+ Arinbjorn_norse: "Arinbjǫrn" #this is Arin (fireplace)
+ Arinbjorn_norse_pat_dad_male: "Arinbjarnarson"
+ Arinbjorn_norse_pat_dad_female: "Arinbjarnardóttir"
 
  Arnfinnr_norse: "Arnfinnr"
  Arnfinnr_norse_pat_dad_male: "Arnfinnsson"
@@ -1653,3 +1653,43 @@
  Yngjaldr_norse: "Yngjaldr"
  Yngjaldr_norse_pat_dad_male: "Yngjaldsson"
  Yngjaldr_norse_pat_dad_female: "Yngjaldsdóttir"
+
+ #female names
+
+ Adalbjorg_norse: "Aðalbjǫrg"
+
+ Alfdis_norse: "Alfdís"
+
+ Alfgerdr_norse: "Alfgerðr"
+
+ Alfhildr_norse: "Alfhildr"
+
+ Arngunnr_norse: "Arngunnr"
+
+ Arnheidr_norse: "Arnheiðr"
+
+ Arnkatla_norse: "Arnkatla"
+
+ Arnlaug_norse: "Arnlaug"
+
+ Arnleif_norse: "Arnleif"
+
+ Arnora_norse: "Arnóra"
+
+ Arnthrudr_norse: "Arnþrúðr"
+
+ Audbjorg_norse: "Auðbjǫrg"
+
+ Audhildr_norse: "Auðhildr"
+
+ Asbjorg_norse: "Ásbjǫrg"
+
+ Asdis_norse: "Ásdís"
+
+ Asgerdr_norse: "Ásgerðr"
+
+ Ashildr_norse: "Áshildr"
+
+ Aslaug_norse: "Áslaug"
+
+ Asleif_norse: "Ásleif"
