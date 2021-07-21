@@ -156,3 +156,8 @@
 
  enemy_gained_new_ally:0 "[this_character.Custom('CTPTitledFirstName')] Formed New Alliance"
  enemy_gained_new_ally_tt:0 "[other_character.Custom('CTPTitledFirstName')] might join the [this_war.GetName] as an enemy"
+
+ egyptian_rebellion_victory_desc_attacker:0 "You take all titles [defender.Custom('CTPShortName')] holds in Egypt."
+ egyptian_rebellion_victory_desc:0 "[attacker.Custom('CTPShortName')|U] takes all titles [defender.Custom('CTPShortName')] holds in Egypt."
+ egyptian_rebellion_white_peace_desc:0 "[defender.Custom('CTPShortName')|U] keeps all contested titles."
+ egyptian_rebellion_defeat_desc:0 "[defender.Custom('CTPShortName')|U] keeps all contested titles."
