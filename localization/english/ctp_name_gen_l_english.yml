@@ -227,6 +227,10 @@
  scripted_gui_laqab_help_faith: "Nāṣir ad-Dīn "
 
  scripted_gui_laqab_most_noble_righteousness_faith: "al-ʾAšraf Ṣalāḥ ad-Dīn "
+ scripted_gui_laqab_just_protector_faith: "al-ʿĀdil Mujīr ad-Dīn "
+ scripted_gui_laqab_ulity_pious_faith: "al-Muwaḥḥid Taqī ad-Dīn "
+ scripted_gui_laqab_perfect_helper_faith: "al-Kāmil Nāṣir ad-Dīn "
+ scripted_gui_laqab_exalted_dignity_faith: "al-Muʿaẓẓam Šaraf ad-Dīn "
 
  tier_gen_CTP: "[Localize(Concatenate(Concatenate(Concatenate(Concatenate(ROOT.Char.Custom('CharacterTier'),ROOT.Char.Custom('CharacterGender')),ROOT.Char.Custom('CharacterGov')),ROOT.Char.Custom('CharacterCulture')),ROOT.Char.Custom('CharacterReligion')))]"
  ####"[Localize(Concatenate(Concatenate(Concatenate(Concatenate(ROOT.Char.Custom('CharacterTier'),ROOT.Char.Custom('CharacterGender')),ROOT.Char.Custom('CharacterGov')),ROOT.Char.Custom('CharacterCulture')),ROOT.Char.Custom('CharacterReligion')))]"

@@ -1496,6 +1496,7 @@ ctpname.009 = {
 			add_to_variable_list = { name = name_pack_support_dynasty target = character:32937 }
 			add_to_variable_list = { name = name_pack_support_dynasty target = character:34984 }
 			add_to_variable_list = { name = name_pack_support_dynasty target = character:34985 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:yusufbahri }
 		}
 		dynasty:101904 = {
 			add_to_variable_list = { name = name_pack_support_dynasty target = character:487000 }
@@ -1531,6 +1532,62 @@ ctpname.009 = {
 			add_to_variable_list = { name = name_pack_support_dynasty target = character:34029 }
 			add_to_variable_list = { name = name_pack_support_dynasty target = character:34028 }
 			add_to_variable_list = { name = name_pack_support_dynasty target = character:34027 }
+		}
+		dynasty:24000 = {
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:93424 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:93425 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:93423 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:93422 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:32927 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:32925 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:32924 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:32926 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:144077 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:144078 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:93034 }
+		}
+		character:93034 = {
+			change_first_name = Musa
+			add_to_global_variable_list = { name = laqab_most_noble target = this }
+		}
+		character:144077 = {
+			change_first_name = Dawud
+			add_to_global_variable_list = { name = laqab_gives_victory target = this }
+		}
+		character:144077 = {
+			change_first_name = Isa
+			add_to_global_variable_list = { name = laqab_exalted_dignity_faith target = this }
+		}
+		character:32926 = {
+			change_first_name = Abu-Bakr
+			add_to_global_variable_list = { name = laqab_just_sword_faith target = this }
+		}
+		character:32924 = {
+			change_first_name = Muhammad
+			add_to_global_variable_list = { name = laqab_perfect_helper_faith target = this }
+		}
+		character:32925 = {
+			change_first_name = Ayyub
+			add_to_global_variable_list = { name = laqab_pious target = this }
+		}
+		character:32927 = {
+			change_first_name = Turanshah
+			add_to_global_variable_list = { name = laqab_exalted target = this }
+		}
+		character:93422 = {
+			change_first_name = Abdallah
+			add_to_global_variable_list = { name = laqab_ulity_pious_faith target = this }
+		}
+		character:93423 = {
+			change_first_name = Ahmad
+			add_to_global_variable_list = { name = laqab_perfect target = this }
+		}
+		character:93425 = {
+			change_first_name = Ghazi
+		}
+		character:93424 = {
+			change_first_name = Muhammad
+			add_to_global_variable_list = { name = laqab_just_protector_faith target = this }
 		}
 		character:34027 = {
 			change_first_name = Muhammad
@@ -1599,6 +1656,10 @@ ctpname.010 = {
 		TLaTL_loaded_checker = yes
 	}
 	immediate = {
+		character:93424 = {
+			add_character_flag = has_regal_laqab
+			set_variable = { name = var_dad_eldest_son value = character:93425 }
+		}
 		character:34035 = {
 			set_variable = { name = var_dad_eldest_son value = character:34036 }
 		}
