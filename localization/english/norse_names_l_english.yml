@@ -668,8 +668,32 @@
  Hrobjartr_norse: "Hróbjartr"
  Hrobjartr_norse_pat_dad_male: "Hróbjartsson"
  Hrobjartr_norse_pat_dad_female: "Hróbjartsdóttir"
+
+ Hrodgeirr_norse: "Hróðgeirr" #Roger
+ Hrodgeirr_norse_pat_dad_male: "Hróðgeirsson"
+ Hrodgeirr_norse_pat_dad_female: "Hróðgeirsdóttir"
+
+ Hrodketill_norse: "Hróðketill"
+ Hrodketill_norse_pat_dad_male: "Hróðketilsson"
+ Hrodketill_norse_pat_dad_female: "Hróðketilsdóttir"
+
+ Hroarr_norse: "Hróarr"
+ Hroarr_norse_pat_dad_male: "Hróarsson"
+ Hroarr_norse_pat_dad_female: "Hróarsdóttir"
+
+ Hrodvaldr_norse: "Hróðvaldr"
+ Hrodvaldr_norse_pat_dad_male: "Hróðvaldsson"
+ Hrodvaldr_norse_pat_dad_female: "Hróðvaldsdóttir"
+
+ Hrodulfr_norse: "Hróðulfr" #Rudolf
+ Hrodulfr_norse_pat_dad_male: "Hróðulfsson"
+ Hrodulfr_norse_pat_dad_female: "Hróðulfsdóttir"
+
+ Hrodmarr_norse: "Hróðmarr"
+ Hrodmarr_norse_pat_dad_male: "Hróðmarsson"
+ Hrodmarr_norse_pat_dad_female: "Hróðmarsdóttir"
  
- Hrolfr_norse: "Hrólfr"
+ Hrolfr_norse: "Hrólfr" #Ralph
  Hrolfr_norse_pat_dad_male: "Hrólfsson"
  Hrolfr_norse_pat_dad_female: "Hrólfsdóttir"
  
@@ -1693,3 +1717,367 @@
  Aslaug_norse: "Áslaug"
 
  Asleif_norse: "Ásleif"
+
+ Asrun_norse: "Ásrún"
+
+ Asta_norse: "Ásta"
+
+ Astdis_norse: "Ástdís"
+
+ Astridr_norse: "Ástríðr"
+
+ Astrun_norse: "Ástrún"
+
+ Asvor_norse: "Ásvǫr"
+
+ Bera_norse: "Bera"
+
+ Bergdis_norse: "Bergdís"
+
+ Bergljot_norse: "Bergljót"
+
+ Bergthora_norse: "Bergþóra"
+
+ Birna_norse: "Birna"
+
+ Birta_norse: "Birta"
+
+ Bjartr_norse: "Bjartr"
+
+ Bjorg_norse: "Bjǫrg"
+
+ Bjork_norse: "Bjǫrk"
+
+ Bjorghildr_norse: "Bjǫrghildr"
+
+ Bot_norse: "Bót"
+
+ Bothildr_norse: "Bóthildr"
+
+ Brydis_norse: "Bryndís"
+
+ Bryngerdr_norse: "Bryngerðr"
+
+ Brynhildr_norse: "Brynhildr"
+
+ Brynja_norse: "Brynja"
+
+ Dagbjort_norse: "Dagbjǫrt"
+
+ Dagmaer_norse: "Dagmær"
+
+ Dagny_norse: "Dagný"
+
+ Dagrun_norse: "Dagrún"
+
+ Dalla_norse: "Dalla"
+
+ Dis_norse: "Dís"
+
+ Drifa_norse: "Drífa"
+
+ Droplaug_norse: "Droplaug"
+
+ Dyrfinna_norse: "Dýrfinna" #finnish
+
+ Eirny_norse: "Eirný"
+
+ Eydis_norse: "Eydís"
+
+ Eyja_norse: "Eyja"
+
+ Finna_norse: "Finna" #finnish
+
+ Freydis_norse: "Freydís"
+
+ Fridgerdr_norse: "Friðgerðr"
+
+ Frida_norse: "Fríða"
+
+ Fridr_norse: "Fríðr"
+
+ Geirdis_norse: "Geirdís"
+
+ Geirlaug_norse: "Geirlaug"
+
+ Geirny_norse: "Geirný"
+
+ Geirridr_norse: "Geirríðr"
+
+ Gerdr_norse: "Gerðr"
+
+ Grima_norse: "Gríma"
+
+ Grimhildr_norse: "Grímhildr"
+
+ Groa_norse: "Gróa"
+
+ Godbjorg: "Goðbjǫrg"
+
+ Godfinna_norse: "Goðfinna" #finnish
+
+ Godlaug_norse: "Goðlaug"
+
+ Godleif_norse: "Goðleif"
+
+ Godny_norse: "Goðný"
+
+ Godridr_norse: "Goðríðr"
+
+ Godrun_norse: "Goðrún"
+
+ Gunnhildr_norse: "Gunnhildr"
+
+ Gunnvor_norse: "Gunnvǫr"
+
+ Gyda_norse: "Gyða"
+
+ Hafthora_norse: "Hafþóra"
+
+ Halla_norse: "Halla"
+
+ Hallbera_norse: "Hallbera"
+
+ Hallbjorg_norse: "Hallbjǫrg"
+
+ Halldis_norse: "Halldís"
+
+ Halldora_norse: "Halldóra"
+
+ Hallfridr_norse: "Hallfríðr"
+
+ Hallgerdr_norse: "Hallgerðr"
+
+ Hallgrima_norse: "Hallgríma"
+
+ Hallkatla_norse: "Hallkatla"
+
+ Hallotta_norse: "Hallótta"
+
+ Hallveig_norse: "Hallveig"
+
+ Hallvor_norse: "Hallvǫr"
+
+ Heidr_norse: "Heiðr"
+
+ Heimlaug_norse: "Heimlaug"
+
+ Helga_norse: "Helga"
+
+ Herdis_norse: "Herdís"
+
+ Herridr_norse: "Herríðr"
+
+ Hervor_norse: "Hervǫr"
+
+ Herthrudr_norse: "Herþrúðr"
+
+ Hildigunnr_norse: "Hildigunnr"
+
+ Hildiridr_norse: "Hildiríðr"
+
+ Hildr_norse: "Hildr"
+
+ Hjalmgerdr_norse: "Hjalmgerðr"
+
+ Hjordis_norse: "Hjördís"
+
+ Hladgerdr_norse: "Hlaðgerðr"
+
+ Hlif_norse: "Hlíf"
+
+ Holti_norse: "Holti"
+
+ Holmdis_norse: "Holmdís"
+
+ Holmfridr_norse: "Holmfríðr"
+
+ Hrafnhildr_norse: "Hrafnhildr"
+
+ Hrefna_norse: "Hrefna"
+
+ Hrodgerdr_norse: "Hróðgerðr"
+
+ Hrodny_norse: "Hróðný"
+
+ Huld_norse: "Huld"
+
+ Hunvor_norse: "Húnvǫr"
+
+ Hodd_norse: "Hǫdd"
+
+ Idbjorg_norse: "Iðbjǫrg"
+
+ Idunn_norse: "Iðunn"
+
+ Isbjorg_norse: "Ísbjǫrg"
+
+ Isridr_norse: "Ísríðr"
+
+ Jodis_norse: "Jódís"
+
+ Jofridr_norse: "Jófríðr"
+
+ Jora_norse: "Jóra"
+
+ Jorheidr_norse: "Jórheiðr"
+
+ Jorunn_norse: "Jórunn"
+
+ Katla_norse: "Katla"
+
+ Kara_norse: "Kára"
+
+ Kolfinna_norse: "Kolfinna" #finnish
+
+ Kolgrima_norse: "Kolgríma"
+
+ Ljot_norse: "Ljót"
+
+ Ljotunnr_norse: "Ljótunnr"
+
+ Lofnheidr_norse: "Lofnheiðr"
+
+ Luta_norse: "Lúta"
+
+ Moeidr_norse: "Móeiðr"
+
+ Maeva_norse: "Mæva"
+
+ Nereidr_norse: "Nereiðr"
+
+ Oddbjorg_norse: "Oddbjǫrg"
+
+ Oddfridr_norse: "Oddfríðr"
+
+ Oddkatla_norse: "Oddkatla"
+
+ Oddny_norse: "Oddný"
+
+ Ormhildr_norse: "Ormhildr"
+
+ Osk_norse: "Ósk"
+
+ Ragnheidr_norse: "Ragnheiðr"
+
+ Ragnhildr_norse: "Ragnhildr"
+
+ Rannveig_norse: "Rannveig"
+
+ Raginleif_norse: "Raginleif"
+
+ Rjupa_norse: "Rjúpa"
+
+ Salbjorg_norse: "Salbjǫrg"
+
+ Saldis_norse: "Saldís"
+
+ Salgerdr_norse: "Salgerðr"
+
+ Sigrfljod_norse: "Sigrfljóð"
+
+ Sigfridr_norse: "Sigfríðr"
+
+ Steinunn_norse: "Stęinunn"
+
+ Steinvor_norse: "Stęinvǫr"
+
+ Svana_norse: "Svana"
+
+ Svanlaug_norse: "Svanlaug"
+
+ Saeunn_norse: "Sæunn"
+
+ Solveig_norse: "Sǫlveig"
+
+ Solvor_norse: "Sǫlvǫr"
+
+ Torfa_norse: "Torfa"
+ 
+ Una_norse: "Una"
+
+ Unnr_norse: "Unnr"
+
+ Ulfheidr_norse: "Ulfheiðr"
+
+ Ulfhildr_norse: "Ulfheilr"
+
+ Ulfrun_norse: "Ulfrún"
+
+ Valdis_norse: "Valdís"
+
+ Valgerdr_norse: "Valgerðr"
+
+ Vedis_norse: "Védís" #norse
+
+ Vefridr_norse: "Véfríðr" #norse
+
+ Velaug_norse: "Vélaug" #norse
+
+ Veny_norse: "Véný" #norse
+
+ Vigdis_norse: "Vigdís"
+
+ Yngibjorg_norse: "Yngibjǫrg"
+
+ Yngileif_norse: "Yngileif"
+
+ Yngunn_norse: "Yngunn"
+
+ Yngvor_norse: "Yngvǫr"
+
+ Yngvildr_norse: "Yngvildr"
+
+ Yr_norse: "Ýr"
+
+ Thjodgerdr_norse: "Þjóðgerðr"
+
+ Thjodhildr_norse: "Þjóðhildr"
+
+ Thora_norse: "Þóra"
+
+ Thorarna_norse: "Þórarna"
+
+ Thorbjorg_norse: "Þórbjǫrg"
+
+ Thordis_norse: "Þordís"
+
+ Thorelfr_norse: "Þórelfr"
+
+ Thorny_norse: "Þórey"
+
+ Thorfinna_norse: "Þorfinna" #finnish
+
+ Thorgerdr_norse: "Þorgerðr"
+
+ Thorgunnr_norse: "Þorgunnr"
+
+ Thorhalla_norse: "Þórhalla"
+
+ Thorhildr_norse: "Þórhildr"
+
+ Thorkatla_norse: "Þorkatla"
+
+ Thorlaug_norse: "Þorlaug"
+
+ Thorleif_norse: "Þorleif"
+
+ Thorljot_norse: "Þorljót"
+
+ Thorodda_norse: "Þórodda"
+
+ Thorunn_norse: "Þórunn"
+
+ Thorveig_norse: "Þorveig"
+
+ Thorve_norse: "Þorvé" #norse
+
+ Thorvor_norse: "Þorvǫr"
+
+ Thaslaug_norse: "Þraslaug"
+
+ Thuridr_norse: "Þuríðr"
+
+ AEsa_norse: "Æsa"
+
+ Olvor_norse: "Ǫlvǫr"
