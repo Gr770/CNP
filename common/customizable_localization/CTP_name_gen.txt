@@ -1750,8 +1750,16 @@ CharacterPat = {
     text = {
         trigger = {
             exists = father
+            has_culture_group = culture_group:arabic_group
         }
-        localization_key = CTP_nonsupported_Patronym
+        localization_key = CTP_nonsupported_Patronym_arabic
+    }
+    text = {
+        trigger = {
+            exists = father
+            has_culture = culture:norse
+        }
+        localization_key = CTP_nonsupported_Patronym_norse
     }
 	text = {
 		fallback = yes

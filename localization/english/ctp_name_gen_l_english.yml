@@ -138,11 +138,12 @@
 #Patronym
 
  CTP_Patronym: " [Localize(Concatenate(Concatenate(Concatenate(ROOT.Char.GetFather.GetFirstNameNoTooltip,ROOT.Char.Custom('CharacterCulture')),'_pat_dad'),ROOT.Char.Custom('CharacterGender')))]"
- CTP_nonsupported_Patronym: " [Localize(Concatenate(Concatenate('CTPPatPrefix', ROOT.Char.Custom('CharacterCulture')),ROOT.Char.Custom('CharacterGender')))]"
- CTPPatPrefix_arabic_male: "ibn [ROOT.Char.GetFather.GetFirstNameNoTooltip]"
- CTPPatPrefix_arabic_female: "bint [ROOT.Char.GetFather.GetFirstNameNoTooltip]"
- CTPPatPrefix_norse_male: "[ROOT.Char.GetFather.GetFirstNameNoTooltip]son"
- CTPPatPrefix_norse_female: "[ROOT.Char.GetFather.GetFirstNameNoTooltip]dóttir"
+ CTP_nonsupported_Patronym_arabic: " [Localize(Concatenate(Concatenate('CTPPat', ROOT.Char.Custom('CharacterCulture')),ROOT.Char.Custom('CharacterGender')))] [ROOT.Char.GetFather.GetFirstNameNoTooltip]"
+ CTP_nonsupported_Patronym_norse: " [ROOT.Char.GetFather.GetFirstNameNoTooltip][Localize(Concatenate(Concatenate('CTPPat', ROOT.Char.Custom('CharacterCulture')),ROOT.Char.Custom('CharacterGender')))]"
+ CTPPat_arabic_male: "ibn"
+ CTPPat_arabic_female: "bint"
+ CTPPat_norse_male: "son"
+ CTPPat_norse_female: "dóttir"
 #Nickname
 
  CTP_NickName: " '[ROOT.Char.GetNickname]'"
