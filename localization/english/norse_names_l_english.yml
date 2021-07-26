@@ -806,7 +806,7 @@
  
  Jarnskeggi_norse: "Iarnskęggi"
  Jarnskeggi_norse_pat_dad_male: "Iarnskęggiason"
- Jarnskeggi_norse_pat_dad_female: "Jarnskęggiadóttir"
+ Jarnskeggi_norse_pat_dad_female: "Iarnskęggiadóttir"
  
  Jatgeirr_norse: "Iátgęirr"
  Jatgeirr_norse_pat_dad_male: "Iátgęirsson"
@@ -1541,9 +1541,9 @@
  Thorleifr_norse_pat_dad_male: "Þórlęifsson"
  Thorleifr_norse_pat_dad_female: "Þórlęifsdóttir"
  
- Thorljotr_norse: "Þórljótr"
- Thorljotr_norse_pat_dad_male: "Þórljótsson"
- Thorljotr_norse_pat_dad_female: "Þórljótsdóttir"
+ Thorljotr_norse: "Þórliótr"
+ Thorljotr_norse_pat_dad_male: "Þórliótsson"
+ Thorljotr_norse_pat_dad_female: "Þórliótsdóttir"
  
  Thormodr_norse: "Þórmóðr"
  Thormodr_norse_pat_dad_male: "Þórmóðsson"
