@@ -587,6 +587,17 @@ ctpname.002 = {
 			add_to_variable_list = { name = name_pack_support_dynasty target = character:168649 }
 			add_to_variable_list = { name = name_pack_support_dynasty target = character:168648 }
 		}
+		dynasty:461 = {
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:161301 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:161302 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:161303 }
+		}
+		dynasty:1043500 = {
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:186500 }
+		}
+		dynasty:1043308 = {
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:186016 }
+		}
 		character:168335 = {
 			change_first_name = Sigfrodr
 		}
