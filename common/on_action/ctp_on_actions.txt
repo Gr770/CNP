@@ -33,5 +33,7 @@ on_game_start = {
 		ctpname.005
 		ctpname.007
 		ctpname.008
+		ctpname.009
+		ctpname.010
 	}
 }
