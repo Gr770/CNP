@@ -15,3 +15,7 @@ TLaTL_loaded_checker = {
     trigger_if = { TLaTL_is_loaded = yes }
     trigger_else = { always = no }
 }
+ME_loaded_checker = {
+    trigger_if = { ME_is_loaded = yes }
+    trigger_else = { always = no }
+}
