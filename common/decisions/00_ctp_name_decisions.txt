@@ -47,7 +47,7 @@ get_regnal_laqab = {
             has_cultural_era_or_later = culture_era_high_medieval 
         }
         is_independent_ruler = yes
-        highest_held_title_tier >= tier_duchy
+        highest_held_title_tier >= tier_kingdom
         OR = {
             has_culture = culture:bedouin
             has_culture = culture:levantine
