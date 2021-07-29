@@ -1173,9 +1173,38 @@ CharacterTier = {
         trigger = {
             exists = liege
             liege.primary_title = {
+                OR = {
+                    has_variable = bicameral_government_republic
+                    has_variable = senate_government_republic
+                }
                 any_in_list = {
                     variable = republic_families_list
-                    this = root.house
+                    this.house_head = root
+                }
+            }
+        }
+        localization_key = senator
+    }
+    text = {
+        trigger = {
+            exists = liege
+            liege.primary_title = {
+                has_variable = council_government_republic
+                any_in_list = {
+                    variable = republic_families_list
+                    this.house_head = root
+                }
+            }
+        }
+        localization_key = councilor
+    }
+    text = {
+        trigger = {
+            exists = liege
+            liege.primary_title = {
+                any_in_list = {
+                    variable = republic_families_list
+                    this.house_head = root.house
                 }
             }
         }
