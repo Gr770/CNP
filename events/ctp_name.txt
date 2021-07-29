@@ -1942,8 +1942,8 @@ ctpname.400 = {
 		has_character_flag = name_pack_support
 	}
 	immediate = {
-		IF = { limit = { exists = house }
-			house = { add_to_variable_list = { name = name_pack_support_dynasty target = root} }
+		IF = { limit = { exists = dynasty }
+			dynasty = { add_to_variable_list = { name = name_pack_support_dynasty target = root} }
 		}
 		else = {
 			add_to_global_variable_list = { name = name_pack_support_global target = root }
