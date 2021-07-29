@@ -1448,7 +1448,7 @@ ctpname.007 = {
 		}
 		character:226012 = {
 			change_first_name = Muhammad
-			add_to_global_variable_list = { name = laqab_help_faith target = this }
+			add_to_global_variable_list = { name = laqab_helper2_faith target = this }
 		}
 		character:34055 = {
 			change_first_name = Hasan
@@ -1627,7 +1627,7 @@ ctpname.009 = {
 		}
 		character:485000 = {
 			change_first_name = Muhammad
-			add_to_global_variable_list = { name = laqab_help_faith target = this }
+			add_to_global_variable_list = { name = laqab_helper2_faith target = this }
 		}
 		character:485002 = {
 			change_first_name = Abu-Bakr
