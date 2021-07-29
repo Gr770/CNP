@@ -827,937 +827,781 @@ scripted_gui_ctp_laqab = {
 					variable = laqab_strengthened_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_strengthened_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_ruler_command_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_ruler_command_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_supporter_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_supporter_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_guided_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_guided_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_content_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_content_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_triumphant_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_triumphant_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_follower_command_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_follower_command_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_mighty_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_mighty_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_follower_command_2_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_follower_command_2_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_enlighten_command_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_enlighten_command_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_seeker_helper_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_seeker_helper_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_satisfied_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_satisfied_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_superior_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_superior_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_adherent_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_adherent_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_seeker_aid_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_seeker_aid_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_seeker_victory_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_seeker_victory_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_seeker_direction_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_seeker_direction_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_holding_fast_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_holding_fast_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_seeker_aid_2_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_seeker_aid_2_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_seeker_support_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_seeker_support_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_dependent_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_dependent_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_seeker_refuge_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_seeker_refuge_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_reliant_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_reliant_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_obedient_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_obedient_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_faithful_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_faithful_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_helpful_religion_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_helpful_religion_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_executor_command_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_executor_command_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_content_2_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_content_2_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_rightly_guided_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_rightly_guided_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_obedient_command_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_obedient_command_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_trusting_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_trusting_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_manifest_command_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_manifest_command_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_supporter_religion_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_supporter_religion_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_execute_god_decrees
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_execute_god_decrees_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_mighty_through_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_mighty_through_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_conqueror_through_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_conqueror_through_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_guardian_religion_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_guardian_religion_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_victor_help_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_victor_help_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_glorifier_religion_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_glorifier_religion_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_manifest_religion_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_manifest_religion_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_summoner_truth
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_summoner_truth_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_restorer_religion_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_restorer_religion_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_blessed_of_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_blessed_of_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_guided_god_2
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_guided_god_2_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_victorious_will_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_victorious_will_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_nobility_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_nobility_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_knowledgable_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_knowledgable_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_light_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_light_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_brilliance_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_brilliance_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_magnificience_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_magnificience_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_fullmoon_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_fullmoon_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_glory_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_glory_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_proof_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_proof_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_light_faith2
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_light_faith2_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_uniqueness_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_uniqueness_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_triumph_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_triumph_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_patron_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_patron_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_protector_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_protector_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_lauded_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_lauded_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_magnanimous
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_magnanimous_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_truth_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_truth_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_sword_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_sword_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_chosen_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_chosen_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_support_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_support_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_glory2_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_glory2_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_majesty_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_majesty_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_perfection_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_perfection_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_goodness_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_goodness_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_glory3_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_glory3_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_victory_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_victory_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_supporter_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_supporter_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_fortifier_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_fortifier_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_friend_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_friend_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_reviver_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_reviver_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_helper_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_helper_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_protector2_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_protector2_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_expander_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_expander_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_reformer_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_reformer_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_victorious_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_victorious_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_star_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_star_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_order_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_order_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_light3_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_light3_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_moon_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_moon_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_axis_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_axis_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_uplifter_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_uplifter_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_orthodox_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_orthodox_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_garden_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_garden_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_pillar_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_pillar_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_morning_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_morning_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_perseverance_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_perseverance_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_heart_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_heart_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_purity_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_purity_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_righteousness_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_righteousness_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_sword2_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_sword2_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_sun_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_sun_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_dignity_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_dignity_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_meteor_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_meteor_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_courage_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_courage_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_lamp_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_lamp_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_pious_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_pious_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_helper3_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_helper3_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_beauty2_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_beauty2_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_knowledgeable_faith_f
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_knowledgeable_faith_f_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_majesty_faith_f
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_majesty_faith_f_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_purity_faith_f
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_purity_faith_f_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_pleased_faith_f
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_pleased_faith_f_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_pleased_world_f
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_pleased_world_f_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_crown_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_crown_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_upholder_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_upholder_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_pillar_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_pillar_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_exalted_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_exalted_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_supporter_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_supporter_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_lion_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_lion_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_glory_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_glory_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_light_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_light_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_pride_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_pride_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_trusted_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_trusted_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_pride2_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_pride2_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_support_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_support_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_light2_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_light2_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_light_community
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_light_community_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_majesty_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_majesty_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_glory2_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_glory2_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_supporter2_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_supporter2_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_supporter_community
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_supporter_community_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_fortifier_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_fortifier_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_reviver_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_reviver_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_expander_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_expander_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_approved_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_approved_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_supervisor_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_supervisor_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_councillor_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_councillor_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_helper_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_helper_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_order_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_order_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_caretaker_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_caretaker_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_pillar2_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_pillar2_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_prosperity_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_prosperity_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_happy_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_happy_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_vault_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_vault_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_sword_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_sword_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_sword2_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_sword2_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_sun_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_sun_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_dignity_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_dignity_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_lion_cub_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_lion_cub_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_courage_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_courage_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_lamp_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_lamp_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_crown_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_crown_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_crown_community
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_crown_community_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_instrument_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_instrument_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_friend_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_friend_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_righthand_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_righthand_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_helper2_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_helper2_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_fort_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_fort_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_Mutamid_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_Mutamid_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_orthodox_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_orthodox_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_Zaim
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_Zaim_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_Husam
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_Husam_scope
-					save_scope_as = space_needed
 				}
 			}
 		}
@@ -3318,16 +3162,6 @@ scripted_gui_ctp_laqab = {
 				object = scope:effect_root
 			}
 		}
-		if = {
-			limit = {
-				exists = scope:space_needed
-			}
-			custom_description_no_bullet = {
-				text = ctp_space_trigger_kunya
-				subject = scope:effect_root
-				object = scope:effect_root
-			}
-		}
 	}
 }
 scripted_gui_ctp_laqab_tek_name_check = {
@@ -3340,937 +3174,781 @@ scripted_gui_ctp_laqab_tek_name_check = {
 					variable = laqab_strengthened_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_strengthened_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_ruler_command_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_ruler_command_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_supporter_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_supporter_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_guided_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_guided_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_content_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_content_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_triumphant_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_triumphant_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_follower_command_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_follower_command_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_mighty_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_mighty_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_follower_command_2_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_follower_command_2_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_enlighten_command_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_enlighten_command_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_seeker_helper_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_seeker_helper_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_satisfied_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_satisfied_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_superior_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_superior_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_adherent_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_adherent_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_seeker_aid_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_seeker_aid_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_seeker_victory_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_seeker_victory_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_seeker_direction_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_seeker_direction_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_holding_fast_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_holding_fast_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_seeker_aid_2_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_seeker_aid_2_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_seeker_support_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_seeker_support_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_dependent_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_dependent_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_seeker_refuge_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_seeker_refuge_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_reliant_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_reliant_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_obedient_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_obedient_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_faithful_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_faithful_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_helpful_religion_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_helpful_religion_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_executor_command_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_executor_command_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_content_2_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_content_2_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_rightly_guided_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_rightly_guided_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_obedient_command_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_obedient_command_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_trusting_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_trusting_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_manifest_command_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_manifest_command_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_supporter_religion_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_supporter_religion_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_execute_god_decrees
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_execute_god_decrees_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_mighty_through_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_mighty_through_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_conqueror_through_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_conqueror_through_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_guardian_religion_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_guardian_religion_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_victor_help_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_victor_help_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_glorifier_religion_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_glorifier_religion_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_manifest_religion_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_manifest_religion_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_summoner_truth
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_summoner_truth_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_restorer_religion_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_restorer_religion_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_blessed_of_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_blessed_of_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_guided_god_2
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_guided_god_2_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_victorious_will_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_victorious_will_god_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_nobility_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_nobility_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_knowledgable_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_knowledgable_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_light_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_light_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_brilliance_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_brilliance_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_magnificience_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_magnificience_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_fullmoon_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_fullmoon_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_glory_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_glory_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_proof_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_proof_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_light_faith2
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_light_faith2_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_uniqueness_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_uniqueness_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_triumph_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_triumph_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_patron_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_patron_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_protector_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_protector_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_lauded_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_lauded_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_magnanimous
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_magnanimous_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_truth_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_truth_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_sword_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_sword_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_chosen_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_chosen_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_support_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_support_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_glory2_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_glory2_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_majesty_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_majesty_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_perfection_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_perfection_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_goodness_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_goodness_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_glory3_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_glory3_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_victory_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_victory_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_supporter_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_supporter_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_fortifier_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_fortifier_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_friend_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_friend_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_reviver_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_reviver_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_helper_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_helper_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_protector2_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_protector2_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_expander_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_expander_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_reformer_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_reformer_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_victorious_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_victorious_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_star_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_star_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_order_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_order_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_light3_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_light3_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_moon_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_moon_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_axis_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_axis_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_uplifter_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_uplifter_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_orthodox_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_orthodox_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_garden_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_garden_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_pillar_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_pillar_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_morning_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_morning_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_perseverance_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_perseverance_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_heart_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_heart_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_purity_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_purity_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_righteousness_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_righteousness_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_sword2_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_sword2_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_sun_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_sun_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_dignity_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_dignity_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_meteor_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_meteor_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_courage_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_courage_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_lamp_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_lamp_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_pious_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_pious_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_helper3_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_helper3_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_beauty2_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_beauty2_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_knowledgeable_faith_f
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_knowledgeable_faith_f_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_majesty_faith_f
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_majesty_faith_f_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_purity_faith_f
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_purity_faith_f_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_pleased_faith_f
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_pleased_faith_f_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_pleased_world_f
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_pleased_world_f_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_crown_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_crown_faith_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_upholder_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_upholder_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_pillar_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_pillar_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_exalted_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_exalted_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_supporter_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_supporter_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_lion_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_lion_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_glory_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_glory_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_light_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_light_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_pride_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_pride_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_trusted_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_trusted_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_pride2_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_pride2_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_support_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_support_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_light2_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_light2_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_light_community
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_light_community_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_majesty_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_majesty_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_glory2_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_glory2_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_supporter2_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_supporter2_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_supporter_community
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_supporter_community_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_fortifier_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_fortifier_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_reviver_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_reviver_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_expander_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_expander_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_approved_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_approved_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_supervisor_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_supervisor_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_councillor_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_councillor_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_helper_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_helper_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_order_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_order_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_caretaker_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_caretaker_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_pillar2_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_pillar2_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_prosperity_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_prosperity_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_happy_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_happy_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_vault_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_vault_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_sword_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_sword_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_sword2_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_sword2_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_sun_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_sun_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_dignity_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_dignity_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_lion_cub_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_lion_cub_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_courage_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_courage_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_lamp_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_lamp_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_crown_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_crown_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_crown_community
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_crown_community_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_instrument_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_instrument_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_friend_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_friend_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_righthand_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_righthand_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_helper2_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_helper2_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_fort_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_fort_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_Mutamid_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_Mutamid_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_orthodox_dynasty
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_orthodox_dynasty_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_Zaim
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_Zaim_scope
-					save_scope_as = space_needed
 				}
 				every_in_global_list = {
 					variable = laqab_Husam
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_Husam_scope
-					save_scope_as = space_needed
 				}
 			}
 			IF = {
