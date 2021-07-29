@@ -59,10 +59,7 @@ get_regnal_laqab = {
 			has_character_flag = has_regnal_laqab
             has_title = title:d_sunni
             has_title = title:d_shiite
-            AND = {
-                has_faith = faith:zayidi
-				root.faith.religious_head = root
-            }
+			root.faith.religious_head = root
 		}
     }
 
@@ -86,7 +83,7 @@ get_ducal_laqab = {
     picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
 
     desc = get_regnal_laqab_desc
-    selection_tooltip = get_regnal_laqab_tooltip
+    selection_tooltip = get_ducal_laqab_tooltip
 
     is_shown = {
         is_ctp_supported_culture = yes
@@ -107,10 +104,7 @@ get_ducal_laqab = {
             has_character_flag = has_reg_laqab
             has_title = title:d_sunni
             has_title = title:d_shiite
-            AND = {
-                has_faith = faith:zayidi
-				root.faith.religious_head = root
-            }
+			root.faith.religious_head = root
 		}
     }
 

@@ -780,8 +780,8 @@ arabicnamepack.002 = {
 arabicnamepack.003 = {
     type = character_event
 	theme = faith
-	title = arabicnamepack.002.t
-	desc = arabicnamepack.002.desc
+	title = arabicnamepack.003.t
+	desc = arabicnamepack.003.desc
 	right_portrait = root
 
 	immediate = {
@@ -1066,8 +1066,8 @@ arabicnamepack.003 = {
 	}
 	
 	option = {
-		name = arabicnamepack.001.a
-		custom_tooltip = arabicnamepack.001.a.tt
+		name = arabicnamepack.003.a
+		custom_tooltip = arabicnamepack.003.a.tt
 		if = {
 			limit = { has_character_flag = laqab_nobility_faith }
 			remove_list_global_variable = { name = laqab_nobility_faith target = root }
@@ -1400,8 +1400,8 @@ arabicnamepack.003 = {
 	}
 
 	option = {
-		name = arabicnamepack.001.b
-		custom_tooltip = arabicnamepack.001.b.tt
+		name = arabicnamepack.003.b
+		custom_tooltip = arabicnamepack.003.b.tt
 		add_character_flag = has_reg_laqab
 	}
 }

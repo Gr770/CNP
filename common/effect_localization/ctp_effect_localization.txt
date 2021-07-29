@@ -13,6 +13,11 @@ ctp_blank_trigger_kunya = {
 	third = ctp_blank_kunya
 	global = ctp_blank_kunya
 }
+ctp_space_trigger_kunya = {
+	first = ctp_space_kunya
+	third = ctp_space_kunya
+	global = ctp_space_kunya
+}
 scripted_gui_trigger_ctp_kunya_female = {
 	first = scripted_gui_ctp_kunya_female
 	third = scripted_gui_ctp_kunya_female

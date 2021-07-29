@@ -1576,7 +1576,7 @@ ctpname.009 = {
 		}
 		character:93422 = {
 			change_first_name = Abdallah
-			add_to_global_variable_list = { name = laqab_ulity_pious_faith target = this }
+			add_to_global_variable_list = { name = laqab_unity_pious_faith target = this }
 		}
 		character:93423 = {
 			change_first_name = Ahmad
