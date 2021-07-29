@@ -1471,6 +1471,294 @@ scripted_gui_ctp_laqab = {
 					save_scope_as = laqab_crown_faith_scope
 					save_scope_as = space_needed
 				}
+				every_in_global_list = {
+					variable = laqab_upholder_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_upholder_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_pillar_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_pillar_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_exalted_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_exalted_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_supporter_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_supporter_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_lion_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_lion_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_glory_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_glory_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_light_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_light_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_pride_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_pride_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_trusted_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_trusted_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_pride2_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_pride2_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_support_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_support_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_light2_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_light2_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_light_community
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_light_community_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_majesty_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_majesty_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_glory2_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_glory2_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_supporter2_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_supporter2_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_supporter_community
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_supporter_community_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_fortifier_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_fortifier_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_reviver_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_reviver_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_expander_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_expander_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_approved_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_approved_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_supervisor_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_supervisor_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_councillor_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_councillor_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_helper_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_helper_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_order_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_order_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_caretaker_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_caretaker_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_pillar2_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_pillar2_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_prosperity_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_prosperity_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_happy_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_happy_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_vault_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_vault_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_sword_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_sword_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_sword2_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_sword2_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_sun_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_sun_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_dignity_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_dignity_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_lion_cub_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_lion_cub_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_courage_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_courage_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_lamp_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_lamp_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_crown_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_crown_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_crown_community
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_crown_community_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_instrument_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_instrument_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_friend_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_friend_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_righthand_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_righthand_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_helper2_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_helper2_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_fort_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_fort_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_Mutamid_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_Mutamid_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_orthodox_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_orthodox_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_Zaim
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_Zaim_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_Husam
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_Husam_scope
+					save_scope_as = space_needed
+				}
 			}
 		}
 		IF = {
@@ -2545,30 +2833,480 @@ scripted_gui_ctp_laqab = {
 		}
 		else_if = {
 			limit = {
-				exists = scope:laqab_purity_faith_f_scope
+				exists = scope:laqab_upholder_dynasty_scope
 			}
 			custom_description_no_bullet = {
-				text = scripted_gui_trigger_laqab_purity_faith_f
+				text = scripted_gui_trigger_laqab_upholder_dynasty
 				subject = scope:effect_root
 				object = scope:effect_root
 			}
 		}
 		else_if = {
 			limit = {
-				exists = scope:laqab_pleased_faith_f_scope
+				exists = scope:laqab_exalted_dynasty_scope
 			}
 			custom_description_no_bullet = {
-				text = scripted_gui_trigger_laqab_pleased_faith_f
+				text = scripted_gui_trigger_laqab_exalted_dynasty
 				subject = scope:effect_root
 				object = scope:effect_root
 			}
 		}
 		else_if = {
 			limit = {
-				exists = scope:laqab_pleased_world_f_scope
+				exists = scope:laqab_pillar_dynasty_scope
 			}
 			custom_description_no_bullet = {
-				text = scripted_gui_trigger_laqab_pleased_world_f
+				text = scripted_gui_trigger_laqab_pillar_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_supporter_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_supporter_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_lion_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_lion_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_glory_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_glory_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_light_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_light_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_pride_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_pride_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_trusted_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_trusted_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_pride2_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_pride2_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_support_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_support_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_light2_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_light2_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_light_community_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_light_community
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_majesty_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_majesty_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_glory2_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_glory2_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_supporter2_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_supporter2_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_supporter_community_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_supporter_community
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_fortifier_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_fortifier_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_reviver_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_reviver_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_expander_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_expander_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_approved_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_approved_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_supervisor_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_supervisor_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_councillor_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_councillor_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_helper_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_helper_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_order_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_order_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_order_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_order_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_pillar2_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_pillar2_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_prosperity_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_prosperity_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_happy_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_happy_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_vault_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_vault_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_sword_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_sword_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_sword2_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_sword2_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_sun_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_sun_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_dignity_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_dignity_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_lion_cub_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_lion_cub_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_courage_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_courage_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_lamp_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_lamp_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_crown_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_crown_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_crown_community_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_crown_community
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_instrument_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_instrument_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_friend_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_friend_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_righthand_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_righthand_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_helper2_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_helper2_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_fort_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_fort_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_Mutamid_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_Mutamid_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_orthodox_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_orthodox_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_Zaim_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_Zaim
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_Husam_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_Husam
 				subject = scope:effect_root
 				object = scope:effect_root
 			}
@@ -3244,6 +3982,294 @@ scripted_gui_ctp_laqab_tek_name_check = {
 					variable = laqab_crown_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_crown_faith_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_upholder_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_upholder_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_pillar_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_pillar_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_exalted_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_exalted_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_supporter_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_supporter_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_lion_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_lion_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_glory_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_glory_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_light_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_light_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_pride_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_pride_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_trusted_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_trusted_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_pride2_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_pride2_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_support_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_support_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_light2_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_light2_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_light_community
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_light_community_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_majesty_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_majesty_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_glory2_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_glory2_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_supporter2_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_supporter2_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_supporter_community
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_supporter_community_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_fortifier_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_fortifier_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_reviver_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_reviver_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_expander_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_expander_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_approved_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_approved_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_supervisor_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_supervisor_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_councillor_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_councillor_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_helper_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_helper_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_order_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_order_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_caretaker_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_caretaker_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_pillar2_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_pillar2_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_prosperity_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_prosperity_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_happy_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_happy_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_vault_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_vault_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_sword_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_sword_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_sword2_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_sword2_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_sun_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_sun_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_dignity_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_dignity_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_lion_cub_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_lion_cub_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_courage_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_courage_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_lamp_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_lamp_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_crown_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_crown_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_crown_community
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_crown_community_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_instrument_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_instrument_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_friend_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_friend_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_righthand_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_righthand_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_helper2_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_helper2_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_fort_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_fort_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_Mutamid_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_Mutamid_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_orthodox_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_orthodox_dynasty_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_Zaim
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_Zaim_scope
+					save_scope_as = space_needed
+				}
+				every_in_global_list = {
+					variable = laqab_Husam
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_Husam_scope
 					save_scope_as = space_needed
 				}
 			}
@@ -4401,30 +5427,480 @@ scripted_gui_ctp_laqab_tek_name_check = {
 		}
 		else_if = {
 			limit = {
-				exists = scope:laqab_purity_faith_f_scope
+				exists = scope:laqab_upholder_dynasty_scope
 			}
 			custom_description_no_bullet = {
-				text = scripted_gui_trigger_laqab_purity_faith_f
+				text = scripted_gui_trigger_laqab_upholder_dynasty
 				subject = scope:effect_root
 				object = scope:effect_root
 			}
 		}
 		else_if = {
 			limit = {
-				exists = scope:laqab_pleased_faith_f_scope
+				exists = scope:laqab_exalted_dynasty_scope
 			}
 			custom_description_no_bullet = {
-				text = scripted_gui_trigger_laqab_pleased_faith_f
+				text = scripted_gui_trigger_laqab_exalted_dynasty
 				subject = scope:effect_root
 				object = scope:effect_root
 			}
 		}
 		else_if = {
 			limit = {
-				exists = scope:laqab_pleased_world_f_scope
+				exists = scope:laqab_pillar_dynasty_scope
 			}
 			custom_description_no_bullet = {
-				text = scripted_gui_trigger_laqab_pleased_world_f
+				text = scripted_gui_trigger_laqab_pillar_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_supporter_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_supporter_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_lion_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_lion_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_glory_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_glory_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_light_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_light_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_pride_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_pride_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_trusted_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_trusted_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_pride2_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_pride2_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_support_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_support_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_light2_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_light2_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_light_community_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_light_community
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_majesty_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_majesty_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_glory2_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_glory2_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_supporter2_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_supporter2_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_supporter_community_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_supporter_community
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_fortifier_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_fortifier_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_reviver_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_reviver_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_expander_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_expander_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_approved_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_approved_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_supervisor_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_supervisor_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_councillor_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_councillor_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_helper_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_helper_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_order_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_order_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_order_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_order_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_pillar2_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_pillar2_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_prosperity_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_prosperity_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_happy_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_happy_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_vault_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_vault_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_sword_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_sword_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_sword2_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_sword2_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_sun_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_sun_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_dignity_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_dignity_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_lion_cub_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_lion_cub_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_courage_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_courage_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_lamp_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_lamp_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_crown_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_crown_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_crown_community_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_crown_community
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_instrument_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_instrument_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_friend_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_friend_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_righthand_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_righthand_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_helper2_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_helper2_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_fort_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_fort_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_Mutamid_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_Mutamid_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_orthodox_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_orthodox_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_Zaim_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_Zaim
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_Husam_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_Husam
 				subject = scope:effect_root
 				object = scope:effect_root
 			}
