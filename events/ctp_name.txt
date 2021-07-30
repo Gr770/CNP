@@ -1361,6 +1361,7 @@ ctpname.007 = {
 			add_to_variable_list = { name = name_pack_support_dynasty target = character:226054 }
 			add_to_variable_list = { name = name_pack_support_dynasty target = character:226052 }
 			add_to_variable_list = { name = name_pack_support_dynasty target = character:226011 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:144083 }
 			add_to_variable_list = { name = name_pack_support_dynasty target = character:226051 }
 			add_to_variable_list = { name = name_pack_support_dynasty target = character:226012 }
 		}
@@ -1414,6 +1415,10 @@ ctpname.007 = {
 		dynasty:100690 = {
 			add_to_variable_list = { name = name_pack_support_dynasty target = character:144560 }
 			add_to_variable_list = { name = name_pack_support_dynasty target = character:144145 }
+		}
+		character:144083 = {
+			change_first_name = Muhammad
+			add_to_global_variable_list = { name = laqab_the_victorious target = this }
 		}
 		character:3088 = {
 			change_first_name = Ahmed
