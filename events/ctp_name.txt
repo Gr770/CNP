@@ -1356,15 +1356,6 @@ ctpname.007 = {
 	}
 	immediate = {
 		add_to_global_variable_list = { name = name_pack_support_global target = character:1000230506 }
-		dynasty:24000 = {
-			add_to_variable_list = { name = name_pack_support_dynasty target = character:226000 }
-			add_to_variable_list = { name = name_pack_support_dynasty target = character:226054 }
-			add_to_variable_list = { name = name_pack_support_dynasty target = character:226052 }
-			add_to_variable_list = { name = name_pack_support_dynasty target = character:226011 }
-			add_to_variable_list = { name = name_pack_support_dynasty target = character:144083 }
-			add_to_variable_list = { name = name_pack_support_dynasty target = character:226051 }
-			add_to_variable_list = { name = name_pack_support_dynasty target = character:226012 }
-		}
 		dynasty:7296 = {
 			add_to_variable_list = { name = name_pack_support_dynasty target = character:34050 }
 			add_to_variable_list = { name = name_pack_support_dynasty target = character:34055 }
@@ -1415,6 +1406,52 @@ ctpname.007 = {
 		dynasty:100690 = {
 			add_to_variable_list = { name = name_pack_support_dynasty target = character:144560 }
 			add_to_variable_list = { name = name_pack_support_dynasty target = character:144145 }
+		}
+		dynasty:24000 = {
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:226000 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:226054 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:226052 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:226011 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:144083 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:226051 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:226012 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:32924 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:144077 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:144079 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:144080 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:144083 }
+		}
+		dynasty:101019 = {
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:93392 }
+		}
+		dynasty:100684 = {
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:34525 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:34526 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:34524 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:34523 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:34521 }
+		}
+		dynasty:12211 = {
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:73243 }
+		}
+		character:34526 = {
+			change_first_name = Yaqub
+		}
+		character:KOH_GOKBORI = {
+			change_first_name = Gökböri
+			add_to_global_variable_list = { name = laqab_victorious_faith target = this }
+		}
+		character:144080 = {
+			change_first_name = Ismail
+		}
+		character:144079 = {
+			change_first_name = Musa
+		}
+		character:32924 = {
+			change_first_name = Muhammad
+		}
+		character:144077 = {
+			change_first_name = Isa
 		}
 		character:144083 = {
 			change_first_name = Muhammad
@@ -1468,7 +1505,8 @@ ctpname.007 = {
 		}
 		character:226052 = {
 			change_first_name = Ahmed
-			add_to_global_variable_list = { name = laqab_just_sword_faith target = this }
+			add_to_global_variable_list = { name = laqab_just target = this }
+			add_to_global_variable_list = { name = laqab_sword2_faith target = this }
 		}
 		character:1000230506 = {
 			change_first_name = Asimat
@@ -1481,6 +1519,86 @@ ctpname.007 = {
 			change_first_name = Yusuf
 			add_to_global_variable_list = { name = laqab_gives_victory target = this }
 			add_to_global_variable_list = { name = laqab_righteousness_faith target = this }
+		}
+	}
+}
+ctpname.008 = {
+	type = none
+	hidden = yes
+	trigger = {
+		game_start_date = 1084.1.1
+		KoH_loaded_checker = yes
+	}
+	immediate = {
+		character:34525 = {
+			add_character_flag = had_eldest_son
+			set_variable = { name = var_dad_eldest_son value = character:34526 }
+		}
+		character:KOH_GOKBORI = {
+			add_character_flag = has_laqab
+		}
+		character:93393 = {
+			add_character_flag = had_eldest_son
+			set_variable = { name = var_dad_eldest_son value = character:93394 }
+		}
+		character:144083 = {
+			add_character_flag = has_regnal_laqab
+		}
+		character:227000 = {
+			add_character_flag = has_caliph_laqab
+			add_character_flag = had_eldest_son
+			set_variable = { name = var_dad_eldest_son value = character:34027 }
+		}
+		character:73243 = {
+			add_character_flag = had_eldest_son
+			set_variable = { name = var_dad_eldest_son value = character:73621 }
+		}
+		character:73621 = {
+			add_character_flag = had_eldest_son
+			set_variable = { name = var_dad_eldest_son value = character:73622 }
+		}
+		character:93354 = {
+			add_character_flag = had_eldest_son
+			set_variable = { name = var_dad_eldest_son value = character:93355 }
+		}
+		character:93368 = {
+			add_character_flag = had_eldest_son
+			set_variable = { name = var_dad_eldest_son value = character:93369 }
+		}
+		character:155216 = {
+			add_character_flag = had_eldest_son
+			set_variable = { name = var_dad_eldest_son value = character:155217 }
+		}
+		character:155228 = {
+			add_character_flag = had_eldest_son
+			set_variable = { name = var_dad_eldest_son value = character:155229 }
+		}
+		character:155212 = {
+			add_character_flag = had_eldest_son
+			set_variable = { name = var_dad_eldest_son value = character:155213 }
+		}
+		character:93361 = {
+			add_character_flag = had_eldest_son
+			set_variable = { name = var_dad_eldest_son value = character:93362 }
+		}
+		character:34050 = {
+			add_character_flag = had_eldest_son
+			set_variable = { name = var_dad_eldest_son value = character:34055 }
+		}
+		character:226052 = {
+			add_character_flag = has_regnal_laqab
+			add_character_flag = had_eldest_son
+			set_variable = { name = var_dad_eldest_son value = character:32924 }
+		}
+		character:226052 = {
+			add_character_flag = has_regnal_laqab
+			add_character_flag = had_eldest_son
+			set_variable = { name = var_dad_eldest_son value = character:144083 }
+		}
+		character:226000 = {
+			add_character_flag = has_regnal_laqab
+			add_character_flag = had_eldest_son
+			set_variable = { name = var_dad_eldest_son value = character:226051 }
 		}
 	}
 }
@@ -1695,72 +1813,6 @@ ctpname.010 = {
 		}
 		character:34064 = {
 			set_variable = { name = var_dad_eldest_son value = character:34065 }
-		}
-	}
-}
-ctpname.008 = {
-	type = none
-	hidden = yes
-	trigger = {
-		game_start_date = 1084.1.1
-		KoH_loaded_checker = yes
-	}
-	immediate = {
-		character:227000 = {
-			add_character_flag = has_caliph_laqab
-			add_character_flag = had_eldest_son
-			set_variable = { name = var_dad_eldest_son value = character:34027 }
-		}
-		character:73243 = {
-			add_character_flag = had_eldest_son
-			set_variable = { name = var_dad_eldest_son value = character:73621 }
-		}
-		character:73621 = {
-			add_character_flag = had_eldest_son
-			set_variable = { name = var_dad_eldest_son value = character:73622 }
-		}
-		character:93354 = {
-			add_character_flag = had_eldest_son
-			set_variable = { name = var_dad_eldest_son value = character:93355 }
-		}
-		character:93368 = {
-			add_character_flag = had_eldest_son
-			set_variable = { name = var_dad_eldest_son value = character:93369 }
-		}
-		character:155216 = {
-			add_character_flag = had_eldest_son
-			set_variable = { name = var_dad_eldest_son value = character:155217 }
-		}
-		character:155228 = {
-			add_character_flag = had_eldest_son
-			set_variable = { name = var_dad_eldest_son value = character:155229 }
-		}
-		character:155212 = {
-			add_character_flag = had_eldest_son
-			set_variable = { name = var_dad_eldest_son value = character:155213 }
-		}
-		character:93361 = {
-			add_character_flag = had_eldest_son
-			set_variable = { name = var_dad_eldest_son value = character:93362 }
-		}
-		character:34050 = {
-			add_character_flag = had_eldest_son
-			set_variable = { name = var_dad_eldest_son value = character:34055 }
-		}
-		character:226052 = {
-			add_character_flag = has_regnal_laqab
-			add_character_flag = had_eldest_son
-			set_variable = { name = var_dad_eldest_son value = character:226051 }
-		}
-		character:226052 = {
-			add_character_flag = has_regnal_laqab
-			add_character_flag = had_eldest_son
-			set_variable = { name = var_dad_eldest_son value = character:144083 }
-		}
-		character:226000 = {
-			add_character_flag = has_regnal_laqab
-			add_character_flag = had_eldest_son
-			set_variable = { name = var_dad_eldest_son value = character:226051 }
 		}
 	}
 }
