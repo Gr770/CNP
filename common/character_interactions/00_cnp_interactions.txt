@@ -48,7 +48,6 @@
                 has_character_flag = has_caliph_laqab
             }
         }
-        }
     }
     auto_accept = yes
     send_option = {
