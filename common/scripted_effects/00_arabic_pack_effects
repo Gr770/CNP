@@ -1,0 +1,797 @@
+﻿assign_caliph_laqab_effect = {
+    random_list = {
+        1 = {
+            add_to_global_variable_list = { name = laqab_upholder_dynasty target = root }
+            add_character_flag = laqab_upholder_dynasty
+        }
+        1 = {
+            add_to_global_variable_list = { name = laqab_exalted_dynasty target = root }
+            add_character_flag = laqab_exalted_dynasty
+        }
+        1 = {
+            add_to_global_variable_list = { name = laqab_pillar_dynasty target = root }
+            add_character_flag = laqab_pillar_dynasty
+        }
+        1 = {
+            add_to_global_variable_list = { name = laqab_supporter_dynasty target = root }
+            add_character_flag = laqab_supporter_dynasty
+        }
+        1 = {
+            add_to_global_variable_list = { name = laqab_lion_dynasty target = root }
+            add_character_flag = laqab_lion_dynasty
+        }
+        1 = {
+            add_to_global_variable_list = { name = laqab_glory_dynasty target = root }
+            add_character_flag = laqab_glory_dynasty
+        }
+        1 = {
+            add_to_global_variable_list = { name = laqab_light_dynasty target = root }
+            add_character_flag = laqab_light_dynasty
+        }
+        1 = {
+            add_to_global_variable_list = { name = laqab_pride_dynasty target = root }
+            add_character_flag = laqab_pride_dynasty
+        }
+        1 = {
+            add_to_global_variable_list = { name = laqab_trusted_dynasty target = root }
+            add_character_flag = laqab_trusted_dynasty
+        }
+        1 = {
+            add_to_global_variable_list = { name = laqab_pride2_dynasty target = root }
+            add_character_flag = laqab_pride2_dynasty
+        }
+        1 = {
+            add_to_global_variable_list = { name = laqab_support_dynasty target = root }
+            add_character_flag = laqab_support_dynasty
+        }
+        1 = {
+            add_to_global_variable_list = { name = laqab_light2_dynasty target = root }
+            add_character_flag = laqab_light2_dynasty
+        }
+        1 = {
+            add_to_global_variable_list = { name = laqab_light_community target = root }
+            add_character_flag = laqab_light_community
+        }
+        1 = {
+            add_to_global_variable_list = { name = laqab_majesty_dynasty target = root }
+            add_character_flag = laqab_majesty_dynasty
+        }
+        1 = {
+            add_to_global_variable_list = { name = laqab_glory2_dynasty target = root }
+            add_character_flag = laqab_glory2_dynasty
+        }
+        1 = {
+            add_to_global_variable_list = { name = laqab_supporter2_dynasty target = root }
+            add_character_flag = laqab_supporter2_dynasty
+        }
+        1 = {
+            add_to_global_variable_list = { name = laqab_supporter_community target = root }
+            add_character_flag = laqab_supporter_community
+        }
+        1 = {
+            add_to_global_variable_list = { name = laqab_fortifier_dynasty target = root }
+            add_character_flag = laqab_fortifier_dynasty
+        }
+        1 = {
+            add_to_global_variable_list = { name = laqab_reviver_dynasty target = root }
+            add_character_flag = laqab_reviver_dynasty
+        }
+        1 = {
+            add_to_global_variable_list = { name = laqab_expander_dynasty target = root }
+            add_character_flag = laqab_expander_dynasty
+        }
+        1 = {
+            add_to_global_variable_list = { name = laqab_approved_dynasty target = root }
+            add_character_flag = laqab_approved_dynasty
+        }
+        1 = {
+            add_to_global_variable_list = { name = laqab_supervisor_dynasty target = root }
+            add_character_flag = laqab_supervisor_dynasty
+        }
+        1 = {
+            add_to_global_variable_list = { name = laqab_councillor_dynasty target = root }
+            add_character_flag = laqab_councillor_dynasty
+        }
+        1 = {
+            add_to_global_variable_list = { name = laqab_helper_dynasty target = root }
+            add_character_flag = laqab_helper_dynasty
+        }
+        1 = {
+            add_to_global_variable_list = { name = laqab_order_dynasty target = root }
+            add_character_flag = laqab_order_dynasty
+        }
+        1 = {
+            add_to_global_variable_list = { name = laqab_caretaker_dynasty target = root }
+            add_character_flag = laqab_caretaker_dynasty
+        }
+        1 = {
+            add_to_global_variable_list = { name = laqab_pillar2_dynasty target = root }
+            add_character_flag = laqab_pillar2_dynasty
+        }
+        1 = {
+            add_to_global_variable_list = { name = laqab_prosperity_dynasty target = root }
+            add_character_flag = laqab_prosperity_dynasty
+        }
+        1 = {
+            add_to_global_variable_list = { name = laqab_happy_dynasty target = root }
+            add_character_flag = laqab_happy_dynasty
+        }
+        1 = {
+            add_to_global_variable_list = { name = laqab_vault_dynasty target = root }
+            add_character_flag = laqab_vault_dynasty
+        }
+        1 = {
+            add_to_global_variable_list = { name = laqab_sword_dynasty target = root }
+            add_character_flag = laqab_sword_dynasty
+        }
+        1 = {
+            add_to_global_variable_list = { name = laqab_sword2_dynasty target = root }
+            add_character_flag = laqab_sword2_dynasty
+        }
+        1 = {
+            add_to_global_variable_list = { name = laqab_sun_dynasty target = root }
+            add_character_flag = laqab_sun_dynasty
+        }
+        1 = {
+            add_to_global_variable_list = { name = laqab_dignity_dynasty target = root }
+            add_character_flag = laqab_dignity_dynasty
+        }
+        1 = {
+            add_to_global_variable_list = { name = laqab_lion_cub_dynasty target = root }
+            add_character_flag = laqab_lion_cub_dynasty
+        }
+        1 = {
+            add_to_global_variable_list = { name = laqab_courage_dynasty target = root }
+            add_character_flag = laqab_courage_dynasty
+        }
+        1 = {
+            add_to_global_variable_list = { name = laqab_lamp_dynasty target = root }
+            add_character_flag = laqab_lamp_dynasty
+        }
+        1 = {
+            add_to_global_variable_list = { name = laqab_crown_dynasty target = root }
+            add_character_flag = laqab_crown_dynasty
+        }
+        1 = {
+            add_to_global_variable_list = { name = laqab_crown_community target = root }
+            add_character_flag = laqab_crown_community
+        }
+        1 = {
+            add_to_global_variable_list = { name = laqab_instrument_dynasty target = root }
+            add_character_flag = laqab_instrument_dynasty
+        }
+        1 = {
+            add_to_global_variable_list = { name = laqab_friend_dynasty target = root }
+            add_character_flag = laqab_friend_dynasty
+        }
+        1 = {
+            add_to_global_variable_list = { name = laqab_righthand_dynasty target = root }
+            add_character_flag = laqab_righthand_dynasty
+        }
+        1 = {
+            add_to_global_variable_list = { name = laqab_helper2_dynasty target = root }
+            add_character_flag = laqab_helper2_dynasty
+        }
+        1 = {
+            add_to_global_variable_list = { name = laqab_fort_dynasty target = root }
+            add_character_flag = laqab_fort_dynasty
+        }
+        1 = {
+            add_to_global_variable_list = { name = laqab_Mutamid_dynasty target = root }
+            add_character_flag = laqab_Mutamid_dynasty
+        }
+        1 = {
+            add_to_global_variable_list = { name = laqab_orthodox_dynasty target = root }
+            add_character_flag = laqab_orthodox_dynasty
+        }
+    }
+}
+
+assign_reg_laqab_effect = {
+    random_list = {
+        0 = {
+            modifier = {
+                is_male = yes
+                add = 1
+            }
+            random_list = {
+                1 = {
+                    add_to_global_variable_list = { name = laqab_nobility_faith target = root }
+                    add_character_flag = laqab_nobility_faith
+                }
+                1 = {
+                    add_to_global_variable_list = { name = laqab_knowledgable_faith target = root }
+                    add_character_flag = laqab_knowledgable_faith
+                }
+                1 = {
+                    add_to_global_variable_list = { name = laqab_light_faith target = root }
+                    add_character_flag = laqab_light_faith
+                }
+                1 = {
+                    add_to_global_variable_list = { name = laqab_brilliance_faith target = root }
+                    add_character_flag = laqab_brilliance_faith
+                }
+                1 = {
+                    add_to_global_variable_list = { name = laqab_magnificience_faith target = root }
+                    add_character_flag = laqab_magnificience_faith
+                }
+                1 = {
+                    add_to_global_variable_list = { name = laqab_fullmoon_faith target = root }
+                    add_character_flag = laqab_fullmoon_faith
+                }
+                1 = {
+                    add_to_global_variable_list = { name = laqab_glory_faith target = root }
+                    add_character_flag = laqab_glory_faith
+                }
+                1 = {
+                    add_to_global_variable_list = { name = laqab_proof_faith target = root }
+                    add_character_flag = laqab_proof_faith
+                }
+                1 = {
+                    add_to_global_variable_list = { name = laqab_light_faith2 target = root }
+                    add_character_flag = laqab_light_faith2
+                }
+                1 = {
+                    add_to_global_variable_list = { name = laqab_pride_faith target = root }
+                    add_character_flag = laqab_pride_faith
+                }
+                1 = {
+                    add_to_global_variable_list = { name = laqab_uniqueness_faith target = root }
+                    add_character_flag = laqab_uniqueness_faith
+                }
+                1 = {
+                    add_to_global_variable_list = { name = laqab_triumph_faith target = root }
+                    add_character_flag = laqab_triumph_faith
+                }
+                1 = {
+                    add_to_global_variable_list = { name = laqab_patron_faith target = root }
+                    add_character_flag = laqab_patron_faith
+                }
+                1 = {
+                    add_to_global_variable_list = { name = laqab_protector_faith target = root }
+                    add_character_flag = laqab_protector_faith
+                }
+                1 = {
+                    add_to_global_variable_list = { name = laqab_lauded_faith target = root }
+                    add_character_flag = laqab_lauded_faith
+                }
+                1 = {
+                    add_to_global_variable_list = { name = laqab_truth_faith target = root }
+                    add_character_flag = laqab_truth_faith
+                }
+                1 = {
+                    add_to_global_variable_list = { name = laqab_generosity_faith target = root }
+                    add_character_flag = laqab_generosity_faith
+                }
+                1 = {
+                    add_to_global_variable_list = { name = laqab_sword_faith target = root }
+                    add_character_flag = laqab_sword_faith
+                }
+                1 = {
+                    add_to_global_variable_list = { name = laqab_chosen_faith target = root }
+                    add_character_flag = laqab_chosen_faith
+                }
+                1 = {
+                    add_to_global_variable_list = { name = laqab_support_faith target = root }
+                    add_character_flag = laqab_support_faith
+                }
+                1 = {
+                    add_to_global_variable_list = { name = laqab_glory2_faith target = root }
+                    add_character_flag = laqab_glory2_faith
+                }
+                1 = {
+                    add_to_global_variable_list = { name = laqab_majesty_faith target = root }
+                    add_character_flag = laqab_majesty_faith
+                }
+                1 = {
+                    add_to_global_variable_list = { name = laqab_beauty_faith target = root }
+                    add_character_flag = laqab_beauty_faith
+                }
+                1 = {
+                    add_to_global_variable_list = { name = laqab_perfection_faith target = root }
+                    add_character_flag = laqab_perfection_faith
+                }
+                1 = {
+                    add_to_global_variable_list = { name = laqab_goodness_faith target = root }
+                    add_character_flag = laqab_goodness_faith
+                }
+                1 = {
+                    add_to_global_variable_list = { name = laqab_glory3_faith target = root }
+                    add_character_flag = laqab_glory3_faith
+                }
+                1 = {
+                    add_to_global_variable_list = { name = laqab_victory_faith target = root }
+                    add_character_flag = laqab_victory_faith
+                }
+                1 = {
+                    add_to_global_variable_list = { name = laqab_supporter_faith target = root }
+                    add_character_flag = laqab_supporter_faith
+                }
+                1 = {
+                    add_to_global_variable_list = { name = laqab_fortifier_faith target = root }
+                    add_character_flag = laqab_fortifier_faith
+                }
+                1 = {
+                    add_to_global_variable_list = { name = laqab_friend_faith target = root }
+                    add_character_flag = laqab_friend_faith
+                }
+                1 = {
+                    add_to_global_variable_list = { name = laqab_reviver_faith target = root }
+                    add_character_flag = laqab_reviver_faith
+                }
+                1 = {
+                    add_to_global_variable_list = { name = laqab_helper_faith target = root }
+                    add_character_flag = laqab_helper_faith
+                }
+                1 = {
+                    add_to_global_variable_list = { name = laqab_protector2_faith target = root }
+                    add_character_flag = laqab_protector2_faith
+                }
+                1 = {
+                    add_to_global_variable_list = { name = laqab_expander_faith target = root }
+                    add_character_flag = laqab_expander_faith
+                }
+                1 = {
+                    add_to_global_variable_list = { name = laqab_reformer_faith target = root }
+                    add_character_flag = laqab_reformer_faith
+                }
+                1 = {
+                    add_to_global_variable_list = { name = laqab_victorious_faith target = root }
+                    add_character_flag = laqab_victorious_faith
+                }
+                1 = {
+                    add_to_global_variable_list = { name = laqab_star_faith target = root }
+                    add_character_flag = laqab_star_faith
+                }
+                1 = {
+                    add_to_global_variable_list = { name = laqab_order_faith target = root }
+                    add_character_flag = laqab_order_faith
+                }
+                1 = {
+                    add_to_global_variable_list = { name = laqab_light3_faith target = root }
+                    add_character_flag = laqab_light3_faith
+                }
+                1 = {
+                    add_to_global_variable_list = { name = laqab_moon_faith target = root }
+                    add_character_flag = laqab_moon_faith
+                }
+                1 = {
+                    add_to_global_variable_list = { name = laqab_axis_faith target = root }
+                    add_character_flag = laqab_axis_faith
+                }
+                1 = {
+                    add_to_global_variable_list = { name = laqab_uplifter_faith target = root }
+                    add_character_flag = laqab_uplifter_faith
+                }
+                1 = {
+                    add_to_global_variable_list = { name = laqab_orthodox_faith target = root }
+                    add_character_flag = laqab_orthodox_faith
+                }
+                1 = {
+                    add_to_global_variable_list = { name = laqab_garden_faith target = root }
+                    add_character_flag = laqab_garden_faith
+                }
+                1 = {
+                    add_to_global_variable_list = { name = laqab_pillar_faith target = root }
+                    add_character_flag = laqab_pillar_faith
+                }
+                1 = {
+                    add_to_global_variable_list = { name = laqab_morning_faith target = root }
+                    add_character_flag = laqab_morning_faith
+                }
+                1 = {
+                    add_to_global_variable_list = { name = laqab_perseverance_faith target = root }
+                    add_character_flag = laqab_perseverance_faith
+                }
+                1 = {
+                    add_to_global_variable_list = { name = laqab_heart_faith target = root }
+                    add_character_flag = laqab_heart_faith
+                }
+                1 = {
+                    add_to_global_variable_list = { name = laqab_purity_faith target = root }
+                    add_character_flag = laqab_purity_faith
+                }
+                1 = {
+                    add_to_global_variable_list = { name = laqab_righteousness_faith target = root }
+                    add_character_flag = laqab_righteousness_faith
+                }
+                1 = {
+                    add_to_global_variable_list = { name = laqab_sword2_faith target = root }
+                    add_character_flag = laqab_sword2_faith
+                }
+                1 = {
+                    add_to_global_variable_list = { name = laqab_sun_faith target = root }
+                    add_character_flag = laqab_sun_faith
+                }
+                1 = {
+                    add_to_global_variable_list = { name = laqab_dignity_faith target = root }
+                    add_character_flag = laqab_dignity_faith
+                }
+                1 = {
+                    add_to_global_variable_list = { name = laqab_meteor_faith target = root }
+                    add_character_flag = laqab_meteor_faith
+                }
+                1 = {
+                    add_to_global_variable_list = { name = laqab_courage_faith target = root }
+                    add_character_flag = laqab_courage_faith
+                }
+                1 = {
+                    add_to_global_variable_list = { name = laqab_lamp_faith target = root }
+                    add_character_flag = laqab_lamp_faith
+                }
+                1 = {
+                    add_to_global_variable_list = { name = laqab_crown_faith target = root }
+                    add_character_flag = laqab_crown_faith
+                }
+                1 = {
+                    add_to_global_variable_list = { name = laqab_pious_faith target = root }
+                    add_character_flag = laqab_pious_faith
+                }
+                1 = {
+                    add_to_global_variable_list = { name = laqab_helper3_faith target = root }
+                    add_character_flag = laqab_helper3_faith
+                }
+                1 = {
+                    add_to_global_variable_list = { name = laqab_beauty2_faith target = root }
+                    add_character_flag = laqab_beauty2_faith
+                }
+            }
+        }
+        0 = {
+            modifier = {
+                is_male = no
+                add = 1
+            }
+            random_list = {
+                1 = {
+                    add_to_global_variable_list = { name = laqab_knowledgeable_faith_f target = root }
+                    add_character_flag = laqab_knowledgeable_faith_f
+                }
+                1 = {
+                    add_to_global_variable_list = { name = laqab_majesty_faith_f target = root }
+                    add_character_flag = laqab_majesty_faith_f
+                }
+                1 = {
+                    add_to_global_variable_list = { name = laqab_purity_faith_f target = root }
+                    add_character_flag = laqab_purity_faith_f
+                }
+                1 = {
+                    add_to_global_variable_list = { name = laqab_pleased_faith_f target = root }
+                    add_character_flag = laqab_pleased_faith_f
+                }
+                1 = {
+                    add_to_global_variable_list = { name = laqab_pleased_world_f target = root }
+                    add_character_flag = laqab_pleased_world_f
+                }
+            }
+        }
+    }
+}
+
+reset_reg_laqab_effect = {
+    if = {
+        limit = { has_character_flag = laqab_nobility_faith }
+        remove_list_global_variable = { name = laqab_nobility_faith target = root }
+        remove_character_flag = laqab_nobility_faith
+    }
+    else_if = {
+        limit = { has_character_flag = laqab_pleased_world_f }
+        remove_list_global_variable = { name = laqab_pleased_world_f target = root }
+        remove_character_flag = laqab_pleased_world_f
+    }
+    else_if = {
+        limit = { has_character_flag = laqab_pleased_faith_f }
+        remove_list_global_variable = { name = laqab_pleased_faith_f target = root }
+        remove_character_flag = laqab_pleased_faith_f
+    }
+    else_if = {
+        limit = { has_character_flag = laqab_purity_faith_f }
+        remove_list_global_variable = { name = laqab_purity_faith_f target = root }
+        remove_character_flag = laqab_purity_faith_f
+    }
+    else_if = {
+        limit = { has_character_flag = laqab_majesty_faith_f }
+        remove_list_global_variable = { name = laqab_majesty_faith_f target = root }
+        remove_character_flag = laqab_majesty_faith_f
+    }
+    else_if = {
+        limit = { has_character_flag = laqab_knowledgeable_faith_f }
+        remove_list_global_variable = { name = laqab_knowledgeable_faith_f target = root }
+        remove_character_flag = laqab_knowledgeable_faith_f
+    }
+    else_if = {
+        limit = { has_character_flag = laqab_beauty2_faith }
+        remove_list_global_variable = { name = laqab_beauty2_faith target = root }
+        remove_character_flag = laqab_beauty2_faith
+    }
+    else_if = {
+        limit = { has_character_flag = laqab_helper3_faith }
+        remove_list_global_variable = { name = laqab_helper3_faith target = root }
+        remove_character_flag = laqab_helper3_faith
+    }
+    else_if = {
+        limit = { has_character_flag = laqab_pious_faith }
+        remove_list_global_variable = { name = laqab_pious_faith target = root }
+        remove_character_flag = laqab_pious_faith
+    }
+    else_if = {
+        limit = { has_character_flag = laqab_crown_faith }
+        remove_list_global_variable = { name = laqab_crown_faith target = root }
+        remove_character_flag = laqab_crown_faith
+    }
+    else_if = {
+        limit = { has_character_flag = laqab_lamp_faith }
+        remove_list_global_variable = { name = laqab_lamp_faith target = root }
+        remove_character_flag = laqab_lamp_faith
+    }
+    else_if = {
+        limit = { has_character_flag = laqab_courage_faith }
+        remove_list_global_variable = { name = laqab_courage_faith target = root }
+        remove_character_flag = laqab_courage_faith
+    }
+    else_if = {
+        limit = { has_character_flag = laqab_meteor_faith }
+        remove_list_global_variable = { name = laqab_meteor_faith target = root }
+        remove_character_flag = laqab_meteor_faith
+    }
+    else_if = {
+        limit = { has_character_flag = laqab_dignity_faith }
+        remove_list_global_variable = { name = laqab_dignity_faith target = root }
+        remove_character_flag = laqab_dignity_faith
+    }
+    else_if = {
+        limit = { has_character_flag = laqab_sun_faith }
+        remove_list_global_variable = { name = laqab_sun_faith target = root }
+        remove_character_flag = laqab_sun_faith
+    }
+    else_if = {
+        limit = { has_character_flag = laqab_sword2_faith }
+        remove_list_global_variable = { name = laqab_sword2_faith target = root }
+        remove_character_flag = laqab_sword2_faith
+    }
+    else_if = {
+        limit = { has_character_flag = laqab_righteousness_faith }
+        remove_list_global_variable = { name = laqab_righteousness_faith target = root }
+        remove_character_flag = laqab_righteousness_faith
+    }
+    else_if = {
+        limit = { has_character_flag = laqab_purity_faith }
+        remove_list_global_variable = { name = laqab_purity_faith target = root }
+        remove_character_flag = laqab_purity_faith
+    }
+    else_if = {
+        limit = { has_character_flag = laqab_heart_faith }
+        remove_list_global_variable = { name = laqab_heart_faith target = root }
+        remove_character_flag = laqab_heart_faith
+    }
+    else_if = {
+        limit = { has_character_flag = laqab_perseverance_faith }
+        remove_list_global_variable = { name = laqab_perseverance_faith target = root }
+        remove_character_flag = laqab_perseverance_faith
+    }
+    else_if = {
+        limit = { has_character_flag = laqab_morning_faith }
+        remove_list_global_variable = { name = laqab_morning_faith target = root }
+        remove_character_flag = laqab_morning_faith
+    }
+    else_if = {
+        limit = { has_character_flag = laqab_pillar_faith }
+        remove_list_global_variable = { name = laqab_pillar_faith target = root }
+        remove_character_flag = laqab_pillar_faith
+    }
+    else_if = {
+        limit = { has_character_flag = laqab_garden_faith }
+        remove_list_global_variable = { name = laqab_garden_faith target = root }
+        remove_character_flag = laqab_garden_faith
+    }
+    else_if = {
+        limit = { has_character_flag = laqab_orthodox_faith }
+        remove_list_global_variable = { name = laqab_orthodox_faith target = root }
+        remove_character_flag = laqab_orthodox_faith
+    }
+    else_if = {
+        limit = { has_character_flag = laqab_uplifter_faith }
+        remove_list_global_variable = { name = laqab_uplifter_faith target = root }
+        remove_character_flag = laqab_uplifter_faith
+    }
+    else_if = {
+        limit = { has_character_flag = laqab_axis_faith }
+        remove_list_global_variable = { name = laqab_axis_faith target = root }
+        remove_character_flag = laqab_axis_faith
+    }
+    else_if = {
+        limit = { has_character_flag = laqab_moon_faith }
+        remove_list_global_variable = { name = laqab_moon_faith target = root }
+        remove_character_flag = laqab_moon_faith
+    }
+    else_if = {
+        limit = { has_character_flag = laqab_light3_faith }
+        remove_list_global_variable = { name = laqab_light3_faith target = root }
+        remove_character_flag = laqab_light3_faith
+    }
+    else_if = {
+        limit = { has_character_flag = laqab_order_faith }
+        remove_list_global_variable = { name = laqab_order_faith target = root }
+        remove_character_flag = laqab_order_faith
+    }
+    else_if = {
+        limit = { has_character_flag = laqab_star_faith }
+        remove_list_global_variable = { name = laqab_star_faith target = root }
+        remove_character_flag = laqab_star_faith
+    }
+    else_if = {
+        limit = { has_character_flag = laqab_victorious_faith }
+        remove_list_global_variable = { name = laqab_victorious_faith target = root }
+        remove_character_flag = laqab_victorious_faith
+    }
+    else_if = {
+        limit = { has_character_flag = laqab_reformer_faith }
+        remove_list_global_variable = { name = laqab_reformer_faith target = root }
+        remove_character_flag = laqab_reformer_faith
+    }
+    else_if = {
+        limit = { has_character_flag = laqab_expander_faith }
+        remove_list_global_variable = { name = laqab_expander_faith target = root }
+        remove_character_flag = laqab_expander_faith
+    }
+    else_if = {
+        limit = { has_character_flag = laqab_protector2_faith }
+        remove_list_global_variable = { name = laqab_protector2_faith target = root }
+        remove_character_flag = laqab_protector2_faith
+    }
+    else_if = {
+        limit = { has_character_flag = laqab_helper_faith }
+        remove_list_global_variable = { name = laqab_helper_faith target = root }
+        remove_character_flag = laqab_helper_faith
+    }
+    else_if = {
+        limit = { has_character_flag = laqab_reviver_faith }
+        remove_list_global_variable = { name = laqab_reviver_faith target = root }
+        remove_character_flag = laqab_reviver_faith
+    }
+    else_if = {
+        limit = { has_character_flag = laqab_friend_faith }
+        remove_list_global_variable = { name = laqab_friend_faith target = root }
+        remove_character_flag = laqab_friend_faith
+    }
+    else_if = {
+        limit = { has_character_flag = laqab_fortifier_faith }
+        remove_list_global_variable = { name = laqab_fortifier_faith target = root }
+        remove_character_flag = laqab_fortifier_faith
+    }
+    else_if = {
+        limit = { has_character_flag = laqab_supporter_faith }
+        remove_list_global_variable = { name = laqab_supporter_faith target = root }
+        remove_character_flag = laqab_supporter_faith
+    }
+    else_if = {
+        limit = { has_character_flag = laqab_victory_faith }
+        remove_list_global_variable = { name = laqab_victory_faith target = root }
+        remove_character_flag = laqab_victory_faith
+    }
+    else_if = {
+        limit = { has_character_flag = laqab_glory3_faith }
+        remove_list_global_variable = { name = laqab_glory3_faith target = root }
+        remove_character_flag = laqab_glory3_faith
+    }
+    else_if = {
+        limit = { has_character_flag = laqab_goodness_faith }
+        remove_list_global_variable = { name = laqab_goodness_faith target = root }
+        remove_character_flag = laqab_goodness_faith
+    }
+    else_if = {
+        limit = { has_character_flag = laqab_perfection_faith }
+        remove_list_global_variable = { name = laqab_perfection_faith target = root }
+        remove_character_flag = laqab_perfection_faith
+    }
+    else_if = {
+        limit = { has_character_flag = laqab_beauty_faith }
+        remove_list_global_variable = { name = laqab_beauty_faith target = root }
+        remove_character_flag = laqab_beauty_faith
+    }
+    else_if = {
+        limit = { has_character_flag = laqab_majesty_faith }
+        remove_list_global_variable = { name = laqab_majesty_faith target = root }
+        remove_character_flag = laqab_majesty_faith
+    }
+    else_if = {
+        limit = { has_character_flag = laqab_glory2_faith }
+        remove_list_global_variable = { name = laqab_glory2_faith target = root }
+        remove_character_flag = laqab_glory2_faith
+    }
+    else_if = {
+        limit = { has_character_flag = laqab_support_faith }
+        remove_list_global_variable = { name = laqab_support_faith target = root }
+        remove_character_flag = laqab_support_faith
+    }
+    else_if = {
+        limit = { has_character_flag = laqab_chosen_faith }
+        remove_list_global_variable = { name = laqab_chosen_faith target = root }
+        remove_character_flag = laqab_chosen_faith
+    }
+    else_if = {
+        limit = { has_character_flag = laqab_sword_faith }
+        remove_list_global_variable = { name = laqab_sword_faith target = root }
+        remove_character_flag = laqab_sword_faith
+    }
+    else_if = {
+        limit = { has_character_flag = laqab_generosity_faith }
+        remove_list_global_variable = { name = laqab_generosity_faith target = root }
+        remove_character_flag = laqab_generosity_faith
+    }
+    else_if = {
+        limit = { has_character_flag = laqab_truth_faith }
+        remove_list_global_variable = { name = laqab_truth_faith target = root }
+        remove_character_flag = laqab_truth_faith
+    }
+    else_if = {
+        limit = { has_character_flag = laqab_lauded_faith }
+        remove_list_global_variable = { name = laqab_lauded_faith target = root }
+        remove_character_flag = laqab_lauded_faith
+    }
+    else_if = {
+        limit = { has_character_flag = laqab_protector_faith }
+        remove_list_global_variable = { name = laqab_protector_faith target = root }
+        remove_character_flag = laqab_protector_faith
+    }
+    else_if = {
+        limit = { has_character_flag = laqab_patron_faith }
+        remove_list_global_variable = { name = laqab_patron_faith target = root }
+        remove_character_flag = laqab_patron_faith
+    }
+    else_if = {
+        limit = { has_character_flag = laqab_triumph_faith }
+        remove_list_global_variable = { name = laqab_triumph_faith target = root }
+        remove_character_flag = laqab_triumph_faith
+    }
+    else_if = {
+        limit = { has_character_flag = laqab_uniqueness_faith }
+        remove_list_global_variable = { name = laqab_uniqueness_faith target = root }
+        remove_character_flag = laqab_uniqueness_faith
+    }
+    else_if = {
+        limit = { has_character_flag = laqab_pride_faith }
+        remove_list_global_variable = { name = laqab_pride_faith target = root }
+        remove_character_flag = laqab_pride_faith
+    }
+    else_if = {
+        limit = { has_character_flag = laqab_light_faith2 }
+        remove_list_global_variable = { name = laqab_light_faith2 target = root }
+        remove_character_flag = laqab_light_faith2
+    }
+    else_if = {
+        limit = { has_character_flag = laqab_proof_faith }
+        remove_list_global_variable = { name = laqab_proof_faith target = root }
+        remove_character_flag = laqab_proof_faith
+    }
+    else_if = {
+        limit = { has_character_flag = laqab_glory_faith }
+        remove_list_global_variable = { name = laqab_glory_faith target = root }
+        remove_character_flag = laqab_glory_faith
+    }
+    else_if = {
+        limit = { has_character_flag = laqab_fullmoon_faith }
+        remove_list_global_variable = { name = laqab_fullmoon_faith target = root }
+        remove_character_flag = laqab_fullmoon_faith
+    }
+    else_if = {
+        limit = { has_character_flag = laqab_magnificience_faith }
+        remove_list_global_variable = { name = laqab_magnificience_faith target = root }
+        remove_character_flag = laqab_magnificience_faith
+    }
+    else_if = {
+        limit = { has_character_flag = laqab_knowledgable_faith }
+        remove_list_global_variable = { name = laqab_knowledgable_faith target = root }
+        remove_character_flag = laqab_knowledgable_faith
+    }
+    else_if = {
+        limit = { has_character_flag = laqab_light_faith }
+        remove_list_global_variable = { name = laqab_light_faith target = root }
+        remove_character_flag = laqab_light_faith
+    }
+    else_if = {
+        limit = { has_character_flag = laqab_brilliance_faith }
+        remove_list_global_variable = { name = laqab_brilliance_faith target = root }
+        remove_character_flag = laqab_brilliance_faith
+    }
+}

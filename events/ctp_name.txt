@@ -1203,7 +1203,7 @@ ctpname.004 = {
 			add_character_flag = has_caliph_laqab
 		}
 		character:159738 = {
-			add_character_flag = has_laqab
+			add_character_flag = has_reg_laqab
 		}
 		character:159406 = {
 			add_character_flag = had_eldest_son
@@ -1638,7 +1638,7 @@ ctpname.008 = {
 			set_variable = { name = var_dad_eldest_son value = character:34526 }
 		}
 		character:KOH_GOKBORI = {
-			add_character_flag = has_laqab
+			add_character_flag = has_reg_laqab
 		}
 		character:93393 = {
 			add_character_flag = had_eldest_son
@@ -2015,7 +2015,7 @@ ctpname.010 = {
 			add_character_flag = has_regnal_laqab
 		}
 		character:tahmtanormus = {
-			add_character_flag = has_laqab
+			add_character_flag = has_reg_laqab
 		}
 		character:34483 = {
 			add_character_flag = had_eldest_son
@@ -2025,10 +2025,10 @@ ctpname.010 = {
 			add_character_flag = has_regnal_laqab
 		}
 		character:485002 = {
-			add_character_flag = has_laqab
+			add_character_flag = has_reg_laqab
 		}
 		character:485004 = {
-			add_character_flag = has_laqab
+			add_character_flag = has_reg_laqab
 		}
 		character:93424 = {
 			add_character_flag = has_regnal_laqab
