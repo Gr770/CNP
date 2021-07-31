@@ -12,6 +12,17 @@ get_regnal_laqab_confirm: "Prepare yours now."
 get_regnal_laqab_effect: "Achieve a new form of address."
 get_ducal_laqab: "Choose your Laqab"
 get_ducal_laqab_tooltip: "Generate a laqab."
+
+assign_caliph_laqab: "Reward a New Name"
+assign_caliph_laqab_desc: "Give this character a New Name of Prestiege from their aid to your state"
+assign_caliph_laqab_get_event_desc: "Runs an event chain to select laqab"
+assign_caliph_laqab_get_event: "Start Selection of Name"
+
+assign_faith_laqab: "Reward a New Name"
+assign_faith_laqab_desc: "Give this character a New Name of Prestiege from their aid to your faith"
+assign_faith_laqab_get_event_desc: "Runs an event chain to select laqab"
+assign_faith_laqab_get_event: "Start Selection of Name"
+
 arabicnamepack.001.t: "A Pious Name"
 arabicnamepack.001.desc: "I am the Caliph, commander of the faithful and righful head of all the [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] world. It has been tradition for all Caliphs throughout the ages to bear a name that would exalt their name in front of the masses and signify their relationship to the Almighty. I must choose an appropriate [laqab|E] to communicate devotion and gravitas to my realm.\n\nYou shall be called #high [GetScriptedGui('scripted_gui_ctp_laqab').ExecuteTooltip(GuiScope.SetRoot(ROOT.Char.MakeScope).End)]#!."
 arabicnamepack.001.a: "No, no... Not good enough."

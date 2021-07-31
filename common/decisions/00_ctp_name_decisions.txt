@@ -105,6 +105,7 @@ get_ducal_laqab = {
             has_title = title:d_sunni
             has_title = title:d_shiite
 			root.faith.religious_head = root
+            has_government = tribal_government
 		}
     }
 
