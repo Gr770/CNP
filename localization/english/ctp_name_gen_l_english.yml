@@ -40,6 +40,10 @@
  CTP_Me_no_tooltip_no_format: "Me"
  CTP_My_no_format: "#ONCLICK:CHARACTER,[ROOT.Char.GetID] #TOOLTIP:CHARACTER,[ROOT.Char.GetID] #L My#!#!#!"
  CTP_My_no_tooltip_no_format: "My"
+ CTP_His: "His"
+ CTP_Her: "Her"
+
+ CTP_Short_event_Arabic: "[Localize(Concatenate(Concatenate(Concatenate(Concatenate(ROOT.Char.Custom('CharacterTier'),ROOT.Char.Custom('CharacterGender')),ROOT.Char.Custom('CharacterGov')),ROOT.Char.Custom('CharacterCulture')),ROOT.Char.Custom('CharacterReligion')))][ROOT.Char.Custom('CTPNameCheck')]"
 
  CTP_Full_Name_Default: "[ROOT.Char.GetUINameNotMeNoTooltip]"
 

@@ -43,6 +43,21 @@
 		localization_key = Gui_blank
 	}
 }
+CTPHisHer = {
+    type = character
+    text = {
+        trigger = {
+            is_male = yes
+        }
+        localization_key = CTP_His
+    }
+    text = {
+        trigger = {
+            is_male = no
+        }
+        localization_key = CTP_Her
+    }
+}
 CTPNameCheck = {
     type = character
     text = {
@@ -70,6 +85,19 @@ CTPNameCheck = {
         fallback = yes
 		localization_key = CTP_nonsupported_name
     }
+}
+CTPShortEventName = {
+    type = character
+    text = {
+        trigger = {
+			has_culture_group = culture_group:arabic_group
+		}
+		localization_key = CTP_Short_event_Arabic
+    }
+	text = {
+		fallback = yes
+		localization_key = CTP_First_Name_Default_no_tooltip
+	}
 }
 CTPFullName = {
 	type = character

@@ -833,6 +833,12 @@ arabicnamepack.004 = {
 		name = arabicnamepack.004.b
 		custom_tooltip = arabicnamepack.004.b.tt
 		add_character_flag = has_reg_laqab
+		scope:recipient = {
+			trigger_event = {
+				id = arabicnamepack.010
+				days = -1
+			}
+		}
 	}
 }
 arabicnamepack.005 = {
@@ -858,7 +864,7 @@ arabicnamepack.005 = {
 	}
 	option = {
 		name = arabicnamepack.005.b
-		custom_tooltip = arabicnamepack.004.b.tt
+		custom_tooltip = arabicnamepack.005.b.tt
 		add_character_flag = has_reg_laqab
 	}
 }
@@ -899,6 +905,12 @@ arabicnamepack.007 = {
 		name = arabicnamepack.007.b
 		custom_tooltip = arabicnamepack.007.b.tt
 		add_character_flag = has_reg_laqab
+		scope:recipient = {
+			trigger_event = {
+				id = arabicnamepack.011
+				days = -1
+			}
+		}
 	}
 }
 arabicnamepack.008 = {
@@ -934,5 +946,31 @@ arabicnamepack.009 = {
 	immediate = {
 		assign_reg_laqab_effect = yes
 		add_character_flag = has_reg_laqab
+	}
+}
+arabicnamepack.010 = {
+    type = character_event
+	theme = faith
+	title = arabicnamepack.005.t
+	desc = arabicnamepack.005.desc
+	left_portrait = scope:actor
+	right_portrait = root
+
+	option = {
+		name = arabicnamepack.005.b
+		custom_tooltip = arabicnamepack.005.b.tt
+	}
+}
+arabicnamepack.011 = {
+    type = character_event
+	theme = faith
+	title = arabicnamepack.008.t
+	desc = arabicnamepack.008.desc
+	left_portrait = scope:actor
+	right_portrait = root
+
+	option = {
+		name = arabicnamepack.008.b
+		custom_tooltip = arabicnamepack.008.b.tt
 	}
 }
