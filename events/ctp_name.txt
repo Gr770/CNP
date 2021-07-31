@@ -1797,6 +1797,65 @@ ctpname.009 = {
 			add_to_variable_list = { name = name_pack_support_dynasty target = character:34480 }
 			add_to_variable_list = { name = name_pack_support_dynasty target = character:34478 }
 		}
+		dynasty:101023 = {
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:34493 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:34492 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:34491 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:34490 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:34489 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:34488 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:34487 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:34486 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:34485 }
+		}
+		dynasty:139 = {
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:144098 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:144097 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:144096 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:144094 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:144095 }
+		}
+		dynasty:100690 = {
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:144564 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:144562 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:144561 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:bedouin0143 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:bedouin0141 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:bedouin0139 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:bedouin0138 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:bedouin0134 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:bedouin0135 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:bedouin0137 }
+		}
+		character:bedouin0137 = {
+			change_first_name = Jafar
+		}
+		character:bedouin0141 = {
+			change_first_name = Jafar
+		}
+		character:144095 = {
+			change_first_name = Yusuf
+			add_to_global_variable_list = { name = laqab_victorious target = this }
+		}
+		character:144094 = {
+			change_first_name = Umar
+			add_to_global_variable_list = { name = laqab_the_victorious target = this }
+		}
+		character:144096 = {
+			change_first_name = Dawud
+			add_to_global_variable_list = { name = laqab_the_empowering target = this }
+		}
+		character:144097 = {
+			change_first_name = Dawud
+			add_to_global_variable_list = { name = laqab_the_empowering target = this }
+		}
+		character:144098 = {
+			change_first_name = Ali
+			add_to_global_variable_list = { name = laqab_glorifying target = this }
+		}
+		character:34493 = {
+			change_first_name = Dawud
+		}
 		character:tahmtanormus = {
 			change_first_name = Tahmtan
 			add_to_global_variable_list = { name = laqab_victorious target = this }
@@ -1952,6 +2011,9 @@ ctpname.010 = {
 		TLaTL_loaded_checker = yes
 	}
 	immediate = {
+		character:144098 = {
+			add_character_flag = has_regnal_laqab
+		}
 		character:tahmtanormus = {
 			add_character_flag = has_laqab
 		}
@@ -1960,7 +2022,7 @@ ctpname.010 = {
 			set_variable = { name = var_dad_eldest_son value = character:34484 }
 		}
 		character:485430 = {
-			add_character_flag = has_regal_laqab
+			add_character_flag = has_regnal_laqab
 		}
 		character:485002 = {
 			add_character_flag = has_laqab
@@ -1969,7 +2031,7 @@ ctpname.010 = {
 			add_character_flag = has_laqab
 		}
 		character:93424 = {
-			add_character_flag = has_regal_laqab
+			add_character_flag = has_regnal_laqab
 			add_character_flag = had_eldest_son
 			set_variable = { name = var_dad_eldest_son value = character:93425 }
 		}
@@ -1987,7 +2049,7 @@ ctpname.010 = {
 			set_variable = { name = var_dad_eldest_son value = character:34037 }
 		}
 		character:485000 = {
-			add_character_flag = has_regal_laqab
+			add_character_flag = has_regnal_laqab
 			add_character_flag = had_eldest_son
 			set_variable = { name = var_dad_eldest_son value = character:485004 }
 		}

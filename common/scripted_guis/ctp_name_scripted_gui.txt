@@ -2447,6 +2447,16 @@ scripted_gui_ctp_laqab = {
 		}
 		else_if = {
 			limit = {
+				exists = scope:laqab_help_faith_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_help_faith
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
 				exists = scope:laqab_order_faith_scope
 			}
 			custom_description_no_bullet = {
@@ -4929,6 +4939,16 @@ scripted_gui_ctp_laqab_tek_name_check = {
 			}
 			custom_description_no_bullet = {
 				text = scripted_gui_trigger_laqab_star_faith
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_help_faith_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_help_faith
 				subject = scope:effect_root
 				object = scope:effect_root
 			}
