@@ -897,7 +897,7 @@ arabicnamepack.007 = {
 			reset_reg_laqab_effect = yes
 		}
 		trigger_event = {
-			id = arabicnamepack.004
+			id = arabicnamepack.007
 			days = -1
 		}
 	}
@@ -930,7 +930,7 @@ arabicnamepack.008 = {
 		custom_tooltip = arabicnamepack.008.a.tt
 		reset_reg_laqab_effect = yes
 		trigger_event = {
-			id = arabicnamepack.005
+			id = arabicnamepack.008
 			days = -1
 		}
 	}
