@@ -2346,6 +2346,15 @@ arabic_pack_culture_name_female = {
 
 arabic_pack_faith_name_male = {
     IF = {
+        limit = { has_religion = religion:germanic_religion }
+        add_character_flag = name_pack_support
+        random_list = {
+            1 = {
+                change_first_name = Abdat-Thor
+            }
+        }
+    }
+    IF = {
         limit = { has_religion = religion:islam_religion }
         add_character_flag = name_pack_support
         random_list = {
@@ -2759,6 +2768,15 @@ arabic_pack_faith_name_male = {
 }
 
 arabic_pack_faith_name_female = {
+    IF = {
+        limit = { has_religion = religion:germanic_religion }
+        add_character_flag = name_pack_support
+        random_list = {
+            1 = {
+                change_first_name = Amatat-Thor
+            }
+        }
+    }
     IF = {
         limit = { has_religion = religion:islam_religion }
         add_character_flag = name_pack_support

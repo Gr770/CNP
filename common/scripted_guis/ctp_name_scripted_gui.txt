@@ -6284,6 +6284,7 @@ CTP_faith_name_support = {
 		OR = {
 			has_religion = religion:islam_religion
 			has_religion = religion:christianity_religion
+			has_religion = religion:germanic_religion
 		}
 	}
 }
@@ -6312,7 +6313,7 @@ CTP_faith_names = {
 				}
 				IF = {
 					limit = { has_culture_group = culture_group:arabic_group }
-					arabic_pack_faith_name_female = yes
+					arabic_pack_faith_name_male = yes
 				}
 			}
 			IF = {
@@ -6322,7 +6323,7 @@ CTP_faith_names = {
 				}
 				IF = {
 					limit = { has_culture_group = culture_group:arabic_group }
-					arabic_pack_faith_name_male = yes
+					arabic_pack_faith_name_female = yes
 				}
 			}
 		}

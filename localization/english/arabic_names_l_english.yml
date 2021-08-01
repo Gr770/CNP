@@ -3974,17 +3974,23 @@
 
  #Sagas of Freyr
 
- Adalsteinn_arabic: "ʿAdalistiyn"
- Adalsteinn_arabic_tek_mom: "ʾUmm ʿAdalistiyn"
- Adalsteinn_arabic_tek_dad: "ʾAbū ʿAdalistiyn"
- Adalsteinn_arabic_pat_dad_male: "ibn ʿAdalistiyn"
- Adalsteinn_arabic_pat_dad_female: "bint ʿAdalistiyn"
+ Abdat-Thor_arabic: "ʿAbd at-Ṯūrr"
+ Abdat-Thor_arabic_tek_mom: "ʾUmm ʿAbd at-Ṯūrr"
+ Abdat-Thor_arabic_tek_dad: "ʾAbū ʿAbd at-Ṯūrr"
+ Abdat-Thor_arabic_pat_dad_male: "ibn ʿAbd at-Ṯūrr"
+ Abdat-Thor_arabic_pat_dad_female: "bint ʿAbd at-Ṯūrr"
 
- Arnsteinn_arabic: "ʾArnistiyn"
- Arnsteinn_arabic_tek_mom: "ʾUmm ʾArnistiyn"
- Arnsteinn_arabic_tek_dad: "ʾAbū ʾArnistiyn"
- Arnsteinn_arabic_pat_dad_male: "ibn ʾArnistiyn"
- Arnsteinn_arabic_pat_dad_female: "bint ʾArnistiyn"
+ Adalsteinn_arabic: "ʾAḏalstayn"
+ Adalsteinn_arabic_tek_mom: "ʾUmm ʾAḏalstayn"
+ Adalsteinn_arabic_tek_dad: "ʾAbū ʾAḏalstayn"
+ Adalsteinn_arabic_pat_dad_male: "ibn ʾAḏalstayn"
+ Adalsteinn_arabic_pat_dad_female: "bint ʾAḏalstayn"
+
+ Arnsteinn_arabic: "ʾArnstayn"
+ Arnsteinn_arabic_tek_mom: "ʾUmm ʾArnstayn"
+ Arnsteinn_arabic_tek_dad: "ʾAbū ʾArnstayn"
+ Arnsteinn_arabic_pat_dad_male: "ibn ʾArnstayn"
+ Arnsteinn_arabic_pat_dad_female: "bint ʾArnstayn"
 
  Eysteinn_arabic: "ʿAyistiyn"
  Eysteinn_arabic_tek_mom: "ʾUmm ʿAyistiyn"
@@ -4004,11 +4010,11 @@
  Gunnsteinn_arabic_pat_dad_male: "ibn Junistiyn"
  Gunnsteinn_arabic_pat_dad_female: "bint Junistiyn"
 
- Hasteinn_arabic: "Hastiyn"
- Hasteinn_arabic_tek_mom: "ʾUmm Hastiyn"
- Hasteinn_arabic_tek_dad: "ʾAbū Hastiyn"
- Hasteinn_arabic_pat_dad_male: "ibn Hastiyn"
- Hasteinn_arabic_pat_dad_female: "bint Hastiyn"
+ Hasteinn_arabic: "Hāstayn"
+ Hasteinn_arabic_tek_mom: "ʾUmm Hāstayn"
+ Hasteinn_arabic_tek_dad: "ʾAbū Hāstayn"
+ Hasteinn_arabic_pat_dad_male: "ibn Hāstayn"
+ Hasteinn_arabic_pat_dad_female: "bint Hāstayn"
 
  Hafsteinn_arabic: "Hafistiyn"
  Hafsteinn_arabic_tek_mom: "ʾUmm Hafistiyn"
@@ -4034,8 +4040,12 @@
  Steinn_arabic_pat_dad_male: "ibn Stiyn"
  Steinn_arabic_pat_dad_female: "bint Stiyn"
 
- Ragnarr_arabic: "Rajnar"
- Ragnarr_arabic_tek_mom: "ʾUmm Rajnar"
- Ragnarr_arabic_tek_dad: "ʾAbū Rajnar"
- Ragnarr_arabic_pat_dad_male: "ibn Rajnar"
- Ragnarr_arabic_pat_dad_female: "bint Rajnar"
+ Ragnarr_arabic: "Raġnar"
+ Ragnarr_arabic_tek_mom: "ʾUmm Raġnar"
+ Ragnarr_arabic_tek_dad: "ʾAbū Raġnar"
+ Ragnarr_arabic_pat_dad_male: "ibn Raġnar"
+ Ragnarr_arabic_pat_dad_female: "bint Raġnar"
+ 
+ Amatat-Thor_arabic: "ʾAmat at-Ṯūrr"
+ Amatat-Thor_arabic_tek_mom: "ʾUmm ʾAmat at-Ṯūrr"
+ Amatat-Thor_arabic_tek_dad: "ʾAbū ʾAmat at-Ṯūrr"
