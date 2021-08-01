@@ -1,0 +1,92 @@
+﻿l_english:
+ islam_religion:0 "al-ʾIslām"
+ islam_high_god_name:0 "Allāh"
+ islam_high_god_name_possessive:0 "Allāh's"
+ islam_good_god_rahim:0 "ar-Raḥīm"
+ islam_good_god_the_most_gracious:0 "ar-Raḥmān"
+ islam_good_god_the_giver_of_peace:0 "al-Quddūs"
+ islam_good_god_the_one:0 "al-ʾAḥad"
+ islam_good_god_the_prophet:0 "an-Nabī"
+ islam_good_god_muhammad:0 "Muḥammad"
+ islam_devil_name:0 "Shayṭān"
+ islam_devil_name_possessive:0 "Shayṭān's"
+ islam_death_deity_name:0 "ʿAzrāʾīl"
+ islam_death_deity_name_possessive:0 "ʿAzrāʾīl's"
+ islam_religious_text:0 "al-Qurʼān"
+ islam_religious_head_title:0 "Ḵalīfa"
+ islam_religious_head_title_name:0 "caliphate"
+ islam_devotee:0 "murshid"
+ islam_devotee_plural:0 "murshids"
+ islam_priest:0 "imam"
+ islam_priest_plural:0 "imams"
+ islam_priest_alternate_plural:0 "clergy"
+ islam_bishop:0 "ulama"
+ islam_bishop_plural:0 "ulamas"
+ islam_positive_afterlife:0 "heaven"
+ islam_negative_afterlife:0 "hell"
+ christianity_witchgodname_iblis:0 "Iblis"
+
+ islam_creator_god_name:0 "$islam_high_god_name$"
+ islam_creator_god_name_possessive:0 "$islam_high_god_name_possessive$"
+ islam_health_god_name:0 "$islam_high_god_name$"
+ islam_health_god_name_possessive:0 "$islam_high_god_name_possessive$"
+ islam_fertility_god_name:0 "$islam_high_god_name$"
+ islam_fertility_god_name_possessive:0 "$islam_high_god_name_possessive$"
+ islam_wealth_god_name:0 "$islam_high_god_name$"
+ islam_wealth_god_name_possessive:0 "$islam_high_god_name_possessive$"
+ islam_household_god_name:0 "$islam_high_god_name$"
+ islam_household_god_name_possessive:0 "$islam_high_god_name_possessive$"
+ islam_fate_god_name:0 "$islam_high_god_name$"
+ islam_fate_god_name_possessive:0 "$islam_high_god_name_possessive$"
+ islam_knowledge_god_name:0 "$islam_high_god_name$"
+ islam_knowledge_god_name_possessive:0 "$islam_high_god_name_possessive$"
+ islam_war_god_name:0 "$islam_high_god_name$"
+ islam_war_god_name_possessive:0 "$islam_high_god_name_possessive$"
+ islam_trickster_god_name:0 "ar-Rajīm"
+ islam_trickster_god_name_possessive:0 "ar-Rajīm's"
+ islam_night_god_name:0 "$islam_high_god_name$"
+ islam_night_god_name_possessive:0 "$islam_high_god_name_possessive$"
+ islam_water_god_name:0 "$islam_high_god_name$"
+ islam_water_god_name_possessive:0 "$islam_high_god_name_possessive$"
+
+ islam_shia_religious_head_title:0 "ʾImām"
+
+ #Ash'ari
+ ashari:0 "al-ʾAšʿarīya"
+ #Muwalladism
+ muwalladi:0 "al-Muwalladīya"
+ #Masmudism
+ masmudi:1 "al-Muwaḥḥidīya"
+
+ #Mu'tazila
+ mutazila:0 "‎al-Muʿtazila"
+ #Maturidi
+ maturidi:0 "al-Māturīdīya"
+ #Quranism
+ quranist:0 "al-Qurʾānīya"
+ #Ismaili
+ ismaili:0 "al-ʾIsmāʿīlīyya"
+ #Qarmatians
+ qarmatian:0 "al-Qarāmiṭa"
+ #Nizari
+ nizari:0 "an-Nizārīya"
+ #Zayidi
+ zayidi:0 "az-Zaydīya"
+ #Imamism
+ imami:0 "al-ʾImāmīya"
+ #
+ ghulat:1 "al-Ġulāt"
+
+ alawite:0 "an-Nuṣayrīyya"
+ #Alevis
+ alevi:0 "Alawī"
+ #Druze
+ druze:0 "ad-Darzīya"
+ #Ibadi
+ ibadi:1 "al-ʾIbāḍīya"
+ #Azariqa
+ azariqa:1 "al-ʾAzāriqa"
+ #Najdat
+ najdat:0 "an-Najdīya"
+ #Sufri
+ sufri:0 "aṣ-Ṣufrīya"wsaeeeeeeeeeeeeeeeeeeeeeeeed

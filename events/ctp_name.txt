@@ -951,7 +951,6 @@ ctpname.003 = {
 		}
 		character:3086 = {
 			change_first_name = Abdallah
-			add_to_global_variable_list = { name = laqab_follower_command_2_god target = this }
 		}
 		character:3084 = {
 			change_first_name = Jafar
@@ -1371,7 +1370,7 @@ ctpname.007 = {
 	type = none
 	hidden = yes
 	trigger = {
-		current_date > 1083.12.31
+		current_date > 1183.12.31
 		KoH_loaded_checker = yes
 	}
 	immediate = {
@@ -1511,6 +1510,9 @@ ctpname.007 = {
 			add_to_variable_list = { name = name_pack_support_dynasty target = character:144079 }
 			add_to_variable_list = { name = name_pack_support_dynasty target = character:144080 }
 			add_to_variable_list = { name = name_pack_support_dynasty target = character:144083 }
+		}
+		character:3086 = {
+			add_to_global_variable_list = { name = laqab_follower_command_2_god target = this }
 		}
 		character:34368 = {
 			change_first_name = Dawud

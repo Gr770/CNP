@@ -907,6 +907,7 @@ CharacterTier = {
     text = {
         trigger = {
             has_council_position = councillor_court_chaplain
+            is_landed = no
             liege_or_court_owner = {
                 highest_held_title_tier = tier_empire
             }
@@ -1034,6 +1035,7 @@ CharacterTier = {
     text = {
         trigger = {
             has_council_position = councillor_court_chaplain
+            is_landed = no
             liege_or_court_owner = {
                 highest_held_title_tier = tier_kingdom
             }
@@ -1093,6 +1095,7 @@ CharacterTier = {
     text = {
         trigger = {
             has_council_position = councillor_court_chaplain
+            is_landed = no
             liege_or_court_owner = {
                 highest_held_title_tier = tier_duchy
             }
@@ -1152,6 +1155,7 @@ CharacterTier = {
     text = {
         trigger = {
             has_council_position = councillor_court_chaplain
+            is_landed = no
             liege_or_court_owner = {
                 highest_held_title_tier = tier_county
             }
@@ -1185,6 +1189,7 @@ CharacterTier = {
     text = {
         trigger = {
             has_council_position = councillor_court_chaplain
+            is_landed = no
             liege_or_court_owner = {
                 highest_held_title_tier = tier_barony
             }
