@@ -43,6 +43,21 @@
 		localization_key = Gui_blank
 	}
 }
+CTPHisHer = {
+    type = character
+    text = {
+        trigger = {
+            is_male = yes
+        }
+        localization_key = CTP_His
+    }
+    text = {
+        trigger = {
+            is_male = no
+        }
+        localization_key = CTP_Her
+    }
+}
 CTPNameCheck = {
     type = character
     text = {
@@ -70,6 +85,19 @@ CTPNameCheck = {
         fallback = yes
 		localization_key = CTP_nonsupported_name
     }
+}
+CTPShortEventName = {
+    type = character
+    text = {
+        trigger = {
+			has_culture_group = culture_group:arabic_group
+		}
+		localization_key = CTP_Short_event_Arabic
+    }
+	text = {
+		fallback = yes
+		localization_key = CTP_First_Name_Default_no_tooltip
+	}
 }
 CTPFullName = {
 	type = character
@@ -1160,6 +1188,16 @@ CharacterTier = {
     }
     text = {
         trigger = {
+            has_council_position = councillor_court_chaplain
+            is_landed = no
+            liege_or_court_owner = {
+                highest_held_title_tier = tier_empire
+            }
+        }
+        localization_key = Emperor_chaplain
+    }
+    text = {
+        trigger = {
             highest_held_title_tier = tier_kingdom
             is_independent_ruler = yes
         }
@@ -1278,6 +1316,16 @@ CharacterTier = {
     }
     text = {
         trigger = {
+            has_council_position = councillor_court_chaplain
+            is_landed = no
+            liege_or_court_owner = {
+                highest_held_title_tier = tier_kingdom
+            }
+        }
+        localization_key = King_chaplain
+    }
+    text = {
+        trigger = {
             highest_held_title_tier = tier_duchy
             is_independent_ruler = yes
         }
@@ -1364,6 +1412,16 @@ CharacterTier = {
     }
     text = {
         trigger = {
+            has_council_position = councillor_court_chaplain
+            is_landed = no
+            liege_or_court_owner = {
+                highest_held_title_tier = tier_duchy
+            }
+        }
+        localization_key = Duke_chaplain
+    }   
+    text = {
+        trigger = {
             has_culture = culture:norse
             NOT = {
                 has_government = theocracy_government
@@ -1448,6 +1506,16 @@ CharacterTier = {
     }
     text = {
         trigger = {
+            has_council_position = councillor_court_chaplain
+            is_landed = no
+            liege_or_court_owner = {
+                highest_held_title_tier = tier_county
+            }
+        }
+        localization_key = Count_chaplain
+    }
+    text = {
+        trigger = {
             highest_held_title_tier = tier_barony
         }
         localization_key = Baron
@@ -1472,13 +1540,64 @@ CharacterTier = {
     }
     text = {
         trigger = {
+            has_council_position = councillor_court_chaplain
+            is_landed = no
+            liege_or_court_owner = {
+                highest_held_title_tier = tier_barony
+            }
+        }
+        localization_key = Baron_chaplain
+    }
+    text = {
+        trigger = {
             has_trait = sayyid
         }
         localization_key = lord
     }
     text = {
+        trigger = {
+            exists = liege
+            liege.primary_title = {
+                OR = {
+                    has_variable = bicameral_government_republic
+                    has_variable = senate_government_republic
+                }
+                any_in_list = {
+                    variable = republic_families_list
+                    this.house_head = root
+                }
+            }
+        }
+        localization_key = senator
+    }
+    text = {
+        trigger = {
+            exists = liege
+            liege.primary_title = {
+                has_variable = council_government_republic
+                any_in_list = {
+                    variable = republic_families_list
+                    this.house_head = root
+                }
+            }
+        }
+        localization_key = councilor
+    }
+    text = {
+        trigger = {
+            exists = liege
+            liege.primary_title = {
+                any_in_list = {
+                    variable = republic_families_list
+                    this.house_head = root.house
+                }
+            }
+        }
+        localization_key = patrician
+    }
+    text = {
         fallback = yes
-        localization_key = default
+        localization_key = Default
     }
 }
 CharacterGender = {
@@ -1504,6 +1623,18 @@ CharacterGov = {
     }
     text = {
         trigger = {
+            faith = {
+                has_variable_list = faith_saints
+			any_in_list = {
+				variable = faith_saints
+				this = root
+			}
+            }
+        }
+        localization_key = _saint
+    }
+    text = {
+        trigger = {
             OR = {
                 root.faith.religious_head = root
                 any_in_global_list = {
@@ -1513,6 +1644,13 @@ CharacterGov = {
             }
         }
         localization_key = _hof
+    }
+    text = {
+        trigger = {
+            KoH_loaded_checker = yes
+            has_trait = koh_cardinal
+        }
+        localization_key = _cardinal
     }
     text = {
         trigger = {
@@ -1749,6 +1887,27 @@ CharacterReligion = {
             root.faith = faith:sufri
         }
         localization_key = _sufri
+    }
+    text = {
+        trigger = {
+            root.faith = faith:barghawata
+            ME_loaded_checker = yes
+        }
+        localization_key = _barghawata
+    }
+    text = {
+        trigger = {
+            root.faith = faith:nukkari
+            ME_loaded_checker = yes
+        }
+        localization_key = _nukkari
+    }
+    text = {
+        trigger = {
+            root.faith = faith:wahbiya
+            ME_loaded_checker = yes
+        }
+        localization_key = _wahbiya
     }
     text = {
         trigger = {
