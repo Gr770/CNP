@@ -43,6 +43,21 @@
 		localization_key = Gui_blank
 	}
 }
+CTPHisHer = {
+    type = character
+    text = {
+        trigger = {
+            is_male = yes
+        }
+        localization_key = CTP_His
+    }
+    text = {
+        trigger = {
+            is_male = no
+        }
+        localization_key = CTP_Her
+    }
+}
 CTPNameCheck = {
     type = character
     text = {
@@ -70,6 +85,19 @@ CTPNameCheck = {
         fallback = yes
 		localization_key = CTP_nonsupported_name
     }
+}
+CTPShortEventName = {
+    type = character
+    text = {
+        trigger = {
+			has_culture_group = culture_group:arabic_group
+		}
+		localization_key = CTP_Short_event_Arabic
+    }
+	text = {
+		fallback = yes
+		localization_key = CTP_First_Name_Default_no_tooltip
+	}
 }
 CTPFullName = {
 	type = character
@@ -879,6 +907,7 @@ CharacterTier = {
     text = {
         trigger = {
             has_council_position = councillor_court_chaplain
+            is_landed = no
             liege_or_court_owner = {
                 highest_held_title_tier = tier_empire
             }
@@ -1006,6 +1035,7 @@ CharacterTier = {
     text = {
         trigger = {
             has_council_position = councillor_court_chaplain
+            is_landed = no
             liege_or_court_owner = {
                 highest_held_title_tier = tier_kingdom
             }
@@ -1065,6 +1095,7 @@ CharacterTier = {
     text = {
         trigger = {
             has_council_position = councillor_court_chaplain
+            is_landed = no
             liege_or_court_owner = {
                 highest_held_title_tier = tier_duchy
             }
@@ -1124,6 +1155,7 @@ CharacterTier = {
     text = {
         trigger = {
             has_council_position = councillor_court_chaplain
+            is_landed = no
             liege_or_court_owner = {
                 highest_held_title_tier = tier_county
             }
@@ -1157,6 +1189,7 @@ CharacterTier = {
     text = {
         trigger = {
             has_council_position = councillor_court_chaplain
+            is_landed = no
             liege_or_court_owner = {
                 highest_held_title_tier = tier_barony
             }
@@ -1168,6 +1201,47 @@ CharacterTier = {
             has_trait = sayyid
         }
         localization_key = lord
+    }
+    text = {
+        trigger = {
+            exists = liege
+            liege.primary_title = {
+                OR = {
+                    has_variable = bicameral_government_republic
+                    has_variable = senate_government_republic
+                }
+                any_in_list = {
+                    variable = republic_families_list
+                    this.house_head = root
+                }
+            }
+        }
+        localization_key = senator
+    }
+    text = {
+        trigger = {
+            exists = liege
+            liege.primary_title = {
+                has_variable = council_government_republic
+                any_in_list = {
+                    variable = republic_families_list
+                    this.house_head = root
+                }
+            }
+        }
+        localization_key = councilor
+    }
+    text = {
+        trigger = {
+            exists = liege
+            liege.primary_title = {
+                any_in_list = {
+                    variable = republic_families_list
+                    this.house_head = root.house
+                }
+            }
+        }
+        localization_key = patrician
     }
     text = {
         fallback = yes
@@ -1194,6 +1268,18 @@ CharacterGov = {
             this = character:33922
         }
         localization_key = _prophet
+    }
+    text = {
+        trigger = {
+            faith = {
+                has_variable_list = faith_saints
+			any_in_list = {
+				variable = faith_saints
+				this = root
+			}
+            }
+        }
+        localization_key = _saint
     }
     text = {
         trigger = {

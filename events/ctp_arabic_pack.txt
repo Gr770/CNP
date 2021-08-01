@@ -777,3 +777,200 @@ arabicnamepack.002 = {
 		add_character_flag = has_regnal_laqab
 	}
 }
+arabicnamepack.003 = {
+    type = character_event
+	theme = faith
+	title = arabicnamepack.003.t
+	desc = arabicnamepack.003.desc
+	right_portrait = root
+
+	immediate = {
+		assign_reg_laqab_effect = yes
+	}
+	
+	option = {
+		name = arabicnamepack.003.a
+		custom_tooltip = arabicnamepack.003.a.tt
+		reset_reg_laqab_effect = yes
+		trigger_event = {
+			id = arabicnamepack.003
+			days = -1
+		}
+	}
+
+	option = {
+		name = arabicnamepack.003.b
+		custom_tooltip = arabicnamepack.003.b.tt
+		add_character_flag = has_reg_laqab
+	}
+}
+arabicnamepack.004 = {
+    type = character_event
+	theme = faith
+	title = arabicnamepack.004.t
+	desc = arabicnamepack.004.desc
+	left_portrait = root
+	right_portrait = scope:recipient
+
+	immediate = {
+		scope:recipient = {
+			assign_caliph_laqab_effect = yes
+		}
+	}
+
+	option = {
+		name = arabicnamepack.004.a
+		custom_tooltip = arabicnamepack.004.a.tt
+		scope:recipient = {
+			reset_caliph_laqab_effect = yes
+		}
+		trigger_event = {
+			id = arabicnamepack.004
+			days = -1
+		}
+	}
+	option = {
+		name = arabicnamepack.004.b
+		custom_tooltip = arabicnamepack.004.b.tt
+		add_character_flag = has_reg_laqab
+		scope:recipient = {
+			trigger_event = {
+				id = arabicnamepack.010
+				days = -1
+			}
+		}
+	}
+}
+arabicnamepack.005 = {
+    type = character_event
+	theme = faith
+	title = arabicnamepack.005.t
+	desc = arabicnamepack.005.desc
+	left_portrait = scope:actor
+	right_portrait = root
+
+	immediate = {
+		assign_caliph_laqab_effect = yes
+	}
+
+	option = {
+		name = arabicnamepack.005.a
+		custom_tooltip = arabicnamepack.005.a.tt
+		reset_caliph_laqab_effect = yes
+		trigger_event = {
+			id = arabicnamepack.005
+			days = -1
+		}
+	}
+	option = {
+		name = arabicnamepack.005.b
+		custom_tooltip = arabicnamepack.005.b.tt
+		add_character_flag = has_reg_laqab
+	}
+}
+arabicnamepack.006 = {
+	type = character_event
+	hidden = yes
+	immediate = {
+		assign_caliph_laqab_effect = yes
+		add_character_flag = has_reg_laqab
+	}
+}
+arabicnamepack.007 = {
+    type = character_event
+	theme = faith
+	title = arabicnamepack.007.t
+	desc = arabicnamepack.007.desc
+	left_portrait = root
+	right_portrait = scope:recipient
+
+	immediate = {
+		scope:recipient = {
+			assign_reg_laqab_effect = yes
+		}
+	}
+
+	option = {
+		name = arabicnamepack.007.a
+		custom_tooltip = arabicnamepack.007.a.tt
+		scope:recipient = {
+			reset_reg_laqab_effect = yes
+		}
+		trigger_event = {
+			id = arabicnamepack.007
+			days = -1
+		}
+	}
+	option = {
+		name = arabicnamepack.007.b
+		custom_tooltip = arabicnamepack.007.b.tt
+		add_character_flag = has_reg_laqab
+		scope:recipient = {
+			trigger_event = {
+				id = arabicnamepack.011
+				days = -1
+			}
+		}
+	}
+}
+arabicnamepack.008 = {
+    type = character_event
+	theme = faith
+	title = arabicnamepack.008.t
+	desc = arabicnamepack.008.desc
+	left_portrait = scope:actor
+	right_portrait = root
+
+	immediate = {
+		assign_reg_laqab_effect = yes
+	}
+
+	option = {
+		name = arabicnamepack.008.a
+		custom_tooltip = arabicnamepack.008.a.tt
+		reset_reg_laqab_effect = yes
+		trigger_event = {
+			id = arabicnamepack.008
+			days = -1
+		}
+	}
+	option = {
+		name = arabicnamepack.008.b
+		custom_tooltip = arabicnamepack.008.b.tt
+		add_character_flag = has_reg_laqab
+	}
+}
+arabicnamepack.009 = {
+	type = character_event
+	hidden = yes
+	immediate = {
+		assign_reg_laqab_effect = yes
+		add_character_flag = has_reg_laqab
+	}
+}
+arabicnamepack.010 = {
+    type = character_event
+	theme = faith
+	title = arabicnamepack.005.t
+	desc = arabicnamepack.005.desc
+	left_portrait = scope:actor
+	right_portrait = root
+
+	option = {
+		name = arabicnamepack.005.b
+		custom_tooltip = arabicnamepack.005.b.tt
+	}
+}
+arabicnamepack.011 = {
+    type = character_event
+	theme = faith
+	title = arabicnamepack.008.t
+	desc = arabicnamepack.008.desc
+	left_portrait = scope:actor
+	right_portrait = root
+
+	option = {
+		name = arabicnamepack.008.b
+		custom_tooltip = arabicnamepack.008.b.tt
+	}
+}

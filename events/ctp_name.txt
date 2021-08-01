@@ -17,6 +17,7 @@ ctpname.002 = {
 		always = yes
 	}
     immediate = {
+		add_to_global_variable_list = { name = global_list_dead_hofs target = character:bedouin0144 }
 		add_to_global_variable_list = { name = global_list_dead_hofs target = character:163025 }
 		add_to_global_variable_list = { name = global_list_dead_hofs target = character:163024 }
 		add_to_global_variable_list = { name = global_list_dead_hofs target = character:163023 }
@@ -502,6 +503,7 @@ ctpname.003 = {
 		current_date > 1066.9.14
 	}
 	immediate = {
+		add_to_global_variable_list = { name = global_list_dead_hofs target = character:bedouin0147 }
 		add_to_global_variable_list = { name = global_list_dead_hofs target = character:3094 }
 		add_to_global_variable_list = { name = global_list_dead_hofs target = character:3092 }
 		add_to_global_variable_list = { name = global_list_dead_hofs target = character:3090 }
@@ -754,6 +756,8 @@ ctpname.003 = {
 		}
 		dynasty:572 = {
 			add_to_variable_list = { name = name_pack_support_dynasty target = character:3910 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:45027 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:73238 }
 		}
 		dynasty:596 = {
 			add_to_variable_list = { name = name_pack_support_dynasty target = character:20869 }
@@ -858,6 +862,13 @@ ctpname.003 = {
 		dynasty:2001069 = {
 			add_to_variable_list = { name = name_pack_support_dynasty target = character:302374 }
 		}
+		dynasty:12228 = {
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:73255 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:73256 }
+		}
+		dynasty:792 = {
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:20900 }
+		}
 		character:159270 = {
 			add_to_global_variable_list = { name = laqab_lion_cub_dynasty target = this }
 		}
@@ -939,7 +950,7 @@ ctpname.003 = {
 			add_to_global_variable_list = { name = laqab_qadir target = this }
 		}
 		character:3086 = {
-			change_first_name = Nasr
+			change_first_name = Abdallah
 		}
 		character:3084 = {
 			change_first_name = Jafar
@@ -949,10 +960,10 @@ ctpname.003 = {
 			change_first_name = Jafar
 		}
 		character:34362 = {
-			change_first_name = Dawad
+			change_first_name = Dawud
 		}
 		character:34360 = {
-			change_first_name = Dawad
+			change_first_name = Dawud
 		}
 		character:159400 = {
 			change_first_name = Muhammad
@@ -1055,6 +1066,14 @@ ctpname.005 = {
 		game_start_date = 1066.9.15
 	}
 	immediate = {
+		character:3910 = {
+			add_character_flag = had_eldest_son
+			set_variable = { name = var_dad_eldest_son value = character:73238 }
+		}
+		character:73255 = {
+			add_character_flag = had_eldest_son
+			set_variable = { name = var_dad_eldest_son value = character:73256 }
+		}
 		character:20743 = {
 			add_character_flag = had_eldest_son
 			set_variable = { name = var_dad_eldest_son value = character:144018 }
@@ -1183,7 +1202,7 @@ ctpname.004 = {
 			add_character_flag = has_caliph_laqab
 		}
 		character:159738 = {
-			add_character_flag = has_laqab
+			add_character_flag = has_reg_laqab
 		}
 		character:159406 = {
 			add_character_flag = had_eldest_son
@@ -1351,19 +1370,25 @@ ctpname.007 = {
 	type = none
 	hidden = yes
 	trigger = {
-		current_date > 1083.12.31
+		current_date > 1183.12.31
 		KoH_loaded_checker = yes
 	}
 	immediate = {
+		add_to_global_variable_list = { name = global_list_dead_hofs target = character:144064 }
+		add_to_global_variable_list = { name = global_list_dead_hofs target = character:144063 }
+		add_to_global_variable_list = { name = global_list_dead_hofs target = character:144062 }
+		add_to_global_variable_list = { name = global_list_dead_hofs target = character:144061 }
+		add_to_global_variable_list = { name = global_list_dead_hofs target = character:144060 }
+		add_to_global_variable_list = { name = global_list_dead_hofs target = character:3088 }
+		add_to_global_variable_list = { name = global_list_dead_hofs target = character:3086 }
+		add_to_global_variable_list = { name = global_list_dead_hofs target = character:3084 }
+		add_to_global_variable_list = { name = global_list_dead_hofs target = character:3096 }
+		add_to_global_variable_list = { name = global_list_dead_hofs target = character:32905 }
+		add_to_global_variable_list = { name = global_list_dead_hofs target = character:32907 }
+		add_to_global_variable_list = { name = global_list_dead_hofs target = character:32908 }
+		add_to_global_variable_list = { name = global_list_dead_hofs target = character:32909 }
+		add_to_global_variable_list = { name = global_list_dead_hofs target = character:32910 }
 		add_to_global_variable_list = { name = name_pack_support_global target = character:1000230506 }
-		dynasty:24000 = {
-			add_to_variable_list = { name = name_pack_support_dynasty target = character:226000 }
-			add_to_variable_list = { name = name_pack_support_dynasty target = character:226054 }
-			add_to_variable_list = { name = name_pack_support_dynasty target = character:226052 }
-			add_to_variable_list = { name = name_pack_support_dynasty target = character:226011 }
-			add_to_variable_list = { name = name_pack_support_dynasty target = character:226051 }
-			add_to_variable_list = { name = name_pack_support_dynasty target = character:226012 }
-		}
 		dynasty:7296 = {
 			add_to_variable_list = { name = name_pack_support_dynasty target = character:34050 }
 			add_to_variable_list = { name = name_pack_support_dynasty target = character:34055 }
@@ -1406,6 +1431,8 @@ ctpname.007 = {
 			add_to_variable_list = { name = name_pack_support_dynasty target = character:144061 }
 			add_to_variable_list = { name = name_pack_support_dynasty target = character:34031 }
 			add_to_variable_list = { name = name_pack_support_dynasty target = character:3088 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:34030 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:34027 }
 		}
 		dynasty:12232 = {
 			add_to_variable_list = { name = name_pack_support_dynasty target = character:224016 }
@@ -1413,6 +1440,111 @@ ctpname.007 = {
 		dynasty:100690 = {
 			add_to_variable_list = { name = name_pack_support_dynasty target = character:144560 }
 			add_to_variable_list = { name = name_pack_support_dynasty target = character:144145 }
+		}
+		dynasty:101019 = {
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:93392 }
+		}
+		dynasty:100684 = {
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:34525 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:34526 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:34524 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:34523 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:34521 }
+		}
+		dynasty:12211 = {
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:73243 }
+		}
+		dynasty:bedouindyn011 = {
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:bedouin0095 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:bedouin0096 }
+		}
+		dynasty:792 = {
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:144154 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:34471 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:34472 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:34473 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:144153 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:144152 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:144151 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:144146 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:144147 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:144149 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:144148 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:20900 }
+		}
+		dynasty:bedouindyn004 = {
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:bedouin0031 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:bedouin0032 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:bedouin0029 }
+		}
+		dynasty:100667 = {
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:34370 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:34368 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:34371 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:34372 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:34367 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:34364 }
+		}
+		dynasty:100775 = {
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:485240 }
+		}
+		dynasty:100772 = {
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:485180 }
+		}
+		dynasty:100769 = {
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:485190 }
+		}
+		dynasty:100731 = {
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:485420 }
+		}
+		dynasty:24000 = {
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:226000 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:226054 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:226052 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:226011 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:144083 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:226051 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:226012 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:32924 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:144077 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:144079 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:144080 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:144083 }
+		}
+		character:3086 = {
+			add_to_global_variable_list = { name = laqab_follower_command_2_god target = this }
+		}
+		character:34368 = {
+			change_first_name = Dawud
+		}
+		character:34027 = {
+			change_first_name = Muhammad
+		}
+		character:144151 = {
+			change_first_name = Hussayn
+		}
+		character:34526 = {
+			change_first_name = Yaqub
+		}
+		character:KOH_GOKBORI = {
+			change_first_name = Gökböri
+			add_to_global_variable_list = { name = laqab_victorious_faith target = this }
+		}
+		character:144080 = {
+			change_first_name = Ismail
+		}
+		character:144079 = {
+			change_first_name = Musa
+		}
+		character:32924 = {
+			change_first_name = Muhammad
+		}
+		character:144077 = {
+			change_first_name = Isa
+		}
+		character:144083 = {
+			change_first_name = Muhammad
+			add_to_global_variable_list = { name = laqab_the_victorious target = this }
 		}
 		character:3088 = {
 			change_first_name = Ahmed
@@ -1447,7 +1579,7 @@ ctpname.007 = {
 		}
 		character:226012 = {
 			change_first_name = Muhammad
-			add_to_global_variable_list = { name = laqab_help_faith target = this }
+			add_to_global_variable_list = { name = laqab_helper2_faith target = this }
 		}
 		character:34055 = {
 			change_first_name = Hasan
@@ -1457,11 +1589,13 @@ ctpname.007 = {
 		}
 		character:226011 = {
 			change_first_name = Umar
-			add_to_global_variable_list = { name = laqab_victorious_pious_faith target = this }
+			add_to_global_variable_list = { name = laqab_victorious target = this }
+			add_to_global_variable_list = { name = laqab_pious_faith target = this }
 		}
 		character:226052 = {
 			change_first_name = Ahmed
-			add_to_global_variable_list = { name = laqab_just_sword_faith target = this }
+			add_to_global_variable_list = { name = laqab_just target = this }
+			add_to_global_variable_list = { name = laqab_sword2_faith target = this }
 		}
 		character:1000230506 = {
 			change_first_name = Asimat
@@ -1472,7 +1606,8 @@ ctpname.007 = {
 		}
 		character:226000 = {
 			change_first_name = Yusuf
-			add_to_global_variable_list = { name = laqab_gives_victory_righteousness_faith target = this }
+			add_to_global_variable_list = { name = laqab_gives_victory target = this }
+			add_to_global_variable_list = { name = laqab_righteousness_faith target = this }
 		}
 	}
 }
@@ -1480,10 +1615,40 @@ ctpname.008 = {
 	type = none
 	hidden = yes
 	trigger = {
-		game_start_date = 1084.1.1
+		game_start_date = 1184.1.1
 		KoH_loaded_checker = yes
 	}
 	immediate = {
+		character:bedouin0031 = {
+			add_character_flag = had_eldest_son
+			set_variable = { name = var_dad_eldest_son value = character:bedouin0032 }
+		}
+		character:34472 = {
+			add_character_flag = had_eldest_son
+			set_variable = { name = var_dad_eldest_son value = character:34473 }
+		}
+		character:144154 = {
+			add_character_flag = had_eldest_son
+			set_variable = { name = var_dad_eldest_son value = character:34471 }
+		}
+		character:bedouin0095 = {
+			add_character_flag = had_eldest_son
+			set_variable = { name = var_dad_eldest_son value = character:bedouin0096 }
+		}
+		character:34525 = {
+			add_character_flag = had_eldest_son
+			set_variable = { name = var_dad_eldest_son value = character:34526 }
+		}
+		character:KOH_GOKBORI = {
+			add_character_flag = has_reg_laqab
+		}
+		character:93393 = {
+			add_character_flag = had_eldest_son
+			set_variable = { name = var_dad_eldest_son value = character:93394 }
+		}
+		character:144083 = {
+			add_character_flag = has_regnal_laqab
+		}
 		character:227000 = {
 			add_character_flag = has_caliph_laqab
 			add_character_flag = had_eldest_son
@@ -1528,7 +1693,7 @@ ctpname.008 = {
 		character:226052 = {
 			add_character_flag = has_regnal_laqab
 			add_character_flag = had_eldest_son
-			set_variable = { name = var_dad_eldest_son value = character:226051 }
+			set_variable = { name = var_dad_eldest_son value = character:32924 }
 		}
 		character:226052 = {
 			add_character_flag = has_regnal_laqab
@@ -1539,6 +1704,368 @@ ctpname.008 = {
 			add_character_flag = has_regnal_laqab
 			add_character_flag = had_eldest_son
 			set_variable = { name = var_dad_eldest_son value = character:226051 }
+		}
+	}
+}
+ctpname.009 = {
+	type = none
+	hidden = yes
+	trigger = {
+		current_date > 1337.5.23
+		TLaTL_loaded_checker = yes
+	}
+	immediate = {
+		add_to_global_variable_list = { name = global_list_dead_hofs target = character:34033 }
+		add_to_global_variable_list = { name = global_list_dead_hofs target = character:34032 }
+		add_to_global_variable_list = { name = global_list_dead_hofs target = character:34029 }
+		add_to_global_variable_list = { name = global_list_dead_hofs target = character:34028 }
+		add_to_global_variable_list = { name = global_list_dead_hofs target = character:34027 }
+		add_to_global_variable_list = { name = global_list_dead_hofs target = character:227000 }
+		dynasty:762 = {
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:485000 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:485004 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:485002 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:ibrahimbahri }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:485005 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:485009 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:32937 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:34984 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:34985 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:yusufbahri }
+		}
+		dynasty:101904 = {
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:487000 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:487001 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:73648 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:73647 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:73650 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:73651 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:73653 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:73652 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:73654 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:73642 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:73641 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:73643 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:73644 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:73645 }
+		}
+		dynasty:7296 = {
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:34056 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:34065 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:34058 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:34058 }
+		}
+		dynasty:101727 = {
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:34034 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:34037 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:34038 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:34039 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:34033 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:34035 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:34036 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:34032 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:34029 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:34028 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:34027 }
+		}
+		dynasty:24000 = {
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:93424 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:93425 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:93423 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:93422 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:32927 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:32925 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:32924 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:32926 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:144077 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:144078 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:93034 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:485430 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:144091 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:93485 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:93486 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:144085 }
+		}
+		dynasty:100783 = {
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:485470 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:34516 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:34515 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:34514 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:34511 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:34510 }
+		}
+		dynasty:7308 = {
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:34483 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:34480 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:34478 }
+		}
+		dynasty:101023 = {
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:34493 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:34492 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:34491 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:34490 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:34489 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:34488 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:34487 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:34486 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:34485 }
+		}
+		dynasty:139 = {
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:144098 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:144097 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:144096 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:144094 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:144095 }
+		}
+		dynasty:100690 = {
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:144564 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:144562 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:144561 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:bedouin0143 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:bedouin0141 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:bedouin0139 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:bedouin0138 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:bedouin0134 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:bedouin0135 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:bedouin0137 }
+		}
+		character:bedouin0137 = {
+			change_first_name = Jafar
+		}
+		character:bedouin0141 = {
+			change_first_name = Jafar
+		}
+		character:144095 = {
+			change_first_name = Yusuf
+			add_to_global_variable_list = { name = laqab_victorious target = this }
+		}
+		character:144094 = {
+			change_first_name = Umar
+			add_to_global_variable_list = { name = laqab_the_victorious target = this }
+		}
+		character:144096 = {
+			change_first_name = Dawud
+			add_to_global_variable_list = { name = laqab_the_empowering target = this }
+		}
+		character:144097 = {
+			change_first_name = Dawud
+			add_to_global_variable_list = { name = laqab_the_empowering target = this }
+		}
+		character:144098 = {
+			change_first_name = Ali
+			add_to_global_variable_list = { name = laqab_glorifying target = this }
+		}
+		character:34493 = {
+			change_first_name = Dawud
+		}
+		character:tahmtanormus = {
+			change_first_name = Tahmtan
+			add_to_global_variable_list = { name = laqab_victorious target = this }
+		}
+		character:34510 = {
+			change_first_name = Ismail
+		}
+		character:34514 = {
+			change_first_name = Ismail
+		}
+		character:144084 = {
+			add_to_global_variable_list = { name = laqab_gives_victory target = this }
+		}
+		character:144085 = {
+			change_first_name = Muhmud
+			add_to_global_variable_list = { name = laqab_victorious target = this }
+		}
+		character:93486 = {
+			change_first_name = Muhmud
+			add_to_global_variable_list = { name = laqab_victorious target = this }
+		}
+		character:93485 = {
+			change_first_name = Muhammad
+			add_to_global_variable_list = { name = laqab_the_victorious target = this }
+			add_to_global_variable_list = { name = laqab_sword2_faith target = this }
+		}
+		character:144091 = {
+			change_first_name = Ismail
+		}
+		character:485430 = {
+			change_first_name = Muhammad
+			add_to_global_variable_list = { name = laqab_best target = this }
+		}
+		character:485004 = {
+			add_to_global_variable_list = { name = laqab_meteor_faith target = this }
+		}
+		character:93034 = {
+			change_first_name = Musa
+			add_to_global_variable_list = { name = laqab_most_noble target = this }
+		}
+		character:144077 = {
+			change_first_name = Dawud
+			add_to_global_variable_list = { name = laqab_gives_victory target = this }
+		}
+		character:144077 = {
+			change_first_name = Isa
+			add_to_global_variable_list = { name = laqab_exalted target = this }
+			add_to_global_variable_list = { name = laqab_dignity_faith target = this }
+		}
+		character:32926 = {
+			change_first_name = Abu-Bakr
+			add_to_global_variable_list = { name = laqab_just target = this }
+			add_to_global_variable_list = { name = laqab_sword2_faith target = this }
+		}
+		character:32924 = {
+			change_first_name = Muhammad
+			add_to_global_variable_list = { name = laqab_perfect target = this }
+			add_to_global_variable_list = { name = laqab_help_faith target = this }
+		}
+		character:32925 = {
+			change_first_name = Ayyub
+			add_to_global_variable_list = { name = laqab_pious target = this }
+		}
+		character:32927 = {
+			change_first_name = Turanshah
+			add_to_global_variable_list = { name = laqab_exalted target = this }
+		}
+		character:93422 = {
+			change_first_name = Abdallah
+			add_to_global_variable_list = { name = laqab_unitor target = this }
+			add_to_global_variable_list = { name = laqab_pious_faith target = this }
+		}
+		character:93423 = {
+			change_first_name = Ahmad
+			add_to_global_variable_list = { name = laqab_perfect target = this }
+		}
+		character:93425 = {
+			change_first_name = Ghazi
+		}
+		character:93424 = {
+			change_first_name = Muhammad
+			add_to_global_variable_list = { name = laqab_just target = this }
+			add_to_global_variable_list = { name = laqab_protector2_faith target = this }
+		}
+		character:34027 = {
+			change_first_name = Muhammad
+			add_to_global_variable_list = { name = laqab_manifest_command_god target = this }
+		}
+		character:34028 = {
+			change_first_name = al-Mansur
+			add_to_global_variable_list = { name = laqab_seeker_victory_god target = this }
+		}
+		character:34029 = {
+			change_first_name = Abdallah
+			add_to_global_variable_list = { name = laqab_holding_fast_god target = this }
+		}
+		character:34032 = {
+			change_first_name = Ahmed
+			add_to_global_variable_list = { name = laqab_seeker_victory_god target = this }
+		}
+		character:34036 = {
+			change_first_name = Ibrahim
+		}
+		character:34033 = {
+			change_first_name = Ahmed
+			add_to_global_variable_list = { name = laqab_ruler_command_god target = this }
+		}
+		character:34037 = {
+			change_first_name = Ahmed
+		}
+		character:34039 = {
+			change_first_name = Muhammad
+		}
+		character:34038 = {
+			change_first_name = Abu-Bakr
+		}
+		character:34034 = {
+			change_first_name = Suleyman
+			add_to_global_variable_list = { name = laqab_satisfied_god target = this }
+		}
+		character:485000 = {
+			change_first_name = Muhammad
+			remove_nickname = yes
+			add_to_global_variable_list = { name = laqab_gives_victory target = this }
+			add_to_global_variable_list = { name = laqab_help_faith target = this }
+		}
+		character:485002 = {
+			change_first_name = Abu-Bakr
+			add_to_global_variable_list = { name = laqab_sword2_faith target = this }
+		}
+		character:485005 = {
+			change_first_name = Ismail
+		}
+		character:485009 = {
+			change_first_name = Ismail
+		}
+		character:32937 = {
+			change_first_name = Khalil
+			add_to_global_variable_list = { name = laqab_most_noble target = this }
+			add_to_global_variable_list = { name = laqab_righteousness_faith target = this }
+		}
+		character:34984 = {
+			change_first_name = Ali
+			add_to_global_variable_list = { name = laqab_pious target = this }
+		}
+	}
+}
+ctpname.010 = {
+	type = none
+	hidden = yes
+	trigger = {
+		game_start_date = 1337.5.24
+		TLaTL_loaded_checker = yes
+	}
+	immediate = {
+		character:144098 = {
+			add_character_flag = has_regnal_laqab
+		}
+		character:tahmtanormus = {
+			add_character_flag = has_reg_laqab
+		}
+		character:34483 = {
+			add_character_flag = had_eldest_son
+			set_variable = { name = var_dad_eldest_son value = character:34484 }
+		}
+		character:485430 = {
+			add_character_flag = has_regnal_laqab
+		}
+		character:485002 = {
+			add_character_flag = has_reg_laqab
+		}
+		character:485004 = {
+			add_character_flag = has_reg_laqab
+		}
+		character:93424 = {
+			add_character_flag = has_regnal_laqab
+			add_character_flag = had_eldest_son
+			set_variable = { name = var_dad_eldest_son value = character:93425 }
+		}
+		character:34035 = {
+			add_character_flag = had_eldest_son
+			set_variable = { name = var_dad_eldest_son value = character:34036 }
+		}
+		character:34038 = {
+			add_character_flag = had_eldest_son
+			set_variable = { name = var_dad_eldest_son value = character:34039 }
+		}
+		character:34034 = {
+			add_character_flag = has_caliph_laqab
+			add_character_flag = had_eldest_son
+			set_variable = { name = var_dad_eldest_son value = character:34037 }
+		}
+		character:485000 = {
+			add_character_flag = has_regnal_laqab
+			add_character_flag = had_eldest_son
+			set_variable = { name = var_dad_eldest_son value = character:485004 }
+		}
+		character:73643 = {
+			add_character_flag = had_eldest_son
+			set_variable = { name = var_dad_eldest_son value = character:73644 }
+		}
+		character:73644 = {
+			add_character_flag = had_eldest_son
+			set_variable = { name = var_dad_eldest_son value = character:73645 }
+		}
+		character:34064 = {
+			add_character_flag = had_eldest_son
+			set_variable = { name = var_dad_eldest_son value = character:34065 }
 		}
 	}
 }
@@ -1733,8 +2260,8 @@ ctpname.400 = {
 		has_character_flag = name_pack_support
 	}
 	immediate = {
-		IF = { limit = { exists = house }
-			house = { add_to_variable_list = { name = name_pack_support_dynasty target = root} }
+		IF = { limit = { exists = dynasty }
+			dynasty = { add_to_variable_list = { name = name_pack_support_dynasty target = root} }
 		}
 		else = {
 			add_to_global_variable_list = { name = name_pack_support_global target = root }
@@ -1753,962 +2280,7 @@ ctpname.500 = {
             add_character_flag = name_pack_support
 			IF = {
 				limit = { has_culture_group = culture_group:arabic_group }
-				random_list = {
-					100 = {
-						random_list = {
-							1 = {
-								change_first_name = Muhammad
-							}
-							1 = {
-								change_first_name = Ahmad
-							}
-							1 = {
-								change_first_name = Ali
-							}
-							1 = {
-								change_first_name = Hasan
-							}
-							1 = {
-								change_first_name = Husayn
-							}
-							1 = {
-								change_first_name = Jafar
-							}
-							1 = {
-								change_first_name = Musa
-							}
-							1 = {
-								change_first_name = Umar
-							}
-							1 = {
-								change_first_name = Uthman
-							}
-							1 = {
-								change_first_name = Yahya
-							}
-						}
-					}
-					50 = {
-						random_list = {
-							1 = {
-								change_first_name = Abbas
-							}
-							1 = {
-								change_first_name = Adam
-							}
-							1 = {
-								change_first_name = Amr
-							}
-							1 = {
-								change_first_name = Ayyub
-							}
-							1 = {
-								change_first_name = Dulaf
-							}
-							1 = {
-								change_first_name = Dawud
-							}
-							1 = {
-								change_first_name = Fadl
-							}
-							1 = {
-								change_first_name = Fath
-							}
-							1 = {
-								change_first_name = Hadi
-							}
-							1 = {
-								change_first_name = Harun
-							}
-							1 = {
-								change_first_name = Hisham
-							}
-							1 = {
-								change_first_name = Ibrahim
-							}
-							1 = {
-								change_first_name = Idris
-							}
-							1 = {
-								change_first_name = Ilyas
-							}
-							1 = {
-								change_first_name = Isa
-							}
-							1 = {
-								change_first_name = Ishaq
-							}
-							1 = {
-								change_first_name = Ismail
-							}
-							1 = {
-								change_first_name = Jibrail
-							}
-							1 = {
-								change_first_name = Khalid
-							}
-							1 = {
-								change_first_name = Luqman
-							}
-							1 = {
-								change_first_name = Lut
-							}
-							1 = {
-								change_first_name = Marwan
-							}
-							1 = {
-								change_first_name = Maslama
-							}
-							1 = {
-								change_first_name = Muawiya
-							}
-							1 = {
-								change_first_name = Nuh
-							}
-							1 = {
-								change_first_name = Qasim
-							}
-							1 = {
-								change_first_name = Said
-							}
-							1 = {
-								change_first_name = Yazid
-							}
-							1 = {
-								change_first_name = Yunus
-							}
-							1 = {
-								change_first_name = Yusuf
-							}
-						}
-					}
-					25 = {
-						random_list = {
-                            0 = {
-                                modifier = {
-                                    OR = {
-                                        has_culture = culture:levantine
-                                        has_culture = culture:egyptian
-                                    }
-                                    has_religion = religion:christianity_religion
-                                    add = 3
-                                }
-                                random_list = {
-                                    1 = {
-                                        change_first_name = Samuil
-                                    }
-                                    1 = {
-                                        change_first_name = Siman
-                                    }
-                                    1 = {
-                                        change_first_name = Qustantin
-                                    }
-                                }
-                            }
-                            0 = {
-                                modifier = {
-                                    has_culture = culture:andalusian
-                                    has_religion = religion:christianity_religion
-                                    add = 18
-                                }
-                                random_list = {
-                                    1 = {
-                                        change_first_name = Adhfunsh
-                                    }
-                                    1 = {
-                                        change_first_name = Ardun
-                                    }
-                                    1 = {
-                                        change_first_name = Armaqand
-                                    }
-                                    1 = {
-                                        change_first_name = Balashk
-                                    }
-                                    1 = {
-                                        change_first_name = Barmand
-                                    }
-                                    1 = {
-                                        change_first_name = Bashkwal
-                                    }
-                                    1 = {
-                                        change_first_name = Faranda
-                                    }
-                                    1 = {
-                                        change_first_name = Furtun
-                                    }
-                                    1 = {
-                                        change_first_name = Furwila
-                                    }
-                                    1 = {
-                                        change_first_name = Ghalind
-                                    }
-                                    1 = {
-                                        change_first_name = Gharsiyya
-                                    }
-                                    1 = {
-                                        change_first_name = Inriq
-                                    }
-                                    1 = {
-                                        change_first_name = Khayma
-                                    }
-                                    1 = {
-                                        change_first_name = Qarla
-                                    }
-                                    1 = {
-                                        change_first_name = Rudhmir
-                                    }
-                                    1 = {
-                                        change_first_name = Shanjuh
-                                    }
-                                    1 = {
-                                        change_first_name = Shanjul
-                                    }
-                                    1 = {
-                                        change_first_name = Wannaqo
-                                    }
-                                }
-                            }
-                            0 = {
-                                modifier = {
-                                    has_religion = religion:christianity_religion
-                                    add = 1
-                                }
-                                change_first_name = Abdal-Masih
-                            }
-                            0 = {
-                                modifier = {
-                                    has_religion = religion:islam_religion
-                                    add = 5
-                                }
-                                random_list = {
-                                    1 = {
-                                        change_first_name = Abdal-Hamid
-                                    }
-                                    1 = {
-                                        change_first_name = Abdal-Haqq
-                                    }
-                                    1 = {
-                                        change_first_name = Abdal-Karim
-                                    }
-                                    1 = {
-                                        change_first_name = Abdal-Qadir
-                                    }
-                                    1 = {
-                                        change_first_name = Muslim
-                                    }
-                                }
-                            }
-							1 = {
-								change_first_name = Aban
-							}
-							1 = {
-								change_first_name = Adi
-							}
-							1 = {
-								change_first_name = Ala
-							}
-							1 = {
-								change_first_name = Amin
-							}
-							1 = {
-								change_first_name = Anas
-							}
-							1 = {
-								change_first_name = Aqil
-							}
-							1 = {
-								change_first_name = As
-							}
-							1 = {
-								change_first_name = Asad
-							}
-							1 = {
-								change_first_name = Ashhab
-							}
-							1 = {
-								change_first_name = Asif
-							}
-							1 = {
-								change_first_name = Asim
-							}
-							1 = {
-								change_first_name = Aslam
-							}
-							1 = {
-								change_first_name = Ata
-							}
-							1 = {
-								change_first_name = Aws
-							}
-							1 = {
-								change_first_name = Badr
-							}
-							1 = {
-								change_first_name = Bahr
-							}
-							1 = {
-								change_first_name = Bakkar
-							}
-							1 = {
-								change_first_name = Bakr
-							}
-							1 = {
-								change_first_name = Balj
-							}
-							1 = {
-								change_first_name = Bashir
-							}
-							1 = {
-								change_first_name = Bilal
-							}
-							1 = {
-								change_first_name = Bishr
-							}
-							1 = {
-								change_first_name = Bukayr
-							}
-							1 = {
-								change_first_name = Fajr
-							}
-							1 = {
-								change_first_name = Faraj
-							}
-							1 = {
-								change_first_name = Furat
-							}
-							1 = {
-								change_first_name = Futays
-							}
-							1 = {
-								change_first_name = Ghalib
-							}
-							1 = {
-								change_first_name = Ghazi
-							}
-							1 = {
-								change_first_name = Habib
-							}
-							1 = {
-								change_first_name = Hafs
-							}
-							1 = {
-								change_first_name = Hakam
-							}
-							1 = {
-								change_first_name = Hamdan
-							}
-							1 = {
-								change_first_name = Hamid
-							}
-							1 = {
-								change_first_name = Hamza
-							}
-							1 = {
-								change_first_name = Harith
-							}
-							1 = {
-								change_first_name = Harmala
-							}
-							1 = {
-								change_first_name = Hashim
-							}
-							1 = {
-								change_first_name = Haytham
-							}
-							1 = {
-								change_first_name = Hayyan
-							}
-							1 = {
-								change_first_name = Hazm
-							}
-							1 = {
-								change_first_name = Hilal
-							}
-							1 = {
-								change_first_name = Himas
-							}
-							1 = {
-								change_first_name = Hubab
-							}
-							1 = {
-								change_first_name = Hubaysh
-							}
-							1 = {
-								change_first_name = Huda
-							}
-							1 = {
-								change_first_name = Hunayn
-							}
-							1 = {
-								change_first_name = Imran
-							}
-							1 = {
-								change_first_name = Ishaya
-							}
-							1 = {
-								change_first_name = Jabir
-							}
-							1 = {
-								change_first_name = Jahhaf
-							}
-							1 = {
-								change_first_name = Jahl
-							}
-							1 = {
-								change_first_name = Jalil
-							}
-							1 = {
-								change_first_name = Jamal
-							}
-							1 = {
-								change_first_name = Jami
-							}
-							1 = {
-								change_first_name = Jamil
-							}
-							1 = {
-								change_first_name = Jubayr
-							}
-							1 = {
-								change_first_name = Juda
-							}
-							1 = {
-								change_first_name = Kamil
-							}
-							1 = {
-								change_first_name = Khalaf
-							}
-							1 = {
-								change_first_name = Khaldun
-							}
-							1 = {
-								change_first_name = Khalil
-							}
-							1 = {
-								change_first_name = Khattab
-							}
-							1 = {
-								change_first_name = Khayr
-							}
-							1 = {
-								change_first_name = Layth
-							}
-							1 = {
-								change_first_name = Maad
-							}
-							1 = {
-								change_first_name = Maan
-							}
-							1 = {
-								change_first_name = Mabad
-							}
-							1 = {
-								change_first_name = Mahbub
-							}
-							1 = {
-								change_first_name = Mahdi
-							}
-							1 = {
-								change_first_name = Malik
-							}
-							1 = {
-								change_first_name = Mamar
-							}
-							1 = {
-								change_first_name = Mansur
-							}
-							1 = {
-								change_first_name = Masud
-							}
-							1 = {
-								change_first_name = Matar
-							}
-							1 = {
-								change_first_name = Maymun
-							}
-							1 = {
-								change_first_name = Mihran
-							}
-							1 = {
-								change_first_name = Miqdam
-							}
-							1 = {
-								change_first_name = Mirdas
-							}
-							1 = {
-								change_first_name = Mubarak
-							}
-							1 = {
-								change_first_name = Mudar
-							}
-							1 = {
-								change_first_name = Mujahid
-							}
-							1 = {
-								change_first_name = Mulahhab
-							}
-							1 = {
-								change_first_name = Muntasir
-							}
-							1 = {
-								change_first_name = Musab
-							}
-							1 = {
-								change_first_name = Mustafa
-							}
-							1 = {
-								change_first_name = Muti
-							}
-							1 = {
-								change_first_name = Nabit
-							}
-							1 = {
-								change_first_name = Nafi
-							}
-							1 = {
-								change_first_name = Naim
-							}
-							1 = {
-								change_first_name = Najih
-							}
-							1 = {
-								change_first_name = Najm
-							}
-							1 = {
-								change_first_name = Nasir
-							}
-							1 = {
-								change_first_name = Nasr
-							}
-							1 = {
-								change_first_name = Nazir
-							}
-							1 = {
-								change_first_name = Numan
-							}
-							1 = {
-								change_first_name = Nusayr
-							}
-							1 = {
-								change_first_name = Qabisa
-							}
-							1 = {
-								change_first_name = Qaim
-							}
-							1 = {
-								change_first_name = Qatada
-							}
-							1 = {
-								change_first_name = Qays
-							}
-							1 = {
-								change_first_name = Qurra
-							}
-							1 = {
-								change_first_name = Qutayba
-							}
-							1 = {
-								change_first_name = Rabi
-							}
-							1 = {
-								change_first_name = Rabia
-							}
-							1 = {
-								change_first_name = Rafi
-							}
-							1 = {
-								change_first_name = Rashid
-							}
-							1 = {
-								change_first_name = Rawwad
-							}
-							1 = {
-								change_first_name = Ridwan
-							}
-							1 = {
-								change_first_name = Ruh
-							}
-							1 = {
-								change_first_name = Rushd
-							}
-							1 = {
-								change_first_name = Sabah
-							}
-							1 = {
-								change_first_name = Sad
-							}
-							1 = {
-								change_first_name = Sadiq
-							}
-							1 = {
-								change_first_name = Sadun
-							}
-							1 = {
-								change_first_name = Sahl
-							}
-							1 = {
-								change_first_name = Sahnun
-							}
-							1 = {
-								change_first_name = Salama
-							}
-							1 = {
-								change_first_name = Salih
-							}
-							1 = {
-								change_first_name = Salim
-							}
-							1 = {
-								change_first_name = Salman
-							}
-							1 = {
-								change_first_name = Shadhan
-							}
-							1 = {
-								change_first_name = Sharaf
-							}
-							1 = {
-								change_first_name = Sharif
-							}
-							1 = {
-								change_first_name = Shariq
-							}
-							1 = {
-								change_first_name = Shayban
-							}
-							1 = {
-								change_first_name = Shuja
-							}
-							1 = {
-								change_first_name = Shumayl
-							}
-							1 = {
-								change_first_name = Sinan
-							}
-							1 = {
-								change_first_name = Sufyan
-							}
-							1 = {
-								change_first_name = Sulayman
-							}
-							1 = {
-								change_first_name = Tahir
-							}
-							1 = {
-								change_first_name = Talha
-							}
-							1 = {
-								change_first_name = Tamim
-							}
-							1 = {
-								change_first_name = Tammam
-							}
-							1 = {
-								change_first_name = Tarif
-							}
-							1 = {
-								change_first_name = Tariq
-							}
-							1 = {
-								change_first_name = Tayyib
-							}
-							1 = {
-								change_first_name = Ubayda
-							}
-							1 = {
-								change_first_name = Ubayy
-							}
-							1 = {
-								change_first_name = Ulaym
-							}
-							1 = {
-								change_first_name = Umayr
-							}
-							1 = {
-								change_first_name = Umayya
-							}
-							1 = {
-								change_first_name = Uqba
-							}
-							1 = {
-								change_first_name = Urayb
-							}
-							1 = {
-								change_first_name = Usama
-							}
-							1 = {
-								change_first_name = Utba
-							}
-							1 = {
-								change_first_name = Uways
-							}
-							1 = {
-								change_first_name = Wadi
-							}
-							1 = {
-								change_first_name = Wahb
-							}
-							1 = {
-								change_first_name = Wahid
-							}
-							1 = {
-								change_first_name = Walid
-							}
-							1 = {
-								change_first_name = Wasim
-							}
-							1 = {
-								change_first_name = Yala
-							}
-							1 = {
-								change_first_name = Yamut
-							}
-							1 = {
-								change_first_name = Yaqub
-							}
-							1 = {
-								change_first_name = Yasir
-							}
-							1 = {
-								change_first_name = Zakariyya
-							}
-							1 = {
-								change_first_name = Zayd
-							}
-							1 = {
-								change_first_name = Zayn
-							}
-							1 = {
-								change_first_name = Ziyad
-							}
-							1 = {
-								change_first_name = Zubayr
-							}
-							1 = {
-								change_first_name = Zuhayr
-							}
-						}
-					}
-					10 = {
-						random_list = {
-                            0 = {
-                                modifier = {
-                                    OR = {
-                                        has_culture = culture:levantine
-                                        has_culture = culture:egyptian
-                                    }
-                                    has_religion = religion:christianity_religion
-                                    add = 5
-                                }
-                                random_list = {
-                                    1 = {
-                                        change_first_name = Abdal-Jalil
-                                    }
-                                    1 = {
-                                        change_first_name = Abdal-Latif
-                                    }
-                                    1 = {
-                                        change_first_name = Abdan-Nur
-                                    }
-                                    1 = {
-                                        change_first_name = Butrus
-                                    }
-                                    1 = {
-                                        change_first_name = Mikhail
-                                    }
-                                }
-                            }
-                            0 = {
-                                modifier = {
-                                    has_culture = culture:andalusian
-                                    has_religion = religion:christianity_religion
-                                    add = 1
-                                }
-                                change_first_name = Lubb
-                            }
-                            0 = {
-                                modifier = {
-                                    has_religion = religion:islam_religion
-                                    add = 24
-                                }
-                                random_list = {
-                                    1 = {
-                                        change_first_name = Abdal-Ahad
-                                    }
-                                    1 = {
-                                        change_first_name = Abdal-Azim
-                                    }
-                                    1 = {
-                                        change_first_name = Abdal-Basir
-                                    }
-                                    1 = {
-                                        change_first_name = Abdal-Fattah
-                                    }
-                                    1 = {
-                                        change_first_name = Abdal-Ghani
-                                    }
-                                    1 = {
-                                        change_first_name = Abdal-Hakim
-                                    }
-                                    1 = {
-                                        change_first_name = Abdal-Halim
-                                    }
-                                    1 = {
-                                        change_first_name = Abdal-Hayy
-                                    }
-                                    1 = {
-                                        change_first_name = Abdal-Jabbar
-                                    }
-                                    1 = {
-                                        change_first_name = Abdal-Jalil
-                                    }
-                                    1 = {
-                                        change_first_name = Abdal-Khaliq
-                                    }
-                                    1 = {
-                                        change_first_name = Abdal-Latif
-                                    }
-                                    1 = {
-                                        change_first_name = Abdal-Majid
-                                    }
-                                    1 = {
-                                        change_first_name = Abdan-Nasir
-                                    }
-                                    1 = {
-                                        change_first_name = Abdan-Nur
-                                    }
-                                    1 = {
-                                        change_first_name = Abdal-Qahir
-                                    }
-                                    1 = {
-                                        change_first_name = Abdal-Qawi
-                                    }
-                                    1 = {
-                                        change_first_name = Abdar-Rahim
-                                    }
-                                    1 = {
-                                        change_first_name = Abdar-Rashid
-                                    }
-                                    1 = {
-                                        change_first_name = Abdar-Razzaq
-                                    }
-                                    1 = {
-                                        change_first_name = Abdas-Salam
-                                    }
-                                    1 = {
-                                        change_first_name = Abdas-Samad
-                                    }
-                                    1 = {
-                                        change_first_name = Abdal-Wahhab
-                                    }
-                                    1 = {
-                                        change_first_name = Abdal-Wahid
-                                    }
-                                }
-                            }
-							1 = {
-								change_first_name = Abbad
-							}
-							1 = {
-								change_first_name = Abid
-							}
-							1 = {
-								change_first_name = Adil
-							}
-							1 = {
-								change_first_name = Affan
-							}
-							1 = {
-								change_first_name = Aghlab
-							}
-							1 = {
-								change_first_name = Awn
-							}
-							1 = {
-								change_first_name = Aziz
-							}
-							1 = {
-								change_first_name = Barakat
-							}
-							1 = {
-								change_first_name = Buhayr
-							}
-							1 = {
-								change_first_name = Buwayh
-							}
-							1 = {
-								change_first_name = Fahr
-							}
-							1 = {
-								change_first_name = Ghassan
-							}
-							1 = {
-								change_first_name = Hajjaj
-							}
-							1 = {
-								change_first_name = Haris
-							}
-							1 = {
-								change_first_name = Jarir
-							}
-							1 = {
-								change_first_name = Kumayl
-							}
-							1 = {
-								change_first_name = Mahmud
-							}
-							1 = {
-								change_first_name = Mundhir
-							}
-							1 = {
-								change_first_name = Muttalib
-							}
-							1 = {
-								change_first_name = Nizar
-							}
-							1 = {
-								change_first_name = Razin
-							}
-							1 = {
-								change_first_name = Sattar
-							}
-							1 = {
-								change_first_name = Shabib
-							}
-							1 = {
-								change_first_name = Subh
-							}
-							1 = {
-								change_first_name = Sulaym
-							}
-							1 = {
-								change_first_name = Thabit
-							}
-							1 = {
-								change_first_name = Ubayd
-							}
-						}
-					}
-					1 = {
-						random_list = {
-							1 = {
-								change_first_name = Afrasiyab
-							}
-							1 = {
-								change_first_name = Bahram
-							}
-							1 = {
-								change_first_name = Dinar
-							}
-							1 = {
-								change_first_name = Shajar
-							}
-							1 = {
-								change_first_name = Waki
-							}
-						}
-					}
-				}
+				arabic_pack_name_ai_male = yes
 			}
 		}
 		IF = {
@@ -2719,692 +2291,7 @@ ctpname.500 = {
 			add_character_flag = name_pack_support
 			IF = {
 				limit = { has_culture_group = culture_group:arabic_group }
-				random_list = {
-					100 = {
-						random_list = {
-							1 = {
-								change_first_name = Aisha
-							}
-							1 = {
-								change_first_name = Fatima
-							}
-							1 = {
-								change_first_name = Hind
-							}
-							1 = {
-								change_first_name = Khadija
-							}
-							1 = {
-								change_first_name = Layla
-							}
-							1 = {
-								change_first_name = Maryam
-							}
-							1 = {
-								change_first_name = Zaynab
-							}
-						}	
-					}
-					50 = {
-						random_list = {
-							1 = {
-								change_first_name = Aliya
-							}	
-							1 = {
-								change_first_name = Arwa
-							}
-							1 = {
-								change_first_name = Hawa
-							}
-							1 = {
-								change_first_name = Khalida
-							}
-							1 = {
-								change_first_name = Nadiya
-							}
-							1 = {
-								change_first_name = Nur
-							}
-							1 = {
-								change_first_name = Ruqayya
-							}
-							1 = {
-								change_first_name = Safiyya
-							}
-							1 = {
-								change_first_name = Salima
-							}
-							1 = {
-								change_first_name = Salma
-							}
-						}
-					}
-					25 = {
-						random_list = {
-                            0 = {
-                                modifier = {
-                                    has_religion = religion:islam_religion
-                                    add = 13
-                                }
-                                random_list = {
-                                    1 = {
-                                        change_first_name = Amatal-Aziz
-                                    }
-                                    1 = {
-                                        change_first_name = Amatal-Hamid
-                                    }
-                                    1 = {
-                                        change_first_name = Amatal-Izz
-                                    }
-                                    1 = {
-                                        change_first_name = Amatal-Khaliq
-                                    }
-                                    1 = {
-                                        change_first_name = Amat-Allah
-                                    }
-                                    1 = {
-                                        change_first_name = Amatal-Latif
-                                    }
-                                    1 = {
-                                        change_first_name = Amatal-Malik
-                                    }
-                                    1 = {
-                                        change_first_name = Amatan-Nur
-                                    }
-                                    1 = {
-                                        change_first_name = Amatar-Rabb
-                                    }
-                                    1 = {
-                                        change_first_name = Amatar-Rahim
-                                    }
-                                    1 = {
-                                        change_first_name = Amatar-Rahman
-                                    }
-                                    1 = {
-                                        change_first_name = Amatal-Wahhab
-                                    }
-                                    1 = {
-                                        change_first_name = Muslima
-                                    }
-                                }
-                            }
-                            0 = {
-                                modifier = {
-                                    OR = {
-                                        has_culture = culture:egyptian
-                                        has_culture = culture:levantine
-                                    }
-                                    has_religion = religion:christianity_religion
-                                    add = 3
-                                }
-                                random_list = {
-                                    1 = {
-                                        change_first_name = Amatal-Latif
-                                    }
-                                    1 = {
-                                        change_first_name = Amatal-Malik
-                                    }
-                                    1 = {
-                                        change_first_name = Amatan-Nur
-                                    } 
-                                }
-                            }
-                            0 = {
-                                modifier = {
-                                    has_culture = culture:andalusian
-                                    has_religion = religion:christianity_religion
-                                    add = 8
-                                }
-                                random_list = {
-                                    1 = {
-                                        change_first_name = Awraka
-                                    }
-                                    1 = {
-                                        change_first_name = Awriya
-                                    }
-                                    1 = {
-                                        change_first_name = Ayluh
-                                    }
-                                    1 = {
-                                        change_first_name = Gislan
-                                    }
-                                    1 = {
-                                        change_first_name = Labbuna
-                                    }
-                                    1 = {
-                                        change_first_name = Munya
-                                    }
-                                    1 = {
-                                        change_first_name = Sara
-                                    }
-                                    1 = {
-                                        change_first_name = Simana
-                                    }
-                                }
-                            }
-							1 = {
-								change_first_name = Abbasa
-							}
-							1 = {
-								change_first_name = Abla
-							}
-							1 = {
-								change_first_name = Afiya
-							}
-							1 = {
-								change_first_name = Amina
-							}
-							1 = {
-								change_first_name = Asma
-							}
-							1 = {
-								change_first_name = Atika
-							}
-							1 = {
-								change_first_name = Aziza
-							}
-							1 = {
-								change_first_name = Daniya
-							}
-							1 = {
-								change_first_name = Dima
-							}
-							1 = {
-								change_first_name = Durr
-							}
-							1 = {
-								change_first_name = Fahra
-							}
-							1 = {
-								change_first_name = Fajr
-							}
-							1 = {
-								change_first_name = Fannu
-							}
-							1 = {
-								change_first_name = Ghada
-							}
-							1 = {
-								change_first_name = Ghaliba
-							}
-							1 = {
-								change_first_name = Ghaniya
-							}
-							1 = {
-								change_first_name = Habiba
-							}
-							1 = {
-								change_first_name = Hafsa
-							}
-							1 = {
-								change_first_name = Hagar
-							}
-							1 = {
-								change_first_name = Halima
-							}
-							1 = {
-								change_first_name = Hamda
-							}
-							1 = {
-								change_first_name = Hamida
-							}
-							1 = {
-								change_first_name = Hanifa
-							}
-							1 = {
-								change_first_name = Hassana
-							}
-							1 = {
-								change_first_name = Hawra
-							}
-							1 = {
-								change_first_name = Hayal
-							}
-							1 = {
-								change_first_name = Hubaba
-							}
-							1 = {
-								change_first_name = Huda
-							}
-							1 = {
-								change_first_name = Humayda
-							}
-							1 = {
-								change_first_name = Hushayma
-							}
-							1 = {
-								change_first_name = Ibtisam
-							}
-							1 = {
-								change_first_name = Inan
-							}
-							1 = {
-								change_first_name = Ishraq
-							}
-							1 = {
-								change_first_name = Jalida
-							}
-							1 = {
-								change_first_name = Jalila
-							}
-							1 = {
-								change_first_name = Jamila
-							}
-							1 = {
-								change_first_name = Jawhara
-							}
-							1 = {
-								change_first_name = Jawra
-							}
-							1 = {
-								change_first_name = Jumana
-							}
-							1 = {
-								change_first_name = Kanza
-							}
-							1 = {
-								change_first_name = Karima
-							}
-							1 = {
-								change_first_name = Khawla
-							}
-							1 = {
-								change_first_name = Kinda
-							}
-							1 = {
-								change_first_name = Lubaba
-							}
-							1 = {
-								change_first_name = Maha
-							}
-							1 = {
-								change_first_name = Mahbuba
-							}
-							1 = {
-								change_first_name = Mahuna
-							}
-							1 = {
-								change_first_name = Mamara
-							}
-							1 = {
-								change_first_name = Mashuq
-							}
-							1 = {
-								change_first_name = Maymuna
-							}
-							1 = {
-								change_first_name = Maysun
-							}
-							1 = {
-								change_first_name = Muhja
-							}
-							1 = {
-								change_first_name = Mulayka
-							}
-							1 = {
-								change_first_name = Mumina
-							}
-							1 = {
-								change_first_name = Muna
-							}
-							1 = {
-								change_first_name = Muta
-							}
-							1 = {
-								change_first_name = Muzahima
-							}
-							1 = {
-								change_first_name = Muzna
-							}
-							1 = {
-								change_first_name = Nafisa
-							}
-							1 = {
-								change_first_name = Naima
-							}
-							1 = {
-								change_first_name = Najat
-							}
-							1 = {
-								change_first_name = Najiya
-							}
-							1 = {
-								change_first_name = Najma
-							}
-							1 = {
-								change_first_name = Nasiba
-							}
-							1 = {
-								change_first_name = Nasira
-							}
-							1 = {
-								change_first_name = Nazhun
-							}
-							1 = {
-								change_first_name = Nuwayra
-							}
-							1 = {
-								change_first_name = Qamar
-							}
-							1 = {
-								change_first_name = Qasima
-							}
-							1 = {
-								change_first_name = Qasmuna
-							}
-							1 = {
-								change_first_name = Rabia
-							}
-							1 = {
-								change_first_name = Radiya
-							}
-							1 = {
-								change_first_name = Rafiqa
-							}
-							1 = {
-								change_first_name = Rafqa
-							}
-							1 = {
-								change_first_name = Rahil
-							}
-							1 = {
-								change_first_name = Rashida
-							}
-							1 = {
-								change_first_name = Rasis
-							}
-							1 = {
-								change_first_name = Rayhana
-							}
-							1 = {
-								change_first_name = Rubab
-							}
-							1 = {
-								change_first_name = Ruhayma
-							}
-							1 = {
-								change_first_name = Rumayla
-							}
-							1 = {
-								change_first_name = Saada
-							}
-							1 = {
-								change_first_name = Sada
-							}
-							1 = {
-								change_first_name = Sakan
-							}
-							1 = {
-								change_first_name = Salwa
-							}
-							1 = {
-								change_first_name = Sama
-							}
-							1 = {
-								change_first_name = Samra
-							}
-							1 = {
-								change_first_name = Shams
-							}
-							1 = {
-								change_first_name = Shan
-							}
-							1 = {
-								change_first_name = Shariya
-							}
-							1 = {
-								change_first_name = Shifa
-							}
-							1 = {
-								change_first_name = Suad
-							}
-							1 = {
-								change_first_name = Sukayna
-							}
-							1 = {
-								change_first_name = Sura
-							}
-							1 = {
-								change_first_name = Tahira
-							}
-							1 = {
-								change_first_name = Tarifa
-							}
-							1 = {
-								change_first_name = Thuwayba
-							}
-							1 = {
-								change_first_name = Ubayda
-							}
-							1 = {
-								change_first_name = Ulayya
-							}
-							1 = {
-								change_first_name = Usayma
-							}
-							1 = {
-								change_first_name = Utayyqa
-							}
-							1 = {
-								change_first_name = Wahida
-							}
-							1 = {
-								change_first_name = Wallada
-							}
-							1 = {
-								change_first_name = Yamina
-							}
-							1 = {
-								change_first_name = Zahida
-							}
-							1 = {
-								change_first_name = Zahira
-							}
-							1 = {
-								change_first_name = Zahra
-							}
-							1 = {
-								change_first_name = Zunayra
-							}
-						}
-					}
-					10 = {
-						random_list = {
-                            0 = {
-                                modifier = {
-                                    has_culture = culture:andalusian
-                                    has_religion = religion:christianity_religion
-                                    add = 1
-                                }
-                                change_first_name = Dhuna
-                            }
-							1 = {
-								change_first_name = Abida
-							}
-							1 = {
-								change_first_name = Adila
-							}
-							1 = {
-								change_first_name = Afira
-							}
-							1 = {
-								change_first_name = Arib
-							}
-							1 = {
-								change_first_name = Bilqis
-							}
-							1 = {
-								change_first_name = Burayha
-							}
-							1 = {
-								change_first_name = Buthayna
-							}
-							1 = {
-								change_first_name = Daana
-							}
-							1 = {
-								change_first_name = Ghamama
-							}
-							1 = {
-								change_first_name = Hakima
-							}
-							1 = {
-								change_first_name = Hamduna
-							}
-							1 = {
-								change_first_name = Juml
-							}
-							1 = {
-								change_first_name = Lidhdha
-							}
-							1 = {
-								change_first_name = Lubna
-							}
-							1 = {
-								change_first_name = Mahabba
-							}
-							1 = {
-								change_first_name = Mayya
-							}
-							1 = {
-								change_first_name = Sattara
-							}
-							1 = {
-								change_first_name = Sawwab
-							}
-							1 = {
-								change_first_name = Shajar
-							}
-							1 = {
-								change_first_name = Shajara
-							}
-							1 = {
-								change_first_name = Shakira
-							}
-							1 = {
-								change_first_name = Taqiya
-							}
-							1 = {
-								change_first_name = Zabiba
-							}
-							1 = {
-								change_first_name = Zummurrud
-							}
-						}
-					}
-					1 = {
-						random_list = {
-							1 = {
-								change_first_name = Amsha
-							}
-							1 = {
-								change_first_name = Asmuna
-							}
-							1 = {
-								change_first_name = Athl
-							}
-							1 = {
-								change_first_name = Ayshuna
-							}
-							1 = {
-								change_first_name = Baraka
-							}
-							1 = {
-								change_first_name = Dinar
-							}
-							1 = {
-								change_first_name = Fathuna
-							}
-							1 = {
-								change_first_name = Fatna
-							}
-							1 = {
-								change_first_name = Faynan
-							}
-							1 = {
-								change_first_name = Futayma
-							}
-							1 = {
-								change_first_name = Ghaya
-							}
-							1 = {
-								change_first_name = Halawa
-							}
-							1 = {
-								change_first_name = Idlal
-							}
-							1 = {
-								change_first_name = Itimad
-							}
-							1 = {
-								change_first_name = Judur
-							}
-							1 = {
-								change_first_name = Kafat
-							}
-							1 = {
-								change_first_name = Marjan
-							}
-							1 = {
-								change_first_name = Masabih
-							}
-							1 = {
-								change_first_name = Muzayna
-							}
-							1 = {
-								change_first_name = Narjis
-							}
-							1 = {
-								change_first_name = Num
-							}
-							1 = {
-								change_first_name = Nuzha
-							}
-							1 = {
-								change_first_name = Rah
-							}
-							1 = {
-								change_first_name = Ray
-							}
-							1 = {
-								change_first_name = Saduna
-							}
-							1 = {
-								change_first_name = Sihr
-							}
-							1 = {
-								change_first_name = Sut
-							}
-							1 = {
-								change_first_name = Tamu
-							}
-							1 = {
-								change_first_name = Tarub
-							}
-							1 = {
-								change_first_name = Tazunt
-							}
-							1 = {
-								change_first_name = Umayna
-							}
-							1 = {
-								change_first_name = Urtatlim
-							}
-							1 = {
-								change_first_name = Ward
-							}
-							1 = {
-								change_first_name = Yahaira
-							}
-							1 = {
-								change_first_name = Yanduza
-							}
-							1 = {
-								change_first_name = Zannu
-							}
-						}
-					}
-				}
+				arabic_pack_name_ai_female = yes
 			}
 		}
     }
