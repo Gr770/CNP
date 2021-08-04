@@ -7,14 +7,6 @@
  Adam_norse_pat_dad_male: "Adamsson"
  Adam_norse_pat_dad_female: "Adamsdóttir"
 
- Adalgeirr_norse: "Aðalgęirr"
- Adalgeirr_norse_pat_dad_male: "Aðalgęirsson"
- Adalgeirr_norse_pat_dad_female: "Aðalgęirsdóttir"
-
- Adalsteinn_norse: "Aðalstęinn"
- Adalsteinn_norse_pat_dad_male: "Aðalstęinsson"
- Adalsteinn_norse_pat_dad_female: "Aðalstęinsdóttir"
-
  Ogmundr_norse: "Ǫgmundr"
  Ogmundr_norse_pat_dad_male: "Ǫgmundarson"
  Ogmundr_norse_pat_dad_female: "Ǫgmundardóttir"
@@ -34,10 +26,6 @@
  Almarr_norse: "Almarr"
  Almarr_norse_pat_dad_male: "Almarsson"
  Almarr_norse_pat_dad_female: "Almarsdóttir"
-
- Omundi_norse: "Ǫ́mundi"
- Omundi_norse_pat_dad_male: "Ǫ́mundason"
- Omundi_norse_pat_dad_female: "Ǫ́mundadóttir"
 
  Onn_norse: "Ǫ́nn"
  Onn_norse_pat_dad_male: "Ǫ́nsson"
@@ -972,10 +960,6 @@
  Ofeigr_norse: "Ófęigr"
  Oleifr_norse_pat_dad_male: "Ófęigsson"
  Oleifr_norse_pat_dad_female: "Ófęigsdóttir"
- 
- Oleifr_norse: "Ǫ́lęifr"
- Oleifr_norse_pat_dad_male: "Ǫ́lęifsson"
- Oleifr_norse_pat_dad_female: "Ǫ́lęifsdóttir"
 
  Olafr_norse: "Ǫ́láfr"
  Olafr_norse_pat_dad_male: "Ǫ́láfsson"
@@ -1689,8 +1673,6 @@
 
  #female names
 
- Adalbjorg_norse: "Aðalbiǫrg"
-
  Audbjorg_norse: "Auðbiǫrg"
 
  Audhildr_norse: "Auðhildr"
@@ -2033,6 +2015,78 @@
  AEsa_norse: "Æsa"
 
  Olvor_norse: "Ǫlvǫr"
+
+ #Á
+
+ Avarr_norse: "Ǫ́varr"
+ Avarr_norse_pat_dad_male: "Ǫ́varsson"
+ Avarr_norse_pat_dad_female: "Ǫ́varsdóttir"
+
+ Abrand_norse: "Ǫ́brandr"
+ Abrand_norse_pat_dad_male: "Ǫ́brandsson"
+ Abrand_norse_pat_dad_female: "Ǫ́brandsdóttir"
+
+ Avald_norse: "Ǫ́valdr"
+ Avald_norse_pat_dad_male: "Ǫ́valdsson"
+ Avald_norse_pat_dad_female: "Ǫ́valdsdóttir"
+
+ Abjorn_norse: "Ǫ́biǫrn"
+ Abjorn_norse_pat_dad_male: "Ǫ́biarnarson"
+ Abjorn_norse_pat_dad_female: "Ǫ́biarnardóttir"
+
+ Ageir_norse: "Ǫ́gęirr"
+ Ageir_norse_pat_dad_male: "Ǫ́gęirsson"
+ Ageir_norse_pat_dad_female: "Ǫ́gęirsdóttir"
+
+ Aketil_norse: "Ǫ́kętill"
+ Aketil_norse_pat_dad_male: "Ǫ́kętilsson"
+ Aketil_norse_pat_dad_female: "Ǫ́kętilsdóttir"
+
+ Aleif_norse: "Ǫ́lęifr"
+ Aleif_norse_pat_dad_male: "Ǫ́lęifsson"
+ Aleif_norse_pat_dad_female: "Ǫ́lęifsdóttir"
+ Olafr_norse: "Ǫ́láfr"
+ Olafr_norse_pat_dad_male: "Ǫ́láfsson"
+ Olafr_norse_pat_dad_female: "Ǫ́láfsdóttir"
+
+ Amod_norse: "Ǫ́móðr"
+ Amod_norse_pat_dad_male: "Ǫ́móðsson"
+ Amod_norse_pat_dad_female: "Ǫ́móðsdóttir"
+
+ Amundi_norse: "Ǫ́mundi"
+ Amundi_norse_pat_dad_male: "Ǫ́mundason"
+ Amundi_norse_pat_dad_female: "Ǫ́mundadóttir"
+ Amund_norse: "Ǫ́mundr"
+ Amund_norse_pat_dad_male: "Ǫ́mundarson"
+ Amund_norse_pat_dad_female: "Ǫ́mundardóttir"
+
+ Astein_norse: "Ǫ́stęinn"
+ Astein_norse_pat_dad_male: "Ǫ́stęinsson"
+ Astein_norse_pat_dad_female: "Ǫ́stęinsdóttir"
+
+ Avard_norse: "Ǫ́varðr"
+ Avard_norse_pat_dad_male: "Ǫ́varðarson"
+ Avard_norse_pat_dad_female: "Ǫ́varðardóttir"
+
+ Asl_norse: "Ǫ́sl"
+ Asl_norse_pat_dad_male: "Ǫ́slsson"
+ Asl_norse_pat_dad_female: "Ǫ́slsdóttir"
+
+ #Adal
+
+ Adalvarr_norse: "Aðalvarr"
+ Adalvarr_norse_pat_dad_male: "Aðalvarsson"
+ Adalvarr_norse_pat_dad_female: "Aðalvarsdóttir"
+
+ Adalgeirr_norse: "Aðalgęirr"
+ Adalgeirr_norse_pat_dad_male: "Aðalgęirsson"
+ Adalgeirr_norse_pat_dad_female: "Aðalgęirsdóttir"
+
+ Adalsteinn_norse: "Aðalstęinn"
+ Adalsteinn_norse_pat_dad_male: "Aðalstęinsson"
+ Adalsteinn_norse_pat_dad_female: "Aðalstęinsdóttir"
+
+ Adalbjorg_norse: "Aðalbiǫrg"
 
  #Alf
 
@@ -2690,6 +2744,16 @@
 
  Eindis_norse: "Ęindís"
 
- Eingerdr
+ Eingerdr_norse: "Ęingęrðr"
+
+ Eingunn_norse: "Ęingunn"
+
+ Einheid_norse: "Ęinhęiðr"
+
+ Einhild_norse: "Ęinhildr"
+
+ Einlaug_norse: "Ęinlaug"
+
+ Einlaug_norse: "Ęinlaug"
 
  Eirny_norse: "Ęirný"
