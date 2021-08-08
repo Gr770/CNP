@@ -7,7 +7,7 @@
 
  general_rebellion_decline_summary_warning:0 "@warning_icon!#X If [ROOT.Char.Custom('CTPShortNameNoTooltip')] declines [ROOT.Char.GetSheHe] will rise up in rebellion with other disgruntled [vassals|E]!#!"
  
- stop_vassal_war_negotiation:2 "Demand that [recipient.Custom('CTPShortName')] abandons [recipient.GetHerHis] war\n\n[recipient.Custom('CTPShortNamePossessive')] willingness to end the war is determined by:\n$BULLET_WITH_TAB$Both of your [diplomacy|E] skills\n$BULLET_WITH_TAB$The state of the war\n$BULLET_WITH_TAB$[recipient.GetHerHis|U] [traits|E]\n$BULLET_WITH_TAB$[recipient.GetHerHis|U] [opinion|E] of you\n$BULLET_WITH_TAB$Whether [recipient.GetSheHe] is [intimidated|E] or [cowed|E] by you"
+ stop_vassal_war_negotiation:2 "Demand that [recipient.Custom('CTPShortName')] abandons [recipient.GetHerHis] war\n\n[recipient.Custom('CTPShortNamePossessiveyour')] willingness to end the war is determined by:\n$BULLET_WITH_TAB$Both of your [diplomacy|E] skills\n$BULLET_WITH_TAB$The state of the war\n$BULLET_WITH_TAB$[recipient.GetHerHis|U] [traits|E]\n$BULLET_WITH_TAB$[recipient.GetHerHis|U] [opinion|E] of you\n$BULLET_WITH_TAB$Whether [recipient.GetSheHe] is [intimidated|E] or [cowed|E] by you"
  force_join_faction_interaction_desc:1 "Use a [hook|E] on [recipient.Custom('CTPShortName')] to force them to join your current [faction|E]"
  
  stop_attacker_vassal_war_decline_summary:1 "[recipient.Custom('CTPShortNameNoTooltip')] might ask for something in return"

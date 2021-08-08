@@ -7,3 +7,6 @@
  START_RAID_ALLY:0 "@warning_icon!#X Cannot [raid|E] your ally [CHARACTER.Custom('CTPShortName')]#!"
  TROOP_LIST_KNIGHT:1 "[CHARACTER.Custom('CTPShortName')|U]: [CHARACTER.GetSkill( 'prowess' )] [prowess_i|E]"
  ARMY_TOOLTIP_COMMANDER:0 "[commander|E]: [Character.Custom('CTPShortName')]"
+
+ TROOP_LIST_MAA_SINGLE:0 "#T [Localize(Concatenate(ARMY_REGIMENT.GetRegiment.GetOwner.Custom('CharacterCulture'), ARMY_REGIMENT.GetRegiment.GetNameNoTooltip))]: [ARMY_REGIMENT.GetCount]/[ARMY_REGIMENT.GetMax]#!"
+ TROOP_LIST_MAA_MULTIPLE:0 "[Localize(Concatenate(ARMY_REGIMENT.GetRegiment.GetOwner.Custom('CharacterCulture'), ARMY_REGIMENT.GetRegiment.GetNameNoTooltip))]: [ARMY_REGIMENT.GetCount]/[ARMY_REGIMENT.GetMax]"

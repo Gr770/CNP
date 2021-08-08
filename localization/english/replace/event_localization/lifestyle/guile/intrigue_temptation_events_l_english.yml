@@ -66,7 +66,7 @@
  intrigue_temptation.3021.b.tt:0 "Keep [potential_date.Custom('CTPShortName')] for consideration"
  intrigue_temptation.3021.b.2_dates.tt:0 "I have picked [date_1.Custom('CTPShortName')] and [date_2.Custom('CTPShortName')] and can pick #V 1#! more"
  intrigue_temptation.3021.b.1_date.tt:0 "I have picked [date_1.Custom('CTPShortName')] and can pick #V 2#! more"
- intrigue_temptation.3021.c.tt:0 "Discard [potential_date.Custom('CTPShortNamePossessive')] portrait"
+ intrigue_temptation.3021.c.tt:0 "Discard [potential_date.Custom('CTPShortNamePossessiveyour')] portrait"
 
  intrigue_temptation.3022.a:0 "I only care about [favorite.Custom('RomanticComplimentAdjective')] [favorite.Custom('CTPFirstNameNoTooltip')]."
  

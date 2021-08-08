@@ -84,8 +84,8 @@
  court_ongoing.1050.b.friend.soft_failure:0 "[helpful_friend.Custom('CTPShortName')|U] finds nothing"
  court_ongoing.1050.b.friend.hard_failure:0 "[helpful_friend.Custom('CTPShortName')|U] gets injured in the ruins"
  court_ongoing.1050.b.friend:0 "[helpful_friend.Custom('CTPTitledFirstNameNoTooltip')] might be able to help me out."
- court_ongoing.1050.b.friend.f:0 "This option is available because of your friend [helpful_friend.Custom('CTPShortNamePossessive')] high [prowess|E] Skill"
- court_ongoing.1050.c.friend.f:0 "This option is available because of your friend [helpful_friend.Custom('CTPShortNamePossessive')] Herbalist Trait"
+ court_ongoing.1050.b.friend.f:0 "This option is available because of your friend [helpful_friend.Custom('CTPShortNamePossessiveyour')] high [prowess|E] Skill"
+ court_ongoing.1050.c.friend.f:0 "This option is available because of your friend [helpful_friend.Custom('CTPShortNamePossessiveyour')] Herbalist Trait"
 
  court_ongoing.1100.desc:0 "There is no [target.GetWomanMan] lovelier than [target.Custom('CTPTitledFirstName')]! In [target.GetHerHis] presence, my words often fail me — none of my compliments ever do [target.GetHerHim] justice. Perhaps a carefully drafted poem would better capture [target.GetHerHis] virtues?\n\nI will write about [target.GetHerHis]..."
  court_ongoing.1100.compliment.tt:0 "[target.Custom('CTPTitledFirstNamePossessive')] reply will be based on how well the poem suits [target.GetHerHim]."

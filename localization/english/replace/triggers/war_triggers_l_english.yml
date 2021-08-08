@@ -6,8 +6,8 @@
  HAS_ANY_CB_ON_TRIGGER:0 "Has a [casus_belli|E] on [TARGET_CHARACTER.Custom('CTPShortName')|V]"
  HAS_NOT_ANY_CB_ON_TRIGGER:0 "Does #bold not#! have a [casus_belli|E] on [TARGET_CHARACTER.Custom('CTPShortName')|V]"
 
- THEY_HAS_RAISED_ARMIES:0 "[CHARACTER.Custom('CTPShortNamePossessive')|V] [armies|E] are raised"
- THEY_HAS_NOT_RAISED_ARMIES:0 "[CHARACTER.Custom('CTPShortNamePossessive')|V] [armies|E] are #bold not#! raised"
+ THEY_HAS_RAISED_ARMIES:0 "[CHARACTER.Custom('CTPShortNamePossessiveyour')|V] [armies|E] are raised"
+ THEY_HAS_NOT_RAISED_ARMIES:0 "[CHARACTER.Custom('CTPShortNamePossessiveyour')|V] [armies|E] are #bold not#! raised"
  
  IS_ATTACKER_TRIGGER_THIRD:0 "[CHARACTER.Custom('CTPShortName')|U] is an Attacker in [WAR.GetName|V]"
  NOT_IS_ATTACKER_TRIGGER_THIRD:0 "[CHARACTER.Custom('CTPShortName')|U] is #bold not#! an Attacker in [WAR.GetName|V]"

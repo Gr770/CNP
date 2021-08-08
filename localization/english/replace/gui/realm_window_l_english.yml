@@ -12,6 +12,6 @@
  TRUCE_GRANT_INDEPENDENCE_ROOT:0 "[ROOT.Char.Custom('CTPNameNotMe')|U] was granted independence"
  REALM_WINDOW_DIPLOMACY_TOOLTIP_RAID_ON:0 "#T Raided by [CHARACTER.Custom('CTPName')]#!\nHostile until [DATE.GetString|V]"
  REALM_WINDOW_DIPLOMACY_TOOLTIP_RAID_BY:0 "#T Raiding [CHARACTER.Custom('CTPName')]#!\nHostile until [DATE.GetString|V]"
- REALM_WINDOW_SIZE_TT:3 "#T [realm_size|E]: [Character.RealmSize|V] [counties|E]\n#!Counties in [Character.Custom('CTPShortNamePossessive')] [domain|E]: [Character.NumberOfDirectlyHeldCounties|V]\nCounties in [vassal|E] Realms: [Subtract_int32(Character.RealmSize, Character.NumberOfDirectlyHeldCounties)|V] "
+ REALM_WINDOW_SIZE_TT:3 "#T [realm_size|E]: [Character.RealmSize|V] [counties|E]\n#!Counties in [Character.Custom('CTPShortNamePossessiveyour')] [domain|E]: [Character.NumberOfDirectlyHeldCounties|V]\nCounties in [vassal|E] Realms: [Subtract_int32(Character.RealmSize, Character.NumberOfDirectlyHeldCounties)|V] "
  
  REALM_OF_CHARACTER:0 "Realm of [CHARACTER.Custom('CTPName')]"

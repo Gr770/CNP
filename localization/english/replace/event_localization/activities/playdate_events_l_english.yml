@@ -1,5 +1,5 @@
 ﻿l_english:
- child_return_from_playdate_desc:0 "[child_scope.Custom('CTPShortName')] has returned from meeting peers at [host.Custom('CTPShortNamePossessive')] court"
+ child_return_from_playdate_desc:0 "[child_scope.Custom('CTPShortName')] has returned from meeting peers at [host.Custom('CTPShortNamePossessiveyour')] court"
 
  playdate.0010.desc:0 "Why would you accept my invitation only to go to [other_host.Custom('CTPTitledFirstNamePossessive')] peer meet instead?! I will remember this."
  

@@ -40,6 +40,7 @@
  CTP_Me_no_tooltip_no_format: "Me"
  CTP_My_no_format: "#ONCLICK:CHARACTER,[ROOT.Char.GetID] #TOOLTIP:CHARACTER,[ROOT.Char.GetID] #L My#!#!#!"
  CTP_My_no_tooltip_no_format: "My"
+ CTP_Your: "Your"
  CTP_His: "His"
  CTP_Her: "Her"
 
@@ -61,6 +62,7 @@
  CTP_Short_Name_Default_no_tooltip: "[ROOT.Char.GetShortUINameNoTooltip]"
  CTP_Short_Name_Default_no_tooltip_not_me: "[ROOT.Char.GetShortUINameNotMeNoTooltip]"
  CTP_Short_Name_Default_possesive: "[ROOT.Char.GetShortUINamePossessive]"
+ CTP_Short_Name_Default_possesive_no_format: "[ROOT.Char.GetShortUINamePossessiveNoFormat]"
  CTP_Short_Name_Default_possesive_not_my: "[ROOT.Char.GetShortUINamePossessiveNotMy]"
  CTP_Short_Name_Default_no_tooltip_possesive: "[ROOT.Char.GetShortUINamePossessiveNoTooltip]"
  CTP_Short_Name_Default_no_tooltip_possesive_not_my: "[ROOT.Char.GetShortUINamePossessiveNotMyNoTooltip]"
