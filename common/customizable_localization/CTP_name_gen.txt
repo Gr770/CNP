@@ -107,12 +107,6 @@ CTPFullName = {
 		}
 		localization_key = CTP_Full_Name_Arabic
 	}
-    text = {
-        trigger = {
-            has_culture = culture:norse
-        }
-		localization_key = CTP_Full_Name_Norse
-    }
 	text = {
 		fallback = yes
 		localization_key = CTP_Full_Name_Default
@@ -126,12 +120,6 @@ CTPFullNameConcept = {
 		}
 		localization_key = CTP_Full_Name_Concept_Arabic
 	}
-    text = {
-        trigger = {
-            has_culture = culture:norse
-        }
-		localization_key = CTP_Full_Name_Concept_Norse
-    }
 	text = {
 		fallback = yes
 		localization_key = CTP_Full_Name_Default
@@ -144,12 +132,6 @@ CTPFullName2 = {
 			has_culture_group = culture_group:arabic_group
 		}
 		localization_key = CTP_Name_Arabic_no_format
-	}
-	text = {
-		trigger = {
-			has_culture = culture:norse
-		}
-		localization_key = CTP_Full_Name_Norse_no_format
 	}
 	text = {
 		fallback = yes
@@ -165,12 +147,6 @@ CTPFullName2NoTooltip = {
 		localization_key = CTP_Name_Arabic_no_tooltip_no_format
 	}
 	text = {
-		trigger = {
-			has_culture = culture:norse
-		}
-		localization_key = CTP_Full_Name_Norse_no_tooltip_no_format
-	}
-	text = {
 		fallback = yes
 		localization_key = CTP_Full_Name_2_Default_no_tooltip
 	}
@@ -179,10 +155,7 @@ CTPTitleTierName = {
     type = character
     text = {
 		trigger = {
-            OR = {
-                has_culture_group = culture_group:arabic_group
-                has_culture = culture:norse
-            }
+			has_culture_group = culture_group:arabic_group
 		}
 		localization_key = CTP_Title_Tier_Name_Arabic
 	}
@@ -195,10 +168,7 @@ CTPTitleTierNamePossessive = {
     type = character
     text = {
 		trigger = {
-			OR = {
-                has_culture_group = culture_group:arabic_group
-                has_culture = culture:norse
-            }
+			has_culture_group = culture_group:arabic_group
 		}
 		localization_key = CTP_Title_Tier_Name_Arabic_possesive
 	}
@@ -216,12 +186,6 @@ CTPTitledFirstName = {
 		localization_key = CTP_Name_Arabic_no_format
 	}
 	text = {
-		trigger = {
-			has_culture = culture:norse
-		}
-		localization_key = CTP_Titled_First_Name_Norse
-	}
-	text = {
 		fallback = yes
 		localization_key = CTP_Titled_first_Name_Default
 	}
@@ -233,12 +197,6 @@ CTPTitledFirstNameNicknamed = {
 			has_culture_group = culture_group:arabic_group
 		}
 		localization_key = CTP_Name_Arabic_no_format
-	}
-	text = {
-		trigger = {
-			has_culture = culture:norse
-		}
-		localization_key = CTP_Titled_First_Name_Nick_Norse
 	}
 	text = {
 		fallback = yes
@@ -254,12 +212,6 @@ CTPTitledFirstNameNicknamedNoTooltip = {
 		localization_key = CTP_Name_Arabic_no_tooltip_no_format
 	}
 	text = {
-		trigger = {
-			has_culture = culture:norse
-		}
-		localization_key = CTP_Titled_First_Name_Nick_Norse_no_tooltip
-	}
-	text = {
 		fallback = yes
 		localization_key = CTP_Titled_first_Name_Nick_Default_no_tooltip
 	}
@@ -271,12 +223,6 @@ CTPTitledFirstNameNoTooltip = {
 			has_culture_group = culture_group:arabic_group
 		}
 		localization_key = CTP_Name_Arabic_no_tooltip_no_format
-	}
-	text = {
-		trigger = {
-			has_culture = culture:norse
-		}
-		localization_key = CTP_Titled_First_Name_Norse_no_tooltip
 	}
 	text = {
 		fallback = yes
@@ -298,12 +244,6 @@ CTPTitledFirstNameOrMe = {
 		localization_key = CTP_Name_Arabic_no_format
 	}
 	text = {
-		trigger = {
-			has_culture = culture:norse
-		}
-		localization_key = CTP_Titled_First_Name_Norse
-	}
-	text = {
 		fallback = yes
 		localization_key = CTP_Titled_first_Name_Or_Me_Default
 	}
@@ -323,12 +263,6 @@ CTPTitledFirstNameOrMeNoTooltip = {
 		localization_key = CTP_Name_Arabic_no_tooltip_no_format
 	}
 	text = {
-		trigger = {
-			has_culture = culture:norse
-		}
-		localization_key = CTP_Titled_First_Name_Norse_no_tooltip
-	}
-	text = {
 		fallback = yes
 		localization_key = CTP_Titled_first_Name_Or_Me_Default_no_tooltip
 	}
@@ -340,12 +274,6 @@ CTPTitledFirstNamePossessive = {
 			has_culture_group = culture_group:arabic_group
 		}
 		localization_key = CTP_Name_Arabic_possessive_no_format
-	}
-	text = {
-		trigger = {
-			has_culture = culture:norse
-		}
-		localization_key = CTP_Titled_First_Name_Norse_possessive
 	}
 	text = {
 		fallback = yes
@@ -367,12 +295,6 @@ CTPTitledFirstNamePossessiveOrMy = {
 		localization_key = CTP_Name_Arabic_possessive_no_format
 	}
 	text = {
-		trigger = {
-			has_culture = culture:norse
-		}
-		localization_key = CTP_Titled_First_Name_Norse_possessive
-	}
-	text = {
 		fallback = yes
 		localization_key = CTP_Titled_first_Name_Default_possessive_or_my
 	}
@@ -384,12 +306,6 @@ CTPTitledFirstNamePossessiveNoTooltip = {
 			has_culture_group = culture_group:arabic_group
 		}
 		localization_key = CTP_Name_Arabic_no_tooltip_possesive_no_format
-	}
-	text = {
-		trigger = {
-			has_culture = culture:norse
-		}
-		localization_key = CTP_Titled_First_Name_Norse_no_tooltip_possessive
 	}
 	text = {
 		fallback = yes
@@ -411,12 +327,6 @@ CTPTitledFirstNamePossessiveOrMyNoTooltip = {
 		localization_key = CTP_Name_Arabic_no_tooltip_possesive_no_format
 	}
 	text = {
-		trigger = {
-			has_culture = culture:norse
-		}
-		localization_key = CTP_Titled_First_Name_Norse_no_tooltip_possessive
-	}
-	text = {
 		fallback = yes
 		localization_key = CTP_Titled_first_Name_Default_possessive_or_my_no_tooltip
 	}
@@ -425,10 +335,7 @@ CTPTitleAsName = {
     type = character
     text = {
 		trigger = {
-			OR = {
-                has_culture_group = culture_group:arabic_group
-                has_culture = culture:norse
-            }
+			has_culture_group = culture_group:arabic_group
 		}
 		localization_key = CTP_Title_as_Name_Arabic
 	}
@@ -441,10 +348,7 @@ CTPTitleAsNameNoTooltip = {
     type = character
     text = {
 		trigger = {
-			OR = {
-                has_culture_group = culture_group:arabic_group
-                has_culture = culture:norse
-            }
+			has_culture_group = culture_group:arabic_group
 		}
 		localization_key = CTP_Title_as_Name_Arabic_no_tooltip
 	}
@@ -457,10 +361,7 @@ CTPTitleAsNamePossessive = {
     type = character
     text = {
 		trigger = {
-			OR = {
-                has_culture_group = culture_group:arabic_group
-                has_culture = culture:norse
-            }
+			has_culture_group = culture_group:arabic_group
 		}
 		localization_key = CTP_Title_as_Name_Arabic_possesive
 	}
@@ -473,10 +374,7 @@ CTPTitleAsNamePossessiveNoTooltip = {
     type = character
     text = {
 		trigger = {
-			OR = {
-                has_culture_group = culture_group:arabic_group
-                has_culture = culture:norse
-            }
+			has_culture_group = culture_group:arabic_group
 		}
 		localization_key = CTP_Title_as_Name_Arabic_no_tooltip_possesive
 	}
@@ -494,12 +392,6 @@ CTPRegName = {
 		localization_key = CTP_Name_Arabic_no_format
 	}
 	text = {
-		trigger = {
-			has_culture = culture:norse
-		}
-		localization_key = CTP_Name_Norse_no_format
-	}
-	text = {
 		fallback = yes
 		localization_key = CTP_Reg_Name_Default
 	}
@@ -511,12 +403,6 @@ CTPRegNameNoTooltip = {
 			has_culture_group = culture_group:arabic_group
 		}
 		localization_key = CTP_Name_Arabic_no_tooltip_no_format
-	}
-	text = {
-		trigger = {
-			has_culture = culture:norse
-		}
-		localization_key = CTP_Name_Norse_no_tooltip_no_format
 	}
 	text = {
 		fallback = yes
@@ -538,12 +424,6 @@ CTPRegNameOrMe = {
 		localization_key = CTP_Name_Arabic_no_format
 	}
 	text = {
-		trigger = {
-			has_culture = culture:norse
-		}
-		localization_key = CTP_Name_Norse_no_format
-	}
-	text = {
 		fallback = yes
 		localization_key = CTP_Reg_Name_Default_or_me
 	}
@@ -557,12 +437,6 @@ CTPRegNamePossessive = {
 		localization_key = CTP_Name_Arabic_possessive_no_format
 	}
 	text = {
-		trigger = {
-			has_culture = culture:norse
-		}
-		localization_key = CTP_Name_Norse_possessive_no_format
-	}
-	text = {
 		fallback = yes
 		localization_key = CTP_Reg_Name_Default_possessive
 	}
@@ -574,12 +448,6 @@ CTPRegNamePossessiveNoTooltip = {
 			has_culture_group = culture_group:arabic_group
 		}
 		localization_key = CTP_Name_Arabic_no_tooltip_possesive_no_format
-	}
-	text = {
-		trigger = {
-			has_culture = culture:norse
-		}
-		localization_key = CTP_Name_Norse_no_tooltip_possesive_no_format
 	}
 	text = {
 		fallback = yes
@@ -601,12 +469,6 @@ CTPRegNamePossessiveOrMy = {
 		localization_key = CTP_Name_Arabic_possessive_no_format
 	}
 	text = {
-		trigger = {
-			has_culture = culture:norse
-		}
-		localization_key = CTP_Name_Norse_possessive_no_format
-	}
-	text = {
 		fallback = yes
 		localization_key = CTP_Reg_Name_Default_possessive_or_my
 	}
@@ -620,12 +482,6 @@ CTPFirstName = {
 		localization_key = CTP_Short_Name_Arabic
 	}
 	text = {
-		trigger = {
-			has_culture = culture:norse
-		}
-		localization_key = CTP_First_Name_Norse
-	}
-	text = {
 		fallback = yes
 		localization_key = CTP_First_Name_Default
 	}
@@ -637,12 +493,6 @@ CTPFirstNameNoTooltip = {
 			has_culture_group = culture_group:arabic_group
 		}
 		localization_key = CTP_Short_Name_Arabic_no_tooltip_no_format
-	}
-	text = {
-		trigger = {
-			has_culture = culture:norse
-		}
-		localization_key = CTP_First_Name_Norse_no_tooltip_no_format
 	}
 	text = {
 		fallback = yes
@@ -664,12 +514,6 @@ CTPFirstNameOrMe = {
 		localization_key = CTP_Short_Name_Arabic_no_format
 	}
 	text = {
-		trigger = {
-			has_culture = culture:norse
-		}
-		localization_key = CTP_First_Name_Norse
-	}
-	text = {
 		fallback = yes
 		localization_key = CTP_First_Name_Or_Me_Default
 	}
@@ -689,12 +533,6 @@ CTPFirstNamePossessiveOrMy = {
 		localization_key = CTP_Short_Name_Arabic_possessive_no_format
 	}
 	text = {
-		trigger = {
-			has_culture = culture:norse
-		}
-		localization_key = CTP_First_Name_Norse_possessive
-	}
-	text = {
 		fallback = yes
 		localization_key = CTP_First_Name_Default_possessive_or_my
 	}
@@ -706,12 +544,6 @@ CTPFirstNamePossessive = {
 			has_culture_group = culture_group:arabic_group
 		}
 		localization_key = CTP_Short_Name_Arabic_possessive_no_format
-	}
-	text = {
-		trigger = {
-			has_culture = culture:norse
-		}
-		localization_key = CTP_First_Name_Norse_possessive
 	}
 	text = {
 		fallback = yes
@@ -727,12 +559,6 @@ CTPFirstNamePossessiveNoTooltip = {
 		localization_key = CTP_Short_Name_Arabic_no_tooltip_possessive_no_format
 	}
 	text = {
-		trigger = {
-			has_culture = culture:norse
-		}
-		localization_key = CTP_First_Name_Norse_no_tooltip_possessive
-	}
-	text = {
 		fallback = yes
 		localization_key = CTP_First_Name_Default_possessive_no_tooltip
 	}
@@ -746,12 +572,6 @@ CTPFullNameNicknamedNoTooltip = {
 		localization_key = CTP_Name_Arabic_no_tooltip_no_format
 	}
 	text = {
-		trigger = {
-			has_culture = culture:norse
-		}
-		localization_key = CTP_Full_Name_Norse_Nick_no_tooltip
-	}
-	text = {
 		fallback = yes
 		localization_key = CTP_Full_Name_Nicknamed_Default_no_tooltip
 	}
@@ -763,12 +583,6 @@ CTPFullNameNicknamedNoTooltipRegnal = {
 			has_culture_group = culture_group:arabic_group
 		}
 		localization_key = CTP_Name_Arabic_no_tooltip_no_format
-	}
-	text = {
-		trigger = {
-			has_culture = culture:norse
-		}
-		localization_key = CTP_Full_Name_Norse_Nick_no_tooltip
 	}
 	text = {
 		fallback = yes
@@ -789,12 +603,6 @@ CTPName = {
 		}
 		localization_key = CTP_Name_Arabic
 	}
-    text = {
-		trigger = {
-			has_culture = culture:norse
-		}
-		localization_key = CTP_Name_Norse_no_format
-	}
 	text = {
 		fallback = yes
 		localization_key = CTP_Name_Default
@@ -813,12 +621,6 @@ CTPShortName = {
 			has_culture_group = culture_group:arabic_group
 		}
 		localization_key = CTP_Short_Name_Arabic
-	}
-    text = {
-		trigger = {
-			has_culture = culture:norse
-		}
-		localization_key = CTP_Short_Name_Norse
 	}
 	text = {
 		fallback = yes
@@ -839,12 +641,6 @@ CTPNameNoTooltip = {
 		}
 		localization_key = CTP_Name_Arabic_no_tooltip
 	}
-    text = {
-		trigger = {
-			has_culture = culture:norse
-		}
-		localization_key = CTP_Name_Norse_no_tooltip_no_format
-	}
 	text = {
 		fallback = yes
 		localization_key = CTP_Name_Default_no_tooltip
@@ -864,12 +660,6 @@ CTPShortNameNoTooltip = {
 		}
 		localization_key = CTP_Short_Name_Arabic_no_tooltip
 	}
-    text = {
-		trigger = {
-			has_culture = culture:norse
-		}
-		localization_key = CTP_Short_Name_Norse_no_tooltip
-	}
 	text = {
 		fallback = yes
 		localization_key = CTP_Short_Name_Default_no_tooltip
@@ -882,12 +672,6 @@ CTPNameNotMe = {
 			has_culture_group = culture_group:arabic_group
 		}
 		localization_key = CTP_Name_Arabic
-	}
-    text = {
-		trigger = {
-			has_culture = culture:norse
-		}
-		localization_key = CTP_Name_Norse_no_format
 	}
 	text = {
 		fallback = yes
@@ -902,12 +686,6 @@ CTPShortNameNotMe = {
 		}
 		localization_key = CTP_Short_Name_Arabic
 	}
-    text = {
-		trigger = {
-			has_culture = culture:norse
-		}
-		localization_key = CTP_Short_Name_Norse
-	}
 	text = {
 		fallback = yes
 		localization_key = CTP_Short_Name_Default_not_me
@@ -921,12 +699,6 @@ CTPNameNotMeNoTooltip = {
 		}
 		localization_key = CTP_Name_Arabic_no_tooltip
 	}
-    text = {
-		trigger = {
-			has_culture = culture:norse
-		}
-		localization_key = CTP_Name_Norse_no_tooltip_no_format
-	}
 	text = {
 		fallback = yes
 		localization_key = CTP_Name_Default_no_tooltip_not_me
@@ -939,12 +711,6 @@ CTPShortNameNotMeNoTooltip = {
 			has_culture_group = culture_group:arabic_group
 		}
 		localization_key = CTP_Short_Name_Arabic_no_tooltip
-	}
-    text = {
-		trigger = {
-			has_culture = culture:norse
-		}
-		localization_key = CTP_Short_Name_Norse_no_tooltip
 	}
 	text = {
 		fallback = yes
@@ -965,12 +731,6 @@ CTPNamePossessive = {
 		}
 		localization_key = CTP_Name_Arabic_possessive
 	}
-    text = {
-		trigger = {
-			has_culture = culture:norse
-		}
-		localization_key = CTP_Name_Norse_possessive_no_format
-	}
 	text = {
 		fallback = yes
 		localization_key = CTP_Name_Default_possessive
@@ -989,12 +749,6 @@ CTPShortNamePossessive = {
 			has_culture_group = culture_group:arabic_group
 		}
 		localization_key = CTP_Short_Name_Arabic_possessive
-	}
-    text = {
-		trigger = {
-			has_culture = culture:norse
-		}
-		localization_key = CTP_Short_Name_Norse_possessive
 	}
 	text = {
 		fallback = yes
@@ -1015,12 +769,6 @@ CTPNamePossessiveNoTooltip = {
 		}
 		localization_key = CTP_Name_Arabic_no_tooltip_possessive
 	}
-    text = {
-		trigger = {
-			has_culture = culture:norse
-		}
-		localization_key = CTP_Name_Norse_no_tooltip_possesive_no_format
-	}
 	text = {
 		fallback = yes
 		localization_key = CTP_Name_Default_no_tooltip_possessive
@@ -1040,12 +788,6 @@ CTPShortNamePossessiveNoTooltip = {
 		}
 		localization_key = CTP_Short_Name_Arabic_no_tooltip_possessive
 	}
-    text = {
-		trigger = {
-			has_culture = culture:norse
-		}
-		localization_key = CTP_Short_Name_Norse_no_tooltip_possessive
-	}
 	text = {
 		fallback = yes
 		localization_key = CTP_Short_Name_Default_no_tooltip_possesive
@@ -1058,12 +800,6 @@ CTPNamePossessiveNotMy = {
 			has_culture_group = culture_group:arabic_group
 		}
 		localization_key = CTP_Name_Arabic_possessive
-	}
-    text = {
-		trigger = {
-			has_culture = culture:norse
-		}
-		localization_key = CTP_Name_Norse_possessive_no_format
 	}
 	text = {
 		fallback = yes
@@ -1078,12 +814,6 @@ CTPShortNamePossessiveNotMy = {
 		}
 		localization_key = CTP_Short_Name_Arabic_possessive
 	}
-    text = {
-		trigger = {
-			has_culture = culture:norse
-		}
-		localization_key = CTP_Short_Name_Norse_possessive
-	}
 	text = {
 		fallback = yes
 		localization_key = CTP_Short_Name_Default_possesive_not_my
@@ -1097,12 +827,6 @@ CTPNamePossessiveNoTooltipNotMy = {
 		}
 		localization_key = CTP_Name_Arabic_no_tooltip_possessive
 	}
-    text = {
-		trigger = {
-			has_culture = culture:norse
-		}
-		localization_key = CTP_Name_Norse_no_tooltip_possesive_no_format
-	}
 	text = {
 		fallback = yes
 		localization_key = CTP_Name_Default_no_tooltip_possessive_not_my
@@ -1115,12 +839,6 @@ CTPShortNamePossessiveNoTooltipNotMy = {
 			has_culture_group = culture_group:arabic_group
 		}
 		localization_key = CTP_Short_Name_Arabic_no_tooltip_possessive
-	}
-    text = {
-		trigger = {
-			has_culture = culture:norse
-		}
-		localization_key = CTP_Short_Name_Norse_no_tooltip_possessive
 	}
 	text = {
 		fallback = yes
@@ -1352,42 +1070,6 @@ CharacterTier = {
     }
     text = {
         trigger = {
-            has_culture = culture:norse
-            NOT = {
-                has_government = theocracy_government
-                has_government = holy_order_government
-            }
-            OR = {
-                AND = {
-                    exists = father
-                    father = {
-                        highest_held_title_tier = tier_duchy
-                        is_independent_ruler = yes
-                        OR = {
-                            has_government = feudal_government
-                            has_government = clan_government
-                            has_government = tribal_government
-                        }
-                    }
-                }
-                AND = {
-                    exists = mother
-                    mother = {
-                        highest_held_title_tier = tier_duchy
-                        is_independent_ruler = yes
-                        OR = {
-                            has_government = feudal_government
-                            has_government = clan_government
-                            has_government = tribal_government
-                        }
-                    }
-                }
-            }
-        }
-        localization_key = independent_duke_prince
-    }
-    text = {
-        trigger = {
             highest_held_title_tier = tier_duchy
         }
         localization_key = Duke
@@ -1419,40 +1101,6 @@ CharacterTier = {
             }
         }
         localization_key = Duke_chaplain
-    }   
-    text = {
-        trigger = {
-            has_culture = culture:norse
-            NOT = {
-                has_government = theocracy_government
-                has_government = holy_order_government
-            }
-            OR = {
-                AND = {
-                    exists = father
-                    father = {
-                        highest_held_title_tier = tier_duchy
-                        OR = {
-                            has_government = feudal_government
-                            has_government = clan_government
-                            has_government = tribal_government
-                        }
-                    }
-                }
-                AND = {
-                    exists = mother
-                    mother = {
-                        highest_held_title_tier = tier_duchy
-                        OR = {
-                            has_government = feudal_government
-                            has_government = clan_government
-                            has_government = tribal_government
-                        }
-                    }
-                }
-            }
-        }
-        localization_key = Duke_prince
     }
     text = {
         trigger = {
@@ -1768,12 +1416,6 @@ CharacterCulture = {
 		localization_key = _arabic
 	}
 	text = {
-		trigger = {
-			has_culture = culture:norse
-		}
-		localization_key = _norse
-	}
-	text = {
 		fallback = yes
 		localization_key = _default
 	}
@@ -1979,16 +1621,8 @@ CharacterPat = {
     text = {
         trigger = {
             exists = father
-            has_culture_group = culture_group:arabic_group
         }
-        localization_key = CTP_nonsupported_Patronym_arabic
-    }
-    text = {
-        trigger = {
-            exists = father
-            has_culture = culture:norse
-        }
-        localization_key = CTP_nonsupported_Patronym_norse
+        localization_key = CTP_nonsupported_Patronym
     }
 	text = {
 		fallback = yes
