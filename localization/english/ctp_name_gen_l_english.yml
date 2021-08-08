@@ -183,6 +183,7 @@
  scripted_gui_laqab_blessed_of_god: "al-Muwaffaq bi-llāh "
  scripted_gui_laqab_guided_god_2: "al-Mahdī bi-llāh "
  scripted_gui_laqab_victorious_will_god: "al-Qāhir bi-llāh "
+ scripted_gui_laqab_adornment_worshippers: "Zayn al-ʿĀbidīn "
 
  scripted_gui_laqab_divinely_guided: "al-Mahdī "
  scripted_gui_laqab_the_selfless: "al-Muḥtasib "
@@ -219,6 +220,10 @@
  scripted_gui_laqab_blood_shedder: "as-Saffāḥ "
  scripted_gui_laqab_qadir: "al-Qādir " ###
  scripted_gui_laqab_unitor: "al-Muwaḥḥid "
+ scripted_gui_laqab_rada: "ar-Riḍā "
+ scripted_gui_laqab_kazim: "al-Kāẓim "
+ scripted_gui_laqab_truthful: "aṣ-Ṣādiq "
+ scripted_gui_laqab_opens_knowledge: "al-Baqir "
 
  scripted_gui_laqab_nobility_faith: "ʿAlāʾ ad-Dīn "
  scripted_gui_laqab_knowledgable_faith: "ʿAlīm ad-Dīn "

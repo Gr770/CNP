@@ -388,6 +388,37 @@ ctpname.002 = {
 		dynasty:bedouindyn013 = {
 			add_to_variable_list = { name = name_pack_support_dynasty target = character:bedouin0159 }
 		}
+		character:163026 = {
+			change_first_name = Hasan
+		}
+		character:163025 = {
+			change_first_name = Ali
+			add_to_global_variable_list = { name = laqab_guide target = this }	
+		}
+		character:163024 = {
+			change_first_name = Muhammad
+			add_to_global_variable_list = { name = laqab_magnanimous target = this }	
+		}
+		character:163023 = {
+			change_first_name = Ali
+			add_to_global_variable_list = { name = laqab_rada target = this }	
+		}
+		character:163022 = {
+			change_first_name = Musa
+			add_to_global_variable_list = { name = laqab_kazim target = this }	
+		}
+		character:33915 = {
+			change_first_name = Jafar
+			add_to_global_variable_list = { name = laqab_truthful target = this }	
+		}
+		character:33914 = {
+			change_first_name = Muhammad
+			add_to_global_variable_list = { name = laqab_opens_knowledge target = this }	
+		}
+		character:33913 = {
+			change_first_name = Ali
+			add_to_global_variable_list = { name = laqab_adornment_worshippers target = this }	
+		}
 		character:33910 = {
 			change_first_name = Imran
 		}
