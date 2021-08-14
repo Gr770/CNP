@@ -446,6 +446,26 @@ scripted_gui_ctp_laqab_pre = {
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_unitor_scope
 				}
+				every_in_global_list = {
+					variable = laqab_rada
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_rada_scope
+				}
+				every_in_global_list = {
+					variable = laqab_kazim
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_kazim_scope
+				}
+				every_in_global_list = {
+					variable = laqab_truthful
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_truthful_scope
+				}
+				every_in_global_list = {
+					variable = laqab_opens_knowledge
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_opens_knowledge_scope
+				}
 			}
 		}
 		IF = {
@@ -808,6 +828,46 @@ scripted_gui_ctp_laqab_pre = {
 				object = scope:effect_root
 			}
 		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_rada_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_rada
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_kazim_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_kazim
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_truthful_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_truthful
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_opens_knowledge_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_opens_knowledge
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
 		else = {
 			custom_description_no_bullet = {
 				text = ctp_blank_trigger_kunya
@@ -1047,6 +1107,11 @@ scripted_gui_ctp_laqab = {
 					variable = laqab_victorious_will_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_victorious_will_god_scope
+				}
+				every_in_global_list = {
+					variable = laqab_adornment_worshippers
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_adornment_worshippers_scope
 				}
 				every_in_global_list = {
 					variable = laqab_nobility_faith
@@ -3464,6 +3529,11 @@ scripted_gui_ctp_laqab_tek_name_check = {
 					variable = laqab_victorious_will_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_victorious_will_god_scope
+				}
+				every_in_global_list = {
+					variable = laqab_adornment_worshippers
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_adornment_worshippers_scope
 				}
 				every_in_global_list = {
 					variable = laqab_nobility_faith

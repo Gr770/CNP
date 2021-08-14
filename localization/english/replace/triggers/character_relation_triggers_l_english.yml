@@ -24,8 +24,8 @@
  NOT_THEY_ARE_LIEGE_OR_ABOVE:0 "[TARGET_CHARACTER.Custom('CTPShortName')|V] is #bold not#! liege or liege's liege"
  THEY_ARE_MY_LIEGE_OR_ABOVE:1 "[TARGET_CHARACTER.Custom('CTPShortName')|V] is your [liege|E] or your liege's liege"
  NOT_THEY_ARE_MY_LIEGE_OR_ABOVE:0 "[TARGET_CHARACTER.Custom('CTPShortName')|V] is #bold not#! your [liege|E] or your liege's liege"
- THEY_ARE_THEIR_LIEGE_OR_ABOVE:0 "[TARGET_CHARACTER.Custom('CTPShortName')|V] is [CHARACTER.Custom('CTPShortNamePossessive')] [liege|E] or [CHARACTER.GetHerHis] liege's liege"
- NOT_THEY_ARE_THEIR_LIEGE_OR_ABOVE:0 "[TARGET_CHARACTER.Custom('CTPShortName')|V] is #bold not#! [CHARACTER.Custom('CTPShortNamePossessive')] [liege|E] or [CHARACTER.GetHerHis] liege's liege"
+ THEY_ARE_THEIR_LIEGE_OR_ABOVE:0 "[TARGET_CHARACTER.Custom('CTPShortName')|V] is [CHARACTER.Custom('CTPShortNamePossessiveyour')] [liege|E] or [CHARACTER.GetHerHis] liege's liege"
+ NOT_THEY_ARE_THEIR_LIEGE_OR_ABOVE:0 "[TARGET_CHARACTER.Custom('CTPShortName')|V] is #bold not#! [CHARACTER.Custom('CTPShortNamePossessiveyour')] [liege|E] or [CHARACTER.GetHerHis] liege's liege"
 
  THEY_ARE_VASSAL_OR_BELOW:0 "[TARGET_CHARACTER.Custom('CTPShortName')|V] is a vassal"
  NOT_THEY_ARE_VASSAL_OR_BELOW:0 "[TARGET_CHARACTER.Custom('CTPShortName')|V] is #bold not#! a vassal"

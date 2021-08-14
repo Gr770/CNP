@@ -2,3 +2,5 @@
  COW_TT_THEIR_COMMANDER:0 "#T Enemy [commander|E]: [CHARACTER.Custom('CTPName')]#!\n[martial_skill|E]: #V [CHARACTER.GetSkillWithLevel('martial')]#!"
  COW_TT_MY_COMMANDER:1 "#T Your [commander|E]: [CHARACTER.Custom('CTPName')]#!\n[martial_skill|E]: #V [CHARACTER.GetSkillWithLevel('martial')]#!"
  COW_TT_COMMANDER:0 "#T [commander|E]: [CHARACTER.Custom('CTPName')]#!\n[martial_skill|E]: #V [CHARACTER.GetSkillWithLevel('martial')]#!"
+ COMBAT_WINDOW_MAA_TT_COUNTERS:2 "#I +Countering opponent's [Localize(Concatenate('_default',MenAtArmsType.GetNameNoTooltip))] #!"
+ COMBAT_WINDOW_MAA_TT_COUNTERED_BY:1 "#X -Countered by opponent's [Localize(Concatenate('_default',MenAtArmsType.GetNameNoTooltip))] #!"

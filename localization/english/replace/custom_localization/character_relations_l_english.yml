@@ -11,7 +11,7 @@
  TRAIT_DESC_POSITIVE_FOR_LIEGE:0 "[crime_i] This is liked by [CHARACTER.Custom('CTPShortName')], [TARGET_CHARACTER.Custom('CTPShortNamePossessiveNoTooltip')] [liege|E] ([CHARACTER.GetFaith.GetAdjective])"
  TRAIT_DESC_POSITIVE_FOR_THEM:0 "[crime_i] This is liked by [CHARACTER.Custom('CTPShortNamePossessiveNoTooltip')] faith ([CHARACTER.GetFaith.GetAdjective])"
 
- THEOCRATIC_LEASE_INCOME_DOMAIN:0 "Temples in [CHARACTER.Custom('CTPShortNamePossessive')] Domain"
+ THEOCRATIC_LEASE_INCOME_DOMAIN:0 "Temples in [CHARACTER.Custom('CTPShortNamePossessiveyour')] Domain"
  BLOCKER_ALREADY_PREGNANT:0 "@warning_icon!#X [CHARACTER.Custom('CTPShortNameNotMe')] is pregnant#!"
  BLOCKER_RECENTLY_GAVE_BIRTH:0 "@warning_icon!#X [CHARACTER.Custom('CTPShortNameNotMe')] gave birth recently#!"
  BLOCKER_IS_INFERTILE:0 "@warning_icon!#X [CHARACTER.Custom('CTPShortNameNotMe')] is infertile#!"
