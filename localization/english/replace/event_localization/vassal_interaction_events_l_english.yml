@@ -11,4 +11,4 @@
 
  vassal_interaction.0015.desc:0 "I would lose far too much if I were to surrender. I do not wish to disobey, but [attacker.Custom('CTPTitledFirstName')] has forced my hand."
 
- vassal_interaction.war_ender_gives_up:1 "[recipient.Custom('CTPShortName')|U] has given up their war, on [actor.Custom('CTPShortNamePossessive')] orders"
+ vassal_interaction.war_ender_gives_up:1 "[recipient.Custom('CTPShortName')|U] has given up their war, on [actor.Custom('CTPShortNamePossessiveyour')] orders"

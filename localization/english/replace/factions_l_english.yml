@@ -8,7 +8,7 @@
  
  FACTION_DEMAND_POPULIST:0 "To the [ROOT.Char.Custom('InsultAdjective')] [ROOT.Char.Custom('CTPTitledFirstName')]"
  
- FACTION_DEMAND_CLAIMANT_REFUSED_DESC:1 "[faction_claimant.Custom('CTPShortNamePossessive')|U] claim on my title is no more real than the stories we tell children at night. No matter how many misguided fools you have gathered to help carry out your scheme I will not bend to such a collection of dung. I'd rather die than see my birthright fall to someone so low!"
+ FACTION_DEMAND_CLAIMANT_REFUSED_DESC:1 "[faction_claimant.Custom('CTPShortNamePossessiveyour')|U] claim on my title is no more real than the stories we tell children at night. No matter how many misguided fools you have gathered to help carry out your scheme I will not bend to such a collection of dung. I'd rather die than see my birthright fall to someone so low!"
  
  FACTION_CLAIMANT_INVITE_ACCEPTED_DESC:0 "Finally! [faction_target.GetName] is nothing more than a jester acting a [faction_target.Custom('CTPTitleAsNameNoTooltip')], and I am sure the realm will rise to my cause. Those who aid me will not be forgotten."
  

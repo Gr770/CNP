@@ -1,0 +1,16 @@
+﻿l_english:
+#Arabic group
+ arabic_group: "ʿArab"
+ arabic_group_collective_noun:1 "ʿArab"
+ bedouin: "Badawī"
+ bedouin_collective_noun:1 "al-Badū"
+ levantine:1 "Šamī"
+ levantine_collective_noun:2 "aš-Šamīyūn"
+ egyptian: "Miṣrī"
+ egyptian_collective_noun:1 "al-Miṣrīyūn"
+ maghrebi: "Maġribī"
+ maghrebi_collective_noun:1 "al-Maġribīyūn"
+ andalusian: "ʾAndalusī"
+ andalusian_collective_noun:1 "al-ʾAndalusīyūn"
+ yemeni: "Yamanī"
+ yemeni_collective_noun: "al-Yamanīyūn"

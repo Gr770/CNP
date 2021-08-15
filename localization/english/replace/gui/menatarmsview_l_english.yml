@@ -1,0 +1,3 @@
+﻿l_english:
+ MAA_DESTROY_CONFIRMATION_TITLE:0 "Destroy [Localize(Concatenate(REGIMENT.GetOwner.Custom('CharacterCulture'), REGIMENT.GetNameNoTooltip))]"
+ MAA_DESTROY_CONFIRMATION_TEXT:0 "Regiment [Localize(Concatenate(REGIMENT.GetOwner.Custom('CharacterCulture'), REGIMENT.GetNameNoTooltip))] will be destroyed."
