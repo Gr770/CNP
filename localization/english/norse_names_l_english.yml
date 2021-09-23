@@ -1387,3 +1387,81 @@
  Dyggvi_norse: "Dyggvi"
  Dyggvi_norse_pat_dad_male: "Dyggvason"
  Dyggvi_norse_pat_dad_female: "Dyggvadóttir"
+
+ 
+ 
+ Edmund_norse: "Edmundr"
+ Edmund_norse_pat_dad_male: "Edmundarson"
+ Edmund_norse_pat_dad_female: "Edmundardóttir"
+ 
+ Edvard_norse: "Eðvarðr"
+ Edvard_norse_pat_dad_male: "Eðvarðarson"
+ Edvard_norse_pat_dad_female: "Eðvarðardóttir"
+ 
+ Efi_norse: "Efi"
+ Efi_norse_pat_dad_male: "Efason"
+ Efi_norse_pat_dad_female: "Efadóttir"
+ 
+ Egil_norse: "Egill"
+ Egil_norse_pat_dad_male: "Egilsson"
+ Egil_norse_pat_dad_female: "Egilsdóttir"
+ 
+ Eid_norse: "Eiðr"
+ Eid_norse_pat_dad_male: "Eiðsson"
+ Eid_norse_pat_dad_female: "Eiðsdóttir"
+
+ #Ein
+ 
+ Eileif_norse: "Eilęifr"
+ Eileif_norse_pat_dad_male: "Eilęifsson"
+ Eileif_norse_pat_dad_female: "Eilęifsdóttir"
+ 
+ Eilif_norse: "Eilífr"
+ Eilif_norse_pat_dad_male: "Eilífsson"
+ Eilif_norse_pat_dad_female: "Eilífsdóttir"
+ 
+ Einar_norse: "Einarr"
+ Einar_norse_pat_dad_male: "Einarsson"
+ Einar_norse_pat_dad_female: "Einarsdóttir"
+ 
+ Eindrid_norse: "Eindriðr"
+ Eindrid_norse_pat_dad_male: "Eindriðsson"
+ Eindrid_norse_pat_dad_female: "Eindriðsdóttir"
+ 
+ Eirik_norse: "Eiríkr"
+ Eirik_norse_pat_dad_male: "Eiríksson"
+ Eirik_norse_pat_dad_female: "Eiríksdóttir"
+
+ ###
+ 
+ Eitri_norse: "Eitri"
+ Eitri_norse_pat_dad_male: "Eitrason"
+ Eitri_norse_pat_dad_female: "Eitradóttir"
+ 
+ Ekkil_norse: "Ekkill"
+ Ekkil_norse_pat_dad_male: "Ekkilsson"
+ Ekkil_norse_pat_dad_female: "Ekkilsdóttir"
+
+ #Eld
+ 
+ Eldgrim_norse: "Eldgrímr"
+ Eldgrim_norse_pat_dad_male: "Eldgrímsson"
+ Eldgrim_norse_pat_dad_female: "Eldgrímsdóttir"
+ 
+ Eldi_norse: "Éldi"
+ Eldi_norse_pat_dad_male: "Éldason"
+ Eldi_norse_pat_dad_female: "Éldadóttir"
+ 
+ Eldjarn_norse: "Eldiárn"
+ Eldjarn_norse_pat_dad_male: "Eldiársson"
+ Eldjarn_norse_pat_dad_female: "Eldiársdóttir"
+
+ ###
+ 
+ Elfrad_norse: "Elfráðr"
+ Elfrad_norse_pat_dad_male: "Elfráðsson"
+ Elfrad_norse_pat_dad_female: "Elfráðsdóttir"
+ 
+ Ellidagrim_norse: "Elliðagrímr"
+ Elfrad_norse_pat_dad_male: "Elfráðsson"
+ Elfrad_norse_pat_dad_female: "Elfráðsdóttir"
