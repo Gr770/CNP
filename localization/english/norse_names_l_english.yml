@@ -1903,3 +1903,85 @@
  Fundin_norse: "Fundinn"
  Fundin_norse_pat_dad_male: "Fundinsson"
  Fundin_norse_pat_dad_female: "Fundinsdóttir"
+
+ #G
+ 
+ Gaddi_norse: "Gaddi"
+ Gaddi_norse_pat_dad_male: "Gaddason"
+ Gaddi_norse_pat_dad_female: "Gaddadóttir"
+ 
+ Gagar_norse: "Gagarr"
+ Gagar_norse_pat_dad_male: "Gagarsson"
+ Gagar_norse_pat_dad_female: "Gagarsdóttir"
+ 
+ Gag_norse: "Gagr"
+ Gag_norse_pat_dad_male: "Gagsson"
+ Gag_norse_pat_dad_female: "Gagsdóttir"
+ 
+ Galin_norse: "Galinn"
+ Galin_norse_pat_dad_male: "Galinsson"
+ Galin_norse_pat_dad_female: "Galinsdóttir"
+ 
+ Galmad_norse: "Galmaðr"
+ Galmad_norse_pat_dad_male: "Galmannsson"
+ Galmad_norse_pat_dad_female: "Galmannsdóttir"
+ 
+ Galm_norse: "Gálmr"
+ Galm_norse_pat_dad_male: "Galmsson"
+ Galm_norse_pat_dad_female: "Galmsdóttir"
+ 
+ Galli_norse: "Galli"
+ Galli_norse_pat_dad_male: "Gallason"
+ Galli_norse_pat_dad_female: "Galladóttir"
+ 
+ Galmi_norse: "Galmi"
+ Galmi_norse_pat_dad_male: "Galmason"
+ Galmi_norse_pat_dad_female: "Galmadóttir"
+ 
+ Galti_norse: "Galti"
+ Galti_norse_pat_dad_male: "Galtason"
+ Galti_norse_pat_dad_female: "Galtadóttir"
+ 
+ Gamal_norse: "Gamall"
+ Gamal_norse_pat_dad_male: "Gamalsson"
+ Gamal_norse_pat_dad_female: "Gamalsdóttir"
+ 
+ Gamalbarn_norse: "Gamalbarn" #AS
+ Gamalbarn_norse_pat_dad_male: "Gamalbarnsson"
+ Gamalbarn_norse_pat_dad_female: "Gamalbarnsdóttir"
+ 
+ Gamalkarl_norse: "Gamalkarli" #AS
+ Gamalkarl_norse_pat_dad_male: "Gamalkarlason"
+ Gamalkarl_norse_pat_dad_female: "Gamalkarladóttir"
+ 
+ Gandalf_norse: "Gandálfr" #POG
+ Gandalf_norse_pat_dad_male: "Gandálfsson"
+ Gandalf_norse_pat_dad_female: "Gandálfsdóttir"
+ 
+ Gangulf_norse: "Gangulfr"
+ Gangulf_norse_pat_dad_male: "Gangulfsson"
+ Gangulf_norse_pat_dad_female: "Gangulfsdóttir"
+ 
+ Gansi_norse: "Gansi"
+ Gansi_norse_pat_dad_male: "Gansason"
+ Gansi_norse_pat_dad_female: "Gansadóttir"
+ 
+ Gapi_norse: "Gapi" #Norse
+ Gapi_norse_pat_dad_male: "Gapason"
+ Gapi_norse_pat_dad_female: "Gapadóttir"
+ 
+ Gapr_norse: "Gapr"
+ Gapr_norse_pat_dad_male: "Gapsson"
+ Gapr_norse_pat_dad_female: "Gapsdóttir"
+ 
+ Gardar_norse: "Garðarr"
+ Gardar_norse_pat_dad_male: "Garðarsson"
+ Gardar_norse_pat_dad_female: "Garðarsdóttir"
+ 
+ Gard_norse: "Garðr"
+ Gard_norse_pat_dad_male: "Garðarson"
+ Gard_norse_pat_dad_female: "Garðardóttir"
+ 
+ Gardulf_norse: "Garðulfr" #AS
+ Gardulf_norse_pat_dad_male: "Garðarson"
+ Gardulf_norse_pat_dad_female: "Garðardóttir"
