@@ -38,6 +38,7 @@ vbox = {
 				name = "culture_name_refresh"
 				next = "name_refresh"
 				duration = 0.05
+				trigger_on_create = no
 				on_start = "[GetScriptedGui('CTP_culture_names').Execute(GuiScope.SetRoot(EventWindowWidgetNameCharacter.GetCharacter.MakeScope).End)]"
 				on_finish = "[EventWindowWidgetNameCharacter.SetCurrentName( EventWindowWidgetNameCharacter.GetCharacter.GetFirstNameNoTooltip)]"
 			}
@@ -46,6 +47,7 @@ vbox = {
 				name = "faith_name_refresh"
 				next = "name_refresh"
 				duration = 0.05
+				trigger_on_create = no
 				on_start = "[GetScriptedGui('CTP_faith_names').Execute(GuiScope.SetRoot(EventWindowWidgetNameCharacter.GetCharacter.MakeScope).End)]"
 				on_finish = "[EventWindowWidgetNameCharacter.SetCurrentName( EventWindowWidgetNameCharacter.GetCharacter.GetFirstNameNoTooltip)]"
 			}
@@ -54,7 +56,26 @@ vbox = {
 				name = "ancestor_name_refresh"
 				next = "name_refresh"
 				duration = 0.05
+				trigger_on_create = no
 				on_start = "[GetScriptedGui('CTP_random_ancestor').Execute(GuiScope.SetRoot(EventWindowWidgetNameCharacter.GetCharacter.MakeScope).End)]"
+				on_finish = "[EventWindowWidgetNameCharacter.SetCurrentName( EventWindowWidgetNameCharacter.GetCharacter.GetFirstNameNoTooltip)]"
+			}
+
+			state = {
+				name = "saint_male_name_refresh"
+				next = "name_refresh"
+				duration = 0.05
+				trigger_on_create = no
+				on_start = "[GetScriptedGui('random_saint_male_name').Execute(GuiScope.SetRoot(EventWindowWidgetNameCharacter.GetCharacter.MakeScope).End)]"
+				on_finish = "[EventWindowWidgetNameCharacter.SetCurrentName( EventWindowWidgetNameCharacter.GetCharacter.GetFirstNameNoTooltip)]"
+			}
+
+			state = {
+				name = "saint_female_name_refresh"
+				next = "name_refresh"
+				duration = 0.05
+				trigger_on_create = no
+				on_start = "[GetScriptedGui('random_saint_female_name').Execute(GuiScope.SetRoot(EventWindowWidgetNameCharacter.GetCharacter.MakeScope).End)]"
 				on_finish = "[EventWindowWidgetNameCharacter.SetCurrentName( EventWindowWidgetNameCharacter.GetCharacter.GetFirstNameNoTooltip)]"
 			}
 		}
