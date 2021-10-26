@@ -1178,7 +1178,7 @@ types Lists
 				using = Background_Area_With_Header
 			}
 
-			portrait_head = {}
+			portrait_head_cached = {}
 
 			vbox = {
 				layoutpolicy_horizontal = expanding
@@ -1453,7 +1453,7 @@ types Lists
 					using = Background_Area
 				}
 
-				portrait_head_small = {}
+				portrait_head_small_cached = {}
 
 				vbox = {
 					layoutpolicy_horizontal = expanding
