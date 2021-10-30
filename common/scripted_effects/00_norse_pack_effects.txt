@@ -90,6 +90,7 @@
 		}
 	}
 	else = {
+		add_character_flag = name_pack_support
 		random_list = {
 			50 = {
 				random_list = {
