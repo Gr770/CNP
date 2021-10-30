@@ -87,6 +87,13 @@ ctpname.002 = {
 		add_to_global_variable_list = { name = name_pack_support_global target = character:167723 }
 		add_to_global_variable_list = { name = name_pack_support_global target = character:167720 }
 		add_to_global_variable_list = { name = name_pack_support_global target = character:6874 }
+		add_to_global_variable_list = { name = name_pack_support_global target = character:280023 }
+		add_to_global_variable_list = { name = name_pack_support_global target = character:186005 }
+		add_to_global_variable_list = { name = name_pack_support_global target = character:280021 }
+		add_to_global_variable_list = { name = name_pack_support_global target = character:280026 }
+		add_to_global_variable_list = { name = name_pack_support_global target = character:168370 }
+		add_to_global_variable_list = { name = name_pack_support_global target = character:168369 }
+		add_to_global_variable_list = { name = name_pack_support_global target = character:168369 }
 		dynasty:576 = {
 			add_to_variable_list = { name = name_pack_support_dynasty target = character:159397 }
 			add_to_variable_list = { name = name_pack_support_dynasty target = character:159406 }
@@ -539,6 +546,44 @@ ctpname.002 = {
 			add_to_variable_list = { name = name_pack_support_dynasty target = character:168326 }
 			add_to_variable_list = { name = name_pack_support_dynasty target = character:168327 }
 			add_to_variable_list = { name = name_pack_support_dynasty target = character:168330 }
+		}
+		dynasty:1043307 = {
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:186017 }
+		}
+		dynasty:1043304 = {
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:186011 }
+		}
+		dynasty:1043305 = {
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:186013 }
+		}
+		dynasty:836 = {
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:6844 }
+		}
+		dynasty:1043303 = {
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:186004 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:186006 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:186008 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:186009 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:186010 }
+		}
+		dynasty:1043302 = {
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:186002 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:186003 }
+		}
+		dynasty:9589 = {
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:168365 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:168366 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:168371 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:168367 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:168368 }
+		}
+		dynasty:7516 = {
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:6811 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:6871 }
+		}
+		dynasty:705 = {
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:40605 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:40606 }
 		}
 		character:194029 = {
 			change_first_name = Vald
