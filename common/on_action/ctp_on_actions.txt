@@ -10,6 +10,17 @@
 on_death = {
 	on_actions = {
 		on_arabic_death
+		on_norse_death
+	}
+}
+on_norse_death = {
+	trigger = {
+		has_culture = culture:norse
+	}
+	events = {
+		ctpname.400
+		norsenamepack.001
+		norsenamepack.002
 	}
 }
 on_arabic_death = {

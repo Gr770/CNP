@@ -525,9 +525,9 @@
  Audgeir_norse_pat_dad_male: "Auðgęirsson"
  Audgeir_norse_pat_dad_female: "Auðgęirsdóttir"
 
- Audgis_norse: "Auðgísl"
- Audgis_norse_pat_dad_male: "Auðgísson"
- Audgis_norse_pat_dad_female: "Auðgísdóttir"
+ Audgisl_norse: "Auðgísl"
+ Audgisl_norse_pat_dad_male: "Auðgísson"
+ Audgisl_norse_pat_dad_female: "Auðgísdóttir"
 
  Audgrim_norse: "Auðgrímr"
  Audgrim_norse_pat_dad_male: "Auðgrímsson"
@@ -3847,6 +3847,10 @@
  Olafr_norse_pat_dad_male: "Óláfsson"
  Olafr_norse_pat_dad_female: "Óláfsdóttir"
  
+ Ormr_norse: "Ormr"
+ Ormr_norse_pat_dad_male: "Ormsson"
+ Ormr_norse_pat_dad_female: "Ormsdóttir"
+ 
  Ottar_norse: "Óttarr"
  Ottar_norse_pat_dad_male: "Óttarsson"
  Ottar_norse_pat_dad_female: "Óttarsdóttir"
@@ -3903,6 +3907,18 @@
  Steinn_norse_pat_dad_male: "Stęinsson"
  Steinn_norse_pat_dad_female: "Stęinsdóttir"
 
+ Styrbjorn_norse: "Styrbiǫrn"
+ Styrbjorn_norse_pat_dad_male: "Styrbiarnarson"
+ Styrbjorn_norse_pat_dad_female: "Styrbiarnardóttir"
+
+ Svarthofdi_norse: "Svarthofði"
+ Svarthofdi_norse_pat_dad_male: "Svarthofðason"
+ Svarthofdi_norse_pat_dad_female: "Svarthofðadóttir"
+
+ Sveinn_norse: "Svęinn"
+ Sveinn_norse_pat_dad_male: "Svęinsson"
+ Sveinn_norse_pat_dad_female: "Svęinsdóttir"
+
  Sverker_norse: "Sørkvir"
  Sverker_norse_pat_dad_male: "Sørkvisson"
  Sverker_norse_pat_dad_female: "Sørkvisdóttir"
@@ -3922,6 +3938,10 @@
  Thorfinn_norse: "Þórfinnr"
  Thorfinn_norse_pat_dad_male: "Þórfinnsson"
  Thorfinn_norse_pat_dad_female: "Þórfinnsdóttir"
+
+ Thorgisl_norse: "Þórgísl"
+ Thorgisl_norse_pat_dad_male: "Þórgísson"
+ Thorgisl_norse_pat_dad_female: "Þórgísdóttir"
 
  Thorvar_norse: "Þórvarr"
  Thorvar_norse_pat_dad_male: "Þórvarsson"
@@ -3947,6 +3967,12 @@
  Vald_norse_pat_dad_male: "Valdsson"
  Vald_norse_pat_dad_female: "Valdsdóttir"
 
+ Yngvar_norse: "Yngvarr"
+ Yngvar_norse_pat_dad_male: "Yngvarsson"
+ Yngvar_norse_pat_dad_female: "Yngvarsdóttir"
+
+ Estrid_norse: "Ástríðr"
+
  Alfrid_norse: "Alfríðr"
 
  Alof_norse: "Álof"
@@ -3959,7 +3985,11 @@
 
  Freydis_norse: "Freydís"
 
- Saga_norse: "Saga"
+ Gunnhildr_norse: "Gunnhildr"
+
+ Gyda_norse: "Gyríðr"
+
+ Gyrid_norse: "Gyríðr"
 
  Hild_norse: "Hilda"
 
@@ -3979,7 +4009,11 @@
 
  Maer_norse: "Mær"
 
+ Oddny_norse: "Oddný"
+
  Ragnhild_norse: "Ragnhildr"
+
+ Saga_norse: "Saga"
 
  Thorunn_norse: "Jórunnr"
 

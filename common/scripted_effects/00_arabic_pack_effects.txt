@@ -2885,6 +2885,7 @@ arabic_pack_faith_name_female = {
 }
 
 arabic_pack_name_ai_male = {
+	add_character_flag = name_pack_support
     random_list = {
         100 = {
             random_list = {
@@ -3844,6 +3845,7 @@ arabic_pack_name_ai_male = {
 }
 
 arabic_pack_name_ai_female = {
+	add_character_flag = name_pack_support
     random_list = {
         100 = {
             random_list = {

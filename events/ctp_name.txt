@@ -532,6 +532,7 @@ ctpname.002 = {
 			add_to_variable_list = { name = name_pack_support_dynasty target = character:186015 }
 		}
 		dynasty:499 = {
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:144000 }
 			add_to_variable_list = { name = name_pack_support_dynasty target = character:186015 }
 			add_to_variable_list = { name = name_pack_support_dynasty target = character:168323 }
 			add_to_variable_list = { name = name_pack_support_dynasty target = character:168324 }
@@ -583,7 +584,7 @@ ctpname.002 = {
 		}
 		dynasty:705 = {
 			add_to_variable_list = { name = name_pack_support_dynasty target = character:40605 }
-			add_to_variable_list = { name = name_pack_support_dynasty target = character:40606 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:302222 }
 		}
 		character:194029 = {
 			change_first_name = Vald
@@ -772,6 +773,10 @@ ctpname.003 = {
 		add_to_global_variable_list = { name = global_list_ctp_sons target = character:73686 }
 		add_to_global_variable_list = { name = global_list_ctp_sons target = character:73967 }
 		add_to_global_variable_list = { name = name_pack_support_global target = character:73211 }
+		add_to_global_variable_list = { name = name_pack_support_global target = character:451001 }
+		add_to_global_variable_list = { name = name_pack_support_global target = character:451002 }
+		add_to_global_variable_list = { name = name_pack_support_global target = character:451004 }
+		add_to_global_variable_list = { name = name_pack_support_global target = character:451005 }
 		dynasty:576 = {
 			add_to_variable_list = { name = dynasty_list_ctp_sons target = character:159407 }
 			add_to_variable_list = { name = dynasty_list_ctp_sons target = character:159399 }
@@ -1105,11 +1110,58 @@ ctpname.003 = {
 		}
 		dynasty:461 = {
 			add_to_variable_list = { name = name_pack_support_dynasty target = character:161301 }
-		}
-		dynasty:461 = {
-			add_to_variable_list = { name = name_pack_support_dynasty target = character:161301 }
 			add_to_variable_list = { name = name_pack_support_dynasty target = character:161302 }
 			add_to_variable_list = { name = name_pack_support_dynasty target = character:161303 }
+		}
+		dynasty:7514 = {
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:168337 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:168338 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:168339 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:168340 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:168342 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:41234 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:168341 }
+		}
+		dynasty:490 = {
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:5789 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:5790 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:5791 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:5792 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:5793 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:101500 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:101504 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:101502 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:101506 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:101505 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:101508 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:101509 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:101507 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:101510 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:101514 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:101512 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:101513 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:101511 }
+		}
+		dynasty:752 = {
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:242 }
+		}
+		dynasty:705 = {
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:600 }
+		}
+		dynasty:502 = {
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:163106 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:163107 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:100502 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:100503 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:101533 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:101535 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:161425 }
+		}
+		character:5789 = {
+			change_first_name = Sigtrygg
+		}
+		character:5790 = {
+			change_first_name = Olaf
 		}
 		character:159270 = {
 			add_to_global_variable_list = { name = laqab_lion_cub_dynasty target = this }
@@ -2515,14 +2567,19 @@ ctpname.500 = {
 	hidden = yes
     immediate = {
         IF = {
-			limit = { 
+			limit = {
 				is_ctp_supported_culture = yes
 				is_male = yes
 			}
-            add_character_flag = name_pack_support
 			IF = {
 				limit = { has_culture_group = culture_group:arabic_group }
 				arabic_pack_name_ai_male = yes
+			}
+			IF = {
+				limit = {
+					has_culture = culture:norse
+				}
+				norse_pack_name_ai_male = yes
 			}
 		}
 		IF = {
@@ -2530,10 +2587,15 @@ ctpname.500 = {
 				is_ctp_supported_culture = yes
 				is_male = no
 			}
-			add_character_flag = name_pack_support
 			IF = {
 				limit = { has_culture_group = culture_group:arabic_group }
 				arabic_pack_name_ai_female = yes
+			}
+			IF = {
+				limit = {
+					has_culture = culture:norse
+				}
+				norse_pack_name_ai_female = yes
 			}
 		}
     }

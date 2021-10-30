@@ -1,0 +1,36 @@
+﻿default_mystic_character = {
+	age = { 30 80 }
+	trait = mystic_1
+	random_traits = yes
+	faith = root.faith
+	gender_female_chance = {
+		if = {
+			limit = { root.faith = { has_doctrine = doctrine_gender_male_dominated } }
+			add = 0
+		}
+		else_if = {
+			limit = { root.faith = { has_doctrine = doctrine_gender_female_dominated } }
+			add = 100
+		}
+		else = {
+			add = 50
+		}
+	}
+	learning = max_template_high_skill
+	after_creation = {
+		if = {
+			limit = {
+				is_male = yes
+				has_culture_group = culture_group:arabic_group
+			}
+			arabic_pack_name_ai_male = yes
+		}
+		if = {
+			limit = {
+				is_male = no
+				has_culture_group = culture_group:arabic_group
+			}
+			arabic_pack_name_ai_female = yes
+		}
+	}
+}
