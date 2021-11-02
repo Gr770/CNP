@@ -10,6 +10,13 @@ peasant_villager_foundling_character = {
 		if = {
 			limit = {
 				is_male = yes
+				has_culture = culture:norse
+			}
+			norse_pack_name_ai_male = yes
+		}
+		if = {
+			limit = {
+				is_male = yes
 				has_culture_group = culture_group:arabic_group
 			}
 			arabic_pack_name_ai_male = yes

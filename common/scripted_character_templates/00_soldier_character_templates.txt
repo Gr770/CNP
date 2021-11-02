@@ -50,6 +50,13 @@ soldier_friend_character = {
 		if = {
 			limit = {
 				is_male = yes
+				has_culture = culture:norse
+			}
+			norse_pack_name_ai_male = yes
+		}
+		if = {
+			limit = {
+				is_male = yes
 				has_culture_group = culture_group:arabic_group
 			}
 			arabic_pack_name_ai_male = yes
@@ -110,6 +117,13 @@ new_commander_character = {
 		random = {
 			chance = 25
 			give_random_commander_trait_effect = yes
+		}
+		if = {
+			limit = {
+				is_male = yes
+				has_culture = culture:norse
+			}
+			norse_pack_name_ai_male = yes
 		}
 		if = {
 			limit = {
@@ -216,6 +230,13 @@ new_warrior_character = {
 		if = {
 			limit = {
 				is_male = yes
+				has_culture = culture:norse
+			}
+			norse_pack_name_ai_male = yes
+		}
+		if = {
+			limit = {
+				is_male = yes
 				has_culture_group = culture_group:arabic_group
 			}
 			arabic_pack_name_ai_male = yes
@@ -280,6 +301,13 @@ new_siege_engineer = {
 		random = {
 			chance = 25
 			give_random_commander_trait_effect = yes
+		}
+		if = {
+			limit = {
+				is_male = yes
+				has_culture = culture:norse
+			}
+			norse_pack_name_ai_male = yes
 		}
 		if = {
 			limit = {
@@ -358,6 +386,13 @@ new_berserker_character = {
 	}
 	prowess = { 8 12 }
 	after_creation = {
+		if = {
+			limit = {
+				is_male = yes
+				has_culture = culture:norse
+			}
+			norse_pack_name_ai_male = yes
+		}
 		if = {
 			limit = {
 				is_male = yes

@@ -117,6 +117,13 @@
 		if = {
 			limit = {
 				is_male = yes
+				has_culture = culture:norse
+			}
+			norse_pack_name_ai_male = yes
+		}
+		if = {
+			limit = {
+				is_male = yes
 				has_culture_group = culture_group:arabic_group
 			}
 			arabic_pack_name_ai_male = yes
@@ -324,6 +331,13 @@ religious_leader_character = {
 		max_template_high_skill
 	}
 	after_creation = {
+		if = {
+			limit = {
+				is_male = yes
+				has_culture = culture:norse
+			}
+			norse_pack_name_ai_male = yes
+		}
 		if = {
 			limit = {
 				is_male = yes

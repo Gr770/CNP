@@ -17,6 +17,13 @@
 		if = {
 			limit = {
 				is_male = yes
+				has_culture = culture:norse
+			}
+			norse_pack_name_ai_male = yes
+		}
+		if = {
+			limit = {
+				is_male = yes
 				has_culture_group = culture_group:arabic_group
 			}
 			arabic_pack_name_ai_male = yes
@@ -43,6 +50,13 @@ servant_character = {
 		max_template_decent_skill
 	}
 	after_creation = {
+		if = {
+			limit = {
+				is_male = yes
+				has_culture = culture:norse
+			}
+			norse_pack_name_ai_male = yes
+		}
 		if = {
 			limit = {
 				is_male = yes
@@ -152,6 +166,13 @@ witchy_template = {
 		if = {
 			limit = {
 				is_male = yes
+				has_culture = culture:norse
+			}
+			norse_pack_name_ai_male = yes
+		}
+		if = {
+			limit = {
+				is_male = yes
 				has_culture_group = culture_group:arabic_group
 			}
 			arabic_pack_name_ai_male = yes
@@ -190,6 +211,13 @@ merchant_template = {
 	diplomacy = { 5 13 }
 	learning = { 5 13 }
 	after_creation = {
+		if = {
+			limit = {
+				is_male = yes
+				has_culture = culture:norse
+			}
+			norse_pack_name_ai_male = yes
+		}
 		if = {
 			limit = {
 				is_male = yes
@@ -250,6 +278,13 @@ hunter_template = {
 		if = {
 			limit = {
 				is_male = yes
+				has_culture = culture:norse
+			}
+			norse_pack_name_ai_male = yes
+		}
+		if = {
+			limit = {
+				is_male = yes
 				has_culture_group = culture_group:arabic_group
 			}
 			arabic_pack_name_ai_male = yes
@@ -291,6 +326,13 @@ detective_template = {
 	diplomacy = { 2 10 }
 	learning = { 5 10 }
 	after_creation = {
+		if = {
+			limit = {
+				is_male = yes
+				has_culture = culture:norse
+			}
+			norse_pack_name_ai_male = yes
+		}
 		if = {
 			limit = {
 				is_male = yes

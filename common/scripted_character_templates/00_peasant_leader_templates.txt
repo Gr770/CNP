@@ -24,6 +24,13 @@
 		if = {
 			limit = {
 				is_male = yes
+				has_culture = culture:norse
+			}
+			norse_pack_name_ai_male = yes
+		}
+		if = {
+			limit = {
+				is_male = yes
 				has_culture_group = culture_group:arabic_group
 			}
 			arabic_pack_name_ai_male = yes
@@ -62,6 +69,13 @@ peasant_leader_martial_character = {
 		max_template_decent_skill
 	}
 	after_creation = {
+		if = {
+			limit = {
+				is_male = yes
+				has_culture = culture:norse
+			}
+			norse_pack_name_ai_male = yes
+		}
 		if = {
 			limit = {
 				is_male = yes

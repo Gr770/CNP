@@ -79,6 +79,13 @@ pool_repopulate_prowess = {
 		if = {
 			limit = {
 				is_male = yes
+				has_culture = culture:norse
+			}
+			norse_pack_name_ai_male = yes
+		}
+		if = {
+			limit = {
+				is_male = yes
 				has_culture_group = culture_group:arabic_group
 			}
 			arabic_pack_name_ai_male = yes
@@ -139,6 +146,13 @@ pool_repopulate_diplomacy = {
 					add_trait = poet
 				}
 			}
+		}
+		if = {
+			limit = {
+				is_male = yes
+				has_culture = culture:norse
+			}
+			norse_pack_name_ai_male = yes
 		}
 		if = {
 			limit = {
@@ -205,6 +219,13 @@ pool_repopulate_martial = {
 		if = {
 			limit = {
 				is_male = yes
+				has_culture = culture:norse
+			}
+			norse_pack_name_ai_male = yes
+		}
+		if = {
+			limit = {
+				is_male = yes
 				has_culture_group = culture_group:arabic_group
 			}
 			arabic_pack_name_ai_male = yes
@@ -260,6 +281,13 @@ pool_repopulate_stewardship = {
 					add_trait = poet
 				}
 			}
+		}
+		if = {
+			limit = {
+				is_male = yes
+				has_culture = culture:norse
+			}
+			norse_pack_name_ai_male = yes
 		}
 		if = {
 			limit = {
@@ -323,6 +351,13 @@ pool_repopulate_intrigue = {
 					add_trait = poet
 				}
 			}
+		}
+		if = {
+			limit = {
+				is_male = yes
+				has_culture = culture:norse
+			}
+			norse_pack_name_ai_male = yes
 		}
 		if = {
 			limit = {
@@ -404,6 +439,13 @@ pool_repopulate_learning = {
 					add_trait = poet
 				}
 			}
+		}
+		if = {
+			limit = {
+				is_male = yes
+				has_culture = culture:norse
+			}
+			norse_pack_name_ai_male = yes
 		}
 		if = {
 			limit = {
@@ -535,6 +577,13 @@ pool_repopulate_spouse = {
 					add_trait = poet
 				}
 			}
+		}
+		if = {
+			limit = {
+				is_male = yes
+				has_culture = culture:norse
+			}
+			norse_pack_name_ai_male = yes
 		}
 		if = {
 			limit = {
@@ -1075,6 +1124,13 @@ pool_repopulate_local_flavor = {
 					add_trait = berserker
 				}
 			}
+		}
+		if = {
+			limit = {
+				is_male = yes
+				has_culture = culture:norse
+			}
+			norse_pack_name_ai_male = yes
 		}
 		if = {
 			limit = {
