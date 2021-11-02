@@ -23,7 +23,7 @@
 		if = {
 			limit = {
 				is_male = yes
-				has_culture = culture:norse
+				has_culture_group = culture_group:north_germanic_group
 			}
 			norse_pack_name_ai_male = yes
 		}

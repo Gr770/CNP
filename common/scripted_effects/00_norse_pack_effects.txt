@@ -103,7 +103,7 @@
 					0 = {
 						modifier = {
 							has_religion = religion:christianity_religion
-							add = 5
+							add = 6
 						}
 						random_list = {
 							1 = {
@@ -120,6 +120,9 @@
 							}
 							1 = {
 								change_first_name = Magnus
+							}
+							1 = {
+								change_first_name = Pet
 							}
 						}
 					}
@@ -165,6 +168,12 @@
 					1 = {
 						change_first_name = Olaf
 					}
+					1 = {
+						change_first_name = Rikard
+					}
+					1 = {
+						change_first_name = Rodbjart
+					}
 				}
 			}
 			25 = {
@@ -195,6 +204,12 @@
 							}
 							1 = {
 								change_first_name = Nikolas
+							}
+							1 = {
+								change_first_name = Pal
+							}
+							1 = {
+								change_first_name = Patrek
 							}
 						}
 					}
@@ -310,6 +325,30 @@
 					}
 					1 = {
 						change_first_name = Ragnar
+					}
+					1 = {
+						change_first_name = Oddbjorn
+					}
+					1 = {
+						change_first_name = Oddvar
+					}
+					1 = {
+						change_first_name = Oneisi
+					}
+					1 = {
+						change_first_name = Osvald
+					}
+					1 = {
+						change_first_name = Otto
+					}
+					1 = {
+						change_first_name = Ragnvald
+					}
+					1 = {
+						change_first_name = Reginmund
+					}
+					1 = {
+						change_first_name = Rikr
 					}
 				}
 			}
@@ -1126,6 +1165,48 @@
 					}
 					1 = {
 						change_first_name = Ormr
+					}
+					1 = {
+						change_first_name = Oddgeir
+					}
+					1 = {
+						change_first_name = Oddleif
+					}
+					1 = {
+						change_first_name = Oddmar
+					}
+					1 = {
+						change_first_name = Oleif
+					}
+					1 = {
+						change_first_name = Olver
+					}
+					1 = {
+						change_first_name = Onar
+					}
+					1 = {
+						change_first_name = Orlyg
+					}
+					1 = {
+						change_first_name = Orn
+					}
+					1 = {
+						change_first_name = Ornolf
+					}
+					1 = {
+						change_first_name = Orri
+					}
+					1 = {
+						change_first_name = Ragni
+					}
+					1 = {
+						change_first_name = Reginald
+					}
+					1 = {
+						change_first_name = Rodrek
+					}
+					1 = {
+						change_first_name = Runolf
 					}
 				}
 			}
@@ -2955,6 +3036,201 @@
 					}
 					1 = {
 						change_first_name = Obbi
+					}
+					1 = {
+						change_first_name = Nyk
+					}
+					1 = {
+						change_first_name = Odalfred
+					}
+					1 = {
+						change_first_name = Oddkel
+					}
+					1 = {
+						change_first_name = Oddulf
+					}
+					1 = {
+						change_first_name = Odinkar
+					}
+					1 = {
+						change_first_name = OEpi
+					}
+					1 = {
+						change_first_name = Ofaeti
+					}
+					1 = {
+						change_first_name = Ofeig
+					}
+					1 = {
+						change_first_name = Ofla
+					}
+					1 = {
+						change_first_name = Oflati
+					}
+					1 = {
+						change_first_name = Ofrid
+					}
+					1 = {
+						change_first_name = Ofrad
+					}
+					1 = {
+						change_first_name = Olmod
+					}
+					1 = {
+						change_first_name = Olvald
+					}
+					1 = {
+						change_first_name = Omundi
+					}
+					1 = {
+						change_first_name = Onaem
+					}
+					1 = {
+						change_first_name = Ongul
+					}
+					1 = {
+						change_first_name = Oring
+					}
+					1 = {
+						change_first_name = Ormar
+					}
+					1 = {
+						change_first_name = Ormgeir
+					}
+					1 = {
+						change_first_name = Ormulf
+					}
+					1 = {
+						change_first_name = Oroekia
+					}
+					1 = {
+						change_first_name = Orrusti
+					}
+					1 = {
+						change_first_name = Osnikin
+					}
+					1 = {
+						change_first_name = Ospak
+					}
+					1 = {
+						change_first_name = starki
+					}
+					1 = {
+						change_first_name = Osvif
+					}
+					1 = {
+						change_first_name = Osyrg
+					}
+					1 = {
+						change_first_name = Otkel
+					}
+					1 = {
+						change_first_name = Otrygg
+					}
+					1 = {
+						change_first_name = Othvegin
+					}
+					1 = {
+						change_first_name = Othyrmir
+					}
+					1 = {
+						change_first_name = Oxar
+					}
+					1 = {
+						change_first_name = Radbard
+					}
+					1 = {
+						change_first_name = Radorm
+					}
+					1 = {
+						change_first_name = Radulf
+					}
+					1 = {
+						change_first_name = Radvald
+					}
+					1 = {
+						change_first_name = Radthjalf
+					}
+					1 = {
+						change_first_name = Rafnsvart
+					}
+					1 = {
+						change_first_name = Ragnbjorn
+					}
+					1 = {
+						change_first_name = Ragnfast
+					}
+					1 = {
+						change_first_name = Ragnfrid
+					}
+					1 = {
+						change_first_name = Ragnvid
+					}
+					1 = {
+						change_first_name = Randr
+					}
+					1 = {
+						change_first_name = Randver
+					}
+					1 = {
+						change_first_name = Randvid
+					}
+					1 = {
+						change_first_name = Rannver
+					}
+					1 = {
+						change_first_name = Raskulf
+					}
+					1 = {
+						change_first_name = Raskvid
+					}
+					1 = {
+						change_first_name = Raudbjorn
+					}
+					1 = {
+						change_first_name = Raudulf
+					}
+					1 = {
+						change_first_name = Raudkar
+					}
+					1 = {
+						change_first_name = Ref
+					}
+					1 = {
+						change_first_name = Refkel
+					}
+					1 = {
+						change_first_name = Reidubuin
+					}
+					1 = {
+						change_first_name = Reif
+					}
+					1 = {
+						change_first_name = Rekk
+					}
+					1 = {
+						change_first_name = Rikhvat
+					}
+					1 = {
+						change_first_name = Rikulfr
+					}
+					1 = {
+						change_first_name = Rikvid
+					}
+					1 = {
+						change_first_name = Roghvat
+					}
+					1 = {
+						change_first_name = Rognud
+					}
+					1 = {
+						change_first_name = Rugga
+					}
+					1 = {
+						change_first_name = Runfast
+					}
+					1 = {
+						change_first_name = Runvid
 					}
 				}
 			}

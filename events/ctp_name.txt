@@ -2620,7 +2620,7 @@ ctpname.500 = {
 			}
 			IF = {
 				limit = {
-					has_culture = culture:norse
+					has_culture_group = culture_group:north_germanic_group
 				}
 				norse_pack_name_ai_male = yes
 			}
@@ -2636,7 +2636,7 @@ ctpname.500 = {
 			}
 			IF = {
 				limit = {
-					has_culture = culture:norse
+					has_culture_group = culture_group:north_germanic_group
 				}
 				norse_pack_name_ai_female = yes
 			}

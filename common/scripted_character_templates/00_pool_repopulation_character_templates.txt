@@ -79,7 +79,7 @@ pool_repopulate_prowess = {
 		if = {
 			limit = {
 				is_male = yes
-				has_culture = culture:norse
+				has_culture_group = culture_group:north_germanic_group
 			}
 			norse_pack_name_ai_male = yes
 		}
@@ -150,7 +150,7 @@ pool_repopulate_diplomacy = {
 		if = {
 			limit = {
 				is_male = yes
-				has_culture = culture:norse
+				has_culture_group = culture_group:north_germanic_group
 			}
 			norse_pack_name_ai_male = yes
 		}
@@ -219,7 +219,7 @@ pool_repopulate_martial = {
 		if = {
 			limit = {
 				is_male = yes
-				has_culture = culture:norse
+				has_culture_group = culture_group:north_germanic_group
 			}
 			norse_pack_name_ai_male = yes
 		}
@@ -285,7 +285,7 @@ pool_repopulate_stewardship = {
 		if = {
 			limit = {
 				is_male = yes
-				has_culture = culture:norse
+				has_culture_group = culture_group:north_germanic_group
 			}
 			norse_pack_name_ai_male = yes
 		}
@@ -355,7 +355,7 @@ pool_repopulate_intrigue = {
 		if = {
 			limit = {
 				is_male = yes
-				has_culture = culture:norse
+				has_culture_group = culture_group:north_germanic_group
 			}
 			norse_pack_name_ai_male = yes
 		}
@@ -443,7 +443,7 @@ pool_repopulate_learning = {
 		if = {
 			limit = {
 				is_male = yes
-				has_culture = culture:norse
+				has_culture_group = culture_group:north_germanic_group
 			}
 			norse_pack_name_ai_male = yes
 		}
@@ -581,7 +581,7 @@ pool_repopulate_spouse = {
 		if = {
 			limit = {
 				is_male = yes
-				has_culture = culture:norse
+				has_culture_group = culture_group:north_germanic_group
 			}
 			norse_pack_name_ai_male = yes
 		}
@@ -1128,7 +1128,7 @@ pool_repopulate_local_flavor = {
 		if = {
 			limit = {
 				is_male = yes
-				has_culture = culture:norse
+				has_culture_group = culture_group:north_germanic_group
 			}
 			norse_pack_name_ai_male = yes
 		}

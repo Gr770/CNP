@@ -58,7 +58,7 @@ fp1_ms_godi_character = {
 		if = {
 			limit = {
 				is_male = yes
-				has_culture = culture:norse
+				has_culture_group = culture_group:north_germanic_group
 			}
 			norse_pack_name_ai_male = yes
 		}
@@ -130,7 +130,7 @@ fp1_ms_reformed_missionary_character = {
 		if = {
 			limit = {
 				is_male = yes
-				has_culture = culture:norse
+				has_culture_group = culture_group:north_germanic_group
 			}
 			norse_pack_name_ai_male = yes
 		}
@@ -195,7 +195,7 @@ fp1_ms_nithing_character = {
 		if = {
 			limit = {
 				is_male = yes
-				has_culture = culture:norse
+				has_culture_group = culture_group:north_germanic_group
 			}
 			norse_pack_name_ai_male = yes
 		}
@@ -253,7 +253,7 @@ fp1_ms_warrior_character = {
 		if = {
 			limit = {
 				is_male = yes
-				has_culture = culture:norse
+				has_culture_group = culture_group:north_germanic_group
 			}
 			norse_pack_name_ai_male = yes
 		}
@@ -337,7 +337,7 @@ fp1_ms_vagrant_character = {
 		if = {
 			limit = {
 				is_male = yes
-				has_culture = culture:norse
+				has_culture_group = culture_group:north_germanic_group
 			}
 			norse_pack_name_ai_male = yes
 		}
@@ -422,7 +422,7 @@ fp1_western_warrior_character = {
 		if = {
 			limit = {
 				is_male = yes
-				has_culture = culture:norse
+				has_culture_group = culture_group:north_germanic_group
 			}
 			norse_pack_name_ai_male = yes
 		}
@@ -504,7 +504,7 @@ fp1_eastern_warrior_character = {
 		if = {
 			limit = {
 				is_male = yes
-				has_culture = culture:norse
+				has_culture_group = culture_group:north_germanic_group
 			}
 			norse_pack_name_ai_male = yes
 		}
@@ -654,7 +654,7 @@ fp1_jomsviking_retainer_martial = {
 		if = {
 			limit = {
 				is_male = yes
-				has_culture = culture:norse
+				has_culture_group = culture_group:north_germanic_group
 			}
 			norse_pack_name_ai_male = yes
 		}
@@ -735,7 +735,7 @@ fp1_jomsviking_retainer_prowess = {
 		if = {
 			limit = {
 				is_male = yes
-				has_culture = culture:norse
+				has_culture_group = culture_group:north_germanic_group
 			}
 			norse_pack_name_ai_male = yes
 		}
@@ -810,7 +810,7 @@ fp1_deceitful_warrior_character = {
 		if = {
 			limit = {
 				is_male = yes
-				has_culture = culture:norse
+				has_culture_group = culture_group:north_germanic_group
 			}
 			norse_pack_name_ai_male = yes
 		}
@@ -881,7 +881,7 @@ fp1_deceitful_explorer_character = {
 		if = {
 			limit = {
 				is_male = yes
-				has_culture = culture:norse
+				has_culture_group = culture_group:north_germanic_group
 			}
 			norse_pack_name_ai_male = yes
 		}
@@ -952,7 +952,7 @@ fp1_truthful_explorer_character = {
 		if = {
 			limit = {
 				is_male = yes
-				has_culture = culture:norse
+				has_culture_group = culture_group:north_germanic_group
 			}
 			norse_pack_name_ai_male = yes
 		}
@@ -1049,7 +1049,7 @@ fp1_islamic_explorer_character = {
 		if = {
 			limit = {
 				is_male = yes
-				has_culture = culture:norse
+				has_culture_group = culture_group:north_germanic_group
 			}
 			norse_pack_name_ai_male = yes
 		}
@@ -1130,7 +1130,7 @@ fp1_capital_county_nithing_character = {
 		if = {
 			limit = {
 				is_male = yes
-				has_culture = culture:norse
+				has_culture_group = culture_group:north_germanic_group
 			}
 			norse_pack_name_ai_male = yes
 		}
@@ -1182,7 +1182,7 @@ fp1_capital_county_orphan_character = {
 		if = {
 			limit = {
 				is_male = yes
-				has_culture = culture:norse
+				has_culture_group = culture_group:north_germanic_group
 			}
 			norse_pack_name_ai_male = yes
 		}

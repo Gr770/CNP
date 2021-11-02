@@ -16,7 +16,7 @@ diplomacy_foreign_affairs_focus_friend_template = {
 		if = {
 			limit = {
 				is_male = yes
-				has_culture = culture:norse
+				has_culture_group = culture_group:north_germanic_group
 			}
 			norse_pack_name_ai_male = yes
 		}
@@ -53,7 +53,7 @@ diplomacy_majesty_focus_friend_template = {
 		if = {
 			limit = {
 				is_male = yes
-				has_culture = culture:norse
+				has_culture_group = culture_group:north_germanic_group
 			}
 			norse_pack_name_ai_male = yes
 		}
@@ -91,7 +91,7 @@ diplomacy_family_focus_friend_template = {
 		if = {
 			limit = {
 				is_male = yes
-				has_culture = culture:norse
+				has_culture_group = culture_group:north_germanic_group
 			}
 			norse_pack_name_ai_male = yes
 		}
@@ -130,7 +130,7 @@ martial_strategy_focus_friend_template = {
 		if = {
 			limit = {
 				is_male = yes
-				has_culture = culture:norse
+				has_culture_group = culture_group:north_germanic_group
 			}
 			norse_pack_name_ai_male = yes
 		}
@@ -167,7 +167,7 @@ martial_authority_focus_friend_template = {
 		if = {
 			limit = {
 				is_male = yes
-				has_culture = culture:norse
+				has_culture_group = culture_group:north_germanic_group
 			}
 			norse_pack_name_ai_male = yes
 		}
@@ -205,7 +205,7 @@ martial_chivalry_focus_friend_template = {
 		if = {
 			limit = {
 				is_male = yes
-				has_culture = culture:norse
+				has_culture_group = culture_group:north_germanic_group
 			}
 			norse_pack_name_ai_male = yes
 		}
@@ -244,7 +244,7 @@ stewardship_wealth_focus_friend_template = {
 		if = {
 			limit = {
 				is_male = yes
-				has_culture = culture:norse
+				has_culture_group = culture_group:north_germanic_group
 			}
 			norse_pack_name_ai_male = yes
 		}
@@ -281,7 +281,7 @@ stewardship_domain_focus_friend_template = {
 		if = {
 			limit = {
 				is_male = yes
-				has_culture = culture:norse
+				has_culture_group = culture_group:north_germanic_group
 			}
 			norse_pack_name_ai_male = yes
 		}
@@ -318,7 +318,7 @@ stewardship_duty_focus_friend_template = {
 		if = {
 			limit = {
 				is_male = yes
-				has_culture = culture:norse
+				has_culture_group = culture_group:north_germanic_group
 			}
 			norse_pack_name_ai_male = yes
 		}
@@ -358,7 +358,7 @@ intrigue_skulduggery_focus_friend_template = {
 		if = {
 			limit = {
 				is_male = yes
-				has_culture = culture:norse
+				has_culture_group = culture_group:north_germanic_group
 			}
 			norse_pack_name_ai_male = yes
 		}
@@ -395,7 +395,7 @@ intrigue_temptation_focus_friend_template = {
 		if = {
 			limit = {
 				is_male = yes
-				has_culture = culture:norse
+				has_culture_group = culture_group:north_germanic_group
 			}
 			norse_pack_name_ai_male = yes
 		}
@@ -432,7 +432,7 @@ intrigue_intimidation_focus_friend_template = {
 		if = {
 			limit = {
 				is_male = yes
-				has_culture = culture:norse
+				has_culture_group = culture_group:north_germanic_group
 			}
 			norse_pack_name_ai_male = yes
 		}
@@ -471,7 +471,7 @@ learning_medicine_focus_friend_template = {
 		if = {
 			limit = {
 				is_male = yes
-				has_culture = culture:norse
+				has_culture_group = culture_group:north_germanic_group
 			}
 			norse_pack_name_ai_male = yes
 		}
@@ -508,7 +508,7 @@ learning_scholarship_focus_friend_template = {
 		if = {
 			limit = {
 				is_male = yes
-				has_culture = culture:norse
+				has_culture_group = culture_group:north_germanic_group
 			}
 			norse_pack_name_ai_male = yes
 		}
@@ -545,7 +545,7 @@ learning_theology_focus_friend_template = {
 		if = {
 			limit = {
 				is_male = yes
-				has_culture = culture:norse
+				has_culture_group = culture_group:north_germanic_group
 			}
 			norse_pack_name_ai_male = yes
 		}
