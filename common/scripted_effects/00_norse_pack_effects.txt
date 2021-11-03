@@ -103,7 +103,7 @@
 					0 = {
 						modifier = {
 							has_religion = religion:christianity_religion
-							add = 6
+							add = 7
 						}
 						random_list = {
 							1 = {
@@ -116,13 +116,19 @@
 								change_first_name = Johannes
 							}
 							1 = {
-								change_first_name = Kristoforus
+								change_first_name = Kristolf
 							}
 							1 = {
 								change_first_name = Magnus
 							}
 							1 = {
 								change_first_name = Pet
+							}
+							1 = {
+								change_first_name = Simon
+							}
+							1 = {
+								change_first_name = Stefan
 							}
 						}
 					}
@@ -174,6 +180,18 @@
 					1 = {
 						change_first_name = Rodbjart
 					}
+					1 = {
+						change_first_name = Sigvard
+					}
+					1 = {
+						change_first_name = Stein
+					}
+					1 = {
+						change_first_name = Steinar
+					}
+					1 = {
+						change_first_name = Stig
+					}
 				}
 			}
 			25 = {
@@ -210,6 +228,12 @@
 							}
 							1 = {
 								change_first_name = Patrek
+							}
+							1 = {
+								change_first_name = Salomon
+							}
+							1 = {
+								change_first_name = Silvester
 							}
 						}
 					}
@@ -350,6 +374,33 @@
 					1 = {
 						change_first_name = Rikr
 					}
+					1 = {
+						change_first_name = Sandar
+					}
+					1 = {
+						change_first_name = Siggi
+					}
+					1 = {
+						change_first_name = Sigfrid
+					}
+					1 = {
+						change_first_name = Sigmund
+					}
+					1 = {
+						change_first_name = Sigstein
+					}
+					1 = {
+						change_first_name = Sigurd
+					}
+					1 = {
+						change_first_name = Sigvid
+					}
+					1 = {
+						change_first_name = Sverker
+					}
+					1 = {
+						change_first_name = Stali
+					}
 				}
 			}
 			10 = {
@@ -371,6 +422,15 @@
 							}
 							1 = {
 								change_first_name = Hafthor
+							}
+							1 = {
+								change_first_name = Saethor
+							}
+							1 = {
+								change_first_name = Sigthor
+							}
+							1 = {
+								change_first_name = Steinthor
 							}
 						}
 					}
@@ -580,6 +640,12 @@
 							1 = {
 								change_first_name = Njal
 							}
+							1 = {
+								change_first_name = Santiri
+							}
+							1 = {
+								change_first_name = Skot
+							}
 						}
 					}
 					0 = {
@@ -645,11 +711,29 @@
 						modifier = {
 							exists = location
 							location.kingdom = title:k_denmark
-							add = 1
+							add = 2
 						}
 						random_list = {
 							1 = {
 								change_first_name = Dan
+							}
+							1 = {
+								change_first_name = Sigdan
+							}
+						}
+					}
+					0 = {
+						modifier = {
+							exists = location
+							location.kingdom = title:k_saxony
+							add = 2
+						}
+						random_list = {
+							1 = {
+								change_first_name = Saxi
+							}
+							1 = {
+								change_first_name = Saxolf
 							}
 						}
 					}
@@ -1207,6 +1291,87 @@
 					}
 					1 = {
 						change_first_name = Runolf
+					}
+					1 = {
+						change_first_name = Saebjorn
+					}
+					1 = {
+						change_first_name = Saemund
+					}
+					1 = {
+						change_first_name = Saevar
+					}
+					1 = {
+						change_first_name = Sam
+					}
+					1 = {
+						change_first_name = Sigbjorn
+					}
+					1 = {
+						change_first_name = Sigfuss
+					}
+					1 = {
+						change_first_name = Siggeir
+					}
+					1 = {
+						change_first_name = Sighvat
+					}
+					1 = {
+						change_first_name = Sigtrygg
+					}
+					1 = {
+						change_first_name = Sigvaldi
+					}
+					1 = {
+						change_first_name = Sindri
+					}
+					1 = {
+						change_first_name = Skagi
+					}
+					1 = {
+						change_first_name = Skarphedin
+					}
+					1 = {
+						change_first_name = Skjalg
+					}
+					1 = {
+						change_first_name = Skjold
+					}
+					1 = {
+						change_first_name = Skuli
+					}
+					1 = {
+						change_first_name = Snaebjorn
+					}
+					1 = {
+						change_first_name = Snorri
+					}
+					1 = {
+						change_first_name = Solmund
+					}
+					1 = {
+						change_first_name = Solvi
+					}
+					1 = {
+						change_first_name = Star
+					}
+					1 = {
+						change_first_name = Steingrim
+					}
+					1 = {
+						change_first_name = Sturla
+					}
+					1 = {
+						change_first_name = Styrbjorn
+					}
+					1 = {
+						change_first_name = Styrkar
+					}
+					1 = {
+						change_first_name = Styrkar
+					}
+					1 = {
+						change_first_name = Styrmir
 					}
 				}
 			}
@@ -3231,6 +3396,282 @@
 					}
 					1 = {
 						change_first_name = Runvid
+					}
+					1 = {
+						change_first_name = Saediarf
+					}
+					1 = {
+						change_first_name = Saefari
+					}
+					1 = {
+						change_first_name = Saefus
+					}
+					1 = {
+						change_first_name = Saegeir
+					}
+					1 = {
+						change_first_name = Saegrim
+					}
+					1 = {
+						change_first_name = Saeleif
+					}
+					1 = {
+						change_first_name = Saereif
+					}
+					1 = {
+						change_first_name = Saerda
+					}
+					1 = {
+						change_first_name = Saeulf
+					}
+					1 = {
+						change_first_name = Saevini
+					}
+					1 = {
+						change_first_name = Saudkolf
+					}
+					1 = {
+						change_first_name = Sefi
+					}
+					1 = {
+						change_first_name = Sialfi
+					}
+					1 = {
+						change_first_name = Sibba
+					}
+					1 = {
+						change_first_name = Sigar
+					}
+					1 = {
+						change_first_name = Sigdiarf
+					}
+					1 = {
+						change_first_name = Sigfast
+					}
+					1 = {
+						change_first_name = Sighjalm
+					}
+					1 = {
+						change_first_name = Sigketil
+					}
+					1 = {
+						change_first_name = Sigmar
+					}
+					1 = {
+						change_first_name = Signjut
+					}
+					1 = {
+						change_first_name = Sigolf
+					}
+					1 = {
+						change_first_name = Sigreif
+					}
+					1 = {
+						change_first_name = Sigrhadd
+					}
+					1 = {
+						change_first_name = Sigrik
+					}
+					1 = {
+						change_first_name = Sigthord
+					}
+					1 = {
+						change_first_name = Sigthorn
+					}
+					1 = {
+						change_first_name = Sigverk
+					}
+					1 = {
+						change_first_name = Sinar
+					}
+					1 = {
+						change_first_name = Sinir
+					}
+					1 = {
+						change_first_name = Sink
+					}
+					1 = {
+						change_first_name = Skald
+					}
+					1 = {
+						change_first_name = Skalp
+					}
+					1 = {
+						change_first_name = Skamkel
+					}
+					1 = {
+						change_first_name = Skarf
+					}
+					1 = {
+						change_first_name = Skari
+					}
+					1 = {
+						change_first_name = Skaung
+					}
+					1 = {
+						change_first_name = Skefil
+					}
+					1 = {
+						change_first_name = Skeggi
+					}
+					1 = {
+						change_first_name = Skidi
+					}
+					1 = {
+						change_first_name = Skjaldbjorn
+					}
+					1 = {
+						change_first_name = Skjoldulf
+					}
+					1 = {
+						change_first_name = Skolm
+					}
+					1 = {
+						change_first_name = Skog
+					}
+					1 = {
+						change_first_name = Skorageir
+					}
+					1 = {
+						change_first_name = Skorri
+					}
+					1 = {
+						change_first_name = Slagver
+					}
+					1 = {
+						change_first_name = Slagvi
+					}
+					1 = {
+						change_first_name = Slodi
+					}
+					1 = {
+						change_first_name = Snaekolf
+					}
+					1 = {
+						change_first_name = Snaekoll
+					}
+					1 = {
+						change_first_name = Snaerir
+					}
+					1 = {
+						change_first_name = Snaeulf
+					}
+					1 = {
+						change_first_name = Snari
+					}
+					1 = {
+						change_first_name = Solvar
+					}
+					1 = {
+						change_first_name = Sondulf
+					}
+					1 = {
+						change_first_name = Sorli
+					}
+					1 = {
+						change_first_name = Spjallbodi
+					}
+					1 = {
+						change_first_name = Spjalli
+					}
+					1 = {
+						change_first_name = Spjoti
+					}
+					1 = {
+						change_first_name = Spraki
+					}
+					1 = {
+						change_first_name = Spor
+					}
+					1 = {
+						change_first_name = Stafngrim
+					}
+					1 = {
+						change_first_name = Starkad
+					}
+					1 = {
+						change_first_name = Stakk
+					}
+					1 = {
+						change_first_name = Stari
+					}
+					1 = {
+						change_first_name = Stefnir
+					}
+					1 = {
+						change_first_name = Steinbjorn
+					}
+					1 = {
+						change_first_name = Steinfast
+					}
+					1 = {
+						change_first_name = Steinfinn
+					}
+					1 = {
+						change_first_name = Steingisl
+					}
+					1 = {
+						change_first_name = Steinkel
+					}
+					1 = {
+						change_first_name = Steinmod
+					}
+					1 = {
+						change_first_name = Steinolf
+					}
+					1 = {
+						change_first_name = Steinrod
+					}
+					1 = {
+						change_first_name = Stigandi
+					}
+					1 = {
+						change_first_name = Stiling
+					}
+					1 = {
+						change_first_name = Stilling
+					}
+					1 = {
+						change_first_name = Stodbjorn
+					}
+					1 = {
+						change_first_name = Stodi
+					}
+					1 = {
+						change_first_name = Stodkel
+					}
+					1 = {
+						change_first_name = Stori
+					}
+					1 = {
+						change_first_name = Storolf
+					}
+					1 = {
+						change_first_name = Stuf
+					}
+					1 = {
+						change_first_name = Styfiald
+					}
+					1 = {
+						change_first_name = Stygg
+					}
+					1 = {
+						change_first_name = Stynbjorn
+					}
+					1 = {
+						change_first_name = Styrfast
+					}
+					1 = {
+						change_first_name = Styrimad
+					}
+					1 = {
+						change_first_name = Styrimad
+					}
+					1 = {
+						change_first_name = Styrlaug
+					}
+					1 = {
+						change_first_name = Styr
 					}
 				}
 			}
