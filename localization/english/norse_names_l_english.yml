@@ -4245,13 +4245,197 @@
  Runolf_norse_pat_dad_male: "Rúnólfsson"
  Runolf_norse_pat_dad_female: "Rúnólfsdóttir"
 
+ Saebjorn_norse: "Sǽbiǫrn"
+ Saebjorn_norse_pat_dad_male: "Sǽbiarnarson"
+ Saebjorn_norse_pat_dad_female: "Sǽbiarnardóttir"
+
+ Saediarf_norse: "Sǽdiarfr"
+ Saediarf_norse_pat_dad_male: "Sǽdiarfsson"
+ Saediarf_norse_pat_dad_female: "Sǽdiarfsdóttir"
+
+ Saefari_norse: "Sǽfari"
+ Saefari_norse_pat_dad_male: "Sǽfarason"
+ Saefari_norse_pat_dad_female: "Sǽfaradóttir"
+
+ Saefus_norse: "Sǽfúss"
+ Saefus_norse_pat_dad_male: "Sǽfússon"
+ Saefus_norse_pat_dad_female: "Sǽfússdóttir"
+
+ Saegeir_norse: "Sǽgęirr"
+ Saegeir_norse_pat_dad_male: "Sǽgęirsson"
+ Saegeir_norse_pat_dad_female: "Sǽgęirssdóttir"
+
+ Saegrim_norse: "Sǽgrímr"
+ Saegrim_norse_pat_dad_male: "Sǽgrímsson"
+ Saegrim_norse_pat_dad_female: "Sǽgrímssdóttir"
+
+ Saeleif_norse: "Sǽlęifr"
+ Saeleif_norse_pat_dad_male: "Sǽlęifsson"
+ Saeleif_norse_pat_dad_female: "Sǽlęifssdóttir"
+
+ Saemund_norse: "Sǽmundr"
+ Saemund_norse_pat_dad_male: "Sǽmundarson"
+ Saemund_norse_pat_dad_female: "Sǽmundardóttir"
+
+ Saereif_norse: "Sǽręifr"
+ Saereif_norse_pat_dad_male: "Sǽręifsson"
+ Saereif_norse_pat_dad_female: "Sǽręifsdóttir"
+
+ Saerda_norse: "Sǽrða"
+ Saerda_norse_pat_dad_male: "Sǽrðuson"
+ Saerda_norse_pat_dad_female: "Sǽrðudóttir"
+
+ Saethor_norse: "Sǽþórr"
+ Saethor_norse_pat_dad_male: "Sǽþórsson"
+ Saethor_norse_pat_dad_female: "Sǽþórsdóttir"
+
+ Saeulf_norse: "Sǽulfr"
+ Saeulf_norse_pat_dad_male: "Sǽulfsson"
+ Saeulf_norse_pat_dad_female: "Sǽulfsdóttir"
+
+ Saevar_norse: "Sǽvarr"
+ Saevar_norse_pat_dad_male: "Sǽvarsson"
+ Saevar_norse_pat_dad_female: "Sǽvarsdóttir"
+
+ Saevini_norse: "Sǽvini"
+ Saevini_norse_pat_dad_male: "Sǽvinason"
+ Saevini_norse_pat_dad_female: "Sǽvinadóttir"
+
+ Salgard_norse: "Salgarðr"
+ Salgard_norse_pat_dad_male: "Salgarðsson"
+ Salgard_norse_pat_dad_female: "Salgarðsdóttir"
+
+ Salomon_norse: "Salómon"
+ Salomon_norse_pat_dad_male: "Salómonsson"
+ Salomon_norse_pat_dad_female: "Salómonsdóttir"
+
+ Sam_norse: "Sámr"
+ Sam_norse_pat_dad_male: "Sámsson"
+ Sam_norse_pat_dad_female: "Sámsdóttir"
+
+ Sandar_norse: "Sandarr"
+ Sandar_norse_pat_dad_male: "Sandarsson"
+ Sandar_norse_pat_dad_female: "Sandarsdóttir"
+
+ Santiri_norse: "Santiri"
+ Santiri_norse_pat_dad_male: "Santirason"
+ Santiri_norse_pat_dad_female: "Santiradóttir"
+
+ Saudkolf_norse: "Sauðkólfr"
+ Saudkolf_norse_pat_dad_male: "Sauðkólfsson"
+ Saudkolf_norse_pat_dad_female: "Sauðkólfsdóttir"
+
+ Saxi_norse: "Saxi"
+ Saxi_norse_pat_dad_male: "Saxason"
+ Saxi_norse_pat_dad_female: "Saxadóttir"
+
+ Saxolf_norse: "Saxólfr"
+ Saxolf_norse_pat_dad_male: "Saxólfsson"
+ Saxolf_norse_pat_dad_female: "Saxólfsdóttir"
+
+ Sefi_norse: "Sęfi"
+ Sefi_norse_pat_dad_male: "Sęfason"
+ Sefi_norse_pat_dad_female: "Sęfadóttir"
+
+ Sialfi_norse: "Sialfi"
+ Sialfi_norse_pat_dad_male: "Sialfason"
+ Sialfi_norse_pat_dad_female: "Sialfadóttir"
+
+ Sibba_norse: "Sibba"
+ Sibba_norse_pat_dad_male: "Sibbuson"
+ Sibba_norse_pat_dad_female: "Sibbudóttir"
+
+ Sigar_norse: "Sigarr"
+ Sigar_norse_pat_dad_male: "Sigarsson"
+ Sigar_norse_pat_dad_female: "Sigarsdóttir"
+
+ Sigbjorn_norse: "Sigbiǫrn"
+ Sigbjorn_norse_pat_dad_male: "Sigbiarnarson"
+ Sigbjorn_norse_pat_dad_female: "Sigbiarnardóttir"
+
+ Sigdan_norse: "Sigdan"
+ Sigdan_norse_pat_dad_male: "Sigdanarson"
+ Sigdan_norse_pat_dad_female: "Sigdanardóttir"
+
+ Sigdiarf_norse: "Sigdiarfr"
+ Sigdiarf_norse_pat_dad_male: "Sigdiarfsson"
+ Sigdiarf_norse_pat_dad_female: "Sigdiarfsdóttir"
+
+ Sigfast_norse: "Sigfastr"
+ Sigfast_norse_pat_dad_male: "Sigfastsson"
+ Sigfast_norse_pat_dad_female: "Sigfastsdóttir"
+
  Sigfrid_norse: "Sigfrøðr"
  Sigfrid_norse_pat_dad_male: "Sigfrøðarson"
  Sigfrid_norse_pat_dad_female: "Sigfrøðardóttir"
 
+ Sigfuss_norse: "Sigfúss"
+ Sigfuss_norse_pat_dad_male: "Sigfússon"
+ Sigfuss_norse_pat_dad_female: "Sigfússdóttir"
+
+ Siggeir_norse: "Siggęirr"
+ Siggeir_norse_pat_dad_male: "Siggęirsson"
+ Siggeir_norse_pat_dad_female: "Siggęirsdóttir"
+
+ Siggi_norse: "Siggi"
+ Siggi_norse_pat_dad_male: "Siggason"
+ Siggi_norse_pat_dad_female: "Siggadóttir"
+
+ Sighjalm_norse: "Sighiálmr"
+ Sighjalm_norse_pat_dad_male: "Sighiálmsson"
+ Sighjalm_norse_pat_dad_female: "Sighiálmsdóttir"
+
+ Sighvat_norse: "Sighvatr"
+ Sighvat_norse_pat_dad_male: "Sighvatsson"
+ Sighvat_norse_pat_dad_female: "Sighvatsdóttir"
+
+ Sigketil_norse: "Sigkętill"
+ Sigketil_norse_pat_dad_male: "Sigkętilsson"
+ Sigketil_norse_pat_dad_female: "Sigkętilsdóttir"
+
+ Sigmar_norse: "Sigmarr"
+ Sigmar_norse_pat_dad_male: "Sigmarsson"
+ Sigmar_norse_pat_dad_female: "Sigmarsdóttir"
+
+ Sigmund_norse: "Sigmundr"
+ Sigmund_norse_pat_dad_male: "Sigmundarson"
+ Sigmund_norse_pat_dad_female: "Sigmundardóttir"
+
+ Sigolf_norse: "Sigólfr"
+ Sigolf_norse_pat_dad_male: "Sigólfsson"
+ Sigolf_norse_pat_dad_female: "Sigólfsdóttir"
+
  Signjut_norse: "Signiútr"
  Signjut_norse_pat_dad_male: "Signiútsson"
  Signjut_norse_pat_dad_female: "Signiútsdóttir"
+
+ Sigreif_norse: "Sigręifr"
+ Sigreif_norse_pat_dad_male: "Sigręifsson"
+ Sigreif_norse_pat_dad_female: "Sigręifsdóttir"
+
+ Sigrhadd_norse: "Sigrhaddr"
+ Sigrhadd_norse_pat_dad_male: "Sigrhaddsson"
+ Sigrhadd_norse_pat_dad_female: "Sigrhaddsdóttir"
+
+ Sigrik_norse: "Sigríkr"
+ Sigrik_norse_pat_dad_male: "Sigríksson"
+ Sigrik_norse_pat_dad_female: "Sigríksdóttir"
+
+ Sigstein_norse: "Sigstęinn"
+ Sigstein_norse_pat_dad_male: "Sigstęinsson"
+ Sigstein_norse_pat_dad_female: "Sigstęinsdóttir"
+
+ Sigthord_norse: "Sigþorðr"
+ Sigthord_norse_pat_dad_male: "Sigþorðarson"
+ Sigthord_norse_pat_dad_female: "Sigþorðardóttir"
+
+ Sigthorn_norse: "Sigþorn"
+ Sigthorn_norse_pat_dad_male: "Sigþornsson"
+ Sigthorn_norse_pat_dad_female: "Sigþornsdóttir"
+
+ Sigthor_norse: "Sigþórr"
+ Sigthor_norse_pat_dad_male: "Sigþórsson"
+ Sigthor_norse_pat_dad_female: "Sigþórsdóttir"
 
  Sigtrygg_norse: "Sigtryggr"
  Sigtrygg_norse_pat_dad_male: "Sigtryggsson"
@@ -4264,6 +4448,18 @@
  Sigurdr_norse: "Sigurðr"
  Sigurdr_norse_pat_dad_male: "Sigurðarson"
  Sigurdr_norse_pat_dad_female: "Sigurðardóttir"
+
+ Sigvaldi_norse: "Sigvaldi"
+ Sigvaldi_norse_pat_dad_male: "Sigvaldason"
+ Sigvaldi_norse_pat_dad_female: "Sigvaldadóttir"
+
+ Sigvard_norse: "Sigvarðr"
+ Sigvard_norse_pat_dad_male: "Sigvarðarson"
+ Sigvard_norse_pat_dad_female: "Sigvarðardóttir"
+
+ Sigverk_norse: "Sigverkr"
+ Sigverk_norse_pat_dad_male: "Sigverksson"
+ Sigverk_norse_pat_dad_female: "Sigverkdóttir"
 
  Skuli_norse: "Skúli"
  Skuli_norse_pat_dad_male: "Skúlason"
