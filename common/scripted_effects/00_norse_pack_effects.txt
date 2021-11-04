@@ -130,6 +130,9 @@
 							1 = {
 								change_first_name = Stefan
 							}
+							1 = {
+								change_first_name = Tomas
+							}
 						}
 					}
 					1 = {
@@ -192,6 +195,15 @@
 					1 = {
 						change_first_name = Stig
 					}
+					1 = {
+						change_first_name = Svein
+					}
+					1 = {
+						change_first_name = Ulf
+					}
+					1 = {
+						change_first_name = Valdimar
+					}
 				}
 			}
 			25 = {
@@ -240,11 +252,17 @@
 					0 = {
 						modifier = {
 							has_religion = religion:germanic_religion 
-							add = 1
+							add = 3
 						}
 						random_list = {
 							1 = {
 								change_first_name = Hallthor
+							}
+							1 = {
+								change_first_name = Vebjorn
+							}
+							1 = {
+								change_first_name = Vegard
 							}
 						}
 					}
@@ -401,6 +419,24 @@
 					1 = {
 						change_first_name = Stali
 					}
+					1 = {
+						change_first_name = Stali
+					}
+					1 = {
+						change_first_name = Sveinung
+					}
+					1 = {
+						change_first_name = Sverrir
+					}
+					1 = {
+						change_first_name = Vagn
+					}
+					1 = {
+						change_first_name = Valdi
+					}
+					1 = {
+						change_first_name = Vidar
+					}
 				}
 			}
 			10 = {
@@ -431,6 +467,12 @@
 							}
 							1 = {
 								change_first_name = Steinthor
+							}
+							1 = {
+								change_first_name = Vemund
+							}
+							1 = {
+								change_first_name = Vestein
 							}
 						}
 					}
@@ -646,6 +688,9 @@
 							1 = {
 								change_first_name = Skot
 							}
+							1 = {
+								change_first_name = Tadk
+							}
 						}
 					}
 					0 = {
@@ -704,6 +749,12 @@
 							}
 							1 = {
 								change_first_name = Rodgaut
+							}
+							1 = {
+								change_first_name = Valgaut
+							}
+							1 = {
+								change_first_name = Vegaut
 							}
 						}
 					}
@@ -1373,6 +1424,51 @@
 					1 = {
 						change_first_name = Styrmir
 					}
+					1 = {
+						change_first_name = Svan
+					}
+					1 = {
+						change_first_name = Svartgeir
+					}
+					1 = {
+						change_first_name = Svavar
+					}
+					1 = {
+						change_first_name = Sveinbjorn
+					}
+					1 = {
+						change_first_name = Teit
+					}
+					1 = {
+						change_first_name = Tjorvi
+					}
+					1 = {
+						change_first_name = Tofi
+					}
+					1 = {
+						change_first_name = Toki
+					}
+					1 = {
+						change_first_name = Trausti
+					}
+					1 = {
+						change_first_name = Tryggvi
+					}
+					1 = {
+						change_first_name = Ulfar
+					}
+					1 = {
+						change_first_name = Uni
+					}
+					1 = {
+						change_first_name = Unnar
+					}
+					1 = {
+						change_first_name = Val
+					}
+					1 = {
+						change_first_name = Vet
+					}
 				}
 			}
 			1 = {
@@ -1381,11 +1477,29 @@
 						modifier = {
 							exists = location
 							location.kingdom = title:k_norway
-							add = 1
+							add = 7
 						}
 						random_list = {
 							1 = {
 								change_first_name = Nordmad
+							}
+							1 = {
+								change_first_name = Vestar
+							}
+							1 = {
+								change_first_name = Vestgeir
+							}
+							1 = {
+								change_first_name = Vestlidi
+							}
+							1 = {
+								change_first_name = Vestmad
+							}
+							1 = {
+								change_first_name = Vestmar
+							}
+							1 = {
+								change_first_name = Vestmund
 							}
 						}
 					}
@@ -1492,6 +1606,9 @@
 							1 = {
 								change_first_name = Hunketil
 							}
+							1 = {
+								change_first_name = Unnketil
+							}
 						}
 					}
 					0 = {
@@ -1511,7 +1628,7 @@
 					0 = {
 						modifier = {
 							has_religion = religion:germanic_religion 
-							add = 5
+							add = 13
 						}
 						random_list = {
 							1 = {
@@ -1528,6 +1645,60 @@
 							}
 							1 = {
 								change_first_name = Myndil
+							}
+							1 = {
+								change_first_name = Vebrand
+							}
+							1 = {
+								change_first_name = Vediarf
+							}
+							1 = {
+								change_first_name = Vefast
+							}
+							1 = {
+								change_first_name = Vefinn
+							}
+							1 = {
+								change_first_name = Vefrod
+							}
+							1 = {
+								change_first_name = Vefuss
+							}
+							1 = {
+								change_first_name = Vegeir
+							}
+							1 = {
+								change_first_name = Vegest
+							}
+							1 = {
+								change_first_name = Vegrim
+							}
+							1 = {
+								change_first_name = Vegisl
+							}
+							1 = {
+								change_first_name = Vehjalm
+							}
+							1 = {
+								change_first_name = Veketil
+							}
+							1 = {
+								change_first_name = Veleif
+							}
+							1 = {
+								change_first_name = Veniut
+							}
+							1 = {
+								change_first_name = Veulf
+							}
+							1 = {
+								change_first_name = Veurd
+							}
+							1 = {
+								change_first_name = Vethorm
+							}
+							1 = {
+								change_first_name = Vethorn
 							}
 						}
 					}
@@ -3672,6 +3843,177 @@
 					}
 					1 = {
 						change_first_name = Styr
+					}
+					1 = {
+						change_first_name = Sunnhvat
+					}
+					1 = {
+						change_first_name = Sunnolf
+					}
+					1 = {
+						change_first_name = Sunnvid
+					}
+					1 = {
+						change_first_name = Svarald
+					}
+					1 = {
+						change_first_name = Svardkel
+					}
+					1 = {
+						change_first_name = Svartabrand
+					}
+					1 = {
+						change_first_name = Svarthofdi
+					}
+					1 = {
+						change_first_name = Svartung
+					}
+					1 = {
+						change_first_name = Sveingeir
+					}
+					1 = {
+						change_first_name = Svipdag
+					}
+					1 = {
+						change_first_name = Sylfa
+					}
+					1 = {
+						change_first_name = Tafi
+					}
+					1 = {
+						change_first_name = Tanni
+					}
+					1 = {
+						change_first_name = Tassi
+					}
+					1 = {
+						change_first_name = Tidkumi
+					}
+					1 = {
+						change_first_name = Tind
+					}
+					1 = {
+						change_first_name = Torrad
+					}
+					1 = {
+						change_first_name = Trjon
+					}
+					1 = {
+						change_first_name = Trygg
+					}
+					1 = {
+						change_first_name = Tryggulf
+					}
+					1 = {
+						change_first_name = Tolk
+					}
+					1 = {
+						change_first_name = Tyrfing
+					}
+					1 = {
+						change_first_name = Ubbi
+					}
+					1 = {
+						change_first_name = Ubein
+					}
+					1 = {
+						change_first_name = Udh
+					}
+					1 = {
+						change_first_name = Uggi
+					}
+					1 = {
+						change_first_name = Ulfgeir
+					}
+					1 = {
+						change_first_name = Ulfhedin
+					}
+					1 = {
+						change_first_name = Ulfhvat
+					}
+					1 = {
+						change_first_name = Ulfied
+					}
+					1 = {
+						change_first_name = Ulfkel
+					}
+					1 = {
+						change_first_name = Ulfljot
+					}
+					1 = {
+						change_first_name = Ulfrek
+					}
+					1 = {
+						change_first_name = Ulfvald
+					}
+					1 = {
+						change_first_name = Ulfvid
+					}
+					1 = {
+						change_first_name = Unnulf
+					}
+					1 = {
+						change_first_name = Unnvald
+					}
+					1 = {
+						change_first_name = Utlagi
+					}
+					1 = {
+						change_first_name = Uxi
+					}
+					1 = {
+						change_first_name = Vadi
+					}
+					1 = {
+						change_first_name = Vak
+					}
+					1 = {
+						change_first_name = Valbjorn
+					}
+					1 = {
+						change_first_name = Valbrand
+					}
+					1 = {
+						change_first_name = Valdrik
+					}
+					1 = {
+						change_first_name = Valgard
+					}
+					1 = {
+						change_first_name = Valthjof
+					}
+					1 = {
+						change_first_name = Vamod
+					}
+					1 = {
+						change_first_name = Vandil
+					}
+					1 = {
+						change_first_name = Vandrad
+					}
+					1 = {
+						change_first_name = Vani
+					}
+					1 = {
+						change_first_name = Varghos
+					}
+					1 = {
+						change_first_name = Var
+					}
+					1 = {
+						change_first_name = Ved
+					}
+					1 = {
+						change_first_name = Vedraldi
+					}
+					1 = {
+						change_first_name = Vermund
+					}
+					1 = {
+						change_first_name = Veseti
+					}
+					1 = {
+						change_first_name = Vidbjorn
 					}
 				}
 			}
