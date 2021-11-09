@@ -21,6 +21,13 @@
 			}
 			norse_pack_name_ai_male = yes
 		}
+        if = {
+			limit = {
+				is_male = no
+				has_culture_group = culture_group:north_germanic_group
+			}
+			norse_pack_name_ai_female = yes
+		}
 		if = {
 			limit = {
 				is_male = yes
@@ -56,6 +63,13 @@ servant_character = {
 				has_culture_group = culture_group:north_germanic_group
 			}
 			norse_pack_name_ai_male = yes
+		}
+        if = {
+			limit = {
+				is_male = no
+				has_culture_group = culture_group:north_germanic_group
+			}
+			norse_pack_name_ai_female = yes
 		}
 		if = {
 			limit = {
@@ -170,6 +184,13 @@ witchy_template = {
 			}
 			norse_pack_name_ai_male = yes
 		}
+        if = {
+			limit = {
+				is_male = no
+				has_culture_group = culture_group:north_germanic_group
+			}
+			norse_pack_name_ai_female = yes
+		}
 		if = {
 			limit = {
 				is_male = yes
@@ -217,6 +238,13 @@ merchant_template = {
 				has_culture_group = culture_group:north_germanic_group
 			}
 			norse_pack_name_ai_male = yes
+		}
+        if = {
+			limit = {
+				is_male = no
+				has_culture_group = culture_group:north_germanic_group
+			}
+			norse_pack_name_ai_female = yes
 		}
 		if = {
 			limit = {
@@ -282,6 +310,13 @@ hunter_template = {
 			}
 			norse_pack_name_ai_male = yes
 		}
+        if = {
+			limit = {
+				is_male = no
+				has_culture_group = culture_group:north_germanic_group
+			}
+			norse_pack_name_ai_female = yes
+		}
 		if = {
 			limit = {
 				is_male = yes
@@ -332,6 +367,13 @@ detective_template = {
 				has_culture_group = culture_group:north_germanic_group
 			}
 			norse_pack_name_ai_male = yes
+		}
+        if = {
+			limit = {
+				is_male = no
+				has_culture_group = culture_group:north_germanic_group
+			}
+			norse_pack_name_ai_female = yes
 		}
 		if = {
 			limit = {

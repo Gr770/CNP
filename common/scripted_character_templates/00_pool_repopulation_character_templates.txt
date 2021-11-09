@@ -83,6 +83,13 @@ pool_repopulate_prowess = {
 			}
 			norse_pack_name_ai_male = yes
 		}
+        if = {
+			limit = {
+				is_male = no
+				has_culture_group = culture_group:north_germanic_group
+			}
+			norse_pack_name_ai_female = yes
+		}
 		if = {
 			limit = {
 				is_male = yes
@@ -154,6 +161,13 @@ pool_repopulate_diplomacy = {
 			}
 			norse_pack_name_ai_male = yes
 		}
+        if = {
+			limit = {
+				is_male = no
+				has_culture_group = culture_group:north_germanic_group
+			}
+			norse_pack_name_ai_female = yes
+		}
 		if = {
 			limit = {
 				is_male = yes
@@ -223,6 +237,13 @@ pool_repopulate_martial = {
 			}
 			norse_pack_name_ai_male = yes
 		}
+        if = {
+			limit = {
+				is_male = no
+				has_culture_group = culture_group:north_germanic_group
+			}
+			norse_pack_name_ai_female = yes
+		}
 		if = {
 			limit = {
 				is_male = yes
@@ -288,6 +309,13 @@ pool_repopulate_stewardship = {
 				has_culture_group = culture_group:north_germanic_group
 			}
 			norse_pack_name_ai_male = yes
+		}
+        if = {
+			limit = {
+				is_male = no
+				has_culture_group = culture_group:north_germanic_group
+			}
+			norse_pack_name_ai_female = yes
 		}
 		if = {
 			limit = {
@@ -358,6 +386,13 @@ pool_repopulate_intrigue = {
 				has_culture_group = culture_group:north_germanic_group
 			}
 			norse_pack_name_ai_male = yes
+		}
+        if = {
+			limit = {
+				is_male = no
+				has_culture_group = culture_group:north_germanic_group
+			}
+			norse_pack_name_ai_female = yes
 		}
 		if = {
 			limit = {
@@ -446,6 +481,13 @@ pool_repopulate_learning = {
 				has_culture_group = culture_group:north_germanic_group
 			}
 			norse_pack_name_ai_male = yes
+		}
+        if = {
+			limit = {
+				is_male = no
+				has_culture_group = culture_group:north_germanic_group
+			}
+			norse_pack_name_ai_female = yes
 		}
 		if = {
 			limit = {
@@ -584,6 +626,13 @@ pool_repopulate_spouse = {
 				has_culture_group = culture_group:north_germanic_group
 			}
 			norse_pack_name_ai_male = yes
+		}
+        if = {
+			limit = {
+				is_male = no
+				has_culture_group = culture_group:north_germanic_group
+			}
+			norse_pack_name_ai_female = yes
 		}
 		if = {
 			limit = {
@@ -1131,6 +1180,13 @@ pool_repopulate_local_flavor = {
 				has_culture_group = culture_group:north_germanic_group
 			}
 			norse_pack_name_ai_male = yes
+		}
+        if = {
+			limit = {
+				is_male = no
+				has_culture_group = culture_group:north_germanic_group
+			}
+			norse_pack_name_ai_female = yes
 		}
 		if = {
 			limit = {

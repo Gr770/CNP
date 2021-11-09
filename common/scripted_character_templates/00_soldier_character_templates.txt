@@ -54,6 +54,13 @@ soldier_friend_character = {
 			}
 			norse_pack_name_ai_male = yes
 		}
+        if = {
+			limit = {
+				is_male = no
+				has_culture_group = culture_group:north_germanic_group
+			}
+			norse_pack_name_ai_female = yes
+		}
 		if = {
 			limit = {
 				is_male = yes
@@ -124,6 +131,13 @@ new_commander_character = {
 				has_culture_group = culture_group:north_germanic_group
 			}
 			norse_pack_name_ai_male = yes
+		}
+        if = {
+			limit = {
+				is_male = no
+				has_culture_group = culture_group:north_germanic_group
+			}
+			norse_pack_name_ai_female = yes
 		}
 		if = {
 			limit = {
@@ -234,6 +248,13 @@ new_warrior_character = {
 			}
 			norse_pack_name_ai_male = yes
 		}
+        if = {
+			limit = {
+				is_male = no
+				has_culture_group = culture_group:north_germanic_group
+			}
+			norse_pack_name_ai_female = yes
+		}
 		if = {
 			limit = {
 				is_male = yes
@@ -308,6 +329,13 @@ new_siege_engineer = {
 				has_culture_group = culture_group:north_germanic_group
 			}
 			norse_pack_name_ai_male = yes
+		}
+        if = {
+			limit = {
+				is_male = no
+				has_culture_group = culture_group:north_germanic_group
+			}
+			norse_pack_name_ai_female = yes
 		}
 		if = {
 			limit = {
@@ -392,6 +420,13 @@ new_berserker_character = {
 				has_culture_group = culture_group:north_germanic_group
 			}
 			norse_pack_name_ai_male = yes
+		}
+        if = {
+			limit = {
+				is_male = no
+				has_culture_group = culture_group:north_germanic_group
+			}
+			norse_pack_name_ai_female = yes
 		}
 		if = {
 			limit = {

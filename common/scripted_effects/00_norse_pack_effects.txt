@@ -259,10 +259,10 @@
 								change_first_name = Hallthor
 							}
 							1 = {
-								change_first_name = Vebjorn
+								change_first_name = Vibjorn
 							}
 							1 = {
-								change_first_name = Vegard
+								change_first_name = Vigard
 							}
 						}
 					}
@@ -469,10 +469,10 @@
 								change_first_name = Steinthor
 							}
 							1 = {
-								change_first_name = Vemund
+								change_first_name = Vimund
 							}
 							1 = {
-								change_first_name = Vestein
+								change_first_name = Vistein
 							}
 						}
 					}
@@ -754,7 +754,7 @@
 								change_first_name = Valgaut
 							}
 							1 = {
-								change_first_name = Vegaut
+								change_first_name = Vigaut
 							}
 						}
 					}
@@ -1647,58 +1647,58 @@
 								change_first_name = Myndil
 							}
 							1 = {
-								change_first_name = Vebrand
+								change_first_name = Vibrand
 							}
 							1 = {
-								change_first_name = Vediarf
+								change_first_name = Vidiarf
 							}
 							1 = {
-								change_first_name = Vefast
+								change_first_name = Vifast
 							}
 							1 = {
-								change_first_name = Vefinn
+								change_first_name = Vifinn
 							}
 							1 = {
-								change_first_name = Vefrod
+								change_first_name = Vifrod
 							}
 							1 = {
-								change_first_name = Vefuss
+								change_first_name = Vifuss
 							}
 							1 = {
-								change_first_name = Vegeir
+								change_first_name = Vigeir
 							}
 							1 = {
-								change_first_name = Vegest
+								change_first_name = Vigest
 							}
 							1 = {
-								change_first_name = Vegrim
+								change_first_name = Vigrim
 							}
 							1 = {
-								change_first_name = Vegisl
+								change_first_name = Vigisl
 							}
 							1 = {
-								change_first_name = Vehjalm
+								change_first_name = Vihjalm
 							}
 							1 = {
-								change_first_name = Veketil
+								change_first_name = Viketil
 							}
 							1 = {
-								change_first_name = Veleif
+								change_first_name = Vileif
 							}
 							1 = {
-								change_first_name = Veniut
+								change_first_name = Viniut
 							}
 							1 = {
-								change_first_name = Veulf
+								change_first_name = Viulf
 							}
 							1 = {
-								change_first_name = Veurd
+								change_first_name = Viurd
 							}
 							1 = {
-								change_first_name = Vethorm
+								change_first_name = Vithorm
 							}
 							1 = {
-								change_first_name = Vethorn
+								change_first_name = Vithorn
 							}
 						}
 					}
@@ -4115,6 +4115,1646 @@ norse_pack_name_ai_female = {
 		change_first_name = { template_character = scope:female_ancestor }
 		mother = {
 			remove_list_variable = { name = female_ancestors target = scope:female_ancestor }
+		}
+	}
+	else = {
+		add_character_flag = name_pack_support
+		random_list = {
+			50 = {
+				random_list = {
+					0 = {
+						modifier = {
+							has_religion = religion:christianity_religion
+							add = 8
+						}
+						random_list = {
+							1 = {
+								change_first_name = Eilina
+							}
+							1 = {
+								change_first_name = Isibel
+							}
+							1 = {
+								change_first_name = Johanna
+							}
+							1 = {
+								change_first_name = Katrin
+							}
+							1 = {
+								change_first_name = Kristin
+							}
+							1 = {
+								change_first_name = Maria
+							}
+							1 = {
+								change_first_name = Matthild
+							}
+							1 = {
+								change_first_name = Sesilida
+							}
+						}
+					}
+					0 = {
+						modifier = {
+							has_religion = religion:germanic_religion 
+							add = 2
+						}
+						random_list = {
+							1 = {
+								change_first_name = Thorhild
+							}
+							1 = {
+								change_first_name = Thorny
+							}
+						}
+					}
+					1 = {
+						change_first_name = Asa
+					}
+					1 = {
+						change_first_name = Astrid
+					}
+					1 = {
+						change_first_name = Aud
+					}
+					1 = {
+						change_first_name = Bjorg
+					}
+					1 = {
+						change_first_name = Bothild
+					}
+					1 = {
+						change_first_name = Eyvor
+					}
+					1 = {
+						change_first_name = Gerd
+					}
+					1 = {
+						change_first_name = Gudrun
+					}
+					1 = {
+						change_first_name = Gunn
+					}
+					1 = {
+						change_first_name = Gunnhild
+					}
+					1 = {
+						change_first_name = Gunnvor
+					}
+					1 = {
+						change_first_name = Hild
+					}
+					1 = {
+						change_first_name = Hlif
+					}
+					1 = {
+						change_first_name = Inga
+					}
+					1 = {
+						change_first_name = Ingibjorg
+					}
+					1 = {
+						change_first_name = Ingigerd
+					}
+					1 = {
+						change_first_name = Ingirid
+					}
+					1 = {
+						change_first_name = Jorunn
+					}
+					1 = {
+						change_first_name = Ragnhild
+					}
+					1 = {
+						change_first_name = Signy
+					}
+					1 = {
+						change_first_name = Sigfrid
+					}
+					1 = {
+						change_first_name = Solveig
+					}
+				}
+			}
+			25 = {
+				random_list = {
+					0 = {
+						modifier = {
+							has_religion = religion:christianity_religion
+							add = 5
+						}
+						random_list = {
+							1 = {
+								change_first_name = Agata
+							}
+							1 = {
+								change_first_name = Marina
+							}
+							1 = {
+								change_first_name = Margret
+							}
+							1 = {
+								change_first_name = Rakel
+							}
+							1 = {
+								change_first_name = Ursula
+							}
+						}
+					}
+					0 = {
+						modifier = {
+							has_religion = religion:germanic_religion 
+							add = 5
+						}
+						random_list = {
+							1 = {
+								change_first_name = Heilvi
+							}
+							1 = {
+								change_first_name = Thora
+							}
+							1 = {
+								change_first_name = Thorbjorg
+							}
+							1 = {
+								change_first_name = Thordis
+							}
+							1 = {
+								change_first_name = Thorunn
+							}
+						}
+					}
+					1 = {
+						change_first_name = AEtta
+					}
+					1 = {
+						change_first_name = Alfhild
+					}
+					1 = {
+						change_first_name = Arnbjorg
+					}
+					1 = {
+						change_first_name = Asbjorg
+					}
+					1 = {
+						change_first_name = Asdis
+					}
+					1 = {
+						change_first_name = Ashild
+					}
+					1 = {
+						change_first_name = Aslaug
+					}
+					1 = {
+						change_first_name = Asta
+					}
+					1 = {
+						change_first_name = Audhild
+					}
+					1 = {
+						change_first_name = Berghild
+					}
+					1 = {
+						change_first_name = Birna
+					}
+					1 = {
+						change_first_name = Borghild
+					}
+					1 = {
+						change_first_name = Dagmaer
+					}
+					1 = {
+						change_first_name = Dagny
+					}
+					1 = {
+						change_first_name = Edda
+					}
+					1 = {
+						change_first_name = Edla
+					}
+					1 = {
+						change_first_name = Embla
+					}
+					1 = {
+						change_first_name = Erna
+					}
+					1 = {
+						change_first_name = Eydis
+					}
+					1 = {
+						change_first_name = Freydis
+					}
+					1 = {
+						change_first_name = Groa
+					}
+					1 = {
+						change_first_name = Gudbjorg
+					}
+					1 = {
+						change_first_name = Gudlaug
+					}
+					1 = {
+						change_first_name = Gudny
+					}
+					1 = {
+						change_first_name = Gulla
+					}
+					1 = {
+						change_first_name = Gunnlaug
+					}
+					1 = {
+						change_first_name = Gyda
+					}
+					1 = {
+						change_first_name = Halldis
+					}
+					1 = {
+						change_first_name = Helga
+					}
+					1 = {
+						change_first_name = Hildigerd
+					}
+					1 = {
+						change_first_name = Hildigunn
+					}
+					1 = {
+						change_first_name = Hjordis
+					}
+					1 = {
+						change_first_name = Hulda
+					}
+					1 = {
+						change_first_name = Idun
+					}
+					1 = {
+						change_first_name = Ingunn
+					}
+					1 = {
+						change_first_name = Jofrid
+					}
+					1 = {
+						change_first_name = Jutta
+					}
+					1 = {
+						change_first_name = Ketillaug
+					}
+					1 = {
+						change_first_name = Kolbrun
+					}
+					1 = {
+						change_first_name = Magnhild
+					}
+					1 = {
+						change_first_name = Malfrid
+					}
+					1 = {
+						change_first_name = Oddbjorg
+					}
+					1 = {
+						change_first_name = Oddny
+					}
+					1 = {
+						change_first_name = Olaug
+					}
+					1 = {
+						change_first_name = Olof
+					}
+					1 = {
+						change_first_name = Osk
+					}
+					1 = {
+						change_first_name = Rafnhild
+					}
+					1 = {
+						change_first_name = Ragna
+					}
+					1 = {
+						change_first_name = Ragnheid
+					}
+					1 = {
+						change_first_name = Rannveig
+					}
+					1 = {
+						change_first_name = Runa
+					}
+					1 = {
+						change_first_name = Salbjorg
+					}
+					1 = {
+						change_first_name = Sigrun
+					}
+					1 = {
+						change_first_name = Steinunn
+					}
+					1 = {
+						change_first_name = Svanhild
+					}
+					1 = {
+						change_first_name = Unn
+					}
+					1 = {
+						change_first_name = Vigdis
+					}
+					1 = {
+						change_first_name = Yrsa
+					}
+					1 = {
+						change_first_name = Thrud
+					}
+				}
+			}
+			10 = {
+				random_list = {
+					0 = {
+						modifier = {
+							has_religion = religion:germanic_religion 
+							add = 7
+						}
+						random_list = {
+							1 = {
+								change_first_name = Arnvi
+							}
+							1 = {
+								change_first_name = Bergthora
+							}
+							1 = {
+								change_first_name = Ragnvi
+							}
+							1 = {
+								change_first_name = Vidis
+							}
+							1 = {
+								change_first_name = Thorgerd
+							}
+							1 = {
+								change_first_name = Thorgunn
+							}
+							1 = {
+								change_first_name = Thorlaug
+							}
+						}
+					}
+					0 = {
+						modifier = {
+							has_religion = religion:christianity_religion
+							add = 1
+						}
+						random_list = {
+							1 = {
+								change_first_name = Kristrun
+							}
+						}
+					}
+					0 = {
+						modifier = {
+							OR = {
+								AND = {
+									exists = father
+									father = {
+										has_culture_group = culture_group:goidelic_group
+									}
+								}
+								AND = {
+									exists = mother
+									mother = {
+										has_culture_group = culture_group:goidelic_group
+									}
+								}
+							}
+							add = 13
+						}
+						random_list = {
+							0 = {
+								modifier = {
+									has_religion = religion:christianity_religion
+									add = 1
+								}
+								random_list = {
+									1 = {
+										change_first_name = Malmury
+									}
+								}
+							}
+							1 = {
+								change_first_name = Athmiul
+							}
+							1 = {
+								change_first_name = Bjollok
+							}
+							1 = {
+								change_first_name = Brigida
+							}
+							1 = {
+								change_first_name = Edna
+							}
+							1 = {
+								change_first_name = Isond
+							}
+							1 = {
+								change_first_name = Kadlin
+							}
+							1 = {
+								change_first_name = Kormlod
+							}
+							1 = {
+								change_first_name = Mallymkun
+							}
+							1 = {
+								change_first_name = Melkorka
+							}
+							1 = {
+								change_first_name = Myrgjol
+							}
+							1 = {
+								change_first_name = Myrun
+							}
+							1 = {
+								change_first_name = Rafarta
+							}
+						}
+					}
+					0 = {
+						modifier = {
+							exists = location
+							OR = {
+								location.duchy = title:d_gotland
+								location.duchy = title:d_smaland
+								location.duchy = title:d_ostergotland
+								location.duchy = title:d_vastergotland
+							}
+							add = 2
+						}
+						random_list = {
+							1 = {
+								change_first_name = Asgauta
+							}
+							1 = {
+								change_first_name = Gauthild
+							}
+						}
+					}
+					1 = {
+						change_first_name = AErndis
+					}
+					1 = {
+						change_first_name = Adisla
+					}
+					1 = {
+						change_first_name = Aldis
+					}
+					1 = {
+						change_first_name = Alfeid
+					}
+					1 = {
+						change_first_name = Alfrun
+					}
+					1 = {
+						change_first_name = Amma
+					}
+					1 = {
+						change_first_name = Arndis
+					}
+					1 = {
+						change_first_name = Arnheid
+					}
+					1 = {
+						change_first_name = Arnfrid
+					}
+					1 = {
+						change_first_name = Arnlaug
+					}
+					1 = {
+						change_first_name = Asgerd
+					}
+					1 = {
+						change_first_name = Asleif
+					}
+					1 = {
+						change_first_name = Asny
+					}
+					1 = {
+						change_first_name = Audbjorg
+					}
+					1 = {
+						change_first_name = Bergdis
+					}
+					1 = {
+						change_first_name = Bergljot
+					}
+					1 = {
+						change_first_name = Bjargey
+					}
+					1 = {
+						change_first_name = Brynhild
+					}
+					1 = {
+						change_first_name = Dagrun
+					}
+					1 = {
+						change_first_name = Dis
+					}
+					1 = {
+						change_first_name = Drifa
+					}
+					1 = {
+						change_first_name = Eilif
+					}
+					1 = {
+						change_first_name = Emma
+					}
+					1 = {
+						change_first_name = Frida
+					}
+					1 = {
+						change_first_name = Geirhild
+					}
+					1 = {
+						change_first_name = Gislaug
+					}
+					1 = {
+						change_first_name = Gudfinna
+					}
+					1 = {
+						change_first_name = Gudfrid
+					}
+					1 = {
+						change_first_name = Gyrid
+					}
+					1 = {
+						change_first_name = Halla
+					}
+					1 = {
+						change_first_name = Hallbjorg
+					}
+					1 = {
+						change_first_name = Hallgerd
+					}
+					1 = {
+						change_first_name = Heid
+					}
+					1 = {
+						change_first_name = Herborg
+					}
+					1 = {
+						change_first_name = Hervor
+					}
+					1 = {
+						change_first_name = Hildibjorg
+					}
+					1 = {
+						change_first_name = Holmfrid
+					}
+					1 = {
+						change_first_name = Refna
+					}
+					1 = {
+						change_first_name = Rodny
+					}
+					1 = {
+						change_first_name = Ingifrid
+					}
+					1 = {
+						change_first_name = Ingileif
+					}
+					1 = {
+						change_first_name = Ingimod
+					}
+					1 = {
+						change_first_name = Kara
+					}
+					1 = {
+						change_first_name = Katla
+					}
+					1 = {
+						change_first_name = Ketilfrid
+					}
+					1 = {
+						change_first_name = Kolfinna
+					}
+					1 = {
+						change_first_name = Leikny
+					}
+					1 = {
+						change_first_name = Lif
+					}
+					1 = {
+						change_first_name = Mabil
+					}
+					1 = {
+						change_first_name = Maeva
+					}
+					1 = {
+						change_first_name = Mjoll
+					}
+					1 = {
+						change_first_name = Oddfrid
+					}
+					1 = {
+						change_first_name = Oddlaug
+					}
+					1 = {
+						change_first_name = Ragnfrid
+					}
+					1 = {
+						change_first_name = Saldis
+					}
+					1 = {
+						change_first_name = Salgerd
+					}
+					1 = {
+						change_first_name = Salvor
+					}
+					1 = {
+						change_first_name = Saeunn
+					}
+					1 = {
+						change_first_name = Sigbjorg
+					}
+					1 = {
+						change_first_name = Sigga
+					}
+					1 = {
+						change_first_name = Siglaug
+					}
+					1 = {
+						change_first_name = Sigunn
+					}
+					1 = {
+						change_first_name = Sigveig
+					}
+					1 = {
+						change_first_name = Snaelaug
+					}
+					1 = {
+						change_first_name = Solvor
+					}
+					1 = {
+						change_first_name = Svala
+					}
+					1 = {
+						change_first_name = Svana
+					}
+					1 = {
+						change_first_name = Svanlaug
+					}
+					1 = {
+						change_first_name = Valdis
+					}
+					1 = {
+						change_first_name = Valgerd
+					}
+					1 = {
+						change_first_name = Vilborg
+					}
+				}
+			}
+			1 = {
+				random_list = {
+					0 = {
+						modifier = {
+							OR = {
+								AND = {
+									exists = father
+									father = {
+										has_culture = culture:anglo_saxon
+									}
+								}
+								AND = {
+									exists = mother
+									mother = {
+										has_culture = culture:anglo_saxon
+									}
+								}
+							}
+							add = 6
+						}
+						random_list = {
+							1 = {
+								change_first_name = Frosthild
+							}
+							1 = {
+								change_first_name = Gunngifu
+							}
+							1 = {
+								change_first_name = Hunhild
+							}
+							1 = {
+								change_first_name = Radhild
+							}
+							1 = {
+								change_first_name = Skjaldfrid
+							}
+							1 = {
+								change_first_name = Stafnhild
+							}
+						}
+					}
+					0 = {
+						modifier = {
+							has_religion = religion:christianity_religion 
+							add = 2
+						}
+						random_list = {
+							1 = {
+								change_first_name = Ingilborg
+							}
+							1 = {
+								change_first_name = Radalin
+							}
+						}
+					}
+					0 = {
+						modifier = {
+							has_religion = religion:germanic_religion 
+							add = 43
+						}
+						random_list = {
+							1 = {
+								change_first_name = Arnthora
+							}
+							1 = {
+								change_first_name = Asvi
+							}
+							1 = {
+								change_first_name = Botvi
+							}
+							1 = {
+								change_first_name = Eythora
+							}
+							1 = {
+								change_first_name = Fastvi
+							}
+							1 = {
+								change_first_name = Folkvi
+							}
+							1 = {
+								change_first_name = Gudvi
+							}
+							1 = {
+								change_first_name = Hafthora
+							}
+							1 = {
+								change_first_name = Hallthora
+							}
+							1 = {
+								change_first_name = Hedinvi
+							}
+							1 = {
+								change_first_name = Alvi
+							}
+							1 = {
+								change_first_name = Geirvi
+							}
+							1 = {
+								change_first_name = Holmvi
+							}
+							1 = {
+								change_first_name = Rodvi
+							}
+							1 = {
+								change_first_name = Ingithora
+							}
+							1 = {
+								change_first_name = Ketilvi
+							}
+							1 = {
+								change_first_name = Liknvi
+							}
+							1 = {
+								change_first_name = Randvi
+							}
+							1 = {
+								change_first_name = Rikvi
+							}
+							1 = {
+								change_first_name = Viaelf
+							}
+							1 = {
+								change_first_name = Vibjorg
+							}
+							1 = {
+								change_first_name = Vifrid
+							}
+							1 = {
+								change_first_name = Vigunn
+							}
+							1 = {
+								change_first_name = Vigerd
+							}
+							1 = {
+								change_first_name = Vilaug
+							}
+							1 = {
+								change_first_name = Vireid
+							}
+							1 = {
+								change_first_name = Thjodvi
+							}
+							1 = {
+								change_first_name = Thorarna
+							}
+							1 = {
+								change_first_name = Thorelf
+							}
+							1 = {
+								change_first_name = Thorfinna
+							}
+							1 = {
+								change_first_name = Thorfrid
+							}
+							1 = {
+								change_first_name = Thorgrima
+							}
+							1 = {
+								change_first_name = Thorhalla
+							}
+							1 = {
+								change_first_name = Thorheid
+							}
+							1 = {
+								change_first_name = Thorkatla
+							}
+							1 = {
+								change_first_name = Thorleif
+							}
+							1 = {
+								change_first_name = Thorljot
+							}
+							1 = {
+								change_first_name = Thorodda
+							}
+							1 = {
+								change_first_name = Thorvi
+							}
+							1 = {
+								change_first_name = Thorveig
+							}
+							1 = {
+								change_first_name = Thorvia
+							}
+							1 = {
+								change_first_name = Thorvor
+							}
+							1 = {
+								change_first_name = Thorfid
+							}
+						}
+					}
+					1 = {
+						change_first_name = AEgileif
+					}
+					1 = {
+						change_first_name = AEringunn
+					}
+					1 = {
+						change_first_name = AEsa
+					}
+					1 = {
+						change_first_name = AEileif
+					}
+					1 = {
+						change_first_name = Afrid
+					}
+					1 = {
+						change_first_name = Agerd
+					}
+					1 = {
+						change_first_name = Alfdis
+					}
+					1 = {
+						change_first_name = Alfrid
+					}
+					1 = {
+						change_first_name = Aldrif
+					}
+					1 = {
+						change_first_name = Alfifa
+					}
+					1 = {
+						change_first_name = Almveig
+					}
+					1 = {
+						change_first_name = Alof
+					}
+					1 = {
+						change_first_name = Alvor
+					}
+					1 = {
+						change_first_name = Amoda
+					}
+					1 = {
+						change_first_name = AEringerd
+					}
+					1 = {
+						change_first_name = Arngunn
+					}
+					1 = {
+						change_first_name = Arnkatla
+					}
+					1 = {
+						change_first_name = Arnleif
+					}
+					1 = {
+						change_first_name = Althrud
+					}
+					1 = {
+						change_first_name = Arnthrud
+					}
+					1 = {
+						change_first_name = Asmod
+					}
+					1 = {
+						change_first_name = Asfrid
+					}
+					1 = {
+						change_first_name = Asgunn
+					}
+					1 = {
+						change_first_name = Asheid
+					}
+					1 = {
+						change_first_name = Askatla
+					}
+					1 = {
+						change_first_name = Asvor
+					}
+					1 = {
+						change_first_name = Asaelf
+					}
+					1 = {
+						change_first_name = Audaelf
+					}
+					1 = {
+						change_first_name = Audfrid
+					}
+					1 = {
+						change_first_name = Audgerd
+					}
+					1 = {
+						change_first_name = Audgud
+					}
+					1 = {
+						change_first_name = Audhelga
+					}
+					1 = {
+						change_first_name = Auga
+					}
+					1 = {
+						change_first_name = Baugheid
+					}
+					1 = {
+						change_first_name = Begga
+					}
+					1 = {
+						change_first_name = Bera
+					}
+					1 = {
+						change_first_name = Berkhild
+					}
+					1 = {
+						change_first_name = Bodny
+					}
+					1 = {
+						change_first_name = Bodvild
+					}
+					1 = {
+						change_first_name = Bot
+					}
+					1 = {
+						change_first_name = Botey
+					}
+					1 = {
+						change_first_name = Botfrid
+					}
+					1 = {
+						change_first_name = Botheid
+					}
+					1 = {
+						change_first_name = Bryngerd
+					}
+					1 = {
+						change_first_name = Busla
+					}
+					1 = {
+						change_first_name = Dagheid
+					}
+					1 = {
+						change_first_name = Dalla
+					}
+					1 = {
+						change_first_name = Disaelf
+					}
+					1 = {
+						change_first_name = Domhild
+					}
+					1 = {
+						change_first_name = Dota
+					}
+					1 = {
+						change_first_name = Droplaug
+					}
+					1 = {
+						change_first_name = Drott
+					}
+					1 = {
+						change_first_name = Dyrfinna
+					}
+					1 = {
+						change_first_name = Dyrhild
+					}
+					1 = {
+						change_first_name = Edny
+					}
+					1 = {
+						change_first_name = Eirny
+					}
+					1 = {
+						change_first_name = Esja
+					}
+					1 = {
+						change_first_name = Evja
+					}
+					1 = {
+						change_first_name = Eybjorg
+					}
+					1 = {
+						change_first_name = Eyfrid
+					}
+					1 = {
+						change_first_name = Eyfura
+					}
+					1 = {
+						change_first_name = Eyild
+					}
+					1 = {
+						change_first_name = Eyja
+					}
+					1 = {
+						change_first_name = Eylaug
+					}
+					1 = {
+						change_first_name = Falgerd
+					}
+					1 = {
+						change_first_name = Fasta
+					}
+					1 = {
+						change_first_name = Fastgerd
+					}
+					1 = {
+						change_first_name = Fastheid
+					}
+					1 = {
+						change_first_name = Fastny
+					}
+					1 = {
+						change_first_name = Finna
+					}
+					1 = {
+						change_first_name = Fjolmod
+					}
+					1 = {
+						change_first_name = Fjorleif
+					}
+					1 = {
+						change_first_name = Fjotra
+					}
+					1 = {
+						change_first_name = Folka
+					}
+					1 = {
+						change_first_name = Frakokk
+					}
+					1 = {
+						change_first_name = Freygerd
+					}
+					1 = {
+						change_first_name = Freylaug
+					}
+					1 = {
+						change_first_name = Fridaelf
+					}
+					1 = {
+						change_first_name = Fridgerd
+					}
+					1 = {
+						change_first_name = Geira
+					}
+					1 = {
+						change_first_name = Geirbjorg
+					}
+					1 = {
+						change_first_name = Geirdis
+					}
+					1 = {
+						change_first_name = Geirlaug
+					}
+					1 = {
+						change_first_name = Geirlod
+					}
+					1 = {
+						change_first_name = Geirny
+					}
+					1 = {
+						change_first_name = Geirfrid
+					}
+					1 = {
+						change_first_name = Geirunn
+					}
+					1 = {
+						change_first_name = Gilla
+					}
+					1 = {
+						change_first_name = Gillaug
+					}
+					1 = {
+						change_first_name = Ginna
+					}
+					1 = {
+						change_first_name = Ginnlaug
+					}
+					1 = {
+						change_first_name = Gisla
+					}
+					1 = {
+						change_first_name = Giaflaug
+					}
+					1 = {
+						change_first_name = Gjaflod
+					}
+					1 = {
+						change_first_name = Grelod
+					}
+					1 = {
+						change_first_name = Grima
+					}
+					1 = {
+						change_first_name = Grimhild
+					}
+					1 = {
+						change_first_name = Gudda
+					}
+					1 = {
+						change_first_name = Gudaelf
+					}
+					1 = {
+						change_first_name = Gudleif
+					}
+					1 = {
+						change_first_name = Gudmod
+					}
+					1 = {
+						change_first_name = Gudvor
+					}
+					1 = {
+						change_first_name = Gullaug
+					}
+					1 = {
+						change_first_name = Gulley
+					}
+					1 = {
+						change_first_name = Gunnaelf
+					}
+					1 = {
+						change_first_name = Gunnfrid
+					}
+					1 = {
+						change_first_name = Gunnheid
+					}
+					1 = {
+						change_first_name = Gunnlod
+					}
+					1 = {
+						change_first_name = Gunnud
+					}
+					1 = {
+						change_first_name = Gunnthrud
+					}
+					1 = {
+						change_first_name = Gydlaug
+					}
+					1 = {
+						change_first_name = Hallbera
+					}
+					1 = {
+						change_first_name = Hallerna
+					}
+					1 = {
+						change_first_name = Hallgrima
+					}
+					1 = {
+						change_first_name = Hallkatla
+					}
+					1 = {
+						change_first_name = Hallveig
+					}
+					1 = {
+						change_first_name = Hallvor
+					}
+					1 = {
+						change_first_name = Hallma
+					}
+					1 = {
+						change_first_name = Haurlaug
+					}
+					1 = {
+						change_first_name = Hedindis
+					}
+					1 = {
+						change_first_name = Hedinfast
+					}
+					1 = {
+						change_first_name = Hedingunn
+					}
+					1 = {
+						change_first_name = Heimlaug
+					}
+					1 = {
+						change_first_name = Hekja
+					}
+					1 = {
+						change_first_name = Helgunn
+					}
+					1 = {
+						change_first_name = Herfrid
+					}
+					1 = {
+						change_first_name = Hergerd
+					}
+					1 = {
+						change_first_name = Hergunn
+					}
+					1 = {
+						change_first_name = Herleif
+					}
+					1 = {
+						change_first_name = Herthrud
+					}
+					1 = {
+						change_first_name = Hildirid
+					}
+					1 = {
+						change_first_name = Hjalmdis
+					}
+					1 = {
+						change_first_name = Hjalmgerd
+					}
+					1 = {
+						change_first_name = Hjalmlaug
+					}
+					1 = {
+						change_first_name = Hjalp
+					}
+					1 = {
+						change_first_name = Hjotra
+					}
+					1 = {
+						change_first_name = Hladgunn
+					}
+					1 = {
+						change_first_name = Hleid
+					}
+					1 = {
+						change_first_name = Hlifhild
+					}
+					1 = {
+						change_first_name = Hlifey
+					}
+					1 = {
+						change_first_name = Holma
+					}
+					1 = {
+						change_first_name = Holmdis
+					}
+					1 = {
+						change_first_name = Holmgerd
+					}
+					1 = {
+						change_first_name = Holmlaug
+					}
+					1 = {
+						change_first_name = Hrimhild
+					}
+					1 = {
+						change_first_name = Roda
+					}
+					1 = {
+						change_first_name = Rodgerd
+					}
+					1 = {
+						change_first_name = Rodlaug
+					}
+					1 = {
+						change_first_name = Rodthjod
+					}
+					1 = {
+						change_first_name = Hungerd
+					}
+					1 = {
+						change_first_name = Igulfrid
+					}
+					1 = {
+						change_first_name = Ingiey
+					}
+					1 = {
+						change_first_name = Ingilaug
+					}
+					1 = {
+						change_first_name = Ingiveld
+					}
+					1 = {
+						change_first_name = Isgerd
+					}
+					1 = {
+						change_first_name = Jardrud
+					}
+					1 = {
+						change_first_name = Jarngerd
+					}
+					1 = {
+						change_first_name = Jodis
+					}
+					1 = {
+						change_first_name = Jofast
+					}
+					1 = {
+						change_first_name = Jofurfast
+					}
+					1 = {
+						change_first_name = Jofurfrid
+					}
+					1 = {
+						change_first_name = Jolin
+					}
+					1 = {
+						change_first_name = Jora
+					}
+					1 = {
+						change_first_name = Jorheid
+					}
+					1 = {
+						change_first_name = Jorhild
+					}
+					1 = {
+						change_first_name = Kata
+					}
+					1 = {
+						change_first_name = Ketilaelf
+					}
+					1 = {
+						change_first_name = Ketiley
+					}
+					1 = {
+						change_first_name = Ketilgerd
+					}
+					1 = {
+						change_first_name = Kjalvor
+					}
+					1 = {
+						change_first_name = Kolgrima
+					}
+					1 = {
+						change_first_name = Kolla
+					}
+					1 = {
+						change_first_name = Krafla
+					}
+					1 = {
+						change_first_name = Langlif
+					}
+					1 = {
+						change_first_name = Lauga
+					}
+					1 = {
+						change_first_name = Ljot
+					}
+					1 = {
+						change_first_name = Ljotunn
+					}
+					1 = {
+						change_first_name = Lofnheid
+					}
+					1 = {
+						change_first_name = Lofthaena
+					}
+					1 = {
+						change_first_name = Luta
+					}
+					1 = {
+						change_first_name = Maer
+					}
+					1 = {
+						change_first_name = Mafa
+					}
+					1 = {
+						change_first_name = Maild
+					}
+					1 = {
+						change_first_name = Marthol
+					}
+					1 = {
+						change_first_name = Mjadveig
+					}
+					1 = {
+						change_first_name = Mobil
+					}
+					1 = {
+						change_first_name = Moda
+					}
+					1 = {
+						change_first_name = Moheid
+					}
+					1 = {
+						change_first_name = Molda
+					}
+					1 = {
+						change_first_name = Mundgerd
+					}
+					1 = {
+						change_first_name = Nauma
+					}
+					1 = {
+						change_first_name = Nereid
+					}
+					1 = {
+						change_first_name = Nidbjorg
+					}
+					1 = {
+						change_first_name = Oddgerd
+					}
+					1 = {
+						change_first_name = Oddleif
+					}
+					1 = {
+						change_first_name = Oleif
+					}
+					1 = {
+						change_first_name = Olhild
+					}
+					1 = {
+						change_first_name = Olrun
+					}
+					1 = {
+						change_first_name = Ondott
+					}
+					1 = {
+						change_first_name = Ormhild
+					}
+					1 = {
+						change_first_name = Otama
+					}
+					1 = {
+						change_first_name = Otkatla
+					}
+					1 = {
+						change_first_name = Ragnaelf
+					}
+					1 = {
+						change_first_name = Ragnbjorg
+					}
+					1 = {
+						change_first_name = Rognveig
+					}
+					1 = {
+						change_first_name = Ragnvor
+					}
+					1 = {
+						change_first_name = Reginleif
+					}
+					1 = {
+						change_first_name = Rikulata
+					}
+					1 = {
+						change_first_name = Rjupa
+					}
+					1 = {
+						change_first_name = Rota
+					}
+					1 = {
+						change_first_name = Runfrid
+					}
+					1 = {
+						change_first_name = Saehild
+					}
+					1 = {
+						change_first_name = Sandey
+					}
+					1 = {
+						change_first_name = Sefa
+					}
+					1 = {
+						change_first_name = Sida
+					}
+					1 = {
+						change_first_name = Siggunn
+					}
+					1 = {
+						change_first_name = Sigvor
+					}
+					1 = {
+						change_first_name = Sigthrud
+					}
+					1 = {
+						change_first_name = Skalphaena
+					}
+					1 = {
+						change_first_name = Skirlaug
+					}
+					1 = {
+						change_first_name = Snotra
+					}
+					1 = {
+						change_first_name = Solva
+					}
+					1 = {
+						change_first_name = Soma
+					}
+					1 = {
+						change_first_name = Saevor
+					}
+					1 = {
+						change_first_name = Spana
+					}
+					1 = {
+						change_first_name = Steina
+					}
+					1 = {
+						change_first_name = Steinbjorg
+					}
+					1 = {
+						change_first_name = Steinfrid
+					}
+					1 = {
+						change_first_name = Steinhild
+					}
+					1 = {
+						change_first_name = Steinlaug
+					}
+					1 = {
+						change_first_name = Steinvor
+					}
+					1 = {
+						change_first_name = Stynfrid
+					}
+					1 = {
+						change_first_name = Sylgja
+					}
+					1 = {
+						change_first_name = Tidfrid
+					}
+					1 = {
+						change_first_name = Torfa
+					}
+					1 = {
+						change_first_name = Totra
+					}
+					1 = {
+						change_first_name = Ulfheid
+					}
+					1 = {
+						change_first_name = Ulfhild
+					}
+					1 = {
+						change_first_name = Ulfrun
+					}
+					1 = {
+						change_first_name = Undrlaug
+					}
+					1 = {
+						change_first_name = Vethild
+					}
+					1 = {
+						change_first_name = Vilgerd
+					}
+					1 = {
+						change_first_name = Thjodbjorg
+					}
+					1 = {
+						change_first_name = Thjodgerd
+					}
+					1 = {
+						change_first_name = Thjodheid
+					}
+					1 = {
+						change_first_name = Thjodhild
+					}
+					1 = {
+						change_first_name = Thraslaug
+					}
+					1 = {
+						change_first_name = Thrudrun
+					}
+					1 = {
+						change_first_name = Thyra
+					}
+					1 = {
+						change_first_name = Thyrna
+					}
+					1 = {
+						change_first_name = Thyrnni
+					}
+				}
+			}
 		}
 	}
 }
