@@ -894,7 +894,7 @@
 						change_first_name = Asleik
 					}
 					1 = {
-						change_first_name = Asleif
+						change_first_name = Asleifr
 					}
 					1 = {
 						change_first_name = Asmar
@@ -996,7 +996,7 @@
 						change_first_name = Eileif
 					}
 					1 = {
-						change_first_name = Eilif
+						change_first_name = Eilifr
 					}
 					1 = {
 						change_first_name = Eindrid
@@ -1080,7 +1080,7 @@
 						change_first_name = Gudfinn
 					}
 					1 = {
-						change_first_name = Gudlaug
+						change_first_name = Gudlaugr
 					}
 					1 = {
 						change_first_name = Gudleik
@@ -1110,7 +1110,7 @@
 						change_first_name = Gunnbjorn
 					}
 					1 = {
-						change_first_name = Gunnlaug
+						change_first_name = Gunnlaugr
 					}
 					1 = {
 						change_first_name = Gunnleif
@@ -1170,7 +1170,7 @@
 						change_first_name = Herjolf
 					}
 					1 = {
-						change_first_name = Herleif
+						change_first_name = Herleifr
 					}
 					1 = {
 						change_first_name = Hermod
@@ -1305,13 +1305,13 @@
 						change_first_name = Oddgeir
 					}
 					1 = {
-						change_first_name = Oddleif
+						change_first_name = Oddleifr
 					}
 					1 = {
 						change_first_name = Oddmar
 					}
 					1 = {
-						change_first_name = Oleif
+						change_first_name = Oleifr
 					}
 					1 = {
 						change_first_name = Olver
@@ -1635,7 +1635,7 @@
 								change_first_name = Beinvid
 							}
 							1 = {
-								change_first_name = Fjolmod
+								change_first_name = Fjolmodr
 							}
 							1 = {
 								change_first_name = Fjolvar
@@ -1850,7 +1850,7 @@
 						change_first_name = Asgis
 					}
 					1 = {
-						change_first_name = Asmod
+						change_first_name = Asmodr
 					}
 					1 = {
 						change_first_name = Asniut
@@ -2195,7 +2195,7 @@
 						change_first_name = Eyleif
 					}
 					1 = {
-						change_first_name = Eylaug
+						change_first_name = Eylaugr
 					}
 					1 = {
 						change_first_name = Eyvendil
@@ -2555,10 +2555,10 @@
 						change_first_name = Gudver
 					}
 					1 = {
-						change_first_name = Gudleif
+						change_first_name = Gudleifr
 					}
 					1 = {
-						change_first_name = Gudmod
+						change_first_name = Gudmodr
 					}
 					1 = {
 						change_first_name = Gudniut
@@ -2771,7 +2771,7 @@
 						change_first_name = Hedinbjorn
 					}
 					1 = {
-						change_first_name = Hedinfast
+						change_first_name = Hedinfastr
 					}
 					1 = {
 						change_first_name = Hedingeir
@@ -2834,7 +2834,7 @@
 						change_first_name = Herlaug
 					}
 					1 = {
-						change_first_name = Herfrid
+						change_first_name = Herfridr
 					}
 					1 = {
 						change_first_name = Herstein
@@ -2936,7 +2936,7 @@
 						change_first_name = Holmkel
 					}
 					1 = {
-						change_first_name = Holmlaug
+						change_first_name = Holmlaugr
 					}
 					1 = {
 						change_first_name = Holmstein
@@ -2996,7 +2996,7 @@
 						change_first_name = Rodhvat
 					}
 					1 = {
-						change_first_name = Rodlaug
+						change_first_name = Rodlaugr
 					}
 					1 = {
 						change_first_name = Rodmar
@@ -3092,7 +3092,7 @@
 						change_first_name = Ingikar
 					}
 					1 = {
-						change_first_name = Ingileif
+						change_first_name = Ingileifr
 					}
 					1 = {
 						change_first_name = Ingimad
@@ -3164,7 +3164,7 @@
 						change_first_name = Ketilhos
 					}
 					1 = {
-						change_first_name = Ketillaug
+						change_first_name = Ketillaugr
 					}
 					1 = {
 						change_first_name = Ketilmund
@@ -3281,7 +3281,7 @@
 						change_first_name = Lingorm
 					}
 					1 = {
-						change_first_name = Ljot
+						change_first_name = Ljotr
 					}
 					1 = {
 						change_first_name = Ljotolf
@@ -3497,7 +3497,7 @@
 						change_first_name = Ragnfast
 					}
 					1 = {
-						change_first_name = Ragnfrid
+						change_first_name = Ragnfridr
 					}
 					1 = {
 						change_first_name = Ragnvid
