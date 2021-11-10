@@ -173,6 +173,23 @@
 							}
 						}
 					}
+					0 = {
+						modifier = {
+							has_religion = religion:germanic_religion 
+							add = 3
+						}
+						random_list = {
+							1 = {
+								change_first_name = Thorbjorn
+							}
+							1 = {
+								change_first_name = Thorfred
+							}
+							1 = {
+								change_first_name = Thorgeir
+							}
+						}
+					}
 					1 = {
 						change_first_name = Bjorn
 					}
@@ -242,6 +259,15 @@
 					1 = {
 						change_first_name = Valdimar
 					}
+					1 = {
+						change_first_name = Vilhjalm
+					}
+					1 = {
+						change_first_name = Yngvar
+					}
+					1 = {
+						change_first_name = Thond
+					}
 				}
 			}
 			25 = {
@@ -301,6 +327,27 @@
 							}
 							1 = {
 								change_first_name = Vigard
+							}
+							1 = {
+								change_first_name = Thorfinn
+							}
+							1 = {
+								change_first_name = Thorgny
+							}
+							1 = {
+								change_first_name = Thorketil
+							}
+							1 = {
+								change_first_name = Thorleifr
+							}
+							1 = {
+								change_first_name = Thormod
+							}
+							1 = {
+								change_first_name = Thorstein
+							}
+							1 = {
+								change_first_name = Thorvald
 							}
 						}
 					}
@@ -475,6 +522,9 @@
 					1 = {
 						change_first_name = Vidar
 					}
+					1 = {
+						change_first_name = Vili
+					}
 				}
 			}
 			10 = {
@@ -511,6 +561,36 @@
 							}
 							1 = {
 								change_first_name = Vistein
+							}
+							1 = {
+								change_first_name = Thorvald
+							}
+							1 = {
+								change_first_name = Thoralf
+							}
+							1 = {
+								change_first_name = Thorarin
+							}
+							1 = {
+								change_first_name = Thorberg
+							}
+							1 = {
+								change_first_name = Thorgisl
+							}
+							1 = {
+								change_first_name = Thorgrim
+							}
+							1 = {
+								change_first_name = Thorhallr
+							}
+							1 = {
+								change_first_name = Thorhall
+							}
+							1 = {
+								change_first_name = Thorhallr
+							}
+							1 = {
+								change_first_name = Thorolf
 							}
 						}
 					}
@@ -793,6 +873,9 @@
 							}
 							1 = {
 								change_first_name = Vigaut
+							}
+							1 = {
+								change_first_name = Thorgaut
 							}
 						}
 					}
@@ -1507,6 +1590,27 @@
 					1 = {
 						change_first_name = Vet
 					}
+					1 = {
+						change_first_name = Vigfuss
+					}
+					1 = {
+						change_first_name = Vig
+					}
+					1 = {
+						change_first_name = Vigleik
+					}
+					1 = {
+						change_first_name = Thjalfi
+					}
+					1 = {
+						change_first_name = Thjodrek
+					}
+					1 = {
+						change_first_name = Thain
+					}
+					1 = {
+						change_first_name = Throst
+					}
 				}
 			}
 			1 = {
@@ -1661,6 +1765,9 @@
 							1 = {
 								change_first_name = Kristrod
 							}
+							1 = {
+								change_first_name = Vinaman
+							}
 						}
 					}
 					0 = {
@@ -1737,6 +1844,51 @@
 							}
 							1 = {
 								change_first_name = Vithorn
+							}
+							1 = {
+								change_first_name = Thorar
+							}
+							1 = {
+								change_first_name = Thorbein
+							}
+							1 = {
+								change_first_name = Thorbrand
+							}
+							1 = {
+								change_first_name = Thorfast
+							}
+							1 = {
+								change_first_name = Thorgest
+							}
+							1 = {
+								change_first_name = Thorhadd
+							}
+							1 = {
+								change_first_name = Thorhald
+							}
+							1 = {
+								change_first_name = Thorhrolf
+							}
+							1 = {
+								change_first_name = Thorleik
+							}
+							1 = {
+								change_first_name = Thorlaugr
+							}
+							1 = {
+								change_first_name = Thorljot
+							}
+							1 = {
+								change_first_name = Thorniut
+							}
+							1 = {
+								change_first_name = Thorrm
+							}
+							1 = {
+								change_first_name = Thorvard
+							}
+							1 = {
+								change_first_name = Thorvid
 							}
 						}
 					}
@@ -4052,6 +4204,129 @@
 					}
 					1 = {
 						change_first_name = Vidbjorn
+					}
+					1 = {
+						change_first_name = Vidfari
+					}
+					1 = {
+						change_first_name = Vidfast
+					}
+					1 = {
+						change_first_name = Vidi
+					}
+					1 = {
+						change_first_name = Vidhugsi
+					}
+					1 = {
+						change_first_name = Vidkunn
+					}
+					1 = {
+						change_first_name = Vifil
+					}
+					1 = {
+						change_first_name = Vigbjod
+					}
+					1 = {
+						change_first_name = Vigbjorn
+					}
+					1 = {
+						change_first_name = Vigdiarf
+					}
+					1 = {
+						change_first_name = Vigfast
+					}
+					1 = {
+						change_first_name = Vighjalm
+					}
+					1 = {
+						change_first_name = Vighvat
+					}
+					1 = {
+						change_first_name = Viglund
+					}
+					1 = {
+						change_first_name = Vigmad
+					}
+					1 = {
+						change_first_name = Vigmar
+					}
+					1 = {
+						change_first_name = Vigniut
+					}
+					1 = {
+						change_first_name = Vigsterk
+					}
+					1 = {
+						change_first_name = Vigthorn
+					}
+					1 = {
+						change_first_name = Vigulf
+					}
+					1 = {
+						change_first_name = Vigulf
+					}
+					1 = {
+						change_first_name = Vilmund
+					}
+					1 = {
+						change_first_name = Visbur
+					}
+					1 = {
+						change_first_name = Vott
+					}
+					1 = {
+						change_first_name = Vragi
+					}
+					1 = {
+						change_first_name = Vrai
+					}
+					1 = {
+						change_first_name = Vrangi
+					}
+					1 = {
+						change_first_name = Vreid
+					}
+					1 = {
+						change_first_name = Vreist
+					}
+					1 = {
+						change_first_name = Thangbrand
+					}
+					1 = {
+						change_first_name = Thengil
+					}
+					1 = {
+						change_first_name = Thettmar
+					}
+					1 = {
+						change_first_name = Thidrandi
+					}
+					1 = {
+						change_first_name = Thilfar
+					}
+					1 = {
+						change_first_name = Thilfar
+					}
+					1 = {
+						change_first_name = Thjodgeir
+					}
+					1 = {
+						change_first_name = Thjodmar
+					}
+					1 = {
+						change_first_name = Thjodolf
+					}
+					1 = {
+						change_first_name = Thjostar
+					}
+					1 = {
+						change_first_name = Thjostolf
+					}
+					1 = {
+						change_first_name = Thrassi
+					}
+					1 = {
+						change_first_name = Thottolf
 					}
 				}
 			}

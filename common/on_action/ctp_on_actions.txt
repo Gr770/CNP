@@ -122,3 +122,8 @@ ctp_courtiers = {
 		}
 	}
 }
+random_yearly_everyone_pulse = {
+	on_actions = {
+		ctp_courtiers
+	}
+}
