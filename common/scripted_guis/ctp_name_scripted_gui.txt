@@ -1,4 +1,4 @@
-koh_exists = {
+﻿koh_exists = {
 	scope = character
 	is_shown = {
 		KoH_loaded_checker = yes

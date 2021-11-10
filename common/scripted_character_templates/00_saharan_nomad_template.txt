@@ -61,32 +61,32 @@ saharan_clan_leader_character = {
 	}
 	after_creation = {
 		if = {
-			limit = {
-				is_male = yes
-				has_culture_group = culture_group:north_germanic_group
+				limit = {
+					is_male = yes
+					has_culture_group = culture_group:north_germanic_group
+				}
+				norse_pack_name_ai_male = yes
 			}
-			norse_pack_name_ai_male = yes
-		}
-        if = {
-			limit = {
-				is_male = no
-				has_culture_group = culture_group:north_germanic_group
+			else_if = {
+				limit = {
+					is_male = no
+					has_culture_group = culture_group:north_germanic_group
+				}
+				norse_pack_name_ai_female = yes
 			}
-			norse_pack_name_ai_female = yes
-		}
-		if = {
-			limit = {
-				is_male = yes
-				has_culture_group = culture_group:arabic_group
+			else_if = {
+				limit = {
+					is_male = yes
+					has_culture_group = culture_group:arabic_group
+				}
+				arabic_pack_name_ai_male = yes
 			}
-			arabic_pack_name_ai_male = yes
-		}
-		if = {
-			limit = {
-				is_male = no
-				has_culture_group = culture_group:arabic_group
+			else_if = {
+				limit = {
+					is_male = no
+					has_culture_group = culture_group:arabic_group
+				}
+				arabic_pack_name_ai_female = yes
 			}
-			arabic_pack_name_ai_female = yes
-		}
 	}
 }

@@ -102,6 +102,9 @@
  Agmund_norse: "Ǫgmundr"
  Agmund_norse_pat_dad_male: "Ǫgmundarson"
  Agmund_norse_pat_dad_female: "Ǫgmundardóttir"
+ Ogmundr_norse: "Ǫgmundr"
+ Ogmundr_norse_pat_dad_male: "Ǫgmundarson"
+ Ogmundr_norse_pat_dad_female: "Ǫgmundardóttir"
 
  Agnar_norse: "Ǫgnarr"
  Agnar_norse_pat_dad_male: "Ǫgnarsson"
@@ -269,6 +272,9 @@
  Andsvar_norse: "Andsvarr"
  Andsvar_norse_pat_dad_male: "Andsvarsson"
  Andsvar_norse_pat_dad_female: "Andsvarsdóttir"
+ Ossur_norse: "Andsvarr"
+ Ossur_norse_pat_dad_male: "Andsvarsson"
+ Ossur_norse_pat_dad_female: "Andsvarsdóttir"
 
  Andvett_norse: "Andvéttr"
  Andvett_norse_pat_dad_male: "Andvéttsson"
@@ -278,11 +284,18 @@
  Anund_norse_pat_dad_male: "Anundsson"
  Anund_norse_pat_dad_female: "Anundsdóttir"
 
+ Anundr_norse: "Anundr"
+ Anundr_norse_pat_dad_male: "Anundsson"
+ Anundr_norse_pat_dad_female: "Anundsdóttir"
+
  #Arni
 
  Arni_norse: "Arni"
  Arni_norse_pat_dad_male: "Arnason"
  Arni_norse_pat_dad_female: "Arnadóttir"
+ Arne_norse: "Arni"
+ Arne_norse_pat_dad_male: "Arnason"
+ Arne_norse_pat_dad_female: "Arnadóttir"
 
  Arnald_norse: "Arnaldr"
  Arnald_norse_pat_dad_male: "Arnaldson"
@@ -331,6 +344,9 @@
  Arnkel_norse: "Arnkęll"
  Arnkel_norse_pat_dad_male: "Arnkęlsson"
  Arnkel_norse_pat_dad_female: "Arnkęlsdóttir"
+ Arnkell_norse: "Arnkęll"
+ Arnkell_norse_pat_dad_male: "Arnkęlsson"
+ Arnkell_norse_pat_dad_female: "Arnkęlsdóttir"
 
  Arnljot_norse: "Arnliótr"
  Arnljot_norse_pat_dad_male: "Arnliótsson"
@@ -435,6 +451,9 @@
  Asleik_norse: "Ǫ́slęikr"
  Asleik_norse_pat_dad_male: "Ǫ́slęiksson"
  Asleik_norse_pat_dad_female: "Ǫ́slęiksdóttir"
+ Aslak_norse: "Ǫ́slęikr"
+ Aslak_norse_pat_dad_male: "Ǫ́slęiksson"
+ Aslak_norse_pat_dad_female: "Ǫ́slęiksdóttir"
 
  Asleifr_norse: "Ǫ́slęifr"
  Asleifr_norse_pat_dad_male: "Ǫ́slęifsson"
@@ -964,6 +983,10 @@
  Brynjolf_norse_pat_dad_male: "Bryniólfsson"
  Brynjolf_norse_pat_dad_female: "Bryniólfsdóttir"
  
+ Brusi_norse: "Brúsi"
+ Brusi_norse_pat_dad_male: "Brúsason"
+ Brusi_norse_pat_dad_female: "Brúsadóttir"
+ 
  Bryti_norse: "Bryti"
  Bryti_norse_pat_dad_male: "Brytason"
  Bryti_norse_pat_dad_female: "Brytadóttir"
@@ -1180,7 +1203,9 @@
  Dyggvi_norse_pat_dad_male: "Dyggvason"
  Dyggvi_norse_pat_dad_female: "Dyggvadóttir"
 
- 
+ Erling_norse: "Erlingr"
+ Erling_norse_pat_dad_male: "Erlingsson"
+ Erling_norse_pat_dad_female: "Erlingsdóttir"
  
  Edmund_norse: "Edmundr"
  Edmund_norse_pat_dad_male: "Edmundarson"
@@ -1197,6 +1222,9 @@
  Egil_norse: "Egill"
  Egil_norse_pat_dad_male: "Egilsson"
  Egil_norse_pat_dad_female: "Egilsdóttir"
+ Egill_norse: "Egill"
+ Egill_norse_pat_dad_male: "Egilsson"
+ Egill_norse_pat_dad_female: "Egilsdóttir"
  
  Eid_norse: "Eiðr"
  Eid_norse_pat_dad_male: "Eiðsson"
@@ -2049,6 +2077,9 @@
  Gudthorm_norse: "Guðþormr"
  Gudthorm_norse_pat_dad_male: "Guðþormsson"
  Gudthorm_norse_pat_dad_female: "Guðþormsdóttir"
+ Guttorm_norse: "Guðþormr"
+ Guttorm_norse_pat_dad_male: "Guðþormsson"
+ Guttorm_norse_pat_dad_female: "Guðþormsdóttir"
  
  Gudthorn_norse: "Guðþornn"
  Gudthorn_norse_pat_dad_male: "Guðþornsson"
@@ -2305,6 +2336,9 @@
  Hafgrim_norse: "Hafgrímr"
  Hafgrim_norse_pat_dad_male: "Hafgrímsson"
  Hafgrim_norse_pat_dad_female: "Hafgrímsdóttir"
+ Hafgrimr_norse: "Hafgrímr"
+ Hafgrimr_norse_pat_dad_male: "Hafgrímsson"
+ Hafgrimr_norse_pat_dad_female: "Hafgrímsdóttir"
  
  Haflidi_norse: "Hafliði"
  Haflidi_norse_pat_dad_male: "Hafliðason"
@@ -2375,6 +2409,9 @@
  Hallr_norse: "Hallr"
  Hallr_norse_pat_dad_male: "Hallsson"
  Hallr_norse_pat_dad_female: "Hallsdóttir"
+ Hall_norse: "Hallr"
+ Hall_norse_pat_dad_male: "Hallsson"
+ Hall_norse_pat_dad_female: "Hallsdóttir"
  
  Hallad_norse: "Hallaðr"
  Hallad_norse_pat_dad_male: "Hallaðsson"
@@ -2586,6 +2623,10 @@
  Herburt_norse_pat_dad_male: "Hęrburtsson"
  Herburt_norse_pat_dad_female: "Hęrburtsdóttir"
  
+ Herfast_norse: "Hęrfastr"
+ Herfast_norse_pat_dad_male: "Hęrfastsson"
+ Herfast_norse_pat_dad_female: "Hęrfastsdóttir"
+ 
  Herfid_norse: "Hęrfiðr"
  Herfid_norse_pat_dad_male: "Hęrfiðsson"
  Herfid_norse_pat_dad_female: "Hęrfiðsdóttir"
@@ -2769,6 +2810,9 @@
  Hlodver_norse: "Hloðvér"
  Hlodver_norse_pat_dad_male: "Hloðvésson"
  Hlodver_norse_pat_dad_female: "Hloðvésdóttir"
+ Hlodvir_norse: "Hloðvér"
+ Hlodvir_norse_pat_dad_male: "Hloðvésson"
+ Hlodvir_norse_pat_dad_female: "Hloðvésdóttir"
  
  Hnaki_norse: "Hnaki"
  Hnaki_norse_pat_dad_male: "Hnakason"
@@ -3222,9 +3266,9 @@
  Jodur_norse_pat_dad_male: "Ioðursson"
  Jodur_norse_pat_dad_female: "Ioðursdóttir"
  
- Jofrey_norse: "Iófreyr" #Norse
- Jofrey_norse_pat_dad_male: "Iófreysson"
- Jofrey_norse_pat_dad_female: "Iófreysdóttir"
+ Jofrey_norse: "Iófrøyr" #Norse
+ Jofrey_norse_pat_dad_male: "Iófrøysson"
+ Jofrey_norse_pat_dad_female: "Iófrøysdóttir"
  
  Jofurbjorn_norse: "Iofurbiǫrn"
  Jofurbjorn_norse_pat_dad_male: "Iobiarnarson"
@@ -3261,6 +3305,10 @@
  Jolgeir_norse: "Iólgęirr"
  Jolgeir_norse_pat_dad_male: "Iólgęirson"
  Jolgeir_norse_pat_dad_female: "Iólgęirsdóttir"
+ 
+ Jon_norse: "Iónn"
+ Jon_norse_pat_dad_male: "Iónson"
+ Jon_norse_pat_dad_female: "Iónsdóttir"
  
  Jongeir_norse: "Ióngęirr" #Christian
  Jongeir_norse_pat_dad_male: "Ióngęirson"
@@ -4362,9 +4410,9 @@
  Sigfast_norse_pat_dad_male: "Sigfastsson"
  Sigfast_norse_pat_dad_female: "Sigfastsdóttir"
 
- Sigfrid_norse: "Sigfrøðr"
- Sigfrid_norse_pat_dad_male: "Sigfrøðarson"
- Sigfrid_norse_pat_dad_female: "Sigfrøðardóttir"
+ Sigfridr_norse: "Sigfrøðr"
+ Sigfridr_norse_pat_dad_male: "Sigfrøðarson"
+ Sigfridr_norse_pat_dad_female: "Sigfrøðardóttir"
 
  Sigfuss_norse: "Sigfúss"
  Sigfuss_norse_pat_dad_male: "Sigfússon"
@@ -4489,6 +4537,9 @@
  Skagi_norse: "Skagi"
  Skagi_norse_pat_dad_male: "Skagason"
  Skagi_norse_pat_dad_female: "Skagadóttir"
+ Skage_norse: "Skagi"
+ Skage_norse_pat_dad_male: "Skagason"
+ Skage_norse_pat_dad_female: "Skagadóttir"
 
  Skald_norse: "Skáldi"
  Skald_norse_pat_dad_male: "Skáldason"
@@ -4838,6 +4889,10 @@
  Sumarlidi_norse_pat_dad_male: "Sumarliðason"
  Sumarlidi_norse_pat_dad_female: "Sumarliðadóttir"
 
+ Sumarli_norse: "Sumarli"
+ Sumarli_norse_pat_dad_male: "Sumarlason"
+ Sumarli_norse_pat_dad_female: "Sumarladóttir"
+
  Sunnhvat_norse: "Sunnhvatr"
  Sunnhvat_norse_pat_dad_male: "Sunnhvatsson"
  Sunnhvat_norse_pat_dad_female: "Sunnhvatsdóttir"
@@ -4954,6 +5009,10 @@
  Tjorvi_norse_pat_dad_male: "Tiǫrvason"
  Tjorvi_norse_pat_dad_female: "Tiǫrvadóttir"
 
+ Toste_norse: "Tosti"
+ Toste_norse_pat_dad_male: "Tostason"
+ Toste_norse_pat_dad_female: "Tostadóttir"
+
  Tofi_norse: "Tófi"
  Tofi_norse_pat_dad_male: "Tófason"
  Tofi_norse_pat_dad_female: "Tófadóttir"
@@ -4961,6 +5020,9 @@
  Toki_norse: "Tóki"
  Toki_norse_pat_dad_male: "Tókason"
  Toki_norse_pat_dad_female: "Tókadóttir"
+ Toke_norse: "Tóki"
+ Toke_norse_pat_dad_male: "Tókason"
+ Toke_norse_pat_dad_female: "Tókadóttir"
 
  Tomas_norse: "Tómas"
  Tomas_norse_pat_dad_male: "Tómasson"
@@ -4989,6 +5051,9 @@
  Tryggvi_norse: "Tryggvi"
  Tryggvi_norse_pat_dad_male: "Tryggvason"
  Tryggvi_norse_pat_dad_female: "Tryggvadóttir"
+ Tryggve_norse: "Tryggvi"
+ Tryggve_norse_pat_dad_male: "Tryggvason"
+ Tryggve_norse_pat_dad_female: "Tryggvadóttir"
 
  Tolk_norse: "Tolkr"
  Tolk_norse_pat_dad_male: "Tolksson"
@@ -5013,6 +5078,10 @@
  Thorfinn_norse: "Þórfinnr"
  Thorfinn_norse_pat_dad_male: "Þórfinnsson"
  Thorfinn_norse_pat_dad_female: "Þórfinnsdóttir"
+
+ Thord_norse: "Þorðr"
+ Thord_norse_pat_dad_male: "Þorðsson"
+ Thord_norse_pat_dad_female: "Þorðsdóttir"
 
  Thorgisl_norse: "Þórgísl"
  Thorgisl_norse_pat_dad_male: "Þórgísson"
@@ -5194,9 +5263,9 @@
  Varghos_norse_pat_dad_male: "Varghǫsson"
  Varghos_norse_pat_dad_female: "Varghǫsdóttir"
 
- Var_norse: "Varr"
- Var_norse_pat_dad_male: "Varsson"
- Var_norse_pat_dad_female: "Varsdóttir"
+ Varr_norse: "Varr"
+ Varr_norse_pat_dad_male: "Varsson"
+ Varr_norse_pat_dad_female: "Varsdóttir"
 
  Vibjorn_norse: "Víbiǫrn"
  Vibjorn_norse_pat_dad_male: "Víbiarnarson"
@@ -5391,6 +5460,7 @@
  Almveig_norse: "Álmvęig"
 
  Alof_norse: "Álof"
+ Alov_norse: "Álof"
 
  Alvi_norse: "Alví"
 
@@ -5509,6 +5579,8 @@
  Bjorg_norse: "Biǫrg"
 
  Bodny_norse: "Bǫðný"
+
+ Bodil_norse: "Bóthildr"
 
  Bodvild_norse: "Bǫðvildr"
 
@@ -5741,6 +5813,7 @@
  Gunnheid_norse: "Gunnhęiðr"
 
  Gunnhild_norse: "Gunnhildr"
+ Gunnhildr_norse: "Gunnhildr"
 
  Gunnlaug_norse: "Gunnlaug"
 
@@ -5900,6 +5973,8 @@
 
  Ingiey_norse: "Ingiøy"
 
+ Ingrid_norse: "Ingríðr"
+
  Ingigerd_norse: "Ingigęrðr"
 
  Ingjgerd_norse: "Ingigęrðr" #Vanilla
@@ -6011,6 +6086,8 @@
  Liknvi_norse: "Líknví"
 
  Ljot_norse: "Liót"
+ Ljot_norse_pat_dad_male: "Liótsson"
+ Ljot_norse_pat_dad_female: "Liótsdóttir"
 
  Ljotunn_norse: "Liótunn"
 
@@ -6127,6 +6204,7 @@
  Ragnheid_norse: "Ragnhęiðr"
 
  Ragnhild_norse: "Ragnhildr"
+ Ragnhild_norse: "Ragnhildr"
 
  Ragnvi_norse: "Ragnví"
 
@@ -6186,6 +6264,7 @@
 
  Signy_norse: "Signý"
 
+ Sigrid_norse: "Sigríðr"
  Sigfrid_norse: "Sigfríðr"
 
  Sigrun_norse: "Sigrún"
@@ -6314,11 +6393,17 @@
 
  Thorarna_norse: "Þórarna"
 
+ Thorberg_norse: "Þórberg"
+
  Thorbjorg_norse: "Þórbiǫrg"
 
  Thordis_norse: "Þórdís"
 
- Thorelf_norse: "Þórelfr"
+ Thorey_norse: "Þórøy"
+ Thorey_norse_pat_dad_male: "Þórøyarson"
+ Thorey_norse_pat_dad_female: "Þórøyardóttir"
+
+ Thorelf_norse: "Þórey"
 
  Thorfinna_norse: "Þórfinna"
 

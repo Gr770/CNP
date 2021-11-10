@@ -6,6 +6,44 @@
 			}
 			exists = father
 			father = {
+				is_alive = no
+			}
+		}
+		father = {
+			save_scope_as = male_ancestor
+		}
+		if = {
+			limit = {
+				father = {
+					exists = dynasty
+					dynasty = {
+						any_in_list = {
+							variable = name_pack_support_dynasty
+							this = scope:male_ancestor
+						}
+					}
+				}
+			}
+			add_character_flag = name_pack_support
+		}
+		else_if = {
+			limit = {
+				any_in_global_list = {
+					variable = name_pack_support_global
+					this = scope:male_ancestor
+				}
+			}
+			add_character_flag = name_pack_support
+		}
+		change_first_name = { template_character = scope:male_ancestor }
+	}
+	else_if = {
+		limit = {
+			NOT = {
+				has_trait = bastard
+			}
+			exists = father
+			father = {
 				is_alive = yes
 				any_in_list = {
 					variable = male_ancestors
@@ -399,7 +437,7 @@
 						change_first_name = Siggi
 					}
 					1 = {
-						change_first_name = Sigfrid
+						change_first_name = Sigfridr
 					}
 					1 = {
 						change_first_name = Sigmund
@@ -3998,7 +4036,7 @@
 						change_first_name = Varghos
 					}
 					1 = {
-						change_first_name = Var
+						change_first_name = Varr
 					}
 					1 = {
 						change_first_name = Ved

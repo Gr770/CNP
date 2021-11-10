@@ -14,33 +14,33 @@ diplomacy_foreign_affairs_focus_friend_template = {
 	dynasty = none
 	after_creation = {
 		if = {
-			limit = {
-				is_male = yes
-				has_culture_group = culture_group:north_germanic_group
+				limit = {
+					is_male = yes
+					has_culture_group = culture_group:north_germanic_group
+				}
+				norse_pack_name_ai_male = yes
 			}
-			norse_pack_name_ai_male = yes
-		}
-        if = {
-			limit = {
-				is_male = no
-				has_culture_group = culture_group:north_germanic_group
+			else_if = {
+				limit = {
+					is_male = no
+					has_culture_group = culture_group:north_germanic_group
+				}
+				norse_pack_name_ai_female = yes
 			}
-			norse_pack_name_ai_female = yes
-		}
-		if = {
-			limit = {
-				is_male = yes
-				has_culture_group = culture_group:arabic_group
+			else_if = {
+				limit = {
+					is_male = yes
+					has_culture_group = culture_group:arabic_group
+				}
+				arabic_pack_name_ai_male = yes
 			}
-			arabic_pack_name_ai_male = yes
-		}
-		if = {
-			limit = {
-				is_male = no
-				has_culture_group = culture_group:arabic_group
+			else_if = {
+				limit = {
+					is_male = no
+					has_culture_group = culture_group:arabic_group
+				}
+				arabic_pack_name_ai_female = yes
 			}
-			arabic_pack_name_ai_female = yes
-		}
 	}
 }
 
@@ -58,33 +58,33 @@ diplomacy_majesty_focus_friend_template = {
 	dynasty = none
 	after_creation = {
 		if = {
-			limit = {
-				is_male = yes
-				has_culture_group = culture_group:north_germanic_group
+				limit = {
+					is_male = yes
+					has_culture_group = culture_group:north_germanic_group
+				}
+				norse_pack_name_ai_male = yes
 			}
-			norse_pack_name_ai_male = yes
-		}
-        if = {
-			limit = {
-				is_male = no
-				has_culture_group = culture_group:north_germanic_group
+			else_if = {
+				limit = {
+					is_male = no
+					has_culture_group = culture_group:north_germanic_group
+				}
+				norse_pack_name_ai_female = yes
 			}
-			norse_pack_name_ai_female = yes
-		}
-		if = {
-			limit = {
-				is_male = yes
-				has_culture_group = culture_group:arabic_group
+			else_if = {
+				limit = {
+					is_male = yes
+					has_culture_group = culture_group:arabic_group
+				}
+				arabic_pack_name_ai_male = yes
 			}
-			arabic_pack_name_ai_male = yes
-		}
-		if = {
-			limit = {
-				is_male = no
-				has_culture_group = culture_group:arabic_group
+			else_if = {
+				limit = {
+					is_male = no
+					has_culture_group = culture_group:arabic_group
+				}
+				arabic_pack_name_ai_female = yes
 			}
-			arabic_pack_name_ai_female = yes
-		}
 	}
 }
 
@@ -103,33 +103,33 @@ diplomacy_family_focus_friend_template = {
 	dynasty = none
 	after_creation = {
 		if = {
-			limit = {
-				is_male = yes
-				has_culture_group = culture_group:north_germanic_group
+				limit = {
+					is_male = yes
+					has_culture_group = culture_group:north_germanic_group
+				}
+				norse_pack_name_ai_male = yes
 			}
-			norse_pack_name_ai_male = yes
-		}
-        if = {
-			limit = {
-				is_male = no
-				has_culture_group = culture_group:north_germanic_group
+			else_if = {
+				limit = {
+					is_male = no
+					has_culture_group = culture_group:north_germanic_group
+				}
+				norse_pack_name_ai_female = yes
 			}
-			norse_pack_name_ai_female = yes
-		}
-		if = {
-			limit = {
-				is_male = yes
-				has_culture_group = culture_group:arabic_group
+			else_if = {
+				limit = {
+					is_male = yes
+					has_culture_group = culture_group:arabic_group
+				}
+				arabic_pack_name_ai_male = yes
 			}
-			arabic_pack_name_ai_male = yes
-		}
-		if = {
-			limit = {
-				is_male = no
-				has_culture_group = culture_group:arabic_group
+			else_if = {
+				limit = {
+					is_male = no
+					has_culture_group = culture_group:arabic_group
+				}
+				arabic_pack_name_ai_female = yes
 			}
-			arabic_pack_name_ai_female = yes
-		}
 	}
 }
 
@@ -149,33 +149,33 @@ martial_strategy_focus_friend_template = {
 	dynasty = none
 	after_creation = {
 		if = {
-			limit = {
-				is_male = yes
-				has_culture_group = culture_group:north_germanic_group
+				limit = {
+					is_male = yes
+					has_culture_group = culture_group:north_germanic_group
+				}
+				norse_pack_name_ai_male = yes
 			}
-			norse_pack_name_ai_male = yes
-		}
-        if = {
-			limit = {
-				is_male = no
-				has_culture_group = culture_group:north_germanic_group
+			else_if = {
+				limit = {
+					is_male = no
+					has_culture_group = culture_group:north_germanic_group
+				}
+				norse_pack_name_ai_female = yes
 			}
-			norse_pack_name_ai_female = yes
-		}
-		if = {
-			limit = {
-				is_male = yes
-				has_culture_group = culture_group:arabic_group
+			else_if = {
+				limit = {
+					is_male = yes
+					has_culture_group = culture_group:arabic_group
+				}
+				arabic_pack_name_ai_male = yes
 			}
-			arabic_pack_name_ai_male = yes
-		}
-		if = {
-			limit = {
-				is_male = no
-				has_culture_group = culture_group:arabic_group
+			else_if = {
+				limit = {
+					is_male = no
+					has_culture_group = culture_group:arabic_group
+				}
+				arabic_pack_name_ai_female = yes
 			}
-			arabic_pack_name_ai_female = yes
-		}
 	}
 }
 
@@ -193,33 +193,33 @@ martial_authority_focus_friend_template = {
 	dynasty = none
 	after_creation = {
 		if = {
-			limit = {
-				is_male = yes
-				has_culture_group = culture_group:north_germanic_group
+				limit = {
+					is_male = yes
+					has_culture_group = culture_group:north_germanic_group
+				}
+				norse_pack_name_ai_male = yes
 			}
-			norse_pack_name_ai_male = yes
-		}
-        if = {
-			limit = {
-				is_male = no
-				has_culture_group = culture_group:north_germanic_group
+			else_if = {
+				limit = {
+					is_male = no
+					has_culture_group = culture_group:north_germanic_group
+				}
+				norse_pack_name_ai_female = yes
 			}
-			norse_pack_name_ai_female = yes
-		}
-		if = {
-			limit = {
-				is_male = yes
-				has_culture_group = culture_group:arabic_group
+			else_if = {
+				limit = {
+					is_male = yes
+					has_culture_group = culture_group:arabic_group
+				}
+				arabic_pack_name_ai_male = yes
 			}
-			arabic_pack_name_ai_male = yes
-		}
-		if = {
-			limit = {
-				is_male = no
-				has_culture_group = culture_group:arabic_group
+			else_if = {
+				limit = {
+					is_male = no
+					has_culture_group = culture_group:arabic_group
+				}
+				arabic_pack_name_ai_female = yes
 			}
-			arabic_pack_name_ai_female = yes
-		}
 	}
 }
 
@@ -238,33 +238,33 @@ martial_chivalry_focus_friend_template = {
 	dynasty = none
 	after_creation = {
 		if = {
-			limit = {
-				is_male = yes
-				has_culture_group = culture_group:north_germanic_group
+				limit = {
+					is_male = yes
+					has_culture_group = culture_group:north_germanic_group
+				}
+				norse_pack_name_ai_male = yes
 			}
-			norse_pack_name_ai_male = yes
-		}
-        if = {
-			limit = {
-				is_male = no
-				has_culture_group = culture_group:north_germanic_group
+			else_if = {
+				limit = {
+					is_male = no
+					has_culture_group = culture_group:north_germanic_group
+				}
+				norse_pack_name_ai_female = yes
 			}
-			norse_pack_name_ai_female = yes
-		}
-		if = {
-			limit = {
-				is_male = yes
-				has_culture_group = culture_group:arabic_group
+			else_if = {
+				limit = {
+					is_male = yes
+					has_culture_group = culture_group:arabic_group
+				}
+				arabic_pack_name_ai_male = yes
 			}
-			arabic_pack_name_ai_male = yes
-		}
-		if = {
-			limit = {
-				is_male = no
-				has_culture_group = culture_group:arabic_group
+			else_if = {
+				limit = {
+					is_male = no
+					has_culture_group = culture_group:arabic_group
+				}
+				arabic_pack_name_ai_female = yes
 			}
-			arabic_pack_name_ai_female = yes
-		}
 	}
 }
 
@@ -284,33 +284,33 @@ stewardship_wealth_focus_friend_template = {
 	dynasty = none
 	after_creation = {
 		if = {
-			limit = {
-				is_male = yes
-				has_culture_group = culture_group:north_germanic_group
+				limit = {
+					is_male = yes
+					has_culture_group = culture_group:north_germanic_group
+				}
+				norse_pack_name_ai_male = yes
 			}
-			norse_pack_name_ai_male = yes
-		}
-        if = {
-			limit = {
-				is_male = no
-				has_culture_group = culture_group:north_germanic_group
+			else_if = {
+				limit = {
+					is_male = no
+					has_culture_group = culture_group:north_germanic_group
+				}
+				norse_pack_name_ai_female = yes
 			}
-			norse_pack_name_ai_female = yes
-		}
-		if = {
-			limit = {
-				is_male = yes
-				has_culture_group = culture_group:arabic_group
+			else_if = {
+				limit = {
+					is_male = yes
+					has_culture_group = culture_group:arabic_group
+				}
+				arabic_pack_name_ai_male = yes
 			}
-			arabic_pack_name_ai_male = yes
-		}
-		if = {
-			limit = {
-				is_male = no
-				has_culture_group = culture_group:arabic_group
+			else_if = {
+				limit = {
+					is_male = no
+					has_culture_group = culture_group:arabic_group
+				}
+				arabic_pack_name_ai_female = yes
 			}
-			arabic_pack_name_ai_female = yes
-		}
 	}
 }
 
@@ -328,33 +328,33 @@ stewardship_domain_focus_friend_template = {
 	dynasty = none
 	after_creation = {
 		if = {
-			limit = {
-				is_male = yes
-				has_culture_group = culture_group:north_germanic_group
+				limit = {
+					is_male = yes
+					has_culture_group = culture_group:north_germanic_group
+				}
+				norse_pack_name_ai_male = yes
 			}
-			norse_pack_name_ai_male = yes
-		}
-        if = {
-			limit = {
-				is_male = no
-				has_culture_group = culture_group:north_germanic_group
+			else_if = {
+				limit = {
+					is_male = no
+					has_culture_group = culture_group:north_germanic_group
+				}
+				norse_pack_name_ai_female = yes
 			}
-			norse_pack_name_ai_female = yes
-		}
-		if = {
-			limit = {
-				is_male = yes
-				has_culture_group = culture_group:arabic_group
+			else_if = {
+				limit = {
+					is_male = yes
+					has_culture_group = culture_group:arabic_group
+				}
+				arabic_pack_name_ai_male = yes
 			}
-			arabic_pack_name_ai_male = yes
-		}
-		if = {
-			limit = {
-				is_male = no
-				has_culture_group = culture_group:arabic_group
+			else_if = {
+				limit = {
+					is_male = no
+					has_culture_group = culture_group:arabic_group
+				}
+				arabic_pack_name_ai_female = yes
 			}
-			arabic_pack_name_ai_female = yes
-		}
 	}
 }
 
@@ -372,33 +372,33 @@ stewardship_duty_focus_friend_template = {
 	dynasty = none
 	after_creation = {
 		if = {
-			limit = {
-				is_male = yes
-				has_culture_group = culture_group:north_germanic_group
+				limit = {
+					is_male = yes
+					has_culture_group = culture_group:north_germanic_group
+				}
+				norse_pack_name_ai_male = yes
 			}
-			norse_pack_name_ai_male = yes
-		}
-        if = {
-			limit = {
-				is_male = no
-				has_culture_group = culture_group:north_germanic_group
+			else_if = {
+				limit = {
+					is_male = no
+					has_culture_group = culture_group:north_germanic_group
+				}
+				norse_pack_name_ai_female = yes
 			}
-			norse_pack_name_ai_female = yes
-		}
-		if = {
-			limit = {
-				is_male = yes
-				has_culture_group = culture_group:arabic_group
+			else_if = {
+				limit = {
+					is_male = yes
+					has_culture_group = culture_group:arabic_group
+				}
+				arabic_pack_name_ai_male = yes
 			}
-			arabic_pack_name_ai_male = yes
-		}
-		if = {
-			limit = {
-				is_male = no
-				has_culture_group = culture_group:arabic_group
+			else_if = {
+				limit = {
+					is_male = no
+					has_culture_group = culture_group:arabic_group
+				}
+				arabic_pack_name_ai_female = yes
 			}
-			arabic_pack_name_ai_female = yes
-		}
 	}
 }
 
@@ -419,33 +419,33 @@ intrigue_skulduggery_focus_friend_template = {
 	dynasty = none
 	after_creation = {
 		if = {
-			limit = {
-				is_male = yes
-				has_culture_group = culture_group:north_germanic_group
+				limit = {
+					is_male = yes
+					has_culture_group = culture_group:north_germanic_group
+				}
+				norse_pack_name_ai_male = yes
 			}
-			norse_pack_name_ai_male = yes
-		}
-        if = {
-			limit = {
-				is_male = no
-				has_culture_group = culture_group:north_germanic_group
+			else_if = {
+				limit = {
+					is_male = no
+					has_culture_group = culture_group:north_germanic_group
+				}
+				norse_pack_name_ai_female = yes
 			}
-			norse_pack_name_ai_female = yes
-		}
-		if = {
-			limit = {
-				is_male = yes
-				has_culture_group = culture_group:arabic_group
+			else_if = {
+				limit = {
+					is_male = yes
+					has_culture_group = culture_group:arabic_group
+				}
+				arabic_pack_name_ai_male = yes
 			}
-			arabic_pack_name_ai_male = yes
-		}
-		if = {
-			limit = {
-				is_male = no
-				has_culture_group = culture_group:arabic_group
+			else_if = {
+				limit = {
+					is_male = no
+					has_culture_group = culture_group:arabic_group
+				}
+				arabic_pack_name_ai_female = yes
 			}
-			arabic_pack_name_ai_female = yes
-		}
 	}
 }
 
@@ -463,33 +463,33 @@ intrigue_temptation_focus_friend_template = {
 	dynasty = none
 	after_creation = {
 		if = {
-			limit = {
-				is_male = yes
-				has_culture_group = culture_group:north_germanic_group
+				limit = {
+					is_male = yes
+					has_culture_group = culture_group:north_germanic_group
+				}
+				norse_pack_name_ai_male = yes
 			}
-			norse_pack_name_ai_male = yes
-		}
-        if = {
-			limit = {
-				is_male = no
-				has_culture_group = culture_group:north_germanic_group
+			else_if = {
+				limit = {
+					is_male = no
+					has_culture_group = culture_group:north_germanic_group
+				}
+				norse_pack_name_ai_female = yes
 			}
-			norse_pack_name_ai_female = yes
-		}
-		if = {
-			limit = {
-				is_male = yes
-				has_culture_group = culture_group:arabic_group
+			else_if = {
+				limit = {
+					is_male = yes
+					has_culture_group = culture_group:arabic_group
+				}
+				arabic_pack_name_ai_male = yes
 			}
-			arabic_pack_name_ai_male = yes
-		}
-		if = {
-			limit = {
-				is_male = no
-				has_culture_group = culture_group:arabic_group
+			else_if = {
+				limit = {
+					is_male = no
+					has_culture_group = culture_group:arabic_group
+				}
+				arabic_pack_name_ai_female = yes
 			}
-			arabic_pack_name_ai_female = yes
-		}
 	}
 }
 
@@ -507,33 +507,33 @@ intrigue_intimidation_focus_friend_template = {
 	dynasty = none
 	after_creation = {
 		if = {
-			limit = {
-				is_male = yes
-				has_culture_group = culture_group:north_germanic_group
+				limit = {
+					is_male = yes
+					has_culture_group = culture_group:north_germanic_group
+				}
+				norse_pack_name_ai_male = yes
 			}
-			norse_pack_name_ai_male = yes
-		}
-        if = {
-			limit = {
-				is_male = no
-				has_culture_group = culture_group:north_germanic_group
+			else_if = {
+				limit = {
+					is_male = no
+					has_culture_group = culture_group:north_germanic_group
+				}
+				norse_pack_name_ai_female = yes
 			}
-			norse_pack_name_ai_female = yes
-		}
-		if = {
-			limit = {
-				is_male = yes
-				has_culture_group = culture_group:arabic_group
+			else_if = {
+				limit = {
+					is_male = yes
+					has_culture_group = culture_group:arabic_group
+				}
+				arabic_pack_name_ai_male = yes
 			}
-			arabic_pack_name_ai_male = yes
-		}
-		if = {
-			limit = {
-				is_male = no
-				has_culture_group = culture_group:arabic_group
+			else_if = {
+				limit = {
+					is_male = no
+					has_culture_group = culture_group:arabic_group
+				}
+				arabic_pack_name_ai_female = yes
 			}
-			arabic_pack_name_ai_female = yes
-		}
 	}
 }
 
@@ -553,33 +553,33 @@ learning_medicine_focus_friend_template = {
 	dynasty = none
 	after_creation = {
 		if = {
-			limit = {
-				is_male = yes
-				has_culture_group = culture_group:north_germanic_group
+				limit = {
+					is_male = yes
+					has_culture_group = culture_group:north_germanic_group
+				}
+				norse_pack_name_ai_male = yes
 			}
-			norse_pack_name_ai_male = yes
-		}
-        if = {
-			limit = {
-				is_male = no
-				has_culture_group = culture_group:north_germanic_group
+			else_if = {
+				limit = {
+					is_male = no
+					has_culture_group = culture_group:north_germanic_group
+				}
+				norse_pack_name_ai_female = yes
 			}
-			norse_pack_name_ai_female = yes
-		}
-		if = {
-			limit = {
-				is_male = yes
-				has_culture_group = culture_group:arabic_group
+			else_if = {
+				limit = {
+					is_male = yes
+					has_culture_group = culture_group:arabic_group
+				}
+				arabic_pack_name_ai_male = yes
 			}
-			arabic_pack_name_ai_male = yes
-		}
-		if = {
-			limit = {
-				is_male = no
-				has_culture_group = culture_group:arabic_group
+			else_if = {
+				limit = {
+					is_male = no
+					has_culture_group = culture_group:arabic_group
+				}
+				arabic_pack_name_ai_female = yes
 			}
-			arabic_pack_name_ai_female = yes
-		}
 	}
 }
 
@@ -597,33 +597,33 @@ learning_scholarship_focus_friend_template = {
 	dynasty = none
 	after_creation = {
 		if = {
-			limit = {
-				is_male = yes
-				has_culture_group = culture_group:north_germanic_group
+				limit = {
+					is_male = yes
+					has_culture_group = culture_group:north_germanic_group
+				}
+				norse_pack_name_ai_male = yes
 			}
-			norse_pack_name_ai_male = yes
-		}
-        if = {
-			limit = {
-				is_male = no
-				has_culture_group = culture_group:north_germanic_group
+			else_if = {
+				limit = {
+					is_male = no
+					has_culture_group = culture_group:north_germanic_group
+				}
+				norse_pack_name_ai_female = yes
 			}
-			norse_pack_name_ai_female = yes
-		}
-		if = {
-			limit = {
-				is_male = yes
-				has_culture_group = culture_group:arabic_group
+			else_if = {
+				limit = {
+					is_male = yes
+					has_culture_group = culture_group:arabic_group
+				}
+				arabic_pack_name_ai_male = yes
 			}
-			arabic_pack_name_ai_male = yes
-		}
-		if = {
-			limit = {
-				is_male = no
-				has_culture_group = culture_group:arabic_group
+			else_if = {
+				limit = {
+					is_male = no
+					has_culture_group = culture_group:arabic_group
+				}
+				arabic_pack_name_ai_female = yes
 			}
-			arabic_pack_name_ai_female = yes
-		}
 	}
 }
 
@@ -641,33 +641,33 @@ learning_theology_focus_friend_template = {
 	dynasty = none
 	after_creation = {
 		if = {
-			limit = {
-				is_male = yes
-				has_culture_group = culture_group:north_germanic_group
+				limit = {
+					is_male = yes
+					has_culture_group = culture_group:north_germanic_group
+				}
+				norse_pack_name_ai_male = yes
 			}
-			norse_pack_name_ai_male = yes
-		}
-        if = {
-			limit = {
-				is_male = no
-				has_culture_group = culture_group:north_germanic_group
+			else_if = {
+				limit = {
+					is_male = no
+					has_culture_group = culture_group:north_germanic_group
+				}
+				norse_pack_name_ai_female = yes
 			}
-			norse_pack_name_ai_female = yes
-		}
-		if = {
-			limit = {
-				is_male = yes
-				has_culture_group = culture_group:arabic_group
+			else_if = {
+				limit = {
+					is_male = yes
+					has_culture_group = culture_group:arabic_group
+				}
+				arabic_pack_name_ai_male = yes
 			}
-			arabic_pack_name_ai_male = yes
-		}
-		if = {
-			limit = {
-				is_male = no
-				has_culture_group = culture_group:arabic_group
+			else_if = {
+				limit = {
+					is_male = no
+					has_culture_group = culture_group:arabic_group
+				}
+				arabic_pack_name_ai_female = yes
 			}
-			arabic_pack_name_ai_female = yes
-		}
 	}
 }
 

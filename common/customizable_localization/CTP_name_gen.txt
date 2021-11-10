@@ -1556,7 +1556,7 @@ CharacterTier = {
             liege.primary_title = {
                 any_in_list = {
                     variable = republic_families_list
-                    this.house_head = root.house
+                    this.house_head.house = root.house
                 }
             }
         }
