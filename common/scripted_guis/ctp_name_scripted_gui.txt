@@ -6366,6 +6366,7 @@ CTP_faith_name_no_support = {
 			OR = {
 				has_religion = religion:islam_religion
 				has_religion = religion:christianity_religion
+				has_religion = religion:germanic_religion
 			}
 		}
 	}
@@ -6385,6 +6386,10 @@ CTP_faith_names = {
 					limit = { has_culture_group = culture_group:arabic_group }
 					arabic_pack_faith_name_male = yes
 				}
+				else_if = {
+					limit = { has_culture_group = culture_group:north_germanic_group }
+					norse_pack_faith_name_male = yes
+				}
 			}
 			IF = {
 				limit = { 
@@ -6394,6 +6399,10 @@ CTP_faith_names = {
 				IF = {
 					limit = { has_culture_group = culture_group:arabic_group }
 					arabic_pack_faith_name_female = yes
+				}
+				else_if = {
+					limit = { has_culture_group = culture_group:north_germanic_group }
+					norse_pack_faith_name_female = yes
 				}
 			}
 		}
@@ -6415,6 +6424,10 @@ CTP_culture_names = {
 					limit = { has_culture_group = culture_group:arabic_group }
 					arabic_pack_culture_name_male = yes
 				}
+				else_if = {
+					limit = { has_culture_group = culture_group:north_germanic_group }
+					norse_pack_culture_name_male = yes
+				}
 			}
 			IF = {
 				limit = { 
@@ -6425,6 +6438,10 @@ CTP_culture_names = {
 				IF = {
 					limit = { has_culture_group = culture_group:arabic_group }
 					arabic_pack_culture_name_female = yes
+				}
+				else_if = {
+					limit = { has_culture_group = culture_group:north_germanic_group }
+					norse_pack_culture_name_female = yes
 				}
 			}
 		}

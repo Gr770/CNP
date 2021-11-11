@@ -3526,9 +3526,9 @@
  Krinan_norse_pat_dad_male: "Krínánsson"
  Krinan_norse_pat_dad_female: "Krínánsdóttir"
  
- Kristolfr_norse: "Kristólfr" #Christian
- Kristolfr_norse_pat_dad_male: "Kristólfsson"
- Kristolfr_norse_pat_dad_female: "Kristólfsdóttir"
+ Kristolf_norse: "Kristólfr" #Christian
+ Kristolf_norse_pat_dad_male: "Kristólfsson"
+ Kristolf_norse_pat_dad_female: "Kristólfsdóttir"
  
  Kristrod_norse: "Kristrøðr" #Christian
  Kristrod_norse_pat_dad_male: "Kristrøðarson"
@@ -5758,6 +5758,40 @@
  Thottolf_norse: "Þrottólfr"
  Thottolf_norse_pat_dad_male: "Þrottólfsson"
  Thottolf_norse_pat_dad_female: "Þrottólfsdóttir"
+
+ #Special Islam
+
+ Gudsther_norse: "Guðsþér" #Allah/God
+ Gudsther_norse_pat_dad_male: "Guðsþéson"
+ Gudsther_norse_pat_dad_female: "Guðsþésdóttir"
+
+ Einsther_norse: "Ęinsþér" #Ahad 
+ Einsther_norse_pat_dad_male: "Ęinsþéson"
+ Einsther_norse_pat_dad_female: "Ęinsþésdóttir"
+
+ Mattungsther_norse: "Máttugsþér" #Azim
+ Mattungsther_norse_pat_dad_male: "Máttugsþéson"
+ Mattungsther_norse_pat_dad_female: "Máttugsþésdóttir"
+
+ Alvitsther_norse: "Alvitsþér" #allseeing basir
+ Alvitsther_norse_pat_dad_male: "Alvitsþéson"
+ Alvitsther_norse_pat_dad_female: "Alvitsþésdóttir"
+
+ Sigsther_norse: "Sigsþér" #thevictor fatta
+ Sigsther_norse_pat_dad_male: "Sigsþéson"
+ Sigsther_norse_pat_dad_female: "Sigsþésdóttir"
+
+ Riksther_norse: "Ríksþér" #Rich ghani
+ Riksther_norse_pat_dad_male: "Ríksþéson"
+ Riksther_norse_pat_dad_female: "Ríksþésdóttir"
+
+ Vissther_norse: "Víssþér" #hakim
+ Vissther_norse_pat_dad_male: "Víssþéson"
+ Vissther_norse_pat_dad_female: "Víssþésdóttir"
+
+ Alhaldsther_norse: "Alhaldsþér" #allenduring Halim
+ Alhaldsther_norse_pat_dad_male: "Alhaldsþéson"
+ Alhaldsther_norse_pat_dad_female: "Alhaldsþésdóttir"
 
  AEgileif_norse: "Ægilęif"
 
