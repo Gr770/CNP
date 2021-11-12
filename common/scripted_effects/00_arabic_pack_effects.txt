@@ -1035,8 +1035,6 @@ reset_reg_laqab_effect = {
 }
 
 arabic_pack_culture_name_male = {
-		add_character_flag = name_pack_support
-		add_character_flag = arabic_pack_support
     random_list = {
         100 = {
             random_list = {
@@ -1767,8 +1765,6 @@ arabic_pack_culture_name_male = {
 }
 
 arabic_pack_culture_name_female = {
-		add_character_flag = name_pack_support
-		add_character_flag = arabic_pack_support
     random_list = {
         100 = {
             random_list = {
@@ -2349,8 +2345,6 @@ arabic_pack_culture_name_female = {
 }
 
 arabic_pack_faith_name_male = {
-	add_character_flag = name_pack_support
-	add_character_flag = arabic_pack_support
     IF = {
         limit = { has_religion = religion:germanic_religion }
         add_character_flag = name_pack_support
@@ -2774,8 +2768,6 @@ arabic_pack_faith_name_male = {
 }
 
 arabic_pack_faith_name_female = {
-	add_character_flag = name_pack_support
-	add_character_flag = arabic_pack_support
     IF = {
         limit = { has_religion = religion:germanic_religion }
         add_character_flag = name_pack_support
@@ -2894,7 +2886,6 @@ arabic_pack_faith_name_female = {
 
 arabic_pack_name_ai_male = {
 	add_character_flag = name_pack_support
-	add_character_flag = arabic_pack_support
     random_list = {
         100 = {
             random_list = {
@@ -3855,7 +3846,6 @@ arabic_pack_name_ai_male = {
 
 arabic_pack_name_ai_female = {
 	add_character_flag = name_pack_support
-	add_character_flag = arabic_pack_support
     random_list = {
         100 = {
             random_list = {

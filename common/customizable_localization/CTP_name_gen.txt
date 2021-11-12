@@ -78,46 +78,6 @@ CTPNameCheck = {
                     this = root
                 }
             }
-            OR = {
-                AND = {
-                    has_culture_group = culture_group:north_germanic_group
-                    OR = {
-                       has_character_flag = norse_pack_support
-                        AND = {
-                            exists = dynasty
-                            dynasty = {
-                                any_in_list = {
-                                    variable = norse_name_support
-                                    this = root
-                                }
-                            }
-                        }
-                        any_in_global_list = {
-                            variable = global_norse_name_support
-                            this = root
-                        } 
-                    }
-                }
-                AND = {
-                    has_culture_group = culture_group:arabic_group
-                    OR = {
-                       has_character_flag = arabic_pack_support
-                        AND = {
-                            exists = dynasty
-                            dynasty = {
-                                any_in_list = {
-                                    variable = arabic_name_support
-                                    this = root
-                                }
-                            }
-                        }
-                        any_in_global_list = {
-                            variable = global_arabic_name_support
-                            this = root
-                        } 
-                    }
-                }
-            }
         }
         localization_key = CTP_supported_name
     }
@@ -1964,46 +1924,6 @@ CharacterPatNick = {
                         this = root.father
                     }
                 }
-                OR = {
-                    AND = {
-                        has_culture_group = culture_group:north_germanic_group
-                        OR = {
-                        has_character_flag = norse_pack_support
-                            AND = {
-                                exists = dynasty
-                                dynasty = {
-                                    any_in_list = {
-                                        variable = norse_name_support
-                                        this = root
-                                    }
-                                }
-                            }
-                            any_in_global_list = {
-                                variable = global_norse_name_support
-                                this = root
-                            } 
-                        }
-                    }
-                    AND = {
-                        has_culture_group = culture_group:arabic_group
-                        OR = {
-                        has_character_flag = arabic_pack_support
-                            AND = {
-                                exists = dynasty
-                                dynasty = {
-                                    any_in_list = {
-                                        variable = arabic_name_support
-                                        this = root
-                                    }
-                                }
-                            }
-                            any_in_global_list = {
-                                variable = global_arabic_name_support
-                                this = root
-                            } 
-                        }
-                    }
-                }
             }
 		}
 		localization_key = CTP_Patronym
@@ -2039,46 +1959,6 @@ CharacterPat = {
                     any_in_global_list = {
                         variable = name_pack_support_global
                         this = root.father
-                    }
-                }
-                OR = {
-                    AND = {
-                        has_culture_group = culture_group:north_germanic_group
-                        OR = {
-                        has_character_flag = norse_pack_support
-                            AND = {
-                                exists = dynasty
-                                dynasty = {
-                                    any_in_list = {
-                                        variable = norse_name_support
-                                        this = root
-                                    }
-                                }
-                            }
-                            any_in_global_list = {
-                                variable = global_norse_name_support
-                                this = root
-                            } 
-                        }
-                    }
-                    AND = {
-                        has_culture_group = culture_group:arabic_group
-                        OR = {
-                        has_character_flag = arabic_pack_support
-                            AND = {
-                                exists = dynasty
-                                dynasty = {
-                                    any_in_list = {
-                                        variable = arabic_name_support
-                                        this = root
-                                    }
-                                }
-                            }
-                            any_in_global_list = {
-                                variable = global_arabic_name_support
-                                this = root
-                            } 
-                        }
                     }
                 }
             }

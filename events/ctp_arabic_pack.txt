@@ -1,25 +1,4 @@
 ﻿namespace = arabicnamepack
-arabicnamepack.555 = { 
-	type = character_event
-	hidden = yes
-    trigger = {
-        has_character_flag = name_pack_support
-		has_character_flag = arabic_pack_support
-    }
-    immediate = {
-        if = {
-            limit = {
-                exists = dynasty
-            }
-            dynasty = {
-                add_to_variable_list = { name = arabic_name_support target = root }
-            }
-        }
-        else = {
-            add_to_global_variable_list = { name = global_arabic_name_support target = root }
-        }
-    }
-}
 arabicnamepack.001 = {
     type = character_event
 	theme = faith
