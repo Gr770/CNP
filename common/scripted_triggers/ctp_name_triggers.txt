@@ -3,7 +3,10 @@
 }
 
 is_ctp_supported_culture = {
-	has_culture_group = culture_group:arabic_group
+    OR = {
+	    has_culture_group = culture_group:arabic_group
+        has_culture_group = culture_group:north_germanic_group
+    }
 }
 
 KoH_loaded_checker = { 

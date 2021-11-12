@@ -10,6 +10,17 @@
 on_death = {
 	on_actions = {
 		on_arabic_death
+		on_norse_death
+	}
+}
+on_norse_death = {
+	trigger = {
+		has_culture_group = culture_group:north_germanic_group
+	}
+	events = {
+		ctpname.400
+		norsenamepack.001
+		norsenamepack.002
 	}
 }
 on_arabic_death = {
@@ -35,5 +46,105 @@ on_game_start = {
 		ctpname.008
 		ctpname.009
 		ctpname.010
+	}
+}
+on_game_start_after_lobby = {
+	on_actions = {
+		ctp_courtiers
+	}
+}
+on_character_culture_change = {
+	on_actions = {
+		split_packs_stuff
+	}
+}
+split_packs_stuff = {
+	trigger = {
+		has_character_flag = name_pack_support
+		NOR = {
+			AND = {
+				has_culture_group = north_germanic_group
+				has_character_flag = norse_pack_support
+			}
+			AND = {
+				has_culture_group = arabic_group
+				has_character_flag = arabic_pack_support
+			}
+		}
+	}
+	effect = {
+		remove_character_flag = name_pack_support
+	}
+}
+ctp_courtiers = {
+	trigger = {
+		save_temporary_scope_as = to_be_checked
+		OR = {
+			is_courtier = yes
+			highest_held_title_tier = tier_barony
+		}
+		NOT = {
+			has_character_flag = name_pack_support
+			AND = {
+				exists = dynasty
+				dynasty = {
+					any_in_list = {
+						variable = name_pack_support_dynasty
+						this = scope:to_be_checked
+					}
+				}
+			}
+			any_in_global_list = {
+				variable = name_pack_support_global
+				this = scope:to_be_checked
+			}
+		}
+		NAND = {
+			exists = primary_spouse.dynasty
+			primary_spouse = {
+				dynasty = {
+					any_in_list = {
+						variable = name_pack_support_dynasty
+						this = scope:to_be_checked.primary_spouse
+					}
+				}
+			}
+		}
+		is_ctp_supported_culture = yes
+	}
+	effect = {
+		if = {
+			limit = {
+				is_male = yes
+				has_culture_group = culture_group:north_germanic_group
+			}
+			norse_pack_name_ai_male = yes
+		}
+		else_if = {
+			limit = {
+				is_male = no
+				has_culture_group = culture_group:north_germanic_group
+			}
+			norse_pack_name_ai_female = yes
+		}
+		else_if = {
+			limit = {
+				is_male = yes
+				has_culture_group = culture_group:arabic_group
+			}
+			arabic_pack_name_ai_male = yes
+		}
+		else_if = {
+			limit = {
+				is_male = no
+				has_culture_group = culture_group:arabic_group
+			}
+			arabic_pack_name_ai_female = yes
+		}
+	}
+}
+random_yearly_everyone_pulse = {
+	on_actions = {
+		ctp_courtiers
 	}
 }
