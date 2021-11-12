@@ -1,5 +1,6 @@
 ﻿norse_pack_culture_name_male = {
 	add_character_flag = name_pack_support
+	add_character_flag = norse_pack_support
 	random_list = {
 		50 = {
 			random_list = {
@@ -4040,6 +4041,7 @@ norse_pack_name_ai_male = {
 				}
 			}
 			add_character_flag = name_pack_support
+			add_character_flag = norse_pack_support
 		}
 		else_if = {
 			limit = {
@@ -4049,6 +4051,7 @@ norse_pack_name_ai_male = {
 				}
 			}
 			add_character_flag = name_pack_support
+			add_character_flag = norse_pack_support
 		}
 		change_first_name = { template_character = scope:male_ancestor }
 	}
@@ -4085,6 +4088,7 @@ norse_pack_name_ai_male = {
 				}
 			}
 			add_character_flag = name_pack_support
+			add_character_flag = norse_pack_support
 		}
 		else_if = {
 			limit = {
@@ -4094,6 +4098,7 @@ norse_pack_name_ai_male = {
 				}
 			}
 			add_character_flag = name_pack_support
+			add_character_flag = norse_pack_support
 		}
 		change_first_name = { template_character = scope:male_ancestor }
 		father = {
@@ -4132,15 +4137,24 @@ norse_pack_name_ai_male = {
 							variable = name_pack_support_dynasty
 							this = scope:male_ancestor
 						}
+						any_in_list = {
+							variable = norse_name_support
+							this = scope:male_ancestor
+						}
 					}
 				}
 			}
 			add_character_flag = name_pack_support
+			add_character_flag = norse_pack_support
 		}
 		else_if = {
 			limit = {
 				any_in_global_list = {
 					variable = name_pack_support_global
+					this = scope:male_ancestor
+				}
+				any_in_global_list = {
+					variable = global_norse_name_support
 					this = scope:male_ancestor
 				}
 			}
@@ -4156,6 +4170,7 @@ norse_pack_name_ai_male = {
 	}
 	else = {
 		add_character_flag = name_pack_support
+		add_character_flag = norse_pack_support
 		random_list = {
 			50 = {
 				random_list = {
@@ -8472,6 +8487,7 @@ norse_pack_name_ai_male = {
 }
 norse_pack_culture_name_female = {
 	add_character_flag = name_pack_support
+	add_character_flag = norse_pack_support
 	random_list = {
 		50 = {
 			random_list = {
@@ -9818,6 +9834,7 @@ norse_pack_culture_name_female = {
 }
 norse_pack_faith_name_female = {
 	add_character_flag = name_pack_support
+	add_character_flag = norse_pack_support
 	random_list = {
 		50 = {
 			random_list = {
@@ -10306,6 +10323,7 @@ norse_pack_name_ai_female = {
 				}
 			}
 			add_character_flag = name_pack_support
+			add_character_flag = norse_pack_support
 		}
 		else_if = {
 			limit = {
@@ -10315,6 +10333,7 @@ norse_pack_name_ai_female = {
 				}
 			}
 			add_character_flag = name_pack_support
+			add_character_flag = norse_pack_support
 		}
 		change_first_name = { template_character = scope:female_ancestor }
 		father = {
@@ -10353,10 +10372,15 @@ norse_pack_name_ai_female = {
 							variable = name_pack_support_dynasty
 							this = scope:female_ancestor
 						}
+						any_in_list = {
+							variable = norse_name_support
+							this = scope:female_ancestor
+						}
 					}
 				}
 			}
 			add_character_flag = name_pack_support
+			add_character_flag = norse_pack_support
 		}
 		else_if = {
 			limit = {
@@ -10364,8 +10388,13 @@ norse_pack_name_ai_female = {
 					variable = name_pack_support_global
 					this = scope:female_ancestor
 				}
+				any_in_global_list = {
+					variable = global_norse_name_support
+					this = scope:female_ancestor
+				}
 			}
 			add_character_flag = name_pack_support
+			add_character_flag = norse_pack_support
 		}
 		change_first_name = { template_character = scope:female_ancestor }
 		mother = {
@@ -10377,6 +10406,7 @@ norse_pack_name_ai_female = {
 	}
 	else = {
 		add_character_flag = name_pack_support
+		add_character_flag = norse_pack_support
 		random_list = {
 			50 = {
 				random_list = {

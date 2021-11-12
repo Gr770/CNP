@@ -6,6 +6,23 @@ norsenamepack.001 = {
         is_male = yes
     }
     immediate = {
+        if = {
+            limit = {
+                exists = dynasty
+                has_character_flag = name_pack_support
+		        has_character_flag = norse_pack_support
+            }
+            dynasty = {
+                add_to_variable_list = { name = norse_name_support target = root }
+            }
+        }
+        else_if = {
+            limit = {
+                has_character_flag = name_pack_support
+		        has_character_flag = norse_pack_support
+            }
+            add_to_global_variable_list = { name = global_norse_name_support target = root }
+        }
         every_child = {
            add_to_variable_list = { name = male_ancestors target = root }
            every_child = {
@@ -21,6 +38,17 @@ norsenamepack.002 = {
         is_male = no
     }
     immediate = {
+        if = {
+            limit = {
+                exists = dynasty
+            }
+            dynasty = {
+                add_to_variable_list = { name = norse_name_support target = root }
+            }
+        }
+        else = {
+            add_to_global_variable_list = { name = global_norse_name_support target = root }
+        }
         every_child = {
            add_to_variable_list = { name = female_ancestors target = root }
            every_child = {
