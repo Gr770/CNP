@@ -53,6 +53,29 @@ on_game_start_after_lobby = {
 		ctp_courtiers
 	}
 }
+on_character_culture_change = {
+	on_actions = {
+		split_packs_stuff
+	}
+}
+split_packs_stuff = {
+	trigger = {
+		has_character_flag = name_pack_support
+		NOR = {
+			AND = {
+				has_culture_group = north_germanic_group
+				has_character_flag = norse_pack_support
+			}
+			AND = {
+				has_culture_group = arabic_group
+				has_character_flag = arabic_pack_support
+			}
+		}
+	}
+	effect = {
+		remove_character_flag = name_pack_support
+	}
+}
 ctp_courtiers = {
 	trigger = {
 		save_temporary_scope_as = to_be_checked
