@@ -1517,6 +1517,15 @@ CharacterTier = {
     }
     text = {
         trigger = {
+            is_lowborn = no
+            NOT = {
+                has_culture_group = culture_group:arabic_group
+            }
+        }
+        localization_key = lord
+    }
+    text = {
+        trigger = {
             has_trait = sayyid
         }
         localization_key = lord
@@ -1728,6 +1737,15 @@ CharacterGov = {
 }
 CharacterCulture = {
     type = character
+	text = {
+		trigger = {
+			OR = {
+                has_culture = culture:danish
+                has_culture = culture:swedish
+            }
+		}
+		localization_key = _swe_dan
+	}
 	text = {
 		trigger = {
 			has_culture_group = culture_group:north_germanic_group

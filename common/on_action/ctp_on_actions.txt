@@ -63,11 +63,11 @@ split_packs_stuff = {
 		has_character_flag = name_pack_support
 		NOR = {
 			AND = {
-				has_culture_group = north_germanic_group
+				has_culture_group = culture_group:north_germanic_group
 				has_character_flag = norse_pack_support
 			}
 			AND = {
-				has_culture_group = arabic_group
+				has_culture_group = culture_group:arabic_group
 				has_character_flag = arabic_pack_support
 			}
 		}
