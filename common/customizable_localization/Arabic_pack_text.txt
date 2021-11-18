@@ -1,4 +1,4 @@
-DukeMaleArabic = {
+﻿DukeMaleArabic = {
 	type = character
 	text = {
 		trigger = {

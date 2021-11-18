@@ -131,7 +131,7 @@
         ai_recipients = liege
         ai_recipients = war_allies
         ai_recipients = neighboring_rulers
-        chance = .5
+        chance = 0.5
     }
     ai_frequency = 36
     ai_potential = {
@@ -264,7 +264,7 @@ assign_faith_laqab = {
     ai_targets = {
         ai_recipients = realm_characters
         ai_recipients = vassals
-        chance = .5
+        chance = 0.5
     }
     ai_frequency = 36
     ai_potential = {
