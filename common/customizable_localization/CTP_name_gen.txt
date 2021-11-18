@@ -1942,6 +1942,7 @@ CharacterPatNick = {
                         this = root.father
                     }
                 }
+                this.culture_group = root.culture_group
             }
 		}
 		localization_key = CTP_Patronym

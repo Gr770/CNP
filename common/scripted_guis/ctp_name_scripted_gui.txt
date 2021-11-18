@@ -111,6 +111,7 @@ scripted_gui_ctp_tek = {
 							this = scope:scripted_gui_eldest_son
 						}
 					}
+					this.culture_group = scope:effect_root.culture_group
 				}
 				is_male = yes
 			}
@@ -151,6 +152,7 @@ scripted_gui_ctp_tek = {
 							this = scope:scripted_gui_eldest_son
 						}
 					}
+					this.culture_group = scope:effect_root.culture_group
 				}
 				is_male = no
 			}
@@ -191,6 +193,7 @@ scripted_gui_ctp_tek = {
 							this = scope:scripted_gui_eldest_daughter
 						}
 					}
+					this.culture_group = scope:effect_root.culture_group
 				}
 				is_male = yes
 			}
@@ -231,6 +234,7 @@ scripted_gui_ctp_tek = {
 							this = scope:scripted_gui_eldest_daughter
 						}
 					}
+					this.culture_group = scope:effect_root.culture_group
 				}
 				is_male = no
 			}
@@ -5813,6 +5817,7 @@ scripted_gui_ctp_laqab_tek_name_check = {
 							this = scope:scripted_gui_eldest_son
 						}
 					}
+					this.culture_group = scope:effect_root.culture_group
 				}
 				is_male = yes
 			}
@@ -5852,6 +5857,7 @@ scripted_gui_ctp_laqab_tek_name_check = {
 							variable = name_pack_support_global
 							this = scope:scripted_gui_eldest_son
 						}
+						this.culture_group = scope:effect_root.culture_group
 					}
 				}
 				is_male = no
@@ -5892,6 +5898,7 @@ scripted_gui_ctp_laqab_tek_name_check = {
 							variable = name_pack_support_global
 							this = scope:scripted_gui_eldest_daughter
 						}
+						this.culture_group = scope:effect_root.culture_group
 					}
 				}
 				is_male = yes
@@ -5932,6 +5939,7 @@ scripted_gui_ctp_laqab_tek_name_check = {
 							variable = name_pack_support_global
 							this = scope:scripted_gui_eldest_daughter
 						}
+						this.culture_group = scope:effect_root.culture_group
 					}
 				}
 				is_male = no

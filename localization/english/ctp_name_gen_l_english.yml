@@ -154,10 +154,18 @@
  CTPPatPrefix_arabic_female: "bint "
  CTPPatPrefix_norse_male: ""
  CTPPatPrefix_norse_female: ""
+ CTPPatPrefix_norweg_male: ""
+ CTPPatPrefix_norweg_female: ""
+ CTPPatPrefix_swe_dan_male: ""
+ CTPPatPrefix_swe_dan_female: ""
  CTPPatSuffix_arabic_male: ""
  CTPPatSuffix_arabic_female: ""
  CTPPatSuffix_norse_male: "son"
  CTPPatSuffix_norse_female: "dóttir"
+ CTPPatSuffix_norweg_male: "son"
+ CTPPatSuffix_norweg_female: "dóttir"
+ CTPPatSuffix_swe_dan_male: "sun"
+ CTPPatSuffix_swe_dan_female: "dottir"
 #Nickname
 
  CTP_NickName: " '[ROOT.Char.GetNickname]'"
