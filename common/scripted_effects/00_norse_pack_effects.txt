@@ -10350,7 +10350,7 @@ norse_pack_name_ai_female = {
 		father = {
 			remove_list_variable = { name = female_ancestors target = scope:female_ancestor }
 			every_close_family_member = {
-				remove_list_variable = { name = male_ancestors target = scope:male_ancestor }
+				remove_list_variable = { name = female_ancestors target = scope:female_ancestor }
 			}
 		}
 	}
@@ -10407,7 +10407,7 @@ norse_pack_name_ai_female = {
 		mother = {
 			remove_list_variable = { name = female_ancestors target = scope:female_ancestor }
 			every_close_family_member = {
-				remove_list_variable = { name = male_ancestors target = scope:male_ancestor }
+				remove_list_variable = { name = female_ancestors target = scope:female_ancestor }
 			}
 		}
 	}
