@@ -100,16 +100,14 @@ ctp_courtiers_2 = {
 						variable = name_pack_support_global
 						this = scope:to_be_checked
 					}
+					any_close_family_member = {
+						is_landed = yes
+					}
 				}
 				NAND = {
-					exists = primary_spouse.dynasty
+					exists = primary_spouse
 					primary_spouse = {
-						dynasty = {
-							any_in_list = {
-								variable = name_pack_support_dynasty
-								this = scope:to_be_checked.primary_spouse
-							}
-						}
+						is_landed = yes
 					}
 				}
 				is_ctp_supported_culture = yes
@@ -167,16 +165,14 @@ ctp_courtiers = {
 				variable = name_pack_support_global
 				this = scope:to_be_checked
 			}
+			any_close_family_member = {
+				is_landed = yes
+			}
 		}
 		NAND = {
-			exists = primary_spouse.dynasty
+			exists = primary_spouse
 			primary_spouse = {
-				dynasty = {
-					any_in_list = {
-						variable = name_pack_support_dynasty
-						this = scope:to_be_checked.primary_spouse
-					}
-				}
+				is_landed = yes
 			}
 		}
 		is_ctp_supported_culture = yes

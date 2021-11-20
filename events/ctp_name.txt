@@ -2135,7 +2135,6 @@ ctpname.007 = {
 	hidden = yes
 	trigger = {
 		current_date > 1183.12.31
-		KoH_loaded_checker = yes
 	}
 	immediate = {
 		add_to_global_variable_list = { name = global_list_dead_hofs target = character:144064 }
@@ -2275,6 +2274,18 @@ ctpname.007 = {
 			add_to_variable_list = { name = name_pack_support_dynasty target = character:144080 }
 			add_to_variable_list = { name = name_pack_support_dynasty target = character:144083 }
 		}
+		dynasty:101891 = {
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:202011 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:202012 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:144633 }
+		}
+		dynasty:101892 = {
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:202024 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:202023 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:202028 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:202029 }
+		}
+		#1184
 		character:3086 = {
 			add_to_global_variable_list = { name = laqab_follower_command_2_god target = this }
 		}

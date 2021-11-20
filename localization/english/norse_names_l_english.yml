@@ -1971,6 +1971,9 @@
  Gizur_norse: "Gizurr"
  Gizur_norse_pat_dad_male: "Gizursson"
  Gizur_norse_pat_dad_female: "Gizursdóttir"
+ Gissur_norse: "Gizurr"
+ Gissur_norse_pat_dad_male: "Gizursson"
+ Gissur_norse_pat_dad_female: "Gizursdóttir"
  
  Gjafvald_norse: "Giafvaldr"
  Gjafvald_norse_pat_dad_male: "Giafvaldsson"
@@ -2460,6 +2463,9 @@
  Hall_norse: "Hallr"
  Hall_norse_pat_dad_male: "Hallsson"
  Hall_norse_pat_dad_female: "Hallsdóttir"
+ Hallur_norse: "Hallr"
+ Hallur_norse_pat_dad_male: "Hallsson"
+ Hallur_norse_pat_dad_female: "Hallsdóttir"
  
  Hallad_norse: "Hallaðr"
  Hallad_norse_pat_dad_male: "Hallaðsson"
