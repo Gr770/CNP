@@ -1636,7 +1636,13 @@ CharacterGov = {
     }
     text = {
         trigger = {
-            has_government = holy_order_government
+            OR = {
+                has_government = holy_order_government
+                AND = {
+                    has_government = holy_order_county_government
+                    KoH_loaded_checker = yes
+                }
+            }
         }
         localization_key = _ho
     }
@@ -1729,6 +1735,13 @@ CharacterGov = {
             has_government = mercenary_government
         }
         localization_key = _merc
+    }
+    text = {
+        trigger = {
+            has_government = monastic_government
+            KoH_loaded_checker = yes
+        }
+        localization_key = _abbot
     }
     text = {
         fallback = yes
