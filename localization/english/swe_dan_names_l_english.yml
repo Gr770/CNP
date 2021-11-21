@@ -584,6 +584,9 @@
  Auden_swe_dan: "Auþen"
  Auden_swe_dan_pat_dad_male: "Auþenssun"
  Auden_swe_dan_pat_dad_female: "Auþensdottir"
+ Audun_swe_dan: "Auþen"
+ Audun_swe_dan_pat_dad_male: "Auþenssun"
+ Audun_swe_dan_pat_dad_female: "Auþensdottir"
 
  Audkel_swe_dan: "Auþkæll"
  Audkel_swe_dan_pat_dad_male: "Auþkælssun"
@@ -2657,6 +2660,9 @@
  Heinrek_swe_dan: "Henrekær"
  Heinrek_swe_dan_pat_dad_male: "Henrekssun"
  Heinrek_swe_dan_pat_dad_female: "Henreksdottir"
+ Henrek_swe_dan: "Henrekær"
+ Henrik_swe_dan_pat_dad_male: "Henrekssun"
+ Henrik_swe_dan_pat_dad_female: "Henreksdottir"
  
  Helgi_swe_dan: "Helge"
  Helgi_swe_dan_pat_dad_male: "Helgasun"
@@ -3735,6 +3741,10 @@
  Lodmund_swe_dan_pat_dad_male: "Loþmundarsun"
  Lodmund_swe_dan_pat_dad_female: "Loþmundardottir"
  
+ Loftur_swe_dan: "Loftr"
+ Loftur_swe_dan_pat_dad_male: "Loftssun"
+ Loftur_swe_dan_pat_dad_female: "Loftsdottir"
+ 
  Lundvar_swe_dan: "Lundvar"
  Lundvar_swe_dan_pat_dad_male: "Lundvarssun"
  Lundvar_swe_dan_pat_dad_female: "Lundvarsdottir"
@@ -3918,6 +3928,9 @@
  Nikolas_swe_dan: "Nikolás" #Christian
  Nikolas_swe_dan_pat_dad_male: "Nikolássun"
  Nikolas_swe_dan_pat_dad_female: "Nikolásdottir"
+ Nikolaus_swe_dan: "Nikolás" #Christian
+ Nikolaus_swe_dan_pat_dad_male: "Nikolássun"
+ Nikolaus_swe_dan_pat_dad_female: "Nikolásdottir"
  Niels_swe_dan: "Nikolás" #Christian
  Niels_swe_dan_pat_dad_male: "Nikolássun"
  Niels_swe_dan_pat_dad_female: "Nikolásdottir"
@@ -5748,6 +5761,9 @@
  Thorvald_swe_dan: "Þórvaldær"
  Thorvald_swe_dan_pat_dad_male: "Þórvaldssun"
  Thorvald_swe_dan_pat_dad_female: "Þórvaldsdottir"
+ Thorvaldur_swe_dan: "Þórvaldær"
+ Thorvaldur_swe_dan_pat_dad_male: "Þórvaldssun"
+ Thorvaldur_swe_dan_pat_dad_female: "Þórvaldsdottir"
 
  Thorarin_swe_dan: "Þórarin"
  Thorarin_swe_dan_pat_dad_male: "Þórarinssun"
@@ -6354,6 +6370,7 @@
  Halldis_swe_dan: "Halldís"
 
  Hallthora_swe_dan: "Hallþóra"
+ Halldora_swe_dan: "Hallþóra"
 
  Hallerna_swe_dan: "Hallerna"
 
@@ -6613,7 +6630,7 @@
 
  Mabil_swe_dan: "Mábil"
 
- Maer_swe_dan: "Mæær"
+ Maer_swe_dan: "Mær"
 
  Mafa_swe_dan: "Máfa"
 
@@ -6633,6 +6650,7 @@
 
  Margret_swe_dan: "Margrét" #Christian
  Margrete_swe_dan: "Margrét" #Christian
+ Margaret_swe_dan: "Margrét" #Christian
 
  Maria_swe_dan: "Máría" #Christian
 

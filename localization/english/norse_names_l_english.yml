@@ -583,6 +583,9 @@
  Auden_norse: "Auðin"
  Auden_norse_pat_dad_male: "Auðinsson"
  Auden_norse_pat_dad_female: "Auðinsdóttir"
+ Audun_norse: "Auðin"
+ Audun_norse_pat_dad_male: "Auðinsson"
+ Audun_norse_pat_dad_female: "Auðinsdóttir"
 
  Audkel_norse: "Auðkęll"
  Audkel_norse_pat_dad_male: "Auðkęlsson"
@@ -2656,6 +2659,9 @@
  Heinrek_norse: "Hęinrekr"
  Heinrek_norse_pat_dad_male: "Hęinreksson"
  Heinrek_norse_pat_dad_female: "Hęinreksdóttir"
+ Henrik_norse: "Hęinrekr"
+ Henrik_norse_pat_dad_male: "Hęinreksson"
+ Henrik_norse_pat_dad_female: "Hęinreksdóttir"
  
  Helgi_norse: "Helgi"
  Helgi_norse_pat_dad_male: "Helgason"
@@ -3917,6 +3923,9 @@
  Nikolas_norse: "Nikolás" #Christian
  Nikolas_norse_pat_dad_male: "Nikolásson"
  Nikolas_norse_pat_dad_female: "Nikolásdóttir"
+ Nikolaus_norse: "Nikolás" #Christian
+ Nikolaus_norse_pat_dad_male: "Nikolásson"
+ Nikolaus_norse_pat_dad_female: "Nikolásdóttir"
  Niels_norse: "Nikolás" #Christian
  Niels_norse_pat_dad_male: "Nikolásson"
  Niels_norse_pat_dad_female: "Nikolásdóttir"
@@ -5747,6 +5756,9 @@
  Thorvald_norse: "Þórvaldr"
  Thorvald_norse_pat_dad_male: "Þórvaldsson"
  Thorvald_norse_pat_dad_female: "Þórvaldsdóttir"
+ Thorvaldur_norse: "Þórvaldr"
+ Thorvaldur_norse_pat_dad_male: "Þórvaldsson"
+ Thorvaldur_norse_pat_dad_female: "Þórvaldsdóttir"
 
  Thorarin_norse: "Þórarinn"
  Thorarin_norse_pat_dad_male: "Þórarinsson"
@@ -6353,6 +6365,7 @@
  Halldis_norse: "Halldís"
 
  Hallthora_norse: "Hallþóra"
+ Halldora_norse: "Hallþóra"
 
  Hallerna_norse: "Hallerna"
 
@@ -6632,6 +6645,7 @@
 
  Margret_norse: "Margrét" #Christian
  Margrete_norse: "Margrét" #Christian
+ Margaret_norse: "Margrét" #Christian
 
  Maria_norse: "Máría" #Christian
 

@@ -2152,6 +2152,8 @@ ctpname.007 = {
 		add_to_global_variable_list = { name = global_list_dead_hofs target = character:32909 }
 		add_to_global_variable_list = { name = global_list_dead_hofs target = character:32910 }
 		add_to_global_variable_list = { name = name_pack_support_global target = character:1000230506 }
+		add_to_global_variable_list = { name = name_pack_support_global target = character:202025 }
+		add_to_global_variable_list = { name = name_pack_support_global target = character:202019 }
 		dynasty:7296 = {
 			add_to_variable_list = { name = name_pack_support_dynasty target = character:34050 }
 			add_to_variable_list = { name = name_pack_support_dynasty target = character:34055 }
@@ -2284,6 +2286,50 @@ ctpname.007 = {
 			add_to_variable_list = { name = name_pack_support_dynasty target = character:202023 }
 			add_to_variable_list = { name = name_pack_support_dynasty target = character:202028 }
 			add_to_variable_list = { name = name_pack_support_dynasty target = character:202029 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:202026 }
+		}
+		dynasty:101706 = {
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:202020 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:202021 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:202022 }
+		}
+		dynasty:490 = {
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:220021 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:220022 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:220046 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:220026 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:220023 }
+		}
+		dynasty:100272 = {
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:202060 }
+		}
+		dynasty:1687 = {
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:220020 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:220040 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:220041 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:220041 }
+		}
+		dynasty:100270 = {
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:202003 }
+		}
+		dynasty:100282 = {
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:200003 }
+		}
+		dynasty:461 = {
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:220037 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:7350 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:7351 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:220025 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:7349 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:220036 }
+		}
+		dynasty:1030031 = {
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:202051 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:202052 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:161129 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:161125 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:161126 }
+			add_to_variable_list = { name = name_pack_support_dynasty target = character:161130 }
 		}
 		#1184
 		character:3086 = {
