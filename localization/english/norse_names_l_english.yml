@@ -91,9 +91,9 @@
  Adalgil_norse_pat_dad_male: "Aðalgíslsson"
  Adalgil_norse_pat_dad_female: "Aðalgíslsdóttir"
 
- AEthelmaer_norse: "Ailmær" #OE
- AEthelmaer_norse_pat_dad_male: "Ailmæsson"
- AEthelmaer_norse_pat_dad_female: "Ailmæsdóttir"
+ AEthelmaer_norse: "Aðilmær" #OE
+ AEthelmaer_norse_pat_dad_male: "Aðilmæsson"
+ AEthelmaer_norse_pat_dad_female: "Aðilmæsdóttir"
 
  ###
 
@@ -4189,6 +4189,9 @@
  Pet_norse: "Pétr" #Christian
  Pet_norse_pat_dad_male: "Pétsson"
  Pet_norse_pat_dad_female: "Pétsdóttir"
+ Peter_norse: "Pétr" #Christian
+ Peter_norse_pat_dad_male: "Pétsson"
+ Peter_norse_pat_dad_female: "Pétsdóttir"
  
  Radbard_norse: "Ráðbarðr"
  Radbard_norse_pat_dad_male: "Ráðbarðsson"
