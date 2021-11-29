@@ -39,11 +39,11 @@
  Abel_arabic_pat_dad_male: "ibn Hābīl"
  Abel_arabic_pat_dad_female: "bint Hābīl"
 
- Abid_arabic: "ʾAbū Bakr"
- Abid_arabic_tek_mom: "ʾUmm ʾAbi Bakr"
- Abid_arabic_tek_dad: "ʾAbū ʾAbi Bakr"
- Abid_arabic_pat_dad_male: "ibn ʾAbū Bakr"
- Abid_arabic_pat_dad_female: "bint ʾAbū Bakr"
+ Abid_arabic: "ʿĀbid"
+ Abid_arabic_tek_mom: "ʾUmm ʿĀbid"
+ Abid_arabic_tek_dad: "ʾAbū ʿĀbid"
+ Abid_arabic_pat_dad_male: "ibn ʿĀbid"
+ Abid_arabic_pat_dad_female: "bint ʿĀbid"
 
  Abu-Bakr_arabic: "ʾAbū Bakr"
  Abu-Bakr_arabic_tek_mom: "ʾUmm ʾAbi Bakr"
@@ -2284,11 +2284,11 @@
  Sufyan_arabic_pat_dad_male: "ibn Sufyān"
  Sufyan_arabic_pat_dad_female: "bint Sufyān"
 
- Sulaym_arabic: "Sufyān"
- Sulaym_arabic_tek_mom: "ʾUmm Sufyān"
- Sulaym_arabic_tek_dad: "ʾAbū Sufyān"
- Sulaym_arabic_pat_dad_male: "ibn Sufyān"
- Sulaym_arabic_pat_dad_female: "bint Sufyān"
+ Sulaym_arabic: "Sulaym"
+ Sulaym_arabic_tek_mom: "ʾUmm Sulaym"
+ Sulaym_arabic_tek_dad: "ʾAbū Sulaym"
+ Sulaym_arabic_pat_dad_male: "ibn Sulaym"
+ Sulaym_arabic_pat_dad_female: "bint Sulaym"
 
  Solomon_arabic: "Sulaymān"
  Solomon_arabic_tek_mom: "ʾUmm Sulaymān"
