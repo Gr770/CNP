@@ -1763,6 +1763,12 @@ CharacterCulture = {
 		trigger = {
 			has_culture_group = culture_group:north_germanic_group
 		}
+		localization_key = _norweg
+	}
+	text = {
+		trigger = {
+			has_culture_group = culture_group:north_germanic_group
+		}
 		localization_key = _norse
 	}
 	text = {
