@@ -2437,7 +2437,6 @@ ctpname.008 = {
 	hidden = yes
 	trigger = {
 		game_start_date = 1184.1.1
-		KoH_loaded_checker = yes
 	}
 	immediate = {
 		character:bedouin0031 = {
