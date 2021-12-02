@@ -1,2 +1,2 @@
 ﻿l_english:
- COUNCIL_WINDOW_UNIUI_TASK_COUNCILOR_NAME: "[PotentialTaskLocationWindow.GetActiveTask.GetCouncillor.GetUINameNoTooltip]"
+ COUNCIL_WINDOW_UNIUI_TASK_COUNCILOR_NAME: "[PotentialTaskLocationWindow.GetActiveTask.GetCouncillor.Custom('CTPNameNoTooltip')]"

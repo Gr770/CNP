@@ -1,2 +1,2 @@
 ﻿l_english:
- COURT_WIND_UNIUI_PHYSICIAN_NAME: "[Character.GetFullName]"
+ COURT_WIND_UNIUI_PHYSICIAN_NAME: "[Character.Custom('CTPFullName2')]"

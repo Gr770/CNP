@@ -1,2 +1,4 @@
 ﻿l_english:
- CHAR_WINDOW_UNIUI_CHAR_NAME: "[Character.GetUINameNotMeNoTooltip], "
+ CHAR_WINDOW_UNIUI_CHAR_NAME: "[Character.Custom('CTPFullName')], "
+ 
+ CHAR_WINDOW_UNIUI_CHAR_NAME_TT: "[Character.Custom('CTPFullNameConcept')]"

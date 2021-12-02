@@ -1,2 +1,2 @@
 l_english:
- WAR_OVER_UNIUI_CHAR_NAME: "[WarParticipantItem.GetCharacter.GetName]"
+ WAR_OVER_UNIUI_CHAR_NAME: "[WarParticipantItem.GetCharacter.Custom('CTPRegName')]"
