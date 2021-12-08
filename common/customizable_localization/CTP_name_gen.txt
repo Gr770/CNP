@@ -629,7 +629,7 @@ CTPFirstName = {
 		trigger = {
 			has_culture_group = culture_group:arabic_group
 		}
-		localization_key = CTP_Short_Name_Arabic
+		localization_key = CTP_Short_Name_Arabic_no_tooltip_no_format
 	}
 	text = {
 		trigger = {
