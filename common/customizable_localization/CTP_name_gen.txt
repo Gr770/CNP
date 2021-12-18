@@ -1644,10 +1644,6 @@ CharacterGov = {
         trigger = {
             OR = {
                 has_government = holy_order_government
-                AND = {
-                    has_government = holy_order_county_government
-                    KoH_loaded_checker = yes
-                }
             }
         }
         localization_key = _ho
@@ -1743,19 +1739,18 @@ CharacterGov = {
         localization_key = _merc
     }
     text = {
-        trigger = {
-            has_government = monastic_government
-            KoH_loaded_checker = yes
-        }
-        localization_key = _abbot
-    }
-    text = {
         fallback = yes
         localization_key = _default
     }
 }
 CharacterCulture = {
     type = character
+	text = {
+		trigger = {
+			has_culture_group = culture_group:indo_aryan_group
+		}
+		localization_key = _indoaryan
+	}
 	text = {
 		trigger = {
 			OR = {

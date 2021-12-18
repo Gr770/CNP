@@ -36,7 +36,8 @@ CTPPreName_kashmiri: "Sirī-"
 CTPPreName_gujaratirajput: "Sirī-"
 CTPPreName_sindhi: "Sirī-"
 
-IA_postname: "[Localize(Concatenate(Concatenate('CTPPostName', ROOT.Char.Custom('IACulture')), ROOT.Char.Custom('CharacterGender'))]"
+IA_postname_female: "[Localize(Concatenate(Concatenate('CTPPostName', ROOT.Char.Custom('IACulture')), '_female'))]"
+IA_postname_male: "[Localize(Concatenate(Concatenate('CTPPostName', ROOT.Char.Custom('IACulture')), '_male'))]"
 
 CTPPostName_hindustani_male: "deva"
 CTPPostName_hindustani_female: "devī"

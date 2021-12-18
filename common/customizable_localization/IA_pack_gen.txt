@@ -1,4 +1,4 @@
-CharacterPatIA = {
+﻿CharacterPatIA = {
     type = character
     text = {
 		trigger = {
@@ -34,6 +34,12 @@ CharacterPatIA = {
                         highest_held_title_tier > tier_duchy
                     }
                 }
+                AND = {
+                    exists = primary_spouse
+                    primary_spouse = {
+                        is_landed = yes
+                    }
+                }
             }
 		}
 		localization_key = IA_Patronym
@@ -52,6 +58,12 @@ CharacterPatIA = {
                     exists = mother
                     mother = {
                         highest_held_title_tier > tier_duchy
+                    }
+                }
+                AND = {
+                    exists = primary_spouse
+                    primary_spouse = {
+                        is_landed = yes
                     }
                 }
             }
@@ -94,18 +106,9 @@ CharacterIATier = {
     }
     text = {
         trigger = {
-            NOT = {
-                has_government = theocracy_government
-                has_government = holy_order_government
-            }
             exists = primary_spouse
             primary_spouse = {
                 highest_held_title_tier = tier_empire
-                OR = {
-                    has_government = feudal_government
-                    has_government = clan_government
-                    has_government = tribal_government
-                }
             }
         }
         localization_key = Emperor_consort
@@ -118,18 +121,9 @@ CharacterIATier = {
     }
     text = {
         trigger = {
-            NOT = {
-                has_government = theocracy_government
-                has_government = holy_order_government
-            }
             exists = primary_spouse
             primary_spouse = {
                 highest_held_title_tier = tier_kingdom
-                OR = {
-                    has_government = feudal_government
-                    has_government = clan_government
-                    has_government = tribal_government
-                }
             }
         }
         localization_key = King_consort
@@ -172,13 +166,17 @@ IAPostNameCheck = {
     type = character
     text = {
         trigger = {
-            is_female = yes
-            exists = dynasty
-            NOT = {
-                dynasty = {
-                    any_in_list = {
-                        variable = deva_dynasty
-                        this = root
+            is_male = no
+            trigger_if = {
+                limit = {
+                    exists = dynasty
+                }
+                NOT = {
+                    dynasty = {
+                        any_in_list = {
+                            variable = deva_dynasty
+                            this = root
+                        }
                     }
                 }
             }
@@ -204,16 +202,21 @@ IAPostNameCheck = {
                 }
             }
         }
-        localization_key = IA_postname
+        localization_key = IA_postname_female
     }
     text = {
         trigger = {
             is_male = yes
-            NOT = {
-                dynasty = {
-                    any_in_list = {
-                        variable = deva_dynasty
-                        this = root
+            trigger_if = {
+                limit = {
+                    exists = dynasty
+                }
+                NOT = {
+                    dynasty = {
+                        any_in_list = {
+                            variable = deva_dynasty
+                            this = root
+                        }
                     }
                 }
             }
@@ -240,7 +243,7 @@ IAPostNameCheck = {
                 }
             }
         }
-        localization_key = IA_postname
+        localization_key = IA_postname_male
     }
 	text = {
 		fallback = yes
@@ -248,6 +251,7 @@ IAPostNameCheck = {
 	}
 }
 IACulture = {
+    type = character
     text = {
         trigger = {
             OR = {
