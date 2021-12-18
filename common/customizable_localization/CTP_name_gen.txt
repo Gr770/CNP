@@ -109,6 +109,12 @@ CTPFullName = {
 	type = character
 	text = {
 		trigger = {
+			has_culture_group = culture_group:indo_aryan_group
+		}
+		localization_key = CTP_Full_Name_IndoAryan
+	}
+	text = {
+		trigger = {
 			has_culture_group = culture_group:north_germanic_group
 		}
 		localization_key = CTP_Full_Name_North
