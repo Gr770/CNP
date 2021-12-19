@@ -28,28 +28,19 @@ aditya_name_effect = {
 						}
 						add = 1
 					}
-					random_list = {
-						1 = {
-							change_first_name = Brahmaditya
-						}
-					}
+					change_first_name = Brahmaditya
 				}
 				0 = {
 					modifier = {
-						OR = {
-							has_faith = faith:shaivism
-							has_faith = faith:advaitism
-							has_faith = faith:srikula_shaktism
-							has_faith = faith:kalikula_shaktism
-							has_faith = faith:smartism
+						NOT = {
+							has_faith = faith:vaishnavism
+							has_faith = faith:krishnaism
+							has_religion = religion:jainism_religion
+							has_religion = religion:buddhism_religion
 						}
 						add = 1
 					}
-					random_list = {
-						1 = {
-							change_first_name = Lalitaditya
-						}
-					}
+					change_first_name = Lalitaditya
 				}
 				0 = {
 					modifier = {
@@ -65,11 +56,7 @@ aditya_name_effect = {
 						}
 						add = 1
 					}
-					random_list = {
-						1 = {
-							change_first_name = Shivaditya
-						}
-					}
+					change_first_name = Shivaditya
 				}
 				1 = {
 					change_first_name = Baladitya
@@ -113,46 +100,30 @@ aditya_name_effect = {
 						}
 						add = 1
 					}
-					random_list = {
-						1 = {
-							change_first_name = Bhilladitya
-						}
-					}
+					change_first_name = Bhilladitya
 				}
 				0 = {
 					modifier = {
-						OR = {
-							has_faith = faith:vaishnavism
-							has_faith = faith:advaitism
-							has_faith = faith:srikula_shaktism
-							has_faith = faith:kalikula_shaktism
-							has_faith = faith:smartism
-							has_faith = faith:krishnaism
-						}
-						add = 1
-					}
-					random_list = {
-						1 = {
-							change_first_name = Krishnaditya
-						}
-					}
-				}
-				0 = {
-					modifier = {
-						OR = {
+						NOT = {
 							has_faith = faith:shaivism
-							has_faith = faith:advaitism
-							has_faith = faith:srikula_shaktism
-							has_faith = faith:kalikula_shaktism
-							has_faith = faith:smartism
+							has_religion = religion:jainism_religion
+							has_religion = religion:buddhism_religion
 						}
 						add = 1
 					}
-					random_list = {
-						1 = {
-							change_first_name = Rudraditya
+					change_first_name = Krishnaditya
+				}
+				0 = {
+					modifier = {
+						NOT = {
+							has_faith = faith:vaishnavism
+							has_faith = faith:krishnaism
+							has_religion = religion:jainism_religion
+							has_religion = religion:buddhism_religion
 						}
+						add = 1
 					}
+					change_first_name = Rudraditya
 				}
 				1 = {
 					change_first_name = Bhogaditya
@@ -187,11 +158,7 @@ aditya_name_effect = {
 			}
 		}
 		10 = {
-			random_list = {
-				1 = {
-					change_first_name = Valaditya
-				}
-			}
+			change_first_name = Valaditya
 		}
 	}
 }
@@ -279,11 +246,7 @@ candra_name_effect = {
 						has_religion = religion:jainism_religion
 						add = 1
 					}
-					random_list = {
-                        1 = {
-                            change_first_name = Jnanacandra
-                        }
-					}
+					change_first_name = Jnanacandra
 				}
                 0 = {
 					modifier = {
@@ -321,13 +284,10 @@ candra_name_effect = {
 				}
 				0 = {
 					modifier = {
-						OR = {
-							has_faith = faith:vaishnavism
-							has_faith = faith:advaitism
-							has_faith = faith:srikula_shaktism
-							has_faith = faith:kalikula_shaktism
-							has_faith = faith:smartism
-							has_faith = faith:krishnaism
+						NOT = {
+							has_faith = faith:shaivism
+							has_religion = religion:jainism_religion
+							has_religion = religion:buddhism_religion
 						}
 						add = 2
 					}
@@ -368,11 +328,7 @@ candra_name_effect = {
 					    }
 						add = 1
 				    }
-					random_list = {
-                        1 = {
-                            change_first_name = Abhayacandra
-                        }
-					}
+					change_first_name = Abhayacandra
 			    }
 				0 = {
 				    modifier = {
@@ -382,11 +338,7 @@ candra_name_effect = {
 					    }
 						add = 1
 				    }
-					random_list = {
-                        1 = {
-                            change_first_name = Arhaccandra
-                        }
-					}
+					change_first_name = Arhaccandra
 			    }
 				0 = {
 					modifier = {
@@ -396,11 +348,7 @@ candra_name_effect = {
 						}
 						add = 1
 					}
-					random_list = {
-						1 = {
-							change_first_name = Asphotacandra
-						}
-					}
+					change_first_name = Asphotacandra
 				}
 				0 = {
 				    modifier = {
@@ -451,11 +399,7 @@ candra_name_effect = {
 					    }
 						add = 1
 				    }
-					random_list = {
-                        1 = {
-                            change_first_name = Ishanacandra
-                        }
-					}
+					change_first_name = Ishanacandra
 			    }
 				0 = {
 				    modifier = {
@@ -552,11 +496,7 @@ datta_name_effect = {
 						}
 						add = 1
 					}
-					random_list = {
-						1 = {
-							change_first_name = Brahmadatta
-						}
-					}
+					change_first_name = Brahmadatta
 				}
 				1 = {
 					change_first_name = Devadatta
@@ -573,32 +513,21 @@ datta_name_effect = {
 						}
 						add = 1
 					}
-					random_list = {
-						1 = {
-							change_first_name = Abhayadatta
-						}
-					}
+					change_first_name = Abhayadatta
 				}
 				0 = {
 					modifier = {
 						has_religion = religion:buddhism_religion
 						add = 1
 					}
-					random_list = {
-						1 = {
-							change_first_name = Buddhadatta
-						}
-					}
+					change_first_name = Buddhadatta
 				}
 				0 = {
 					modifier = {
-						OR = {
-							has_faith = faith:vaishnavism
-							has_faith = faith:advaitism
-							has_faith = faith:srikula_shaktism
-							has_faith = faith:kalikula_shaktism
-							has_faith = faith:smartism
-							has_faith = faith:krishnaism
+						NOT = {
+							has_faith = faith:shaivism
+							has_religion = religion:jainism_religion
+							has_religion = religion:buddhism_religion
 						}
 						add = 4
 					}
@@ -622,11 +551,7 @@ datta_name_effect = {
 						has_religion = religion:jainism_religion
 						add = 1
 					}
-					random_list = {
-						1 = {
-							change_first_name = Jinadatta
-						}
-					}
+					change_first_name = Jinadatta
 				}
 				0 = {
 					modifier = {
@@ -636,11 +561,7 @@ datta_name_effect = {
 						}
 						add = 1
 					}
-					random_list = {
-						1 = {
-							change_first_name = Rishabhadatta
-						}
-					}
+					change_first_name = Rishabhadatta
 				}
 				0 = {
 					modifier = {
@@ -651,29 +572,24 @@ datta_name_effect = {
 						}
 						add = 1
 					}
-					random_list = {
-						1 = {
-							change_first_name = Simhadatta
-						}
-					}
+					change_first_name = Simhadatta
 				}
 				0 = {
 					modifier = {
-						OR = {
-							has_faith = faith:shaivism
-							has_faith = faith:advaitism
-							has_faith = faith:srikula_shaktism
-							has_faith = faith:kalikula_shaktism
-							has_faith = faith:smartism
-							has_faith = faith:vajrayana
+						NOT = {
+							has_faith = faith:vaishnavism
+							has_faith = faith:krishnaism
+							has_religion = religion:jainism_religion
+							AND = {
+								has_religion = religion:buddhism_religion
+								NOT = {
+									has_faith = faith:vajrayana
+								}
+							}
 						}
 						add = 1
 					}
-					random_list = {
-						1 = {
-							change_first_name = Shivadatta
-						}
-					}
+					change_first_name = Shivadatta
 				}
 				1 = {
 					change_first_name = Bhanudatta
@@ -696,12 +612,11 @@ datta_name_effect = {
 			random_list = {
 				0 = {
 					modifier = {
-						OR = {
-							has_faith = faith:shaivism
-							has_faith = faith:advaitism
-							has_faith = faith:srikula_shaktism
-							has_faith = faith:kalikula_shaktism
-							has_faith = faith:smartism
+						NOT = {
+							has_faith = faith:vaishnavism
+							has_faith = faith:krishnaism
+							has_religion = religion:jainism_religion
+							has_religion = religion:buddhism_religion
 						}
 						add = 2
 					}
@@ -716,13 +631,10 @@ datta_name_effect = {
 				}
 				0 = {
 					modifier = {
-						OR = {
-							has_faith = faith:shaivism
-							has_faith = faith:advaitism
-							has_faith = faith:srikula_shaktism
-							has_faith = faith:kalikula_shaktism
-							has_faith = faith:smartism
-							has_religion = religion:jainism_religion
+						NOT = {
+							has_faith = faith:vaishnavism
+							has_faith = faith:krishnaism
+							has_religion = religion:buddhism_religion
 						}
 						add = 2
 					}
@@ -737,21 +649,20 @@ datta_name_effect = {
 				}
 				0 = {
 					modifier = {
-						OR = {
-							has_faith = faith:shaivism
-							has_faith = faith:advaitism
-							has_faith = faith:srikula_shaktism
-							has_faith = faith:kalikula_shaktism
-							has_faith = faith:smartism
-							has_faith = faith:vajrayana
+						NOT = {
+							has_faith = faith:vaishnavism
+							has_faith = faith:krishnaism
+							has_religion = religion:jainism_religion
+							AND = {
+								has_religion = religion:buddhism_religion
+								NOT = {
+									has_faith = faith:vajrayana
+								}
+							}
 						}
 						add = 1
 					}
-					random_list = {
-						1 = {
-							change_first_name = Kumaradatta
-						}
-					}
+					change_first_name = Kumaradatta
 				}
 				0 = {
 					modifier = {
@@ -761,11 +672,7 @@ datta_name_effect = {
 						}
 						add = 1
 					}
-					random_list = {
-						1 = {
-							change_first_name = Mihiradatta
-						}
-					}
+					change_first_name = Mihiradatta
 				}
 				0 = {
 					modifier = {
@@ -776,22 +683,14 @@ datta_name_effect = {
 						}
 						add = 1
 					}
-					random_list = {
-						1 = {
-							change_first_name = Simhadatta
-						}
-					}
+					change_first_name = Simhadatta
 				}
 				0 = {
 					modifier = {
 						has_religion = religion:islam_religion
 						add = 1
 					}
-					random_list = {
-						1 = {
-							change_first_name = Allahdatta
-						}
-					}
+					change_first_name = Allahdatta
 				}
 				1 = {
 					change_first_name = Anandadatta
@@ -826,12 +725,11 @@ datta_name_effect = {
 			random_list = {
 				0 = {
 					modifier = {
-						OR = {
-							has_faith = faith:shaivism
-							has_faith = faith:advaitism
-							has_faith = faith:srikula_shaktism
-							has_faith = faith:kalikula_shaktism
-							has_faith = faith:smartism
+						NOT = {
+							has_faith = faith:vaishnavism
+							has_faith = faith:krishnaism
+							has_religion = religion:jainism_religion
+							has_religion = religion:buddhism_religion
 						}
 						add = 2
 					}
@@ -859,4 +757,1542 @@ datta_name_effect = {
 			}
 		}
 	}
+}
+deva_name_effect = {
+    save_scope_as = effect_root
+    dynasty = {
+        add_to_variable_list = { name = deva_removal target = scope:effect_root }
+    }
+    random_list = {
+        40 = {
+            random_list = {
+                0 = {
+					modifier = {
+						has_religion = religion:jainism_religion
+						add = 2
+					}
+					random_list = {
+						1 = {
+							change_first_name = Abhayadeva
+						}
+						1 = {
+							change_first_name = Jinadeva
+						}
+					}
+				}
+                0 = {
+					modifier = {
+						NAND = {
+                            has_religion = religion:jainism_religion
+                            NOT = {
+                                has_faith = faith:digambara
+                            }
+                        }
+						add = 1
+					}
+					change_first_name = Brahmadeva
+				}
+                0 = {
+					modifier = {
+						NOT = {
+                            has_faith = faith:shaivism
+                        }
+						add = 1
+					}
+					change_first_name = Vasudeva
+				}
+                0 = {
+					modifier = {
+						NOT = {
+							has_faith = faith:vaishnavism
+							has_faith = faith:krishnaism
+							has_religion = religion:jainism_religion
+							AND = {
+								has_religion = religion:buddhism_religion
+								NOT = {
+									has_faith = faith:vajrayana
+								}
+							}
+						}
+                        add = 2
+					}
+					random_list = {
+						1 = {
+							change_first_name = Mahadeva
+						}
+						1 = {
+							change_first_name = Shivadeva
+						}
+					}
+				}
+                0 = {
+					modifier = {
+						NOT = {
+                            has_faith = faith:vaishnavism
+							has_faith = faith:krishnaism
+							has_religion = religion:buddhism_religion
+                        }
+                        add = 1
+					}
+					change_first_name = Rudradeva
+				}
+                1 = {
+                    change_first_name = Anantadeva
+                }
+                1 = {
+                    change_first_name = Baladeva
+                }
+                1 = {
+                    change_first_name = Bhavadeva
+                }
+                1 = {
+                    change_first_name = Bhimadeva
+                }
+                1 = {
+                    change_first_name = Bhojadeva
+                }
+                1 = {
+                    change_first_name = Indradeva
+                }
+                1 = {
+                    change_first_name = Jayadeva
+                }
+                1 = {
+                    change_first_name = Malladeva
+                }
+                1 = {
+                    change_first_name = Nagadeva
+                }
+                1 = {
+                    change_first_name = Rajadeva
+                }
+                1 = {
+                    change_first_name = Ramadeva
+                }
+                1 = {
+                    change_first_name = Somadeva
+                }
+                1 = {
+                    change_first_name = Vijayadeva
+                }
+                1 = {
+                    change_first_name = Yashodeva
+                }
+            }
+        }
+        30 = {
+            random_list = {
+                0 = {
+					modifier = {
+						NOT = {
+                            has_faith = faith:vaishnavism
+                            has_faith = faith:krishnaism
+						    has_religion = religion:jainism_religion
+                        }
+                        add = 1
+					}
+					change_first_name = Abhayadeva
+				}
+                0 = {
+					modifier = {
+						NOT = {
+                            has_faith = faith:vaishnavism
+							has_faith = faith:krishnaism
+							has_religion = religion:jainism_religion
+							AND = {
+								has_religion = religion:buddhism_religion
+								NOT = {
+									has_faith = faith:vajrayana
+								}
+							}
+                        }
+                        add = 1
+					}
+					change_first_name = Ishanadeva
+				}
+                0 = {
+					modifier = {
+						NOT = {
+                            has_faith = faith:vaishnavism
+							has_faith = faith:krishnaism
+							has_religion = religion:jainism_religion
+							has_religion = religion:buddhism_religion
+                        }
+                        add = 1
+					}
+					change_first_name = Shankaradeva
+				}
+                0 = {
+					modifier = {
+						OR = {
+                            has_religion = religion:jainism_religion
+                            has_religion = religion:buddhism_religion
+                        }
+                        add = 1
+					}
+					change_first_name = Shantideva
+				}
+                0 = {
+					modifier = {
+						NOT = {
+                            has_culture = culture:bengali
+                            has_culture = culture:oriya
+                            has_culture = culture:assamesse
+                        }
+                        add = 1
+					}
+					change_first_name = Simhadeva
+				}
+                1 = {
+                    change_first_name = Ajayadeva
+                }
+                1 = {
+                    change_first_name = Anandadeva
+                }
+                1 = {
+                    change_first_name = Bhaskaradeva
+                }
+                1 = {
+                    change_first_name = Candradeva
+                }
+                1 = {
+                    change_first_name = Gangeyadeva
+                }
+                1 = {
+                    change_first_name = Kamadeva
+                }
+                1 = {
+                    change_first_name = Karnadeva
+                }
+                1 = {
+                    change_first_name = Manadeva
+                }
+                1 = {
+                    change_first_name = Muladeva
+                }
+                1 = {
+                    change_first_name = Pratapadeva
+                }
+                1 = {
+                    change_first_name = Prithvideva
+                }
+                1 = {
+                    change_first_name = Sangramadeva
+                }
+                1 = {
+                    change_first_name = Sarvadeva
+                }
+                1 = {
+                    change_first_name = Udayadeva
+                }
+                1 = {
+                    change_first_name = Vikramadeva
+                }
+                1 = {
+                    change_first_name = Viradeva
+                }
+            }
+        }
+        20 = {
+            random_list = {
+                0 = {
+					modifier = {
+						has_religion = religion:buddhism_religion
+                        add = 2
+					}
+					random_list = {
+						1 = {
+							change_first_name = Bodhideva
+						}
+						1 = {
+							change_first_name = Buddhadeva
+						}
+					}
+				}
+                0 = {
+					modifier = {
+						has_religion = religion:jainism_religion
+                        add = 1
+					}
+					change_first_name = Parshvadeva
+				}
+                0 = {
+					modifier = {
+						OR = {
+                            has_culture = culture:bengali
+                            has_culture = culture:oriya
+                            has_culture = culture:assamesse
+                        }
+                        add = 1
+					}
+					change_first_name = Simhadeva
+				}
+                1 = {
+                    change_first_name = Amritadeva
+                }
+                1 = {
+                    change_first_name = Bhanudeva
+                }
+                1 = {
+                    change_first_name = Gangadeva
+                }
+                1 = {
+                    change_first_name = Jagaddeva
+                }
+                1 = {
+                    change_first_name = Jnanadeva
+                }
+                1 = {
+                    change_first_name = Pushyadeva
+                }
+                1 = {
+                    change_first_name = Rajyadeva
+                }
+                1 = {
+                    change_first_name = Ratnadeva
+                }
+                1 = {
+                    change_first_name = Samantadeva
+                }
+                1 = {
+                    change_first_name = Vaidyadeva
+                }
+                1 = {
+                    change_first_name = Vajradeva
+                }
+                1 = {
+                    change_first_name = Vallabhadeva
+                }
+                1 = {
+                    change_first_name = Viramadeva
+                }
+                1 = {
+                    change_first_name = Vyaghradeva
+                }
+                1 = {
+                    change_first_name = Yogadeva
+                }
+                1 = {
+                    change_first_name = Yuddhadeva
+                }
+            }
+        }
+        10 = {
+            random_list = {
+                0 = {
+					modifier = {
+						OR = {
+                            has_religion = religion:jainism_religion
+                            has_religion = religion:buddhism_religion
+                        }
+                        add = 1
+					}
+					change_first_name = Rishabhadeva
+				}
+                1 = {
+                    change_first_name = Kusumadeva
+                }
+                1 = {
+                    change_first_name = Nanyadeva
+                }
+                1 = {
+                    change_first_name = Stambhadeva
+                }
+            }
+        }
+    }
+}
+gupta_name_effect = {
+    random_list = {
+        40 = {
+            change_first_name = Candragupta
+        }
+        30 = {
+            random_list = {
+                0 = {
+					modifier = {
+						NAND = {
+                            has_religion = religion:jainism_religion
+                            NOT = {
+                                has_faith = faith:digambara
+                            }
+                        }
+						add = 1
+					}
+					change_first_name = Brahmagupta
+				}
+                0 = {
+					modifier = {
+                        NOT = {
+						    has_religion = religion:buddhism_religion
+                            has_religion = religion:jainism_religion
+                            has_faith = faith:shaivism
+                        }
+						add = 3
+					}
+                    random_list = {
+                        1 = {
+                            change_first_name = Damodaragupta
+                        }
+                        1 = {
+                            change_first_name = Narayanagupta
+                        }
+                        1 = {
+                            change_first_name = Vishnugupta
+                        }
+                    }
+				}
+                0 = {
+					modifier = {
+						NOT = {
+                            has_religion = religion:jainism_religion
+                            has_faith = faith:vaishnavism
+                            has_faith = faith:krishnaism
+                            AND = {
+                                has_religion = religion:buddhism_religion
+                                NOT = {
+                                    has_faith = faith:vajrayana
+                                }
+                            }
+                        }
+						add = 1
+					}
+					change_first_name = Skandagupta
+				}
+                1 = {
+                    change_first_name = Devagupta
+                }
+                1 = {
+                    change_first_name = Harshagupta
+                }
+                1 = {
+                    change_first_name = Kshemagupta
+                }
+            }
+        }
+        20 = {
+            random_list = {
+                0 = {
+					modifier = {
+                        NOT = {
+						    has_religion = religion:buddhism_religion
+                            has_religion = religion:jainism_religion
+                            has_faith = faith:shaivism
+                        }
+						add = 6
+					}
+                    random_list = {
+                        1 = {
+                            change_first_name = Govindagupta
+                        }
+                        1 = {
+                            change_first_name = Harigupta
+                        }
+                        1 = {
+                            change_first_name = Krishnagupta
+                        }
+                        1 = {
+                            change_first_name = Madhavagupta
+                        }
+                        1 = {
+                            change_first_name = Narasimhagupta
+                        }
+                        1 = {
+                            change_first_name = Upendragupta
+                        }
+                    }
+				}
+                0 = {
+					modifier = {
+                        NOT = {
+                            AND = {
+                                has_religion = religion:buddhism_religion
+                                NOT = {
+                                    has_faith = faith:vajrayana
+                                }
+                            }
+                            has_faith = faith:vaishnavism
+                            has_faith = faith:krishnaism
+                        }
+						add = 2
+					}
+                    random_list = {
+                        1 = {
+                            change_first_name = Kumaragupta
+                        }
+                        1 = {
+                            change_first_name = Shivagupta
+                        }
+                    }
+				}
+                0 = {
+					modifier = {
+                        NOT = {
+                            AND = {
+                                has_religion = religion:buddhism_religion
+                                NOT = {
+                                    has_faith = faith:vajrayana
+                                }
+                            }
+						    has_religion = religion:jainism_religion
+                            has_faith = faith:vaishnavism
+                            has_faith = faith:krishnaism
+                        }
+						add = 1
+					}
+                    change_first_name = Mahasenagupta
+				}
+                0 = {
+					modifier = {
+                        NOT = {
+						    has_religion = religion:buddhism_religion
+                            has_faith = faith:vaishnavism
+                            has_faith = faith:krishnaism
+                        }
+						add = 1
+					}
+                    change_first_name = Haragupta
+				}
+                0 = {
+					modifier = {
+                        NOT = {
+						    has_religion = religion:buddhism_religion
+						    has_religion = religion:jainism_religion
+                            has_faith = faith:vaishnavism
+                            has_faith = faith:krishnaism
+                        }
+						add = 2
+					}
+                    random_list = {
+                        1 = {
+                            change_first_name = Lalitagupta
+                        }
+                        1 = {
+                            change_first_name = Nandigupta
+                        }
+                    }
+				}
+                0 = {
+					modifier = {
+                        OR = {
+						    has_religion = religion:buddhism_religion
+						    has_religion = religion:jainism_religion
+                        }
+						add = 1
+					}
+                    change_first_name = Shantigupta
+				}
+                1 = {
+                    change_first_name = Adityagupta
+                }
+                1 = {
+                    change_first_name = Anantagupta
+                }
+                1 = {
+                    change_first_name = Bhanugupta
+                }
+                1 = {
+                    change_first_name = Bhimagupta
+                }
+                1 = {
+                    change_first_name = Durgagupta
+                }
+                1 = {
+                    change_first_name = Jayagupta
+                }
+                1 = {
+                    change_first_name = Kamalagupta
+                }
+                1 = {
+                    change_first_name = Lakshmanagupta
+                }
+                1 = {
+                    change_first_name = Mahendragupta
+                }
+                1 = {
+                    change_first_name = Mitragupta
+                }
+                1 = {
+                    change_first_name = Padmagupta
+                }
+                1 = {
+                    change_first_name = Simhagupta
+                }
+                1 = {
+                    change_first_name = Udayagupta
+                }
+            }
+        }
+        10 = {
+            random_list = {
+                0 = {
+					modifier = {
+                        has_religion = religion:buddhism_religion
+						add = 1
+					}
+                    change_first_name = Tathagatagupta
+				}
+                1 = {
+                    change_first_name = Jivitagupta
+                }
+                1 = {
+                    change_first_name = Jnanagupta
+                }
+                1 = {
+                    change_first_name = Parvagupta
+                }
+                1 = {
+                    change_first_name = Sarvagupta
+                }
+                1 = {
+                    change_first_name = Shubhakaragupta
+                }
+            }
+        }
+    }
+}
+malla_name_effect = {
+    random_list = {
+        30 = {
+            random_list = {
+                1 = {
+                    change_first_name = Abhayamalla
+                }
+                1 = {
+                    change_first_name = Bhimamalla
+                }
+                1 = {
+                    change_first_name = Dharmamalla
+                }
+                1 = {
+                    change_first_name = Indramalla
+                }
+                1 = {
+                    change_first_name = Jayamalla
+                }
+                1 = {
+                    change_first_name = Kalyanamalla
+                }
+                1 = {
+                    change_first_name = Pratapamalla
+                }
+                1 = {
+                    change_first_name = Rajamalla
+                }
+                1 = {
+                    change_first_name = Trailokyamalla
+                }
+                1 = {
+                    change_first_name = Vijayamalla
+                }
+            }
+        }
+        20 = {
+            random_list = {
+                1 = {
+                    change_first_name = Adityamalla
+                }
+                1 = {
+                    change_first_name = Anantamalla
+                }
+                1 = {
+                    change_first_name = Arimalla
+                }
+                1 = {
+                    change_first_name = Prithvimalla
+                }
+                1 = {
+                    change_first_name = Sangramamalla
+                }
+                1 = {
+                    change_first_name = Simhamalla
+                }
+                1 = {
+                    change_first_name = Tejahmalla
+                }
+                1 = {
+                    change_first_name = Viramalla
+                }
+                1 = {
+                    change_first_name = Yuddhamalla
+                }
+            }
+        }
+        10 = {
+            random_list = {
+                1 = {
+                    change_first_name = Anekamalla
+                }
+                1 = {
+                    change_first_name = Punyamalla
+                }
+            }
+        }
+    }
+}
+pala_name_effect = {
+    random_list = {
+        40 = {
+            random_list = {
+                0 = {
+					modifier = {
+                        OR = {
+                            has_faith = faith:vaishnavism
+                            has_faith = faith:krishnaism
+                        }
+						add = 1
+					}
+                    change_first_name = Haripala
+				}
+                0 = {
+					modifier = {
+                        has_faith = faith:shaivism
+						add = 1
+					}
+                    change_first_name = Kumarapala
+				}
+                1 = {
+                    change_first_name = Ajayapala
+                }
+                1 = {
+                    change_first_name = Bhimapala
+                }
+                1 = {
+                    change_first_name = Bhuvanapala
+                }
+                1 = {
+                    change_first_name = Devapala
+                }
+                1 = {
+                    change_first_name = Dharmapala
+                }
+                1 = {
+                    change_first_name = Gopala
+                }
+                1 = {
+                    change_first_name = Jayapala
+                }
+                1 = {
+                    change_first_name = Mahipala
+                }
+                1 = {
+                    change_first_name = Rajapala
+                }
+                1 = {
+                    change_first_name = Shripala
+                }
+                1 = {
+                    change_first_name = Tribhuvanapala
+                }
+                1 = {
+                    change_first_name = Vijayapala
+                }
+            }
+        }
+        30 = {
+            random_list = {
+                0 = {
+					modifier = {
+                        NOT = {
+                            has_faith = faith:vaishnavism
+                            has_faith = faith:krishnaism
+                        }
+						add = 1
+					}
+                    change_first_name = Haripala
+				}
+                0 = {
+					modifier = {
+                        NOT = {
+                            has_faith = faith:shaivism
+                        }
+						add = 1
+					}
+                    change_first_name = Kumarapala
+				}
+                0 = {
+					modifier = {
+						has_religion = religion:buddhism_religion
+						add = 1
+					}
+                    change_first_name = Buddhapala
+				}
+                0 = {
+					modifier = {
+                        NOT = {
+                            has_faith = faith:vaishnavism
+                            has_faith = faith:krishnaism
+					    	has_religion = religion:buddhism_religion
+                        }
+						add = 1
+					}
+                    change_first_name = Harapala
+				}
+                0 = {
+					modifier = {
+                        NOT = {
+                            has_faith = faith:vaishnavism
+                            has_faith = faith:krishnaism
+					    	has_religion = religion:buddhism_religion
+					    	has_religion = religion:jainism_religion
+                        }
+						add = 1
+					}
+                    change_first_name = Rudrapala
+				}
+                0 = {
+					modifier = {
+                        NOT = {
+                            has_faith = faith:shaivism
+					    	has_religion = religion:buddhism_religion
+					    	has_religion = religion:jainism_religion
+                        }
+						add = 1
+					}
+                    change_first_name = Vamanapala
+				}
+                1 = {
+                    change_first_name = Anandapala
+                }
+                1 = {
+                    change_first_name = Anantapala
+                }
+                1 = {
+                    change_first_name = Brahmapala
+                }
+                1 = {
+                    change_first_name = Candrapala
+                }
+                1 = {
+                    change_first_name = Harshapala
+                }
+                1 = {
+                    change_first_name = Indrapala
+                }
+                1 = {
+                    change_first_name = Kirtipala
+                }
+                1 = {
+                    change_first_name = Madanapala
+                }
+                1 = {
+                    change_first_name = Nagapala
+                }
+                1 = {
+                    change_first_name = Prithvipala
+                }
+                1 = {
+                    change_first_name = Rajendrapala
+                }
+                1 = {
+                    change_first_name = Rajyapala
+                }
+                1 = {
+                    change_first_name = Ramapala
+                }
+                1 = {
+                    change_first_name = Ratnapala
+                }
+                1 = {
+                    change_first_name = Surapala
+                }
+                1 = {
+                    change_first_name = Vigrahapala
+                }
+                1 = {
+                    change_first_name = Vishvapala
+                }
+                1 = {
+                    change_first_name = Yashahpala
+                }
+            }
+        }
+        20 = {
+            random_list = {
+                0 = {
+					modifier = {
+                        NOT = {
+                            has_faith = faith:vaishnavism
+                            has_faith = faith:krishnaism
+                        }
+						add = 1
+					}
+                    change_first_name = Abhayapala
+				}
+                0 = {
+					modifier = {
+                        NOT = {
+                            has_faith = faith:shaivism
+					    	has_religion = religion:buddhism_religion
+					    	has_religion = religion:jainism_religion
+                        }
+						add = 2
+					}
+                    random_list = {
+                        1 = {
+                            change_first_name = Damodarapala
+                        }
+                        1 = {
+                            change_first_name = Narayanapala
+                        }
+                    }
+				}
+                1 = {
+                    change_first_name = Ajapala
+                }
+                1 = {
+                    change_first_name = Ashvapala
+                }
+                1 = {
+                    change_first_name = Jaitrapala
+                }
+                1 = {
+                    change_first_name = Mahendrapala
+                }
+                1 = {
+                    change_first_name = Padmapala
+                }
+                1 = {
+                    change_first_name = Purnapala
+                }
+                1 = {
+                    change_first_name = Sahajapala
+                }
+                1 = {
+                    change_first_name = Sahanapala
+                }
+                1 = {
+                    change_first_name = Somapala
+                }
+                1 = {
+                    change_first_name = Shurapala
+                }
+                1 = {
+                    change_first_name = Suryapala
+                }
+                1 = {
+                    change_first_name = Tejahpala
+                }
+                1 = {
+                    change_first_name = Udayapala
+                }
+                1 = {
+                    change_first_name = Vamsapala
+                }
+            }
+        }
+        10 = {
+            random_list = {
+                0 = {
+					modifier = {
+                        NOT = {
+                            has_faith = faith:vaishnavism
+                            has_faith = faith:krishnaism
+					    	has_religion = religion:buddhism_religion
+					    	has_religion = religion:jainism_religion
+                        }
+						add = 1
+					}
+                    change_first_name = Trilocanapala
+				}
+                1 = {
+                    change_first_name = Gajendrapala
+                }
+                1 = {
+                    change_first_name = Jagadpala
+                }
+                1 = {
+                    change_first_name = Nayapala
+                }
+                1 = {
+                    change_first_name = Prasiddhapala
+                }
+                1 = {
+                    change_first_name = Ranapala
+                }
+                1 = {
+                    change_first_name = Svargapala
+                }
+            }
+        }
+    }
+}
+arabic_male_indoaryan_effect = {
+    random_list = {
+        50 = {
+            random_list = {
+                1 = {
+                    change_first_name = Muhammad
+                }
+                0 = {
+                    modifier = {
+                        OR = {
+                            has_faith = faith:ismaili
+                            has_faith = faith:qarmatian
+                            has_faith = faith:nizari
+                            has_faith = faith:imami
+                            has_faith = faith:ghulat
+                            has_faith = faith:alawite
+                            has_faith = faith:alevi
+                        }
+                        add = 1
+                    }
+                    change_first_name = Ali
+                }
+            }
+        }
+        40 = {
+            random_list = {
+                0 = {
+                    modifier = {
+                        NOR = {
+                            has_faith = faith:ismaili
+                            has_faith = faith:qarmatian
+                            has_faith = faith:nizari
+                            has_faith = faith:imami
+                            has_faith = faith:ghulat
+                            has_faith = faith:alawite
+                            has_faith = faith:alevi
+                        }
+                        add = 1
+                    }
+                    change_first_name = Ali
+                }
+                1 = {
+                    change_first_name = Abdallah
+                }
+                1 = {
+                    change_first_name = Abdar-Rahman
+                }
+                1 = {
+                    change_first_name = Ahmad
+                }
+                1 = {
+                    change_first_name = Fadl
+                }
+                1 = {
+                    change_first_name = Hasan
+                }
+                1 = {
+                    change_first_name = Husayn
+                }
+                1 = {
+                    change_first_name = Ismail
+                }
+                1 = {
+                    change_first_name = Jafar
+                }
+                1 = {
+                    change_first_name = Yahya
+                }
+                1 = {
+                    change_first_name = Khalid
+                }
+                1 = {
+                    change_first_name = Mahmud
+                }
+                1 = {
+                    change_first_name = Mubarak
+                }
+                1 = {
+                    change_first_name = Said
+                }
+                1 = {
+                    change_first_name = Sikandar
+                }
+                1 = {
+                    change_first_name = Umar
+                }
+                1 = {
+                    change_first_name = Usman
+                }
+                1 = {
+                    change_first_name = Zafar
+                }
+            }
+        }
+        30 = {
+            random_list = {
+                0 = {
+                    modifier = {
+                        has_culture = culture:sindhi
+                        add = 6
+                    }
+                    random_list = {
+                        1 = {
+                            change_first_name = Babina
+                        }
+                        1 = {
+                            change_first_name = Bhoongar
+                        }
+                        1 = {
+                            change_first_name = Dodo
+                        }
+                        1 = {
+                            change_first_name = Khafif
+                        }
+                        1 = {
+                            change_first_name = Soomar
+                        }
+                        1 = {
+                            change_first_name = Tamaci
+                        }
+                    }
+                }
+                0 = {
+                    modifier = {
+                        OR = {
+                            has_faith = faith:ismaili
+                            has_faith = faith:qarmatian
+                            has_faith = faith:nizari
+                            has_faith = faith:imami
+                            has_faith = faith:ghulat
+                            has_faith = faith:alawite
+                            has_faith = faith:alevi
+                        }
+                        add = 1
+                    }
+                    change_first_name = Zulfiqar
+                }
+                1 = {
+                    change_first_name = Abbas
+                }  
+                1 = {
+                    change_first_name = Abdal-Aziz
+                }  
+                1 = {
+                    change_first_name = Abdal-Hamid
+                }  
+                1 = {
+                    change_first_name = Abdar-Rashid
+                }  
+                1 = {
+                    change_first_name = Abid
+                } 
+                1 = {
+                    change_first_name = Abraham
+                }
+                1 = {
+                    change_first_name = Akhtar
+                }
+                1 = {
+                    change_first_name = Arshad
+                }
+                1 = {
+                    change_first_name = Ashraf
+                }
+                1 = {
+                    change_first_name = Asif
+                }
+                1 = {
+                    change_first_name = Bahadur
+                }
+                1 = {
+                    change_first_name = Bahram
+                }
+                1 = {
+                    change_first_name = Bakhtyar
+                }
+                1 = {
+                    change_first_name = Bashir
+                }
+                1 = {
+                    change_first_name = Bilal
+                }
+                1 = {
+                    change_first_name = Daniel
+                }
+                1 = {
+                    change_first_name = Dawad
+                }
+                1 = {
+                    change_first_name = Dilawar
+                }
+                1 = {
+                    change_first_name = Farid
+                }
+                1 = {
+                    change_first_name = Farrokh
+                }
+                1 = {
+                    change_first_name = Fatih
+                }
+                1 = {
+                    change_first_name = Firuz
+                }
+                1 = {
+                    change_first_name = Ghazi
+                }
+                1 = {
+                    change_first_name = Hamzah
+                }
+                1 = {
+                    change_first_name = Iftikhar
+                }
+                1 = {
+                    change_first_name = Ilyas
+                }
+                1 = {
+                    change_first_name = Imran
+                }
+                1 = {
+                    change_first_name = Ishaq
+                }
+                1 = {
+                    change_first_name = Yaqub
+                }
+                1 = {
+                    change_first_name = Jahangir
+                }
+                1 = {
+                    change_first_name = Jalal
+                }
+                1 = {
+                    change_first_name = Jamil
+                }
+                1 = {
+                    change_first_name = Jamshid
+                }
+                1 = {
+                    change_first_name = Isa
+                }
+                1 = {
+                    change_first_name = Yunus
+                }
+                1 = {
+                    change_first_name = Yusuf
+                }
+                1 = {
+                    change_first_name = Khalil
+                }
+                1 = {
+                    change_first_name = Khizr
+                }
+                1 = {
+                    change_first_name = Khosrow
+                }
+                1 = {
+                    change_first_name = Malik
+                }
+                1 = {
+                    change_first_name = Masud
+                }
+                1 = {
+                    change_first_name = Mir
+                }
+                1 = {
+                    change_first_name = Musa
+                }
+                1 = {
+                    change_first_name = Mustafa
+                }
+                1 = {
+                    change_first_name = Muzaffar
+                }
+                1 = {
+                    change_first_name = Nasir
+                }
+                1 = {
+                    change_first_name = Nasr
+                }
+                1 = {
+                    change_first_name = Nasrat
+                }
+                1 = {
+                    change_first_name = Nur
+                }
+                1 = {
+                    change_first_name = Rashid
+                }
+                1 = {
+                    change_first_name = Shah
+                }
+                1 = {
+                    change_first_name = Shahid
+                }
+                1 = {
+                    change_first_name = Shahryar
+                }
+                1 = {
+                    change_first_name = Sharif
+                }
+                1 = {
+                    change_first_name = Sher
+                }
+                1 = {
+                    change_first_name = Sulayman
+                }
+                1 = {
+                    change_first_name = Tahir
+                }
+                1 = {
+                    change_first_name = Tariq
+                }
+            }
+        }
+        20 = {
+            random_list = {
+                0 = {
+                    modifier = {
+                        has_culture = culture:sindhi
+                        add = 5
+                    }
+                    random_list = {
+                        1 = {
+                            change_first_name = Juna
+                        }
+                        1 = {
+                            change_first_name = Canesar
+                        }
+                        1 = {
+                            change_first_name = Ganhwar
+                        }
+                        1 = {
+                            change_first_name = Raina
+                        }
+                        1 = {
+                            change_first_name = Unar
+                        }
+                    }
+                }
+                0 = {
+                    modifier = {
+                        NOR = {
+                            has_faith = faith:ismaili
+                            has_faith = faith:qarmatian
+                            has_faith = faith:nizari
+                            has_faith = faith:imami
+                            has_faith = faith:ghulat
+                            has_faith = faith:alawite
+                            has_faith = faith:alevi
+                        }
+                        add = 1
+                    }
+                    change_first_name = Zulfiqar
+                }
+                1 = {
+                    change_first_name = Abdal-Jabbar
+                }
+                1 = {
+                    change_first_name = Abdal-Malik
+                }
+                1 = {
+                    change_first_name = Adam
+                }
+                1 = {
+                    change_first_name = Adil
+                }
+                1 = {
+                    change_first_name = Allahdatta
+                }
+                1 = {
+                    change_first_name = Amr
+                }
+                1 = {
+                    change_first_name = Anushirvan
+                }
+                1 = {
+                    change_first_name = Ardashir
+                }
+                1 = {
+                    change_first_name = Asad
+                }
+                1 = {
+                    change_first_name = Ayan
+                }
+                1 = {
+                    change_first_name = Azam
+                }
+                1 = {
+                    change_first_name = Bahman
+                }
+                1 = {
+                    change_first_name = Bayazid
+                }
+                1 = {
+                    change_first_name = Bozorgommid
+                }
+                1 = {
+                    change_first_name = Darius
+                }
+                1 = {
+                    change_first_name = Esfandyar
+                }
+                1 = {
+                    change_first_name = Farhad
+                }
+                1 = {
+                    change_first_name = Garshasp
+                }
+                1 = {
+                    change_first_name = Harun
+                }
+                1 = {
+                    change_first_name = Hashim
+                }
+                1 = {
+                    change_first_name = Hisham
+                }
+                1 = {
+                    change_first_name = Hushang
+                }
+                1 = {
+                    change_first_name = Javidan
+                }
+                1 = {
+                    change_first_name = Ayyub
+                }
+                1 = {
+                    change_first_name = Kamran
+                }
+                1 = {
+                    change_first_name = Qasim
+                }
+                1 = {
+                    change_first_name = Khodadad
+                }
+                1 = {
+                    change_first_name = Khodayar
+                }
+                1 = {
+                    change_first_name = Khorshid
+                }
+                1 = {
+                    change_first_name = Lashkari
+                }
+                1 = {
+                    change_first_name = Muawiya
+                }
+                1 = {
+                    change_first_name = Murad
+                }
+                1 = {
+                    change_first_name = Murtada
+                }
+                1 = {
+                    change_first_name = Muslim
+                }
+                1 = {
+                    change_first_name = Namavar
+                }
+                1 = {
+                    change_first_name = Parviz
+                }
+                1 = {
+                    change_first_name = Rustam
+                }
+                1 = {
+                    change_first_name = Sabir
+                }
+                1 = {
+                    change_first_name = Sad
+                }
+                1 = {
+                    change_first_name = Salih
+                }
+                1 = {
+                    change_first_name = Salim
+                }
+                1 = {
+                    change_first_name = Salman
+                }
+                1 = {
+                    change_first_name = Shahin
+                }
+                1 = {
+                    change_first_name = Shahram
+                }
+                1 = {
+                    change_first_name = Shahrokh
+                }
+                1 = {
+                    change_first_name = Sharvin
+                }
+                1 = {
+                    change_first_name = Sorkhab
+                }
+                1 = {
+                    change_first_name = Ubaydallah
+                }
+                1 = {
+                    change_first_name = Yazid
+                }
+                1 = {
+                    change_first_name = Zakariyya
+                }
+            }
+        }
+        10 = {
+            random_list = {
+                0 = {
+                    modifier = {
+                        has_culture = culture:sindhi
+                        add = 3
+                    }
+                    random_list = {
+                        1 = {
+                            change_first_name = Hamir
+                        }
+                        1 = {
+                            change_first_name = Sanghar
+                        }
+                        1 = {
+                            change_first_name = Tai
+                        }
+                    }
+                }
+                1 = {
+                    change_first_name = Abbad
+                }
+                1 = {
+                    change_first_name = Abdal-Jalil
+                }
+                1 = {
+                    change_first_name = Abdar-Razzaq
+                }
+                1 = {
+                    change_first_name = Afrasiab
+                }
+                1 = {
+                    change_first_name = Hilal
+                }
+                1 = {
+                    change_first_name = Kayghobad
+                }
+                1 = {
+                    change_first_name = Kaykavus
+                }
+                1 = {
+                    change_first_name = Kaykhosrow
+                }
+                1 = {
+                    change_first_name = Keyumars
+                }
+                1 = {
+                    change_first_name = Mamun
+                }
+                1 = {
+                    change_first_name = Marwan
+                }
+                1 = {
+                    change_first_name = Maymun
+                }
+                1 = {
+                    change_first_name = Mikal
+                }
+                1 = {
+                    change_first_name = Musab
+                }
+                1 = {
+                    change_first_name = Mutahhar
+                }
+                1 = {
+                    change_first_name = Suri
+                }
+                1 = {
+                    change_first_name = Talha
+                }
+            }
+        }
+    }
 }
