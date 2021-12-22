@@ -1,0 +1,93 @@
+﻿indo_aryan_867_start = {
+    dynasty:1043005 = {
+        add_to_variable_list = { name = indoaryan_support_dynasty target = character:175050 }
+        add_to_variable_list = { name = arabic_support_dynasty target = character:175050 }
+    }
+    dynasty:1041112 = {
+        add_to_variable_list = { name = indoaryan_support_dynasty target = character:178012 }
+        add_to_variable_list = { name = arabic_support_dynasty target = character:178012 }
+    }
+    dynasty:1041113 = {
+        add_to_variable_list = { name = indoaryan_support_dynasty target = character:178013 }
+        add_to_variable_list = { name = arabic_support_dynasty target = character:178013 }
+    }
+    dynasty:1041114 = {
+        add_to_variable_list = { name = indoaryan_support_dynasty target = character:178014 }
+    }
+    dynasty:1042066 = {
+        set_variable = {
+            name = dynastic_ending
+            value = flag:pala
+        }
+        add_to_variable_list = { name = indoaryan_support_dynasty target = character:188008 }
+        add_to_variable_list = { name = indoaryan_support_dynasty target = character:188009 }
+        add_to_variable_list = { name = indoaryan_support_dynasty target = character:188010 }
+        add_to_variable_list = { name = indoaryan_support_dynasty target = character:188011 }
+        add_to_variable_list = { name = indoaryan_support_dynasty target = character:188007 }
+        add_to_variable_list = { name = indoaryan_support_dynasty target = character:188006 }
+        add_to_variable_list = { name = indoaryan_support_dynasty target = character:188005 }
+        add_to_variable_list = { name = indoaryan_support_dynasty target = character:188004 }
+        add_to_variable_list = { name = indoaryan_support_dynasty target = character:188002 }
+        add_to_variable_list = { name = indoaryan_support_dynasty target = character:191615 }
+        add_to_variable_list = { name = indoaryan_support_dynasty target = character:191616 }
+        add_to_variable_list = { name = indoaryan_support_dynasty target = character:191617 }
+        add_to_variable_list = { name = indoaryan_support_dynasty target = character:191620 }
+        add_to_variable_list = { name = indoaryan_support_dynasty target = character:191621 }
+        add_to_variable_list = { name = indoaryan_support_dynasty target = character:188001 }
+        add_to_variable_list = { name = indoaryan_support_dynasty target = character:191612 }
+        add_to_variable_list = { name = indoaryan_support_dynasty target = character:191610 }
+        add_to_variable_list = { name = indoaryan_support_dynasty target = character:191611 }
+        add_to_variable_list = { name = indoaryan_support_dynasty target = character:191609 }
+        add_to_variable_list = { name = indoaryan_support_dynasty target = character:191608 }
+        add_to_variable_list = { name = indoaryan_support_dynasty target = character:191624 }
+        add_to_variable_list = { name = indoaryan_support_dynasty target = character:191625 }
+        add_to_variable_list = { name = indoaryan_support_dynasty target = character:191626 }
+        add_to_variable_list = { name = indoaryan_support_dynasty target = character:191627 }
+        add_to_variable_list = { name = indoaryan_support_dynasty target = character:191628 }
+        add_to_variable_list = { name = indoaryan_support_dynasty target = character:191629 }
+        add_to_variable_list = { name = indoaryan_support_dynasty target = character:191631 }
+        add_to_variable_list = { name = indoaryan_support_dynasty target = character:191605 }
+    }
+    dynasty:1042071 = {
+        add_to_variable_list = { name = indoaryan_support_dynasty target = character:188099 }
+    }
+    dynasty:1044018 = {
+        add_to_variable_list = { name = indoaryan_support_dynasty target = character:190113 }
+    }
+    dynasty:1044309 = {
+        add_to_variable_list = { name = indoaryan_support_dynasty target = character:191027 }
+        add_to_variable_list = { name = indoaryan_support_dynasty target = character:191026 }
+    }
+    dynasty:1042081 = {
+        set_variable = {
+            name = dynastic_ending
+            value = flag:raja
+        }
+        add_to_variable_list = { name = indoaryan_support_dynasty target = character:188109 }
+        add_to_variable_list = { name = indoaryan_support_dynasty target = character:188110 }
+        add_to_variable_list = { name = indoaryan_support_dynasty target = character:188111 }
+        add_to_variable_list = { name = indoaryan_support_dynasty target = character:188108 }
+        add_to_variable_list = { name = indoaryan_support_dynasty target = character:191699 }
+        add_to_variable_list = { name = indoaryan_support_dynasty target = character:191700 }
+        add_to_variable_list = { name = indoaryan_support_dynasty target = character:188107 }
+        add_to_variable_list = { name = indoaryan_support_dynasty target = character:188105 }
+        add_to_variable_list = { name = indoaryan_support_dynasty target = character:188104 }
+        add_to_variable_list = { name = indoaryan_support_dynasty target = character:188103 }
+        add_to_variable_list = { name = indoaryan_support_dynasty target = character:188100 }
+        add_to_variable_list = { name = deva_exclude_dynasty target = character:188100 }
+        add_to_variable_list = { name = deva_exclude_dynasty target = character:188102 }
+    }
+    dynasty:1040200 = {
+        add_to_variable_list = { name = indoaryan_support_dynasty target = character:170154 }
+        add_to_variable_list = { name = indoaryan_support_dynasty target = character:170152 }
+    }
+    dynasty:1042091 = {
+        add_to_variable_list = { name = indoaryan_support_dynasty target = character:188327 }
+    }
+    character:188009 = {
+        change_first_name = Mahendrapala
+    }
+    character:188004 = {
+        change_first_name = Devaraja
+    }
+}

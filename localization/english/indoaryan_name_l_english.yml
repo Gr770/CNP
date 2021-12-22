@@ -91,6 +91,7 @@ Govindacandra_indoaryan: "Govindacandra"
 Gunacandra_indoaryan: "Guṇacandra"
 
 Haricandra_indoaryan: "Haricandra"
+Harichandra_indoaryan: "Haricandra"
 
 Harishcandra_indoaryan: "Hariścandra"
 
@@ -357,6 +358,7 @@ Vajradeva_indoaryan: "Vajradeva"
 Vallabhadeva_indoaryan: "Vallabhadeva"
 
 Vasudeva_indoaryan: "Vāsudeva"
+Vasudev_indoaryan: "Vāsudeva"
 
 Vijayadeva_indoaryan: "Vijayadeva"
 
@@ -481,6 +483,7 @@ Kalyanamalla_indoaryan: "Kalyāṇamalla"
 Pratapamalla_indoaryan: "Pratāpamalla"
 
 Prithvimalla_indoaryan: "Pṛthvīmalla"
+Prithvimal_indoaryan: "Pṛthvīmalla"
 
 Punyamalla_indoaryan: "Puṇyamalla"
 
@@ -615,6 +618,7 @@ Vamsapala_indoaryan: "Vaṃśapāla"
 Vigrahapala_indoaryan: "Vigrahapāla"
 
 Vijayapala_indoaryan: "Vijayapāla"
+Vinaypala_indoaryan: "Vijayapāla"
 
 Vishvapala_indoaryan: "Viśvapāla"
 
@@ -635,6 +639,7 @@ Buddharaja_indoaryan: "Buddharāja"
 Camundaraja_indoaryan: "Cāmuṇḍarāja"
 
 Candraraja_indoaryan: "Candrarāja"
+Chandraraja_indoaryan: "Candrarāja"
 
 Devaraja_indoaryan: "Devarāja"
 
@@ -723,8 +728,10 @@ Vallabharaja_indoaryan: "Vallabharāja"
 Varaharaja_indoaryan: "Varāharāja"
 
 Vatsaraja_indoaryan: "Vatsarāja"
+Vatsraja_indoaryan: "Vatsarāja"
 
 Vigraharaja_indoaryan: "Vigraharāja"
+Vigrharaja_indoaryan: "Vigraharāja"
 
 Vijayaraja_indoaryan: "Vijayarāja"
 
@@ -822,7 +829,7 @@ Vyaghrasena_indoaryan: "Vyāghrasena"
 #Sharma
 Adityasharma_indoaryan: "Ādityaśarma"
 
-Balaśarm_indoaryan: "Balaśarma"
+Balasarm_indoaryan: "Balaśarma"
 
 Bhavasharma_indoaryan: "Bhavaśarma"
 
@@ -1105,6 +1112,906 @@ Viravarma_indoaryan: "Vīravarma"
 Yajnavarma_indoaryan: "Yajñavarma"
 
 Yashovarma_indoaryan: "Yaśovarma"
+#Short
+Agguka_indoaryan: "Agguka"
+
+Ahilla_indoaryan: "Ahilla"
+
+Ahladana_indoaryan: "Āhlādana"
+
+Alankara_indoaryan: "Alaṅkāra"
+
+Aliga_indoaryan: "Āliga"
+
+Anahilla_indoaryan: "Aṇahilla"
+
+Ananda_indoaryan: "Ānanda"
+
+Ananta_indoaryan: "Ananta"
+
+Ashata_indoaryan: "Āṣaṭa"
+
+Audala_indoaryan: "Audala"
+
+Bala_indoaryan: "Bāla"
+
+Bappa_indoaryan: "Bappa"
+
+Bauka_indoaryan: "Bāuka"
+
+Bhandi_indoaryan: "Bhaṇḍi"
+
+Bhanu_indoaryan: "Bhānu"
+
+Bhappata_indoaryan: "Bhappaṭa"
+
+Bhaskara_indoaryan: "Bhāskara"
+
+Bhatta_indoaryan: "Bhaṭṭa"
+Bhati_indoaryan: "Bhaṭṭa"
+
+Bhayaka_indoaryan: "Bhayaka"
+
+Bhima_indoaryan: "Bhīma"
+
+Bhogata_indoaryan: "Bhogaṭa"
+
+Bhuyada_indoaryan: "Bhūyaḍa"
+
+Bilhana_indoaryan: "Bilhaṇa"
+
+Buddha_indoaryan: "Buddha"
+
+Cacca_indoaryan: "Cacca"
+
+Cahada_indoaryan: "Cāhaḍa"
+
+Cakra_indoaryan: "Cakra"
+
+Candana_indoaryan: "Candana"
+Chandana_indoaryan: "Candana"
+
+Candra_indoaryan: "Candra"
+
+Dadda_indoaryan: "Dadda"
+
+Dandaka_indoaryan: "Daṇḍaka"
+
+Dasa_indoaryan: "Dāsa"
+
+Dedda_indoaryan: "Dedda"
+
+Devata_indoaryan: "Devaṭa"
+
+Dhakkana_indoaryan: "Dhakkaṇa"
+
+Dhandhuka_indoaryan: "Dhāndhūka"
+
+Dhanga_indoaryan: "Dhaṅga"
+
+Dharma_indoaryan: "Dharma"
+
+Dhavala_indoaryan: "Dhavala"
+
+Dhira_indoaryan: "Dhīra"
+
+Divya_indoaryan: "Divya"
+
+Drona_indoaryan: "Droṇa"
+
+Dunduka_indoaryan: "Ḍuṇḍuka"
+
+Gana_indoaryan: "Gaṇa"
+
+Ganda_indoaryan: "Gaṇḍa"
+
+Garga_indoaryan: "Garga"
+
+Gautama_indoaryan: "Gautama"
+
+Ghaghada_indoaryan: "Ghaghaḍa"
+
+Ghughula_indoaryan: "Ghughula"
+
+Gogga_indoaryan: "Gogga"
+
+Jagata_indoaryan: "Jagata"
+
+Jaguka_indoaryan: "Jāgūka"
+
+Jaika_indoaryan: "Jaika"
+
+Jaitra_indoaryan: "Jaitra"
+
+Jajalla_indoaryan: "Jājalla"
+
+Jajuka_indoaryan: "Jājuka"
+
+Jalhana_indoaryan: "Jalhaṇa"
+
+Jambaka_indoaryan: "Jambaka"
+
+Jasatha_indoaryan: "Jāsaṭha"
+
+Jaula_indoaryan: "Jāula"
+
+Jaya_indoaryan: "Jaya"
+
+Jehula_indoaryan: "Jehula"
+
+Jhota_indoaryan: "Jhoṭa"
+
+Jinda_indoaryan: "Jinda"
+
+Jnana_indoaryan: "Jñāna"
+
+Jnata_indoaryan: "Jñātā"
+
+Kakka_indoaryan: "Kakka"
+
+Kalasha_indoaryan: "Kalaśa"
+
+Kaluka_indoaryan: "Kāluka"
+Kakuka_indoaryan: "Kāluka"
+
+Kalyana_indoaryan: "Kalyāṇa"
+
+Kankana_indoaryan: "Kaṅkana"
+
+Karna_indoaryan: "Karṇa"
+
+Kayyaka_indoaryan: "Kayyaka"
+
+Khangara_indoaryan: "Kheṅgāra"
+
+Kharga_indoaryan: "Kharga"
+
+Khommana_indoaryan: "Khommaṇa"
+
+Kilhana_indoaryan: "Kīlhaṇa"
+
+Kirti_indoaryan: "Kīrti"
+
+Kokalla_indoaryan: "Kokalla"
+
+Krishna_indoaryan: "Kṛṣṇa"
+
+Kumuda_indoaryan: "Kumuda"
+
+Kutuka_indoaryan: "Kutuka"
+
+Lahada_indoaryan: "Lāhaḍa"
+
+Laksha_indoaryan: "Lakṣa"
+
+Lakulisha_indoaryan: "Lakuliśa"
+
+Lavana_indoaryan: "Lavaṇa"
+
+Lula_indoaryan: "Lūla"
+
+Madana_indoaryan: "Madana"
+
+Mahayaka_indoaryan: "Mahāika"
+
+Mahima_indoaryan: "Mahima"
+
+Malhana_indoaryan: "Mālhaṇa"
+
+Mandana_indoaryan: "Maṇḍana"
+
+Mangala_indoaryan: "Maṅgala"
+
+Mayura_indoaryan: "Mayūra"
+
+Mulaka_indoaryan: "Mūlaka"
+
+Munjala_indoaryan: "Muñjāla"
+
+Nagada_indoaryan: "Nāgaḍa"
+
+Naguka_indoaryan: "Nāguka"
+
+Nandi_indoaryan: "Nandi"
+
+Nannuka_indoaryan: "Nannuka"
+
+Nenuka_indoaryan: "Neṇuka"
+
+Niyarnava_indoaryan: "Niyārṇava"
+
+Padma_indoaryan: "Padma"
+
+Partha_indoaryan: "Pārtha"
+
+Patala_indoaryan: "Pātāla"
+
+Phalguna_indoaryan: "Phālguna"
+
+Pithada_indoaryan: "Pīthaḍa"
+
+Prabhasa_indoaryan: "Prabhāsa"
+
+Prahlada_indoaryan: "Prahlāda"
+
+Prahlada_indoaryan: "Prahlādana"
+
+Pravira_indoaryan: "Pravīra"
+
+Rakka_indoaryan: "Rakka"
+
+Rama_indoaryan: "Rāma"
+
+Rohaka_indoaryan: "Rohaka"
+
+Rudra_indoaryan: "Rudra"
+
+Sahajiga_indoaryan: "Sahajiga"
+
+Sahara_indoaryan: "Sahāra"
+
+Sajjana_indoaryan: "Sajjana"
+
+Salhana_indoaryan: "Salhaṇa"
+
+Sangata_indoaryan: "Saṅgata"
+
+Sanghata_indoaryan: "Saṅghāṭa"
+
+Sangrama_indoaryan: "Saṅgrāma"
+
+Santuka_indoaryan: "Sāntūka"
+
+Shankara_indoaryan: "Śaṅkara"
+
+Sharana_indoaryan: "Śaraṇa"
+
+Sharvata_indoaryan: "Śarvaṭa"
+
+Shiluka _indoaryan: "Śīluka"
+
+Shipataka_indoaryan: "Śipāṭaka"
+
+Shobhita_indoaryan: "Śobhita"
+
+Shura_indoaryan: "Śūra"
+
+Simha_indoaryan: "Siṃha"
+
+Sindhu_indoaryan: "Sindhu"
+
+Siyaka_indoaryan: "Sīyaka"
+
+Sodhala_indoaryan: "Soḍhala"
+
+Soma_indoaryan: "Soma"
+
+Tata_indoaryan: "Tāta"
+
+Tribhuvana_indoaryan: "Tribhuvana"
+
+Udayana_indoaryan: "Udayana"
+
+Vajrata_indoaryan: "Vajraṭa"
+
+Valhana_indoaryan: "Vālhaṇa"
+
+Vasanta_indoaryan: "Vasanta"
+
+Vatsa_indoaryan: "Vatsa"
+
+Vijaya_indoaryan: "Vijaya"
+
+Vikrama_indoaryan: "Vikrama"
+
+Vimala_indoaryan: "Vimala"
+
+Vira_indoaryan: "Vīra"
+
+Virama_indoaryan: "Virāma"
+
+Visala_indoaryan: "Vīsala"
+
+Vishruta_indoaryan: "Viśruta"
+
+Vyaghra_indoaryan: "Vyāghra"
+#Rest
+Abhimanyu_indoaryan: "Abhimanyu"
+
+Ajayarama_indoaryan: "Ajayarāma"
+
+Allashakti_indoaryan: "Allaśakti"
+
+Amaraprabha_indoaryan: "Amaraprabha"
+
+Ambaprasada_indoaryan: "Ambaprasāda"
+
+Amrabhata_indoaryan: "Āmrabhaṭa"
+
+Amraprasada_indoaryan: "Āmraprasāda"
+
+Amritakara_indoaryan: "Amṛtākara"
+
+Amsusekhara_indoaryan: "Aṃśuśekhara"
+
+Aniruddha_indoaryan: "Aniruddha"
+
+Aparajita_indoaryan: "Aparājita"
+
+Apararka_indoaryan: "Aparārka"
+
+Arjuna_indoaryan: "Arjuna"
+
+Ashoka_indoaryan: "Aśoka"
+
+Ayashobhita_indoaryan: "Ayaśobhīta"
+
+Balabhadra_indoaryan: "Balabhadra"
+
+Balaprasada_indoaryan: "Bālaprasāda"
+
+Balarjuna_indoaryan: "Bālārjuna"
+
+Bhairava_indoaryan: "Bhairava"
+
+Bhartripatta_indoaryan: "Bhartṛvaḍḍha"
+
+Bhimaratha_indoaryan: "Bhīmaratha"
+
+Bhimarjuna_indoaryan: "Bhīmārjuna"
+
+Bhimayasha_indoaryan: "Bhīmayaśa"
+
+Bhogabhata_indoaryan: "Bhogabhaṭṭa"
+
+Bhogashakti_indoaryan: "Bhogaśakti"
+
+Bhoja_indoaryan: "Bhoja"
+
+Bhubhata_indoaryan: "Bhūbhaṭa"
+
+Bodhidharma_indoaryan: "Bodhidharma"
+
+Bodhiruci_indoaryan: "Bodhiruci"
+
+Brahmakirti_indoaryan: "Brahmakīrti"
+
+Brihaspati_indoaryan: "Bṛhaspati"
+
+Buddhabhadra_indoaryan: "Buddhabhadra"
+
+Buddhabhatta_indoaryan: "Buddhabhaṭṭa"
+
+Buddhaghosha_indoaryan: "Buddhaghoṣa"
+
+Buddhapalita_indoaryan: "Buddhapālita"
+
+Cakrapani_indoaryan: "Cakrapāṇi"
+
+Candarjuna_indoaryan: "Caṇḍārjuna"
+
+Candeshvara_indoaryan: "Caṇḍeśvara"
+
+Candragarbha_indoaryan: "Candragarbha"
+
+Candrakirti_indoaryan: "Candrakīrti"
+
+Candramukha_indoaryan: "Candramukha"
+
+Candraprabha_indoaryan: "Candraprabha"
+
+Damodara_indoaryan: "Dāmodara"
+
+Danarnava_indoaryan: "Dānārṇava"
+
+Darbhapani_indoaryan: "Darbhapāṇi"
+
+Dasharatha_indoaryan: "Daśaratha"
+
+Dayitavishnu_indoaryan: "Dayitaviṣṇu"
+
+Devadhara_indoaryan: "Devadhara"
+
+Devakalasha_indoaryan: "Devakalaśa"
+
+Devakhadga_indoaryan: "Devakhaḍga"
+
+Devaprasada_indoaryan: "Devaprasāda"
+
+Devarakshita_indoaryan: "Devarakṣita"
+
+Devashakti_indoaryan: "Devaśakti"
+
+Devendra_indoaryan: "Devendra"
+
+Dharanidhara_indoaryan: "Dharaṇīdhara"
+
+Dharanivaraha_indoaryan: "Dharaṇīvarāha"
+
+Dharavarsha_indoaryan: "Dhāravarṣa"
+
+Dharmadasa_indoaryan: "Dharmadāsa"
+
+Dharmakirti_indoaryan: "Dharmakīrti"
+
+Dharmarakshita_indoaryan: "Dharmarakṣita"
+
+Dharmaratha_indoaryan: "Dharmaratha"
+
+Dharmaruci_indoaryan: "Dharmaruci"
+
+Dhrubhata_indoaryan: "Dhrūbhaṭa"
+
+Gadadhara_indoaryan: "Gadādhara"
+
+Gajanka_indoaryan: "Gajāṅka"
+
+Gajapati_indoaryan: "Gajapati"
+
+Ganapati_indoaryan: "Gaṇapati"
+
+Gangadhara_indoaryan: "Gaṅgādhara"
+
+Gayakarna_indoaryan: "Gayakarṇa"
+
+Gokula_indoaryan: "Gokula"
+
+Govinda_indoaryan: "Govinda"
+
+Gunambodhi_indoaryan: "Guṇāmbodhi"
+
+Gunarnava_indoaryan: "Guṇarṇava"
+
+Gundama_indoaryan: "Guṇḍama"
+
+Haladhara_indoaryan: "Haladhara"
+
+Halayudha_indoaryan: "Halāyudha"
+
+Hammira_indoaryan: "Hammīra"
+
+Hari_indoaryan: "Hari"
+
+Haribhadra_indoaryan: "Haribhadra"
+
+Harikala_indoaryan: "Harikāla"
+
+Hariprasada_indoaryan: "Hariprasāda"
+
+Harsha_indoaryan: "Harṣa"
+
+Hemadri_indoaryan: "Hemādri"
+
+Indradhavala_indoaryan: "Indradhavala"
+
+Indrajit_indoaryan: "Indrajit"
+
+Indraratha_indoaryan: "Indraratha"
+
+Indrayudha_indoaryan: "Indrāyudha"
+
+Ishanashiva_indoaryan: "Īśānaśiva"
+
+Ishvara_indoaryan: "Īśvara"
+
+Ishvaragosha_indoaryan: "Īśvaragoṣa"
+
+Ishvarashiva_indoaryan: "Īśvaraśiva"
+
+Jagannatha_indoaryan: "Jagannātha"
+
+Jalastambha_indoaryan: "Jalastambha"
+
+Janardana_indoaryan: "Janārdana"
+
+Janmejaya_indoaryan: "Janmejaya"
+
+Jayabala_indoaryan: "Jayabāla"
+
+Jayabhata_indoaryan: "Jayabhaṭa"
+
+Jayabhima_indoaryan: "Jayabhīma"
+
+Jayadhara_indoaryan: "Jayadhara"
+
+Jayakara_indoaryan: "Jayākara"
+
+Jayakirti_indoaryan: "Jayakīrti"
+
+Jayanaga_indoaryan: "Jayanāga"
+
+Jayananda_indoaryan: "Jayānanda"
+
+Jayapida_indoaryan: "Jayāpiḍa"
+
+Jayarjuna_indoaryan: "Jayārjuna"
+
+Jayashakti_indoaryan: "Jayaśakti"
+
+Jayashekhara_indoaryan: "Jayaśekhara"
+
+Jayastambha_indoaryan: "Jayastambha"
+
+Jinabhadra_indoaryan: "Jinabhadra"
+
+Jinabhata_indoaryan: "Jinabhaṭa"
+
+Jinapati_indoaryan: "Jinapati"
+
+Jinaprabha_indoaryan: "Jinaprabha"
+
+Jinaratna_indoaryan: "Jinaratna"
+
+Jineshvara_indoaryan: "Jineśvara"
+
+Jnanakirti_indoaryan: "Jñānakīrti"
+
+Jnaneshvara_indoaryan: "Jñāneśvara"
+
+Kalahastambha_indoaryan: "Kalāhastambha"
+
+Kamarnava_indoaryan: "Kāmārṇava"
+
+Karnakeshari_indoaryan: "Karṇakeśari"
+
+Keshava_indoaryan: "Keśava"
+
+Keshavarudra_indoaryan: "Keśavarudra"
+
+Khadgodyama_indoaryan: "Khāḍgodyama"
+
+Kirtishiva_indoaryan: "Kirtiśiva"
+
+Kulastambha_indoaryan: "Kulastambha"
+
+Kumara_indoaryan: "Kumāra"
+
+Kusumabhara_indoaryan: "Kusumabhāra"
+
+Kuvalayapida_indoaryan: "Kuvalayāpiḍa"
+
+Lakshmana_indoaryan: "Lakṣmaṇa"
+
+Lakshmidasa_indoaryan: "Lakṣmīdāsa"
+
+Lakshmidhara_indoaryan: "Lakṣmīdhara"
+
+Lakshmikarna_indoaryan: "Lakṣmīkarṇa"
+
+Lalitabhara_indoaryan: "Lalitabhāra"
+
+Lalitahara_indoaryan: "Lalitahāra"
+
+Lavanaprasada_indoaryan: "Lavaṇaprasāda"
+
+Lokanatha_indoaryan: "Lokanātha"
+
+Lokavigraha_indoaryan: "Lokavigraha"
+
+Madhava_indoaryan: "Mādhava"
+
+Madhusudana_indoaryan: "Madhusūdana"
+
+Mahabahu_indoaryan: "Mahābāhu"
+
+Mahanama_indoaryan: "Mahānāma"
+
+Maharatha_indoaryan: "Mahāratha"
+
+Mahastambha_indoaryan: "Mahāstambha"
+
+Mahavira_indoaryan: "Mahāvīra"
+
+Mahendra_indoaryan: "Mahendra"
+
+Maheshvara_indoaryan: "Maheśvara"
+
+Mahidhara_indoaryan: "Mahīdhara"
+
+Mahodaya_indoaryan: "Mahodaya"
+
+Mallikarjuna_indoaryan: "Mallikārjuna"
+
+Manava_indoaryan: "Mānava"
+
+Mandalika_indoaryan: "Māṇḍalika"
+
+Manoratha_indoaryan: "Manoratha"
+
+Murtigana_indoaryan: "Mūrtigaṇa"
+
+Nagabhata_indoaryan: "Nāgabhaṭa"
+
+Nagaprasada_indoaryan: "Nāgaprasāda"
+
+Nagarjuna_indoaryan: "Nāgārjuna"
+
+Nahusha_indoaryan: "Nahuṣa"
+
+Narabhata_indoaryan: "Narabhaṭa"
+Narabbhata_indoaryan: "Narabhaṭa"
+
+Narasimharjuna_indoaryan: "Narasiṃhārjuna"
+
+Naravahana_indoaryan: "Naravāhana"
+
+Narayana_indoaryan: "Nārāyaṇa"
+
+Narendra_indoaryan: "Narendra"
+
+Nilakantha_indoaryan: "Nīlakaṇṭha"
+
+Padmanabha_indoaryan: "Padmanābha"
+
+Padmaprabha_indoaryan: "Padmaprabha"
+
+Panduranga_indoaryan: "Pāṇḍuraṅga"
+
+Paramardi_indoaryan: "Paramardi"
+
+Parashurama_indoaryan: "Paraśurāma"
+
+Pradyumna_indoaryan: "Pradyumna"
+
+Prahasa_indoaryan: "Prāhasa"
+
+Pratapadhavala_indoaryan: "Pratāpadhavala"
+
+Pratapadhvaja_indoaryan: "Pratāpadhvaja"
+
+Prithvimula_indoaryan: "Pṛthvīmūla"
+
+Prithvivigraha_indoaryan: "Pṛthvīvigraha"
+
+Prithviyapida_indoaryan: "Pṛthvīyāpiḍa"
+
+Pullashakti_indoaryan: "Pullaśakti"
+
+Puranjaya_indoaryan: "Purañjaya"
+
+Purushottama_indoaryan: "Puruṣottama"
+
+Raghava_indoaryan: "Rāghava"
+
+Raghunatha_indoaryan: "Raghunātha"
+
+Rajendra_indoaryan: "Rājendra"
+
+Rajeshvara_indoaryan: "Rājeśvara"
+
+Ramabhadra_indoaryan: "Rāmabhadra"
+
+Rameshvara_indoaryan: "Rāmeśvara"
+
+Ranabhita_indoaryan: "Raṇabhīta"
+
+Ranagraha_indoaryan: "Raṇagraha"
+
+Ranakeshari_indoaryan: "Raṇakeśari"
+
+Ranashura_indoaryan: "Raṇaśūra"
+
+Ranastambha_indoaryan: "Rānāstambha"
+
+Ratnaganga_indoaryan: "Ratnagaṅgā"
+
+Ratnaprabha_indoaryan: "Ratnaprabha"
+
+Ravīndra_indoaryan: "Ravīndra"
+
+Rishabhadasa_indoaryan: "Ṛṣabhadāsa"
+
+Rudrarashi_indoaryan: "Rudrarāśi"
+
+Rudrashakti_indoaryan: "Rudraśakti"
+
+Rudrashikhara_indoaryan: "Rudraśikhara"
+
+Rudrashiva_indoaryan: "Rudraśiva"
+
+Sadashiva_indoaryan: "Sadāśiva"
+
+Sahadeva_indoaryan: "Sahadeva"
+
+Sahila_indoaryan: "Sāhila"
+
+Salaksha_indoaryan: "Salakṣa"
+
+Salambha_indoaryan: "Sālambha"
+
+Salastambha_indoaryan: "Sālastambha"
+
+Sallakshana_indoaryan: "Sallakṣaṇa"
+
+Sanghamitra_indoaryan: "Saṅghamitra"
+
+Sangramapida_indoaryan: "Saṅgrāmāpiḍa"
+
+Sanjaya_indoaryan: "Sañjaya"
+
+Shaktikumara_indoaryan: "Śaktikumāra"
+
+Shaktishiva_indoaryan: "Śaktiśiva"
+
+Shalivahana_indoaryan: "Śālivāhana"
+
+Shambhuyasha_indoaryan: "Śambhuyaśa"
+
+Shankaragana_indoaryan: "Śaṅkaragaṇa"
+
+Shantikara_indoaryan: "Śāntikara"
+
+Shashanka_indoaryan: "Śaśāṅka"
+
+Shilabhadra_indoaryan: "Śīlabhadra"
+
+Shivadasa_indoaryan: "Śivadāsa"
+
+Shivanaga_indoaryan: "Śivanāga"
+
+Shivanandi_indoaryan: "Śivanandi"
+
+Shivanatha_indoaryan: "Śīvanātha"
+
+Shivaprasada_indoaryan: "Śivaprasāda"
+
+Shivashakti_indoaryan: "Śivaśakti"
+
+Shivasvami_indoaryan: "Śivasvāmi"
+
+Shridhara_indoaryan: "Śrīdhara"
+
+Shridharadasa_indoaryan: "Śrīdharadāsa"
+
+Shriharsha_indoaryan: "Śrīharṣa"
+
+Shripati_indoaryan: "Śrīpati"
+
+Shrutakirti_indoaryan: "Śrūtākīrti"
+
+Shubhadhara_indoaryan: "Śubhadhara"
+
+Shubhakirti_indoaryan: "Śubhakīrti"
+
+Shudraka_indoaryan: "Śūdraka"
+
+Shulapani_indoaryan: "Śūlapāṇi"
+
+Shurabala_indoaryan: "Śūrabala"
+
+Shuravira_indoaryan: "Śūravīra"
+
+Siddhartha_indoaryan: "Siddhārtha"
+
+Simhadhvaja_indoaryan: "Siṃhadhvaja"
+
+Simharatha_indoaryan: "Siṃharatha"
+
+Skandabhata_indoaryan: "Skandabhaṭa"
+
+Somaprabha_indoaryan: "Somaprabha"
+
+Someshvara_indoaryan: "Someśvara"
+
+Subhadra_indoaryan: "Subhadra"
+
+Subhata_indoaryan: "Subhaṭa"
+
+Sugatamitra_indoaryan: "Sugatamitra"
+
+Sulakshana_indoaryan: "Sulakṣaṇa"
+
+Surananda_indoaryan: "Surānanda"
+
+Sureshvara_indoaryan: "Sureśvara"
+
+Tarapida_indoaryan: "Tārāpiḍa"
+
+Tathagatarakshita_indoaryan: "Tathāgatarakṣita"
+
+Tejahrama_indoaryan: "Tejaḥrāma"
+
+Tribhuvanapida_indoaryan: "Tribhuvanāpiḍa"
+
+Uccala_indoaryan: "Uccala"
+
+Udayakarna_indoaryan: "Udayakarṇa"
+
+Uddharana_indoaryan: "Uddharaṇa"
+
+Unmattavanti_indoaryan: "Unmattāvanti"
+
+Upendra_indoaryan: "Upendra"
+
+Utkarsha_indoaryan: "Utkarṣa"
+
+Utpalapida_indoaryan: "Utpalāpīḍa"
+
+Vagbhata_indoaryan: "Vāgbhaṭa"
+
+Vajrabodhi_indoaryan: "Vajrabodhi"
+
+Vajradama_indoaryan: "Vajradāma"
+
+Vajrahasta_indoaryan: "Vajrahāsta"
+
+Vajrayudha_indoaryan: "Vajrāyudha"
+
+Vakpati_indoaryan: "Vākpati"
+
+Vamana_indoaryan: "Vāmana"
+
+Vardhamana_indoaryan: "Vardhamāna"
+
+Varmashiva_indoaryan: "Varmaśiva"
+
+Vasundhara_indoaryan: "Vasundhara"
+
+Vedadhara_indoaryan: "Vedadhara"
+
+Vibhramarka_indoaryan: "Vibhramārka"
+
+Vicitravirya_indoaryan: "Vicitravīrya"
+
+Viduratha_indoaryan: "Vidūratha"
+
+Vidyadhara_indoaryan: "Vidyādhara"
+
+Vigrahastambha_indoaryan: "Vigrahastambha"
+
+Vijayakarna_indoaryan: "Vijayakarṇa"
+
+Vijayananda_indoaryan: "Vijayānanda"
+
+Vijayanatha_indoaryan: "Vijayanātha"
+
+Vijayashakti_indoaryan: "Vijayaśakti"
+
+Vimalashiva_indoaryan: "Vimalaśiva"
+
+Vindhyashakti_indoaryan: "Vindhyaśakti"
+
+Viradhavala_indoaryan: "Vīradhavala"
+
+Viraguna_indoaryan: "Vīraguṇa"
+
+Viranarayana_indoaryan: "Vīranārāyaṇa"
+
+Viranatha_indoaryan: "Vīranātha"
+
+Virayasha_indoaryan: "Vīrayaśa"
+
+Viryarama_indoaryan: "Vīryarāma"
+
+Vishvanatha_indoaryan: "Viśvanātha"
+
+Vishvarama_indoaryan: "Viśvarāma"
+
+Vithoba_indoaryan: "Viṭhobā"
+
+Vitthala_indoaryan: "Viṭṭhala"
+
+Vyaghramukha_indoaryan: "Vyāghramukha"
+
+Yashahkarna_indoaryan: "Yaśaḥkarṇa"
+
+Yashobhata_indoaryan: "Yaśobhaṭa"
+
+Yashobhita_indoaryan: "Yaśobhīta"
+
+Yashodhara_indoaryan: "Yaśodhara"
+
+Yashodharma_indoaryan: "Yaśodharma"
+
+Yashodhavala_indoaryan: "Yaśodhavala"
+
+Yashovigraha_indoaryan: "Yaśovigraha"
+
+Yayati_indoaryan: "Yayāti"
+
+Yogeshvara_indoaryan: "Yogeśvara"
+
+Yudhishthira_indoaryan: "Yudhiṣṭhira"
 #Arabic
 Abbad_indoaryan: "ʿAbbād"
 
@@ -1125,6 +2032,7 @@ Abdallah_indoaryan: "ʿAbd Allāh"
 Abdar-Rahman_indoaryan: "ʿAbd ar-Raḥmān"
 
 Abdar-Rashid_indoaryan: "ʿAbd ar-Raśīd"
+Abdurrashid_indoaryan: "ʿAbd ar-Raśīd"
 
 Abdar-Razzaq_indoaryan: "ʿAbd ar-Razzāq"
 
@@ -1269,6 +2177,7 @@ Yunus_indoaryan: "Yūnus"
 Yusuf_indoaryan: "Yūsuf"
 
 Juna_indoaryan: "Jūna"
+Junah_indoaryan: "Jūna"
 
 Kamran_indoaryan: "Kāmrān"
 
