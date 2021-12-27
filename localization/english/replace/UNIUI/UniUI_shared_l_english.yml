@@ -1,0 +1,6 @@
+﻿l_english:
+ SHARED_UNIUI_CHAR_SHORTUINAME: "[Character.Custom('CTPShortName')]"
+ SHARED_UNIUI_CHAR_SHORTUINAMENOTT: "[Character.Custom('CTPShortNameNoTooltip')]"
+ SHARED_UNIUI_CHAR_UINAMENOTT: "[Character.Custom('CTPNameNoTooltip')]"
+ SHARED_UNIUI_CHAR_NAMENOTT: "[Character.Custom('CTPRegNameNoTooltip')]"
+ SHARED_UNIUI_CHAR_UINAMENOTMENOTT: "[Character.Custom('CTPNameNotMeNoTooltip')]"

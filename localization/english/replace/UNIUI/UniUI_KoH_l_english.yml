@@ -1,0 +1,5 @@
+﻿l_english:
+ CARDINAL_WIND_UNIUI_POPENAME: "[Character.Custom('CTPName')]"
+ SHARED_KOH_UNIUI_CHAR_NAME: "[Character.Custom('CTPFirstName')]"
+ SAINT_WIND_UNIUI_GENERIC_SAINT: "[Character.Custom('CTPTitleAsName')]"
+ SHARED_RESPUB_UNIUI_CHAR_NAME: "[Scope.GetCharacter.Custom('CTPTitledFirstName')]"
