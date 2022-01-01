@@ -1623,7 +1623,7 @@ CharacterGov = {
     }
     text = {
         trigger = {
-            KoH_loaded_checker = yes
+            exists = global_var:KoH_is_loaded
             has_trait = koh_cardinal
         }
         localization_key = _cardinal
@@ -1639,8 +1639,8 @@ CharacterGov = {
             OR = {
                 has_government = holy_order_government
                 AND = {
+                    exists = global_var:KoH_is_loaded
                     has_government = holy_order_county_government
-                    KoH_loaded_checker = yes
                 }
             }
         }
@@ -1739,7 +1739,7 @@ CharacterGov = {
     text = {
         trigger = {
             has_government = monastic_government
-            KoH_loaded_checker = yes
+            exists = global_var:KoH_is_loaded
         }
         localization_key = _abbot
     }
