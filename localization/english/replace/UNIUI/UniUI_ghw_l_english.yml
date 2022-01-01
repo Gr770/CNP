@@ -1,3 +1,0 @@
-﻿l_english:
- GHW_UNIUI_BENE_NAME: "[GetPlayer.GetBeneficiary.Custom('CTPFullName2')]"
- GHW_UNIUI_CHAR_NAME: "[Character.Custom('CTPNameNoTooltip')|U]"

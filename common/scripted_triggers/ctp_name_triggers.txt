@@ -10,7 +10,8 @@ is_ctp_supported_culture = {
 }
 
 KoH_loaded_checker = { 
-    exists = global_var:KoH_is_loaded
+    trigger_if = { KoH_is_loaded = yes }
+    trigger_else = { always = no }
 }
 
 ME_loaded_checker = {

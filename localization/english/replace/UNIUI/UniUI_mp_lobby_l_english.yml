@@ -1,4 +1,0 @@
-﻿l_english: 
- MP_LOBBY_UNIUI_CHAR_NAME_AGE: "[Character.Custom('CTPName')], #low [Character.GetAge]#!"
- MP_LOBBY_UNIUI_CHARVIEW_NAME: "[Character.Custom('CTPFullNameNicknamedNoTooltipRegnal')]"
- MP_LOBBY_UNIUI_CHAR_NAME: "[Character.Custom('CTPRegName')]"
