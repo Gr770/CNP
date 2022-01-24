@@ -1,0 +1,2507 @@
+﻿867_persian_start_up_effect = {
+    dynasty:812 = {
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:163101 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:163164 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:163165 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:163163 }
+    }
+    dynasty:855 = {
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:6896 }
+    }
+    dynasty:12273 = {
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:74030 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:74033 }
+    }
+    dynasty:101689 = {
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:166987 }
+    }
+    dynasty:856 = {
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:6897 }
+    }
+    dynasty:1059103 = {
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:248307 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:248308 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:248306 }
+    }
+    dynasty:7331 = {
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:45105 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:160294 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:160293 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:160292 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:160291 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:160290 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:160289 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:160288 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:160285 }
+    }
+    dynasty:1029100 = {
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:160283 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:180628 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:180630 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:180631 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:180633 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:180636 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:180637 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:180640 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:180641 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:1059968 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:180625 }
+    }
+    character:180641 = {
+        change_first_name = Narse
+    }
+    character:180636 = {
+        change_first_name = Shahriar
+    }
+    character:180633 = {
+        change_first_name = Ardashir
+    }
+    character:180631 = {
+        change_first_name = Khusraw
+    }
+    character:180630 = {
+        change_first_name = Ohrmazd
+    }
+    character:180628 = {
+        change_first_name = Khusraw
+    }
+    character:160285 = {
+        change_first_name = Baw
+    }
+    character:160288 = {
+        change_first_name = Surkhab
+    }
+    character:160289 = {
+        change_first_name = Mihrmardan
+    }
+    character:160290 = {
+        change_first_name = Surkhab
+    }
+    character:160291 = {
+        change_first_name = Sharwin
+    }
+    character:160292 = {
+        change_first_name = Shahriar
+    }
+    character:45105 = {
+        change_first_name = Rustam
+    }
+    character:248306 = {
+        change_first_name = Hasim
+    }
+    character:248308 = {
+        change_first_name = Muhammad
+    }
+    character:248307 = {
+        change_first_name = Dawud
+    }
+    character:6897 = {
+        change_first_name = Farrukh
+    }
+    character:74033 = {
+        change_first_name = Ziar
+    }
+    character:74033 = {
+        change_first_name = Iskandar
+    }
+    character:74030 = {
+        change_first_name = Daraw
+    }
+    character:163101 = {
+        change_first_name = Yakub
+    }
+}
+
+
+    persian_islam_male_name_effect = {
+    random_list = {
+        50 = {
+            random_list = {
+                0 = {
+                    modifier = {
+                        OR = {
+                            has_faith = faith:ismaili
+                            has_faith = faith:qarmatian
+                            has_faith = faith:nizari
+                            has_faith = faith:zayidi
+                            has_faith = faith:imami
+                            has_faith = faith:ghulat
+                            has_faith = faith:alawite
+                            has_faith = faith:alevi
+                        }
+                        add = 1
+                    }
+                    1 = {
+                        change_first_name = Ali
+                    }
+                }
+                1 = {
+                    change_first_name = Muhammad
+                }
+            }
+        }
+        40 = {
+            random_list = {
+                0 = {
+                    modifier = {
+                        NOT = {
+                            has_faith = faith:ismaili
+                            has_faith = faith:qarmatian
+                            has_faith = faith:nizari
+                            has_faith = faith:zayidi
+                            has_faith = faith:imami
+                            has_faith = faith:ghulat
+                            has_faith = faith:alawite
+                            has_faith = faith:alevi
+                        }
+                        add = 1
+                    }
+                    1 = {
+                        change_first_name = Ali
+                    }
+                }
+                0 = {
+                    modifier = {
+                        NOT = {
+                            has_culture = culture:kurdish
+                        }
+                        add = 2
+                    }
+                    random_list = {
+                        1 = {
+                            change_first_name = Mahmud
+                        }
+                        1 = {
+                            change_first_name = Ahmad
+                        }
+                    }
+                }
+                0 = {
+                    modifier = {
+                        has_culture = culture:kurdish
+                        add = 2
+                    }
+                    random_list = {
+                        1 = {
+                            change_first_name = Mamlan
+                        }
+                        1 = {
+                            change_first_name = Ahmadil
+                        }
+                    }
+                }
+                1 = {
+                    change_first_name = Abdallah
+                }
+                1 = {
+                    change_first_name = Hasan
+                }
+                1 = {
+                    change_first_name = Husayn
+                }
+                1 = {
+                    change_first_name = Ismail
+                }
+                1 = {
+                    change_first_name = Yahya
+                }
+            }
+        }
+        30 = {
+            random_list = {
+                0 = {
+                    modifier = {
+                        OR = {
+                            has_faith = faith:ismaili
+                            has_faith = faith:qarmatian
+                            has_faith = faith:nizari
+                            has_faith = faith:zayidi
+                            has_faith = faith:imami
+                            has_faith = faith:ghulat
+                            has_faith = faith:alawite
+                            has_faith = faith:alevi
+                        }
+                        add = 1
+                    }
+                    1 = {
+                        change_first_name = Murtaza
+                    }
+                }
+                0 = {
+                    modifier = {
+                        NOT = {
+                            has_faith = faith:ismaili
+                            has_faith = faith:qarmatian
+                            has_faith = faith:nizari
+                            has_faith = faith:zayidi
+                            has_faith = faith:imami
+                            has_faith = faith:ghulat
+                            has_faith = faith:alawite
+                            has_faith = faith:alevi
+                        }
+                        add = 1
+                    }
+                    1 = {
+                        change_first_name = Mahdi
+                    }
+                }
+                0 = {
+                    modifier = {
+                        NOT = {
+                            has_culture = culture:kurdish
+                        }
+                        add = 1
+                    }
+                    1 = {
+                        change_first_name = Fadlun
+                    }
+                }
+                0 = {
+                    modifier = {
+                        has_culture = culture:kurdish
+                        add = 1
+                    }
+                    1 = {
+                        change_first_name = Fadl
+                    }
+                }
+                0 = {
+                    modifier = {
+                        has_culture = culture:daylamite
+                        add = 3
+                    }
+                    random_list = {
+                        1 = {
+                            change_first_name = Justan
+                        }
+                        1 = {
+                            change_first_name = Bisutun
+                        }
+                        1 = {
+                            change_first_name = Karen
+                        }
+                    }
+                }
+                1 = {
+                    change_first_name = Abbas
+                }
+                1 = {
+                    change_first_name = Abdal-Aziz
+                }
+                1 = {
+                    change_first_name = Abdal-Hamid
+                }
+                1 = {
+                    change_first_name = Abdar-Rahman
+                }
+                1 = {
+                    change_first_name = Ibrahim
+                }
+                1 = {
+                    change_first_name = Iskandar
+                }
+                1 = {
+                    change_first_name = Anosharwan
+                }
+                1 = {
+                    change_first_name = Bahram
+                }
+                1 = {
+                    change_first_name = Dawud
+                }
+                1 = {
+                    change_first_name = Farrukh
+                }
+                1 = {
+                    change_first_name = Farrukhzad
+                }
+                1 = {
+                    change_first_name = Pulad
+                }
+                1 = {
+                    change_first_name = Ishak
+                }
+                1 = {
+                    change_first_name = Yakub
+                }
+                1 = {
+                    change_first_name = Isa
+                }
+                1 = {
+                    change_first_name = Yusuf
+                }
+                1 = {
+                    change_first_name = Kawus
+                }
+                1 = {
+                    change_first_name = Khusraw
+                }
+                1 = {
+                    change_first_name = Mansur
+                }
+                1 = {
+                    change_first_name = Marzban
+                }
+                1 = {
+                    change_first_name = Masud
+                }
+                1 = {
+                    change_first_name = Musa
+                }
+                1 = {
+                    change_first_name = Mustafa
+                }
+                1 = {
+                    change_first_name = Muzaffar
+                }
+                1 = {
+                    change_first_name = Nasr
+                }
+                1 = {
+                    change_first_name = Rustam
+                }
+                1 = {
+                    change_first_name = Ruh
+                }
+                1 = {
+                    change_first_name = Sahl
+                }
+                1 = {
+                    change_first_name = Said
+                }
+                1 = {
+                    change_first_name = Shahanshah
+                }
+                1 = {
+                    change_first_name = Shahiar
+                }
+                1 = {
+                    change_first_name = Seroe
+                }
+                1 = {
+                    change_first_name = Sulayman
+                }
+                1 = {
+                    change_first_name = Tahir
+                }
+                1 = {
+                    change_first_name = Umar
+                }
+                1 = {
+                    change_first_name = Uthman
+                }
+            }
+        }
+        20 = {
+            random_list = {
+                0 = {
+                    modifier = {
+                        NOT = {
+                            has_faith = faith:ismaili
+                            has_faith = faith:qarmatian
+                            has_faith = faith:nizari
+                            has_faith = faith:zayidi
+                            has_faith = faith:imami
+                            has_faith = faith:ghulat
+                            has_faith = faith:alawite
+                            has_faith = faith:alevi
+                        }
+                        add = 1
+                    }
+                    1 = {
+                        change_first_name = Murtaza
+                    }
+                }
+                0 = {
+                    modifier = {
+                        OR = {
+                            has_faith = faith:ismaili
+                            has_faith = faith:qarmatian
+                            has_faith = faith:nizari
+                            has_faith = faith:zayidi
+                            has_faith = faith:imami
+                            has_faith = faith:ghulat
+                            has_faith = faith:alawite
+                            has_faith = faith:alevi
+                        }
+                        add = 1
+                    }
+                    1 = {
+                        change_first_name = Mahdi
+                    }
+                }
+                0 = {
+                    modifier = {
+                        has_culture = culture:daylamite
+                        add = 8
+                    }
+                    random_list = {
+                        1 = {
+                            change_first_name = Boe
+                        }
+                        1 = {
+                            change_first_name = Gushiar
+                        }
+                        1 = {
+                            change_first_name = Kinkhwaz
+                        }
+                        1 = {
+                            change_first_name = Mardawij
+                        }
+                        1 = {
+                            change_first_name = Baduspan
+                        }
+                        1 = {
+                            change_first_name = Baylakan
+                        }
+                        1 = {
+                            change_first_name = Tirdad
+                        }
+                        1 = {
+                            change_first_name = Daboe
+                        }
+                    }
+                }
+                1 = {
+                    change_first_name = Abdal-Malik
+                }
+                1 = {
+                    change_first_name = Afrasiab
+                }
+                1 = {
+                    change_first_name = Amr
+                }
+                1 = {
+                    change_first_name = Ardashir
+                }
+                1 = {
+                    change_first_name = Asad
+                }
+                1 = {
+                    change_first_name = Ashraf
+                }
+                1 = {
+                    change_first_name = Bakhtiar
+                }
+                1 = {
+                    change_first_name = Behzad
+                }
+                1 = {
+                    change_first_name = Buzurg-Umed
+                }
+                1 = {
+                    change_first_name = Bundar
+                }
+                1 = {
+                    change_first_name = Daraw
+                }
+                1 = {
+                    change_first_name = Dust
+                }
+                1 = {
+                    change_first_name = Ispandiar
+                }
+                1 = {
+                    change_first_name = Panah-Khusraw
+                }
+                1 = {
+                    change_first_name = Faramarz
+                }
+                1 = {
+                    change_first_name = Farhad
+                }
+                1 = {
+                    change_first_name = Fariburz
+                }
+                1 = {
+                    change_first_name = Farrukhan
+                }
+                1 = {
+                    change_first_name = Farrukshah
+                }
+                1 = {
+                    change_first_name = Fath
+                }
+                1 = {
+                    change_first_name = Faridun
+                }
+                1 = {
+                    change_first_name = Peroz
+                }
+                1 = {
+                    change_first_name = Garshasp
+                }
+                1 = {
+                    change_first_name = Hamza
+                }
+                1 = {
+                    change_first_name = Hashim
+                }
+                1 = {
+                    change_first_name = Hazarasp
+                }
+                1 = {
+                    change_first_name = Hazarmard
+                }
+                1 = {
+                    change_first_name = Hisham
+                }
+                1 = {
+                    change_first_name = Ilyas
+                }
+                1 = {
+                    change_first_name = Iraj
+                }
+                1 = {
+                    change_first_name = Jahangir
+                }
+                1 = {
+                    change_first_name = Jamshed
+                }
+                1 = {
+                    change_first_name = Ayyub
+                }
+                1 = {
+                    change_first_name = Yunus
+                }
+                1 = {
+                    change_first_name = Kashim
+                }
+                1 = {
+                    change_first_name = Kaykabad
+                }
+                1 = {
+                    change_first_name = Kaykawus
+                }
+                1 = {
+                    change_first_name = Kaykhusraw
+                }
+                1 = {
+                    change_first_name = Khalil
+                }
+                1 = {
+                    change_first_name = Khwadadad
+                }
+                1 = {
+                    change_first_name = Khwarshed
+                }
+                1 = {
+                    change_first_name = Khusraw-Peroz
+                }
+                1 = {
+                    change_first_name = Khusraw-Shah
+                }
+                1 = {
+                    change_first_name = Lashkari
+                }
+                1 = {
+                    change_first_name = Manochihr
+                }
+                1 = {
+                    change_first_name = Muslim
+                }
+                1 = {
+                    change_first_name = Namawar
+                }
+                1 = {
+                    change_first_name = Nawroz
+                }
+                1 = {
+                    change_first_name = Nuh
+                }
+                1 = {
+                    change_first_name = Papak
+                }
+                1 = {
+                    change_first_name = Parvez
+                }
+                1 = {
+                    change_first_name = Salar
+                }
+                1 = {
+                    change_first_name = Sam
+                }
+                1 = {
+                    change_first_name = Shadan
+                }
+                1 = {
+                    change_first_name = Shadi
+                }
+                1 = {
+                    change_first_name = Shah
+                }
+                1 = {
+                    change_first_name = Shahen
+                }
+                1 = {
+                    change_first_name = Shahram
+                }
+                1 = {
+                    change_first_name = Shahrukh
+                }
+                1 = {
+                    change_first_name = Shapur
+                }
+                1 = {
+                    change_first_name = Sharwin
+                }
+                1 = {
+                    change_first_name = Sherdil
+                }
+                1 = {
+                    change_first_name = Sherkoh
+                }
+                1 = {
+                    change_first_name = Sherzad
+                }
+                1 = {
+                    change_first_name = Surkhab
+                }
+                1 = {
+                    change_first_name = Turanshah
+                }
+                1 = {
+                    change_first_name = Ubaydallah
+                }
+                1 = {
+                    change_first_name = Wehsudan
+                }
+                1 = {
+                    change_first_name = Yazdad
+                }
+                1 = {
+                    change_first_name = Yazdegerd
+                }
+                1 = {
+                    change_first_name = Yazid
+                }
+                1 = {
+                    change_first_name = Zakariyya
+                }
+                1 = {
+                    change_first_name = Zarrinkamar
+                }
+                1 = {
+                    change_first_name = Zarrinkamar
+                }
+            }
+        }
+        10 = {
+            random_list = {
+                0 = {
+                    modifier = {
+                        NOT = {
+                            has_culture = culture:daylamite
+                        }
+                        add = 4
+                    }
+                    random_list = {
+                        1 = {
+                            change_first_name = Boe
+                        }
+                        1 = {
+                            change_first_name = Gushiar
+                        }
+                        1 = {
+                            change_first_name = Kinkhwaz
+                        }
+                        1 = {
+                            change_first_name = Mardawij
+                        }
+                    }
+                }
+                0 = {
+                    modifier = {
+                        has_culture = culture:daylamite
+                        add = 1
+                    }
+                    1 = {
+                        change_first_name = Dushmanziar
+                    }
+                }
+                1 = {
+                    change_first_name = Aban
+                }
+                1 = {
+                    change_first_name = Abbad
+                }
+                1 = {
+                    change_first_name = Abdar-Razzaq
+                }
+                1 = {
+                    change_first_name = Allahdad
+                }
+                1 = {
+                    change_first_name = Allahiar
+                }
+                1 = {
+                    change_first_name = Arjasp
+                }
+                1 = {
+                    change_first_name = Aswar
+                }
+                1 = {
+                    change_first_name = Ayan
+                }
+                1 = {
+                    change_first_name = Aziz
+                }
+                1 = {
+                    change_first_name = Baboe
+                }
+                1 = {
+                    change_first_name = Bahman
+                }
+                1 = {
+                    change_first_name = Baw
+                }
+                1 = {
+                    change_first_name = Bayazid
+                }
+                1 = {
+                    change_first_name = Behbod
+                }
+                1 = {
+                    change_first_name = Behnam
+                }
+                1 = {
+                    change_first_name = Behroz
+                }
+                1 = {
+                    change_first_name = Burzoe
+                }
+                1 = {
+                    change_first_name = Burzurgmihr
+                }
+                1 = {
+                    change_first_name = Dadburzmihr
+                }
+                1 = {
+                    change_first_name = Ispahdost
+                }
+                1 = {
+                    change_first_name = Purak
+                }
+                1 = {
+                    change_first_name = Gushnasp
+                }
+                1 = {
+                    change_first_name = Harthama
+                }
+                1 = {
+                    change_first_name = Harun
+                }
+                1 = {
+                    change_first_name = Haytham
+                }
+                1 = {
+                    change_first_name = HibatAllah
+                }
+                1 = {
+                    change_first_name = Hilal
+                }
+                1 = {
+                    change_first_name = Hoshang
+                }
+                1 = {
+                    change_first_name = Jamasp
+                }
+                1 = {
+                    change_first_name = Kamran
+                }
+                1 = {
+                    change_first_name = Kawa
+                }
+                1 = {
+                    change_first_name = Gayomarth
+                }
+                1 = {
+                    change_first_name = Khalid
+                }
+                1 = {
+                    change_first_name = Layth
+                }
+                1 = {
+                    change_first_name = Mahan
+                }
+                1 = {
+                    change_first_name = Malik
+                }
+                1 = {
+                    change_first_name = Mamun
+                }
+                1 = {
+                    change_first_name = Marwan
+                }
+                1 = {
+                    change_first_name = Maziar
+                }
+                1 = {
+                    change_first_name = Mihrdad
+                }
+                1 = {
+                    change_first_name = Mihroe
+                }
+                1 = {
+                    change_first_name = Muaddal
+                }
+                1 = {
+                    change_first_name = Musafir
+                }
+                1 = {
+                    change_first_name = Mutahhar
+                }
+                1 = {
+                    change_first_name = Nasir
+                }
+                1 = {
+                    change_first_name = Nawbakht
+                }
+                1 = {
+                    change_first_name = Nawdar
+                }
+                1 = {
+                    change_first_name = Pashang
+                }
+                1 = {
+                    change_first_name = Kabad
+                }
+                1 = {
+                    change_first_name = Rozbeh
+                }
+                1 = {
+                    change_first_name = Rozbehan
+                }
+                1 = {
+                    change_first_name = Sad
+                }
+                1 = {
+                    change_first_name = Salih
+                }
+                1 = {
+                    change_first_name = Salman
+                }
+                1 = {
+                    change_first_name = Shaddad
+                }
+                1 = {
+                    change_first_name = Shahragim
+                }
+                1 = {
+                    change_first_name = Sina
+                }
+                1 = {
+                    change_first_name = Suri
+                }
+                1 = {
+                    change_first_name = Talha
+                }
+                1 = {
+                    change_first_name = Tayfur
+                }
+                1 = {
+                    change_first_name = Tus
+                }
+                1 = {
+                    change_first_name = Wardanroz
+                }
+                1 = {
+                    change_first_name = Windarin
+                }
+                1 = {
+                    change_first_name = Zakaroe
+                }
+                1 = {
+                    change_first_name = Ziar
+                }
+            }
+        }
+        1 = {
+            random_list = {
+                0 = {
+                    modifier = {
+                        NOT = {
+                            has_culture = culture:daylamite
+                        }
+                        add = 7
+                    }
+                    random_list = {
+                        1 = {
+                            change_first_name = Justan
+                        }
+                        1 = {
+                            change_first_name = Bisutun
+                        }
+                        1 = {
+                            change_first_name = Karen
+                        }
+                        1 = {
+                            change_first_name = Baduspan
+                        }
+                        1 = {
+                            change_first_name = Baylakan
+                        }
+                        1 = {
+                            change_first_name = Dushmanziar
+                        }
+                        1 = {
+                            change_first_name = Tirdad
+                        }
+                        1 = {
+                            change_first_name = Daboe
+                        }
+                    }
+                }
+                1 = {
+                    change_first_name = Abdal-Jabbar
+                }
+                1 = {
+                    change_first_name = Abdal-Jalil
+                }
+                1 = {
+                    change_first_name = Abdal-Wahid
+                }
+                1 = {
+                    change_first_name = Abdal-Rashid
+                }
+                1 = {
+                    change_first_name = Anoshazad
+                }
+                1 = {
+                    change_first_name = Bahmaniar
+                }
+                1 = {
+                    change_first_name = Balash
+                }
+                1 = {
+                    change_first_name = Behafarid
+                }
+                1 = {
+                    change_first_name = Kurush
+                }
+                1 = {
+                    change_first_name = Farr-Khusraw
+                }
+                1 = {
+                    change_first_name = Jibaril
+                }
+                1 = {
+                    change_first_name = Ghassan
+                }
+                1 = {
+                    change_first_name = Gushtahm
+                }
+                1 = {
+                    change_first_name = Gushtasp
+                }
+                1 = {
+                    change_first_name = Godarz
+                }
+                1 = {
+                    change_first_name = Hasanoe
+                }
+                1 = {
+                    change_first_name = Imran
+                }
+                1 = {
+                    change_first_name = Jawedan
+                }
+                1 = {
+                    change_first_name = Kewan
+                }
+                1 = {
+                    change_first_name = Khordadbeh
+                }
+                1 = {
+                    change_first_name = Kwarshed-Mah
+                }
+                1 = {
+                    change_first_name = Luhrasp
+                }
+                1 = {
+                    change_first_name = Mamshad
+                }
+                1 = {
+                    change_first_name = Mardanfarrukh
+                }
+                1 = {
+                    change_first_name = Mardanshah
+                }
+                1 = {
+                    change_first_name = Mardbeh
+                }
+                1 = {
+                    change_first_name = Maymun
+                }
+                1 = {
+                    change_first_name = Mihraban
+                }
+                1 = {
+                    change_first_name = Muawiya
+                }
+                1 = {
+                    change_first_name = Musab
+                }
+                1 = {
+                    change_first_name = Rafi
+                }
+                1 = {
+                    change_first_name = Sahlan
+                }
+                1 = {
+                    change_first_name = Sasan
+                }
+                1 = {
+                    change_first_name = Shahdost
+                }
+                1 = {
+                    change_first_name = Shahmard
+                }
+                1 = {
+                    change_first_name = Wardan
+                }
+                1 = {
+                    change_first_name = Wardanshah
+                }
+                1 = {
+                    change_first_name = Wushmgir
+                }
+                1 = {
+                    change_first_name = Yazdan
+                }
+                1 = {
+                    change_first_name = Yazdin
+                }
+                1 = {
+                    change_first_name = Zadanfarrukh
+                }
+                1 = {
+                    change_first_name = Zadoe
+                }
+                1 = {
+                    change_first_name = Zahhak
+                }
+            }
+        }
+    }
+}
+persian_christian_male_name_effect = {
+    random_list = {
+        40 = {
+            random_list = {
+                1 = {
+                    change_first_name = Farrukh
+                }
+                1 = {
+                    change_first_name = Khusraw
+                }
+                1 = {
+                    change_first_name = Bukhtyeshu
+                }
+                1 = {
+                    change_first_name = Ardashir
+                }
+                1 = {
+                    change_first_name = Peroz
+                }
+                1 = {
+                    change_first_name = Jewarjis
+                }
+                1 = {
+                    change_first_name = Yazdad
+                }
+                1 = {
+                    change_first_name = Yazdegerd
+                }
+                1 = {
+                    change_first_name = Miles
+                }
+                1 = {
+                    change_first_name = Mihrdad
+                }
+                1 = {
+                    change_first_name = Narse
+                }
+                1 = {
+                    change_first_name = Ohrmazd
+                }
+                1 = {
+                    change_first_name = Kurush
+                }
+                1 = {
+                    change_first_name = Yohanan
+                }
+            }
+        }
+        30 = {
+            random_list = {
+                0 = {
+                    modifier = {
+                        has_culture = culture:daylamite
+                        add = 2
+                    }
+                    random_list = {
+                        1 = {
+                            change_first_name = Justan
+                        }
+                        1 = {
+                            change_first_name = Bisutun
+                        }
+                    }
+                }
+                1 = {
+                    change_first_name = Abraham
+                }
+                1 = {
+                    change_first_name = Iskandar
+                }
+                1 = {
+                    change_first_name = Anosharwan
+                }
+                1 = {
+                    change_first_name = Bahram
+                }
+                1 = {
+                    change_first_name = Farrukhzad
+                }
+                1 = {
+                    change_first_name = Kawus
+                }
+                1 = {
+                    change_first_name = Rustam
+                }
+                1 = {
+                    change_first_name = Shahriar
+                }
+                1 = {
+                    change_first_name = Sheroe
+                }
+                1 = {
+                    change_first_name = Dadyeshu
+                }
+                1 = {
+                    change_first_name = Dawid
+                }
+                1 = {
+                    change_first_name = Daraw
+                }
+                1 = {
+                    change_first_name = Farhad
+                }
+                1 = {
+                    change_first_name = Farrukhan
+                }
+                1 = {
+                    change_first_name = Grigor
+                }
+                1 = {
+                    change_first_name = Papak
+                }
+                1 = {
+                    change_first_name = Isak
+                }
+                1 = {
+                    change_first_name = Shahen
+                }
+                1 = {
+                    change_first_name = Shapur
+                }
+                1 = {
+                    change_first_name = Sherzad
+                }
+                1 = {
+                    change_first_name = Surkhab
+                }
+                1 = {
+                    change_first_name = Baboe
+                }
+                1 = {
+                    change_first_name = Bahman
+                }
+                1 = {
+                    change_first_name = Behnam
+                }
+                1 = {
+                    change_first_name = Behroz
+                }
+                1 = {
+                    change_first_name = Mihran
+                }
+                1 = {
+                    change_first_name = Mihr-Narse
+                }
+                1 = {
+                    change_first_name = Mihr-Ohrmazd
+                }
+                1 = {
+                    change_first_name = Ramyeshu
+                }
+                1 = {
+                    change_first_name = Balash
+                }
+                1 = {
+                    change_first_name = Suren
+                }
+                1 = {
+                    change_first_name = Toma
+                }
+                1 = {
+                    change_first_name = Wardan
+                }
+                1 = {
+                    change_first_name = Yazden
+                }
+                1 = {
+                    change_first_name = Yazdbozed
+                }
+                1 = {
+                    change_first_name = Yazdoe
+                }
+                1 = {
+                    change_first_name = Yazdpanah
+                }
+            }
+        }
+        20 = {
+            random_list = {
+                0 = {
+                    modifier = {
+                        has_culture = culture:daylamite
+                        add = 5
+                    }
+                    random_list = {
+                        1 = {
+                            change_first_name = Karen
+                        }
+                        1 = {
+                            change_first_name = Baduspan
+                        }
+                        1 = {
+                            change_first_name = Baylakan
+                        }
+                        1 = {
+                            change_first_name = Tirdad
+                        }
+                        1 = {
+                            change_first_name = Daboe
+                        }
+                    }
+                }
+                1 = {
+                    change_first_name = Adar-Mihr
+                }
+                1 = {
+                    change_first_name = Adar-Ohrmazd
+                }
+                1 = {
+                    change_first_name = Pulad
+                }
+                1 = {
+                    change_first_name = Yakub
+                }
+                1 = {
+                    change_first_name = Azadmard
+                }
+                1 = {
+                    change_first_name = Marzban
+                }
+                1 = {
+                    change_first_name = Behyeshu
+                }
+                1 = {
+                    change_first_name = Burzyeshu
+                }
+                1 = {
+                    change_first_name = Afrasiab
+                }
+                1 = {
+                    change_first_name = Bakhtiar
+                }
+                1 = {
+                    change_first_name = Daniel
+                }
+                1 = {
+                    change_first_name = Behzad
+                }
+                1 = {
+                    change_first_name = Buzurg-Umed
+                }
+                1 = {
+                    change_first_name = Manuel
+                }
+                1 = {
+                    change_first_name = Ispandiar
+                }
+                1 = {
+                    change_first_name = Panah-Khusraw
+                }
+                1 = {
+                    change_first_name = Faramarz
+                }
+                1 = {
+                    change_first_name = Faridun
+                }
+                1 = {
+                    change_first_name = Garshasp
+                }
+                1 = {
+                    change_first_name = Hazarmard
+                }
+                1 = {
+                    change_first_name = Iraj
+                }
+                1 = {
+                    change_first_name = Jahangir
+                }
+                1 = {
+                    change_first_name = Jamshed
+                }
+                1 = {
+                    change_first_name = Gurdzad
+                }
+                1 = {
+                    change_first_name = Kaykabad
+                }
+                1 = {
+                    change_first_name = Kaykawus
+                }
+                1 = {
+                    change_first_name = Kaykhusraw
+                }
+                1 = {
+                    change_first_name = Khwadadad
+                }
+                1 = {
+                    change_first_name = Khwarshed
+                }
+                1 = {
+                    change_first_name = Khusraw-Peroz
+                }
+                1 = {
+                    change_first_name = Manochihr
+                }
+                1 = {
+                    change_first_name = Namawar
+                }
+                1 = {
+                    change_first_name = Nawroz
+                }
+                1 = {
+                    change_first_name = Parvez
+                }
+                1 = {
+                    change_first_name = Sam
+                }
+                1 = {
+                    change_first_name = Shadan
+                }
+                1 = {
+                    change_first_name = Shahram
+                }
+                1 = {
+                    change_first_name = Sharwin
+                }
+                1 = {
+                    change_first_name = Juwansher
+                }
+                1 = {
+                    change_first_name = Sherdil
+                }
+                1 = {
+                    change_first_name = Ubaydallah
+                }
+                1 = {
+                    change_first_name = Wehsudan
+                }
+                1 = {
+                    change_first_name = Zarrinkamar
+                }
+                1 = {
+                    change_first_name = Behbod
+                }
+                1 = {
+                    change_first_name = Burzoe
+                }
+                1 = {
+                    change_first_name = Dadburzmihr
+                }
+                1 = {
+                    change_first_name = Mahoe
+                }
+                1 = {
+                    change_first_name = Mahiar
+                }
+                1 = {
+                    change_first_name = Gushnasp
+                }
+                1 = {
+                    change_first_name = Hoshang
+                }
+                1 = {
+                    change_first_name = Maroe
+                }
+                1 = {
+                    change_first_name = Kawa
+                }
+                1 = {
+                    change_first_name = Mattay
+                }
+                1 = {
+                    change_first_name = Mahan
+                }
+                1 = {
+                    change_first_name = Mihrbozed
+                }
+                1 = {
+                    change_first_name = Mihr-Gushnasp
+                }
+                1 = {
+                    change_first_name = Mihr-Khwarshed
+                }
+                1 = {
+                    change_first_name = Mikhael
+                }
+                1 = {
+                    change_first_name = Mihroe
+                }
+                1 = {
+                    change_first_name = Mushay
+                }
+                1 = {
+                    change_first_name = Rozbeh
+                }
+                1 = {
+                    change_first_name = Rozbehan
+                }
+                1 = {
+                    change_first_name = Panahyeshu
+                }
+                1 = {
+                    change_first_name = Sina
+                }
+                1 = {
+                    change_first_name = Paulos
+                }
+                1 = {
+                    change_first_name = Petros
+                }
+                1 = {
+                    change_first_name = Pusai
+                }
+                1 = {
+                    change_first_name = Zakaroe
+                }
+                1 = {
+                    change_first_name = Anoshazad
+                }
+                1 = {
+                    change_first_name = Behafarid
+                }
+                1 = {
+                    change_first_name = Jibaril
+                }
+                1 = {
+                    change_first_name = Jawedan
+                }
+                1 = {
+                    change_first_name = Sheryeshu
+                }
+                1 = {
+                    change_first_name = Kewan
+                }
+                1 = {
+                    change_first_name = Mardbeh
+                }
+                1 = {
+                    change_first_name = Sasan
+                }
+                1 = {
+                    change_first_name = Shahdost
+                }
+                1 = {
+                    change_first_name = Shahmard
+                }
+                1 = {
+                    change_first_name = Windad-Ohrmazd
+                }
+                1 = {
+                    change_first_name = Windad-Umed
+                }
+                1 = {
+                    change_first_name = Yazdan
+                }
+                1 = {
+                    change_first_name = Zadanfarrukh
+                }
+                1 = {
+                    change_first_name = Zadoe
+                }
+                1 = {
+                    change_first_name = Yeshuyahb
+                }
+                1 = {
+                    change_first_name = Yeshuyazd
+                }
+            }
+        }
+        10 = {
+            random_list = {
+                0 = {
+                    modifier = {
+                        NOT = {
+                            has_culture = culture:daylamite
+                        }
+                        add = 1
+                    }
+                    1 = {
+                        change_first_name = Karen
+                    }
+                }
+                0 = {
+                    modifier = {
+                        has_culture = culture:daylamite
+                        add = 1
+                    }
+                    1 = {
+                        change_first_name = Dushmanziar
+                    }
+                }
+                1 = {
+                    change_first_name = Abdallah
+                }
+                1 = {
+                    change_first_name = Adar-Kewan
+                }
+                1 = {
+                    change_first_name = Adar-Mah
+                }
+                1 = {
+                    change_first_name = Shahanshah
+                }
+                1 = {
+                    change_first_name = Bayweh
+                }
+                1 = {
+                    change_first_name = Amr
+                }
+                1 = {
+                    change_first_name = Fariburz
+                }
+                1 = {
+                    change_first_name = Farrukhshah
+                }
+                1 = {
+                    change_first_name = Khusraw-Shah
+                }
+                1 = {
+                    change_first_name = Lashkari
+                }
+                1 = {
+                    change_first_name = Shadi
+                }
+                1 = {
+                    change_first_name = Shah
+                }
+                1 = {
+                    change_first_name = Sherkoh
+                }
+                1 = {
+                    change_first_name = Allahdad
+                }
+                1 = {
+                    change_first_name = Allahiar
+                }
+                1 = {
+                    change_first_name = Arjasp
+                }
+                1 = {
+                    change_first_name = Aswar
+                }
+                1 = {
+                    change_first_name = Baw
+                }
+                1 = {
+                    change_first_name = Burzurgmihr
+                }
+                1 = {
+                    change_first_name = Mahbod
+                }
+                1 = {
+                    change_first_name = Mahdad
+                }
+                1 = {
+                    change_first_name = Ispahdost
+                }
+                1 = {
+                    change_first_name = Mahpanah
+                }
+                1 = {
+                    change_first_name = Mahwindad
+                }
+                1 = {
+                    change_first_name = Purak
+                }
+                1 = {
+                    change_first_name = Jamasp
+                }
+                1 = {
+                    change_first_name = Kamran
+                }
+                1 = {
+                    change_first_name = Gayomarth
+                }
+                1 = {
+                    change_first_name = Mihradar
+                }
+                1 = {
+                    change_first_name = Mihrmardan
+                }
+                1 = {
+                    change_first_name = Nawbakht
+                }
+                1 = {
+                    change_first_name = Nawdar
+                }
+                1 = {
+                    change_first_name = Pashang
+                }
+                1 = {
+                    change_first_name = Kabad
+                }
+                1 = {
+                    change_first_name = Shahragim
+                }
+                1 = {
+                    change_first_name = Suri
+                }
+                1 = {
+                    change_first_name = Tus
+                }
+                1 = {
+                    change_first_name = Wardanroz
+                }
+                1 = {
+                    change_first_name = Windarin
+                }
+                1 = {
+                    change_first_name = Ziar
+                }
+                1 = {
+                    change_first_name = Boe
+                }
+                1 = {
+                    change_first_name = Gushiar
+                }
+                1 = {
+                    change_first_name = Kinkhwaz
+                }
+                1 = {
+                    change_first_name = Mardawij
+                }
+                1 = {
+                    change_first_name = Bahmaniar
+                }
+                1 = {
+                    change_first_name = Godarz
+                }
+                1 = {
+                    change_first_name = Simon
+                }
+                1 = {
+                    change_first_name = Khordadbeh
+                }
+                1 = {
+                    change_first_name = Kwarshed-Mah
+                }
+                1 = {
+                    change_first_name = Luhrasp
+                }
+                1 = {
+                    change_first_name = Sunbad
+                }
+                1 = {
+                    change_first_name = Mardanfarrukh
+                }
+                1 = {
+                    change_first_name = Mardanshah
+                }
+                1 = {
+                    change_first_name = Mihraban
+                }
+                1 = {
+                    change_first_name = Ustad-Ohrmazd
+                }
+                1 = {
+                    change_first_name = Ustad-Sis
+                }
+                1 = {
+                    change_first_name = Wardanshah
+                }
+                1 = {
+                    change_first_name = Yeshusabran
+                }
+            }
+        }
+        1 = {
+            random_list = {
+                0 = {
+                    modifier = {
+                        NOT = {
+                            has_culture = culture:daylamite
+                        }
+                        add = 7
+                    }
+                    random_list = {
+                        1 = {
+                            change_first_name = Justan
+                        }
+                        1 = {
+                            change_first_name = Baduspan
+                        }
+                        1 = {
+                            change_first_name = Baylakan
+                        }
+                        1 = {
+                            change_first_name = Bisutun
+                        }
+                        1 = {
+                            change_first_name = Dushmanziar
+                        }
+                        1 = {
+                            change_first_name = Tirdad
+                        }
+                        1 = {
+                            change_first_name = Daboe
+                        }
+                    }
+                }
+                1 = {
+                    change_first_name = Dust
+                }
+                1 = {
+                    change_first_name = Hazarasp
+                }
+                1 = {
+                    change_first_name = Salar
+                }
+                1 = {
+                    change_first_name = Shahrukh
+                }
+                1 = {
+                    change_first_name = Turanshah
+                }
+                1 = {
+                    change_first_name = Maziar
+                }
+                1 = {
+                    change_first_name = Farr-Khusraw
+                }
+                1 = {
+                    change_first_name = Gushtahm
+                }
+                1 = {
+                    change_first_name = Gushtasp
+                }
+                1 = {
+                    change_first_name = Mamshad
+                }
+                1 = {
+                    change_first_name = Windad-Khwarshed
+                }
+                1 = {
+                    change_first_name = Wushmgir
+                }
+                1 = {
+                    change_first_name = Wushmgir
+                }
+                1 = {
+                    change_first_name = Zadspram
+                }
+            }
+        }
+    }
+}
+persian_fallback_male_name_effect = {
+    random_list = {
+        40 = {
+            random_list = {
+                1 = {
+                    change_first_name = Anosharwan
+                }
+                1 = {
+                    change_first_name = Bahram
+                }
+                1 = {
+                    change_first_name = Farrukh
+                }
+                1 = {
+                    change_first_name = Kawus
+                }
+                1 = {
+                    change_first_name = Khusraw
+                }
+                1 = {
+                    change_first_name = Rustam
+                }
+                1 = {
+                    change_first_name = Ardashir
+                }
+                1 = {
+                    change_first_name = Peroz
+                }
+                1 = {
+                    change_first_name = Shapur
+                }
+                1 = {
+                    change_first_name = Bahman
+                }
+                1 = {
+                    change_first_name = Mihran
+                }
+                1 = {
+                    change_first_name = Mihrdad
+                }
+                1 = {
+                    change_first_name = Narse
+                }
+                1 = {
+                    change_first_name = Ohrmazd
+                }
+            }
+        }
+        30 = {
+            random_list = {
+                0 = {
+                    modifier = {
+                        has_culture = culture:daylamite
+                        add = 2
+                    }
+                    random_list = {
+                        1 = {
+                           change_first_name = Bisutun
+                        }
+                        1 = {
+                           change_first_name = Justan
+                        }
+                    }
+                }
+                1 = {
+                    change_first_name = Adarbad
+                }
+                1 = {
+                    change_first_name = Adar-Farrbay
+                }
+                1 = {
+                    change_first_name = Adar-Gushnasp
+                }
+                1 = {
+                    change_first_name = Iskandar
+                }
+                1 = {
+                    change_first_name = Farrukhzad
+                }
+                1 = {
+                    change_first_name = Shahriar
+                }
+                1 = {
+                    change_first_name = Sheroe
+                }
+                1 = {
+                    change_first_name = Buzurg-Umed
+                }
+                1 = {
+                    change_first_name = Daraw
+                }
+                1 = {
+                    change_first_name = Farhad
+                }
+                1 = {
+                    change_first_name = Farrukhan
+                }
+                1 = {
+                    change_first_name = Farrbay
+                }
+                1 = {
+                    change_first_name = Papak
+                }
+                1 = {
+                    change_first_name = Shahen
+                }
+                1 = {
+                    change_first_name = Sherzad
+                }
+                1 = {
+                    change_first_name = Surkhab
+                }
+                1 = {
+                    change_first_name = Yazdad
+                }
+                1 = {
+                    change_first_name = Yazdegerd
+                }
+                1 = {
+                    change_first_name = Behroz
+                }
+                1 = {
+                    change_first_name = Mahdad
+                }
+                1 = {
+                    change_first_name = Dadburzmihr
+                }
+                1 = {
+                    change_first_name = Mahoe
+                }
+                1 = {
+                    change_first_name = Mahwindad
+                }
+                1 = {
+                    change_first_name = Mahiar
+                }
+                1 = {
+                    change_first_name = Gushnasp
+                }
+                1 = {
+                    change_first_name = Mihr-Gushnasp
+                }
+                1 = {
+                    change_first_name = Mihr-Ohrmazd
+                }
+                1 = {
+                    change_first_name = Kabad
+                }
+                1 = {
+                    change_first_name = Rozbeh
+                }
+                1 = {
+                    change_first_name = Balash
+                }
+                1 = {
+                    change_first_name = Kurush
+                }
+                1 = {
+                    change_first_name = Kewan
+                }
+                1 = {
+                    change_first_name = Mardanshah
+                }
+                1 = {
+                    change_first_name = Mihraban
+                }
+                1 = {
+                    change_first_name = Sasan
+                }
+                1 = {
+                    change_first_name = Karen
+                }
+            }
+        }
+        20 = {
+            random_list = {
+                0 = {
+                    modifier = {
+                        has_culture = culture:daylamite
+                        add = 8
+                    }
+                    random_list = {
+                        1 = {
+                            change_first_name = Boe
+                        }
+                        1 = {
+                            change_first_name = Gushiar
+                        }
+                        1 = {
+                            change_first_name = Kinkhwaz
+                        }
+                        1 = {
+                            change_first_name = Mardawij
+                        }
+                        1 = {
+                            change_first_name = Tirdad
+                        }
+                        1 = {
+                            change_first_name = Daboe
+                        }
+                        1 = {
+                            change_first_name = Baduspan
+                        }
+                        1 = {
+                            change_first_name = Baylakan
+                        }
+                    }
+                }
+                1 = {
+                    change_first_name = Adarbarzin
+                }
+                1 = {
+                    change_first_name = Adardad
+                }
+                1 = {
+                    change_first_name = Adar-Mah
+                }
+                1 = {
+                    change_first_name = Adar-Mihr
+                }
+                1 = {
+                    change_first_name = Adar-Zardusht 
+                }
+                1 = {
+                    change_first_name = Pulad
+                }
+                1 = {
+                    change_first_name = Marzban
+                }
+                1 = {
+                    change_first_name = Behden
+                }
+                1 = {
+                    change_first_name = Afrasiab
+                }
+                1 = {
+                    change_first_name = Bakhtiar
+                }
+                1 = {
+                    change_first_name = Behzad
+                }
+                1 = {
+                    change_first_name = Dayohrmazd
+                }
+                1 = {
+                    change_first_name = Ispandiar
+                }
+                1 = {
+                    change_first_name = Panah-Khusraw
+                }
+                1 = {
+                    change_first_name = Faramarz
+                }
+                1 = {
+                    change_first_name = Faridun
+                }
+                1 = {
+                    change_first_name = Garshasp
+                }
+                1 = {
+                    change_first_name = Hazarmard
+                }
+                1 = {
+                    change_first_name = Iraj
+                }
+                1 = {
+                    change_first_name = Jahangir
+                }
+                1 = {
+                    change_first_name = Jamshed
+                }
+                1 = {
+                    change_first_name = Gurdzad
+                }
+                1 = {
+                    change_first_name = Kaykabad
+                }
+                1 = {
+                    change_first_name = Kaykawus
+                }
+                1 = {
+                    change_first_name = Kaykhusraw
+                }
+                1 = {
+                    change_first_name = Khwarshed
+                }
+                1 = {
+                    change_first_name = Khusraw-Peroz
+                }
+                1 = {
+                    change_first_name = Manochihr
+                }
+                1 = {
+                    change_first_name = Namawar
+                }
+                1 = {
+                    change_first_name = Nawroz
+                }
+                1 = {
+                    change_first_name = Parvez
+                }
+                1 = {
+                    change_first_name = Sam
+                }
+                1 = {
+                    change_first_name = Shadan
+                }
+                1 = {
+                    change_first_name = Shahram
+                }
+                1 = {
+                    change_first_name = Sharwin
+                }
+                1 = {
+                    change_first_name = Sherdil
+                }
+                1 = {
+                    change_first_name = Wehsudan
+                }
+                1 = {
+                    change_first_name = Zarrinkamar
+                }
+                1 = {
+                    change_first_name = Baboe
+                }
+                1 = {
+                    change_first_name = Baw
+                }
+                1 = {
+                    change_first_name = Behbod
+                }
+                1 = {
+                    change_first_name = Behnam
+                }
+                1 = {
+                    change_first_name = Burzoe
+                }
+                1 = {
+                    change_first_name = Burzurgmihr
+                }
+                1 = {
+                    change_first_name = Mahadar
+                }
+                1 = {
+                    change_first_name = Mahbod
+                }
+                1 = {
+                    change_first_name = Hoshang
+                }
+                1 = {
+                    change_first_name = Jamasp
+                }
+                1 = {
+                    change_first_name = Kawa
+                }
+                1 = {
+                    change_first_name = Mahan
+                }
+                1 = {
+                    change_first_name = Mihr-Khwarshed
+                }
+                1 = {
+                    change_first_name = Maziar
+                }
+                1 = {
+                    change_first_name = Mihroe
+                }
+                1 = {
+                    change_first_name = Rozbehan
+                }
+                1 = {
+                    change_first_name = Ohrmazddad
+                }
+                1 = {
+                    change_first_name = Sina
+                }
+                1 = {
+                    change_first_name = Anoshazad
+                }
+                1 = {
+                    change_first_name = Bahmaniar
+                }
+                1 = {
+                    change_first_name = Behafarid
+                }
+                1 = {
+                    change_first_name = Gushtahm
+                }
+                1 = {
+                    change_first_name = Gushtasp
+                }
+                1 = {
+                    change_first_name = Jawedan
+                }
+                1 = {
+                    change_first_name = Suren
+                }
+                1 = {
+                    change_first_name = Mamshad
+                }
+                1 = {
+                    change_first_name = Mardbeh
+                }
+                1 = {
+                    change_first_name = Shahdost
+                }
+                1 = {
+                    change_first_name = Shahmard
+                }
+                1 = {
+                    change_first_name = Wardan
+                }
+                1 = {
+                    change_first_name = Windad-Ohrmazd
+                }
+                1 = {
+                    change_first_name = Windad-Umed
+                }
+                1 = {
+                    change_first_name = Yazdan
+                }
+                1 = {
+                    change_first_name = Yazden
+                }
+                1 = {
+                    change_first_name = Zadanfarrukh
+                }
+                1 = {
+                    change_first_name = Zadoe
+                }
+                1 = {
+                    change_first_name = Yazdoe
+                }
+                1 = {
+                    change_first_name = Zardusht
+                }
+                1 = {
+                    change_first_name = Zurwandad
+                }
+            }
+        }
+        10 = {
+            random_list = {
+                0 = {
+                    modifier = {
+                        has_culture = culture:daylamite
+                        add = 1
+                    }
+                    1 = {
+                        change_first_name = Dushmanziar
+                    }
+                }
+                0 = {
+                    modifier = {
+                        NOT = {
+                            has_culture = culture:daylamite
+                        }
+                        add = 5
+                    }
+                    random_list = {
+                        1 = {
+                            change_first_name = Boe
+                        }
+                        1 = {
+                            change_first_name = Gushiar
+                        }
+                        1 = {
+                            change_first_name = Kinkhwaz
+                        }
+                        1 = {
+                            change_first_name = Mardawij
+                        }
+                        1 = {
+                            change_first_name = Tirdad
+                        }
+                    }
+                }
+                1 = {
+                    change_first_name = Adar-Kewan
+                }
+                1 = {
+                    change_first_name = Adar-Ohrmazd
+                }
+                1 = {
+                    change_first_name = Ashawahisht
+                }
+                1 = {
+                    change_first_name = Azadmard
+                }
+                1 = {
+                    change_first_name = Shahanshah
+                }
+                1 = {
+                    change_first_name = Bayweh
+                }
+                1 = {
+                    change_first_name = Fariburz
+                }
+                1 = {
+                    change_first_name = Farrukhshah
+                }
+                1 = {
+                    change_first_name = Hazarasp
+                }
+                1 = {
+                    change_first_name = Khusraw-Shah
+                }
+                1 = {
+                    change_first_name = Lashkari
+                }
+                1 = {
+                    change_first_name = Shadi
+                }
+                1 = {
+                    change_first_name = Shah
+                }
+                1 = {
+                    change_first_name = Juwansher
+                }
+                1 = {
+                    change_first_name = Sherkoh
+                }
+                1 = {
+                    change_first_name = Arjasp
+                }
+                1 = {
+                    change_first_name = Aswar
+                }
+                1 = {
+                    change_first_name = Ispahdost
+                }
+                1 = {
+                    change_first_name = Mahpanah
+                }
+                1 = {
+                    change_first_name = Purak
+                }
+                1 = {
+                    change_first_name = Kamran
+                }
+                1 = {
+                    change_first_name = Gayomarth
+                }
+                1 = {
+                    change_first_name = Mihradar
+                }
+                1 = {
+                    change_first_name = Mihrmardan
+                }
+                1 = {
+                    change_first_name = Mihr-Narse
+                }
+                1 = {
+                    change_first_name = Nawbakht
+                }
+                1 = {
+                    change_first_name = Nawdar
+                }
+                1 = {
+                    change_first_name = Pashang
+                }
+                1 = {
+                    change_first_name = Shahragim
+                }
+                1 = {
+                    change_first_name = Suri
+                }
+                1 = {
+                    change_first_name = Pusai
+                }
+                1 = {
+                    change_first_name = Tus
+                }
+                1 = {
+                    change_first_name = Wardanroz
+                }
+                1 = {
+                    change_first_name = Windarin
+                }
+                1 = {
+                    change_first_name = Ziar
+                }
+                1 = {
+                    change_first_name = Farr-Khusraw
+                }
+                1 = {
+                    change_first_name = Godarz
+                }
+                1 = {
+                    change_first_name = Khordadbeh
+                }
+                1 = {
+                    change_first_name = Kwarshed-Mah
+                }
+                1 = {
+                    change_first_name = Luhrasp
+                }
+                1 = {
+                    change_first_name = Sunbad
+                }
+                1 = {
+                    change_first_name = Mardanfarrukh
+                }
+                1 = {
+                    change_first_name = Ustad-Ohrmazd
+                }
+                1 = {
+                    change_first_name = Ustad-Sis
+                }
+                1 = {
+                    change_first_name = Wardanshah
+                }
+                1 = {
+                    change_first_name = Zadspram
+                }
+            }
+        }
+        1 = {
+            random_list = {
+                0 = {
+                    modifier = {
+                        NOT = {
+                            has_culture = culture:daylamite
+                        }
+                        add = 6
+                    }
+                    random_list = {
+                        1 = {
+                            change_first_name = Daboe
+                        }
+                        1 = {
+                            change_first_name = Justan
+                        }
+                        1 = {
+                            change_first_name = Baduspan
+                        }
+                        1 = {
+                            change_first_name = Baylakan
+                        }
+                        1 = {
+                            change_first_name = Bisutun
+                        }
+                        1 = {
+                            change_first_name = Dushmanziar
+                        }
+                    }
+                }
+                1 = {
+                    change_first_name = Dust
+                }
+                1 = {
+                    change_first_name = Khwadadad
+                }
+                1 = {
+                    change_first_name = Salar
+                }
+                1 = {
+                    change_first_name = Shahrukh
+                }
+                1 = {
+                    change_first_name = Turanshah
+                }
+                1 = {
+                    change_first_name = Mihrbozed
+                }
+                1 = {
+                    change_first_name = Windad-Khwarshed
+                }
+                1 = {
+                    change_first_name = Wushmgir
+                }
+                1 = {
+                    change_first_name = Yazdbozed
+                }
+                1 = {
+                    change_first_name = Yazdpanah
+                }
+                1 = {
+                    change_first_name = Zahhak
+                }
+            }
+        }
+    }
+}
