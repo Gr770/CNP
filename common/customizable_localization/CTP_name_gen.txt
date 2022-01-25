@@ -113,6 +113,19 @@ CTPFullName = {
 		}
 		localization_key = CTP_Full_Name_North
 	}
+    text = {
+        trigger = {
+            has_culture_group = culture_group:iranian_group
+            has_religion = religion:islam_religion
+        }
+		localization_key = CTP_Full_Name_Persian_Muslim
+    }
+    text = {
+        trigger = {
+            has_culture_group = culture_group:iranian_group
+        }
+		localization_key = CTP_Full_Name_Persian
+    }
 	text = {
 		trigger = {
 			has_culture_group = culture_group:arabic_group
@@ -1770,6 +1783,12 @@ CharacterCulture = {
 			has_culture_group = culture_group:north_germanic_group
 		}
 		localization_key = _norse
+	}
+	text = {
+		trigger = {
+			has_culture_group = culture_group:iranian_group
+		}
+		localization_key = _persian
 	}
 	text = {
 		trigger = {
