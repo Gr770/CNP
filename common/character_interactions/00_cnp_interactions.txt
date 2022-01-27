@@ -15,7 +15,10 @@
         scope:recipient = {
             has_religion = religion:islam_religion
             this.faith.religious_head = scope:actor
-            has_culture_group = culture_group:arabic_group
+            OR = {
+                has_culture_group = culture_group:arabic_group
+                persian_excluder = yes
+            }
             NOT = {
                 has_character_flag = has_reg_laqab
                 has_character_flag = has_regnal_laqab
@@ -45,7 +48,10 @@
         scope:recipient = {
             has_religion = religion:islam_religion
             this.faith.religious_head = scope:actor
-            has_culture_group = culture_group:arabic_group
+            OR = {
+                has_culture_group = culture_group:arabic_group
+                persian_excluder = yes
+            }
             NOT = {
                 has_character_flag = has_reg_laqab
                 has_character_flag = has_regnal_laqab
@@ -71,7 +77,10 @@
             scope:recipient = {
                 has_religion = religion:islam_religion
                 this.faith.religious_head = scope:actor
-                has_culture_group = culture_group:arabic_group
+                OR = {
+                    has_culture_group = culture_group:arabic_group
+                    persian_excluder = yes
+                }
             }
         }
         is_valid = {
@@ -89,7 +98,10 @@
             scope:recipient = {
                 has_religion = religion:islam_religion
                 this.faith.religious_head = scope:actor
-                has_culture_group = culture_group:arabic_group
+                OR = {
+                    has_culture_group = culture_group:arabic_group
+                    persian_excluder = yes
+                }
             }
         }
         current_description = assign_caliph_laqab_get_event_desc
@@ -160,7 +172,10 @@ assign_faith_laqab = {
         }
         scope:recipient = {
             has_religion = religion:islam_religion
-            has_culture_group = culture_group:arabic_group
+            OR = {
+                has_culture_group = culture_group:arabic_group
+                persian_excluder = yes
+            }
             liege_or_court_owner = scope:actor
             NOT = {
                 has_character_flag = has_reg_laqab
@@ -187,7 +202,10 @@ assign_faith_laqab = {
         }
         scope:recipient = {
             has_religion = religion:islam_religion
-            has_culture_group = culture_group:arabic_group
+            OR = {
+                has_culture_group = culture_group:arabic_group
+                persian_excluder = yes
+            }
             liege_or_court_owner = scope:actor
             NOT = {
                 has_character_flag = has_reg_laqab
@@ -207,7 +225,10 @@ assign_faith_laqab = {
             }
             scope:recipient = {
                 has_religion = religion:islam_religion
-                has_culture_group = culture_group:arabic_group
+                OR = {
+                    has_culture_group = culture_group:arabic_group
+                    persian_excluder = yes
+                }
                 liege_or_court_owner = scope:actor
             }
         }
@@ -226,7 +247,10 @@ assign_faith_laqab = {
             }
             scope:recipient = {
                 has_religion = religion:islam_religion
-                has_culture_group = culture_group:arabic_group
+                OR = {
+                    has_culture_group = culture_group:arabic_group
+                    persian_excluder = yes
+                }
                 liege_or_court_owner = scope:actor
             }
         }

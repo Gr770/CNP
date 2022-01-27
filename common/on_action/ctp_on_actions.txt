@@ -1,10 +1,17 @@
 ﻿on_birth_child = {
+	on_actions = {
+		on_birth_child_cnp
+	}
 	events = {
 		ctpname.999
 		ctpname.998
 		ctpname.997
 		ctpname.996
-		ctpname.500
+	}
+}
+on_birth_child_cnp = {
+	effect = {
+		courtier_effect_cnp = yes
 	}
 }
 on_death = {
@@ -120,80 +127,7 @@ ctp_courtiers_2 = {
 				}
 				is_ctp_supported_culture = yes
 			}
-			if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_male = yes
-			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_female = yes
-			}
-			else_if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_male = yes
-			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_female = yes
-			}
-			else_if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:iranian_group
-					has_religion = religion:christianity_religion
-				}
-				persian_christian_male_name_effect = yes
-			}
-			else_if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:iranian_group
-					has_religion = religion:islam_religion
-				}
-				persian_islam_male_name_effect = yes
-			}
-			else_if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:iranian_group
-				}
-				persian_fallback_male_name_effect = yes
-			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:iranian_group
-					has_religion = religion:christianity_religion
-				}
-				persian_christian_female_name_effect = yes
-			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:iranian_group
-					has_religion = religion:islam_religion
-				}
-				persian_islam_female_name_effect = yes
-			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:iranian_group
-				}
-				persian_fallback_female_name_effect = yes
-			}
+			courtier_effect_cnp = yes
 		}
 	}
 }
@@ -232,80 +166,7 @@ ctp_courtiers = {
 		is_ctp_supported_culture = yes
 	}
 	effect = {
-		if = {
-			limit = {
-				is_male = yes
-				has_culture_group = culture_group:north_germanic_group
-			}
-			norse_pack_name_ai_male = yes
-		}
-		else_if = {
-			limit = {
-				is_male = no
-				has_culture_group = culture_group:north_germanic_group
-			}
-			norse_pack_name_ai_female = yes
-		}
-		else_if = {
-			limit = {
-				is_male = yes
-				has_culture_group = culture_group:arabic_group
-			}
-			arabic_pack_name_ai_male = yes
-		}
-		else_if = {
-			limit = {
-				is_male = no
-				has_culture_group = culture_group:arabic_group
-			}
-			arabic_pack_name_ai_female = yes
-		}
-		else_if = {
-			limit = {
-				is_male = yes
-				has_culture_group = culture_group:iranian_group
-				has_religion = religion:christianity_religion
-			}
-			persian_christian_male_name_effect = yes
-		}
-		else_if = {
-			limit = {
-				is_male = yes
-				has_culture_group = culture_group:iranian_group
-				has_religion = religion:islam_religion
-			}
-			persian_islam_male_name_effect = yes
-		}
-		else_if = {
-			limit = {
-				is_male = yes
-				has_culture_group = culture_group:iranian_group
-			}
-			persian_fallback_male_name_effect = yes
-		}
-		else_if = {
-			limit = {
-				is_male = no
-				has_culture_group = culture_group:iranian_group
-				has_religion = religion:christianity_religion
-			}
-			persian_christian_female_name_effect = yes
-		}
-		else_if = {
-			limit = {
-				is_male = no
-				has_culture_group = culture_group:iranian_group
-				has_religion = religion:islam_religion
-			}
-			persian_islam_female_name_effect = yes
-		}
-		else_if = {
-			limit = {
-				is_male = no
-				has_culture_group = culture_group:iranian_group
-			}
-			persian_fallback_female_name_effect = yes
-		}
+		courtier_effect_cnp = yes
 	}
 }
 random_yearly_everyone_pulse = {

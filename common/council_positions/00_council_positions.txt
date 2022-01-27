@@ -653,7 +653,7 @@ councillor_spouse = {
 										has_government = feudal_government
 										has_government = clan_government
 									}
-									has_culture_group = culture_group:iranian_group
+									persian_excluder = yes
 								}
 							}
 							desc = emperor_feudal_male_iranian_group
@@ -666,7 +666,7 @@ councillor_spouse = {
 										has_government = feudal_government
 										has_government = clan_government
 									}
-									has_culture_group = culture_group:iranian_group
+									persian_excluder = yes
 								}
 							}
 							desc = king_feudal_male_iranian_group
@@ -679,7 +679,7 @@ councillor_spouse = {
 										has_government = feudal_government
 										has_government = clan_government
 									}
-									has_culture_group = culture_group:iranian_group
+									persian_excluder = yes
 								}
 							}
 							desc = duke_feudal_male_iranian_group
@@ -692,7 +692,7 @@ councillor_spouse = {
 										has_government = feudal_government
 										has_government = clan_government
 									}
-									has_culture_group = culture_group:iranian_group
+									persian_excluder = yes
 								}
 							}
 							desc = count_feudal_male_iranian_group
@@ -705,7 +705,7 @@ councillor_spouse = {
 										has_government = feudal_government
 										has_government = clan_government
 									}
-									has_culture_group = culture_group:iranian_group
+									persian_excluder = yes
 								}
 							}
 							desc = baron_feudal_male_iranian_group
@@ -1563,7 +1563,7 @@ councillor_spouse = {
 									has_government = feudal_government
 									has_government = clan_government
 								}
-								has_culture_group = culture_group:iranian_group
+								persian_excluder = yes
 							}
 						}
 						desc = emperor_feudal_female_iranian_group
@@ -1576,7 +1576,7 @@ councillor_spouse = {
 									has_government = feudal_government
 									has_government = clan_government
 								}
-								has_culture_group = culture_group:iranian_group
+								persian_excluder = yes
 								NOT = { religion = religion:islam_religion } # Uses persianized arabic titles instead
 							}
 						}
@@ -1590,7 +1590,7 @@ councillor_spouse = {
 									has_government = feudal_government
 									has_government = clan_government
 								}
-								has_culture_group = culture_group:iranian_group
+								persian_excluder = yes
 								NOT = { religion = religion:islam_religion } # Uses persianized arabic titles instead
 							}
 						}
@@ -1604,7 +1604,7 @@ councillor_spouse = {
 									has_government = feudal_government
 									has_government = clan_government
 								}
-								has_culture_group = culture_group:iranian_group
+								persian_excluder = yes
 								NOT = { religion = religion:islam_religion } # Uses persianized arabic titles instead
 							}
 						}
@@ -1618,7 +1618,7 @@ councillor_spouse = {
 									has_government = feudal_government
 									has_government = clan_government
 								}
-								has_culture_group = culture_group:iranian_group
+								persian_excluder = yes
 								NOT = { religion = religion:islam_religion } # Uses persianized arabic titles instead
 							}
 						}
@@ -1635,7 +1635,7 @@ councillor_spouse = {
 									has_government = feudal_government
 									has_government = clan_government
 								}
-								has_culture_group = culture_group:iranian_group
+								persian_excluder = yes
 								religion = religion:islam_religion
 							}
 						}
@@ -1649,7 +1649,7 @@ councillor_spouse = {
 									has_government = feudal_government
 									has_government = clan_government
 								}
-								has_culture_group = culture_group:iranian_group
+								persian_excluder = yes
 								religion = religion:islam_religion
 							}
 						}
@@ -1663,7 +1663,7 @@ councillor_spouse = {
 									has_government = feudal_government
 									has_government = clan_government
 								}
-								has_culture_group = culture_group:iranian_group
+								persian_excluder = yes
 								religion = religion:islam_religion
 							}
 						}
@@ -1677,7 +1677,7 @@ councillor_spouse = {
 									has_government = feudal_government
 									has_government = clan_government
 								}
-								has_culture_group = culture_group:iranian_group
+								persian_excluder = yes
 								religion = religion:islam_religion
 							}
 						}

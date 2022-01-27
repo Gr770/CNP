@@ -6,6 +6,7 @@ is_ctp_supported_culture = {
     OR = {
 	    has_culture_group = culture_group:arabic_group
         has_culture_group = culture_group:north_germanic_group
+        persian_excluder = yes
     }
 }
 
@@ -17,4 +18,12 @@ KoH_loaded_checker = {
 ME_loaded_checker = {
     trigger_if = { ME_is_loaded = yes }
     trigger_else = { always = no }
+}
+
+persian_excluder = {
+    has_culture_group = culture_group:iranian_group
+    NOT = {
+        has_culture = culture:baloch
+        has_culture = culture:afghan
+    }
 }
