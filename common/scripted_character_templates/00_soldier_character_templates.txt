@@ -48,33 +48,79 @@ soldier_friend_character = {
 	}
 	after_creation = {
 		if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_male = yes
+			limit = {
+				is_male = yes
+				has_culture_group = culture_group:north_germanic_group
 			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_female = yes
+			norse_pack_name_ai_male = yes
+		}
+		else_if = {
+			limit = {
+				is_male = no
+				has_culture_group = culture_group:north_germanic_group
 			}
-			else_if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_male = yes
+			norse_pack_name_ai_female = yes
+		}
+		else_if = {
+			limit = {
+				is_male = yes
+				has_culture_group = culture_group:arabic_group
 			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_female = yes
+			arabic_pack_name_ai_male = yes
+		}
+		else_if = {
+			limit = {
+				is_male = no
+				has_culture_group = culture_group:arabic_group
 			}
+			arabic_pack_name_ai_female = yes
+		}
+		else_if = {
+			limit = {
+				is_male = yes
+				has_culture_group = culture_group:iranian_group
+				has_religion = religion:christianity_religion
+			}
+			persian_christian_male_name_effect = yes
+		}
+		else_if = {
+			limit = {
+				is_male = yes
+				has_culture_group = culture_group:iranian_group
+				has_religion = religion:islam_religion
+			}
+			persian_islam_male_name_effect = yes
+		}
+		else_if = {
+			limit = {
+				is_male = yes
+				has_culture_group = culture_group:iranian_group
+			}
+			persian_fallback_male_name_effect = yes
+		}
+		else_if = {
+			limit = {
+				is_male = no
+				has_culture_group = culture_group:iranian_group
+				has_religion = religion:christianity_religion
+			}
+			persian_christian_female_name_effect = yes
+		}
+		else_if = {
+			limit = {
+				is_male = no
+				has_culture_group = culture_group:iranian_group
+				has_religion = religion:islam_religion
+			}
+			persian_islam_female_name_effect = yes
+		}
+		else_if = {
+			limit = {
+				is_male = no
+				has_culture_group = culture_group:iranian_group
+			}
+			persian_fallback_female_name_effect = yes
+		}
 	}
 }
 
@@ -126,33 +172,79 @@ new_commander_character = {
 			give_random_commander_trait_effect = yes
 		}
 		if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_male = yes
+			limit = {
+				is_male = yes
+				has_culture_group = culture_group:north_germanic_group
 			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_female = yes
+			norse_pack_name_ai_male = yes
+		}
+		else_if = {
+			limit = {
+				is_male = no
+				has_culture_group = culture_group:north_germanic_group
 			}
-			else_if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_male = yes
+			norse_pack_name_ai_female = yes
+		}
+		else_if = {
+			limit = {
+				is_male = yes
+				has_culture_group = culture_group:arabic_group
 			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_female = yes
+			arabic_pack_name_ai_male = yes
+		}
+		else_if = {
+			limit = {
+				is_male = no
+				has_culture_group = culture_group:arabic_group
 			}
+			arabic_pack_name_ai_female = yes
+		}
+		else_if = {
+			limit = {
+				is_male = yes
+				has_culture_group = culture_group:iranian_group
+				has_religion = religion:christianity_religion
+			}
+			persian_christian_male_name_effect = yes
+		}
+		else_if = {
+			limit = {
+				is_male = yes
+				has_culture_group = culture_group:iranian_group
+				has_religion = religion:islam_religion
+			}
+			persian_islam_male_name_effect = yes
+		}
+		else_if = {
+			limit = {
+				is_male = yes
+				has_culture_group = culture_group:iranian_group
+			}
+			persian_fallback_male_name_effect = yes
+		}
+		else_if = {
+			limit = {
+				is_male = no
+				has_culture_group = culture_group:iranian_group
+				has_religion = religion:christianity_religion
+			}
+			persian_christian_female_name_effect = yes
+		}
+		else_if = {
+			limit = {
+				is_male = no
+				has_culture_group = culture_group:iranian_group
+				has_religion = religion:islam_religion
+			}
+			persian_islam_female_name_effect = yes
+		}
+		else_if = {
+			limit = {
+				is_male = no
+				has_culture_group = culture_group:iranian_group
+			}
+			persian_fallback_female_name_effect = yes
+		}
 	}
 }
 
@@ -242,33 +334,79 @@ new_warrior_character = {
 			give_random_commander_trait_effect = yes
 		}
 		if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_male = yes
+			limit = {
+				is_male = yes
+				has_culture_group = culture_group:north_germanic_group
 			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_female = yes
+			norse_pack_name_ai_male = yes
+		}
+		else_if = {
+			limit = {
+				is_male = no
+				has_culture_group = culture_group:north_germanic_group
 			}
-			else_if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_male = yes
+			norse_pack_name_ai_female = yes
+		}
+		else_if = {
+			limit = {
+				is_male = yes
+				has_culture_group = culture_group:arabic_group
 			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_female = yes
+			arabic_pack_name_ai_male = yes
+		}
+		else_if = {
+			limit = {
+				is_male = no
+				has_culture_group = culture_group:arabic_group
 			}
+			arabic_pack_name_ai_female = yes
+		}
+		else_if = {
+			limit = {
+				is_male = yes
+				has_culture_group = culture_group:iranian_group
+				has_religion = religion:christianity_religion
+			}
+			persian_christian_male_name_effect = yes
+		}
+		else_if = {
+			limit = {
+				is_male = yes
+				has_culture_group = culture_group:iranian_group
+				has_religion = religion:islam_religion
+			}
+			persian_islam_male_name_effect = yes
+		}
+		else_if = {
+			limit = {
+				is_male = yes
+				has_culture_group = culture_group:iranian_group
+			}
+			persian_fallback_male_name_effect = yes
+		}
+		else_if = {
+			limit = {
+				is_male = no
+				has_culture_group = culture_group:iranian_group
+				has_religion = religion:christianity_religion
+			}
+			persian_christian_female_name_effect = yes
+		}
+		else_if = {
+			limit = {
+				is_male = no
+				has_culture_group = culture_group:iranian_group
+				has_religion = religion:islam_religion
+			}
+			persian_islam_female_name_effect = yes
+		}
+		else_if = {
+			limit = {
+				is_male = no
+				has_culture_group = culture_group:iranian_group
+			}
+			persian_fallback_female_name_effect = yes
+		}
 	}
 }
 
@@ -324,33 +462,79 @@ new_siege_engineer = {
 			give_random_commander_trait_effect = yes
 		}
 		if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_male = yes
+			limit = {
+				is_male = yes
+				has_culture_group = culture_group:north_germanic_group
 			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_female = yes
+			norse_pack_name_ai_male = yes
+		}
+		else_if = {
+			limit = {
+				is_male = no
+				has_culture_group = culture_group:north_germanic_group
 			}
-			else_if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_male = yes
+			norse_pack_name_ai_female = yes
+		}
+		else_if = {
+			limit = {
+				is_male = yes
+				has_culture_group = culture_group:arabic_group
 			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_female = yes
+			arabic_pack_name_ai_male = yes
+		}
+		else_if = {
+			limit = {
+				is_male = no
+				has_culture_group = culture_group:arabic_group
 			}
+			arabic_pack_name_ai_female = yes
+		}
+		else_if = {
+			limit = {
+				is_male = yes
+				has_culture_group = culture_group:iranian_group
+				has_religion = religion:christianity_religion
+			}
+			persian_christian_male_name_effect = yes
+		}
+		else_if = {
+			limit = {
+				is_male = yes
+				has_culture_group = culture_group:iranian_group
+				has_religion = religion:islam_religion
+			}
+			persian_islam_male_name_effect = yes
+		}
+		else_if = {
+			limit = {
+				is_male = yes
+				has_culture_group = culture_group:iranian_group
+			}
+			persian_fallback_male_name_effect = yes
+		}
+		else_if = {
+			limit = {
+				is_male = no
+				has_culture_group = culture_group:iranian_group
+				has_religion = religion:christianity_religion
+			}
+			persian_christian_female_name_effect = yes
+		}
+		else_if = {
+			limit = {
+				is_male = no
+				has_culture_group = culture_group:iranian_group
+				has_religion = religion:islam_religion
+			}
+			persian_islam_female_name_effect = yes
+		}
+		else_if = {
+			limit = {
+				is_male = no
+				has_culture_group = culture_group:iranian_group
+			}
+			persian_fallback_female_name_effect = yes
+		}
 	}
 }
 
@@ -415,32 +599,78 @@ new_berserker_character = {
 	prowess = { 8 12 }
 	after_creation = {
 		if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_male = yes
+			limit = {
+				is_male = yes
+				has_culture_group = culture_group:north_germanic_group
 			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_female = yes
+			norse_pack_name_ai_male = yes
+		}
+		else_if = {
+			limit = {
+				is_male = no
+				has_culture_group = culture_group:north_germanic_group
 			}
-			else_if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_male = yes
+			norse_pack_name_ai_female = yes
+		}
+		else_if = {
+			limit = {
+				is_male = yes
+				has_culture_group = culture_group:arabic_group
 			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_female = yes
+			arabic_pack_name_ai_male = yes
+		}
+		else_if = {
+			limit = {
+				is_male = no
+				has_culture_group = culture_group:arabic_group
 			}
+			arabic_pack_name_ai_female = yes
+		}
+		else_if = {
+			limit = {
+				is_male = yes
+				has_culture_group = culture_group:iranian_group
+				has_religion = religion:christianity_religion
+			}
+			persian_christian_male_name_effect = yes
+		}
+		else_if = {
+			limit = {
+				is_male = yes
+				has_culture_group = culture_group:iranian_group
+				has_religion = religion:islam_religion
+			}
+			persian_islam_male_name_effect = yes
+		}
+		else_if = {
+			limit = {
+				is_male = yes
+				has_culture_group = culture_group:iranian_group
+			}
+			persian_fallback_male_name_effect = yes
+		}
+		else_if = {
+			limit = {
+				is_male = no
+				has_culture_group = culture_group:iranian_group
+				has_religion = religion:christianity_religion
+			}
+			persian_christian_female_name_effect = yes
+		}
+		else_if = {
+			limit = {
+				is_male = no
+				has_culture_group = culture_group:iranian_group
+				has_religion = religion:islam_religion
+			}
+			persian_islam_female_name_effect = yes
+		}
+		else_if = {
+			limit = {
+				is_male = no
+				has_culture_group = culture_group:iranian_group
+			}
+			persian_fallback_female_name_effect = yes
+		}
 	}
 }
