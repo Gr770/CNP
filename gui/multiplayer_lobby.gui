@@ -314,7 +314,7 @@
 
 									item = {
 										icon_trait = {
-											datacontext = "[GetTraitForIndex(uint16.GetUint)]"
+											datacontext = "[GetTraitForIndex(int32.GetInt)]"
 											visible = "[Trait.IsPersonality]"
 											blockoverride "icon_size"
 											{
@@ -338,6 +338,10 @@
 										alwaystransparent = yes
 										datacontext = "[Character.GetFaith]"
 										size = { 45 45 }
+
+										tooltipwidget = { faith_tooltip_core_tenents = {} }
+
+										using = tooltip_ws
 									}
 
 									vbox = {
@@ -353,7 +357,9 @@
 											align = nobaseline
 											max_width = 220
 
-											tooltipwidget = { faith_tooltip = {} }
+											tooltipwidget = { faith_tooltip_core_tenents = {} }
+
+											using = tooltip_ws
 										}
 
 										text_single = {
@@ -364,9 +370,9 @@
 											align = nobaseline
 											max_width = 220
 
-											tooltipwidget = {
-												culture_tooltip = {}
-											}
+											tooltipwidget = { ruler_designer_culture_tooltip = {} }
+
+											using = tooltip_ws
 										}
 									}
 								}
@@ -494,7 +500,6 @@
 				scrollwidget = {
 					### DIFFICULTY ###
 					vbox = {
-						layoutpolicy_horizontal = expanding
 						spacing = 5
 						margin_bottom = 10
 						visible = "[Character.HasDifficultyInfo]"
@@ -723,17 +728,19 @@
 	widget = {
 		parentanchor = bottom
 		size = { 100% 215 }
+		allow_outside = yes
 
 		vbox = {
-			layoutpolicy_vertical = expanding
 			expand = {}
+			allow_outside = yes
 
 			hbox = {
 				layoutpolicy_horizontal = expanding
 				spacing = 30
-				margin_top = 120
+				margin_top = 20
 				margin_left = 440
 				margin_right = 390
+				allow_outside = yes
 
 				vbox = {
 					spacing = 5
@@ -751,6 +758,15 @@
 							texture = "gfx/interface/component_masks/mask_fade_vertical_up.dds"
 							blend_mode = alphamultiply
 						}
+					}
+
+					button_standard = {
+						size = { 200 40 }
+						visible = "[InDebugMode]"
+						text = "FIND_TITLE"
+						shortcut = "find_title_shortcut"
+						onclick = "[ToggleGameView( 'find_title' )]"
+						tooltip = "IM_TT_FIND_TITLE"
 					}
 
 					JominiLobbyViewButton = {

@@ -125,7 +125,7 @@ ctp_courtiers_2 = {
 						is_landed = yes
 					}
 				}
-				is_ctp_supported_culture = yes
+				is_cnp_supported_culture = yes
 			}
 			courtier_effect_cnp = yes
 		}
@@ -163,7 +163,7 @@ ctp_courtiers = {
 				is_landed = yes
 			}
 		}
-		is_ctp_supported_culture = yes
+		is_cnp_supported_culture = yes
 	}
 	effect = {
 		courtier_effect_cnp = yes

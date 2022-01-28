@@ -90,26 +90,25 @@ CTPShortEventName = {
     type = character
     text = {
         trigger = {
-            persian_excluder = yes
-            has_religion = religion:islam_religion
+            persian_muslim_check = yes
         }
 		localization_key = CTP_Short_event_Persian_Muslim
     }
     text = {
         trigger = {
-            persian_excluder = yes
+            persian_standard_check = yes
         }
 		localization_key = CTP_Short_event_Persian
     }
     text = {
         trigger = {
-			has_culture_group = culture_group:arabic_group
+			arabic_check = yes
 		}
 		localization_key = CTP_Short_event_Arabic
     }
     text = {
         trigger = {
-			has_culture_group = culture_group:north_germanic_group
+			north_check = yes
 		}
 		localization_key = CTP_Short_event_North
     }
@@ -122,26 +121,25 @@ CTPFullName = {
 	type = character
 	text = {
 		trigger = {
-			has_culture_group = culture_group:north_germanic_group
+			north_check = yes
 		}
 		localization_key = CTP_Full_Name_North
 	}
     text = {
         trigger = {
-            persian_excluder = yes
-            has_religion = religion:islam_religion
+            persian_muslim_check = yes
         }
 		localization_key = CTP_Full_Name_Persian_Muslim
     }
     text = {
         trigger = {
-            persian_excluder = yes
+            persian_standard_check = yes
         }
 		localization_key = CTP_Full_Name_Persian
     }
 	text = {
 		trigger = {
-			has_culture_group = culture_group:arabic_group
+			arabic_check = yes
 		}
 		localization_key = CTP_Full_Name_Arabic
 	}
@@ -154,27 +152,25 @@ CTPFullNameConcept = {
 	type = character
 	text = {
 		trigger = {
-			persian_excluder = yes
-            has_religion = religion:islam_religion
+			persian_muslim_check = yes
 		}
 		localization_key = CTP_Full_Name_Concept_Persian_Muslim
 	}
 	text = {
 		trigger = {
-			persian_excluder = yes
-            has_religion = religion:islam_religion
+			persian_muslim_check = yes
 		}
 		localization_key = CTP_Full_Name_Concept_Persian
 	}
 	text = {
 		trigger = {
-			has_culture_group = culture_group:arabic_group
+			arabic_check = yes
 		}
 		localization_key = CTP_Full_Name_Concept_Arabic
 	}
 	text = {
 		trigger = {
-			has_culture_group = culture_group:north_germanic_group
+			north_check = yes
 		}
 		localization_key = CTP_Full_Name_Concept_North
 	}
@@ -187,26 +183,25 @@ CTPFullName2 = {
     type = character
     text = {
 		trigger = {
-			persian_excluder = yes
-            has_religion = religion:islam_religion
+			persian_muslim_check = yes
 		}
 		localization_key = CTP_Name_Persian_Muslim_no_format
 	}
     text = {
 		trigger = {
-			persian_excluder = yes
+			persian_standard_check = yes
 		}
 		localization_key = CTP_Name_Persian_no_format
     }
 	text = {
 		trigger = {
-			has_culture_group = culture_group:arabic_group
+			arabic_check = yes
 		}
 		localization_key = CTP_Name_Arabic_no_format
 	}
 	text = {
 		trigger = {
-			has_culture_group = culture_group:north_germanic_group
+			north_check = yes
 		}
 		localization_key = CTP_Full_Name_North_no_format
 	}
@@ -219,26 +214,25 @@ CTPFullName2NoTooltip = {
     type = character
     text = {
 		trigger = {
-			persian_excluder = yes
-            has_religion = religion:islam_religion
+			persian_muslim_check = yes
 		}
 		localization_key = CTP_Name_Persian_Muslim_no_tooltip_no_format
 	}
     text = {
 		trigger = {
-			persian_excluder = yes
+			persian_standard_check = yes
 		}
 		localization_key = CTP_Name_Persian_no_tooltip_no_format
     }
 	text = {
 		trigger = {
-			has_culture_group = culture_group:arabic_group
+			arabic_check = yes
 		}
 		localization_key = CTP_Name_Arabic_no_tooltip_no_format
 	}
 	text = {
 		trigger = {
-			has_culture_group = culture_group:north_germanic_group
+			north_check = yes
 		}
 		localization_key = CTP_Full_Name_North_no_tooltip_no_format
 	}
@@ -251,19 +245,19 @@ CTPTitleTierName = {
     type = character
     text = {
 		trigger = {
-			persian_excluder = yes
+			persian_standard_check = yes
 		}
 		localization_key = CTP_Title_Tier_Name_Arabic
 	}
     text = {
 		trigger = {
-			has_culture_group = culture_group:arabic_group
+			arabic_check = yes
 		}
 		localization_key = CTP_Title_Tier_Name_Arabic
 	}
     text = {
 		trigger = {
-			has_culture_group = culture_group:north_germanic_group
+			north_check = yes
 		}
 		localization_key = CTP_Title_Tier_Name_North
 	}
@@ -276,19 +270,19 @@ CTPTitleTierNamePossessive = {
     type = character
     text = {
 		trigger = {
-			persian_excluder = yes
+			persian_standard_check = yes
 		}
 		localization_key = CTP_Title_Tier_Name_Arabic_possesive
 	}
     text = {
 		trigger = {
-			has_culture_group = culture_group:arabic_group
+			arabic_check = yes
 		}
 		localization_key = CTP_Title_Tier_Name_Arabic_possesive
 	}
     text = {
 		trigger = {
-			has_culture_group = culture_group:north_germanic_group
+			north_check = yes
 		}
 		localization_key = CTP_Title_Tier_Name_North_possesive
 	}
@@ -301,26 +295,25 @@ CTPTitledFirstName = {
     type = character
     text = {
 		trigger = {
-			persian_excluder = yes
-            has_religion = religion:islam_religion
+			persian_muslim_check = yes
 		}
 		localization_key = CTP_First_Name_Persian_Muslim
 	}
     text = {
 		trigger = {
-			persian_excluder = yes
+			persian_standard_check = yes
 		}
 		localization_key = CTP_First_Name_Persian
     }
 	text = {
 		trigger = {
-			has_culture_group = culture_group:arabic_group
+			arabic_check = yes
 		}
 		localization_key = CTP_Name_Arabic_no_format
 	}
 	text = {
 		trigger = {
-			has_culture_group = culture_group:north_germanic_group
+			north_check = yes
 		}
 		localization_key = CTP_Name_North_Titled_First_Name
 	}
@@ -333,26 +326,25 @@ CTPTitledFirstNameNicknamed = {
     type = character
     text = {
 		trigger = {
-			persian_excluder = yes
-            has_religion = religion:islam_religion
+			persian_muslim_check = yes
 		}
 		localization_key = CTP_First_Name_Persian_Muslim_Nick
 	}
     text = {
 		trigger = {
-			persian_excluder = yes
+			persian_standard_check = yes
 		}
 		localization_key = CTP_First_Name_Persian_Nick
     }
 	text = {
 		trigger = {
-			has_culture_group = culture_group:arabic_group
+			arabic_check = yes
 		}
 		localization_key = CTP_Name_Arabic_no_format
 	}
 	text = {
 		trigger = {
-			has_culture_group = culture_group:north_germanic_group
+			north_check = yes
 		}
 		localization_key = CTP_Name_North_Titled_First_Name_Nick
 	}
@@ -365,26 +357,25 @@ CTPTitledFirstNameNicknamedNoTooltip = {
     type = character
     text = {
 		trigger = {
-			persian_excluder = yes
-            has_religion = religion:islam_religion
+			persian_muslim_check = yes
 		}
 		localization_key = CTP_First_Name_Persian_Muslim_Nick
 	}
     text = {
 		trigger = {
-			persian_excluder = yes
+			persian_standard_check = yes
 		}
 		localization_key = CTP_First_Name_Persian_Nick
     }
 	text = {
 		trigger = {
-			has_culture_group = culture_group:arabic_group
+			arabic_check = yes
 		}
 		localization_key = CTP_Name_Arabic_no_tooltip_no_format
 	}
 	text = {
 		trigger = {
-			has_culture_group = culture_group:north_germanic_group
+			north_check = yes
 		}
 		localization_key = CTP_Name_North_Titled_First_Name_Nick_no_tooltip
 	}
@@ -397,26 +388,25 @@ CTPTitledFirstNameNoTooltip = {
     type = character
     text = {
 		trigger = {
-			persian_excluder = yes
-            has_religion = religion:islam_religion
+			persian_muslim_check = yes
 		}
 		localization_key = CTP_First_Name_Persian_Muslim
 	}
     text = {
 		trigger = {
-			persian_excluder = yes
+			persian_standard_check = yes
 		}
 		localization_key = CTP_First_Name_Persian
     }
 	text = {
 		trigger = {
-			has_culture_group = culture_group:arabic_group
+			arabic_check = yes
 		}
 		localization_key = CTP_Name_Arabic_no_tooltip_no_format
 	}
 	text = {
 		trigger = {
-			has_culture_group = culture_group:north_germanic_group
+			north_check = yes
 		}
 		localization_key = CTP_Name_North_Titled_First_Name_no_tooltip
 	}
@@ -435,26 +425,25 @@ CTPTitledFirstNameOrMe = {
     }
     text = {
 		trigger = {
-			persian_excluder = yes
-            has_religion = religion:islam_religion
+			persian_muslim_check = yes
 		}
 		localization_key = CTP_First_Name_Persian_Muslim
 	}
     text = {
 		trigger = {
-			persian_excluder = yes
+			persian_standard_check = yes
 		}
 		localization_key = CTP_First_Name_Persian
     }
 	text = {
 		trigger = {
-			has_culture_group = culture_group:arabic_group
+			arabic_check = yes
 		}
 		localization_key = CTP_Name_Arabic_no_format
 	}
 	text = {
 		trigger = {
-			has_culture_group = culture_group:north_germanic_group
+			north_check = yes
 		}
 		localization_key = CTP_Name_North_Titled_First_Name
 	}
@@ -473,26 +462,25 @@ CTPTitledFirstNameOrMeNoTooltip = {
     }
     text = {
 		trigger = {
-			persian_excluder = yes
-            has_religion = religion:islam_religion
+			persian_muslim_check = yes
 		}
 		localization_key = CTP_First_Name_Persian_Muslim
 	}
     text = {
 		trigger = {
-			persian_excluder = yes
+			persian_standard_check = yes
 		}
 		localization_key = CTP_First_Name_Persian
     }
 	text = {
 		trigger = {
-			has_culture_group = culture_group:arabic_group
+			arabic_check = yes
 		}
 		localization_key = CTP_Name_Arabic_no_tooltip_no_format
 	}
 	text = {
 		trigger = {
-			has_culture_group = culture_group:north_germanic_group
+			north_check = yes
 		}
 		localization_key = CTP_Name_North_Titled_First_Name_no_tooltip
 	}
@@ -505,26 +493,25 @@ CTPTitledFirstNamePossessive = {
     type = character
     text = {
 		trigger = {
-			persian_excluder = yes
-            has_religion = religion:islam_religion
+			persian_muslim_check = yes
 		}
 		localization_key = CTP_First_Name_Persian_Muslim
 	}
     text = {
 		trigger = {
-			persian_excluder = yes
+			persian_standard_check = yes
 		}
 		localization_key = CTP_First_Name_Persian
     }
 	text = {
 		trigger = {
-			has_culture_group = culture_group:arabic_group
+			arabic_check = yes
 		}
 		localization_key = CTP_Name_Arabic_possessive_no_format
 	}
 	text = {
 		trigger = {
-			has_culture_group = culture_group:north_germanic_group
+			north_check = yes
 		}
 		localization_key = CTP_Name_North_Titled_First_Name_possessive
 	}
@@ -543,26 +530,25 @@ CTPTitledFirstNamePossessiveOrMy = {
     }
     text = {
 		trigger = {
-			persian_excluder = yes
-            has_religion = religion:islam_religion
+			persian_muslim_check = yes
 		}
 		localization_key = CTP_First_Name_Persian_Muslim
 	}
     text = {
 		trigger = {
-			persian_excluder = yes
+			persian_standard_check = yes
 		}
 		localization_key = CTP_First_Name_Persian
     }
 	text = {
 		trigger = {
-			has_culture_group = culture_group:arabic_group
+			arabic_check = yes
 		}
 		localization_key = CTP_Name_Arabic_possessive_no_format
 	}
 	text = {
 		trigger = {
-			has_culture_group = culture_group:north_germanic_group
+			north_check = yes
 		}
 		localization_key = CTP_Name_North_Titled_First_Name_possessive
 	}
@@ -575,26 +561,25 @@ CTPTitledFirstNamePossessiveNoTooltip = {
     type = character
     text = {
 		trigger = {
-			persian_excluder = yes
-            has_religion = religion:islam_religion
+			persian_muslim_check = yes
 		}
 		localization_key = CTP_First_Name_Persian_Muslim
 	}
     text = {
 		trigger = {
-			persian_excluder = yes
+			persian_standard_check = yes
 		}
 		localization_key = CTP_First_Name_Persian
     }
 	text = {
 		trigger = {
-			has_culture_group = culture_group:arabic_group
+			arabic_check = yes
 		}
 		localization_key = CTP_Name_Arabic_no_tooltip_possesive_no_format
 	}
 	text = {
 		trigger = {
-			has_culture_group = culture_group:north_germanic_group
+			north_check = yes
 		}
 		localization_key = CTP_Name_North_Titled_First_Name_possessive_no_tooltip
 	}
@@ -613,26 +598,25 @@ CTPTitledFirstNamePossessiveOrMyNoTooltip = {
     }
     text = {
 		trigger = {
-			persian_excluder = yes
-            has_religion = religion:islam_religion
+			persian_muslim_check = yes
 		}
 		localization_key = CTP_First_Name_Persian_Muslim
 	}
     text = {
 		trigger = {
-			persian_excluder = yes
+			persian_standard_check = yes
 		}
 		localization_key = CTP_First_Name_Persian
     }
 	text = {
 		trigger = {
-			has_culture_group = culture_group:arabic_group
+			arabic_check = yes
 		}
 		localization_key = CTP_Name_Arabic_no_tooltip_possesive_no_format
 	}
 	text = {
 		trigger = {
-			has_culture_group = culture_group:north_germanic_group
+			north_check = yes
 		}
 		localization_key = CTP_Name_North_Titled_First_Name_possessive_no_tooltip
 	}
@@ -645,7 +629,7 @@ CTPTitleAsName = {
     type = character
     text = {
 		trigger = {
-            is_ctp_supported_culture = yes
+            is_cnp_supported_culture = yes
 		}
 		localization_key = CTP_Title_as_Name
 	}
@@ -658,7 +642,7 @@ CTPTitleAsNameNoTooltip = {
     type = character
     text = {
 		trigger = {
-            is_ctp_supported_culture = yes
+            is_cnp_supported_culture = yes
 		}
 		localization_key = CTP_Title_as_Name_no_tooltip
 	}
@@ -671,7 +655,7 @@ CTPTitleAsNamePossessive = {
     type = character
     text = {
 		trigger = {
-            is_ctp_supported_culture = yes
+            is_cnp_supported_culture = yes
 		}
 		localization_key = CTP_Title_as_Name_possesive
 	}
@@ -684,7 +668,7 @@ CTPTitleAsNamePossessiveNoTooltip = {
     type = character
     text = {
 		trigger = {
-            is_ctp_supported_culture = yes
+            is_cnp_supported_culture = yes
 		}
 		localization_key = CTP_Title_as_Name_no_tooltip_possesive
 	}
@@ -697,26 +681,25 @@ CTPRegName = {
     type = character
     text = {
 		trigger = {
-			persian_excluder = yes
-            has_religion = religion:islam_religion
+			persian_muslim_check = yes
 		}
 		localization_key = CTP_Name_Persian_Muslim_no_format
 	}
     text = {
 		trigger = {
-			persian_excluder = yes
+			persian_standard_check = yes
 		}
 		localization_key = CTP_Name_Persian_no_format
     }
 	text = {
 		trigger = {
-			has_culture_group = culture_group:arabic_group
+			arabic_check = yes
 		}
 		localization_key = CTP_Name_Arabic_no_format
 	}
 	text = {
 		trigger = {
-			has_culture_group = culture_group:north_germanic_group
+			north_check = yes
 		}
 		localization_key = CTP_Name_North_no_format
 	}
@@ -729,26 +712,25 @@ CTPRegNameNoTooltip = {
     type = character
     text = {
 		trigger = {
-			persian_excluder = yes
-            has_religion = religion:islam_religion
+			persian_muslim_check = yes
 		}
 		localization_key = CTP_Name_Persian_Muslim_no_tooltip_no_format
 	}
     text = {
 		trigger = {
-			persian_excluder = yes
+			persian_standard_check = yes
 		}
 		localization_key = CTP_Name_Persian_no_tooltip_no_format
     }
 	text = {
 		trigger = {
-			has_culture_group = culture_group:arabic_group
+			arabic_check = yes
 		}
 		localization_key = CTP_Name_Arabic_no_tooltip_no_format
 	}
 	text = {
 		trigger = {
-			has_culture_group = culture_group:north_germanic_group
+			north_check = yes
 		}
 		localization_key = CTP_Name_North_no_format_no_tooltip
 	}
@@ -767,26 +749,25 @@ CTPRegNameOrMe = {
     }
     text = {
 		trigger = {
-			persian_excluder = yes
-            has_religion = religion:islam_religion
+			persian_muslim_check = yes
 		}
 		localization_key = CTP_Name_Persian_Muslim_no_format
 	}
     text = {
 		trigger = {
-			persian_excluder = yes
+			persian_standard_check = yes
 		}
 		localization_key = CTP_Name_Persian_no_format
     }
 	text = {
 		trigger = {
-			has_culture_group = culture_group:arabic_group
+			arabic_check = yes
 		}
 		localization_key = CTP_Name_Arabic_no_format
 	}
 	text = {
 		trigger = {
-			has_culture_group = culture_group:north_germanic_group
+			north_check = yes
 		}
 		localization_key = CTP_Name_North_no_format
 	}
@@ -799,26 +780,25 @@ CTPRegNamePossessive = {
     type = character
     text = {
 		trigger = {
-			persian_excluder = yes
-            has_religion = religion:islam_religion
+			persian_muslim_check = yes
 		}
 		localization_key = CTP_Name_Persian_Muslim_possessive_no_format
 	}
     text = {
 		trigger = {
-			persian_excluder = yes
+			persian_standard_check = yes
 		}
 		localization_key = CTP_Name_Persian_possessive_no_format
     }
     text = {
 		trigger = {
-			has_culture_group = culture_group:arabic_group
+			arabic_check = yes
 		}
 		localization_key = CTP_Name_Arabic_possessive_no_format
 	}
 	text = {
 		trigger = {
-			has_culture_group = culture_group:north_germanic_group
+			north_check = yes
 		}
 		localization_key = CTP_Name_North_no_format_possessive
 	}
@@ -831,26 +811,25 @@ CTPRegNamePossessiveNoTooltip = {
     type = character
     text = {
 		trigger = {
-			persian_excluder = yes
-            has_religion = religion:islam_religion
+			persian_muslim_check = yes
 		}
 		localization_key = CTP_Name_Persian_Muslim_no_tooltip_possesive_no_format
 	}
     text = {
 		trigger = {
-			persian_excluder = yes
+			persian_standard_check = yes
 		}
 		localization_key = CTP_Name_Persian_no_tooltip_possesive_no_format
     }
     text = {
 		trigger = {
-			has_culture_group = culture_group:arabic_group
+			arabic_check = yes
 		}
 		localization_key = CTP_Name_Arabic_no_tooltip_possesive_no_format
 	}
 	text = {
 		trigger = {
-			has_culture_group = culture_group:north_germanic_group
+			north_check = yes
 		}
 		localization_key = CTP_Name_North_no_format_possessive_no_tooltip
 	}
@@ -869,26 +848,25 @@ CTPRegNamePossessiveOrMy = {
     }
     text = {
 		trigger = {
-			persian_excluder = yes
-            has_religion = religion:islam_religion
+			persian_muslim_check = yes
 		}
 		localization_key = CTP_Name_Persian_Muslim_possessive_no_format
 	}
     text = {
 		trigger = {
-			persian_excluder = yes
+			persian_standard_check = yes
 		}
 		localization_key = CTP_Name_Persian_possessive_no_format
     }
 	text = {
 		trigger = {
-			has_culture_group = culture_group:arabic_group
+			arabic_check = yes
 		}
 		localization_key = CTP_Name_Arabic_possessive_no_format
 	}
 	text = {
 		trigger = {
-			has_culture_group = culture_group:north_germanic_group
+			north_check = yes
 		}
 		localization_key = CTP_Name_North_no_format_possessive
 	}
@@ -901,26 +879,25 @@ CTPFirstName = {
     type = character
     text = {
 		trigger = {
-			persian_excluder = yes
-            has_religion = religion:islam_religion
+			persian_muslim_check = yes
 		}
 		localization_key = CTP_First_Name_Persian_Muslim
 	}
     text = {
 		trigger = {
-			persian_excluder = yes
+			persian_standard_check = yes
 		}
 		localization_key = CTP_First_Name_Persian
     }
 	text = {
 		trigger = {
-			has_culture_group = culture_group:arabic_group
+			arabic_check = yes
 		}
 		localization_key = CTP_Short_Name_Arabic
 	}
 	text = {
 		trigger = {
-			has_culture_group = culture_group:north_germanic_group
+			north_check = yes
 		}
 		localization_key = CTP_First_Name_North
 	}
@@ -933,26 +910,25 @@ CTPFirstNameNoTooltip = {
     type = character
     text = {
 		trigger = {
-			persian_excluder = yes
-            has_religion = religion:islam_religion
+			persian_muslim_check = yes
 		}
 		localization_key = CTP_First_Name_Persian_Muslim
 	}
     text = {
 		trigger = {
-			persian_excluder = yes
+			persian_standard_check = yes
 		}
 		localization_key = CTP_First_Name_Persian
     }
 	text = {
 		trigger = {
-			has_culture_group = culture_group:arabic_group
+			arabic_check = yes
 		}
 		localization_key = CTP_Short_Name_Arabic_no_tooltip_no_format
 	}
 	text = {
 		trigger = {
-			has_culture_group = culture_group:north_germanic_group
+			north_check = yes
 		}
 		localization_key = CTP_First_Name_North_no_tooltip
 	}
@@ -971,26 +947,25 @@ CTPFirstNameOrMe = {
     }
     text = {
 		trigger = {
-			persian_excluder = yes
-            has_religion = religion:islam_religion
+			persian_muslim_check = yes
 		}
 		localization_key = CTP_First_Name_Persian_Muslim
 	}
     text = {
 		trigger = {
-			persian_excluder = yes
+			persian_standard_check = yes
 		}
 		localization_key = CTP_First_Name_Persian
     }
 	text = {
 		trigger = {
-			has_culture_group = culture_group:arabic_group
+			arabic_check = yes
 		}
 		localization_key = CTP_Short_Name_Arabic_no_format
 	}
 	text = {
 		trigger = {
-			has_culture_group = culture_group:north_germanic_group
+			north_check = yes
 		}
 		localization_key = CTP_First_Name_North
 	}
@@ -1009,26 +984,25 @@ CTPFirstNamePossessiveOrMy = {
     }
     text = {
 		trigger = {
-			persian_excluder = yes
-            has_religion = religion:islam_religion
+			persian_muslim_check = yes
 		}
 		localization_key = CTP_First_Name_Persian_Muslim_possessive
 	}
     text = {
 		trigger = {
-			persian_excluder = yes
+			persian_standard_check = yes
 		}
 		localization_key = CTP_First_Name_Persian_possessive
     }
 	text = {
 		trigger = {
-			has_culture_group = culture_group:arabic_group
+			arabic_check = yes
 		}
 		localization_key = CTP_Short_Name_Arabic_possessive_no_format
 	}
 	text = {
 		trigger = {
-			has_culture_group = culture_group:north_germanic_group
+			north_check = yes
 		}
 		localization_key = CTP_First_Name_North_possessive
 	}
@@ -1041,26 +1015,25 @@ CTPFirstNamePossessive = {
     type = character
     text = {
 		trigger = {
-			persian_excluder = yes
-            has_religion = religion:islam_religion
+			persian_muslim_check = yes
 		}
 		localization_key = CTP_First_Name_Persian_Muslim_possessive
 	}
     text = {
 		trigger = {
-			persian_excluder = yes
+			persian_standard_check = yes
 		}
 		localization_key = CTP_First_Name_Persian_possessive
     }
     text = {
 		trigger = {
-			has_culture_group = culture_group:arabic_group
+			arabic_check = yes
 		}
 		localization_key = CTP_Short_Name_Arabic_possessive_no_format
 	}
 	text = {
 		trigger = {
-			has_culture_group = culture_group:north_germanic_group
+			north_check = yes
 		}
 		localization_key = CTP_First_Name_North_possessive
 	}
@@ -1073,26 +1046,25 @@ CTPFirstNamePossessiveNoTooltip = {
     type = character
     text = {
 		trigger = {
-			persian_excluder = yes
-            has_religion = religion:islam_religion
+			persian_muslim_check = yes
 		}
 		localization_key = CTP_First_Name_Persian_Muslim_possessive
 	}
     text = {
 		trigger = {
-			persian_excluder = yes
+			persian_standard_check = yes
 		}
 		localization_key = CTP_First_Name_Persian_possessive
     }
     text = {
 		trigger = {
-			has_culture_group = culture_group:arabic_group
+			arabic_check = yes
 		}
 		localization_key = CTP_Short_Name_Arabic_no_tooltip_possessive_no_format
 	}
 	text = {
 		trigger = {
-			has_culture_group = culture_group:north_germanic_group
+			north_check = yes
 		}
 		localization_key = CTP_First_Name_North_possessive_no_tooltip
 	}
@@ -1105,26 +1077,25 @@ CTPFullNameNicknamedNoTooltip = {
     type = character
     text = {
 		trigger = {
-			persian_excluder = yes
-            has_religion = religion:islam_religion
+			persian_muslim_check = yes
 		}
 		localization_key = CTP_Name_Persian_Muslim_no_tooltip_no_format
 	}
     text = {
 		trigger = {
-			persian_excluder = yes
+			persian_standard_check = yes
 		}
 		localization_key = CTP_Name_Persian_no_tooltip_no_format
     }
 	text = {
 		trigger = {
-			has_culture_group = culture_group:arabic_group
+			arabic_check = yes
 		}
 		localization_key = CTP_Name_Arabic_no_tooltip_no_format
 	}
 	text = {
 		trigger = {
-			has_culture_group = culture_group:north_germanic_group
+			north_check = yes
 		}
 		localization_key = CTP_Full_Name_North_no_tooltip_no_format
 	}
@@ -1137,26 +1108,25 @@ CTPFullNameNicknamedNoTooltipRegnal = {
     type = character
     text = {
 		trigger = {
-			persian_excluder = yes
-            has_religion = religion:islam_religion
+			persian_muslim_check = yes
 		}
 		localization_key = CTP_Name_Persian_Muslim_no_tooltip_no_format
 	}
     text = {
 		trigger = {
-			persian_excluder = yes
+			persian_standard_check = yes
 		}
 		localization_key = CTP_Name_Persian_no_tooltip_no_format
     }
 	text = {
 		trigger = {
-			has_culture_group = culture_group:arabic_group
+			arabic_check = yes
 		}
 		localization_key = CTP_Name_Arabic_no_tooltip_no_format
 	}
 	text = {
 		trigger = {
-			has_culture_group = culture_group:north_germanic_group
+			north_check = yes
 		}
 		localization_key = CTP_Full_Name_North_no_tooltip_no_format
 	}
@@ -1175,26 +1145,25 @@ CTPName = {
     }
     text = {
 		trigger = {
-			persian_excluder = yes
-            has_religion = religion:islam_religion
+			persian_muslim_check = yes
 		}
 		localization_key = CTP_Name_Persian_Muslim
 	}
     text = {
 		trigger = {
-			persian_excluder = yes
+			persian_standard_check = yes
 		}
 		localization_key = CTP_Name_Persian
 	}
     text = {
 		trigger = {
-			has_culture_group = culture_group:arabic_group
+			arabic_check = yes
 		}
 		localization_key = CTP_Name_Arabic
 	}
     text = {
 		trigger = {
-			has_culture_group = culture_group:north_germanic_group
+			north_check = yes
 		}
 		localization_key = CTP_Name_North
 	}
@@ -1213,26 +1182,25 @@ CTPShortName = {
     }
     text = {
 		trigger = {
-			persian_excluder = yes
-            has_religion = religion:islam_religion
+			persian_muslim_check = yes
 		}
 		localization_key = CTP_First_Name_Persian_Muslim
 	}
     text = {
 		trigger = {
-			persian_excluder = yes
+			persian_standard_check = yes
 		}
 		localization_key = CTP_First_Name_Persian
     }
     text = {
 		trigger = {
-			has_culture_group = culture_group:arabic_group
+			arabic_check = yes
 		}
 		localization_key = CTP_Short_Name_Arabic
 	}
     text = {
 		trigger = {
-			has_culture_group = culture_group:north_germanic_group
+			north_check = yes
 		}
 		localization_key = CTP_Short_Name_North
 	}
@@ -1251,26 +1219,25 @@ CTPNameNoTooltip = {
     }
     text = {
 		trigger = {
-			persian_excluder = yes
-            has_religion = religion:islam_religion
+			persian_muslim_check = yes
 		}
 		localization_key = CTP_Name_Persian_Muslim_no_tooltip_no_format
 	}
     text = {
 		trigger = {
-			persian_excluder = yes
+			persian_standard_check = yes
 		}
 		localization_key = CTP_Name_Persian_no_tooltip_no_format
     }
     text = {
 		trigger = {
-			has_culture_group = culture_group:arabic_group
+			arabic_check = yes
 		}
 		localization_key = CTP_Name_Arabic_no_tooltip
 	}
     text = {
 		trigger = {
-			has_culture_group = culture_group:north_germanic_group
+			north_check = yes
 		}
 		localization_key = CTP_Name_North_no_tooltip
 	}
@@ -1289,26 +1256,25 @@ CTPShortNameNoTooltip = {
     }
     text = {
 		trigger = {
-			persian_excluder = yes
-            has_religion = religion:islam_religion
+			persian_muslim_check = yes
 		}
 		localization_key = CTP_First_Name_Persian_Muslim
 	}
     text = {
 		trigger = {
-			persian_excluder = yes
+			persian_standard_check = yes
 		}
 		localization_key = CTP_First_Name_Persian
     }
     text = {
 		trigger = {
-			has_culture_group = culture_group:arabic_group
+			arabic_check = yes
 		}
 		localization_key = CTP_Short_Name_Arabic_no_tooltip
 	}
     text = {
 		trigger = {
-			has_culture_group = culture_group:north_germanic_group
+			north_check = yes
 		}
 		localization_key = CTP_Short_Name_North_no_tooltip
 	}
@@ -1321,26 +1287,25 @@ CTPNameNotMe = {
     type = character
     text = {
 		trigger = {
-			persian_excluder = yes
-            has_religion = religion:islam_religion
+			persian_muslim_check = yes
 		}
 		localization_key = CTP_Name_Persian_Muslim
 	}
     text = {
 		trigger = {
-			persian_excluder = yes
+			persian_standard_check = yes
 		}
 		localization_key = CTP_Name_Persian
 	}
     text = {
 		trigger = {
-			has_culture_group = culture_group:arabic_group
+			arabic_check = yes
 		}
 		localization_key = CTP_Name_Arabic
 	}
     text = {
 		trigger = {
-			has_culture_group = culture_group:north_germanic_group
+			north_check = yes
 		}
 		localization_key = CTP_Name_North
 	}
@@ -1353,26 +1318,25 @@ CTPShortNameNotMe = {
     type = character
     text = {
 		trigger = {
-			persian_excluder = yes
-            has_religion = religion:islam_religion
+			persian_muslim_check = yes
 		}
 		localization_key = CTP_First_Name_Persian_Muslim
 	}
     text = {
 		trigger = {
-			persian_excluder = yes
+			persian_standard_check = yes
 		}
 		localization_key = CTP_First_Name_Persian
     }
     text = {
 		trigger = {
-			has_culture_group = culture_group:arabic_group
+			arabic_check = yes
 		}
 		localization_key = CTP_Short_Name_Arabic
 	}
     text = {
 		trigger = {
-			has_culture_group = culture_group:north_germanic_group
+			north_check = yes
 		}
 		localization_key = CTP_Short_Name_North
 	}
@@ -1385,26 +1349,25 @@ CTPNameNotMeNoTooltip = {
     type = character
     text = {
 		trigger = {
-			persian_excluder = yes
-            has_religion = religion:islam_religion
+			persian_muslim_check = yes
 		}
 		localization_key = CTP_Name_Persian_Muslim_no_tooltip
 	}
     text = {
 		trigger = {
-			persian_excluder = yes
+			persian_standard_check = yes
 		}
 		localization_key = CTP_Name_Persian_no_tooltip
 	}
     text = {
 		trigger = {
-			has_culture_group = culture_group:arabic_group
+			arabic_check = yes
 		}
 		localization_key = CTP_Name_Arabic_no_tooltip
 	}
     text = {
 		trigger = {
-			has_culture_group = culture_group:north_germanic_group
+			north_check = yes
 		}
 		localization_key = CTP_Name_North_no_tooltip
 	}
@@ -1417,26 +1380,25 @@ CTPShortNameNotMeNoTooltip = {
     type = character
     text = {
 		trigger = {
-			persian_excluder = yes
-            has_religion = religion:islam_religion
+			persian_muslim_check = yes
 		}
 		localization_key = CTP_First_Name_Persian_Muslim
 	}
     text = {
 		trigger = {
-			persian_excluder = yes
+			persian_standard_check = yes
 		}
 		localization_key = CTP_First_Name_Persian
     }
     text = {
 		trigger = {
-			has_culture_group = culture_group:arabic_group
+			arabic_check = yes
 		}
 		localization_key = CTP_Short_Name_Arabic_no_tooltip
 	}
     text = {
 		trigger = {
-			has_culture_group = culture_group:north_germanic_group
+			north_check = yes
 		}
 		localization_key = CTP_Short_Name_North_no_tooltip
 	}
@@ -1455,26 +1417,25 @@ CTPNamePossessive = {
     }
     text = {
 		trigger = {
-			persian_excluder = yes
-            has_religion = religion:islam_religion
+			persian_muslim_check = yes
 		}
 		localization_key = CTP_Name_Persian_Muslim_possessive
 	}
     text = {
 		trigger = {
-			persian_excluder = yes
+			persian_standard_check = yes
 		}
 		localization_key = CTP_Name_Persian_possessive
     }
     text = {
 		trigger = {
-			has_culture_group = culture_group:arabic_group
+			arabic_check = yes
 		}
 		localization_key = CTP_Name_Arabic_possessive
 	}
     text = {
 		trigger = {
-			has_culture_group = culture_group:north_germanic_group
+			north_check = yes
 		}
 		localization_key = CTP_Name_North_possessive
 	}
@@ -1493,26 +1454,25 @@ CTPShortNamePossessiveyour = {
     }
     text = {
 		trigger = {
-			persian_excluder = yes
-            has_religion = religion:islam_religion
+			persian_muslim_check = yes
 		}
 		localization_key = CTP_First_Name_Persian_Muslim_possessive
 	}
     text = {
 		trigger = {
-			persian_excluder = yes
+			persian_standard_check = yes
 		}
 		localization_key = CTP_First_Name_Persian_possessive
     }
     text = {
 		trigger = {
-			has_culture_group = culture_group:arabic_group
+			arabic_check = yes
 		}
 		localization_key = CTP_Short_Name_Arabic_possessive
 	}
     text = {
 		trigger = {
-			has_culture_group = culture_group:north_germanic_group
+			north_check = yes
 		}
 		localization_key = CTP_Short_Name_North_possessive
 	}
@@ -1531,26 +1491,25 @@ CTPShortNamePossessiveyour = {
     }
     text = {
 		trigger = {
-			persian_excluder = yes
-            has_religion = religion:islam_religion
+			persian_muslim_check = yes
 		}
 		localization_key = CTP_First_Name_Persian_Muslim_possessive
 	}
     text = {
 		trigger = {
-			persian_excluder = yes
+			persian_standard_check = yes
 		}
 		localization_key = CTP_First_Name_Persian_possessive
     }
     text = {
 		trigger = {
-			has_culture_group = culture_group:arabic_group
+			arabic_check = yes
 		}
 		localization_key = CTP_Short_Name_Arabic_possessive_no_format
 	}
     text = {
 		trigger = {
-			has_culture_group = culture_group:north_germanic_group
+			north_check = yes
 		}
 		localization_key = CTP_Short_Name_North_possessive
 	}
@@ -1569,26 +1528,25 @@ CTPNamePossessiveNoTooltip = {
     }
     text = {
 		trigger = {
-			persian_excluder = yes
-            has_religion = religion:islam_religion
+			persian_muslim_check = yes
 		}
 		localization_key = CTP_Name_Persian_Muslim_no_tooltip_possesive
 	}
     text = {
 		trigger = {
-			persian_excluder = yes
+			persian_standard_check = yes
 		}
 		localization_key = CTP_Name_Persian_no_tooltip_possesive
     }
     text = {
 		trigger = {
-			has_culture_group = culture_group:arabic_group
+			arabic_check = yes
 		}
 		localization_key = CTP_Name_Arabic_no_tooltip_possessive
 	}
     text = {
 		trigger = {
-			has_culture_group = culture_group:north_germanic_group
+			north_check = yes
 		}
 		localization_key = CTP_Name_North_possessive_no_tooltip
 	}
@@ -1607,26 +1565,25 @@ CTPShortNamePossessiveNoTooltip = {
     }
     text = {
 		trigger = {
-			persian_excluder = yes
-            has_religion = religion:islam_religion
+			persian_muslim_check = yes
 		}
 		localization_key = CTP_First_Name_Persian_Muslim_possessive
 	}
     text = {
 		trigger = {
-			persian_excluder = yes
+			persian_standard_check = yes
 		}
 		localization_key = CTP_First_Name_Persian_possessive
     }
     text = {
 		trigger = {
-			has_culture_group = culture_group:arabic_group
+			arabic_check = yes
 		}
 		localization_key = CTP_Short_Name_Arabic_no_tooltip_possessive
 	}
     text = {
 		trigger = {
-			has_culture_group = culture_group:north_germanic_group
+			north_check = yes
 		}
 		localization_key = CTP_Short_Name_North_possessive_no_tooltip
 	}
@@ -1639,26 +1596,25 @@ CTPNamePossessiveNotMy = {
     type = character
     text = {
 		trigger = {
-			persian_excluder = yes
-            has_religion = religion:islam_religion
+			persian_muslim_check = yes
 		}
 		localization_key = CTP_Name_Persian_Muslim_possesive
 	}
     text = {
 		trigger = {
-			persian_excluder = yes
+			persian_standard_check = yes
 		}
 		localization_key = CTP_Name_Persian_possesive
     }
     text = {
 		trigger = {
-			has_culture_group = culture_group:arabic_group
+			arabic_check = yes
 		}
 		localization_key = CTP_Name_Arabic_possessive
 	}
     text = {
 		trigger = {
-			has_culture_group = culture_group:north_germanic_group
+			north_check = yes
 		}
 		localization_key = CTP_Name_North_possessive
 	}
@@ -1671,26 +1627,25 @@ CTPShortNamePossessiveNotMy = {
     type = character
     text = {
 		trigger = {
-			persian_excluder = yes
-            has_religion = religion:islam_religion
+			persian_muslim_check = yes
 		}
 		localization_key = CTP_First_Name_Persian_Muslim_possessive
 	}
     text = {
 		trigger = {
-			persian_excluder = yes
+			persian_standard_check = yes
 		}
 		localization_key = CTP_First_Name_Persian_possessive
     }
     text = {
 		trigger = {
-			has_culture_group = culture_group:arabic_group
+			arabic_check = yes
 		}
 		localization_key = CTP_Short_Name_Arabic_possessive
 	}
     text = {
 		trigger = {
-			has_culture_group = culture_group:north_germanic_group
+			north_check = yes
 		}
 		localization_key = CTP_Short_Name_North_possessive
 	}
@@ -1703,26 +1658,25 @@ CTPNamePossessiveNoTooltipNotMy = {
     type = character
     text = {
 		trigger = {
-			persian_excluder = yes
-            has_religion = religion:islam_religion
+			persian_muslim_check = yes
 		}
 		localization_key = CTP_Name_Persian_Muslim_no_tooltip_possesive
 	}
     text = {
 		trigger = {
-			persian_excluder = yes
+			persian_standard_check = yes
 		}
 		localization_key = CTP_Name_Persian_no_tooltip_possesive
     }
     text = {
 		trigger = {
-			has_culture_group = culture_group:arabic_group
+			arabic_check = yes
 		}
 		localization_key = CTP_Name_Arabic_no_tooltip_possessive
 	}
     text = {
 		trigger = {
-			has_culture_group = culture_group:north_germanic_group
+			north_check = yes
 		}
 		localization_key = CTP_Name_North_possessive_no_tooltip
 	}
@@ -1735,26 +1689,25 @@ CTPShortNamePossessiveNoTooltipNotMy = {
     type = character
     text = {
 		trigger = {
-			persian_excluder = yes
-            has_religion = religion:islam_religion
+			persian_muslim_check = yes
 		}
 		localization_key = CTP_First_Name_Persian_Muslim_possessive
 	}
     text = {
 		trigger = {
-			persian_excluder = yes
+			persian_standard_check = yes
 		}
 		localization_key = CTP_First_Name_Persian_possessive
     }
     text = {
 		trigger = {
-			has_culture_group = culture_group:arabic_group
+			arabic_check = yes
 		}
 		localization_key = CTP_Short_Name_Arabic_no_tooltip_possessive
 	}
     text = {
 		trigger = {
-			has_culture_group = culture_group:north_germanic_group
+			north_check = yes
 		}
 		localization_key = CTP_Short_Name_North_possessive_no_tooltip
 	}
@@ -2118,7 +2071,7 @@ CharacterTier = {
         trigger = {
             is_lowborn = no
             NOT = {
-                has_culture_group = culture_group:arabic_group
+                arabic_check = yes
             }
         }
         localization_key = lord
@@ -2360,25 +2313,35 @@ CharacterCulture = {
 	}
 	text = {
 		trigger = {
-			has_culture_group = culture_group:north_germanic_group
+			has_culture = culture:norwegian
 		}
 		localization_key = _norweg
 	}
 	text = {
 		trigger = {
-			has_culture_group = culture_group:north_germanic_group
+			north_check = yes
 		}
 		localization_key = _norse
 	}
 	text = {
 		trigger = {
-			persian_excluder = yes
+			culture = {
+                has_cultural_pillar = heritage_iranian
+            }
 		}
 		localization_key = _persian
 	}
 	text = {
 		trigger = {
-			has_culture_group = culture_group:arabic_group
+			culture = {
+                OR = {
+                    has_cultural_pillar = heritage_arabic
+                    AND = {
+                        has_cultural_pillar = heritage_iberian
+                        has_cultural_pillar = language_arabic
+                    }
+                }
+            }
 		}
 		localization_key = _arabic
 	}

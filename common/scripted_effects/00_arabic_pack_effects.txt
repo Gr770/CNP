@@ -1036,7 +1036,6 @@ reset_reg_laqab_effect = {
 
 arabic_pack_culture_name_male = {
     add_character_flag = name_pack_support
-    add_character_flag = arabic_pack_support
     random_list = {
         100 = {
             random_list = {
@@ -1768,7 +1767,6 @@ arabic_pack_culture_name_male = {
 
 arabic_pack_culture_name_female = {
     add_character_flag = name_pack_support
-    add_character_flag = arabic_pack_support
     random_list = {
         100 = {
             random_list = {
@@ -2350,7 +2348,6 @@ arabic_pack_culture_name_female = {
 
 arabic_pack_faith_name_male = {
     add_character_flag = name_pack_support
-    add_character_flag = arabic_pack_support
     IF = {
         limit = { has_religion = religion:germanic_religion }
         random_list = {
@@ -2538,7 +2535,10 @@ arabic_pack_faith_name_male = {
             0 = {
                 modifier = {
                     NOT = {
-                        has_culture = culture:andalusian
+                        culture = {
+                            has_cultural_pillar = heritage_iberian
+                            has_cultural_pillar = language_arabic
+                        }
                     }
                     add = 10
                 }
@@ -2559,7 +2559,10 @@ arabic_pack_faith_name_male = {
             }
             0 = {
                 modifier = {
-                    has_culture = culture:andalusian
+                    culture = {
+                        has_cultural_pillar = heritage_iberian
+                        has_cultural_pillar = language_arabic
+                    }
                     add = 10
                 }
                 random_list = {
@@ -2772,7 +2775,6 @@ arabic_pack_faith_name_male = {
 
 arabic_pack_faith_name_female = {
     add_character_flag = name_pack_support
-    add_character_flag = arabic_pack_support
     IF = {
         limit = { has_religion = religion:germanic_religion }
         random_list = {
@@ -2849,7 +2851,10 @@ arabic_pack_faith_name_female = {
             }
             0 = {
                 modifier = {
-                    has_culture = culture:andalusian
+                    culture = {
+                        has_cultural_pillar = heritage_iberian
+                        has_cultural_pillar = language_arabic
+                    }
                     add = 3
                 }
                 random_list = {
@@ -2888,7 +2893,6 @@ arabic_pack_faith_name_female = {
 
 arabic_pack_name_ai_male = {
     add_character_flag = name_pack_support
-    add_character_flag = arabic_pack_support
     random_list = {
         100 = {
             random_list = {
@@ -3043,8 +3047,10 @@ arabic_pack_name_ai_male = {
                 }
                 0 = {
                     modifier = {
-                        has_culture = culture:andalusian
-                        has_religion = religion:christianity_religion
+                        culture = {
+                            has_cultural_pillar = heritage_iberian
+                            has_cultural_pillar = language_arabic
+                        }
                         add = 18
                     }
                     random_list = {
@@ -3656,8 +3662,10 @@ arabic_pack_name_ai_male = {
                 }
                 0 = {
                     modifier = {
-                        has_culture = culture:andalusian
-                        has_religion = religion:christianity_religion
+                        culture = {
+                            has_cultural_pillar = heritage_iberian
+                            has_cultural_pillar = language_arabic
+                        }
                         add = 1
                     }
                     change_first_name = Lubb
@@ -3849,7 +3857,6 @@ arabic_pack_name_ai_male = {
 
 arabic_pack_name_ai_female = {
     add_character_flag = name_pack_support
-    add_character_flag = arabic_pack_support
     random_list = {
         100 = {
             random_list = {
@@ -3982,8 +3989,10 @@ arabic_pack_name_ai_female = {
                 }
                 0 = {
                     modifier = {
-                        has_culture = culture:andalusian
-                        has_religion = religion:christianity_religion
+                        culture = {
+                            has_cultural_pillar = heritage_iberian
+                            has_cultural_pillar = language_arabic
+                        }
                         add = 8
                     }
                     random_list = {
@@ -4343,8 +4352,10 @@ arabic_pack_name_ai_female = {
             random_list = {
                 0 = {
                     modifier = {
-                        has_culture = culture:andalusian
-                        has_religion = religion:christianity_religion
+                        culture = {
+                            has_cultural_pillar = heritage_iberian
+                            has_cultural_pillar = language_arabic
+                        }
                         add = 1
                     }
                     change_first_name = Dhuna

@@ -5,7 +5,7 @@
 	selection_tooltip = get_caliph_laqab_tooltip
 
     is_shown = {
-        is_ctp_supported_culture = yes
+        is_cnp_supported_culture = yes
 		NOT = {
 			has_character_flag = has_caliph_laqab
 		}
@@ -42,7 +42,7 @@ get_regnal_laqab = {
     selection_tooltip = get_regnal_laqab_tooltip
 
     is_shown = {
-        is_ctp_supported_culture = yes
+        is_cnp_supported_culture = yes
         root.culture = {
             has_cultural_era_or_later = culture_era_high_medieval 
         }
@@ -87,7 +87,7 @@ get_ducal_laqab = {
     selection_tooltip = get_ducal_laqab_tooltip
 
     is_shown = {
-        is_ctp_supported_culture = yes
+        is_cnp_supported_culture = yes
         root.culture = {
             has_cultural_era_or_later = culture_era_high_medieval 
         }

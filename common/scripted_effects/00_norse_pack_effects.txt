@@ -1,6 +1,5 @@
 ﻿norse_pack_culture_name_male = {
 	add_character_flag = name_pack_support
-	add_character_flag = norse_pack_support
 	random_list = {
 		50 = {
 			random_list = {
@@ -3412,7 +3411,6 @@
 }
 norse_pack_faith_name_male = {
 	add_character_flag = name_pack_support
-	add_character_flag = norse_pack_support
 	random_list = {
 		50 = {
 			random_list = {
@@ -4053,12 +4051,6 @@ norse_pack_name_ai_male = {
 			}
 			add_character_flag = name_pack_support
 		}
-		if = {
-			limit = {
-				root.culture_group = scope:male_ancestor.culture_group
-			}
-			add_character_flag = norse_pack_support
-		}
 		change_first_name = { template_character = scope:male_ancestor }
 	}
 	else_if = {
@@ -4103,12 +4095,6 @@ norse_pack_name_ai_male = {
 				}
 			}
 			add_character_flag = name_pack_support
-		}
-		if = {
-			limit = {
-				root.culture_group = scope:male_ancestor.culture_group
-			}
-			add_character_flag = norse_pack_support
 		}
 		change_first_name = { template_character = scope:male_ancestor }
 		father = {
@@ -4161,12 +4147,6 @@ norse_pack_name_ai_male = {
 			}
 			add_character_flag = name_pack_support
 		}
-		if = {
-			limit = {
-				root.culture_group = scope:male_ancestor.culture_group
-			}
-			add_character_flag = norse_pack_support
-		}
 		change_first_name = { template_character = scope:male_ancestor }
 		mother = {
 			remove_list_variable = { name = male_ancestors target = scope:male_ancestor }
@@ -4177,7 +4157,6 @@ norse_pack_name_ai_male = {
 	}
 	else = {
 		add_character_flag = name_pack_support
-		add_character_flag = norse_pack_support
 		random_list = {
 			50 = {
 				random_list = {
@@ -4799,14 +4778,14 @@ norse_pack_name_ai_male = {
 							OR = {
 								AND = {
 									exists = father
-									father = {
-										has_culture_group = culture_group:goidelic_group
+									father.culture = {
+										has_cultural_pillar = language_goidelic
 									}
 								}
 								AND = {
 									exists = mother
-									mother = {
-										has_culture_group = culture_group:goidelic_group
+									mother.culture = {
+										has_cultural_pillar = language_goidelic
 									}
 								}
 							}
@@ -5809,14 +5788,14 @@ norse_pack_name_ai_male = {
 							OR = {
 								AND = {
 									exists = father
-									father = {
-										has_culture = culture:anglo_saxon
+									father.culture = {
+										has_cultural_pillar = language_anglic
 									}
 								}
 								AND = {
 									exists = mother
-									mother = {
-										has_culture = culture:anglo_saxon
+									mother.culture = {
+										has_cultural_pillar = language_anglic
 									}
 								}
 							}
@@ -8494,7 +8473,6 @@ norse_pack_name_ai_male = {
 }
 norse_pack_culture_name_female = {
 	add_character_flag = name_pack_support
-	add_character_flag = norse_pack_support
 	random_list = {
 		50 = {
 			random_list = {
@@ -8754,14 +8732,14 @@ norse_pack_culture_name_female = {
 						OR = {
 							AND = {
 								exists = father
-								father = {
-									has_culture_group = culture_group:goidelic_group
+								father.culture = {
+									has_cultural_pillar = language_goidelic
 								}
 							}
 							AND = {
 								exists = mother
-								mother = {
-									has_culture_group = culture_group:goidelic_group
+								mother.culture = {
+									has_cultural_pillar = language_goidelic
 								}
 							}
 						}
@@ -9048,14 +9026,14 @@ norse_pack_culture_name_female = {
 						OR = {
 							AND = {
 								exists = father
-								father = {
-									has_culture = culture:anglo_saxon
+								father.culture = {
+									has_cultural_pillar = language_anglic
 								}
 							}
 							AND = {
 								exists = mother
-								mother = {
-									has_culture = culture:anglo_saxon
+								mother.culture = {
+									has_cultural_pillar = language_anglic
 								}
 							}
 						}
@@ -9841,7 +9819,6 @@ norse_pack_culture_name_female = {
 }
 norse_pack_faith_name_female = {
 	add_character_flag = name_pack_support
-	add_character_flag = norse_pack_support
 	random_list = {
 		50 = {
 			random_list = {
@@ -10340,12 +10317,6 @@ norse_pack_name_ai_female = {
 			}
 			add_character_flag = name_pack_support
 		}
-		if = {
-			limit = {
-				root.culture_group = scope:female_ancestor.culture_group
-			}
-			add_character_flag = norse_pack_support
-		}
 		change_first_name = { template_character = scope:female_ancestor }
 		father = {
 			remove_list_variable = { name = female_ancestors target = scope:female_ancestor }
@@ -10396,12 +10367,6 @@ norse_pack_name_ai_female = {
 				}
 			}
 			add_character_flag = name_pack_support
-		}
-		if = {
-			limit = {
-				root.culture_group = scope:female_ancestor.culture_group
-			}
-			add_character_flag = norse_pack_support
 		}
 		change_first_name = { template_character = scope:female_ancestor }
 		mother = {
@@ -10852,14 +10817,14 @@ norse_pack_name_ai_female = {
 							OR = {
 								AND = {
 									exists = father
-									father = {
-										has_culture_group = culture_group:goidelic_group
+									father.culture = {
+										has_cultural_pillar = language_goidelic
 									}
 								}
 								AND = {
 									exists = mother
-									mother = {
-										has_culture_group = culture_group:goidelic_group
+									mother.culture = {
+										has_cultural_pillar = language_goidelic
 									}
 								}
 							}
@@ -11157,14 +11122,14 @@ norse_pack_name_ai_female = {
 							OR = {
 								AND = {
 									exists = father
-									father = {
-										has_culture = culture:anglo_saxon
+									father.culture = {
+										has_cultural_pillar = language_anglic
 									}
 								}
 								AND = {
 									exists = mother
-									mother = {
-										has_culture = culture:anglo_saxon
+									mother.culture = {
+										has_cultural_pillar = language_anglic
 									}
 								}
 							}

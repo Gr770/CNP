@@ -111,7 +111,6 @@ scripted_gui_ctp_tek = {
 							this = scope:scripted_gui_eldest_son
 						}
 					}
-					this.culture_group = scope:effect_root.culture_group
 				}
 				is_male = yes
 			}
@@ -152,7 +151,6 @@ scripted_gui_ctp_tek = {
 							this = scope:scripted_gui_eldest_son
 						}
 					}
-					this.culture_group = scope:effect_root.culture_group
 				}
 				is_male = no
 			}
@@ -193,7 +191,6 @@ scripted_gui_ctp_tek = {
 							this = scope:scripted_gui_eldest_daughter
 						}
 					}
-					this.culture_group = scope:effect_root.culture_group
 				}
 				is_male = yes
 			}
@@ -234,7 +231,6 @@ scripted_gui_ctp_tek = {
 							this = scope:scripted_gui_eldest_daughter
 						}
 					}
-					this.culture_group = scope:effect_root.culture_group
 				}
 				is_male = no
 			}
@@ -5817,7 +5813,6 @@ scripted_gui_ctp_laqab_tek_name_check = {
 							this = scope:scripted_gui_eldest_son
 						}
 					}
-					this.culture_group = scope:effect_root.culture_group
 				}
 				is_male = yes
 			}
@@ -5857,7 +5852,6 @@ scripted_gui_ctp_laqab_tek_name_check = {
 							variable = name_pack_support_global
 							this = scope:scripted_gui_eldest_son
 						}
-						this.culture_group = scope:effect_root.culture_group
 					}
 				}
 				is_male = no
@@ -5898,7 +5892,6 @@ scripted_gui_ctp_laqab_tek_name_check = {
 							variable = name_pack_support_global
 							this = scope:scripted_gui_eldest_daughter
 						}
-						this.culture_group = scope:effect_root.culture_group
 					}
 				}
 				is_male = yes
@@ -5939,7 +5932,6 @@ scripted_gui_ctp_laqab_tek_name_check = {
 							variable = name_pack_support_global
 							this = scope:scripted_gui_eldest_daughter
 						}
-						this.culture_group = scope:effect_root.culture_group
 					}
 				}
 				is_male = no
@@ -5985,7 +5977,6 @@ CTP_name_dad = {
 		}
 		IF = {
 			limit = {
-				root.culture_group = scope:the_dad.culture_group
 				OR = {
 					AND = {
 						scope:the_dad = {
@@ -6022,7 +6013,6 @@ CTP_name_mom = {
 		}
 		IF = {
 			limit = {
-				root.culture_group = scope:the_mom.culture_group
 				OR = {
 					AND = {
 						scope:the_mom = {
@@ -6060,7 +6050,6 @@ CTP_name_granddad1 = {
 		IF = {
 			limit = {
 				OR = {
-					root.culture_group = scope:the_granddad.culture_group
 					AND = {
 						scope:the_granddad = {
 							has_character_flag = name_pack_support
@@ -6097,7 +6086,6 @@ CTP_name_granddad2 = {
 		IF = {
 			limit = {
 				OR = {
-					root.culture_group = scope:the_granddad.culture_group
 					AND = {
 						scope:the_granddad = {
 							has_character_flag = name_pack_support
@@ -6134,7 +6122,6 @@ CTP_name_grandmom1 = {
 		IF = {
 			limit = {
 				OR = {
-					root.culture_group = scope:the_grandmom.culture_group
 					AND = {
 						scope:the_grandmom = {
 							has_character_flag = name_pack_support
@@ -6170,7 +6157,6 @@ CTP_name_grandmom2 = {
 		}
 		IF = {
 			limit = {
-				root.culture_group = scope:the_grandmom.culture_group
 				OR = {
 					AND = {
 						scope:the_grandmom = {
@@ -6201,13 +6187,13 @@ CTP_name_grandmom2 = {
 CTP_pack_support = {
 	scope = character
 	is_shown = {
-		is_ctp_supported_culture = yes
+		is_cnp_supported_culture = yes
 	}
 }
 CTP_no_pack_support = {
 	scope = character
 	is_shown = {
-		is_ctp_supported_culture = no
+		is_cnp_supported_culture = no
 	}
 }
 CTP_random_ancestor = {
@@ -6234,7 +6220,6 @@ CTP_random_ancestor = {
 			}
 			IF = {
 				limit = {
-					root.culture_group = scope:the_ancestor.culture_group
 					OR = {
 						AND = {
 							scope:the_ancestor = {
@@ -6305,7 +6290,6 @@ random_saint_male_name = {
 		}
 		IF = {
 			limit = {
-				root.culture_group = scope:named_saint.culture_group
 				OR = {
 					scope:named_saint = {
 						exists = dynasty
@@ -6341,7 +6325,6 @@ random_saint_female_name = {
 		}
 		IF = {
 			limit = {
-				root.culture_group = scope:named_saint.culture_group
 				OR = {
 					scope:named_saint = {
 						exists = dynasty
@@ -6367,7 +6350,7 @@ random_saint_female_name = {
 CTP_faith_name_support = {
 	scope = character
 	is_shown = {
-		is_ctp_supported_culture = yes
+		is_cnp_supported_culture = yes
 		OR = {
 			has_religion = religion:islam_religion
 			has_religion = religion:christianity_religion
@@ -6379,7 +6362,7 @@ CTP_faith_name_no_support = {
 	scope = character
 	is_shown = {
 		NOT = {
-			is_ctp_supported_culture = yes
+			is_cnp_supported_culture = yes
 			OR = {
 				has_religion = religion:islam_religion
 				has_religion = religion:christianity_religion
@@ -6396,29 +6379,57 @@ CTP_faith_names = {
 			remove_character_flag = name_pack_support
 			IF = {
 				limit = { 
-					is_ctp_supported_culture = yes
+					is_cnp_supported_culture = yes
 					is_male = yes
 				}
 				IF = {
-					limit = { has_culture_group = culture_group:arabic_group }
+					limit = {
+						culture = {
+							OR = {
+								has_cultural_pillar = heritage_arabic
+								has_cultural_pillar = language_arabic
+							}
+						}
+					}
 					arabic_pack_faith_name_male = yes
 				}
 				else_if = {
-					limit = { has_culture_group = culture_group:north_germanic_group }
+					limit = {
+						culture = {
+							OR = {
+								has_cultural_pillar = heritage_north_germanic
+								has_cultural_pillar = language_norse
+							}
+						}
+					}
 					norse_pack_faith_name_male = yes
 				}
 			}
 			IF = {
 				limit = { 
-					is_ctp_supported_culture = yes
+					is_cnp_supported_culture = yes
 					is_male = no
 				}
 				IF = {
-					limit = { has_culture_group = culture_group:arabic_group }
+					limit = {
+						culture = {
+							OR = {
+								has_cultural_pillar = heritage_arabic
+								has_cultural_pillar = language_arabic
+							}
+						}
+					}
 					arabic_pack_faith_name_female = yes
 				}
 				else_if = {
-					limit = { has_culture_group = culture_group:north_germanic_group }
+					limit = {
+						culture = {
+							OR = {
+								has_cultural_pillar = heritage_north_germanic
+								has_cultural_pillar = language_norse
+							}
+						}
+					}
 					norse_pack_faith_name_female = yes
 				}
 			}
@@ -6433,31 +6444,59 @@ CTP_culture_names = {
 			remove_character_flag = name_pack_support
 			IF = {
 				limit = { 
-					is_ctp_supported_culture = yes
+					is_cnp_supported_culture = yes
 					is_male = yes
 				}
 				add_character_flag = name_pack_support
 				IF = {
-					limit = { has_culture_group = culture_group:arabic_group }
+					limit = {
+						culture = {
+							OR = {
+								has_cultural_pillar = heritage_arabic
+								has_cultural_pillar = language_arabic
+							}
+						}
+					}
 					arabic_pack_culture_name_male = yes
 				}
 				else_if = {
-					limit = { has_culture_group = culture_group:north_germanic_group }
+					limit = {
+						culture = {
+							OR = {
+								has_cultural_pillar = heritage_north_germanic
+								has_cultural_pillar = language_norse
+							}
+						}
+					}
 					norse_pack_culture_name_male = yes
 				}
 			}
 			IF = {
 				limit = { 
-					is_ctp_supported_culture = yes
+					is_cnp_supported_culture = yes
 					is_male = no
 				}
 				add_character_flag = name_pack_support
 				IF = {
-					limit = { has_culture_group = culture_group:arabic_group }
+					limit = {
+						culture = {
+							OR = {
+								has_cultural_pillar = heritage_arabic
+								has_cultural_pillar = language_arabic
+							}
+						}
+					}
 					arabic_pack_culture_name_female = yes
 				}
 				else_if = {
-					limit = { has_culture_group = culture_group:north_germanic_group }
+					limit = {
+						culture = {
+							OR = {
+								has_cultural_pillar = heritage_north_germanic
+								has_cultural_pillar = language_norse
+							}
+						}
+					}
 					norse_pack_culture_name_female = yes
 				}
 			}
