@@ -1,0 +1,22 @@
+house_name_effect = {
+    if = {
+        limit = {
+            dynast.culture = {
+                OR = {
+                    AND = {
+                        has_cultural_pillar = heritage_arabic
+                        has_cultural_pillar = language_arabic
+                    }
+                    AND = {
+                        has_cultural_pillar = heritage_iberian
+                        has_cultural_pillar = language_arabic
+                    }
+                }
+            }
+        }
+        dynasty = {
+            save_scope_as = cool_guy
+        }
+        set_dynasty_name = 
+    }
+}
