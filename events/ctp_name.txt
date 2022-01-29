@@ -3,7 +3,9 @@ ctpname.001 = {
 	type = character_event
 	hidden = yes
 	trigger = {
-		is_cnp_supported_culture = yes
+		culture = {
+			is_cnp_supported_culture = yes
+		}
 		root.faith.religious_head = root
 	}
 	immediate = {

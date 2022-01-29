@@ -10378,7 +10378,6 @@ norse_pack_name_ai_female = {
 	}
 	else = {
 		add_character_flag = name_pack_support
-		add_character_flag = norse_pack_support
 		random_list = {
 			50 = {
 				random_list = {

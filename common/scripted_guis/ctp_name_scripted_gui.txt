@@ -6187,13 +6187,17 @@ CTP_name_grandmom2 = {
 CTP_pack_support = {
 	scope = character
 	is_shown = {
-		is_cnp_supported_culture = yes
+		culture = {
+			is_cnp_supported_culture = yes
+		}
 	}
 }
 CTP_no_pack_support = {
 	scope = character
 	is_shown = {
-		is_cnp_supported_culture = no
+		culture = {
+			is_cnp_supported_culture = yes
+		}
 	}
 }
 CTP_random_ancestor = {
@@ -6350,7 +6354,9 @@ random_saint_female_name = {
 CTP_faith_name_support = {
 	scope = character
 	is_shown = {
-		is_cnp_supported_culture = yes
+		culture = {
+			is_cnp_supported_culture = yes
+		}
 		OR = {
 			has_religion = religion:islam_religion
 			has_religion = religion:christianity_religion
@@ -6362,7 +6368,9 @@ CTP_faith_name_no_support = {
 	scope = character
 	is_shown = {
 		NOT = {
-			is_cnp_supported_culture = yes
+			culture = {
+				is_cnp_supported_culture = yes
+			}
 			OR = {
 				has_religion = religion:islam_religion
 				has_religion = religion:christianity_religion
@@ -6379,7 +6387,9 @@ CTP_faith_names = {
 			remove_character_flag = name_pack_support
 			IF = {
 				limit = { 
-					is_cnp_supported_culture = yes
+					culture = {
+						is_cnp_supported_culture = yes
+					}
 					is_male = yes
 				}
 				IF = {
@@ -6407,7 +6417,9 @@ CTP_faith_names = {
 			}
 			IF = {
 				limit = { 
-					is_cnp_supported_culture = yes
+					culture = {
+						is_cnp_supported_culture = yes
+					}
 					is_male = no
 				}
 				IF = {
@@ -6444,7 +6456,9 @@ CTP_culture_names = {
 			remove_character_flag = name_pack_support
 			IF = {
 				limit = { 
-					is_cnp_supported_culture = yes
+					culture = {
+						is_cnp_supported_culture = yes
+					}
 					is_male = yes
 				}
 				add_character_flag = name_pack_support
@@ -6473,7 +6487,9 @@ CTP_culture_names = {
 			}
 			IF = {
 				limit = { 
-					is_cnp_supported_culture = yes
+					culture = {
+						is_cnp_supported_culture = yes
+					}
 					is_male = no
 				}
 				add_character_flag = name_pack_support

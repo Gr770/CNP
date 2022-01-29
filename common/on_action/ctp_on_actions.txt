@@ -22,7 +22,9 @@ on_death = {
 }
 on_norse_death = {
 	trigger = {
-		has_culture_group = culture_group:north_germanic_group
+		culture = {
+			is_cnp_supported_culture = yes
+		}
 	}
 	events = {
 		ctpname.400
@@ -39,7 +41,6 @@ on_arabic_death = {
 		ctpname.994
 		ctpname.993
 		ctpname.992
-		ctpname.400
 		ctpname.001
 	}
 }
@@ -68,33 +69,13 @@ on_game_start_after_lobby = {
 		ctp_courtiers_2
 	}
 }
-on_character_culture_change = {
-	on_actions = {
-		split_packs_stuff
-	}
-}
-split_packs_stuff = {
-	trigger = {
-		has_character_flag = name_pack_support
-		NOR = {
-			AND = {
-				has_culture_group = culture_group:north_germanic_group
-				has_character_flag = norse_pack_support
-			}
-			AND = {
-				has_culture_group = culture_group:arabic_group
-				has_character_flag = arabic_pack_support
-			}
-		}
-	}
-	effect = {
-		remove_character_flag = name_pack_support
-	}
-}
 ctp_courtiers_2 = {
 	effect = {
 		every_living_character = {
 			limit = {
+				culture = {
+					is_cnp_supported_culture = yes
+				}
 				save_temporary_scope_as = to_be_checked
 				OR = {
 					is_courtier = yes
@@ -125,7 +106,6 @@ ctp_courtiers_2 = {
 						is_landed = yes
 					}
 				}
-				is_cnp_supported_culture = yes
 			}
 			courtier_effect_cnp = yes
 		}
@@ -133,6 +113,9 @@ ctp_courtiers_2 = {
 }
 ctp_courtiers = {
 	trigger = {
+		culture = {
+			is_cnp_supported_culture = yes
+		}
 		save_temporary_scope_as = to_be_checked
 		OR = {
 			is_courtier = yes
@@ -163,7 +146,6 @@ ctp_courtiers = {
 				is_landed = yes
 			}
 		}
-		is_cnp_supported_culture = yes
 	}
 	effect = {
 		courtier_effect_cnp = yes

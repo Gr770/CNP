@@ -108,7 +108,10 @@ CTPShortEventName = {
     }
     text = {
         trigger = {
-			north_check = yes
+			culture = {
+        has_cultural_pillar = heritage_north_germanic
+        has_cultural_pillar = language_norse
+    }
 		}
 		localization_key = CTP_Short_event_North
     }
@@ -121,7 +124,10 @@ CTPFullName = {
 	type = character
 	text = {
 		trigger = {
-			north_check = yes
+			culture = {
+        has_cultural_pillar = heritage_north_germanic
+        has_cultural_pillar = language_norse
+    }
 		}
 		localization_key = CTP_Full_Name_North
 	}
@@ -170,7 +176,10 @@ CTPFullNameConcept = {
 	}
 	text = {
 		trigger = {
-			north_check = yes
+			culture = {
+        has_cultural_pillar = heritage_north_germanic
+        has_cultural_pillar = language_norse
+    }
 		}
 		localization_key = CTP_Full_Name_Concept_North
 	}
@@ -201,7 +210,10 @@ CTPFullName2 = {
 	}
 	text = {
 		trigger = {
-			north_check = yes
+			culture = {
+        has_cultural_pillar = heritage_north_germanic
+        has_cultural_pillar = language_norse
+    }
 		}
 		localization_key = CTP_Full_Name_North_no_format
 	}
@@ -232,7 +244,10 @@ CTPFullName2NoTooltip = {
 	}
 	text = {
 		trigger = {
-			north_check = yes
+			culture = {
+        has_cultural_pillar = heritage_north_germanic
+        has_cultural_pillar = language_norse
+    }
 		}
 		localization_key = CTP_Full_Name_North_no_tooltip_no_format
 	}
@@ -257,7 +272,10 @@ CTPTitleTierName = {
 	}
     text = {
 		trigger = {
-			north_check = yes
+			culture = {
+        has_cultural_pillar = heritage_north_germanic
+        has_cultural_pillar = language_norse
+    }
 		}
 		localization_key = CTP_Title_Tier_Name_North
 	}
@@ -282,7 +300,10 @@ CTPTitleTierNamePossessive = {
 	}
     text = {
 		trigger = {
-			north_check = yes
+			culture = {
+        has_cultural_pillar = heritage_north_germanic
+        has_cultural_pillar = language_norse
+    }
 		}
 		localization_key = CTP_Title_Tier_Name_North_possesive
 	}
@@ -313,7 +334,10 @@ CTPTitledFirstName = {
 	}
 	text = {
 		trigger = {
-			north_check = yes
+			culture = {
+        has_cultural_pillar = heritage_north_germanic
+        has_cultural_pillar = language_norse
+    }
 		}
 		localization_key = CTP_Name_North_Titled_First_Name
 	}
@@ -344,7 +368,10 @@ CTPTitledFirstNameNicknamed = {
 	}
 	text = {
 		trigger = {
-			north_check = yes
+			culture = {
+        has_cultural_pillar = heritage_north_germanic
+        has_cultural_pillar = language_norse
+    }
 		}
 		localization_key = CTP_Name_North_Titled_First_Name_Nick
 	}
@@ -375,7 +402,10 @@ CTPTitledFirstNameNicknamedNoTooltip = {
 	}
 	text = {
 		trigger = {
-			north_check = yes
+			culture = {
+        has_cultural_pillar = heritage_north_germanic
+        has_cultural_pillar = language_norse
+    }
 		}
 		localization_key = CTP_Name_North_Titled_First_Name_Nick_no_tooltip
 	}
@@ -406,7 +436,10 @@ CTPTitledFirstNameNoTooltip = {
 	}
 	text = {
 		trigger = {
-			north_check = yes
+			culture = {
+        has_cultural_pillar = heritage_north_germanic
+        has_cultural_pillar = language_norse
+    }
 		}
 		localization_key = CTP_Name_North_Titled_First_Name_no_tooltip
 	}
@@ -443,7 +476,10 @@ CTPTitledFirstNameOrMe = {
 	}
 	text = {
 		trigger = {
-			north_check = yes
+			culture = {
+        has_cultural_pillar = heritage_north_germanic
+        has_cultural_pillar = language_norse
+    }
 		}
 		localization_key = CTP_Name_North_Titled_First_Name
 	}
@@ -480,7 +516,10 @@ CTPTitledFirstNameOrMeNoTooltip = {
 	}
 	text = {
 		trigger = {
-			north_check = yes
+			culture = {
+        has_cultural_pillar = heritage_north_germanic
+        has_cultural_pillar = language_norse
+    }
 		}
 		localization_key = CTP_Name_North_Titled_First_Name_no_tooltip
 	}
@@ -511,7 +550,10 @@ CTPTitledFirstNamePossessive = {
 	}
 	text = {
 		trigger = {
-			north_check = yes
+			culture = {
+        has_cultural_pillar = heritage_north_germanic
+        has_cultural_pillar = language_norse
+    }
 		}
 		localization_key = CTP_Name_North_Titled_First_Name_possessive
 	}
@@ -548,7 +590,10 @@ CTPTitledFirstNamePossessiveOrMy = {
 	}
 	text = {
 		trigger = {
-			north_check = yes
+			culture = {
+        has_cultural_pillar = heritage_north_germanic
+        has_cultural_pillar = language_norse
+    }
 		}
 		localization_key = CTP_Name_North_Titled_First_Name_possessive
 	}
@@ -579,7 +624,10 @@ CTPTitledFirstNamePossessiveNoTooltip = {
 	}
 	text = {
 		trigger = {
-			north_check = yes
+			culture = {
+        has_cultural_pillar = heritage_north_germanic
+        has_cultural_pillar = language_norse
+    }
 		}
 		localization_key = CTP_Name_North_Titled_First_Name_possessive_no_tooltip
 	}
@@ -616,7 +664,10 @@ CTPTitledFirstNamePossessiveOrMyNoTooltip = {
 	}
 	text = {
 		trigger = {
-			north_check = yes
+			culture = {
+        has_cultural_pillar = heritage_north_germanic
+        has_cultural_pillar = language_norse
+    }
 		}
 		localization_key = CTP_Name_North_Titled_First_Name_possessive_no_tooltip
 	}
@@ -629,7 +680,9 @@ CTPTitleAsName = {
     type = character
     text = {
 		trigger = {
-            is_cnp_supported_culture = yes
+            culture = {
+                is_cnp_supported_culture = yes
+            }
 		}
 		localization_key = CTP_Title_as_Name
 	}
@@ -642,7 +695,9 @@ CTPTitleAsNameNoTooltip = {
     type = character
     text = {
 		trigger = {
-            is_cnp_supported_culture = yes
+            culture = {
+                is_cnp_supported_culture = yes
+            }
 		}
 		localization_key = CTP_Title_as_Name_no_tooltip
 	}
@@ -655,7 +710,9 @@ CTPTitleAsNamePossessive = {
     type = character
     text = {
 		trigger = {
-            is_cnp_supported_culture = yes
+            culture = {
+                is_cnp_supported_culture = yes
+            }
 		}
 		localization_key = CTP_Title_as_Name_possesive
 	}
@@ -668,7 +725,9 @@ CTPTitleAsNamePossessiveNoTooltip = {
     type = character
     text = {
 		trigger = {
-            is_cnp_supported_culture = yes
+            culture = {
+                is_cnp_supported_culture = yes
+            }
 		}
 		localization_key = CTP_Title_as_Name_no_tooltip_possesive
 	}
@@ -699,7 +758,10 @@ CTPRegName = {
 	}
 	text = {
 		trigger = {
-			north_check = yes
+			culture = {
+        has_cultural_pillar = heritage_north_germanic
+        has_cultural_pillar = language_norse
+    }
 		}
 		localization_key = CTP_Name_North_no_format
 	}
@@ -730,7 +792,10 @@ CTPRegNameNoTooltip = {
 	}
 	text = {
 		trigger = {
-			north_check = yes
+			culture = {
+        has_cultural_pillar = heritage_north_germanic
+        has_cultural_pillar = language_norse
+    }
 		}
 		localization_key = CTP_Name_North_no_format_no_tooltip
 	}
@@ -767,7 +832,10 @@ CTPRegNameOrMe = {
 	}
 	text = {
 		trigger = {
-			north_check = yes
+			culture = {
+        has_cultural_pillar = heritage_north_germanic
+        has_cultural_pillar = language_norse
+    }
 		}
 		localization_key = CTP_Name_North_no_format
 	}
@@ -798,7 +866,10 @@ CTPRegNamePossessive = {
 	}
 	text = {
 		trigger = {
-			north_check = yes
+			culture = {
+        has_cultural_pillar = heritage_north_germanic
+        has_cultural_pillar = language_norse
+    }
 		}
 		localization_key = CTP_Name_North_no_format_possessive
 	}
@@ -829,7 +900,10 @@ CTPRegNamePossessiveNoTooltip = {
 	}
 	text = {
 		trigger = {
-			north_check = yes
+			culture = {
+        has_cultural_pillar = heritage_north_germanic
+        has_cultural_pillar = language_norse
+    }
 		}
 		localization_key = CTP_Name_North_no_format_possessive_no_tooltip
 	}
@@ -866,7 +940,10 @@ CTPRegNamePossessiveOrMy = {
 	}
 	text = {
 		trigger = {
-			north_check = yes
+			culture = {
+        has_cultural_pillar = heritage_north_germanic
+        has_cultural_pillar = language_norse
+    }
 		}
 		localization_key = CTP_Name_North_no_format_possessive
 	}
@@ -897,7 +974,10 @@ CTPFirstName = {
 	}
 	text = {
 		trigger = {
-			north_check = yes
+			culture = {
+        has_cultural_pillar = heritage_north_germanic
+        has_cultural_pillar = language_norse
+    }
 		}
 		localization_key = CTP_First_Name_North
 	}
@@ -928,7 +1008,10 @@ CTPFirstNameNoTooltip = {
 	}
 	text = {
 		trigger = {
-			north_check = yes
+			culture = {
+        has_cultural_pillar = heritage_north_germanic
+        has_cultural_pillar = language_norse
+    }
 		}
 		localization_key = CTP_First_Name_North_no_tooltip
 	}
@@ -965,7 +1048,10 @@ CTPFirstNameOrMe = {
 	}
 	text = {
 		trigger = {
-			north_check = yes
+			culture = {
+        has_cultural_pillar = heritage_north_germanic
+        has_cultural_pillar = language_norse
+    }
 		}
 		localization_key = CTP_First_Name_North
 	}
@@ -1002,7 +1088,10 @@ CTPFirstNamePossessiveOrMy = {
 	}
 	text = {
 		trigger = {
-			north_check = yes
+			culture = {
+        has_cultural_pillar = heritage_north_germanic
+        has_cultural_pillar = language_norse
+    }
 		}
 		localization_key = CTP_First_Name_North_possessive
 	}
@@ -1033,7 +1122,10 @@ CTPFirstNamePossessive = {
 	}
 	text = {
 		trigger = {
-			north_check = yes
+			culture = {
+        has_cultural_pillar = heritage_north_germanic
+        has_cultural_pillar = language_norse
+    }
 		}
 		localization_key = CTP_First_Name_North_possessive
 	}
@@ -1064,7 +1156,10 @@ CTPFirstNamePossessiveNoTooltip = {
 	}
 	text = {
 		trigger = {
-			north_check = yes
+			culture = {
+        has_cultural_pillar = heritage_north_germanic
+        has_cultural_pillar = language_norse
+    }
 		}
 		localization_key = CTP_First_Name_North_possessive_no_tooltip
 	}
@@ -1095,7 +1190,10 @@ CTPFullNameNicknamedNoTooltip = {
 	}
 	text = {
 		trigger = {
-			north_check = yes
+			culture = {
+        has_cultural_pillar = heritage_north_germanic
+        has_cultural_pillar = language_norse
+    }
 		}
 		localization_key = CTP_Full_Name_North_no_tooltip_no_format
 	}
@@ -1126,7 +1224,10 @@ CTPFullNameNicknamedNoTooltipRegnal = {
 	}
 	text = {
 		trigger = {
-			north_check = yes
+			culture = {
+        has_cultural_pillar = heritage_north_germanic
+        has_cultural_pillar = language_norse
+    }
 		}
 		localization_key = CTP_Full_Name_North_no_tooltip_no_format
 	}
@@ -1163,7 +1264,10 @@ CTPName = {
 	}
     text = {
 		trigger = {
-			north_check = yes
+			culture = {
+        has_cultural_pillar = heritage_north_germanic
+        has_cultural_pillar = language_norse
+    }
 		}
 		localization_key = CTP_Name_North
 	}
@@ -1200,7 +1304,10 @@ CTPShortName = {
 	}
     text = {
 		trigger = {
-			north_check = yes
+			culture = {
+        has_cultural_pillar = heritage_north_germanic
+        has_cultural_pillar = language_norse
+    }
 		}
 		localization_key = CTP_Short_Name_North
 	}
@@ -1237,7 +1344,10 @@ CTPNameNoTooltip = {
 	}
     text = {
 		trigger = {
-			north_check = yes
+			culture = {
+        has_cultural_pillar = heritage_north_germanic
+        has_cultural_pillar = language_norse
+    }
 		}
 		localization_key = CTP_Name_North_no_tooltip
 	}
@@ -1274,7 +1384,10 @@ CTPShortNameNoTooltip = {
 	}
     text = {
 		trigger = {
-			north_check = yes
+			culture = {
+        has_cultural_pillar = heritage_north_germanic
+        has_cultural_pillar = language_norse
+    }
 		}
 		localization_key = CTP_Short_Name_North_no_tooltip
 	}
@@ -1305,7 +1418,10 @@ CTPNameNotMe = {
 	}
     text = {
 		trigger = {
-			north_check = yes
+			culture = {
+        has_cultural_pillar = heritage_north_germanic
+        has_cultural_pillar = language_norse
+    }
 		}
 		localization_key = CTP_Name_North
 	}
@@ -1336,7 +1452,10 @@ CTPShortNameNotMe = {
 	}
     text = {
 		trigger = {
-			north_check = yes
+			culture = {
+        has_cultural_pillar = heritage_north_germanic
+        has_cultural_pillar = language_norse
+    }
 		}
 		localization_key = CTP_Short_Name_North
 	}
@@ -1367,7 +1486,10 @@ CTPNameNotMeNoTooltip = {
 	}
     text = {
 		trigger = {
-			north_check = yes
+			culture = {
+        has_cultural_pillar = heritage_north_germanic
+        has_cultural_pillar = language_norse
+    }
 		}
 		localization_key = CTP_Name_North_no_tooltip
 	}
@@ -1398,7 +1520,10 @@ CTPShortNameNotMeNoTooltip = {
 	}
     text = {
 		trigger = {
-			north_check = yes
+			culture = {
+        has_cultural_pillar = heritage_north_germanic
+        has_cultural_pillar = language_norse
+    }
 		}
 		localization_key = CTP_Short_Name_North_no_tooltip
 	}
@@ -1435,7 +1560,10 @@ CTPNamePossessive = {
 	}
     text = {
 		trigger = {
-			north_check = yes
+			culture = {
+        has_cultural_pillar = heritage_north_germanic
+        has_cultural_pillar = language_norse
+    }
 		}
 		localization_key = CTP_Name_North_possessive
 	}
@@ -1472,7 +1600,10 @@ CTPShortNamePossessiveyour = {
 	}
     text = {
 		trigger = {
-			north_check = yes
+			culture = {
+        has_cultural_pillar = heritage_north_germanic
+        has_cultural_pillar = language_norse
+    }
 		}
 		localization_key = CTP_Short_Name_North_possessive
 	}
@@ -1509,7 +1640,10 @@ CTPShortNamePossessiveyour = {
 	}
     text = {
 		trigger = {
-			north_check = yes
+			culture = {
+        has_cultural_pillar = heritage_north_germanic
+        has_cultural_pillar = language_norse
+    }
 		}
 		localization_key = CTP_Short_Name_North_possessive
 	}
@@ -1546,7 +1680,10 @@ CTPNamePossessiveNoTooltip = {
 	}
     text = {
 		trigger = {
-			north_check = yes
+			culture = {
+        has_cultural_pillar = heritage_north_germanic
+        has_cultural_pillar = language_norse
+    }
 		}
 		localization_key = CTP_Name_North_possessive_no_tooltip
 	}
@@ -1583,7 +1720,10 @@ CTPShortNamePossessiveNoTooltip = {
 	}
     text = {
 		trigger = {
-			north_check = yes
+			culture = {
+        has_cultural_pillar = heritage_north_germanic
+        has_cultural_pillar = language_norse
+    }
 		}
 		localization_key = CTP_Short_Name_North_possessive_no_tooltip
 	}
@@ -1614,7 +1754,10 @@ CTPNamePossessiveNotMy = {
 	}
     text = {
 		trigger = {
-			north_check = yes
+			culture = {
+        has_cultural_pillar = heritage_north_germanic
+        has_cultural_pillar = language_norse
+    }
 		}
 		localization_key = CTP_Name_North_possessive
 	}
@@ -1645,7 +1788,10 @@ CTPShortNamePossessiveNotMy = {
 	}
     text = {
 		trigger = {
-			north_check = yes
+			culture = {
+        has_cultural_pillar = heritage_north_germanic
+        has_cultural_pillar = language_norse
+    }
 		}
 		localization_key = CTP_Short_Name_North_possessive
 	}
@@ -1676,7 +1822,10 @@ CTPNamePossessiveNoTooltipNotMy = {
 	}
     text = {
 		trigger = {
-			north_check = yes
+			culture = {
+        has_cultural_pillar = heritage_north_germanic
+        has_cultural_pillar = language_norse
+    }
 		}
 		localization_key = CTP_Name_North_possessive_no_tooltip
 	}
@@ -1707,7 +1856,10 @@ CTPShortNamePossessiveNoTooltipNotMy = {
 	}
     text = {
 		trigger = {
-			north_check = yes
+			culture = {
+        has_cultural_pillar = heritage_north_germanic
+        has_cultural_pillar = language_norse
+    }
 		}
 		localization_key = CTP_Short_Name_North_possessive_no_tooltip
 	}
@@ -2319,7 +2471,10 @@ CharacterCulture = {
 	}
 	text = {
 		trigger = {
-			north_check = yes
+            culture = {
+                has_cultural_pillar = heritage_north_germanic
+                has_cultural_pillar = language_norse
+            }
 		}
 		localization_key = _norse
 	}
@@ -2327,6 +2482,10 @@ CharacterCulture = {
 		trigger = {
 			culture = {
                 has_cultural_pillar = heritage_iranian
+                OR = {
+                    has_cultural_pillar = language_iranian
+                    has_cultural_pillar = language_arabic
+                }
             }
 		}
 		localization_key = _persian
@@ -2529,7 +2688,6 @@ CharacterPatNick = {
                         this = root.father
                     }
                 }
-                this.culture_group = root.culture_group
             }
 		}
 		localization_key = CTP_Patronym
