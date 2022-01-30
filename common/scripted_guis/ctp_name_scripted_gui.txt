@@ -6354,14 +6354,22 @@ random_saint_female_name = {
 CTP_faith_name_support = {
 	scope = character
 	is_shown = {
-		culture = {
-			is_cnp_supported_culture = yes
-		}
-		OR = {
-			has_religion = religion:islam_religion
-			has_religion = religion:christianity_religion
-			has_religion = religion:germanic_religion
-		}
+		always = no
+		#culture = {
+		#	is_cnp_supported_culture = yes
+		#	NOT = {
+		#		has_name_list = name_list_persian
+		#		has_name_list = name_list_kurdish
+		#		has_name_list = name_list_baloch
+		#		has_name_list = name_list_daylamite
+		#		has_name_list = name_list_tajik
+		#	}
+		#}
+		#OR = {
+		#	has_religion = religion:islam_religion
+		#	has_religion = religion:christianity_religion
+		#	has_religion = religion:germanic_religion
+		#}
 	}
 }
 CTP_faith_name_no_support = {
@@ -6371,11 +6379,11 @@ CTP_faith_name_no_support = {
 			culture = {
 				is_cnp_supported_culture = yes
 			}
-			OR = {
-				has_religion = religion:islam_religion
-				has_religion = religion:christianity_religion
-				has_religion = religion:germanic_religion
-			}
+			#OR = {
+			#	has_religion = religion:islam_religion
+			#	has_religion = religion:christianity_religion
+			#	has_religion = religion:germanic_religion
+			#}
 		}
 	}
 }
@@ -6466,23 +6474,77 @@ CTP_culture_names = {
 					limit = {
 						culture = {
 							OR = {
-								has_cultural_pillar = heritage_arabic
-								has_cultural_pillar = language_arabic
+								has_name_list = name_list_bedouin
+								has_name_list = name_list_levantine
+								has_name_list = name_list_egyptian
+								has_name_list = name_list_maghrebi
+								has_name_list = name_list_andalusian
+								has_name_list = name_list_yemeni
 							}
 						}
 					}
-					arabic_pack_culture_name_male = yes
+					arabic_pack_name_ai_male = yes
 				}
 				else_if = {
 					limit = {
 						culture = {
 							OR = {
-								has_cultural_pillar = heritage_north_germanic
-								has_cultural_pillar = language_norse
+								has_name_list = name_list_norse
+								has_name_list = name_list_swedish
+								has_name_list = name_list_norwegian
+								has_name_list = name_list_danish
 							}
 						}
 					}
-					norse_pack_culture_name_male = yes
+					norse_pack_name_ai_male = yes
+				}
+				else_if = {
+					limit = {
+						culture = {
+							OR = {
+								has_name_list = name_list_persian
+								has_name_list = name_list_kurdish
+								has_name_list = name_list_baloch
+								has_name_list = name_list_daylamite
+								has_name_list = name_list_tajik
+							}
+						}
+						has_religion = religion:christianity_religion
+					}
+					persian_christian_male_name_effect = yes
+				}
+				else_if = {
+					limit = {
+						culture = {
+							OR = {
+								has_name_list = name_list_persian
+								has_name_list = name_list_kurdish
+								has_name_list = name_list_baloch
+								has_name_list = name_list_daylamite
+								has_name_list = name_list_tajik
+							}
+						}
+						has_religion = religion:islam_religion
+					}
+					persian_islam_male_name_effect = yes
+				}
+				else_if = {
+					limit = {
+						culture = {
+							OR = {
+								has_name_list = name_list_persian
+								has_name_list = name_list_kurdish
+								has_name_list = name_list_baloch
+								has_name_list = name_list_daylamite
+								has_name_list = name_list_tajik
+							}
+						}
+						NOT = {
+							has_religion = religion:islam_religion
+							has_religion = religion:christianity_religion
+						}
+					}
+					persian_fallback_male_name_effect = yes
 				}
 			}
 			IF = {
@@ -6497,23 +6559,77 @@ CTP_culture_names = {
 					limit = {
 						culture = {
 							OR = {
-								has_cultural_pillar = heritage_arabic
-								has_cultural_pillar = language_arabic
+								has_name_list = name_list_bedouin
+								has_name_list = name_list_levantine
+								has_name_list = name_list_egyptian
+								has_name_list = name_list_maghrebi
+								has_name_list = name_list_andalusian
+								has_name_list = name_list_yemeni
 							}
 						}
 					}
-					arabic_pack_culture_name_female = yes
+					arabic_pack_name_ai_female = yes
 				}
 				else_if = {
 					limit = {
 						culture = {
 							OR = {
-								has_cultural_pillar = heritage_north_germanic
-								has_cultural_pillar = language_norse
+								has_name_list = name_list_norse
+								has_name_list = name_list_swedish
+								has_name_list = name_list_norwegian
+								has_name_list = name_list_danish
 							}
 						}
 					}
-					norse_pack_culture_name_female = yes
+					norse_pack_name_ai_female = yes
+				}
+				else_if = {
+					limit = {
+						culture = {
+							OR = {
+								has_name_list = name_list_persian
+								has_name_list = name_list_kurdish
+								has_name_list = name_list_baloch
+								has_name_list = name_list_daylamite
+								has_name_list = name_list_tajik
+							}
+						}
+						has_religion = religion:christianity_religion
+					}
+					persian_christian_female_name_effect = yes
+				}
+				else_if = {
+					limit = {
+						culture = {
+							OR = {
+								has_name_list = name_list_persian
+								has_name_list = name_list_kurdish
+								has_name_list = name_list_baloch
+								has_name_list = name_list_daylamite
+								has_name_list = name_list_tajik
+							}
+						}
+						has_religion = religion:islam_religion
+					}
+					persian_islam_female_name_effect = yes
+				}
+				else_if = {
+					limit = {
+						culture = {
+							OR = {
+								has_name_list = name_list_persian
+								has_name_list = name_list_kurdish
+								has_name_list = name_list_baloch
+								has_name_list = name_list_daylamite
+								has_name_list = name_list_tajik
+							}
+						}
+						NOT = {
+							has_religion = religion:islam_religion
+							has_religion = religion:christianity_religion
+						}
+					}
+					persian_fallback_female_name_effect = yes
 				}
 			}
 		}

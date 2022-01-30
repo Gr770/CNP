@@ -4779,13 +4779,19 @@ norse_pack_name_ai_male = {
 								AND = {
 									exists = father
 									father.culture = {
-										has_cultural_pillar = language_goidelic
+										OR = {
+											has_name_list = name_list_irish
+											has_name_list = name_list_gaelic
+										}
 									}
 								}
 								AND = {
 									exists = mother
 									mother.culture = {
-										has_cultural_pillar = language_goidelic
+										OR = {
+											has_name_list = name_list_irish
+											has_name_list = name_list_gaelic
+										}
 									}
 								}
 							}
@@ -5789,13 +5795,13 @@ norse_pack_name_ai_male = {
 								AND = {
 									exists = father
 									father.culture = {
-										has_cultural_pillar = language_anglic
+										has_name_list = name_list_anglo_saxon
 									}
 								}
 								AND = {
 									exists = mother
 									mother.culture = {
-										has_cultural_pillar = language_anglic
+										has_name_list = name_list_anglo_saxon
 									}
 								}
 							}
@@ -8733,13 +8739,19 @@ norse_pack_culture_name_female = {
 							AND = {
 								exists = father
 								father.culture = {
-									has_cultural_pillar = language_goidelic
+									OR = {
+										has_name_list = name_list_irish
+										has_name_list = name_list_gaelic
+									}
 								}
 							}
 							AND = {
 								exists = mother
 								mother.culture = {
-									has_cultural_pillar = language_goidelic
+									OR = {
+										has_name_list = name_list_irish
+										has_name_list = name_list_gaelic
+									}
 								}
 							}
 						}
@@ -9027,13 +9039,13 @@ norse_pack_culture_name_female = {
 							AND = {
 								exists = father
 								father.culture = {
-									has_cultural_pillar = language_anglic
+									has_name_list = name_list_anglo_saxon
 								}
 							}
 							AND = {
 								exists = mother
 								mother.culture = {
-									has_cultural_pillar = language_anglic
+									has_name_list = name_list_anglo_saxon
 								}
 							}
 						}
@@ -10817,13 +10829,19 @@ norse_pack_name_ai_female = {
 								AND = {
 									exists = father
 									father.culture = {
-										has_cultural_pillar = language_goidelic
+										OR = {
+											has_name_list = name_list_irish
+											has_name_list = name_list_gaelic
+										}
 									}
 								}
 								AND = {
 									exists = mother
 									mother.culture = {
-										has_cultural_pillar = language_goidelic
+										OR = {
+											has_name_list = name_list_irish
+											has_name_list = name_list_gaelic
+										}
 									}
 								}
 							}
@@ -11122,13 +11140,13 @@ norse_pack_name_ai_female = {
 								AND = {
 									exists = father
 									father.culture = {
-										has_cultural_pillar = language_anglic
+										has_name_list = name_list_anglo_saxon
 									}
 								}
 								AND = {
 									exists = mother
 									mother.culture = {
-										has_cultural_pillar = language_anglic
+										has_name_list = name_list_anglo_saxon
 									}
 								}
 							}

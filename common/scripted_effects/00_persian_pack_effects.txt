@@ -310,7 +310,9 @@ persian_islam_male_name_effect = {
                 0 = {
                     modifier = {
                         NOT = {
-                            has_culture = culture:kurdish
+                            culture = {
+                                has_name_list = name_list_kurdish
+                            }
                         }
                         add = 2
                     }
@@ -325,7 +327,9 @@ persian_islam_male_name_effect = {
                 }
                 0 = {
                     modifier = {
-                        has_culture = culture:kurdish
+                        culture = {
+                            has_name_list = name_list_kurdish
+                        }
                         add = 2
                     }
                     random_list = {
@@ -395,7 +399,9 @@ persian_islam_male_name_effect = {
                 0 = {
                     modifier = {
                         NOT = {
-                            has_culture = culture:kurdish
+                            culture = {
+                                has_name_list = name_list_kurdish
+                            }
                         }
                         add = 1
                     }
@@ -405,7 +411,9 @@ persian_islam_male_name_effect = {
                 }
                 0 = {
                     modifier = {
-                        has_culture = culture:kurdish
+                        culture = {
+                            has_name_list = name_list_kurdish
+                        }
                         add = 1
                     }
                     1 = {
@@ -414,7 +422,9 @@ persian_islam_male_name_effect = {
                 }
                 0 = {
                     modifier = {
-                        has_culture = culture:daylamite
+                        culture = {
+                            has_name_list = name_list_daylamite
+                        }
                         add = 3
                     }
                     random_list = {
@@ -579,7 +589,9 @@ persian_islam_male_name_effect = {
                 }
                 0 = {
                     modifier = {
-                        has_culture = culture:daylamite
+                        culture = {
+                            has_name_list = name_list_daylamite
+                        }
                         add = 8
                     }
                     random_list = {
@@ -838,7 +850,9 @@ persian_islam_male_name_effect = {
                 0 = {
                     modifier = {
                         NOT = {
-                            has_culture = culture:daylamite
+                            culture = {
+                                has_name_list = name_list_daylamite
+                            }
                         }
                         add = 4
                     }
@@ -859,7 +873,9 @@ persian_islam_male_name_effect = {
                 }
                 0 = {
                     modifier = {
-                        has_culture = culture:daylamite
+                        culture = {
+                            has_name_list = name_list_daylamite
+                        }
                         add = 1
                     }
                     1 = {
@@ -1068,7 +1084,9 @@ persian_islam_male_name_effect = {
                 0 = {
                     modifier = {
                         NOT = {
-                            has_culture = culture:daylamite
+                            culture = {
+                                has_name_list = name_list_daylamite
+                            }
                         }
                         add = 7
                     }
@@ -1285,7 +1303,9 @@ persian_christian_male_name_effect = {
             random_list = {
                 0 = {
                     modifier = {
-                        has_culture = culture:daylamite
+                        culture = {
+                            has_name_list = name_list_daylamite
+                        }
                         add = 2
                     }
                     random_list = {
@@ -1414,7 +1434,9 @@ persian_christian_male_name_effect = {
             random_list = {
                 0 = {
                     modifier = {
-                        has_culture = culture:daylamite
+                        culture = {
+                            has_name_list = name_list_daylamite
+                        }
                         add = 5
                     }
                     random_list = {
@@ -1697,7 +1719,9 @@ persian_christian_male_name_effect = {
                 0 = {
                     modifier = {
                         NOT = {
-                            has_culture = culture:daylamite
+                            culture = {
+                                has_name_list = name_list_daylamite
+                            }
                         }
                         add = 1
                     }
@@ -1707,7 +1731,9 @@ persian_christian_male_name_effect = {
                 }
                 0 = {
                     modifier = {
-                        has_culture = culture:daylamite
+                        culture = {
+                            has_name_list = name_list_daylamite
+                        }
                         add = 1
                     }
                     1 = {
@@ -1895,7 +1921,9 @@ persian_christian_male_name_effect = {
                 0 = {
                     modifier = {
                         NOT = {
-                            has_culture = culture:daylamite
+                            culture = {
+                                has_name_list = name_list_daylamite
+                            }
                         }
                         add = 7
                     }
@@ -2022,7 +2050,9 @@ persian_fallback_male_name_effect = {
             random_list = {
                 0 = {
                     modifier = {
-                        has_culture = culture:daylamite
+                        culture = {
+                            has_name_list = name_list_daylamite
+                        }
                         add = 2
                     }
                     random_list = {
@@ -2148,7 +2178,9 @@ persian_fallback_male_name_effect = {
             random_list = {
                 0 = {
                     modifier = {
-                        has_culture = culture:daylamite
+                        culture = {
+                            has_name_list = name_list_daylamite
+                        }
                         add = 8
                     }
                     random_list = {
@@ -2415,7 +2447,9 @@ persian_fallback_male_name_effect = {
             random_list = {
                 0 = {
                     modifier = {
-                        has_culture = culture:daylamite
+                        culture = {
+                            has_name_list = name_list_daylamite
+                        }
                         add = 1
                     }
                     1 = {
@@ -2425,7 +2459,9 @@ persian_fallback_male_name_effect = {
                 0 = {
                     modifier = {
                         NOT = {
-                            has_culture = culture:daylamite
+                            culture = {
+                                has_name_list = name_list_daylamite
+                            }
                         }
                         add = 5
                     }
@@ -2592,7 +2628,9 @@ persian_fallback_male_name_effect = {
                 0 = {
                     modifier = {
                         NOT = {
-                            has_culture = culture:daylamite
+                            culture = {
+                                has_name_list = name_list_daylamite
+                            }
                         }
                         add = 6
                     }

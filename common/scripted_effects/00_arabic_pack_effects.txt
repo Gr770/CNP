@@ -2536,8 +2536,7 @@ arabic_pack_faith_name_male = {
                 modifier = {
                     NOT = {
                         culture = {
-                            has_cultural_pillar = heritage_iberian
-                            has_cultural_pillar = language_arabic
+                            has_name_list = name_list_andalusian
                         }
                     }
                     add = 10
@@ -2560,8 +2559,7 @@ arabic_pack_faith_name_male = {
             0 = {
                 modifier = {
                     culture = {
-                        has_cultural_pillar = heritage_iberian
-                        has_cultural_pillar = language_arabic
+                        has_name_list = name_list_andalusian
                     }
                     add = 10
                 }
@@ -2633,7 +2631,9 @@ arabic_pack_faith_name_male = {
             }
             0 = {
                 modifier = {
-                    has_culture = culture:levanite
+                    culture = {
+                        has_name_list = name_list_levantine
+                    }
                     add = 1
                 }
                 random_list = {
@@ -2644,9 +2644,11 @@ arabic_pack_faith_name_male = {
             }
             0 = {
                 modifier = {
-                    OR = {
-                        has_culture = culture:egyptian
-                        has_culture = culture:levanite
+                    culture = {
+                        OR = {
+                            has_name_list = name_list_egyptian
+                            has_name_list = name_list_levantine
+                        }
                     }
                     add = 5
                 }
@@ -2670,7 +2672,9 @@ arabic_pack_faith_name_male = {
             }
             0 = {
                 modifier = {
-                    has_culture = culture:egyptian
+                    culture = {
+                        has_name_list = name_list_egyptian
+                    }
                     add = 31
                 }
                 random_list = {
@@ -2852,8 +2856,7 @@ arabic_pack_faith_name_female = {
             0 = {
                 modifier = {
                     culture = {
-                        has_cultural_pillar = heritage_iberian
-                        has_cultural_pillar = language_arabic
+                        has_name_list = name_list_andalusian
                     }
                     add = 3
                 }
@@ -3026,9 +3029,11 @@ arabic_pack_name_ai_male = {
             random_list = {
                 0 = {
                     modifier = {
-                        OR = {
-                            has_culture = culture:levantine
-                            has_culture = culture:egyptian
+                        culture = {
+                            OR = {
+                                has_name_list = name_list_levantine
+                                has_name_list = name_list_egyptian
+                            }
                         }
                         has_religion = religion:christianity_religion
                         add = 3
@@ -3048,8 +3053,7 @@ arabic_pack_name_ai_male = {
                 0 = {
                     modifier = {
                         culture = {
-                            has_cultural_pillar = heritage_iberian
-                            has_cultural_pillar = language_arabic
+                            has_name_list = name_list_andalusian
                         }
                         add = 18
                     }
@@ -3635,9 +3639,11 @@ arabic_pack_name_ai_male = {
             random_list = {
                 0 = {
                     modifier = {
-                        OR = {
-                            has_culture = culture:levantine
-                            has_culture = culture:egyptian
+                        culture = {
+                            OR = {
+                                has_name_list = name_list_levantine
+                                has_name_list = name_list_egyptian
+                            }
                         }
                         has_religion = religion:christianity_religion
                         add = 5
@@ -3663,8 +3669,7 @@ arabic_pack_name_ai_male = {
                 0 = {
                     modifier = {
                         culture = {
-                            has_cultural_pillar = heritage_iberian
-                            has_cultural_pillar = language_arabic
+                            has_name_list = name_list_andalusian
                         }
                         add = 1
                     }
@@ -3968,9 +3973,11 @@ arabic_pack_name_ai_female = {
                 }
                 0 = {
                     modifier = {
-                        OR = {
-                            has_culture = culture:egyptian
-                            has_culture = culture:levantine
+                        culture = {
+                            OR = {
+                                has_name_list = name_list_levantine
+                                has_name_list = name_list_egyptian
+                            }
                         }
                         has_religion = religion:christianity_religion
                         add = 3
@@ -3990,8 +3997,7 @@ arabic_pack_name_ai_female = {
                 0 = {
                     modifier = {
                         culture = {
-                            has_cultural_pillar = heritage_iberian
-                            has_cultural_pillar = language_arabic
+                            has_name_list = name_list_andalusian
                         }
                         add = 8
                     }
@@ -4353,8 +4359,7 @@ arabic_pack_name_ai_female = {
                 0 = {
                     modifier = {
                         culture = {
-                            has_cultural_pillar = heritage_iberian
-                            has_cultural_pillar = language_arabic
+                            has_name_list = name_list_andalusian
                         }
                         add = 1
                     }
