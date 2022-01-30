@@ -1881,14 +1881,51 @@ CharacterTier = {
             NOT = {
                 has_government = theocracy_government
                 has_government = holy_order_government
+                AND = {
+                    exists = dynasty
+                    dynasty = {
+                        OR = {
+                            any_in_list = {
+                                variable = dynasty_theocrats
+                                this = root
+                            }
+                            any_in_list = {
+                                variable = dynasty_HO
+                                this = root
+                            }
+                        }
+                    }
+                }
             }
-            exists = primary_spouse
-            primary_spouse = {
+            OR = {
+                exists = primary_spouse
+                any_former_spouse = {
+                    exists = this
+                }
+            }
+            any_spouse = {
+                even_if_dead = yes
+                save_temporay_scope_as = the_spouse
                 highest_held_title_tier = tier_empire
                 OR = {
                     has_government = feudal_government
                     has_government = clan_government
                     has_government = tribal_government
+                    AND = {
+                        exists = dynasty
+                        dynasty = {
+                            OR = {
+                                any_in_list = {
+                                    variable = dynasty_feudalclan
+                                    this = scope:the_spouse
+                                }
+                                any_in_list = {
+                                    variable = dynasty_tribe
+                                    this = scope:the_spouse
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -1899,27 +1936,76 @@ CharacterTier = {
             NOT = {
                 has_government = theocracy_government
                 has_government = holy_order_government
+                AND = {
+                    exists = dynasty
+                    dynasty = {
+                        OR = {
+                            any_in_list = {
+                                variable = dynasty_theocrats
+                                this = root
+                            }
+                            any_in_list = {
+                                variable = dynasty_HO
+                                this = root
+                            }
+                        }
+                    }
+                }
             }
             OR = {
                 AND = {
                     exists = father
                     father = {
-                        highest_held_title_tier = tier_empire
+                        OR = {
+                            highest_held_title_tier = tier_empire
+                        }
                         OR = {
                             has_government = feudal_government
                             has_government = clan_government
                             has_government = tribal_government
+                            AND = {
+                                exists = dynasty
+                                dynasty = {
+                                    OR = {
+                                        any_in_list = {
+                                            variable = dynasty_feudalclan
+                                            this = root.father
+                                        }
+                                        any_in_list = {
+                                            variable = dynasty_tribe
+                                            this = root.father
+                                        }
+                                    }
+                                }
+                            }
                         }
                     }
                 }
                 AND = {
                     exists = mother
                     mother = {
-                        highest_held_title_tier = tier_empire
+                        OR = {
+                            highest_held_title_tier = tier_empire
+                        }
                         OR = {
                             has_government = feudal_government
                             has_government = clan_government
                             has_government = tribal_government
+                            AND = {
+                                exists = dynasty
+                                dynasty = {
+                                    OR = {
+                                        any_in_list = {
+                                            variable = dynasty_feudalclan
+                                            this = root.mother
+                                        }
+                                        any_in_list = {
+                                            variable = dynasty_tribe
+                                            this = root.mother
+                                        }
+                                    }
+                                }
+                            }
                         }
                     }
                 }
@@ -1940,7 +2026,15 @@ CharacterTier = {
     text = {
         trigger = {
             highest_held_title_tier = tier_kingdom
-            is_independent_ruler = yes
+            OR = {
+                is_independent_ruler = yes
+                dynasty = {
+                    any_in_list = {
+                        variable = dynasty_independent
+                        this = root
+                    }
+                }
+            }
         }
         localization_key = independent_king
     }
@@ -1949,15 +2043,60 @@ CharacterTier = {
             NOT = {
                 has_government = theocracy_government
                 has_government = holy_order_government
+                AND = {
+                    exists = dynasty
+                    dynasty = {
+                        OR = {
+                            any_in_list = {
+                                variable = dynasty_theocrats
+                                this = root
+                            }
+                            any_in_list = {
+                                variable = dynasty_HO
+                                this = root
+                            }
+                        }
+                    }
+                }
             }
-            exists = primary_spouse
-            primary_spouse = {
+            OR = {
+                exists = primary_spouse
+                any_former_spouse = {
+                    exists = this
+                }
+            }
+            any_spouse = {
+                even_if_dead = yes
+                save_temporay_scope_as = the_spouse
                 highest_held_title_tier = tier_kingdom
-                is_independent_ruler = yes
+                OR = {
+                    is_independent_ruler = yes
+                    dynasty = {
+                        any_in_list = {
+                            variable = dynasty_independent
+                            this = root
+                        }
+                    }
+                }
                 OR = {
                     has_government = feudal_government
                     has_government = clan_government
                     has_government = tribal_government
+                    AND = {
+                        exists = dynasty
+                        dynasty = {
+                            OR = {
+                                any_in_list = {
+                                    variable = dynasty_feudalclan
+                                    this = scope:the_spouse
+                                }
+                                any_in_list = {
+                                    variable = dynasty_tribe
+                                    this = scope:the_spouse
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -1968,17 +2107,55 @@ CharacterTier = {
             NOT = {
                 has_government = theocracy_government
                 has_government = holy_order_government
+                AND = {
+                    exists = dynasty
+                    dynasty = {
+                        OR = {
+                            any_in_list = {
+                                variable = dynasty_theocrats
+                                this = root
+                            }
+                            any_in_list = {
+                                variable = dynasty_HO
+                                this = root
+                            }
+                        }
+                    }
+                }
             }
             OR = {
                 AND = {
                     exists = father
                     father = {
                         highest_held_title_tier = tier_kingdom
-                        is_independent_ruler = yes
+                        OR = {
+                            is_independent_ruler = yes
+                            dynasty = {
+                                any_in_list = {
+                                    variable = dynasty_independent
+                                    this = root
+                                }
+                            }
+                        }
                         OR = {
                             has_government = feudal_government
                             has_government = clan_government
                             has_government = tribal_government
+                            AND = {
+                                exists = dynasty
+                                dynasty = {
+                                    OR = {
+                                        any_in_list = {
+                                            variable = dynasty_feudalclan
+                                            this = root.father
+                                        }
+                                        any_in_list = {
+                                            variable = dynasty_tribe
+                                            this = root.father
+                                        }
+                                    }
+                                }
+                            }
                         }
                     }
                 }
@@ -1986,11 +2163,34 @@ CharacterTier = {
                     exists = mother
                     mother = {
                         highest_held_title_tier = tier_kingdom
-                        is_independent_ruler = yes
+                        OR = {
+                            is_independent_ruler = yes
+                            dynasty = {
+                                any_in_list = {
+                                    variable = dynasty_independent
+                                    this = root
+                                }
+                            }
+                        }
                         OR = {
                             has_government = feudal_government
                             has_government = clan_government
                             has_government = tribal_government
+                            AND = {
+                                exists = dynasty
+                                dynasty = {
+                                    OR = {
+                                        any_in_list = {
+                                            variable = dynasty_feudalclan
+                                            this = root.mother
+                                        }
+                                        any_in_list = {
+                                            variable = dynasty_tribe
+                                            this = root.mother
+                                        }
+                                    }
+                                }
+                            }
                         }
                     }
                 }
@@ -2009,14 +2209,51 @@ CharacterTier = {
             NOT = {
                 has_government = theocracy_government
                 has_government = holy_order_government
+                AND = {
+                    exists = dynasty
+                    dynasty = {
+                        OR = {
+                            any_in_list = {
+                                variable = dynasty_theocrats
+                                this = root
+                            }
+                            any_in_list = {
+                                variable = dynasty_HO
+                                this = root
+                            }
+                        }
+                    }
+                }
             }
-            exists = primary_spouse
-            primary_spouse = {
+            OR = {
+                exists = primary_spouse
+                any_former_spouse = {
+                    exists = this
+                }
+            }
+            any_spouse = {
+                even_if_dead = yes
+                save_temporay_scope_as = the_spouse
                 highest_held_title_tier = tier_kingdom
                 OR = {
                     has_government = feudal_government
                     has_government = clan_government
                     has_government = tribal_government
+                    AND = {
+                        exists = dynasty
+                        dynasty = {
+                            OR = {
+                                any_in_list = {
+                                    variable = dynasty_feudalclan
+                                    this = scope:the_spouse
+                                }
+                                any_in_list = {
+                                    variable = dynasty_tribe
+                                    this = scope:the_spouse
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -2027,6 +2264,21 @@ CharacterTier = {
             NOT = {
                 has_government = theocracy_government
                 has_government = holy_order_government
+                AND = {
+                    exists = dynasty
+                    dynasty = {
+                        OR = {
+                            any_in_list = {
+                                variable = dynasty_theocrats
+                                this = root
+                            }
+                            any_in_list = {
+                                variable = dynasty_HO
+                                this = root
+                            }
+                        }
+                    }
+                }
             }
             OR = {
                 AND = {
@@ -2037,6 +2289,21 @@ CharacterTier = {
                             has_government = feudal_government
                             has_government = clan_government
                             has_government = tribal_government
+                            AND = {
+                                exists = dynasty
+                                dynasty = {
+                                    OR = {
+                                        any_in_list = {
+                                            variable = dynasty_feudalclan
+                                            this = root.father
+                                        }
+                                        any_in_list = {
+                                            variable = dynasty_tribe
+                                            this = root.father
+                                        }
+                                    }
+                                }
+                            }
                         }
                     }
                 }
@@ -2048,6 +2315,21 @@ CharacterTier = {
                             has_government = feudal_government
                             has_government = clan_government
                             has_government = tribal_government
+                            AND = {
+                                exists = dynasty
+                                dynasty = {
+                                    OR = {
+                                        any_in_list = {
+                                            variable = dynasty_feudalclan
+                                            this = root.mother
+                                        }
+                                        any_in_list = {
+                                            variable = dynasty_tribe
+                                            this = root.mother
+                                        }
+                                    }
+                                }
+                            }
                         }
                     }
                 }
@@ -2068,7 +2350,15 @@ CharacterTier = {
     text = {
         trigger = {
             highest_held_title_tier = tier_duchy
-            is_independent_ruler = yes
+            OR = {
+                is_independent_ruler = yes
+                dynasty = {
+                    any_in_list = {
+                        variable = dynasty_independent
+                        this = root
+                    }
+                }
+            }
         }
         localization_key = independent_duke
     }
@@ -2077,15 +2367,60 @@ CharacterTier = {
             NOT = {
                 has_government = theocracy_government
                 has_government = holy_order_government
+                AND = {
+                    exists = dynasty
+                    dynasty = {
+                        OR = {
+                            any_in_list = {
+                                variable = dynasty_theocrats
+                                this = root
+                            }
+                            any_in_list = {
+                                variable = dynasty_HO
+                                this = root
+                            }
+                        }
+                    }
+                }
             }
-            exists = primary_spouse
-            primary_spouse = {
+            OR = {
+                exists = primary_spouse
+                any_former_spouse = {
+                    exists = this
+                }
+            }
+            any_spouse = {
+                even_if_dead = yes
+                save_temporay_scope_as = the_spouse
                 highest_held_title_tier = tier_duchy
-                is_independent_ruler = yes
+                OR = {
+                    is_independent_ruler = yes
+                    dynasty = {
+                        any_in_list = {
+                            variable = dynasty_independent
+                            this = root
+                        }
+                    }
+                }
                 OR = {
                     has_government = feudal_government
                     has_government = clan_government
                     has_government = tribal_government
+                    AND = {
+                        exists = dynasty
+                        dynasty = {
+                            OR = {
+                                any_in_list = {
+                                    variable = dynasty_feudalclan
+                                    this = scope:the_spouse
+                                }
+                                any_in_list = {
+                                    variable = dynasty_tribe
+                                    this = scope:the_spouse
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -2102,14 +2437,51 @@ CharacterTier = {
             NOT = {
                 has_government = theocracy_government
                 has_government = holy_order_government
+                AND = {
+                    exists = dynasty
+                    dynasty = {
+                        OR = {
+                            any_in_list = {
+                                variable = dynasty_theocrats
+                                this = root
+                            }
+                            any_in_list = {
+                                variable = dynasty_HO
+                                this = root
+                            }
+                        }
+                    }
+                }
             }
-            exists = primary_spouse
-            primary_spouse = {
+            OR = {
+                exists = primary_spouse
+                any_former_spouse = {
+                    exists = this
+                }
+            }
+            any_spouse = {
+                even_if_dead = yes
+                save_temporay_scope_as = the_spouse
                 highest_held_title_tier = tier_duchy
                 OR = {
                     has_government = feudal_government
                     has_government = clan_government
                     has_government = tribal_government
+                    AND = {
+                        exists = dynasty
+                        dynasty = {
+                            OR = {
+                                any_in_list = {
+                                    variable = dynasty_feudalclan
+                                    this = scope:the_spouse
+                                }
+                                any_in_list = {
+                                    variable = dynasty_tribe
+                                    this = scope:the_spouse
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -2128,7 +2500,15 @@ CharacterTier = {
     text = {
         trigger = {
             highest_held_title_tier = tier_county
-            is_independent_ruler = yes
+            OR = {
+                is_independent_ruler = yes
+                dynasty = {
+                    any_in_list = {
+                        variable = dynasty_independent
+                        this = root
+                    }
+                }
+            }
         }
         localization_key = independent_count
     }
@@ -2137,15 +2517,60 @@ CharacterTier = {
             NOT = {
                 has_government = theocracy_government
                 has_government = holy_order_government
+                AND = {
+                    exists = dynasty
+                    dynasty = {
+                        OR = {
+                            any_in_list = {
+                                variable = dynasty_theocrats
+                                this = root
+                            }
+                            any_in_list = {
+                                variable = dynasty_HO
+                                this = root
+                            }
+                        }
+                    }
+                }
             }
-            exists = primary_spouse
-            primary_spouse = {
+            OR = {
+                exists = primary_spouse
+                any_former_spouse = {
+                    exists = this
+                }
+            }
+            any_spouse = {
+                even_if_dead = yes
+                save_temporay_scope_as = the_spouse
                 highest_held_title_tier = tier_county
-                is_independent_ruler = yes
+                OR = {
+                    is_independent_ruler = yes
+                    dynasty = {
+                        any_in_list = {
+                            variable = dynasty_independent
+                            this = root
+                        }
+                    }
+                }
                 OR = {
                     has_government = feudal_government
                     has_government = clan_government
                     has_government = tribal_government
+                    AND = {
+                        exists = dynasty
+                        dynasty = {
+                            OR = {
+                                any_in_list = {
+                                    variable = dynasty_feudalclan
+                                    this = scope:the_spouse
+                                }
+                                any_in_list = {
+                                    variable = dynasty_tribe
+                                    this = scope:the_spouse
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -2162,14 +2587,51 @@ CharacterTier = {
             NOT = {
                 has_government = theocracy_government
                 has_government = holy_order_government
+                AND = {
+                    exists = dynasty
+                    dynasty = {
+                        OR = {
+                            any_in_list = {
+                                variable = dynasty_theocrats
+                                this = root
+                            }
+                            any_in_list = {
+                                variable = dynasty_HO
+                                this = root
+                            }
+                        }
+                    }
+                }
             }
-            exists = primary_spouse
-            primary_spouse = {
+            OR = {
+                exists = primary_spouse
+                any_former_spouse = {
+                    exists = this
+                }
+            }
+            any_spouse = {
+                even_if_dead = yes
+                save_temporay_scope_as = the_spouse
                 highest_held_title_tier = tier_county
                 OR = {
                     has_government = feudal_government
                     has_government = clan_government
                     has_government = tribal_government
+                    AND = {
+                        exists = dynasty
+                        dynasty = {
+                            OR = {
+                                any_in_list = {
+                                    variable = dynasty_feudalclan
+                                    this = scope:the_spouse
+                                }
+                                any_in_list = {
+                                    variable = dynasty_tribe
+                                    this = scope:the_spouse
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -2196,14 +2658,51 @@ CharacterTier = {
             NOT = {
                 has_government = theocracy_government
                 has_government = holy_order_government
+                AND = {
+                    exists = dynasty
+                    dynasty = {
+                        OR = {
+                            any_in_list = {
+                                variable = dynasty_theocrats
+                                this = root
+                            }
+                            any_in_list = {
+                                variable = dynasty_HO
+                                this = root
+                            }
+                        }
+                    }
+                }
             }
-            exists = primary_spouse
-            primary_spouse = {
+            OR = {
+                exists = primary_spouse
+                any_former_spouse = {
+                    exists = this
+                }
+            }
+            any_spouse = {
+                even_if_dead = yes
+                save_temporay_scope_as = the_spouse
                 highest_held_title_tier = tier_barony
                 OR = {
                     has_government = feudal_government
                     has_government = clan_government
                     has_government = tribal_government
+                    AND = {
+                        exists = dynasty
+                        dynasty = {
+                            OR = {
+                                any_in_list = {
+                                    variable = dynasty_feudalclan
+                                    this = scope:the_spouse
+                                }
+                                any_in_list = {
+                                    variable = dynasty_tribe
+                                    this = scope:the_spouse
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -2305,10 +2804,10 @@ CharacterGov = {
         trigger = {
             faith = {
                 has_variable_list = faith_saints
-			any_in_list = {
-				variable = faith_saints
-				this = root
-			}
+                any_in_list = {
+                    variable = faith_saints
+                    this = root
+                }
             }
         }
         localization_key = _saint
@@ -2329,12 +2828,24 @@ CharacterGov = {
         trigger = {
             exists = global_var:KoH_is_loaded
             has_trait = koh_cardinal
+            any_in_global_list = {
+                variable = global_list_dead_cardinals
+                this = root
+            }
         }
         localization_key = _cardinal
     }
     text = {
         trigger = {
-            has_government = theocracy_government
+            OR = {
+                has_government = theocracy_government
+                dynasty = {
+                    any_in_list = {
+                        variable = dynasty_theocrats
+                        this = root
+                    }
+                }
+            }
         }
         localization_key = _theo
     }
@@ -2346,6 +2857,12 @@ CharacterGov = {
                     exists = global_var:KoH_is_loaded
                     has_government = holy_order_county_government
                 }
+                dynasty = {
+                    any_in_list = {
+                        variable = dynasty_HO
+                        this = root
+                    }
+                }
             }
         }
         localization_key = _ho
@@ -2355,21 +2872,61 @@ CharacterGov = {
             OR = {
                 has_government = feudal_government
                 AND = {
-                    exists = primary_spouse
-                    primary_spouse = {
-                        has_government = feudal_government
+                    OR = {
+                        exists = primary_spouse
+                        any_former_spouse = {
+                            exists = this
+                        }
+                    }
+                    any_spouse = {
+                        even_if_dead = yes
+                        save_scope_as = the_spouse
+                        OR = {
+                            has_government = feudal_government
+                            AND = {
+                                exists = dynasty
+                                dynasty = {
+                                    any_in_list = {
+                                        variable = dynasty_feudalclan
+                                        this = scope:the_spouse
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
                 AND = {
                     exists = father
                     father = {
-                        has_government = feudal_government
+                        OR = {
+                            has_government = feudal_government
+                            AND = {
+                                exists = dynasty
+                                dynasty = {
+                                    any_in_list = {
+                                        variable = dynasty_feudalclan
+                                        this = root.father
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
                 AND = {
                     exists = mother
                     mother = {
-                        has_government = feudal_government
+                        OR = {
+                            has_government = feudal_government
+                            AND = {
+                                exists = dynasty
+                                dynasty = {
+                                    any_in_list = {
+                                        variable = dynasty_feudalclan
+                                        this = root.mother
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
             }
@@ -2381,21 +2938,61 @@ CharacterGov = {
             OR = {
                 has_government = clan_government
                 AND = {
-                    exists = primary_spouse
-                    primary_spouse = {
-                        has_government = clan_government
+                    OR = {
+                        exists = primary_spouse
+                        any_former_spouse = {
+                            exists = this
+                        }
+                    }
+                    any_spouse = {
+                        even_if_dead = yes
+                        save_scope_as = the_spouse
+                        OR = {
+                            has_government = clan_government
+                            AND = {
+                                exists = dynasty
+                                dynasty = {
+                                    any_in_list = {
+                                        variable = dynasty_feudalclan
+                                        this = scope:the_spouse
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
                 AND = {
                     exists = father
                     father = {
-                        has_government = clan_government
+                        OR = {
+                            has_government = clan_government
+                            AND = {
+                                exists = dynasty
+                                dynasty = {
+                                    any_in_list = {
+                                        variable = dynasty_feudalclan
+                                        this = root.father
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
                 AND = {
                     exists = mother
                     mother = {
-                        has_government = clan_government
+                        OR = {
+                            has_government = clan_government
+                            AND = {
+                                exists = dynasty
+                                dynasty = {
+                                    any_in_list = {
+                                        variable = dynasty_feudalclan
+                                        this = root.mother
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
             }
@@ -2407,21 +3004,61 @@ CharacterGov = {
             OR = {
                 has_government = tribal_government
                 AND = {
-                    exists = primary_spouse
-                    primary_spouse = {
-                        has_government = tribal_government
+                    OR = {
+                        exists = primary_spouse
+                        any_former_spouse = {
+                            exists = this
+                        }
+                    }
+                    any_spouse = {
+                        even_if_dead = yes
+                        save_scope_as = the_spouse
+                        OR = {
+                            has_government = tribal_government
+                            AND = {
+                                exists = dynasty
+                                dynasty = {
+                                    any_in_list = {
+                                        variable = dynasty_tribe
+                                        this = scope:the_spouse
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
                 AND = {
                     exists = father
                     father = {
-                        has_government = tribal_government
+                        OR = {
+                            has_government = tribal_government
+                            AND = {
+                                exists = dynasty
+                                dynasty = {
+                                    any_in_list = {
+                                        variable = dynasty_tribe
+                                        this = root.father
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
                 AND = {
                     exists = mother
                     mother = {
-                        has_government = tribal_government
+                        OR = {
+                            has_government = tribal_government
+                            AND = {
+                                exists = dynasty
+                                dynasty = {
+                                    any_in_list = {
+                                        variable = dynasty_tribe
+                                        this = root.mother
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
             }
@@ -2430,20 +3067,55 @@ CharacterGov = {
     }
     text = {
         trigger = {
-            has_government = republic_government
+            OR = {
+                has_government = republic_government
+                AND = {
+                    exists = dynasty
+                    dynasty = {
+                        any_in_list = {
+                            variable = dynasty_repub
+                            this = root.mother
+                        }
+                    }
+                }
+            }
         }
         localization_key = _republic
     }
     text = {
         trigger = {
-            has_government = mercenary_government
+            OR = {
+                has_government = mercenary_government
+                AND = {
+                    exists = dynasty
+                    dynasty = {
+                        any_in_list = {
+                            variable = dynasty_merc
+                            this = root.mother
+                        }
+                    }
+                }
+            }
         }
         localization_key = _merc
     }
     text = {
         trigger = {
-            has_government = monastic_government
-            exists = global_var:KoH_is_loaded
+            OR = {
+                AND = {
+                    has_government = monastic_government
+                    exists = global_var:KoH_is_loaded
+                }
+                AND = {
+                    exists = dynasty
+                    dynasty = {
+                        any_in_list = {
+                            variable = dynasty_abbot
+                            this = root.mother
+                        }
+                    }
+                }
+            }
         }
         localization_key = _abbot
     }
@@ -2456,16 +3128,20 @@ CharacterCulture = {
     type = character
 	text = {
 		trigger = {
-			OR = {
-                has_culture = culture:danish
-                has_culture = culture:swedish
+			culture = {
+                OR = {
+                    has_name_list = name_list_swedish
+                    has_name_list = name_list_danish
+                }
             }
 		}
 		localization_key = _swe_dan
 	}
 	text = {
 		trigger = {
-			has_culture = culture:norwegian
+			culture = {
+                has_name_list = name_list_norwegian
+            }
 		}
 		localization_key = _norweg
 	}
