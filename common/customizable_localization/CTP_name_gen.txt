@@ -2842,10 +2842,13 @@ CharacterGov = {
         trigger = {
             OR = {
                 has_government = theocracy_government
-                dynasty = {
-                    any_in_list = {
-                        variable = dynasty_theocrats
-                        this = root
+                AND = {
+                    exists = dynasty
+                    dynasty = {
+                        any_in_list = {
+                            variable = dynasty_theocrats
+                            this = root
+                        }
                     }
                 }
             }
@@ -2860,10 +2863,13 @@ CharacterGov = {
                     exists = global_var:KoH_is_loaded
                     has_government = holy_order_county_government
                 }
-                dynasty = {
-                    any_in_list = {
-                        variable = dynasty_HO
-                        this = root
+                AND = {
+                    exists = dynasty
+                    dynasty = {
+                        any_in_list = {
+                            variable = dynasty_HO
+                            this = root
+                        }
                     }
                 }
             }

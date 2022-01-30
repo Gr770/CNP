@@ -1,4 +1,4 @@
-courtier_effect_cnp = {
+﻿courtier_effect_cnp = {
 	if = {
 		limit = {
 			culture = {

@@ -303,9 +303,7 @@ persian_islam_male_name_effect = {
                         }
                         add = 1
                     }
-                    1 = {
-                        change_first_name = Ali
-                    }
+                    change_first_name = Ali
                 }
                 0 = {
                     modifier = {
@@ -374,9 +372,7 @@ persian_islam_male_name_effect = {
                         }
                         add = 1
                     }
-                    1 = {
-                        change_first_name = Murtaza
-                    }
+                    change_first_name = Murtaza
                 }
                 0 = {
                     modifier = {
@@ -392,9 +388,7 @@ persian_islam_male_name_effect = {
                         }
                         add = 1
                     }
-                    1 = {
-                        change_first_name = Mahdi
-                    }
+                    change_first_name = Mahdi
                 }
                 0 = {
                     modifier = {
@@ -405,9 +399,7 @@ persian_islam_male_name_effect = {
                         }
                         add = 1
                     }
-                    1 = {
-                        change_first_name = Fadlun
-                    }
+                    change_first_name = Fadlun
                 }
                 0 = {
                     modifier = {
@@ -416,9 +408,7 @@ persian_islam_male_name_effect = {
                         }
                         add = 1
                     }
-                    1 = {
-                        change_first_name = Fadl
-                    }
+                    change_first_name = Fadl
                 }
                 0 = {
                     modifier = {
@@ -565,9 +555,7 @@ persian_islam_male_name_effect = {
                         }
                         add = 1
                     }
-                    1 = {
-                        change_first_name = Murtaza
-                    }
+                    change_first_name = Murtaza
                 }
                 0 = {
                     modifier = {
@@ -583,9 +571,7 @@ persian_islam_male_name_effect = {
                         }
                         add = 1
                     }
-                    1 = {
-                        change_first_name = Mahdi
-                    }
+                    change_first_name = Mahdi
                 }
                 0 = {
                     modifier = {
@@ -878,9 +864,7 @@ persian_islam_male_name_effect = {
                         }
                         add = 1
                     }
-                    1 = {
-                        change_first_name = Dushmanziar
-                    }
+                    change_first_name = Dushmanziar
                 }
                 1 = {
                     change_first_name = Aban
@@ -1725,9 +1709,7 @@ persian_christian_male_name_effect = {
                         }
                         add = 1
                     }
-                    1 = {
-                        change_first_name = Karen
-                    }
+                    change_first_name = Karen
                 }
                 0 = {
                     modifier = {
@@ -1736,9 +1718,7 @@ persian_christian_male_name_effect = {
                         }
                         add = 1
                     }
-                    1 = {
-                        change_first_name = Dushmanziar
-                    }
+                    change_first_name = Dushmanziar
                 }
                 1 = {
                     change_first_name = Abdallah
@@ -2452,9 +2432,7 @@ persian_fallback_male_name_effect = {
                         }
                         add = 1
                     }
-                    1 = {
-                        change_first_name = Dushmanziar
-                    }
+                    change_first_name = Dushmanziar
                 }
                 0 = {
                     modifier = {
