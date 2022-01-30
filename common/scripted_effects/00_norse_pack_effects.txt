@@ -4957,12 +4957,12 @@ norse_pack_name_ai_male = {
 					}
 					0 = {
 						modifier = {
-							exists = location
+							exists = liege.primary_title.duchy
 							OR = {
-								location.duchy = title:d_gotland
-								location.duchy = title:d_smaland
-								location.duchy = title:d_ostergotland
-								location.duchy = title:d_vastergotland
+								liege.primary_title.duchy = title:d_gotland
+								liege.primary_title.duchy = title:d_smaland
+								liege.primary_title.duchy = title:d_ostergotland
+								liege.primary_title.duchy = title:d_vastergotland
 							}
 							add = 6
 						}
@@ -5025,8 +5025,8 @@ norse_pack_name_ai_male = {
 					}
 					0 = {
 						modifier = {
-							exists = location
-							location.kingdom = title:k_denmark
+							exists = liege.primary_title.kingdom
+							liege.primary_title.kingdom = title:k_denmark
 							add = 2
 						}
 						random_list = {
@@ -5040,8 +5040,11 @@ norse_pack_name_ai_male = {
 					}
 					0 = {
 						modifier = {
-							exists = location
-							location.kingdom = title:k_saxony
+							exists = liege.primary_title.kingdom
+							OR = {
+								liege.primary_title.kingdom = title:k_saxony
+								liege.primary_title.kingdom = title:k_england
+							}
 							add = 2
 						}
 						random_list = {
@@ -5761,8 +5764,8 @@ norse_pack_name_ai_male = {
 				random_list = {
 					0 = {
 						modifier = {
-							exists = location
-							location.kingdom = title:k_norway
+							exists = liege.primary_title.kingdom
+							liege.primary_title.kingdom = title:k_norway
 							add = 7
 						}
 						random_list = {
@@ -8798,12 +8801,12 @@ norse_pack_culture_name_female = {
 				}
 				0 = {
 					modifier = {
-						exists = location
+						exists = liege.primary_title.duchy
 						OR = {
-							location.duchy = title:d_gotland
-							location.duchy = title:d_smaland
-							location.duchy = title:d_ostergotland
-							location.duchy = title:d_vastergotland
+							liege.primary_title.duchy = title:d_gotland
+							liege.primary_title.duchy = title:d_smaland
+							liege.primary_title.duchy = title:d_ostergotland
+							liege.primary_title.duchy = title:d_vastergotland
 						}
 						add = 2
 					}
@@ -10899,12 +10902,12 @@ norse_pack_name_ai_female = {
 					}
 					0 = {
 						modifier = {
-							exists = location
+							exists = liege.primary_title.duchy
 							OR = {
-								location.duchy = title:d_gotland
-								location.duchy = title:d_smaland
-								location.duchy = title:d_ostergotland
-								location.duchy = title:d_vastergotland
+								liege.primary_title.duchy = title:d_gotland
+								liege.primary_title.duchy = title:d_smaland
+								liege.primary_title.duchy = title:d_ostergotland
+								liege.primary_title.duchy = title:d_vastergotland
 							}
 							add = 2
 						}
