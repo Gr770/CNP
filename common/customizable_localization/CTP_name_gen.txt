@@ -3084,7 +3084,7 @@ CharacterGov = {
                     }
                     any_spouse = {
                         even_if_dead = yes
-                        save_scope_as = the_spouse
+                        save_temporary_scope_as = the_spouse
                         OR = {
                             has_government = feudal_government
                             AND = {
@@ -3150,7 +3150,7 @@ CharacterGov = {
                     }
                     any_spouse = {
                         even_if_dead = yes
-                        save_scope_as = the_spouse
+                        save_temporary_scope_as = the_spouse
                         OR = {
                             has_government = clan_government
                             AND = {
@@ -3216,7 +3216,7 @@ CharacterGov = {
                     }
                     any_spouse = {
                         even_if_dead = yes
-                        save_scope_as = the_spouse
+                        save_temporary_scope_as = the_spouse
                         OR = {
                             has_government = tribal_government
                             AND = {
