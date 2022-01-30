@@ -1870,6 +1870,7 @@ CTPShortNamePossessiveNoTooltipNotMy = {
 }
 CharacterTier = {
     type = character
+    log_loc_errors = no
     text = {
         trigger = {
             highest_held_title_tier = tier_empire
@@ -2781,6 +2782,7 @@ CharacterTier = {
 }
 CharacterGender = {
     type = character
+    log_loc_errors = no
     text = {
         trigger = {
             is_male = no
@@ -2794,6 +2796,7 @@ CharacterGender = {
 }
 CharacterGov = {
     type = character
+    log_loc_errors = no
     text = {
         trigger = {
             this = character:33922
@@ -3126,6 +3129,7 @@ CharacterGov = {
 }
 CharacterCulture = {
     type = character
+    log_loc_errors = no
 	text = {
 		trigger = {
 			culture = {
@@ -3176,6 +3180,7 @@ CharacterCulture = {
 }
 CharacterReligion = {
     type = character
+    log_loc_errors = no
     text = {
         trigger = {
             root.faith = faith:ashari
