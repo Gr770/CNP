@@ -2,16 +2,16 @@
 	on_actions = {
 		on_birth_child_cnp
 	}
+}
+on_birth_child_cnp = {
+	effect = {
+		courtier_effect_cnp = yes
+	}
 	events = {
 		ctpname.999
 		ctpname.998
 		ctpname.997
 		ctpname.996
-	}
-}
-on_birth_child_cnp = {
-	effect = {
-		courtier_effect_cnp = yes
 	}
 }
 on_death = {
