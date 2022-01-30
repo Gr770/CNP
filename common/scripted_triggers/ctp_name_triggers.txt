@@ -48,7 +48,12 @@ persian_muslim_check = {
         has_cultural_pillar = heritage_iranian
     }
     OR = {
-        has_religion = religion:islam_religion
+        AND = {
+            has_religion = religion:islam_religion
+            culture = {
+                has_cultural_pillar = language_iranian
+            }
+        }
         culture = {
             has_cultural_pillar = language_arabic
         }
