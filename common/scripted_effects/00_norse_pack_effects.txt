@@ -4968,21 +4968,21 @@ norse_pack_name_ai_male = {
 									}
 								}
 								AND = {
-									exists = liege_or_court_owner.liege.primary_title
+									exists = liege_or_court_owner.primary_title.de_jure_liege
 									OR = {
-										liege_or_court_owner.liege.primary_title = title:d_gotland
-										liege_or_court_owner.liege.primary_title = title:d_smaland
-										liege_or_court_owner.liege.primary_title = title:d_ostergotland
-										liege_or_court_owner.liege.primary_title = title:d_vastergotland
+										liege_or_court_owner.primary_title.de_jure_liege = title:d_gotland
+										liege_or_court_owner.primary_title.de_jure_liege = title:d_smaland
+										liege_or_court_owner.primary_title.de_jure_liege = title:d_ostergotland
+										liege_or_court_owner.primary_title.de_jure_liege = title:d_vastergotland
 									}
 								}
 								AND = {
-									exists = liege_or_court_owner.liege.liege.primary_title
+									exists = liege_or_court_owner.primary_title.de_jure_liege.de_jure_liege
 									OR = {
-										liege_or_court_owner.liege.liege.primary_title = title:d_gotland
-										liege_or_court_owner.liege.liege.primary_title = title:d_smaland
-										liege_or_court_owner.liege.liege.primary_title = title:d_ostergotland
-										liege_or_court_owner.liege.liege.primary_title = title:d_vastergotland
+										liege_or_court_owner.primary_title.de_jure_liege.de_jure_liege = title:d_gotland
+										liege_or_court_owner.primary_title.de_jure_liege.de_jure_liege = title:d_smaland
+										liege_or_court_owner.primary_title.de_jure_liege.de_jure_liege = title:d_ostergotland
+										liege_or_court_owner.primary_title.de_jure_liege.de_jure_liege = title:d_vastergotland
 									}
 								}
 							}
@@ -5053,16 +5053,16 @@ norse_pack_name_ai_male = {
 									liege_or_court_owner.primary_title = title:k_denmark
 								}
 								AND = {
-									exists = liege_or_court_owner.liege.primary_title
-									liege_or_court_owner.liege.primary_title = title:k_denmark
+									exists = liege_or_court_owner.primary_title.de_jure_liege
+									liege_or_court_owner.primary_title.de_jure_liege = title:k_denmark
 								}
 								AND = {
-									exists = liege_or_court_owner.liege.liege.primary_title
-									liege_or_court_owner.liege.liege.primary_title = title:k_denmark
+									exists = liege_or_court_owner.primary_title.de_jure_liege.de_jure_liege
+									liege_or_court_owner.primary_title.de_jure_liege.de_jure_liege = title:k_denmark
 								}
 								AND = {
-									exists = liege_or_court_owner.liege.liege.liege.primary_title
-									liege_or_court_owner.liege.liege.liege.primary_title = title:k_denmark
+									exists = liege_or_court_owner.primary_title.de_jure_liege.de_jure_liege.de_jure_liege
+									liege_or_court_owner.primary_title.de_jure_liege.de_jure_liege.de_jure_liege = title:k_denmark
 								}
 							}
 							add = 2
@@ -5087,24 +5087,24 @@ norse_pack_name_ai_male = {
 									}
 								}
 								AND = {
-									exists = liege_or_court_owner.liege.primary_title
+									exists = liege_or_court_owner.primary_title.de_jure_liege
 									OR = {
-										liege_or_court_owner.liege.primary_title = title:k_saxony
-										liege_or_court_owner.liege.primary_title = title:k_england
+										liege_or_court_owner.primary_title.de_jure_liege = title:k_saxony
+										liege_or_court_owner.primary_title.de_jure_liege = title:k_england
 									}
 								}
 								AND = {
-									exists = liege_or_court_owner.liege.liege.primary_title
+									exists = liege_or_court_owner.primary_title.de_jure_liege.de_jure_liege
 									OR = {
-										liege_or_court_owner.liege.liege.primary_title = title:k_saxony
-										liege_or_court_owner.liege.liege.primary_title = title:k_england
+										liege_or_court_owner.primary_title.de_jure_liege.de_jure_liege = title:k_saxony
+										liege_or_court_owner.primary_title.de_jure_liege.de_jure_liege = title:k_england
 									}
 								}
 								AND = {
-									exists = liege_or_court_owner.liege.liege.liege.primary_title
+									exists = liege_or_court_owner.primary_title.de_jure_liege.de_jure_liege.de_jure_liege
 									OR = {
-										liege_or_court_owner.liege.liege.liege.primary_title = title:k_saxony
-										liege_or_court_owner.liege.liege.liege.primary_title = title:k_england
+										liege_or_court_owner.primary_title.de_jure_liege.de_jure_liege.de_jure_liege = title:k_saxony
+										liege_or_court_owner.primary_title.de_jure_liege.de_jure_liege.de_jure_liege = title:k_england
 									}
 								}
 							}
@@ -5833,16 +5833,16 @@ norse_pack_name_ai_male = {
 									liege_or_court_owner.primary_title = title:k_norway
 								}
 								AND = {
-									exists = liege_or_court_owner.liege.primary_title
-									liege_or_court_owner.liege.primary_title = title:k_norway
+									exists = liege_or_court_owner.primary_title.de_jure_liege
+									liege_or_court_owner.primary_title.de_jure_liege = title:k_norway
 								}
 								AND = {
-									exists = liege_or_court_owner.liege.liege.primary_title
-									liege_or_court_owner.liege.liege.primary_title = title:k_norway
+									exists = liege_or_court_owner.primary_title.de_jure_liege.de_jure_liege
+									liege_or_court_owner.primary_title.de_jure_liege.de_jure_liege = title:k_norway
 								}
 								AND = {
-									exists = liege_or_court_owner.liege.liege.liege.primary_title
-									liege_or_court_owner.liege.liege.liege.primary_title = title:k_norway
+									exists = liege_or_court_owner.primary_title.de_jure_liege.de_jure_liege.de_jure_liege
+									liege_or_court_owner.primary_title.de_jure_liege.de_jure_liege.de_jure_liege = title:k_norway
 								}
 							}
 							add = 7
@@ -8891,21 +8891,21 @@ norse_pack_culture_name_female = {
 									}
 								}
 								AND = {
-									exists = liege_or_court_owner.liege.primary_title
+									exists = liege_or_court_owner.primary_title.de_jure_liege
 									OR = {
-										liege_or_court_owner.liege.primary_title = title:d_gotland
-										liege_or_court_owner.liege.primary_title = title:d_smaland
-										liege_or_court_owner.liege.primary_title = title:d_ostergotland
-										liege_or_court_owner.liege.primary_title = title:d_vastergotland
+										liege_or_court_owner.primary_title.de_jure_liege = title:d_gotland
+										liege_or_court_owner.primary_title.de_jure_liege = title:d_smaland
+										liege_or_court_owner.primary_title.de_jure_liege = title:d_ostergotland
+										liege_or_court_owner.primary_title.de_jure_liege = title:d_vastergotland
 									}
 								}
 								AND = {
-									exists = liege_or_court_owner.liege.liege.primary_title
+									exists = liege_or_court_owner.primary_title.de_jure_liege.de_jure_liege
 									OR = {
-										liege_or_court_owner.liege.liege.primary_title = title:d_gotland
-										liege_or_court_owner.liege.liege.primary_title = title:d_smaland
-										liege_or_court_owner.liege.liege.primary_title = title:d_ostergotland
-										liege_or_court_owner.liege.liege.primary_title = title:d_vastergotland
+										liege_or_court_owner.primary_title.de_jure_liege.de_jure_liege = title:d_gotland
+										liege_or_court_owner.primary_title.de_jure_liege.de_jure_liege = title:d_smaland
+										liege_or_court_owner.primary_title.de_jure_liege.de_jure_liege = title:d_ostergotland
+										liege_or_court_owner.primary_title.de_jure_liege.de_jure_liege = title:d_vastergotland
 									}
 								}
 							}
@@ -11014,21 +11014,21 @@ norse_pack_name_ai_female = {
 									}
 								}
 								AND = {
-									exists = liege_or_court_owner.liege.primary_title
+									exists = liege_or_court_owner.primary_title.de_jure_liege
 									OR = {
-										liege_or_court_owner.liege.primary_title = title:d_gotland
-										liege_or_court_owner.liege.primary_title = title:d_smaland
-										liege_or_court_owner.liege.primary_title = title:d_ostergotland
-										liege_or_court_owner.liege.primary_title = title:d_vastergotland
+										liege_or_court_owner.primary_title.de_jure_liege = title:d_gotland
+										liege_or_court_owner.primary_title.de_jure_liege = title:d_smaland
+										liege_or_court_owner.primary_title.de_jure_liege = title:d_ostergotland
+										liege_or_court_owner.primary_title.de_jure_liege = title:d_vastergotland
 									}
 								}
 								AND = {
-									exists = liege_or_court_owner.liege.liege.primary_title
+									exists = liege_or_court_owner.primary_title.de_jure_liege.de_jure_liege
 									OR = {
-										liege_or_court_owner.liege.liege.primary_title = title:d_gotland
-										liege_or_court_owner.liege.liege.primary_title = title:d_smaland
-										liege_or_court_owner.liege.liege.primary_title = title:d_ostergotland
-										liege_or_court_owner.liege.liege.primary_title = title:d_vastergotland
+										liege_or_court_owner.primary_title.de_jure_liege.de_jure_liege = title:d_gotland
+										liege_or_court_owner.primary_title.de_jure_liege.de_jure_liege = title:d_smaland
+										liege_or_court_owner.primary_title.de_jure_liege.de_jure_liege = title:d_ostergotland
+										liege_or_court_owner.primary_title.de_jure_liege.de_jure_liege = title:d_vastergotland
 									}
 								}
 							}
