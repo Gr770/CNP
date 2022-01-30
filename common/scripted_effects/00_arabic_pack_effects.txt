@@ -1037,7 +1037,7 @@ reset_reg_laqab_effect = {
 arabic_pack_culture_name_male = {
     add_character_flag = name_pack_support
     random_list = {
-        100 = {
+        40 = {
             random_list = {
                 1 = {
                     change_first_name = Muhammad
@@ -1071,7 +1071,7 @@ arabic_pack_culture_name_male = {
                 }
             }
         }
-        50 = {
+        30 = {
             random_list = {
                 1 = {
                     change_first_name = Abbas
@@ -1165,7 +1165,7 @@ arabic_pack_culture_name_male = {
                 }
             }
         }
-        25 = {
+        20 = {
             random_list = {
                 1 = {
                     change_first_name = Aban
@@ -1768,7 +1768,7 @@ arabic_pack_culture_name_male = {
 arabic_pack_culture_name_female = {
     add_character_flag = name_pack_support
     random_list = {
-        100 = {
+        40 = {
             random_list = {
                 1 = {
                     change_first_name = Aisha
@@ -1793,7 +1793,7 @@ arabic_pack_culture_name_female = {
                 }
             }	
         }
-        50 = {
+        30 = {
             random_list = {
                 1 = {
                     change_first_name = Aliya
@@ -1827,7 +1827,7 @@ arabic_pack_culture_name_female = {
                 }
             }
         }
-        25 = {
+        20 = {
             random_list = {
                 1 = {
                     change_first_name = Abbasa
@@ -2426,7 +2426,7 @@ arabic_pack_faith_name_male = {
                     }
                 }
             }
-            25 = {
+            20 = {
                 random_list = {
                     1 = {
                         change_first_name = Abdal-Hamid
@@ -2448,7 +2448,7 @@ arabic_pack_faith_name_male = {
                     }
                 }
             }
-            50 = {
+            30 = {
                 random_list = {
                     1 = {
                         change_first_name = Abdal-Aziz
@@ -2461,7 +2461,7 @@ arabic_pack_faith_name_male = {
                     }
                 }
             }
-            50 = {
+            30 = {
                 change_first_name = Muhammad
             }
         }
@@ -2790,7 +2790,7 @@ arabic_pack_faith_name_female = {
     IF = {
         limit = { has_religion = religion:islam_religion }
         random_list = {
-            25 = {
+            20 = {
                 random_list = {
                     1 = {
                         change_first_name = Amatal-Aziz
@@ -2897,16 +2897,49 @@ arabic_pack_faith_name_female = {
 arabic_pack_name_ai_male = {
     add_character_flag = name_pack_support
     random_list = {
-        100 = {
+        35 = {
             random_list = {
+                0 = {
+                    modifier = {
+                        OR = {
+                            has_faith = faith:ismaili
+                            has_faith = faith:qarmatian
+                            has_faith = faith:nizari
+                            has_faith = faith:zayidi
+                            has_faith = faith:imami
+                            has_faith = faith:ghulat
+                            has_faith = faith:alawite
+                            has_faith = faith:alevi
+                        }
+                        add = 1
+                    }
+                    change_first_name = Ali
+                }
                 1 = {
                     change_first_name = Muhammad
                 }
-                1 = {
-                    change_first_name = Ahmad
+            }
+        }
+        40 = {
+            random_list = {
+                0 = {
+                    modifier = {
+                        NOT = {
+                            has_faith = faith:ismaili
+                            has_faith = faith:qarmatian
+                            has_faith = faith:nizari
+                            has_faith = faith:zayidi
+                            has_faith = faith:imami
+                            has_faith = faith:ghulat
+                            has_faith = faith:alawite
+                            has_faith = faith:alevi
+                        }
+                        add = 1
+                    }
+                    change_first_name = Ali
                 }
                 1 = {
-                    change_first_name = Ali
+                    change_first_name = Ahmad
                 }
                 1 = {
                     change_first_name = Hasan
@@ -2931,7 +2964,7 @@ arabic_pack_name_ai_male = {
                 }
             }
         }
-        50 = {
+        30 = {
             random_list = {
                 1 = {
                     change_first_name = Abbas
@@ -3025,7 +3058,7 @@ arabic_pack_name_ai_male = {
                 }
             }
         }
-        25 = {
+        20 = {
             random_list = {
                 0 = {
                     modifier = {
@@ -3863,7 +3896,7 @@ arabic_pack_name_ai_male = {
 arabic_pack_name_ai_female = {
     add_character_flag = name_pack_support
     random_list = {
-        100 = {
+        40 = {
             random_list = {
                 1 = {
                     change_first_name = Aisha
@@ -3888,7 +3921,7 @@ arabic_pack_name_ai_female = {
                 }
             }	
         }
-        50 = {
+        30 = {
             random_list = {
                 1 = {
                     change_first_name = Aliya
@@ -3922,7 +3955,7 @@ arabic_pack_name_ai_female = {
                 }
             }
         }
-        25 = {
+        20 = {
             random_list = {
                 0 = {
                     modifier = {
