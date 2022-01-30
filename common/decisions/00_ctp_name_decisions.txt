@@ -49,14 +49,15 @@ get_regnal_laqab = {
             has_cultural_era_or_later = culture_era_high_medieval 
         }
         is_independent_ruler = yes
-        highest_held_title_tier >= tier_kingdom
-        OR = {
-            has_culture = culture:bedouin
-            has_culture = culture:levantine
-            has_culture = culture:egyptian
-            has_culture = culture:yemeni
-            persian_excluder = yes
+        capital_province = {
+            OR = {
+                geographical_region = world_middle_east
+                geographical_region = world_india
+                geographical_region = world_africa
+            }
         }
+        highest_held_title_tier >= tier_kingdom
+        has_religion = religion:islam_religion
 		NOT = {
 			has_character_flag = has_caliph_laqab
 			has_character_flag = has_regnal_laqab
@@ -94,14 +95,15 @@ get_ducal_laqab = {
             has_cultural_era_or_later = culture_era_high_medieval 
         }
         is_independent_ruler = yes
-        highest_held_title_tier = tier_duchy
-        OR = {
-            has_culture = culture:bedouin
-            has_culture = culture:levantine
-            has_culture = culture:egyptian
-            has_culture = culture:yemeni
-            persian_excluder = yes
+        capital_province = {
+            OR = {
+                geographical_region = world_middle_east
+                geographical_region = world_india
+                geographical_region = world_africa
+            }
         }
+        highest_held_title_tier = tier_duchy
+        has_religion = religion:islam_religion
 		NOT = {
 			has_character_flag = has_caliph_laqab
 			has_character_flag = has_regnal_laqab
