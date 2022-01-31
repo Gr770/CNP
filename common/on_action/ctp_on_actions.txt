@@ -1,28 +1,41 @@
 ﻿on_game_start = {
 	on_actions = {
 		on_867_start
+		on_867_start_sons
+		on_1066_start
+		on_1066_start_sons
 	}
-	events = {
-		ctpname.002
-		ctpname.003
-		ctpname.004
-		ctpname.005
-		ctpname.007
-		ctpname.008
-		ctpname.009
-		ctpname.010
+}
+on_1066_start_sons = {
+	trigger = {
+		game_start_date = 1066.9.15
+	}
+}
+on_867_start_sons = {
+	trigger = {
+		game_start_date = 867.1.1
+	}
+	effect = {
+		867_persian_sons_start_up_effect = yes
+		867_arabic_son_start_up_effect = yes
 	}
 }
 on_867_start = {
 	effect = {
 		867_persian_start_up_effect = yes
+		867_arabic_start_up_effect = yes
 	}
 }
-on_game_start_after_lobby = {
-	on_actions = {
-		ctp_courtiers_2
+on_1066_start = {
+	trigger = {
+		current_date > 1066.9.14
 	}
 }
+#on_game_start_after_lobby = {
+	#on_actions = {
+		#ctp_courtiers_2
+	#}
+#}
 ctp_courtiers_2 = {
 	effect = {
 		every_living_character = {

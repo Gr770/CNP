@@ -258,6 +258,11 @@ scripted_gui_trigger_laqab_adornment_worshippers = {
 	third = scripted_gui_laqab_adornment_worshippers
 	global = scripted_gui_laqab_adornment_worshippers
 }
+scripted_gui_trigger_laqab_guide_truth = {
+	first = scripted_gui_laqab_guide_truth
+	third = scripted_gui_laqab_guide_truth
+	global = scripted_gui_laqab_guide_truth
+}
 
 scripted_gui_trigger_laqab_divinely_guided = {
 	first = scripted_gui_laqab_divinely_guided

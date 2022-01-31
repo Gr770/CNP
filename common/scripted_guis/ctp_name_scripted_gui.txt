@@ -1114,6 +1114,11 @@ scripted_gui_ctp_laqab = {
 					save_scope_as = laqab_adornment_worshippers_scope
 				}
 				every_in_global_list = {
+					variable = laqab_guide_truth
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_guide_truth_scope
+				}
+				every_in_global_list = {
 					variable = laqab_nobility_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_nobility_faith_scope
@@ -2136,6 +2141,26 @@ scripted_gui_ctp_laqab = {
 			}
 			custom_description_no_bullet = {
 				text = scripted_gui_trigger_laqab_victorious_will_god
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_adornment_worshippers_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_adornment_worshippers
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_guide_truth_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_guide_truth
 				subject = scope:effect_root
 				object = scope:effect_root
 			}
@@ -3536,6 +3561,11 @@ scripted_gui_ctp_laqab_tek_name_check = {
 					save_scope_as = laqab_adornment_worshippers_scope
 				}
 				every_in_global_list = {
+					variable = laqab_guide_truth
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_guide_truth_scope
+				}
+				every_in_global_list = {
 					variable = laqab_nobility_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_nobility_faith_scope
@@ -4639,6 +4669,26 @@ scripted_gui_ctp_laqab_tek_name_check = {
 			}
 			custom_description_no_bullet = {
 				text = scripted_gui_trigger_laqab_victorious_will_god
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_adornment_worshippers_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_adornment_worshippers
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_guide_truth_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_guide_truth
 				subject = scope:effect_root
 				object = scope:effect_root
 			}
