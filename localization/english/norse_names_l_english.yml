@@ -1191,42 +1191,60 @@
  Bjorn_norse_pat_dad_female: "Biarnardóttir"
  
  Bjornkarl_norse: "Biǫrnkarl"
+ Bjornkarl_norse_tek_mom: "Biǫrnkarlsfaðir"
+ Bjornkarl_norse_tek_dad: "Biǫrnkarlsmóðir"
  Bjornkarl_norse_pat_dad_male: "Biǫrnkarlsson"
  Bjornkarl_norse_pat_dad_female: "Biǫrnkarlsdóttir"
  
  Bjornketil_norse: "Biǫrnkętill"
+ Bjornketil_norse_tek_mom: "Biǫrnkętilsfaðir"
+ Bjornketil_norse_tek_dad: "Biǫrnkętilsmóðir"
  Bjornketil_norse_pat_dad_male: "Biǫrnkętilsson"
  Bjornketil_norse_pat_dad_female: "Biǫrnkętilsdóttir"
  
  Bjornulf_norse: "Biǫrnúlfr"
+ Bjornulf_norse_tek_mom: "Biǫrnúlfsfaðir"
+ Bjornulf_norse_tek_dad: "Biǫrnúlfsmóðir"
  Bjornulf_norse_pat_dad_male: "Biǫrnúlfsson"
  Bjornulf_norse_pat_dad_female: "Biǫrnúlfsdóttir"
 
  ###
  
  Bjorstein_norse: "Biórstęinn"
+ Bjorstein_norse_tek_mom: "Biórstęinsfaðir"
+ Bjorstein_norse_tek_dad: "Biórstęinsmóðir"
  Bjorstein_norse_pat_dad_male: "Biórstęinsson"
  Bjorstein_norse_pat_dad_female: "Biórstęinsdóttir"
  
  Blasius_norse: "Blasíus" #christian
+ Blasius_norse_tek_mom: "Blasíusfaðir"
+ Blasius_norse_tek_dad: "Blasíusmóðir"
  Blasius_norse_pat_dad_male: "Blasíusson"
  Blasius_norse_pat_dad_female: "Blasíusdóttir"
 
  ###Bod
  
  Boddi_norse: "Boddi"
+ Boddi_norse_tek_mom: "Boddafaðir"
+ Boddi_norse_tek_dad: "Boddamóðir"
  Boddi_norse_pat_dad_male: "Boddason"
  Boddi_norse_pat_dad_female: "Boddadóttir"
  
  Bodmod_norse: "Boðmóðr"
+ Bodmod_norse_tek_mom: "Boðmóðsfaðir"
+ Bodmod_norse_tek_dad: "Boðmóðsmóðir"
  Bodmod_norse_pat_dad_male: "Boðmóðsson"
  Bodmod_norse_pat_dad_female: "Boðmóðsdóttir"
  
  Bodolf_norse: "Boðólfr"
+ Bodolf_norse_tek_mom: "Boðólfsfaðir"
+ Bodolf_norse_tek_dad: "Boðólfsmóðir"
  Bodolf_norse_pat_dad_male: "Boðólfsson"
  Bodolf_norse_pat_dad_female: "Boðólfsdóttir"
  
  Bodvar_norse: "Boðvarr"
+ Bodvar_norse_tek_mom: "Boðvarsfaðir"
+ Bodvar_norse_tek_dad: "Boðvarsmóðir"
  Bodvar_norse_pat_dad_male: "Boðvarsson"
  Bodvar_norse_pat_dad_female: "Boðvarsdóttir"
 
