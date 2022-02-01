@@ -4,15 +4,17 @@
 
 is_cnp_supported_culture = {
     OR = {
-	    OR = {
-            has_cultural_pillar = heritage_arabic
-            has_cultural_pillar = heritage_north_germanic
-            has_cultural_pillar = heritage_iranian
-        }
-        OR = {
-            has_cultural_pillar = language_arabic
-            has_cultural_pillar = language_norse
-            has_cultural_pillar = language_iranian
+	    AND = {
+            OR = {
+                has_cultural_pillar = heritage_arabic
+                has_cultural_pillar = heritage_north_germanic
+                has_cultural_pillar = heritage_iranian
+            }
+            OR = {
+                has_cultural_pillar = language_arabic
+                has_cultural_pillar = language_norse
+                has_cultural_pillar = language_iranian
+            }
         }
         AND = {
             has_cultural_pillar = heritage_iberian
@@ -42,22 +44,25 @@ persian_muslim_check = {
 }
 persian_standard_check = {
     culture = {
+        is_cnp_supported_culture = yes
         has_cultural_pillar = heritage_iranian
-        has_cultural_pillar = language_iranian
     }
 }
 arabic_check = {
     culture = {
-        has_cultural_pillar = heritage_arabic
+        is_cnp_supported_culture = yes
         OR = {
-            has_cultural_pillar = language_arabic
-            has_cultural_pillar = language_iranian
+            has_cultural_pillar = heritage_arabic
+            AND = {
+                has_cultural_pillar = language_arabic
+                has_cultural_pillar = language_iranian
+            }
         }
     }
 }
 north_check = {
     culture = {
+        is_cnp_supported_culture = yes
         has_cultural_pillar = heritage_north_germanic
-        has_cultural_pillar = language_norse
     }
 }
