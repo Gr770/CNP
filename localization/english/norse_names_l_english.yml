@@ -3380,12 +3380,12 @@
  Radi_norse_pat_dad_female: "Hraðadóttir"
  
  Rafn_norse: "Hrafn"
- Rafn_norse_pat_dad_male: "Hrafnsson"
- Rafn_norse_pat_dad_female: "Hrafnsdóttir"
+ Rafn_norse_pat_dad_male: "Hrafsson"
+ Rafn_norse_pat_dad_female: "Hrafsdóttir"
  
  Hrafn_norse: "Hrafn"
- Hrafn_norse_pat_dad_male: "Hrafnsson"
- Hrafn_norse_pat_dad_female: "Hrafnsdóttir"
+ Hrafn_norse_pat_dad_male: "Hrafsson"
+ Hrafn_norse_pat_dad_female: "Hrafsdóttir"
  
  Rafnkel_norse: "Hrafnkęll"
  Rafnkel_norse_pat_dad_male: "Hrafnkęlsson"
@@ -5598,6 +5598,10 @@
  Tjudmund_norse_pat_dad_male: "Þióðmundarson"
  Tjudmund_norse_pat_dad_female: "Þióðmundardóttir"
 
+ Thor_norse: "Þórr"
+ Thor_norse_pat_dad_male: "Þórsson"
+ Thor_norse_pat_dad_female: "Þórsdóttir"
+
  Thorstein_norse: "Þórstęinn"
  Thorstein_norse_pat_dad_male: "Þórstęinsson"
  Thorstein_norse_pat_dad_female: "Þórstęinsdóttir"
@@ -6883,6 +6887,8 @@
 
  Rodvi_norse: "Hróðví"
 
+ Rognfrid_norse: "Rǫgnfríðr"
+
  Hulda_norse: "Hulda"
 
  Hungerd_norse: "Húngęrðr"
@@ -7131,7 +7137,6 @@
 
  Ragnheid_norse: "Ragnhęiðr"
 
- Ragnhild_norse: "Ragnhildr"
  Ragnhild_norse: "Ragnhildr"
 
  Ragnvi_norse: "Ragnví"

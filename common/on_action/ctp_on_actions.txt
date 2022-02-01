@@ -24,6 +24,7 @@ on_867_start = {
 	effect = {
 		867_persian_start_up_effect = yes
 		867_arabic_start_up_effect = yes
+		867_norse_start_up_effect = yes
 	}
 }
 on_1066_start = {
@@ -31,11 +32,11 @@ on_1066_start = {
 		current_date > 1066.9.14
 	}
 }
-#on_game_start_after_lobby = {
-	#on_actions = {
-		#ctp_courtiers_2
-	#}
-#}
+on_game_start_after_lobby = {
+	on_actions = {
+		ctp_courtiers_2
+	}
+}
 ctp_courtiers_2 = {
 	effect = {
 		every_living_character = {
