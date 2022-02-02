@@ -49,11 +49,18 @@ get_regnal_laqab = {
             has_cultural_era_or_later = culture_era_high_medieval 
         }
         is_independent_ruler = yes
-        root.capital_province = {
-            OR = {
-                geographical_region = world_middle_east
-                geographical_region = world_india
-                geographical_region = world_africa
+        OR = {
+            any_county_in_region = {
+                region = world_middle_east
+                this.holder = root
+            }
+            any_county_in_region = {
+                region = world_india
+                this.holder = root
+            }
+            any_county_in_region = {
+                region = world_africa
+                this.holder = root
             }
         }
         highest_held_title_tier >= tier_kingdom
@@ -95,11 +102,18 @@ get_ducal_laqab = {
             has_cultural_era_or_later = culture_era_high_medieval 
         }
         is_independent_ruler = yes
-        root.capital_province = {
-            OR = {
-                geographical_region = world_middle_east
-                geographical_region = world_india
-                geographical_region = world_africa
+        OR = {
+            any_county_in_region = {
+                region = world_middle_east
+                this.holder = root
+            }
+            any_county_in_region = {
+                region = world_india
+                this.holder = root
+            }
+            any_county_in_region = {
+                region = world_africa
+                this.holder = root
             }
         }
         highest_held_title_tier = tier_duchy
