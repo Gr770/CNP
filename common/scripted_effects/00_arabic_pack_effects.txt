@@ -842,6 +842,7 @@
     character:34014 = {
         change_first_name = Muhammad
 		add_to_global_variable_list = { name = laqab_strengthened_god target = this }
+        add_character_flag = has_caliph_laqab
     }
 }
 867_arabic_son_start_up_effect = {

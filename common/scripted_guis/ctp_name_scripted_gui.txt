@@ -1693,6 +1693,21 @@ scripted_gui_ctp_laqab = {
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_Husam_scope
 				}
+				every_in_global_list = {
+					variable = laqab_unsur_mali
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_unsur_mali_scope
+				}
+				every_in_global_list = {
+					variable = laqab_order_realm
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_order_realm_scope
+				}
+				every_in_global_list = {
+					variable = laqab_sharaf_mali
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_sharaf_mali_scope
+				}
 			}
 		}
 		IF = {
@@ -3315,6 +3330,36 @@ scripted_gui_ctp_laqab = {
 				object = scope:effect_root
 			}
 		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_order_realm_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_order_realm
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_unsur_mali_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_unsur_mali
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_sharaf_mali_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_sharaf_mali
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
 		else = {
 			custom_description_no_bullet = {
 				text = ctp_blank_trigger_kunya
@@ -4139,6 +4184,21 @@ scripted_gui_ctp_laqab_tek_name_check = {
 					variable = laqab_Husam
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_Husam_scope
+				}
+				every_in_global_list = {
+					variable = laqab_unsur_mali
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_unsur_mali_scope
+				}
+				every_in_global_list = {
+					variable = laqab_order_realm
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_order_realm_scope
+				}
+				every_in_global_list = {
+					variable = laqab_sharaf_mali
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_sharaf_mali_scope
 				}
 			}
 			IF = {
@@ -5839,6 +5899,36 @@ scripted_gui_ctp_laqab_tek_name_check = {
 			}
 			custom_description_no_bullet = {
 				text = scripted_gui_trigger_laqab_Husam
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_order_realm_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_order_realm
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_unsur_mali_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_unsur_mali
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_sharaf_mali_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_sharaf_mali
 				subject = scope:effect_root
 				object = scope:effect_root
 			}

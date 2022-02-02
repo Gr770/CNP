@@ -859,6 +859,12 @@
  Yafar_persian_pat_dad_male: "ī Jaʿfar"
  Yafar_persian_pat_dad_female: "ī Jaʿfar"
 
+ Yaqub_persian: "Yaʿqūb"
+ Yaqub_persian_tek_mom: "ʾUmm Yaʿqūb"
+ Yaqub_persian_tek_dad: "ʾAbū Yaʿqūb"
+ Yaqub_persian_pat_dad_male: "ibn Yaʿqūb"
+ Yaqub_persian_pat_dad_female: "bint Yaʿqūb"
+
  Jalil_persian: "Jalīl"
  Jalil_persian_tek_mom: "ʾUmm Jalīl"
  Jalil_persian_tek_dad: "ʾAbū Jalīl"
@@ -2353,6 +2359,49 @@
  Maria_persian: "Maryam"
  Maria_persian_tek_mom: "ʾUmm Maryam"
  Maria_persian_tek_dad: "ʾAbū Maryam"
+
+ Masabih_persian: "Maṣābīḥ"
+ Masabih_persian_tek_mom: "ʾUmm Maṣābīḥ"
+ Masabih_persian_tek_dad: "ʾAbū Maṣābīḥ"
+
+ Mashuq_persian: "Maʿšūq"
+ Mashuq_persian_tek_mom: "ʾUmm Maʿšūq"
+ Mashuq_persian_tek_dad: "ʾAbū Maʿšūq"
+
+ Maymuna_persian: "Maymūna"
+ Maymuna_persian_tek_mom: "ʾUmm Maymūna"
+ Maymuna_persian_tek_dad: "ʾAbū Maymūna"
+
+ Maysun_persian: "Maysūn"
+ Maysun_persian_tek_mom: "ʾUmm Maysūn"
+ Maysun_persian_tek_dad: "ʾAbū Maysūn"
+
+ Mayya_persian: "Māyyā"
+ Mayya_persian_tek_mom: "ʾUmm Māyyā"
+ Mayya_persian_tek_dad: "ʾAbū Māyyā"
+
+ Muhja_persian: "Muhja"
+ Muhja_persian_tek_mom: "ʾUmm Muhja"
+ Muhja_persian_tek_dad: "ʾAbū Muhja"
+
+ Mulayka_persian: "Mulayka"
+ Mulayka_persian_tek_mom: "ʾUmm Mulayka"
+ Mulayka_persian_tek_dad: "ʾAbū Mulayka"
+
+ Mumina_persian: "Mūʾmīna"
+ Mumina_persian_tek_mom: "ʾUmm Mūʾmīna"
+ Mumina_persian_tek_dad: "ʾAbū Mūʾmīna"
+
+ Muna_persian: "Muna"
+ Muna_persian_tek_mom: "ʾUmm Muna"
+ Muna_persian_tek_dad: "ʾAbū Muna"
+
+ Munia_persian: "Munya"
+ Munia_persian_tek_mom: "ʾUmm Munya"
+ Munia_persian_tek_dad: "ʾAbū Munya"
+ Munya_persian: "Munya"
+ Munya_persian_tek_mom: "ʾUmm Munya"
+ Munya_persian_tek_dad: "ʾAbū Munya"
 
  Muslima_persian: "Muslima"
  Muslima_persian_tek_mom: "ʾUmm Muslima"

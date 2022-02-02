@@ -10,6 +10,9 @@ on_1066_start_sons = {
 	trigger = {
 		game_start_date = 1066.9.15
 	}
+	effect = {
+		1066_persian_sons_start_up_effect = yes
+	}
 }
 on_867_start_sons = {
 	trigger = {
@@ -31,12 +34,15 @@ on_1066_start = {
 	trigger = {
 		current_date > 1066.9.14
 	}
-}
-on_game_start_after_lobby = {
-	on_actions = {
-		ctp_courtiers_2
+	effect = {
+		1066_persian_start_up_effect = yes
 	}
 }
+#on_game_start_after_lobby = {
+#	on_actions = {
+#		ctp_courtiers_2
+#	}
+#}
 ctp_courtiers_2 = {
 	effect = {
 		every_living_character = {

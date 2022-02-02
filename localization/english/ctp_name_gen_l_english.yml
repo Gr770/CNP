@@ -103,7 +103,7 @@
  ctp_space_kunya: " "
 
 #Get Name
- scripted_gui_get_name: "[CHARACTER.Custom('CTPNameCheck')]"
+ scripted_gui_get_name: "[CHARACTER.Custom('CTPNameCheck')][CHARACTER.Custom('CharacterPat')]"
  scripted_gui_grab_name_widget_done: "[CHARACTER.GetFirstNameBase]"
  scripted_gui_grab_name_widget_no_support_done: "[Localize(CHARACTER.GetFirstNameBase)]"
 
@@ -312,6 +312,11 @@
  scripted_gui_laqab_orthodox_dynasty: "Rašīd ad-Dawla "
  scripted_gui_laqab_Zaim: "Zaʿim ad-Dawla "
  scripted_gui_laqab_Husam: "Husam ad-Dawla "
+
+ scripted_gui_laqab_order_realm: "Niẓām al-Mulk "
+
+ scripted_gui_laqab_unsur_mali: "ʿUnṣur al-Maʿāli "
+ scripted_gui_laqab_sharaf_mali: "Šaraf al-Maʿāli "
 
  tier_gen_CTP: "[Localize(Concatenate(Concatenate(Concatenate(Concatenate(ROOT.Char.Custom('CharacterTier'),ROOT.Char.Custom('CharacterGender')),ROOT.Char.Custom('CharacterGov')),ROOT.Char.Custom('CharacterCulture')),ROOT.Char.Custom('CharacterReligion')))]"
  ####"[Localize(Concatenate(Concatenate(Concatenate(Concatenate(ROOT.Char.Custom('CharacterTier'),ROOT.Char.Custom('CharacterGender')),ROOT.Char.Custom('CharacterGov')),ROOT.Char.Custom('CharacterCulture')),ROOT.Char.Custom('CharacterReligion')))]"

@@ -55,7 +55,7 @@ arabic_check = {
             has_cultural_pillar = heritage_arabic
             AND = {
                 has_cultural_pillar = language_arabic
-                has_cultural_pillar = language_iranian
+                has_cultural_pillar = heritage_iberian
             }
         }
     }

@@ -162,6 +162,13 @@ assign_faith_laqab = {
             has_religion = religion:islam_religion
             is_independent_ruler = yes
             highest_held_title_tier >= tier_kingdom
+            root.capital_province = {
+                OR = {
+                    geographical_region = world_middle_east
+                    geographical_region = world_india
+                    geographical_region = world_africa
+                }
+            }
             culture = {
                 has_cultural_era_or_later = culture_era_high_medieval 
             }
@@ -184,6 +191,13 @@ assign_faith_laqab = {
             has_religion = religion:islam_religion
             is_independent_ruler = yes
             highest_held_title_tier >= tier_kingdom
+            root.capital_province = {
+                OR = {
+                    geographical_region = world_middle_east
+                    geographical_region = world_india
+                    geographical_region = world_africa
+                }
+            }
             culture = {
                 has_cultural_era_or_later = culture_era_high_medieval 
             }
