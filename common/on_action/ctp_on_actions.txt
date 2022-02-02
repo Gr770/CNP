@@ -12,6 +12,8 @@ on_1066_start_sons = {
 	}
 	effect = {
 		1066_persian_sons_start_up_effect = yes
+		1066_ancetor_storage_norse = yes
+		1066_arabic_son_start_up_effect = yes
 	}
 }
 on_867_start_sons = {
@@ -21,6 +23,7 @@ on_867_start_sons = {
 	effect = {
 		867_persian_sons_start_up_effect = yes
 		867_arabic_son_start_up_effect = yes
+		867_ancetor_storage_norse = yes
 	}
 }
 on_867_start = {
@@ -36,6 +39,8 @@ on_1066_start = {
 	}
 	effect = {
 		1066_persian_start_up_effect = yes
+		1066_norse_start_up_effect = yes
+		1066_arabic_start_up_effect = yes
 	}
 }
 #on_game_start_after_lobby = {
