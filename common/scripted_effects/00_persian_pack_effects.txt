@@ -1236,7 +1236,7 @@ persian_islam_male_name_effect = {
                     change_first_name = Shahriar
                 }
                 1 = {
-                    change_first_name = Seroe
+                    change_first_name = Sheroe
                 }
                 1 = {
                     change_first_name = Sulayman
