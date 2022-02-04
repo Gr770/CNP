@@ -1,4 +1,4 @@
-﻿get_caliph_laqab = {
+get_caliph_laqab = {
     picture = "gfx/interface/illustrations/decisions/decision_personal_religious.dds"
 
     desc = get_caliph_laqab_desc
@@ -52,6 +52,10 @@ get_regnal_laqab = {
         OR = {
             any_county_in_region = {
                 region = world_middle_east
+                this.holder = root
+            }
+            any_county_in_region = {
+                region = world_middle_east_persia
                 this.holder = root
             }
             any_county_in_region = {
@@ -109,6 +113,10 @@ get_ducal_laqab = {
         OR = {
             any_county_in_region = {
                 region = world_middle_east
+                this.holder = root
+            }
+            any_county_in_region = {
+                region = world_middle_east_persia
                 this.holder = root
             }
             any_county_in_region = {
