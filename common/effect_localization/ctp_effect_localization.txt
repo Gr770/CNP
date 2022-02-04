@@ -1051,6 +1051,11 @@ scripted_gui_trigger_laqab_order_realm = {
 	third = scripted_gui_laqab_order_realm
 	global = scripted_gui_laqab_order_realm
 }
+scripted_gui_trigger_laqab_unsur_mali = {
+	first = scripted_gui_laqab_unsur_mali
+	third = scripted_gui_laqab_unsur_mali
+	global = scripted_gui_laqab_unsur_mali
+}
 scripted_gui_trigger_sharaf_mali = {
 	first = scripted_gui_sharaf_mali
 	third = scripted_gui_sharaf_mali

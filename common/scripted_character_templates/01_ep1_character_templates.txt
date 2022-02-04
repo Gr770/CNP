@@ -193,10 +193,10 @@ inspired_template = {
 	learning = {
 		min_template_decent_skill
 		max_template_decent_skill
-	}
+	}	
 	after_creation = {
 		courtier_effect_cnp = yes
-	}	
+	}
 }
 
 local_artisan_template = {

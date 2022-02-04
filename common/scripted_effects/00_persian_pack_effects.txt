@@ -73,16 +73,16 @@
     dynasty:101689 = {
         add_to_variable_list = { name = name_pack_support_dynasty target = character:20703 }
         add_to_variable_list = { name = name_pack_support_dynasty target = character:144144 }
-        add_to_variable_list = { name = name_pack_support_dynasty target = character:166966 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:166996 }
         add_to_variable_list = { name = name_pack_support_dynasty target = character:166994 }
-        add_to_variable_list = { name = name_pack_support_dynasty target = character:166955 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:166995 }
         add_to_variable_list = { name = name_pack_support_dynasty target = character:166992 }
         add_to_variable_list = { name = name_pack_support_dynasty target = character:166990 }
         add_to_variable_list = { name = name_pack_support_dynasty target = character:166989 }
         add_to_variable_list = { name = dynasty_list_ctp_sons target = character:166989 }
         add_to_variable_list = { name = dynasty_list_ctp_sons target = character:166992 }
         add_to_variable_list = { name = dynasty_list_ctp_sons target = character:166994 }
-        add_to_variable_list = { name = dynasty_list_ctp_sons target = character:166955 }
+        add_to_variable_list = { name = dynasty_list_ctp_sons target = character:166995 }
         add_to_variable_list = { name = dynasty_list_ctp_sons target = character:20703 }
     }
     dynasty:1029026 = {
@@ -391,10 +391,6 @@
     character:216911 = {
         change_first_name = Shahriar
     }
-    character:166955 = {
-        change_first_name = Namawar
-        add_to_global_variable_list = { name = laqab_pride_dynasty target = this }
-    }
     character:93178 = {
         change_first_name = Namawar
     }
@@ -440,7 +436,7 @@
     character:166990 = {
         change_first_name = Manochihr
     }
-    character:166955 = {
+    character:166995 = {
         change_first_name = Anosharwan
         add_to_global_variable_list = { name = laqab_sharaf_mali target = this }
     }

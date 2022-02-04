@@ -64,7 +64,6 @@
             }
         }
     }
-    cooldown = { years = 3 } 
     auto_accept = yes
     send_option = {
         is_shown = {
@@ -139,13 +138,20 @@
         ai_recipients = liege
         ai_recipients = war_allies
         ai_recipients = neighboring_rulers
-        chance = 0.5
+        ai_recipients = guests
+        ai_recipients = dynasty
+        ai_recipients = courtiers
+        ai_recipients = spouses
+        ai_recipients = family
+        ai_recipients = children
+        ai_recipients = scripted_relations
+        chance = 0.25
     }
     ai_frequency = 36
     ai_potential = {
         always = yes
     }
-    ai_will_do = 100
+    ai_will_do = 75
 }
 
 assign_faith_laqab = {
@@ -162,8 +168,8 @@ assign_faith_laqab = {
             has_religion = religion:islam_religion
             is_independent_ruler = yes
             highest_held_title_tier >= tier_kingdom
+            current_year >= 1050
         }
-        current_year >= 1050
         scope:recipient = {
             has_religion = religion:islam_religion
             culture = {
@@ -189,8 +195,8 @@ assign_faith_laqab = {
                     value >= 30
                 }
             }
+            current_year >= 1050
         }
-        current_year >= 1050
         scope:recipient = {
             has_religion = religion:islam_religion
             culture = {
@@ -204,7 +210,6 @@ assign_faith_laqab = {
             }
         }
     }
-    cooldown = { years = 3 } 
     auto_accept = yes
     send_option = {
         is_shown = {
@@ -276,11 +281,17 @@ assign_faith_laqab = {
     ai_targets = {
         ai_recipients = realm_characters
         ai_recipients = vassals
-        chance = 0.5
+        ai_recipients = courtiers
+        ai_recipients = guests
+        ai_recipients = sub_realm_characters
+        ai_recipients = spouses
+        ai_recipients = family
+        ai_recipients = children
+        chance = 0.25
     }
     ai_frequency = 36
     ai_potential = {
         always = yes
     }
-    ai_will_do = 100
+    ai_will_do = 75
 }

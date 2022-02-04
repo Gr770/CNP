@@ -516,7 +516,7 @@ pool_repopulate_learning = {
 		courtier_effect_cnp = yes
 	}
 }
-			
+
 
 pool_repopulate_spouse = {
 	gender_female_chance = root.marriage_gender_adjusted_female_chance

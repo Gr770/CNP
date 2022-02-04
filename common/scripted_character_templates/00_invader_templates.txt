@@ -19,6 +19,9 @@ ibn_tumart_character_template = { # (history database char id 125501)
 	trait = education_learning_4
 	trait = reckless
 	random_traits = no
+	after_creation = {
+		courtier_effect_cnp = yes
+	}
 }
 
 ### Abd al-Mu'min
@@ -39,6 +42,9 @@ abd_al_mumin_character_template = {
 	trait = education_learning_3
 	trait = holy_warrior
 	random_traits = no
+	after_creation = {
+		courtier_effect_cnp = yes
+	}
 }
 
 ################################
@@ -67,6 +73,9 @@ post_migration_local_warlord_template = {
 		min_template_decent_skill
 		max_template_decent_skill
 	}
+	after_creation = {
+		courtier_effect_cnp = yes
+	}
 }
 
 post_migration_minor_warlord_template = {
@@ -90,5 +99,8 @@ post_migration_minor_warlord_template = {
 	martial = {
 		min_template_decent_skill
 		max_template_decent_skill
+	}
+	after_creation = {
+		courtier_effect_cnp = yes
 	}
 }

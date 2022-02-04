@@ -149,7 +149,6 @@ new_warrior_character = {
 		drunkard = {}
 		irritable = {}
 		athletic = {}
-		physique_good_1 = {}
 		strong = {}
 		shrewd = {}
 		clubfooted = {}
