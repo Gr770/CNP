@@ -1,5 +1,13 @@
 ﻿1066_arabic_start_up_effect = {
     add_to_global_variable_list = { name = name_pack_support_global target = character:73211 }
+    add_to_global_variable_list = { name = name_pack_support_global target = character:20741 }
+    add_to_global_variable_list = { name = name_pack_support_global target = character:20747 }
+    add_to_global_variable_list = { name = name_pack_support_global target = character:20777 }
+    add_to_global_variable_list = { name = name_pack_support_global target = character:93469 }
+    add_to_global_variable_list = { name = name_pack_support_global target = character:93477 }
+    add_to_global_variable_list = { name = name_pack_support_global target = character:20770 }
+    add_to_global_variable_list = { name = name_pack_support_global target = character:20771 }
+    add_to_global_variable_list = { name = name_pack_support_global target = character:yemeni0011 }
 	add_to_global_variable_list = { name = global_list_dead_hofs target = character:3094 }
 	add_to_global_variable_list = { name = global_list_dead_hofs target = character:3092 }
 	add_to_global_variable_list = { name = global_list_dead_hofs target = character:3090 }
@@ -16,6 +24,87 @@
 	add_to_global_variable_list = { name = global_list_dead_hofs target = character:73671 }
 	add_to_global_variable_list = { name = global_list_dead_hofs target = character:3202 }
 	add_to_global_variable_list = { name = global_list_dead_hofs target = character:3200 }
+	add_to_global_variable_list = { name = global_list_dead_hofs target = character:3082 }
+	add_to_global_variable_list = { name = global_list_dead_hofs target = character:3080 }
+	add_to_global_variable_list = { name = global_list_dead_hofs target = character:34025 }
+	add_to_global_variable_list = { name = global_list_dead_hofs target = character:34024 }
+	add_to_global_variable_list = { name = global_list_dead_hofs target = character:34023 }
+	add_to_global_variable_list = { name = global_list_dead_hofs target = character:34022 }
+	add_to_global_variable_list = { name = global_list_dead_hofs target = character:34020 }
+	add_to_global_variable_list = { name = global_list_dead_hofs target = character:34021 }
+	add_to_global_variable_list = { name = global_list_dead_hofs target = character:34019 }
+	add_to_global_variable_list = { name = global_list_dead_hofs target = character:34018 }
+	add_to_global_variable_list = { name = global_list_dead_hofs target = character:34016 }
+	add_to_global_variable_list = { name = global_list_dead_hofs target = character:34015 }
+	add_to_global_variable_list = { name = global_list_dead_hofs target = character:34014 }
+	add_to_global_variable_list = { name = global_list_dead_hofs target = character:159399 }
+	add_to_global_variable_list = { name = global_list_dead_hofs target = character:159400 }
+	add_to_global_variable_list = { name = global_list_dead_hofs target = character:159401 }
+	add_to_global_variable_list = { name = global_list_dead_hofs target = character:159402 }
+	add_to_global_variable_list = { name = global_list_dead_hofs target = character:159403 }
+	add_to_global_variable_list = { name = global_list_dead_hofs target = character:159404 }
+	add_to_global_variable_list = { name = global_list_dead_hofs target = character:159405 }
+	add_to_global_variable_list = { name = global_list_dead_hofs target = character:159421 }
+	add_to_global_variable_list = { name = global_list_dead_hofs target = character:159422 }
+    dynasty:576 = {
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:159400 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:159401 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:159402 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:159403 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:159423 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:159404 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:159416 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:159418 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:159419 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:159405 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:159421 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:159422 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:45048 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:45049 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:45050 }
+        add_to_variable_list = { name = dynasty_list_ctp_sons target = character:45048 }
+        add_to_variable_list = { name = dynasty_list_ctp_sons target = character:159422 }
+        add_to_variable_list = { name = dynasty_list_ctp_sons target = character:159421 }
+        add_to_variable_list = { name = dynasty_list_ctp_sons target = character:159405 }
+        add_to_variable_list = { name = dynasty_list_ctp_sons target = character:159419 }
+        add_to_variable_list = { name = dynasty_list_ctp_sons target = character:159418 }
+        add_to_variable_list = { name = dynasty_list_ctp_sons target = character:159417 }
+        add_to_variable_list = { name = dynasty_list_ctp_sons target = character:159405 }
+        add_to_variable_list = { name = dynasty_list_ctp_sons target = character:159423 }
+        add_to_variable_list = { name = dynasty_list_ctp_sons target = character:159402 }
+        add_to_variable_list = { name = dynasty_list_ctp_sons target = character:159400 }
+    }
+    character:yemeni0011 = {
+        change_first_name = Tamin
+    }
+    character:159422 = {
+        change_first_name = Husayn
+        add_to_global_variable_list = { name = laqab_divinely_guided target = this }
+    }
+    character:159421 = {
+        change_first_name = Qasim
+        add_to_global_variable_list = { name = laqab_the_victorious target = this }
+    }
+    character:159404 = {
+        change_first_name = Yahya
+        add_to_global_variable_list = { name = laqab_the_victorious target = this }
+    }
+    character:159403 = {
+        change_first_name = Qasim
+        add_to_global_variable_list = { name = laqab_the_chosen target = this }
+    }
+    character:159402 = {
+        change_first_name = Hasan
+        add_to_global_variable_list = { name = laqab_the_elected target = this }
+    }
+    character:159401 = {
+        change_first_name = Ahmad
+        add_to_global_variable_list = { name = laqab_gives_victory target = this }
+    }
+    character:159400 = {
+        change_first_name = Muhammad
+        add_to_global_variable_list = { name = laqab_the_approved target = this }
+    }
     character:3200 = {
         add_to_global_variable_list = { name = laqab_helpful_religion_god target = this }
     }
@@ -450,6 +539,304 @@
         add_to_variable_list = { name = dynasty_tribe target = character:bedouin0025 }
         add_to_variable_list = { name = dynasty_tribe target = character:bedouin0026 }
     }
+    dynasty:101685 = {
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:20743 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:144018 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:144019 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:159271 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:159270 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:159275 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:159269 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:159383 }
+        add_to_variable_list = { name = dynasty_list_ctp_sons target = character:159385 }
+        add_to_variable_list = { name = dynasty_list_ctp_sons target = character:159384 }
+        add_to_variable_list = { name = dynasty_list_ctp_sons target = character:159383 }
+        add_to_variable_list = { name = dynasty_list_ctp_sons target = character:159269 }
+        add_to_variable_list = { name = dynasty_list_ctp_sons target = character:159270 }
+        add_to_variable_list = { name = dynasty_list_ctp_sons target = character:159274 }
+        add_to_variable_list = { name = dynasty_list_ctp_sons target = character:159271 }
+        add_to_variable_list = { name = dynasty_list_ctp_sons target = character:20743 }
+    }
+    dynasty:101685 = {
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:159484 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:159482 }
+        add_to_variable_list = { name = dynasty_list_ctp_sons target = character:159482 }
+        add_to_variable_list = { name = dynasty_list_ctp_sons target = character:159483 }
+    }
+    dynasty:101727 = {
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:3084 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:34026 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:3086 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:3082 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:34023 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:34022 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:34025 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:3080 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:34021 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:34019 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:34024 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:34020 }
+        add_to_variable_list = { name = dynasty_list_ctp_sons target = character:34018 }
+        add_to_variable_list = { name = dynasty_list_ctp_sons target = character:34019 }
+        add_to_variable_list = { name = dynasty_list_ctp_sons target = character:34024 }
+        add_to_variable_list = { name = dynasty_list_ctp_sons target = character:3080 }
+        add_to_variable_list = { name = dynasty_list_ctp_sons target = character:3082 }
+        add_to_variable_list = { name = dynasty_list_ctp_sons target = character:3084 }
+    }
+    dynasty:2001069 = {
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:302374 }
+    }
+    dynasty:2001068 = {
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:302375 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:302372 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:302371 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:302370 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:302369 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:302368 }
+        add_to_variable_list = { name = dynasty_list_ctp_sons target = character:302368 }
+        add_to_variable_list = { name = dynasty_list_ctp_sons target = character:302369 }
+        add_to_variable_list = { name = dynasty_list_ctp_sons target = character:302370 }
+        add_to_variable_list = { name = dynasty_list_ctp_sons target = character:302371 }
+        add_to_variable_list = { name = dynasty_list_ctp_sons target = character:302372 }
+        add_to_variable_list = { name = dynasty_list_ctp_sons target = character:302373 }
+    }
+    dynasty:2001070 = {
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:302376 }
+    }
+    dynasty:101862 = {
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:3822 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:144016 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:144017 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:3818 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:159391 }
+        add_to_variable_list = { name = dynasty_list_ctp_sons target = character:159390 }
+        add_to_variable_list = { name = dynasty_list_ctp_sons target = character:159391 }
+        add_to_variable_list = { name = dynasty_list_ctp_sons target = character:3816 }
+        add_to_variable_list = { name = dynasty_list_ctp_sons target = character:3818 }
+        add_to_variable_list = { name = dynasty_list_ctp_sons target = character:3822 }
+    }
+    dynasty:588 = {
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:3812 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:3808 }
+        add_to_variable_list = { name = dynasty_list_ctp_sons target = character:3810 }
+        add_to_variable_list = { name = dynasty_list_ctp_sons target = character:3812 }
+        add_to_variable_list = { name = dynasty_list_ctp_sons target = character:3814 }
+    }
+    dynasty:101033 = {
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:20761 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:93384 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:20794 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:93359 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:20836 }
+        add_to_variable_list = { name = dynasty_list_ctp_sons target = character:20761 }
+    }
+    dynasty:101055 = {
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:20718 }
+    }
+    dynasty:101025 = {
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:20727 }
+    }
+    dynasty:101019 = {
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:20728 }
+    }
+    dynasty:101018 = {
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:20729 }
+    }
+    dynasty:101032 = {
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:20763 }
+    }
+    dynasty:101039 = {
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:20766 }
+    }
+    dynasty:101025 = {
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:20773 }
+    }
+    dynasty:101021 = {
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:20775 }
+    }
+    dynasty:101020 = {
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:20776 }
+    }
+    dynasty:101018 = {
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:20778 }
+    }
+    dynasty:101017 = {
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:20779 }
+    }
+    dynasty:101049 = {
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:20784 }
+    }
+    dynasty:101050 = {
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:93352 }
+    }
+    dynasty:101051 = {
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:20786 }
+    }
+    dynasty:101052 = {
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:20788 }
+    }
+    dynasty:101034 = {
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:34570 }
+    }
+    dynasty:101058 = {
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:20671 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:93331 }
+    }
+    dynasty:101042 = {
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:20672 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:93338 }
+        add_to_variable_list = { name = dynasty_list_ctp_sons target = character:20672 }
+    }
+    dynasty:101042 = {
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:20674 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:93345 }
+    }
+    dynasty:101036 = {
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:20675 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:20762 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:20796 }
+        add_to_variable_list = { name = dynasty_list_ctp_sons target = character:20675 }
+    }
+    dynasty:100783 = {
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:34507 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:34508 }
+    }
+    dynasty:100687 = {
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:34533 }
+    }
+    dynasty:101023 = {
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:34485 }
+    }
+    dynasty:590 = {
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:45035 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:45036 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:yemeni0001 }
+        add_to_variable_list = { name = dynasty_list_ctp_sons target = character:45035 }
+    }
+    dynasty:1022235 = {
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:145615 }
+    }
+    character:34508 = {
+        change_first_name = Ismail
+    }
+    character:20762 = {
+        change_first_name = Qutayba
+    }
+    character:93345 = {
+        change_first_name = Ismail
+    }
+    character:20782 = {
+        courtier_effect_cnp = yes
+    }
+    character:20772 = {
+        courtier_effect_cnp = yes
+    }
+    character:20746 = {
+        courtier_effect_cnp = yes
+    }
+    character:93359 = {
+        change_first_name = Yasir
+    }
+    character:20794 = {
+        change_first_name = Dawud
+    }
+    character:34015 = {
+        add_to_global_variable_list = { name = laqab_guided_god target = this }
+    }
+    character:20768 = {
+        change_first_name = Haydar
+        add_to_global_variable_list = { name = laqab_fort_dynasty target = this }
+        add_character_flag = has_reg_laqab
+    }
+    character:159392 = {
+        change_first_name = Muqallad
+        add_to_global_variable_list = { name = laqab_Husam target = this }
+    }
+    character:3816 = {
+        change_first_name = Qirwash
+        add_to_global_variable_list = { name = laqab_Mutamid_dynasty target = this }
+    }
+    character:3818 = {
+        change_first_name = Barakat
+        add_to_global_variable_list = { name = laqab_Zaim target = this }
+    }
+    character:3820 = {
+        change_first_name = Quraysh
+        add_to_global_variable_list = { name = laqab_Alam target = this }
+    }
+    character:3822 = {
+        change_first_name = Muslim
+        add_to_global_variable_list = { name = laqab_dignity_dynasty target = this }
+        add_character_flag = has_reg_laqab
+    }
+    character:302376 = {
+        change_first_name = Akab
+    }
+    character:34016 = {
+        add_to_global_variable_list = { name = laqab_seeker_helper_god target = this }
+    }
+    character:34019 = {
+        add_to_global_variable_list = { name = laqab_seeker_support_god target = this }
+    }
+    character:34020 = {
+        change_first_name = Muhammad
+        add_to_global_variable_list = { name = laqab_victorious_will_god target = this }
+    }
+    character:34024 = {
+        change_first_name = Abdallah
+        add_to_global_variable_list = { name = laqab_satisfied_god target = this }
+    }
+    character:34019 = {
+        change_first_name = Ali
+        add_to_global_variable_list = { name = laqab_content_god target = this }
+    }
+    character:34021 = {
+        change_first_name = Jafar
+        add_to_global_variable_list = { name = laqab_mighty_god target = this }
+    }
+    character:3080 = {
+        change_first_name = Abdal-Karim
+        add_to_global_variable_list = { name = laqab_obedient_command_god target = this }
+    }
+    character:34025 = {
+        change_first_name = Fadl
+        add_to_global_variable_list = { name = laqab_obedient_god target = this }
+    }
+    character:34022 = {
+        change_first_name = Muhammad
+        add_to_global_variable_list = { name = laqab_content_2_god target = this }
+    }
+    character:34023 = {
+        change_first_name = Ibrahim
+        add_to_global_variable_list = { name = laqab_faithful_god target = this }
+    }
+    character:3082 = {
+        change_first_name = Ahmad
+        add_to_global_variable_list = { name = laqab_victorious_will_god target = this }
+    }
+    character:3086 = {
+        change_first_name = Abdallah
+    }
+    character:3084 = {
+        change_first_name = Jafar
+        add_to_global_variable_list = { name = laqab_executor_command_god target = this }
+        add_character_flag = has_caliph_laqab
+    }
+    character:159271 = {
+        change_first_name = Nasr
+        add_to_global_variable_list = { name = laqab_lion_cub_dynasty target = this }
+    }
+    character:144019 = {
+        change_first_name = Sadiq
+    }
+    character:144018 = {
+        change_first_name = Nasr
+    }
+    character:20743 = {
+        change_first_name = Mahmud
+        add_to_global_variable_list = { name = laqab_orthodox_dynasty target = this }
+        add_character_flag = has_reg_laqab
+    }
     character:bedouin0025 = {
         change_first_name = HibatAllah
     }
@@ -548,6 +935,90 @@
     }
 }
 1066_arabic_son_start_up_effect = {
+    character:145615 = {
+        add_character_flag = had_eldest_son
+        set_variable = { name = var_dad_eldest_son value = character:145614 }
+    }
+    character:45035 = {
+        add_character_flag = had_eldest_son
+        set_variable = { name = var_dad_eldest_son value = character:45036 }
+    }
+    character:34532 = {
+        add_character_flag = had_eldest_son
+        set_variable = { name = var_dad_eldest_son value = character:34533 }
+    }
+    character:34507 = {
+        add_character_flag = had_eldest_son
+        set_variable = { name = var_dad_eldest_son value = character:34508 }
+    }
+    character:20675 = {
+        add_character_flag = had_eldest_son
+        set_variable = { name = var_dad_eldest_son value = character:93377 }
+    }
+    character:20674 = {
+        add_character_flag = had_eldest_son
+        set_variable = { name = var_dad_eldest_son value = character:93345 }
+    }
+    character:20672 = {
+        add_character_flag = had_eldest_son
+        set_variable = { name = var_dad_eldest_son value = character:93338 }
+    }
+    character:20671 = {
+        add_character_flag = had_eldest_son
+        set_variable = { name = var_dad_eldest_son value = character:93331 }
+    }
+    character:20795 = {
+        add_character_flag = had_eldest_son
+        set_variable = { name = var_dad_eldest_son value = character:34570 }
+    }
+    character:20786 = {
+        add_character_flag = had_eldest_son
+        set_variable = { name = var_dad_eldest_son value = character:93366 }
+    }
+    character:20785 = {
+        add_character_flag = had_eldest_son
+        set_variable = { name = var_dad_eldest_son value = character:93352 }
+    }
+    character:20728 = {
+        add_character_flag = had_eldest_son
+        set_variable = { name = var_dad_eldest_son value = character:93391 }
+    }
+    character:20794 = {
+        add_character_flag = had_eldest_son
+        set_variable = { name = var_dad_eldest_son value = character:93359 }
+    }
+    character:20761 = {
+        add_character_flag = had_eldest_son
+        set_variable = { name = var_dad_eldest_son value = character:93384 }
+    }
+    character:3822 = {
+        add_character_flag = had_eldest_son
+        set_variable = { name = var_dad_eldest_son value = character:144017 }
+    }
+    character:93320 = {
+        add_character_flag = had_eldest_son
+        set_variable = { name = var_dad_eldest_son value = character:93321 }
+    }
+    character:340269 = {
+        add_character_flag = had_eldest_son
+        set_variable = { name = var_dad_eldest_son value = character:3086 }
+    }
+    character:3084 = {
+        add_character_flag = had_eldest_son
+        set_variable = { name = var_dad_eldest_son value = character:340269 }
+    }
+    character:159484 = {
+        add_character_flag = had_eldest_son
+        set_variable = { name = var_dad_eldest_son value = character:159485 }
+    }
+    character:159483 = {
+        add_character_flag = had_eldest_son
+        set_variable = { name = var_dad_eldest_son value = character:159484 }
+    }
+    character:20743 = {
+        add_character_flag = had_eldest_son
+        set_variable = { name = var_dad_eldest_son value = character:144018 }
+    }
     character:bedouin0027 = {
         add_character_flag = had_eldest_son
         set_variable = { name = var_dad_eldest_son value = character:bedouin0028 }

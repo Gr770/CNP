@@ -1,3 +1,0 @@
-﻿ l_english:
- muslim_enhancements.0002.desc.vassals:0 "[scoped_ruler.Custom('CTPTitledFirstName')] has decided to welcome foreign settlers from across the Muslim world.\n\n[scoped_ruler.GetSheHe|U] hopes that these new arrivals will help populate our land faster and increase commerce with our allies."
- muslim_enhancements.0002.desc.others:1 "[scoped_ruler.Custom('CTPTitledFirstName')] has decided to welcome foreign settlers from across the Muslim world into [scoped_ruler.GetPrimaryTitle.GetNameNoTierNoTooltip].\n\n[scoped_ruler.GetSheHe|U] hopes that these new arrivals will help populate [scoped_ruler.GetHerHis] land faster and increase commerce with [scoped_ruler.GetHerHis] allies."
