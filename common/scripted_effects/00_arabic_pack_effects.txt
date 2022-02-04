@@ -4432,7 +4432,7 @@ arabic_pack_culture_name_female = {
                     change_first_name = Shakira
                 }
                 1 = {
-                    change_first_name = Taqiya
+                    change_first_name = Taqiyya
                 }
                 1 = {
                     change_first_name = Zabiba
@@ -6673,7 +6673,7 @@ arabic_pack_name_ai_female = {
                     change_first_name = Shakira
                 }
                 1 = {
-                    change_first_name = Taqiya
+                    change_first_name = Taqiyya
                 }
                 1 = {
                     change_first_name = Zabiba

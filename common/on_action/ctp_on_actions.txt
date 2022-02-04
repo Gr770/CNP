@@ -43,11 +43,11 @@ on_1066_start = {
 		1066_arabic_start_up_effect = yes
 	}
 }
-#on_game_start_after_lobby = {
-#	on_actions = {
-#		ctp_courtiers_2
-#	}
-#}
+on_game_start_after_lobby = {
+	on_actions = {
+		ctp_courtiers_2
+	}
+}
 ctp_courtiers_2 = {
 	effect = {
 		every_living_character = {
