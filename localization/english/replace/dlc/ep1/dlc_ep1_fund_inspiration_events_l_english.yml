@@ -1,21 +1,8 @@
 ﻿l_english:
- #TODO_CD_L: remove this after testing
- fund_inspiration.9999.t:0 "Inspiration Boost"
- fund_inspiration.9999.desc:0 ""
- fund_inspiration.9999.a:0 "Feel the inspiraaatiiooooon!"
- 
- #Tooltips that can be used in all inspiration start-events
  fund_inspiration.you_decide_option_tt:0 "[inspiration_owner.Custom('CTPTitledFirstNameNoTooltip')] will create an [artifact|E] based on your instructions"
  fund_inspiration.they_decide_option_tt:1 "[inspiration_owner.Custom('CTPTitledFirstNameNoTooltip')] will notify you when the [artifact|E] is complete"
 
-
- fund_inspiration.0001.t:0 "Inspiration Funded"
-
-# Weapon 
  fund_inspiration.0011.desc:0 "[inspiration_owner.Custom('CTPTitledFirstName')] [ROOT.Char.Custom2('QuirkPresentPosOrNeg', SCOPE.sC('inspiration_owner'))] before bowing deeply. "It's both an honor and a privilege to forge you a weapon," [inspiration_owner.GetSheHe] speaks in a dignified way, but there's a glimmer of excitement in [inspiration_owner.GetHerHis] eyes that betrays [inspiration_owner.GetHerHis] serious demeanor.\n\n"Tell me, what's your preferred way of fighting with a weapon? I wish to forge something that would suit you the best.""
- fund_inspiration.0011.a:1 "Something that can both slash and pierce flesh."
- fund_inspiration.0011.b:0 "I want a weapon that makes full use of my strength!"
- fund_inspiration.0011.c:0 "I prefer to keep my enemies at a distance."
 
  fund_inspiration.0011.tooltip_action:0 "[inspiration_owner.Custom('CTPFirstNameNoTooltip')] starts working on"
  fund_inspiration.0011.tooltip_axe:0 "$fund_inspiration.0011.tooltip_action$ an $signature_weapon_axe$"
