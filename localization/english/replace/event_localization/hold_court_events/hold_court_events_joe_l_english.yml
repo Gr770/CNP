@@ -49,7 +49,7 @@
  # # Sacred Claims
  hold_court.8020.t:0 "Sacred Claims"
  hold_court.8020.desc.intro:0 "[bishop.GetCouncilTitle] [bishop.Custom('CTPFirstName')] steps forward solemnly. "My [ROOT.Char.GetLadyLord], [ROOT.Char.Custom('get_hold_court_8020_holiness_1')]""
- hold_court.8020.desc.body_pope:0 "\n\n"[pope.GetHerHis|U] holiness [pope.GetTitledFirstNameRegnal] agrees"
+ hold_court.8020.desc.body_pope:0 "\n\n"[pope.GetHerHis|U] holiness [pope.Custom('CTPTitledFirstNameRegnal')] agrees"
  hold_court.8020.desc.body_fallback:0 "\n\n"There is agreement"
  hold_court.8020.desc.body_1:0 "that [ROOT.Char.Custom('get_hold_court_8020_holiness_2')] should be wholly administered by [ROOT.Char.GetFaith.AltPriestTermPlural] rather than laymen.""
  hold_court.8020.desc.body_personal:0 "\n\n"Pass this land into"
@@ -149,7 +149,7 @@
  hold_court.8052.b:0 "Guards, arrest that [vassal.Custom('InsultNoun')]!"
  # # Perils of Glory
  hold_court.8053.t:0 "$hold_court.8050.t$: Prestige's Perils"
- hold_court.8053.desc.intro:0 "Word reaches you from the [battle_location.Custom('TerrainTypeProvince')] of [battle_location.GetName], where [knight.GetFirstNameNicknamed] is reported to have been cut down"
+ hold_court.8053.desc.intro:0 "Word reaches you from the [battle_location.Custom('TerrainTypeProvince')] of [battle_location.GetName], where [knight.Custom('CTPFirstNameNicknamed')] is reported to have been cut down"
  hold_court.8053.killer:0 "by [knight.GetKiller.GetName]"
  hold_court.8053.battle:0 "amidst the chaotic melee"
  hold_court.8053.desc_talented:0 "in a blaze of glory, surrounded by the corpses of lesser [knight.GetWomenMen]."
@@ -317,7 +317,7 @@
  hold_court_8090_favorites_modifier:0 "Playing Favorites"
  # # A Child of the Court
  hold_court.8100.t:0 "A Child of the Court"
- hold_court.8100.desc.intro:1 "I am faced with [ward.GetFullNameNicknamedPossessive] sad eyes, which grow larger and more pitiful as [ward.GetHerHis] [ward.Custom2('RelationToMeShort', SCOPE.sC('advocate'))] [advocate.Custom('CTPTitledFirstName')] gently ushers [ward.GetHerHim] towards my throne. \n\n"[ROOT.Char.Custom('CTPTitleAsNameNoTooltip')]", [advocate.GetSheHe] laments, "the [ward.Custom('GirlBoy')] has been at"
+ hold_court.8100.desc.intro:1 "I am faced with [ward.Custom('CTPFullName2NickPossessive')] sad eyes, which grow larger and more pitiful as [ward.GetHerHis] [ward.Custom2('RelationToMeShort', SCOPE.sC('advocate'))] [advocate.Custom('CTPTitledFirstName')] gently ushers [ward.GetHerHim] towards my throne. \n\n"[ROOT.Char.Custom('CTPTitleAsNameNoTooltip')]", [advocate.GetSheHe] laments, "the [ward.Custom('GirlBoy')] has been at"
  hold_court.8100.desc.vassal:0 "[ward.GetLiege.Custom('CTPFirstNamePossessive')]"
  hold_court.8100.desc.court:0 "your"
  hold_court.8100.desc.body:0 "court with no one to watch over [ward.GetHerHim] since the [ward.Custom('get_hold_court_8100_situation')] of [ward.GetHerHis] dear [ward.Custom('get_hold_court_8100_parent')] – please, look to [ward.GetHerHis] future." \n\n"
@@ -418,11 +418,11 @@
  hold_court.8140.c:0 "Cats are superior companions."
  hold_court.8140.d:0 "You are delaying serious petitioners, [huntmaster.Custom('CTPFirstNameNoTooltip')]."
  # Puppy Patronage ping
- hold_court.8141.desc:0 "My [ROOT.Char.Custom2('RelationToMeShort' , SCOPE.sC('pup_house_ruler'))] [pup_house_ruler.GetTitledFirstNameRegnal] has expanded [pup_house_ruler.GetHerHis] royal kennels under the direction of [pup_house_ruler.GetHerHis] huntmaster, [huntmaster.GetTitledFirstNameRegnal]. \n\n[pup_house_ruler.GetSheHe|U] has invited all [pup_house_ruler.GetHerHis] kin to share the fruits of the endeavor!"
+ hold_court.8141.desc:0 "My [ROOT.Char.Custom2('RelationToMeShort' , SCOPE.sC('pup_house_ruler'))] [pup_house_ruler.Custom('CTPTitledFirstNameRegnal')] has expanded [pup_house_ruler.GetHerHis] royal kennels under the direction of [pup_house_ruler.GetHerHis] huntmaster, [huntmaster.Custom('CTPTitledFirstNameRegnal')]. \n\n[pup_house_ruler.GetSheHe|U] has invited all [pup_house_ruler.GetHerHis] kin to share the fruits of the endeavor!"
  hold_court.8141.a:0 "Puppies eh?"
  # Puppy Patronage decision event
  hold_court.8142.t:0 "$hold_court.8140.t$: New Companion"
- hold_court.8142.desc:0 "My servants bring me a newborn [ROOT.Char.Custom('get_region_dog_type')] puppy, fresh from the renowned [ROOT.Char.GetHouse.GetNameNoTooltip] kennels established by my [ROOT.Char.Custom2('RelationToMeShort' , SCOPE.sC('pup_house_ruler'))] [pup_house_ruler.GetTitledFirstNameRegnal]. \n\nPeeking out from the blankets sniffs a tiny nose, curious about the scents of its new home!"
+ hold_court.8142.desc:0 "My servants bring me a newborn [ROOT.Char.Custom('get_region_dog_type')] puppy, fresh from the renowned [ROOT.Char.GetHouse.GetNameNoTooltip] kennels established by my [ROOT.Char.Custom2('RelationToMeShort' , SCOPE.sC('pup_house_ruler'))] [pup_house_ruler.Custom('CTPTitledFirstNameRegnal')]. \n\nPeeking out from the blankets sniffs a tiny nose, curious about the scents of its new home!"
  hold_court.8142.a:0 "You shall serve me well little one!"
  hold_court.8142.b:0 "I have changed my mind."
  # Modifiers
@@ -464,9 +464,9 @@
  hold_court.8150.e:0 "You play a dangerous game, [target_faction.GetLeader.Custom('CTPTitleAsNameNoTooltip')]."
  # # Public Accusation
  hold_court.8160.t:0 "Public Accusation"
- hold_court.8160.desc.intro_child:0 "My [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('concerned'))] [concerned.Custom('CTPTitledFirstName')] shepherds young [victim.GetTitledFirstNameRegnal] to my side, clearly wracked by anxiety. \n\n"
- hold_court.8160.desc.intro_spouse:0 "[concerned.GetTitledFirstNameRegnal] and [concerned.GetHerHis] [concerned.Custom2('RelationToMeShort', SCOPE.sC('victim'))] approach cautiously, wary of the assembled court. \n\n"
- hold_court.8160.desc.intro_alone:0 "My [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('victim'))] [victim.GetTitledFirstNameRegnal] hurries to my side, [victim.GetHerHis] bloodshot eyes searching the assembled court. \n\n"
+ hold_court.8160.desc.intro_child:0 "My [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('concerned'))] [concerned.Custom('CTPTitledFirstName')] shepherds young [victim.Custom('CTPTitledFirstNameRegnal')] to my side, clearly wracked by anxiety. \n\n"
+ hold_court.8160.desc.intro_spouse:0 "[concerned.Custom('CTPTitledFirstNameRegnal')] and [concerned.GetHerHis] [concerned.Custom2('RelationToMeShort', SCOPE.sC('victim'))] approach cautiously, wary of the assembled court. \n\n"
+ hold_court.8160.desc.intro_alone:0 "My [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('victim'))] [victim.Custom('CTPTitledFirstNameRegnal')] hurries to my side, [victim.GetHerHis] bloodshot eyes searching the assembled court. \n\n"
  hold_court.8160.desc.intro_me:0 ""My [ROOT.Char.GetLadyLord], I am sure someone in the [ROOT.Char.GetPrimaryTitle.GetTierAsNameNoTooltip] is out to get me!"
  hold_court.8160.desc.intro_other:0 ""My [ROOT.Char.GetLadyLord], I am sure someone in the [ROOT.Char.GetPrimaryTitle.GetTierAsNameNoTooltip] is trying to harm my [concerned.Custom2('RelationToMeShort', SCOPE.sC('victim'))]!"
  hold_court.8160.desc.exposed:0 "Look here, I have proof it is [accused.Custom('CTPTitledFirstName')]"
@@ -626,7 +626,7 @@
  hold_court.8210.a:0 "This injustice ends now."
  hold_court.8210.b:0 "Such matters are traditionally settled by might."
  hold_court.8210.b.tt_aggressor:0 "[aggressor_vassal.Custom('CTPTitledFirstNameNoTooltip')] wins the duel"
- hold_court.8210.b.tt_defender:1 "The title stays with [defender_vassal.GetNameOrMeNoTooltip]"
+ hold_court.8210.b.tt_defender:1 "The title stays with [defender_vassal.Custom('CTPRegNameNoTooltipOrMe')]"
  hold_court.8210.c.none:0 "You have no claim, [aggressor_vassal.Custom('InsultNoun')]."
  hold_court.8210.c.other:0 "[defender_vassal.Custom('CTPFirstNamePossessiveNoTooltip')] claim is the truer."
  hold_court.8210.c.self:0 "My claim is the truer."
@@ -634,7 +634,7 @@
  hold_court.8210.e:0 "The [defender_vassal.Custom('CTPTitleAsNameNoTooltip')] will swear fealty to you."
  hold_court.8210.f.other:0 "You shall decide this with your sword-arms."
  hold_court.8210.f.self:0 "You must win it by the sword."
- hold_court.8210.duel_tt:0 "[defender_vassal.GetNameOrMeNoTooltip|U] will duel [aggressor_vassal.Custom('CTPTitledFirstName')] for [vassal_claim.GetName]"
+ hold_court.8210.duel_tt:0 "[defender_vassal.Custom('CTPRegNameNoTooltipOrMe')|U] will duel [aggressor_vassal.Custom('CTPTitledFirstName')] for [vassal_claim.GetName]"
  # # Opportunity Knocks
  hold_court.8220.t:0 "Opportunity Knocks"
  hold_court.8220.desc.intro:0 "My [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('assassin'))] [assassin.Custom('CTPTitledFirstName')] seems uncharacteristically nervous today, even for someone making a public request of their [ROOT.Char.Custom('CTPTitleAsNameNoTooltip')]. \n\nAs [assassin.GetSheHe] steps forward to make [assassin.GetHerHis] petition, [assassin.GetHerHis] face suddenly changes. \n\nBefore I know what is happening, [assassin.Custom('CTPFirstName')] is bearing down on me, dagger in hand, screaming:"

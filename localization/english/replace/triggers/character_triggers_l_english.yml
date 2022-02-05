@@ -837,7 +837,7 @@
 
  IS_COUNCIL_TASK_VALID:0 "[CHARACTER.Custom('CTP_Reg_Name_Default')] can start the $TYPE|V$ task"
  IS_COUNCIL_TASK_VALID_COUNTY:0 "[CHARACTER.Custom('CTP_Reg_Name_Default')] can start the $TYPE|V$ task in [PROVINCE.GetName]"
- IS_COUNCIL_TASK_VALID_COURT:0 "[CHARACTER.Custom('CTP_Reg_Name_Default')] can start the $TYPE|V$ task targeting [TARGET_CHARACTER.GetUINamePossessive] court"
+ IS_COUNCIL_TASK_VALID_COURT:0 "[CHARACTER.Custom('CTP_Reg_Name_Default')] can start the $TYPE|V$ task targeting [TARGET_CHARACTER.Custom('CTPNamePossessive')] court"
 
  #has_any_court_position
  HAS_ANY_COURT_POSITION:0 "Holds a court position"

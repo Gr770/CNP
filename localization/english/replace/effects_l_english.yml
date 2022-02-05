@@ -367,7 +367,7 @@
  I_GAIN_STRESS_CRITICAL_EFFECT:1 "You gain [stress_critical_i]$VALUE|-0$ [stress|E] (critical)"
  GAIN_STRESS_CRITICAL_EFFECT:0 "Gains [stress_critical_i]$VALUE|V0$ [stress|E] (critical)"
  SET_DYNASTY_EFFECT:1 "[CHARACTER.Custom('CTPShortName')|U] now belongs to the [TARGET_CHARACTER.GetDynastyName] Dynasty"
- DO_NOT_SET_TO_LOWBORN:0 "[CHARACTER.GetUINamePossessive] Dynasty will NOT change"
+ DO_NOT_SET_TO_LOWBORN:0 "[CHARACTER.Custom('CTPNamePossessive')] Dynasty will NOT change"
  I_BREAK_BETROTHAL_EFFECT:1 "You break [CHARACTER.Custom('CTPShortNamePossessiveyour')] betrothal with [TARGET_CHARACTER.Custom('CTPShortName')]"
  THEY_BREAK_BETROTHAL_EFFECT:0 "[CHARACTER.Custom('CTPShortName')|U] breaks [CHARACTER.GetHerHis] betrothal with [TARGET_CHARACTER.Custom('CTPShortName')]."
  BREAK_BETROTHAL_EFFECT:0 "Breaks [CHARACTER.Custom('CTPShortNamePossessiveyour')] betrothal with [TARGET_CHARACTER.Custom('CTPShortName')]."
@@ -960,11 +960,11 @@
  
  CLAIM_BECOMES_STRONG:0 "[claim|E] on [TARGET_TITLE.GetName] becomes [pressed|e]"
  MY_CLAIM_BECOMES_STRONG:1 "Your Claim on [TARGET_TITLE.GetName] becomes [pressed|e]"
- THEIR_CLAIM_BECOMES_STRONG:0 "[CHARACTER.GetUINamePossessive] claim on [TARGET_TITLE.GetName] becomes [pressed|e]"
+ THEIR_CLAIM_BECOMES_STRONG:0 "[CHARACTER.Custom('CTPNamePossessive')] claim on [TARGET_TITLE.GetName] becomes [pressed|e]"
 
  CLAIM_BECOMES_WEAK:0 "[claim|E] on [TARGET_TITLE.GetName] becomes weak"
  MY_CLAIM_BECOMES_WEAK:1 "Your Claim on [TARGET_TITLE.GetName] becomes weak"
- THEIR_CLAIM_BECOMES_WEAK:0 "[CHARACTER.GetUINamePossessive] claim on [TARGET_TITLE.GetName] becomes weak"
+ THEIR_CLAIM_BECOMES_WEAK:0 "[CHARACTER.Custom('CTPNamePossessive')] claim on [TARGET_TITLE.GetName] becomes weak"
  
  FORBID_FROM_SCHEME_EFFECT_THIRD:0 "[CHARACTER.Custom('CTPShortName')|U] will no longer be a part of the [SCHEME.GetName] against [SCHEME.GetTarget.Custom('CTPShortName')]"
  
@@ -1113,7 +1113,7 @@
  FIRED_FROM_MY_COUNCIL:1 "[TARGET_CHARACTER.Custom('CTPName')] is fired from your [council|E]"
  FIRE_COUNCILLOR_TT:1 "#T Fire [ACTIVE_COUNCIL_TASK.GetCouncillor.Custom('CTPName')] from the [council|E]#!"
  SET_COUNCIL_TASK_EFFECT:0 "Starts the $TYPE|V$ task"
- SET_COURT_COUNCIL_TASK_EFFECT:0 "Starts the $TYPE|V$ task targeting [TARGET_CHARACTER.GetUINamePossessive] court"
+ SET_COURT_COUNCIL_TASK_EFFECT:0 "Starts the $TYPE|V$ task targeting [TARGET_CHARACTER.Custom('CTPNamePossessive')] court"
  SET_COUNTY_COUNCIL_TASK_EFFECT:1 "Starts the $TYPE|V$ task in [TARGET_TITLE.GetName]"
  
  ADD_FACTION_DISCONTENT_EFFECT:0 "The [faction|E] gains $VALUE|V0$ [faction_discontent|E]"
@@ -1329,7 +1329,7 @@
  GHW_SET_DESIGNATED_WINNER:1 "[TARGET_CHARACTER.Custom('CTPShortName')] is selected as Designated Winner"
  GHW_SET_RESET_DESIGNATED_WINNER:0 "The Designated Winner is reset"
  GHW_DIVIDE_WAR_CHEST:0 "The War Chest is split amongst all participants"
- GHW_RESET_BENEFICIARY:1 "[CHARACTER.GetUINamePossessive|U] [beneficiary|E] is removed"
+ GHW_RESET_BENEFICIARY:1 "[CHARACTER.Custom('CTPNamePossessive')|U] [beneficiary|E] is removed"
 
  REVOKE_LEASE:0 "Revokes the lease of [TITLE.GetName]"
  REVOKED_LEASE:0 "Revoked the lease of [TITLE.GetName]"

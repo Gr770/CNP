@@ -5,8 +5,6 @@
  CTP_Title_as_Name_no_tooltip: "[Localize(Concatenate(Concatenate(Concatenate(Concatenate(ROOT.Char.Custom('CharacterTier'),ROOT.Char.Custom('CharacterGender')),ROOT.Char.Custom('CharacterGov')),ROOT.Char.Custom('CharacterCulture')),ROOT.Char.Custom('CharacterReligion')))]"
  CTP_Title_as_Name_possesive: "#ONCLICK:CHARACTER,[ROOT.Char.GetID] #TOOLTIP:CHARACTER,[ROOT.Char.GetID] #L [Localize(Concatenate(Concatenate(Concatenate(Concatenate(ROOT.Char.Custom('CharacterTier'),ROOT.Char.Custom('CharacterGender')),ROOT.Char.Custom('CharacterGov')),ROOT.Char.Custom('CharacterCulture')),ROOT.Char.Custom('CharacterReligion')))]'s#!#!#!"
  CTP_Title_as_Name_no_tooltip_possesive: "[Localize(Concatenate(Concatenate(Concatenate(Concatenate(ROOT.Char.Custom('CharacterTier'),ROOT.Char.Custom('CharacterGender')),ROOT.Char.Custom('CharacterGov')),ROOT.Char.Custom('CharacterCulture')),ROOT.Char.Custom('CharacterReligion')))]'s"
- CTP_Title_Tier_Name_North: "[Localize(Concatenate(Concatenate(Concatenate(Concatenate(ROOT.Char.Custom('CharacterTier'),ROOT.Char.Custom('CharacterGender')),ROOT.Char.Custom('CharacterGov')),ROOT.Char.Custom('CharacterCulture')),ROOT.Char.Custom('CharacterReligion')))]"
- CTP_Title_Tier_Name_North_possesive: "[Localize(Concatenate(Concatenate(Concatenate(Concatenate(ROOT.Char.Custom('CharacterTier'),ROOT.Char.Custom('CharacterGender')),ROOT.Char.Custom('CharacterGov')),ROOT.Char.Custom('CharacterCulture')),ROOT.Char.Custom('CharacterReligion')))]'s"
 
  CTP_Me: "#ONCLICK:CHARACTER,[ROOT.Char.GetID] #TOOLTIP:CHARACTER,[ROOT.Char.GetID] #high #L Me#!#!#!#!"
  CTP_Me_no_tooltip: "#high Me#!"
@@ -21,6 +19,14 @@
  CTP_Her: "Her"
 
  CTP_Full_Name_Default: "[ROOT.Char.GetUINameNotMeNoTooltip]"
+
+ CTP_First_Name_Default: "[ROOT.Char.GetFirstName]"
+ CTP_First_Name_Nick_Default: "[ROOT.Char.GetFirstName]"
+ CTP_First_Name_Default_no_tooltip: "[ROOT.Char.GetFirstNameNoTooltip]"
+ CTP_First_Name_Or_Me_Default: "[ROOT.Char.GetFirstNameOrMe]"
+ CTP_First_Name_Default_possessive: "[ROOT.Char.GetFirstNamePossessive]"
+ CTP_First_Name_Default_possessive_no_tooltip: "[ROOT.Char.GetFirstNamePossessiveNoTooltip]"
+ CTP_First_Name_Default_possessive_or_my: "[ROOT.Char.GetFirstNamePossessiveOrMy]"
 
  CTP_Name_Default: "[ROOT.Char.GetUIName]"
  CTP_Name_Default_not_me: "[ROOT.Char.GetUINameNotMe]"
@@ -40,18 +46,17 @@
  CTP_Short_Name_Default_possesive_not_my: "[ROOT.Char.GetShortUINamePossessiveNotMy]"
  CTP_Short_Name_Default_no_tooltip_possesive: "[ROOT.Char.GetShortUINamePossessiveNoTooltip]"
  CTP_Short_Name_Default_no_tooltip_possesive_not_my: "[ROOT.Char.GetShortUINamePossessiveNotMyNoTooltip]"
+ CTP_Short_Name_Default_no_tooltip_no_format_possesive: "[ROOT.Char.GetShortUINamePossessiveNoTooltipNoFormat]"
 
  CTP_Full_Name_2_Default: "[ROOT.Char.GetFullName]"
+ CTP_Full_Name_2_Nick_Default: "[ROOT.Char.GetFullNameNicknamed]"
  CTP_Full_Name_2_Default_no_tooltip: "[ROOT.Char.GetFullNameNoTooltip]"
  CTP_Full_Name_Nicknamed_Default_no_tooltip: "[ROOT.Char.GetFullNameNicknamedNoTooltip]"
  CTP_Full_Name_Nicknamed_Default_no_tooltip_regnal: "[ROOT.Char.GetFullNameNicknamedNoTooltipRegnal]"
+ CTP_Full_Name_2_Nick_Possessive_Default: "[ROOT.Char.GetFullNameNicknamedPossessive]"
+ CTP_Full_Name_2_Default_no_tooltip_Regnal: "[ROOT.Char.GetFullNameNoTooltipRegnal]"
+ CTP_Full_Name_2_Possessive_No_Tooltip_Default: "[ROOT.Char.GetFullNamePossessiveNoTooltip]"
 
- CTP_First_Name_Default: "[ROOT.Char.GetFirstName]"
- CTP_First_Name_Default_no_tooltip: "[ROOT.Char.GetFirstNameNoTooltip]"
- CTP_First_Name_Or_Me_Default: "[ROOT.Char.GetFirstNameOrMe]"
- CTP_First_Name_Default_possessive: "[ROOT.Char.GetFirstNamePossessive]"
- CTP_First_Name_Default_possessive_no_tooltip: "[ROOT.Char.GetFirstNamePossessiveNoTooltip]"
- CTP_First_Name_Default_possessive_or_my: "[ROOT.Char.GetFirstNamePossessiveOrMy]"
  
  CTP_Reg_Name_Default: "[ROOT.Char.GetName]"
  CTP_Reg_Name_Default_no_tooltip: "[ROOT.Char.GetNameNoTooltip]"
@@ -59,6 +64,9 @@
  CTP_Reg_Name_Default_possessive: "[ROOT.Char.GetNamePossessive]"
  CTP_Reg_Name_Default_possessive_or_my: "[ROOT.Char.GetNamePossessiveOrMy]"
  CTP_Reg_Name_Default_possessive_no_tooltip: "[ROOT.Char.GetNamePossessiveNoTooltip]"
+ CTP_Reg_Name_Or_Me_no_tooltip: "[ROOT.Char.GetNameOrMeNoTooltip]"
+ CTP_Reg_Name_Default_possessive_regnal: "[ROOT.Char.GetNamePossessiveRegnal]"
+ CTP_Reg_Name_Default_regnal: "[ROOT.Char.GetNameRegnal]"
 
  CTP_Title_as_Name_Default: "[ROOT.Char.GetTitleAsName]"
  CTP_Title_as_Name_Default_no_tooltip: "[ROOT.Char.GetTitleAsNameNoTooltip]"
@@ -71,6 +79,7 @@
  CTP_Titled_first_Name_Default: "[ROOT.Char.GetTitledFirstName]"
  CTP_Titled_first_Name_Nick_Default: "[ROOT.Char.GetTitledFirstNameNicknamed]"
  CTP_Titled_first_Name_Nick_Default_no_tooltip: "[ROOT.Char.GetTitledFirstNameNicknamedNoTooltip]"
+ CTP_Titled_first_Name_Nick_Default_no_tooltip_regnal: "[ROOT.Char.GetTitledFirstNameNicknamedNoTooltipRegnal]"
  CTP_Titled_first_Name_Default_no_tooltip: "[ROOT.Char.GetTitledFirstNameNoTooltip]"
  CTP_Titled_first_Name_Or_Me_Default: "[ROOT.Char.GetTitledFirstNameOrMe]"
  CTP_Titled_first_Name_Or_Me_Default_no_tooltip: "[ROOT.Char.GetTitledFirstNameOrMeNoTooltip]"
@@ -78,6 +87,9 @@
  CTP_Titled_first_Name_Default_possessive_or_my: "[ROOT.Char.GetTitledFirstNamePossessiveOrMy]"
  CTP_Titled_first_Name_Default_possessive_no_tooltip: "[ROOT.Char.GetTitledFirstNamePossessiveNoTooltip]"
  CTP_Titled_first_Name_Default_possessive_or_my_no_tooltip: "[ROOT.Char.GetTitledFirstNamePossessiveOrMyNoTooltip]"
+ CTP_Titled_first_Name_Default_no_tooltip_regnal: "[ROOT.Char.GetTitledFirstNameNoTooltipRegnal]"
+ CTP_Titled_first_Name_Default_possessive_regnal: "[ROOT.Char.GetTitledFirstNamePossessiveRegnal]"
+ CTP_Titled_first_Name_Default_regnal: "[ROOT.Char.GetTitledFirstNameRegnal]"
 
 #Tier
  CTP_tier_checked: "[ROOT.Char.GetTitleAsNameNoTooltip] "

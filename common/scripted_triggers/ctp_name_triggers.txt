@@ -51,13 +51,18 @@ persian_standard_check = {
 arabic_check = {
     culture = {
         is_cnp_supported_culture = yes
-        OR = {
-            has_cultural_pillar = heritage_arabic
-            AND = {
-                has_cultural_pillar = language_arabic
-                has_cultural_pillar = heritage_iberian
+    }
+    OR = {
+        culture = {
+            OR = {
+                has_cultural_pillar = heritage_arabic
+                AND = {
+                    has_cultural_pillar = language_arabic
+                    has_cultural_pillar = heritage_iberian
+                }
             }
         }
+        has_religion = religion:islam_religion
     }
 }
 north_check = {

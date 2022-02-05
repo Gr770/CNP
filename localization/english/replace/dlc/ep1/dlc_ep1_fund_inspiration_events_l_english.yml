@@ -276,12 +276,12 @@
  change_artifact_book_content_quality_effect_loss:1 "The content of the Book [artifact|E] will likely be of a #N lower quality#!"
 
  fund_inspiration.9005.t:0 "Unfinished Business"
- fund_inspiration.9005.desc_intro:0 "[inherited_insp_owner.Custom('CTPTitledFirstName')], my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('inherited_insp_owner'))], asks for a word amidst the tumult of the succession. \n\n"My [ROOT.Char.GetLadyLord], before [old_ruler.GetHerHis] passing, [old_ruler.GetTitledFirstNameRegnal] commissioned my work; I was in the middle of [inherited_insp_owner.Custom('InspirationTypeDescription')] for [old_ruler.GetHerHim]." \n\n"
+ fund_inspiration.9005.desc_intro:0 "[inherited_insp_owner.Custom('CTPTitledFirstName')], my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('inherited_insp_owner'))], asks for a word amidst the tumult of the succession. \n\n"My [ROOT.Char.GetLadyLord], before [old_ruler.GetHerHis] passing, [old_ruler.Custom('CTPTitledFirstNameRegnal')] commissioned my work; I was in the middle of [inherited_insp_owner.Custom('InspirationTypeDescription')] for [old_ruler.GetHerHim]." \n\n"
  fund_inspiration.9005.desc_multiple:0 ""Other artisans had been working too, and we wish to know whether you will sponsor our efforts.""
  fund_inspiration.9005.desc_single:0 ""The work has already begun, and it would be a shame not to complete it...""
  fund_inspiration.9005.a:0 "The work will continue!"
  fund_inspiration.9005.b:0 "These frivolous distractions will end."
- inherited_inspiration_continue_tt:0 "You will sponsor [old_ruler.GetTitledFirstNamePossessiveRegnal] commissions"
+ inherited_inspiration_continue_tt:0 "You will sponsor [old_ruler.Custom('CTPTitledFirstNamePossessiveRegnal')] commissions"
  inherited_inspiration_end_tt:0 "#X Any invested gold will be lost#!"
 
  ###########################

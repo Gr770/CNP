@@ -240,7 +240,7 @@
  petition_liege.0601.desc.liege_dead:0 "$petition_liege.0601_shared_intro$ [petition_liege.Custom('CTPTitledFirstName')] [petition_liege.GetDeathReasonHideKiller]... \n\n"
  petition_liege.0601.desc.liege_imprisoned_me:0 "$petition_liege.0601_shared_intro$ I ended up capturing [petition_liege.Custom('CTPTitledFirstName')]!"
  petition_liege.0601.desc.liege_imprisoned:0 "$petition_liege.0601_shared_intro$ [petition_liege.Custom('CTPTitledFirstName')] was captured by [petition_liege.GetImprisonedBy.Custom('CTPTitledFirstName')]."
- petition_liege.0601.desc.new_liege:0 "My request will now need to be directed to my new liege, [ROOT.Char.GetLiege.GetTitledFirstNameRegnal]."
+ petition_liege.0601.desc.new_liege:0 "My request will now need to be directed to my new liege, [ROOT.Char.GetLiege.Custom('CTPTitledFirstNameRegnal')]."
  petition_liege.0601_shared_intro:0 "Just as my petition had been set in motion and was about to bear fruit,"
  petition_liege.0601.desc:0 "\n\nThis certainly changes the situation."
  petition_liege.0601.a_court:0 "Onward, to greater things."

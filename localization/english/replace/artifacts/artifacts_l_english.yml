@@ -840,10 +840,10 @@
  translated_arabic_book_thucydides_desc:0 "A copy of Thucydides' ancient account of the Peloponnesian War between Athens and Sparta, $translated_arabic_book_shared_desc$"
  translated_arabic_book_plutarch_name:0 "#italic Plutarch's Lives#!"
  translated_arabic_book_plutarch_desc:0 "A copy of Plutarch's comparative biographies of prominent ancient leaders and their moral character, $translated_arabic_book_shared_desc$"
- translated_arabic_book_shared_desc:0 "translated into Arabic from the original Greek for [ROOT.Char.GetTitledFirstNameNoTooltipRegnal]."
+ translated_arabic_book_shared_desc:0 "translated into Arabic from the original Greek for [ROOT.Char.Custom('CTPTitledFirstNameNoTooltipRegnal')]."
  
  # hold_court.4300
- dress_me_artifact_desc:0 "An exquisite garment made by the most skilled tailors, ordered by [ROOT.Char.GetTitledFirstNameNoTooltipRegnal] to impress [ROOT.Char.GetHerHis] court with its splendor."
+ dress_me_artifact_desc:0 "An exquisite garment made by the most skilled tailors, ordered by [ROOT.Char.Custom('CTPTitledFirstNameNoTooltipRegnal')] to impress [ROOT.Char.GetHerHis] court with its splendor."
 
  #Artifact Titles
  artifact_title_valor:0 "of Valor"

@@ -25,7 +25,7 @@
  WAR_BREAKING_TRUCE:0 "@warning_icon!#X Declaring War will break the [truce|E]!#!"
  WAR_BREAKING_ALLIANCE:0 "@warning_icon!#X Declaring War will break the [alliance|E]!#!"
  WAR_ATTACKER_FAITH_MIGHT_JOIN:0 "Fellow [GetPlayer.GetFaith.GetAdherentNamePlural] might join the war on our side"
- WAR_DEFENDER_FAITH_MIGHT_JOIN:0 "@warning_icon!#X Other [Character.GetFaith.GetAdherentNamePlural] might join the war on [Character.GetUINamePossessive] side#!"
+ WAR_DEFENDER_FAITH_MIGHT_JOIN:0 "@warning_icon!#X Other [Character.GetFaith.GetAdherentNamePlural] might join the war on [Character.Custom('CTPNamePossessive')] side#!"
  CB_NEEDS_SELECTED_TITLE:0 "@warning_icon!#X Needs at least one selected title claim!#!"
  CB_NEEDS_LAND_IN_TITLE:0 "@warning_icon!#X A claimant without land needs to press at least one claim that the defender has land in!#!"
  WAR_ATTACKING_NON_INDEPENDENT_OUTSIDE:0 "@warning_icon!#X [recipient.Custom('CTPShortName')] is not independent#!"

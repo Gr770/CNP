@@ -306,7 +306,7 @@
  INTRIGUE_WINDOW_EXPOSE_DESCRIPTION:0 "Select which of [CHARACTER.Custom('CTPShortNamePossessiveNoTooltip')] [secrets|E] to expose"
  INTRIGUE_WINDOW_SECRET_BLACKMAIL_CANT_BLACKMAIL:0 "@warning_icon! #X No [secret|E] can be used for blackmail at the moment#!"
  INTRIGUE_WINDOW_SECRET_BLACKMAIL_TT:0 "#T Blackmail#!\n\n[SelectLocalization( IntrigueWindowSecretGroup.CanBlackmail, 'blackmail_interaction_desc', 'INTRIGUE_WINDOW_SECRET_BLACKMAIL_CANT_BLACKMAIL' )]"
- INTRIGUE_WINDOW_SECRET_EXPOSE_DESC:3 "@warning_icon! #X You can #bold not#! expose [TARGET_CHARACTER.GetUINamePossessive] [SECRET.GetName] [secret|E]#!"
+ INTRIGUE_WINDOW_SECRET_EXPOSE_DESC:3 "@warning_icon! #X You can #bold not#! expose [TARGET_CHARACTER.Custom('CTPNamePossessive')] [SECRET.GetName] [secret|E]#!"
 
  is_forced_into_scheme_trigger:0 "Is forced into participating in a scheme"
  SCHEME_TYPE_TRIGGER:0 "Scheme is of the $SCHEME_NAME|V$-kind"

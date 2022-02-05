@@ -281,7 +281,7 @@
 
  # Exotic Arms
  ep1_flavor.2040.t:0 "Exotic Arms"
- ep1_flavor.2040.desc:1 "Along with their strange goods, merchants bring tall-tales from distant lands; unverifiable; full of wonder. \n\nA group of [foreign_merchant.GetCulture.GetNameNoTooltip] peddlers purport to have brought '#EMP [exotic_blade_holder.GetCulture.GetNameNoTooltip]#!' objects, said to have come from the faraway court of a great ruler: '#EMP [exotic_blade_holder.GetFullNameNoTooltipRegnal]#!', no less. \n\n[foreign_merchant.Custom('CTPTitledFirstName')], the leading trader, grins darkly,"
+ ep1_flavor.2040.desc:1 "Along with their strange goods, merchants bring tall-tales from distant lands; unverifiable; full of wonder. \n\nA group of [foreign_merchant.GetCulture.GetNameNoTooltip] peddlers purport to have brought '#EMP [exotic_blade_holder.GetCulture.GetNameNoTooltip]#!' objects, said to have come from the faraway court of a great ruler: '#EMP [exotic_blade_holder.Custom('CTPFullName2NoTooltipRegnal')]#!', no less. \n\n[foreign_merchant.Custom('CTPTitledFirstName')], the leading trader, grins darkly,"
  ep1_flavor.2040.desc.artifact:0 ""I have seen your [my_artifact.GetName], part with it and I will give you this one-of-a-kind [exotic_blade.GetType|l]...""
  ep1_flavor.2040.desc.gold:0 ""This unique [exotic_blade.GetType|l] could be yours—for a special price of course—great [ROOT.Char.Custom('CTPTitleAsNameNoTooltip')]..."\n\nA likely yarn indeed!"
  ep1_flavor.2040.desc.outro:0 "If only I had some way to verify the hawker's story..."

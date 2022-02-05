@@ -27,7 +27,7 @@
  GO_TO_RIGHT_CLICK:0 "Right-click to go to location"
  VIEW_CLICK:0 "Click to view"
  COA_LINE_OF_SUCCESSION:0 "[line_of_succession|E]:\n"
- COA_TOOLTIP_HOLDER:1 "[GetPlayer.Custom2_Title( 'TitleRelationToMe', TITLE.Self )][TITLE.GetLeaseInfo][holder|E]: [TITLE.GetHolder.GetFullNameNicknamed]\n[SelectLocalization(DataModelHasItems(TITLE.GetLineOfSuccession), 'COA_LINE_OF_SUCCESSION', '')][TITLE.GetLineOfSuccessionDesc]\n"
+ COA_TOOLTIP_HOLDER:1 "[GetPlayer.Custom2_Title( 'TitleRelationToMe', TITLE.Self )][TITLE.GetLeaseInfo][holder|E]: [TITLE.GetHolder.Custom('CTPFullName2Nick')]\n[SelectLocalization(DataModelHasItems(TITLE.GetLineOfSuccession), 'COA_LINE_OF_SUCCESSION', '')][TITLE.GetLineOfSuccessionDesc]\n"
  TITLE_LEASED_OUT_TO:0 "[lessee|E]: [CHARACTER.Custom('CTPName')]\n"
  COA_TOOLTIP_NO_HOLDER:0 "Not created\n"
  COA_TOOLTIP_CLICK_INFO:0 "#I [SelectLocalization(TITLE.IsShownInTitleView, 'GO_TO_CLICK', 'VIEW_CLICK')]\n$GO_TO_RIGHT_CLICK$#!"

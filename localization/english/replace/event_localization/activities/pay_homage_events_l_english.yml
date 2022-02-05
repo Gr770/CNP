@@ -49,7 +49,7 @@
  pay_homage.0101.insult.delivery:0 ""What #EMP was#! that?""
 
  # Vassal Event: Vassal hears how it went
- pay_homage.0201.desc:0 "Servants usher me into [homage_liege.GetTitledFirstNamePossessiveRegnal] great hall in [homage_liege.GetCapitalLocation.GetNameNoTooltip], where [homage_liege.GetSheHe] sits [homage_liege.GetHerHis] throne waiting to hear my pledge.\n\n"
+ pay_homage.0201.desc:0 "Servants usher me into [homage_liege.Custom('CTPTitledFirstNamePossessiveRegnal')] great hall in [homage_liege.GetCapitalLocation.GetNameNoTooltip], where [homage_liege.GetSheHe] sits [homage_liege.GetHerHis] throne waiting to hear my pledge.\n\n"
  pay_homage.0201.desc.language:2 "I kneel before [homage_liege.GetHerHim] and recite the [homage_liege.GetCourtLanguage.GetNameNoTooltip] oaths I have practiced, but the half-concealed chuckles of the court make it clear my tongue needs more practice in my liege's court language...\n\n"
  pay_homage.0201.desc.clumsy:0 "I go to kneel before [homage_liege.GetHerHim], but in my haste awkwardly stumble in a heap at [homage_liege.GetHerHis] feet. I haul myself up and make the oaths all the same,  my cheeks burning red before the assembled court...\n\n"
  pay_homage.0201.desc.infatuation:0 "I kneel before [homage_liege.GetHerHim] and begin. As I recount the oaths, I catch the eye of [homage_infatuation.Custom('CTPFullName2')], [SCOPE.sC('homage_liege').Custom2('RelationToMeShort', SCOPE.sC('homage_infatuation'))] to [homage_liege.Custom('CTPFirstNameNoTooltip')], who smiles invitingly, with a deliberate wink. Looking back at my liege, I am met with [homage_liege.GetHerHis] glare! I wrap up the speech, averting my eyes as the court mutters their gossip...\n\n"
@@ -92,7 +92,7 @@
  pay_homage.0601.desc.liege_dead:0 "$pay_homage.0601_shared_intro$ [homage_liege.Custom('CTPTitledFirstName')] [homage_liege.GetDeathReasonHideKiller]... \n\n"
  pay_homage.0601.desc.liege_imprisoned_me:0 "$pay_homage.0601_shared_intro$ I ended up capturing [homage_liege.Custom('CTPTitledFirstName')]!"
  pay_homage.0601.desc.liege_imprisoned:0 "$pay_homage.0601_shared_intro$ [homage_liege.Custom('CTPTitledFirstName')] was captured by [homage_liege.GetImprisonedBy.Custom('CTPTitledFirstName')]."
- pay_homage.0601.desc.new_liege:0 "If I am to pledge, it must be directed to my new liege, [ROOT.Char.GetLiege.GetTitledFirstNameRegnal]."
+ pay_homage.0601.desc.new_liege:0 "If I am to pledge, it must be directed to my new liege, [ROOT.Char.GetLiege.Custom('CTPTitledFirstNameRegnal')]."
  pay_homage.0601_shared_intro:0 "Just as I was putting the final touches on my oath of homage,"
  pay_homage.0601.desc:0 "\n\nThis certainly changes the situation."
  pay_homage.0601.a_court:0 "Onward, to greater things."

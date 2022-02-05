@@ -102,7 +102,7 @@
  court_maintenance.0012.a:0 "As it should be."
  court_maintenance.0013.t:0 "Dynastic Treasure"
  court_maintenance.0013.desc:0 "It is my responsibility to defend the honor of the [ROOT.Char.GetDynasty.GetName] family, and bear its banner."
- court_maintenance.0013.desc_creator:0 "[banner_scope.MakeScope.Var('banner_commissioner').Char.GetNamePossessiveRegnal] personal standard alone will mark the greatness of [banner_scope.MakeScope.Var('banner_commissioner').Char.GetHerHis] line."
+ court_maintenance.0013.desc_creator:0 "[banner_scope.MakeScope.Var('banner_commissioner').Char.Custom('CTPRegNamePossessiveRegnal')] personal standard alone will mark the greatness of [banner_scope.MakeScope.Var('banner_commissioner').Char.GetHerHis] line."
  court_maintenance.0013.desc_fallback:0 "My personal standard alone will be passed down through the generations, marking the glory of my all descendants."
  court_maintenance.0013.a:0 "There can only be one."
  court_maintenance.0013.tt:0 "Only one [dynasty|E] banner may be owned"

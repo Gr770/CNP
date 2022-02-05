@@ -8,12 +8,12 @@
  CAN_SPONSOR_OWN_INSPIRATION:0 "Can sponsor [CHARACTER.GetHerHis] own inspiration"
  NOT_CAN_SPONSOR_OWN_INSPIRATION:0 "Can #bold not#! sponsor [CHARACTER.GetHerHis] own inspiration"
 
- I_ALREADY_SPONSOR_INSPIRATION:0 "I am already sponsoring [INSPIRATION.GetOwner.GetUINamePossessive] inspiration"
- NOT_I_ALREADY_SPONSOR_INSPIRATION:0 "I am #bold not#! already sponsoring [INSPIRATION.GetOwner.GetUINamePossessive] inspiration"
- THEY_ALREADY_SPONSOR_INSPIRATION:0 "[CHARACTER.Custom('CTPName')] is already sponsoring [INSPIRATION.GetOwner.GetUINamePossessive] inspiration"
- NOT_THEY_ALREADY_SPONSOR_INSPIRATION:0 "[CHARACTER.Custom('CTPName')] is #bold not#! already sponsoring [INSPIRATION.GetOwner.GetUINamePossessive] inspiration"
- ALREADY_SPONSOR_INSPIRATION:0 "Is already sponsoring [INSPIRATION.GetOwner.GetUINamePossessive] inspiration"
- NOT_ALREADY_SPONSOR_INSPIRATION:0 "Is #bold not#! already sponsoring [INSPIRATION.GetOwner.GetUINamePossessive] inspiration"
+ I_ALREADY_SPONSOR_INSPIRATION:0 "I am already sponsoring [INSPIRATION.GetOwner.Custom('CTPNamePossessive')] inspiration"
+ NOT_I_ALREADY_SPONSOR_INSPIRATION:0 "I am #bold not#! already sponsoring [INSPIRATION.GetOwner.Custom('CTPNamePossessive')] inspiration"
+ THEY_ALREADY_SPONSOR_INSPIRATION:0 "[CHARACTER.Custom('CTPName')] is already sponsoring [INSPIRATION.GetOwner.Custom('CTPNamePossessive')] inspiration"
+ NOT_THEY_ALREADY_SPONSOR_INSPIRATION:0 "[CHARACTER.Custom('CTPName')] is #bold not#! already sponsoring [INSPIRATION.GetOwner.Custom('CTPNamePossessive')] inspiration"
+ ALREADY_SPONSOR_INSPIRATION:0 "Is already sponsoring [INSPIRATION.GetOwner.Custom('CTPNamePossessive')] inspiration"
+ NOT_ALREADY_SPONSOR_INSPIRATION:0 "Is #bold not#! already sponsoring [INSPIRATION.GetOwner.Custom('CTPNamePossessive')] inspiration"
 
  CAN_SPONSOR_INSPIRATION_INVALID:0 "Invalid inspiration."
  CAN_SPONSOR_INSPIRATION_INVALID_CHARACTER:0 "Invalid sponsor."
