@@ -124,6 +124,12 @@ CTPFullName = {
 	type = character
 	text = {
 		trigger = {
+			arabic_check = yes
+		}
+		localization_key = CTP_Full_Name_Arabic
+	}
+	text = {
+		trigger = {
 			culture = {
                 has_cultural_pillar = heritage_north_germanic
                 has_cultural_pillar = language_norse
@@ -133,22 +139,10 @@ CTPFullName = {
 	}
     text = {
         trigger = {
-            persian_muslim_check = yes
-        }
-		localization_key = CTP_Full_Name_Persian_Muslim
-    }
-    text = {
-        trigger = {
             persian_standard_check = yes
         }
 		localization_key = CTP_Full_Name_Persian
     }
-	text = {
-		trigger = {
-			arabic_check = yes
-		}
-		localization_key = CTP_Full_Name_Arabic
-	}
 	text = {
 		fallback = yes
 		localization_key = CTP_Full_Name_Default
@@ -158,21 +152,15 @@ CTPFullNameConcept = {
 	type = character
 	text = {
 		trigger = {
-			persian_muslim_check = yes
+			arabic_check = yes
 		}
-		localization_key = CTP_Full_Name_Concept_Persian_Muslim
+		localization_key = CTP_Full_Name_Concept_Arabic
 	}
 	text = {
 		trigger = {
 			persian_muslim_check = yes
 		}
 		localization_key = CTP_Full_Name_Concept_Persian
-	}
-	text = {
-		trigger = {
-			arabic_check = yes
-		}
-		localization_key = CTP_Full_Name_Concept_Arabic
 	}
 	text = {
 		trigger = {
@@ -192,7 +180,7 @@ CTPTitleTierName = {
     type = character
     text = {
 		trigger = {
-			persian_muslim_check = yes
+			arabic_check = yes
 		}
 		localization_key = CTP_Title_Tier_Name_Arabic
 	}
@@ -201,12 +189,6 @@ CTPTitleTierName = {
 			persian_standard_check = yes
 		}
 		localization_key = CTP_Title_Tier_Name_North
-	}
-    text = {
-		trigger = {
-			arabic_check = yes
-		}
-		localization_key = CTP_Title_Tier_Name_Arabic
 	}
     text = {
 		trigger = {
@@ -226,7 +208,7 @@ CTPTitleTierNamePossessive = {
     type = character
     text = {
 		trigger = {
-			persian_muslim_check = yes
+			arabic_check = yes
 		}
 		localization_key = CTP_Title_Tier_Name_Arabic_possesive
 	}
@@ -235,12 +217,6 @@ CTPTitleTierNamePossessive = {
 			persian_standard_check = yes
 		}
 		localization_key = CTP_Title_Tier_Name_North_possesive
-	}
-    text = {
-		trigger = {
-			arabic_check = yes
-		}
-		localization_key = CTP_Title_Tier_Name_Arabic_possesive
 	}
     text = {
 		trigger = {
