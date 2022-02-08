@@ -1,5 +1,5 @@
 ﻿l_english:
- ACTIVITY_WAITING_TOOLTIP:0 "Hosted by [CHARACTER.Custom('CTP_Reg_Name_Default')].\nWaiting for all invitations to be answered.\n$DESC|F$\n\n#I Click to show details#! "
+ ACTIVITY_WAITING_TOOLTIP:0 "Hosted by [CHARACTER.Custom('CTPRegName')].\nWaiting for all invitations to be answered.\n$DESC|F$\n\n#I Click to show details#! "
 
  activity_feast_name:0 "[ACTIVITY.GetOwner.Custom('CTPRegNamePossessiveOrMy')|U] Feast"
 

@@ -750,7 +750,6 @@
 
  character_this_equal:1 "Target is [CHARACTER.Custom('CTPShortName')]"
  character_scope_equal:1 "Target is [CHARACTER.Custom('CTPShortName')]"
- none_this_equal:1 "Target is [CHARACTER.Custom('CTPShortName')]"
  
  #completely_controls
  YOU_COMPLETELY_CONTROL_TITLE_DESC:0 "You [completely_control|E] [TARGET_TITLE.GetNameNoTier]"
@@ -835,9 +834,9 @@
  DOMAIN_LIMIT_TRIGGER:0 "[domain_limit|E]: $VALUE$"
  HAS_HAD_FOCUS_FOR_DAYS_TRIGGER:0 "Days spent having the same focus: $DAYS|V$"
 
- IS_COUNCIL_TASK_VALID:0 "[CHARACTER.Custom('CTP_Reg_Name_Default')] can start the $TYPE|V$ task"
- IS_COUNCIL_TASK_VALID_COUNTY:0 "[CHARACTER.Custom('CTP_Reg_Name_Default')] can start the $TYPE|V$ task in [PROVINCE.GetName]"
- IS_COUNCIL_TASK_VALID_COURT:0 "[CHARACTER.Custom('CTP_Reg_Name_Default')] can start the $TYPE|V$ task targeting [TARGET_CHARACTER.Custom('CTPNamePossessive')] court"
+ IS_COUNCIL_TASK_VALID:0 "[CHARACTER.Custom('CTPRegName')] can start the $TYPE|V$ task"
+ IS_COUNCIL_TASK_VALID_COUNTY:0 "[CHARACTER.Custom('CTPRegName')] can start the $TYPE|V$ task in [PROVINCE.GetName]"
+ IS_COUNCIL_TASK_VALID_COURT:0 "[CHARACTER.Custom('CTPRegName')] can start the $TYPE|V$ task targeting [TARGET_CHARACTER.Custom('CTPNamePossessive')] court"
 
  #has_any_court_position
  HAS_ANY_COURT_POSITION:0 "Holds a court position"

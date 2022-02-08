@@ -1447,9 +1447,6 @@
         add_to_variable_list = { name = name_pack_support_dynasty target = character:159730 }
         add_to_variable_list = { name = dynasty_list_ctp_sons target = character:159730 }
     }
-    dynasty:598 = {
-        add_to_variable_list = { name = name_pack_support_dynasty target = character:159736 }
-    }
     dynasty:7344 = {
         add_to_variable_list = { name = name_pack_support_dynasty target = character:159737 }
     }
@@ -1992,9 +1989,6 @@
     }
 }
 867_arabic_son_start_up_effect = {
-    character:167709 = {
-        courtier_effect_cnp = yes
-    }
     character:34017 = {
         add_character_flag = had_eldest_son
         set_variable = { name = var_dad_eldest_son value = character:34018 }

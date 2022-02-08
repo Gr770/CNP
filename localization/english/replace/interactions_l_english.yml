@@ -10,7 +10,7 @@
  ANSWER_CANT_SUCCEED:0 "#N Will #bold not#! succeed#!"
  ANSWER_WILL_SUCCEED:0 "#P Will succeed#!"
  ANSWER_PLAYER:0 "$PLAYER|V$ decides"
- ANSWER_PLAYER_TOOLTIP:0 "Since [CHARACTER.Custom('CTP_Reg_Name_Default')] is played by $PLAYER|V$, they decide how to response"
+ ANSWER_PLAYER_TOOLTIP:0 "Since [CHARACTER.Custom('CTPRegName')] is played by $PLAYER|V$, they decide how to response"
  ANSWER_YOU:0 "Yes"
  ANSWER_SUM_MAYBE:1 "#T Acceptance Chance: $VALUE|0/%$#!"
  ANSWER_SUM_CHANCE:1 "#T Success Chance: $VALUE|0/%$#!"

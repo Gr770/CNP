@@ -370,7 +370,7 @@
 
 
  #Support loc functions & keys
- CharacterIntroductionSupportNoComma_titledfirstnameoftitle:0 "[ROOT.Char.Custom('CTP_Reg_Name_Default')]"
+ CharacterIntroductionSupportNoComma_titledfirstnameoftitle:0 "[ROOT.Char.Custom('CTPRegName')]"
  CharacterIntroductionSupportNoComma_firstnamedynastyname_a_noblewoman_from_liege_title:0 "[ROOT.Char.Custom('CTPFullName2')], a noblewoman from [ROOT.Char.GetLiege.GetPrimaryTitle.GetNameNoTierNoTooltip]"
  CharacterIntroductionSupportNoComma_firstnamedynastyname_a_nobleman_from_liege_title:0 "[ROOT.Char.Custom('CTPFullName2')], a nobleman from [ROOT.Char.GetLiege.GetPrimaryTitle.GetNameNoTierNoTooltip]"
  CharacterIntroductionSupportNoComma_firstname_a_commoner_from_liege_title:0 "[ROOT.Char.Custom('CTPFirstName')], a commoner from [ROOT.Char.GetLiege.GetPrimaryTitle.GetNameNoTierNoTooltip]"

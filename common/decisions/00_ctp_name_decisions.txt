@@ -1,4 +1,4 @@
-get_caliph_laqab = {
+﻿get_caliph_laqab = {
     picture = "gfx/interface/illustrations/decisions/decision_personal_religious.dds"
 
     desc = get_caliph_laqab_desc

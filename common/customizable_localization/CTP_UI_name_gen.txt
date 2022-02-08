@@ -1,4 +1,4 @@
-CTPName = {
+﻿CTPName = {
     type = character
     text = {
         trigger ={

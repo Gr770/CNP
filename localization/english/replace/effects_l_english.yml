@@ -151,11 +151,11 @@
  THEY_WILL_MARRY_MATRILINEALLY_EFFECT:0 "[CHARACTER.Custom('CTPShortName')|U] will [matrilineally|E] [marry|E] [TARGET_CHARACTER.Custom('CTPShortName')]"
  
  CHANGED_MY_GOVERNMENT:0 "Changed your government to [GOVERNMENT.GetName]"
- CHANGED_THEIR_GOVERNMENT:0 "Changes [CHARACTER.Custom('CTP_Reg_Name_Default')] government to [GOVERNMENT.GetName]"
+ CHANGED_THEIR_GOVERNMENT:0 "Changes [CHARACTER.Custom('CTPRegName')] government to [GOVERNMENT.GetName]"
  CHANGED_GOVERNMENT:0 "Changed government to [GOVERNMENT.GetName]"
  CHANGE_GOVERNMENT:0 "Changes government to [GOVERNMENT.GetName]"
  CHANGE_MY_GOVERNMENT:0 "Changes your government to [GOVERNMENT.GetName]"
- CHANGE_THEIR_GOVERNMENT:0 "Changes [CHARACTER.Custom('CTP_Reg_Name_Default')] government to [GOVERNMENT.GetName]"
+ CHANGE_THEIR_GOVERNMENT:0 "Changes [CHARACTER.Custom('CTPRegName')] government to [GOVERNMENT.GetName]"
 
  FORBID_FROM_SCHEME_EFFECT:0 "Forbid from being an Agent in [SCHEME.GetName]"
  ALLOW_IN_SCHEME_EFFECT:0 "Allow to join [SCHEME.GetName] as an Agent"
@@ -1342,8 +1342,8 @@
  REFILLS_GARRISON:0 "Refills the garrison"
  REFILLS_LEVIES:0 "Refills levies"
 
- SET_PRIMARY_TITLE_TO:0 "Make [TARGET_TITLE.GetName] the [primary_title|E] of [CHARACTER.Custom('CTP_Reg_Name_Default')]"
- PRIMARY_TITLE_HAS_BEEN_SET_TO:0 "[TARGET_TITLE.GetName|U] has become the [primary_title|E] of [CHARACTER.Custom('CTP_Reg_Name_Default')]"
+ SET_PRIMARY_TITLE_TO:0 "Make [TARGET_TITLE.GetName] the [primary_title|E] of [CHARACTER.Custom('CTPRegName')]"
+ PRIMARY_TITLE_HAS_BEEN_SET_TO:0 "[TARGET_TITLE.GetName|U] has become the [primary_title|E] of [CHARACTER.Custom('CTPRegName')]"
  TITLE_BECOMES_MY_PRIMARY:1 "[TARGET_TITLE.GetName|U] becomes your [primary_title|E]"
  TITLE_HAS_BECOME_MY_PRIMARY:1 "[TARGET_TITLE.GetName|U] has become your [primary_title|E]"
 
@@ -1354,7 +1354,7 @@
  REMOVE_DOCTRINE_DESC:0 "Remove #T $DOCTRINE$#! from [FAITH.GetName] faith"
  SET_REALM_CAPITAL_DESC:1 "[TARGET_TITLE.GetName|U] becomes their new Realm Capital"
  SET_REALM_CAPITAL_FIRST_DESC:0 "[TARGET_TITLE.GetName|U] becomes your new Realm Capital"
- SET_REALM_CAPITAL_THIRD_DESC:0 "[TARGET_TITLE.GetName|U] becomes the new Realm Capital of [CHARACTER.Custom('CTP_Reg_Name_Default')]"
+ SET_REALM_CAPITAL_THIRD_DESC:0 "[TARGET_TITLE.GetName|U] becomes the new Realm Capital of [CHARACTER.Custom('CTPRegName')]"
  ADD_INNOVATION_EFFECT:1 "The [CULTURE.GetName] culture discovers $INNOVATION_TYPE|V$"
  ADDED_INNOVATION_EFFECT:0 "The [CULTURE.GetCollectiveNoun] discovered $INNOVATION_TYPE|V$"
  REMOVE_INNOVATION_EFFECT:0 "The [CULTURE.GetName] culture loses knowledge of $INNOVATION_TYPE|V$"

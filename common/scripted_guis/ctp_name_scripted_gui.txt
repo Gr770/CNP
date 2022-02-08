@@ -6336,7 +6336,7 @@ CTP_no_pack_support = {
 	scope = character
 	is_shown = {
 		culture = {
-			is_cnp_supported_culture = yes
+			is_cnp_supported_culture = no
 		}
 	}
 }
