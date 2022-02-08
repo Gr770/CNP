@@ -1,51 +1,46 @@
-﻿on_birth_child = {
-	events = {
-		ctpname.999
-		ctpname.998
-		ctpname.997
-		ctpname.996
-		ctpname.500
-	}
-}
-on_death = {
+﻿on_game_start = {
 	on_actions = {
-		on_arabic_death
-		on_norse_death
+		on_867_start
+		on_867_start_sons
+		on_1066_start
+		on_1066_start_sons
 	}
 }
-on_norse_death = {
+on_1066_start_sons = {
 	trigger = {
-		has_culture_group = culture_group:north_germanic_group
+		game_start_date = 1066.9.15
 	}
-	events = {
-		ctpname.400
-		norsenamepack.001
-		norsenamepack.002
+	effect = {
+		1066_persian_sons_start_up_effect = yes
+		1066_ancetor_storage_norse = yes
+		1066_arabic_son_start_up_effect = yes
 	}
 }
-on_arabic_death = {
+on_867_start_sons = {
 	trigger = {
-		has_culture_group = culture_group:arabic_group
+		game_start_date = 867.1.1
 	}
-	events = {
-		ctpname.995
-		ctpname.994
-		ctpname.993
-		ctpname.992
-		ctpname.400
-		ctpname.001
+	effect = {
+		867_persian_sons_start_up_effect = yes
+		867_arabic_son_start_up_effect = yes
+		867_ancetor_storage_norse = yes
 	}
 }
-on_game_start = {
-	events = {
-		ctpname.002
-		ctpname.003
-		ctpname.004
-		ctpname.005
-		ctpname.007
-		ctpname.008
-		ctpname.009
-		ctpname.010
+on_867_start = {
+	effect = {
+		867_persian_start_up_effect = yes
+		867_arabic_start_up_effect = yes
+		867_norse_start_up_effect = yes
+	}
+}
+on_1066_start = {
+	trigger = {
+		current_date > 1066.9.14
+	}
+	effect = {
+		1066_persian_start_up_effect = yes
+		1066_norse_start_up_effect = yes
+		1066_arabic_start_up_effect = yes
 	}
 }
 on_game_start_after_lobby = {
@@ -53,33 +48,13 @@ on_game_start_after_lobby = {
 		ctp_courtiers_2
 	}
 }
-on_character_culture_change = {
-	on_actions = {
-		split_packs_stuff
-	}
-}
-split_packs_stuff = {
-	trigger = {
-		has_character_flag = name_pack_support
-		NOR = {
-			AND = {
-				has_culture_group = culture_group:north_germanic_group
-				has_character_flag = norse_pack_support
-			}
-			AND = {
-				has_culture_group = culture_group:arabic_group
-				has_character_flag = arabic_pack_support
-			}
-		}
-	}
-	effect = {
-		remove_character_flag = name_pack_support
-	}
-}
 ctp_courtiers_2 = {
 	effect = {
 		every_living_character = {
 			limit = {
+				culture = {
+					is_cnp_supported_culture = yes
+				}
 				save_temporary_scope_as = to_be_checked
 				OR = {
 					is_courtier = yes
@@ -110,41 +85,16 @@ ctp_courtiers_2 = {
 						is_landed = yes
 					}
 				}
-				is_ctp_supported_culture = yes
 			}
-			if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_male = yes
-			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_female = yes
-			}
-			else_if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_male = yes
-			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_female = yes
-			}
+			courtier_effect_cnp = yes
 		}
 	}
 }
 ctp_courtiers = {
 	trigger = {
+		culture = {
+			is_cnp_supported_culture = yes
+		}
 		save_temporary_scope_as = to_be_checked
 		OR = {
 			is_courtier = yes
@@ -175,37 +125,9 @@ ctp_courtiers = {
 				is_landed = yes
 			}
 		}
-		is_ctp_supported_culture = yes
 	}
 	effect = {
-		if = {
-			limit = {
-				is_male = yes
-				has_culture_group = culture_group:north_germanic_group
-			}
-			norse_pack_name_ai_male = yes
-		}
-		else_if = {
-			limit = {
-				is_male = no
-				has_culture_group = culture_group:north_germanic_group
-			}
-			norse_pack_name_ai_female = yes
-		}
-		else_if = {
-			limit = {
-				is_male = yes
-				has_culture_group = culture_group:arabic_group
-			}
-			arabic_pack_name_ai_male = yes
-		}
-		else_if = {
-			limit = {
-				is_male = no
-				has_culture_group = culture_group:arabic_group
-			}
-			arabic_pack_name_ai_female = yes
-		}
+		courtier_effect_cnp = yes
 	}
 }
 random_yearly_everyone_pulse = {

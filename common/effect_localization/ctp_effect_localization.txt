@@ -258,6 +258,11 @@ scripted_gui_trigger_laqab_adornment_worshippers = {
 	third = scripted_gui_laqab_adornment_worshippers
 	global = scripted_gui_laqab_adornment_worshippers
 }
+scripted_gui_trigger_laqab_guide_truth = {
+	first = scripted_gui_laqab_guide_truth
+	third = scripted_gui_laqab_guide_truth
+	global = scripted_gui_laqab_guide_truth
+}
 
 scripted_gui_trigger_laqab_divinely_guided = {
 	first = scripted_gui_laqab_divinely_guided
@@ -1035,6 +1040,26 @@ scripted_gui_trigger_laqab_Husam = {
 	first = scripted_gui_laqab_Husam
 	third = scripted_gui_laqab_Husam
 	global = scripted_gui_laqab_Husam
+}
+scripted_gui_trigger_unsur_mali = {
+	first = scripted_gui_unsur_mali
+	third = scripted_gui_unsur_mali
+	global = scripted_gui_unsur_mali
+}
+scripted_gui_trigger_laqab_order_realm = {
+	first = scripted_gui_laqab_order_realm
+	third = scripted_gui_laqab_order_realm
+	global = scripted_gui_laqab_order_realm
+}
+scripted_gui_trigger_laqab_unsur_mali = {
+	first = scripted_gui_laqab_unsur_mali
+	third = scripted_gui_laqab_unsur_mali
+	global = scripted_gui_laqab_unsur_mali
+}
+scripted_gui_trigger_sharaf_mali = {
+	first = scripted_gui_sharaf_mali
+	third = scripted_gui_sharaf_mali
+	global = scripted_gui_sharaf_mali
 }
 
 

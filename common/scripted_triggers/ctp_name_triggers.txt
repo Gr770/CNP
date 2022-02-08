@@ -2,19 +2,72 @@
 	always = yes
 }
 
-is_ctp_supported_culture = {
+is_cnp_supported_culture = {
     OR = {
-	    has_culture_group = culture_group:arabic_group
-        has_culture_group = culture_group:north_germanic_group
+	    AND = {
+            OR = {
+                has_cultural_pillar = heritage_arabic
+                has_cultural_pillar = heritage_north_germanic
+                has_cultural_pillar = heritage_iranian
+            }
+            OR = {
+                has_cultural_pillar = language_arabic
+                has_cultural_pillar = language_norse
+                has_cultural_pillar = language_iranian
+            }
+        }
+        AND = {
+            has_cultural_pillar = heritage_iberian
+            has_cultural_pillar = language_arabic
+        }
     }
 }
 
 KoH_loaded_checker = { 
-    trigger_if = { KoH_is_loaded = yes }
-    trigger_else = { always = no }
+    exists = global_var:KoH_is_loaded
 }
-
-ME_loaded_checker = {
-    trigger_if = { ME_is_loaded = yes }
-    trigger_else = { always = no }
+persian_muslim_check = {
+    culture = {
+        has_cultural_pillar = heritage_iranian
+    }
+    OR = {
+        AND = {
+            has_religion = religion:islam_religion
+            culture = {
+                has_cultural_pillar = language_iranian
+            }
+        }
+        culture = {
+            has_cultural_pillar = language_arabic
+        }
+    }
+}
+persian_standard_check = {
+    culture = {
+        is_cnp_supported_culture = yes
+        has_cultural_pillar = heritage_iranian
+    }
+}
+arabic_check = {
+    culture = {
+        is_cnp_supported_culture = yes
+    }
+    OR = {
+        culture = {
+            OR = {
+                has_cultural_pillar = heritage_arabic
+                AND = {
+                    has_cultural_pillar = language_arabic
+                    has_cultural_pillar = heritage_iberian
+                }
+            }
+        }
+        has_religion = religion:islam_religion
+    }
+}
+north_check = {
+    culture = {
+        is_cnp_supported_culture = yes
+        has_cultural_pillar = heritage_north_germanic
+    }
 }

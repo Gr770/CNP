@@ -90,13 +90,28 @@ CTPShortEventName = {
     type = character
     text = {
         trigger = {
-			has_culture_group = culture_group:arabic_group
+            persian_muslim_check = yes
+        }
+		localization_key = CTP_Short_event_Persian_Muslim
+    }
+    text = {
+        trigger = {
+            persian_standard_check = yes
+        }
+		localization_key = CTP_Short_event_Persian
+    }
+    text = {
+        trigger = {
+			arabic_check = yes
 		}
 		localization_key = CTP_Short_event_Arabic
     }
     text = {
         trigger = {
-			has_culture_group = culture_group:north_germanic_group
+			culture = {
+                is_cnp_supported_culture = yes
+                has_cultural_pillar = language_norse
+            }
 		}
 		localization_key = CTP_Short_event_North
     }
@@ -109,16 +124,25 @@ CTPFullName = {
 	type = character
 	text = {
 		trigger = {
-			has_culture_group = culture_group:north_germanic_group
-		}
-		localization_key = CTP_Full_Name_North
-	}
-	text = {
-		trigger = {
-			has_culture_group = culture_group:arabic_group
+			arabic_check = yes
 		}
 		localization_key = CTP_Full_Name_Arabic
 	}
+	text = {
+		trigger = {
+			culture = {
+                has_cultural_pillar = heritage_north_germanic
+                has_cultural_pillar = language_norse
+            }
+		}
+		localization_key = CTP_Full_Name_North
+	}
+    text = {
+        trigger = {
+            persian_standard_check = yes
+        }
+		localization_key = CTP_Full_Name_Persian
+    }
 	text = {
 		fallback = yes
 		localization_key = CTP_Full_Name_Default
@@ -128,13 +152,22 @@ CTPFullNameConcept = {
 	type = character
 	text = {
 		trigger = {
-			has_culture_group = culture_group:arabic_group
+			arabic_check = yes
 		}
 		localization_key = CTP_Full_Name_Concept_Arabic
 	}
 	text = {
 		trigger = {
-			has_culture_group = culture_group:north_germanic_group
+			persian_muslim_check = yes
+		}
+		localization_key = CTP_Full_Name_Concept_Persian
+	}
+	text = {
+		trigger = {
+			culture = {
+                is_cnp_supported_culture = yes
+                has_cultural_pillar = language_norse
+            }
 		}
 		localization_key = CTP_Full_Name_Concept_North
 	}
@@ -143,55 +176,26 @@ CTPFullNameConcept = {
 		localization_key = CTP_Full_Name_Default
 	}
 }
-CTPFullName2 = {
-    type = character
-	text = {
-		trigger = {
-			has_culture_group = culture_group:arabic_group
-		}
-		localization_key = CTP_Name_Arabic_no_format
-	}
-	text = {
-		trigger = {
-			has_culture_group = culture_group:north_germanic_group
-		}
-		localization_key = CTP_Full_Name_North_no_format
-	}
-	text = {
-		fallback = yes
-		localization_key = CTP_Full_Name_2_Default
-	}
-}
-CTPFullName2NoTooltip = {
-    type = character
-	text = {
-		trigger = {
-			has_culture_group = culture_group:arabic_group
-		}
-		localization_key = CTP_Name_Arabic_no_tooltip_no_format
-	}
-	text = {
-		trigger = {
-			has_culture_group = culture_group:north_germanic_group
-		}
-		localization_key = CTP_Full_Name_North_no_tooltip_no_format
-	}
-	text = {
-		fallback = yes
-		localization_key = CTP_Full_Name_2_Default_no_tooltip
-	}
-}
 CTPTitleTierName = {
     type = character
     text = {
 		trigger = {
-			has_culture_group = culture_group:arabic_group
+			arabic_check = yes
 		}
 		localization_key = CTP_Title_Tier_Name_Arabic
 	}
     text = {
 		trigger = {
-			has_culture_group = culture_group:north_germanic_group
+			persian_standard_check = yes
+		}
+		localization_key = CTP_Title_Tier_Name_North
+	}
+    text = {
+		trigger = {
+			culture = {
+                is_cnp_supported_culture = yes
+                has_cultural_pillar = language_norse
+            }
 		}
 		localization_key = CTP_Title_Tier_Name_North
 	}
@@ -204,13 +208,22 @@ CTPTitleTierNamePossessive = {
     type = character
     text = {
 		trigger = {
-			has_culture_group = culture_group:arabic_group
+			arabic_check = yes
 		}
 		localization_key = CTP_Title_Tier_Name_Arabic_possesive
 	}
     text = {
 		trigger = {
-			has_culture_group = culture_group:north_germanic_group
+			persian_standard_check = yes
+		}
+		localization_key = CTP_Title_Tier_Name_North_possesive
+	}
+    text = {
+		trigger = {
+			culture = {
+                is_cnp_supported_culture = yes
+                has_cultural_pillar = language_norse
+            }
 		}
 		localization_key = CTP_Title_Tier_Name_North_possesive
 	}
@@ -219,227 +232,12 @@ CTPTitleTierNamePossessive = {
 		localization_key = CTP_Title_Tier_Name_Default_possessive
 	}
 }
-CTPTitledFirstName = {
-    type = character
-	text = {
-		trigger = {
-			has_culture_group = culture_group:arabic_group
-		}
-		localization_key = CTP_Name_Arabic_no_format
-	}
-	text = {
-		trigger = {
-			has_culture_group = culture_group:north_germanic_group
-		}
-		localization_key = CTP_Name_North_Titled_First_Name
-	}
-	text = {
-		fallback = yes
-		localization_key = CTP_Titled_first_Name_Default
-	}
-}
-CTPTitledFirstNameNicknamed = {
-    type = character
-	text = {
-		trigger = {
-			has_culture_group = culture_group:arabic_group
-		}
-		localization_key = CTP_Name_Arabic_no_format
-	}
-	text = {
-		trigger = {
-			has_culture_group = culture_group:north_germanic_group
-		}
-		localization_key = CTP_Name_North_Titled_First_Name_Nick
-	}
-	text = {
-		fallback = yes
-		localization_key = CTP_Titled_first_Name_Nick_Default
-	}
-}
-CTPTitledFirstNameNicknamedNoTooltip = {
-    type = character
-	text = {
-		trigger = {
-			has_culture_group = culture_group:arabic_group
-		}
-		localization_key = CTP_Name_Arabic_no_tooltip_no_format
-	}
-	text = {
-		trigger = {
-			has_culture_group = culture_group:north_germanic_group
-		}
-		localization_key = CTP_Name_North_Titled_First_Name_Nick_no_tooltip
-	}
-	text = {
-		fallback = yes
-		localization_key = CTP_Titled_first_Name_Nick_Default_no_tooltip
-	}
-}
-CTPTitledFirstNameNoTooltip = {
-    type = character
-	text = {
-		trigger = {
-			has_culture_group = culture_group:arabic_group
-		}
-		localization_key = CTP_Name_Arabic_no_tooltip_no_format
-	}
-	text = {
-		trigger = {
-			has_culture_group = culture_group:north_germanic_group
-		}
-		localization_key = CTP_Name_North_Titled_First_Name_no_tooltip
-	}
-	text = {
-		fallback = yes
-		localization_key = CTP_Titled_first_Name_Default_no_tooltip
-	}
-}
-CTPTitledFirstNameOrMe = {
-    type = character
-    text = {
-        trigger ={
-            is_local_player = yes
-        }
-        localization_key = CTP_Me_no_format
-    }
-	text = {
-		trigger = {
-			has_culture_group = culture_group:arabic_group
-		}
-		localization_key = CTP_Name_Arabic_no_format
-	}
-	text = {
-		trigger = {
-			has_culture_group = culture_group:north_germanic_group
-		}
-		localization_key = CTP_Name_North_Titled_First_Name
-	}
-	text = {
-		fallback = yes
-		localization_key = CTP_Titled_first_Name_Or_Me_Default
-	}
-}
-CTPTitledFirstNameOrMeNoTooltip = {
-    type = character
-    text = {
-        trigger ={
-            is_local_player = yes
-        }
-        localization_key = CTP_Me_no_tooltip_no_format
-    }
-	text = {
-		trigger = {
-			has_culture_group = culture_group:arabic_group
-		}
-		localization_key = CTP_Name_Arabic_no_tooltip_no_format
-	}
-	text = {
-		trigger = {
-			has_culture_group = culture_group:north_germanic_group
-		}
-		localization_key = CTP_Name_North_Titled_First_Name_no_tooltip
-	}
-	text = {
-		fallback = yes
-		localization_key = CTP_Titled_first_Name_Or_Me_Default_no_tooltip
-	}
-}
-CTPTitledFirstNamePossessive = {
-    type = character
-	text = {
-		trigger = {
-			has_culture_group = culture_group:arabic_group
-		}
-		localization_key = CTP_Name_Arabic_possessive_no_format
-	}
-	text = {
-		trigger = {
-			has_culture_group = culture_group:north_germanic_group
-		}
-		localization_key = CTP_Name_North_Titled_First_Name_possessive
-	}
-	text = {
-		fallback = yes
-		localization_key = CTP_Titled_first_Name_Default_possessive
-	}
-}
-CTPTitledFirstNamePossessiveOrMy = {
-    type = character
-    text = {
-        trigger ={
-            is_local_player = yes
-        }
-        localization_key = CTP_My_no_format
-    }
-	text = {
-		trigger = {
-			has_culture_group = culture_group:arabic_group
-		}
-		localization_key = CTP_Name_Arabic_possessive_no_format
-	}
-	text = {
-		trigger = {
-			has_culture_group = culture_group:north_germanic_group
-		}
-		localization_key = CTP_Name_North_Titled_First_Name_possessive
-	}
-	text = {
-		fallback = yes
-		localization_key = CTP_Titled_first_Name_Default_possessive_or_my
-	}
-}
-CTPTitledFirstNamePossessiveNoTooltip = {
-    type = character
-	text = {
-		trigger = {
-			has_culture_group = culture_group:arabic_group
-		}
-		localization_key = CTP_Name_Arabic_no_tooltip_possesive_no_format
-	}
-	text = {
-		trigger = {
-			has_culture_group = culture_group:north_germanic_group
-		}
-		localization_key = CTP_Name_North_Titled_First_Name_possessive_no_tooltip
-	}
-	text = {
-		fallback = yes
-		localization_key = CTP_Titled_first_Name_Default_possessive_no_tooltip
-	}
-}
-CTPTitledFirstNamePossessiveOrMyNoTooltip = {
-    type = character
-    text = {
-        trigger ={
-            is_local_player = yes
-        }
-        localization_key = CTP_My_no_tooltip_no_format
-    }
-	text = {
-		trigger = {
-			has_culture_group = culture_group:arabic_group
-		}
-		localization_key = CTP_Name_Arabic_no_tooltip_possesive_no_format
-	}
-	text = {
-		trigger = {
-			has_culture_group = culture_group:north_germanic_group
-		}
-		localization_key = CTP_Name_North_Titled_First_Name_possessive_no_tooltip
-	}
-	text = {
-		fallback = yes
-		localization_key = CTP_Titled_first_Name_Default_possessive_or_my_no_tooltip
-	}
-}
 CTPTitleAsName = {
     type = character
     text = {
 		trigger = {
-            OR = {
-                has_culture_group = culture_group:arabic_group
-                has_culture_group = culture_group:north_germanic_group
+            culture = {
+                is_cnp_supported_culture = yes
             }
 		}
 		localization_key = CTP_Title_as_Name
@@ -453,9 +251,8 @@ CTPTitleAsNameNoTooltip = {
     type = character
     text = {
 		trigger = {
-            OR = {
-                has_culture_group = culture_group:arabic_group
-                has_culture_group = culture_group:north_germanic_group
+            culture = {
+                is_cnp_supported_culture = yes
             }
 		}
 		localization_key = CTP_Title_as_Name_no_tooltip
@@ -469,9 +266,8 @@ CTPTitleAsNamePossessive = {
     type = character
     text = {
 		trigger = {
-            OR = {
-                has_culture_group = culture_group:arabic_group
-                has_culture_group = culture_group:north_germanic_group
+            culture = {
+                is_cnp_supported_culture = yes
             }
 		}
 		localization_key = CTP_Title_as_Name_possesive
@@ -485,9 +281,8 @@ CTPTitleAsNamePossessiveNoTooltip = {
     type = character
     text = {
 		trigger = {
-            OR = {
-                has_culture_group = culture_group:arabic_group
-                has_culture_group = culture_group:north_germanic_group
+            culture = {
+                is_cnp_supported_culture = yes
             }
 		}
 		localization_key = CTP_Title_as_Name_no_tooltip_possesive
@@ -497,675 +292,9 @@ CTPTitleAsNamePossessiveNoTooltip = {
 		localization_key = CTP_Title_as_Name_Default_possessive_no_tooltip
 	}
 }
-CTPRegName = {
-    type = character
-	text = {
-		trigger = {
-			has_culture_group = culture_group:arabic_group
-		}
-		localization_key = CTP_Name_Arabic_no_format
-	}
-	text = {
-		trigger = {
-			has_culture_group = culture_group:north_germanic_group
-		}
-		localization_key = CTP_Name_North_no_format
-	}
-	text = {
-		fallback = yes
-		localization_key = CTP_Reg_Name_Default
-	}
-}
-CTPRegNameNoTooltip = {
-    type = character
-	text = {
-		trigger = {
-			has_culture_group = culture_group:arabic_group
-		}
-		localization_key = CTP_Name_Arabic_no_tooltip_no_format
-	}
-	text = {
-		trigger = {
-			has_culture_group = culture_group:north_germanic_group
-		}
-		localization_key = CTP_Name_North_no_format_no_tooltip
-	}
-	text = {
-		fallback = yes
-		localization_key = CTP_Reg_Name_Default_no_tooltip
-	}
-}
-CTPRegNameOrMe = {
-    type = character
-    text = {
-        trigger ={
-            is_local_player = yes
-        }
-        localization_key = CTP_Me_no_format
-    }
-	text = {
-		trigger = {
-			has_culture_group = culture_group:arabic_group
-		}
-		localization_key = CTP_Name_Arabic_no_format
-	}
-	text = {
-		trigger = {
-			has_culture_group = culture_group:north_germanic_group
-		}
-		localization_key = CTP_Name_North_no_format
-	}
-	text = {
-		fallback = yes
-		localization_key = CTP_Reg_Name_Default_or_me
-	}
-}
-CTPRegNamePossessive = {
-    type = character
-    text = {
-		trigger = {
-			has_culture_group = culture_group:arabic_group
-		}
-		localization_key = CTP_Name_Arabic_possessive_no_format
-	}
-	text = {
-		trigger = {
-			has_culture_group = culture_group:north_germanic_group
-		}
-		localization_key = CTP_Name_North_no_format_possessive
-	}
-	text = {
-		fallback = yes
-		localization_key = CTP_Reg_Name_Default_possessive
-	}
-}
-CTPRegNamePossessiveNoTooltip = {
-    type = character
-    text = {
-		trigger = {
-			has_culture_group = culture_group:arabic_group
-		}
-		localization_key = CTP_Name_Arabic_no_tooltip_possesive_no_format
-	}
-	text = {
-		trigger = {
-			has_culture_group = culture_group:north_germanic_group
-		}
-		localization_key = CTP_Name_North_no_format_possessive_no_tooltip
-	}
-	text = {
-		fallback = yes
-		localization_key = CTP_Reg_Name_Default_possessive_no_tooltip
-	}
-}
-CTPRegNamePossessiveOrMy = {
-    type = character
-    text = {
-        trigger ={
-            is_local_player = yes
-        }
-        localization_key = CTP_My_no_format
-    }
-	text = {
-		trigger = {
-			has_culture_group = culture_group:arabic_group
-		}
-		localization_key = CTP_Name_Arabic_possessive_no_format
-	}
-	text = {
-		trigger = {
-			has_culture_group = culture_group:north_germanic_group
-		}
-		localization_key = CTP_Name_North_no_format_possessive
-	}
-	text = {
-		fallback = yes
-		localization_key = CTP_Reg_Name_Default_possessive_or_my
-	}
-}
-CTPFirstName = {
-    type = character
-	text = {
-		trigger = {
-			has_culture_group = culture_group:arabic_group
-		}
-		localization_key = CTP_Short_Name_Arabic
-	}
-	text = {
-		trigger = {
-			has_culture_group = culture_group:north_germanic_group
-		}
-		localization_key = CTP_First_Name_North
-	}
-	text = {
-		fallback = yes
-		localization_key = CTP_First_Name_Default
-	}
-}
-CTPFirstNameNoTooltip = {
-    type = character
-	text = {
-		trigger = {
-			has_culture_group = culture_group:arabic_group
-		}
-		localization_key = CTP_Short_Name_Arabic_no_tooltip_no_format
-	}
-	text = {
-		trigger = {
-			has_culture_group = culture_group:north_germanic_group
-		}
-		localization_key = CTP_First_Name_North_no_tooltip
-	}
-	text = {
-		fallback = yes
-		localization_key = CTP_First_Name_Default_no_tooltip
-	}
-}
-CTPFirstNameOrMe = {
-    type = character
-    text = {
-        trigger ={
-            is_local_player = yes
-        }
-        localization_key = CTP_Me_no_format
-    }
-	text = {
-		trigger = {
-			has_culture_group = culture_group:arabic_group
-		}
-		localization_key = CTP_Short_Name_Arabic_no_format
-	}
-	text = {
-		trigger = {
-			has_culture_group = culture_group:north_germanic_group
-		}
-		localization_key = CTP_First_Name_North
-	}
-	text = {
-		fallback = yes
-		localization_key = CTP_First_Name_Or_Me_Default
-	}
-}
-CTPFirstNamePossessiveOrMy = {
-    type = character
-    text = {
-        trigger ={
-            is_local_player = yes
-        }
-        localization_key = CTP_My_no_format
-    }
-	text = {
-		trigger = {
-			has_culture_group = culture_group:arabic_group
-		}
-		localization_key = CTP_Short_Name_Arabic_possessive_no_format
-	}
-	text = {
-		trigger = {
-			has_culture_group = culture_group:north_germanic_group
-		}
-		localization_key = CTP_First_Name_North_possessive
-	}
-	text = {
-		fallback = yes
-		localization_key = CTP_First_Name_Default_possessive_or_my
-	}
-}
-CTPFirstNamePossessive = {
-    type = character
-    text = {
-		trigger = {
-			has_culture_group = culture_group:arabic_group
-		}
-		localization_key = CTP_Short_Name_Arabic_possessive_no_format
-	}
-	text = {
-		trigger = {
-			has_culture_group = culture_group:north_germanic_group
-		}
-		localization_key = CTP_First_Name_North_possessive
-	}
-	text = {
-		fallback = yes
-		localization_key = CTP_First_Name_Default_possessive
-	}
-}
-CTPFirstNamePossessiveNoTooltip = {
-    type = character
-    text = {
-		trigger = {
-			has_culture_group = culture_group:arabic_group
-		}
-		localization_key = CTP_Short_Name_Arabic_no_tooltip_possessive_no_format
-	}
-	text = {
-		trigger = {
-			has_culture_group = culture_group:north_germanic_group
-		}
-		localization_key = CTP_First_Name_North_possessive_no_tooltip
-	}
-	text = {
-		fallback = yes
-		localization_key = CTP_First_Name_Default_possessive_no_tooltip
-	}
-}
-CTPFullNameNicknamedNoTooltip = {
-    type = character
-	text = {
-		trigger = {
-			has_culture_group = culture_group:arabic_group
-		}
-		localization_key = CTP_Name_Arabic_no_tooltip_no_format
-	}
-	text = {
-		trigger = {
-			has_culture_group = culture_group:north_germanic_group
-		}
-		localization_key = CTP_Full_Name_North_no_tooltip_no_format
-	}
-	text = {
-		fallback = yes
-		localization_key = CTP_Full_Name_Nicknamed_Default_no_tooltip
-	}
-}
-CTPFullNameNicknamedNoTooltipRegnal = {
-    type = character
-	text = {
-		trigger = {
-			has_culture_group = culture_group:arabic_group
-		}
-		localization_key = CTP_Name_Arabic_no_tooltip_no_format
-	}
-	text = {
-		trigger = {
-			has_culture_group = culture_group:north_germanic_group
-		}
-		localization_key = CTP_Full_Name_North_no_tooltip_no_format
-	}
-	text = {
-		fallback = yes
-		localization_key = CTP_Full_Name_Nicknamed_Default_no_tooltip_regnal
-	}
-}
-CTPName = {
-    type = character
-    text = {
-        trigger ={
-            is_local_player = yes
-        }
-        localization_key = CTP_Me
-    }
-    text = {
-		trigger = {
-			has_culture_group = culture_group:arabic_group
-		}
-		localization_key = CTP_Name_Arabic
-	}
-    text = {
-		trigger = {
-			has_culture_group = culture_group:north_germanic_group
-		}
-		localization_key = CTP_Name_North
-	}
-	text = {
-		fallback = yes
-		localization_key = CTP_Name_Default
-	}
-}
-CTPShortName = {
-    type = character
-    text = {
-        trigger ={
-            is_local_player = yes
-        }
-        localization_key = CTP_Me
-    }
-    text = {
-		trigger = {
-			has_culture_group = culture_group:arabic_group
-		}
-		localization_key = CTP_Short_Name_Arabic
-	}
-    text = {
-		trigger = {
-			has_culture_group = culture_group:north_germanic_group
-		}
-		localization_key = CTP_Short_Name_North
-	}
-	text = {
-		fallback = yes
-		localization_key = CTP_Short_Name_Default
-	}
-}
-CTPNameNoTooltip = {
-    type = character
-    text = {
-        trigger ={
-            is_local_player = yes
-        }
-        localization_key = CTP_Me_no_tooltip
-    }
-    text = {
-		trigger = {
-			has_culture_group = culture_group:arabic_group
-		}
-		localization_key = CTP_Name_Arabic_no_tooltip
-	}
-    text = {
-		trigger = {
-			has_culture_group = culture_group:north_germanic_group
-		}
-		localization_key = CTP_Name_North_no_tooltip
-	}
-	text = {
-		fallback = yes
-		localization_key = CTP_Name_Default_no_tooltip
-	}
-}
-CTPShortNameNoTooltip = {
-    type = character
-    text = {
-        trigger ={
-            is_local_player = yes
-        }
-        localization_key = CTP_Me_no_tooltip
-    }
-    text = {
-		trigger = {
-			has_culture_group = culture_group:arabic_group
-		}
-		localization_key = CTP_Short_Name_Arabic_no_tooltip
-	}
-    text = {
-		trigger = {
-			has_culture_group = culture_group:north_germanic_group
-		}
-		localization_key = CTP_Short_Name_North_no_tooltip
-	}
-	text = {
-		fallback = yes
-		localization_key = CTP_Short_Name_Default_no_tooltip
-	}
-}
-CTPNameNotMe = {
-    type = character
-    text = {
-		trigger = {
-			has_culture_group = culture_group:arabic_group
-		}
-		localization_key = CTP_Name_Arabic
-	}
-    text = {
-		trigger = {
-			has_culture_group = culture_group:north_germanic_group
-		}
-		localization_key = CTP_Name_North
-	}
-	text = {
-		fallback = yes
-		localization_key = CTP_Name_Default_not_me
-	}
-}
-CTPShortNameNotMe = {
-    type = character
-    text = {
-		trigger = {
-			has_culture_group = culture_group:arabic_group
-		}
-		localization_key = CTP_Short_Name_Arabic
-	}
-    text = {
-		trigger = {
-			has_culture_group = culture_group:north_germanic_group
-		}
-		localization_key = CTP_Short_Name_North
-	}
-	text = {
-		fallback = yes
-		localization_key = CTP_Short_Name_Default_not_me
-	}
-}
-CTPNameNotMeNoTooltip = {
-    type = character
-    text = {
-		trigger = {
-			has_culture_group = culture_group:arabic_group
-		}
-		localization_key = CTP_Name_Arabic_no_tooltip
-	}
-    text = {
-		trigger = {
-			has_culture_group = culture_group:north_germanic_group
-		}
-		localization_key = CTP_Name_North_no_tooltip
-	}
-	text = {
-		fallback = yes
-		localization_key = CTP_Name_Default_no_tooltip_not_me
-	}
-}
-CTPShortNameNotMeNoTooltip = {
-    type = character
-    text = {
-		trigger = {
-			has_culture_group = culture_group:arabic_group
-		}
-		localization_key = CTP_Short_Name_Arabic_no_tooltip
-	}
-    text = {
-		trigger = {
-			has_culture_group = culture_group:north_germanic_group
-		}
-		localization_key = CTP_Short_Name_North_no_tooltip
-	}
-	text = {
-		fallback = yes
-		localization_key = CTP_Short_Name_Default_no_tooltip_not_me
-	}
-}
-CTPNamePossessive = {
-    type = character
-    text = {
-        trigger ={
-            is_local_player = yes
-        }
-        localization_key = CTP_My
-    }
-    text = {
-		trigger = {
-			has_culture_group = culture_group:arabic_group
-		}
-		localization_key = CTP_Name_Arabic_possessive
-	}
-    text = {
-		trigger = {
-			has_culture_group = culture_group:north_germanic_group
-		}
-		localization_key = CTP_Name_North_possessive
-	}
-	text = {
-		fallback = yes
-		localization_key = CTP_Name_Default_possessive
-	}
-}
-CTPShortNamePossessiveyour = {
-    type = character
-    text = {
-        trigger ={
-            is_local_player = yes
-        }
-        localization_key = CTP_My
-    }
-    text = {
-		trigger = {
-			has_culture_group = culture_group:arabic_group
-		}
-		localization_key = CTP_Short_Name_Arabic_possessive
-	}
-    text = {
-		trigger = {
-			has_culture_group = culture_group:north_germanic_group
-		}
-		localization_key = CTP_Short_Name_North_possessive
-	}
-	text = {
-		fallback = yes
-		localization_key = CTP_Short_Name_Default_possesive
-	}
-}
-CTPShortNamePossessiveyour = {
-    type = character
-    text = {
-        trigger ={
-            is_local_player = yes
-        }
-        localization_key = CTP_Your
-    }
-    text = {
-		trigger = {
-			has_culture_group = culture_group:arabic_group
-		}
-		localization_key = CTP_Short_Name_Arabic_possessive_no_format
-	}
-    text = {
-		trigger = {
-			has_culture_group = culture_group:north_germanic_group
-		}
-		localization_key = CTP_Short_Name_North_possessive
-	}
-	text = {
-		fallback = yes
-		localization_key = CTP_Short_Name_Default_possesive_no_format
-	}
-}
-CTPNamePossessiveNoTooltip = {
-    type = character
-    text = {
-        trigger ={
-            is_local_player = yes
-        }
-        localization_key = CTP_My_no_tooltip
-    }
-    text = {
-		trigger = {
-			has_culture_group = culture_group:arabic_group
-		}
-		localization_key = CTP_Name_Arabic_no_tooltip_possessive
-	}
-    text = {
-		trigger = {
-			has_culture_group = culture_group:north_germanic_group
-		}
-		localization_key = CTP_Name_North_possessive_no_tooltip
-	}
-	text = {
-		fallback = yes
-		localization_key = CTP_Name_Default_no_tooltip_possessive
-	}
-}
-CTPShortNamePossessiveNoTooltip = {
-    type = character
-    text = {
-        trigger ={
-            is_local_player = yes
-        }
-        localization_key = CTP_My_no_tooltip
-    }
-    text = {
-		trigger = {
-			has_culture_group = culture_group:arabic_group
-		}
-		localization_key = CTP_Short_Name_Arabic_no_tooltip_possessive
-	}
-    text = {
-		trigger = {
-			has_culture_group = culture_group:north_germanic_group
-		}
-		localization_key = CTP_Short_Name_North_possessive_no_tooltip
-	}
-	text = {
-		fallback = yes
-		localization_key = CTP_Short_Name_Default_no_tooltip_possesive
-	}
-}
-CTPNamePossessiveNotMy = {
-    type = character
-    text = {
-		trigger = {
-			has_culture_group = culture_group:arabic_group
-		}
-		localization_key = CTP_Name_Arabic_possessive
-	}
-    text = {
-		trigger = {
-			has_culture_group = culture_group:north_germanic_group
-		}
-		localization_key = CTP_Name_North_possessive
-	}
-	text = {
-		fallback = yes
-		localization_key = CTP_Name_Default_possessive_not_my
-	}
-}
-CTPShortNamePossessiveNotMy = {
-    type = character
-    text = {
-		trigger = {
-			has_culture_group = culture_group:arabic_group
-		}
-		localization_key = CTP_Short_Name_Arabic_possessive
-	}
-    text = {
-		trigger = {
-			has_culture_group = culture_group:north_germanic_group
-		}
-		localization_key = CTP_Short_Name_North_possessive
-	}
-	text = {
-		fallback = yes
-		localization_key = CTP_Short_Name_Default_possesive_not_my
-	}
-}
-CTPNamePossessiveNoTooltipNotMy = {
-    type = character
-    text = {
-		trigger = {
-			has_culture_group = culture_group:arabic_group
-		}
-		localization_key = CTP_Name_Arabic_no_tooltip_possessive
-	}
-    text = {
-		trigger = {
-			has_culture_group = culture_group:north_germanic_group
-		}
-		localization_key = CTP_Name_North_possessive_no_tooltip
-	}
-	text = {
-		fallback = yes
-		localization_key = CTP_Name_Default_no_tooltip_possessive_not_my
-	}
-}
-CTPShortNamePossessiveNoTooltipNotMy = {
-    type = character
-    text = {
-		trigger = {
-			has_culture_group = culture_group:arabic_group
-		}
-		localization_key = CTP_Short_Name_Arabic_no_tooltip_possessive
-	}
-    text = {
-		trigger = {
-			has_culture_group = culture_group:north_germanic_group
-		}
-		localization_key = CTP_Short_Name_North_possessive_no_tooltip
-	}
-	text = {
-		fallback = yes
-		localization_key = CTP_Short_Name_Default_no_tooltip_possesive_not_my
-	}
-}
 CharacterTier = {
     type = character
+    log_loc_errors = no
     text = {
         trigger = {
             highest_held_title_tier = tier_empire
@@ -1177,14 +306,72 @@ CharacterTier = {
             NOT = {
                 has_government = theocracy_government
                 has_government = holy_order_government
+                AND = {
+                    exists = dynasty
+                    dynasty = {
+                        OR = {
+                            any_in_list = {
+                                variable = dynasty_theocrats
+                                this = root
+                            }
+                            any_in_list = {
+                                variable = dynasty_HO
+                                this = root
+                            }
+                        }
+                    }
+                }
             }
-            exists = primary_spouse
-            primary_spouse = {
-                highest_held_title_tier = tier_empire
-                OR = {
-                    has_government = feudal_government
-                    has_government = clan_government
-                    has_government = tribal_government
+            OR = {
+                any_spouse = {
+                    even_if_dead = yes
+                    save_temporary_scope_as = the_spouse
+                    highest_held_title_tier = tier_empire
+                    OR = {
+                        has_government = feudal_government
+                        has_government = clan_government
+                        has_government = tribal_government
+                        AND = {
+                            exists = dynasty
+                            dynasty = {
+                                OR = {
+                                    any_in_list = {
+                                        variable = dynasty_feudalclan
+                                        this = scope:the_spouse
+                                    }
+                                    any_in_list = {
+                                        variable = dynasty_tribe
+                                        this = scope:the_spouse
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                any_former_spouse = {
+                    even_if_dead = yes
+                    save_temporary_scope_as = the_spouse
+                    highest_held_title_tier = tier_empire
+                    OR = {
+                        has_government = feudal_government
+                        has_government = clan_government
+                        has_government = tribal_government
+                        AND = {
+                            exists = dynasty
+                            dynasty = {
+                                OR = {
+                                    any_in_list = {
+                                        variable = dynasty_feudalclan
+                                        this = scope:the_spouse
+                                    }
+                                    any_in_list = {
+                                        variable = dynasty_tribe
+                                        this = scope:the_spouse
+                                    }
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -1195,27 +382,76 @@ CharacterTier = {
             NOT = {
                 has_government = theocracy_government
                 has_government = holy_order_government
+                AND = {
+                    exists = dynasty
+                    dynasty = {
+                        OR = {
+                            any_in_list = {
+                                variable = dynasty_theocrats
+                                this = root
+                            }
+                            any_in_list = {
+                                variable = dynasty_HO
+                                this = root
+                            }
+                        }
+                    }
+                }
             }
             OR = {
                 AND = {
                     exists = father
                     father = {
-                        highest_held_title_tier = tier_empire
+                        OR = {
+                            highest_held_title_tier = tier_empire
+                        }
                         OR = {
                             has_government = feudal_government
                             has_government = clan_government
                             has_government = tribal_government
+                            AND = {
+                                exists = dynasty
+                                dynasty = {
+                                    OR = {
+                                        any_in_list = {
+                                            variable = dynasty_feudalclan
+                                            this = root.father
+                                        }
+                                        any_in_list = {
+                                            variable = dynasty_tribe
+                                            this = root.father
+                                        }
+                                    }
+                                }
+                            }
                         }
                     }
                 }
                 AND = {
                     exists = mother
                     mother = {
-                        highest_held_title_tier = tier_empire
+                        OR = {
+                            highest_held_title_tier = tier_empire
+                        }
                         OR = {
                             has_government = feudal_government
                             has_government = clan_government
                             has_government = tribal_government
+                            AND = {
+                                exists = dynasty
+                                dynasty = {
+                                    OR = {
+                                        any_in_list = {
+                                            variable = dynasty_feudalclan
+                                            this = root.mother
+                                        }
+                                        any_in_list = {
+                                            variable = dynasty_tribe
+                                            this = root.mother
+                                        }
+                                    }
+                                }
+                            }
                         }
                     }
                 }
@@ -1236,7 +472,15 @@ CharacterTier = {
     text = {
         trigger = {
             highest_held_title_tier = tier_kingdom
-            is_independent_ruler = yes
+            OR = {
+                is_independent_ruler = yes
+                dynasty = {
+                    any_in_list = {
+                        variable = dynasty_independent
+                        this = root
+                    }
+                }
+            }
         }
         localization_key = independent_king
     }
@@ -1245,15 +489,90 @@ CharacterTier = {
             NOT = {
                 has_government = theocracy_government
                 has_government = holy_order_government
+                AND = {
+                    exists = dynasty
+                    dynasty = {
+                        OR = {
+                            any_in_list = {
+                                variable = dynasty_theocrats
+                                this = root
+                            }
+                            any_in_list = {
+                                variable = dynasty_HO
+                                this = root
+                            }
+                        }
+                    }
+                }
             }
-            exists = primary_spouse
-            primary_spouse = {
-                highest_held_title_tier = tier_kingdom
-                is_independent_ruler = yes
-                OR = {
-                    has_government = feudal_government
-                    has_government = clan_government
-                    has_government = tribal_government
+            OR = {
+                any_spouse = {
+                    even_if_dead = yes
+                    save_temporary_scope_as = the_spouse
+                    highest_held_title_tier = tier_kingdom
+                    OR = {
+                        is_independent_ruler = yes
+                        dynasty = {
+                            any_in_list = {
+                                variable = dynasty_independent
+                                this = root
+                            }
+                        }
+                    }
+                    OR = {
+                        has_government = feudal_government
+                        has_government = clan_government
+                        has_government = tribal_government
+                        AND = {
+                            exists = dynasty
+                            dynasty = {
+                                OR = {
+                                    any_in_list = {
+                                        variable = dynasty_feudalclan
+                                        this = scope:the_spouse
+                                    }
+                                    any_in_list = {
+                                        variable = dynasty_tribe
+                                        this = scope:the_spouse
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                any_former_spouse = {
+                    even_if_dead = yes
+                    save_temporary_scope_as = the_spouse
+                    highest_held_title_tier = tier_kingdom
+                    OR = {
+                        is_independent_ruler = yes
+                        dynasty = {
+                            any_in_list = {
+                                variable = dynasty_independent
+                                this = scope:the_spouse
+                            }
+                        }
+                    }
+                    OR = {
+                        has_government = feudal_government
+                        has_government = clan_government
+                        has_government = tribal_government
+                        AND = {
+                            exists = dynasty
+                            dynasty = {
+                                OR = {
+                                    any_in_list = {
+                                        variable = dynasty_feudalclan
+                                        this = scope:the_spouse
+                                    }
+                                    any_in_list = {
+                                        variable = dynasty_tribe
+                                        this = scope:the_spouse
+                                    }
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -1264,17 +583,55 @@ CharacterTier = {
             NOT = {
                 has_government = theocracy_government
                 has_government = holy_order_government
+                AND = {
+                    exists = dynasty
+                    dynasty = {
+                        OR = {
+                            any_in_list = {
+                                variable = dynasty_theocrats
+                                this = root
+                            }
+                            any_in_list = {
+                                variable = dynasty_HO
+                                this = root
+                            }
+                        }
+                    }
+                }
             }
             OR = {
                 AND = {
                     exists = father
                     father = {
                         highest_held_title_tier = tier_kingdom
-                        is_independent_ruler = yes
+                        OR = {
+                            is_independent_ruler = yes
+                            dynasty = {
+                                any_in_list = {
+                                    variable = dynasty_independent
+                                    this = root
+                                }
+                            }
+                        }
                         OR = {
                             has_government = feudal_government
                             has_government = clan_government
                             has_government = tribal_government
+                            AND = {
+                                exists = dynasty
+                                dynasty = {
+                                    OR = {
+                                        any_in_list = {
+                                            variable = dynasty_feudalclan
+                                            this = root.father
+                                        }
+                                        any_in_list = {
+                                            variable = dynasty_tribe
+                                            this = root.father
+                                        }
+                                    }
+                                }
+                            }
                         }
                     }
                 }
@@ -1282,11 +639,34 @@ CharacterTier = {
                     exists = mother
                     mother = {
                         highest_held_title_tier = tier_kingdom
-                        is_independent_ruler = yes
+                        OR = {
+                            is_independent_ruler = yes
+                            dynasty = {
+                                any_in_list = {
+                                    variable = dynasty_independent
+                                    this = root
+                                }
+                            }
+                        }
                         OR = {
                             has_government = feudal_government
                             has_government = clan_government
                             has_government = tribal_government
+                            AND = {
+                                exists = dynasty
+                                dynasty = {
+                                    OR = {
+                                        any_in_list = {
+                                            variable = dynasty_feudalclan
+                                            this = root.mother
+                                        }
+                                        any_in_list = {
+                                            variable = dynasty_tribe
+                                            this = root.mother
+                                        }
+                                    }
+                                }
+                            }
                         }
                     }
                 }
@@ -1305,14 +685,72 @@ CharacterTier = {
             NOT = {
                 has_government = theocracy_government
                 has_government = holy_order_government
+                AND = {
+                    exists = dynasty
+                    dynasty = {
+                        OR = {
+                            any_in_list = {
+                                variable = dynasty_theocrats
+                                this = root
+                            }
+                            any_in_list = {
+                                variable = dynasty_HO
+                                this = root
+                            }
+                        }
+                    }
+                }
             }
-            exists = primary_spouse
-            primary_spouse = {
-                highest_held_title_tier = tier_kingdom
-                OR = {
-                    has_government = feudal_government
-                    has_government = clan_government
-                    has_government = tribal_government
+            OR = {
+                any_spouse = {
+                    even_if_dead = yes
+                    save_temporary_scope_as = the_spouse
+                    highest_held_title_tier = tier_kingdom
+                    OR = {
+                        has_government = feudal_government
+                        has_government = clan_government
+                        has_government = tribal_government
+                        AND = {
+                            exists = dynasty
+                            dynasty = {
+                                OR = {
+                                    any_in_list = {
+                                        variable = dynasty_feudalclan
+                                        this = scope:the_spouse
+                                    }
+                                    any_in_list = {
+                                        variable = dynasty_tribe
+                                        this = scope:the_spouse
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                any_former_spouse = {
+                    even_if_dead = yes
+                    save_temporary_scope_as = the_spouse
+                    highest_held_title_tier = tier_kingdom
+                    OR = {
+                        has_government = feudal_government
+                        has_government = clan_government
+                        has_government = tribal_government
+                        AND = {
+                            exists = dynasty
+                            dynasty = {
+                                OR = {
+                                    any_in_list = {
+                                        variable = dynasty_feudalclan
+                                        this = scope:the_spouse
+                                    }
+                                    any_in_list = {
+                                        variable = dynasty_tribe
+                                        this = scope:the_spouse
+                                    }
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -1323,6 +761,21 @@ CharacterTier = {
             NOT = {
                 has_government = theocracy_government
                 has_government = holy_order_government
+                AND = {
+                    exists = dynasty
+                    dynasty = {
+                        OR = {
+                            any_in_list = {
+                                variable = dynasty_theocrats
+                                this = root
+                            }
+                            any_in_list = {
+                                variable = dynasty_HO
+                                this = root
+                            }
+                        }
+                    }
+                }
             }
             OR = {
                 AND = {
@@ -1333,6 +786,21 @@ CharacterTier = {
                             has_government = feudal_government
                             has_government = clan_government
                             has_government = tribal_government
+                            AND = {
+                                exists = dynasty
+                                dynasty = {
+                                    OR = {
+                                        any_in_list = {
+                                            variable = dynasty_feudalclan
+                                            this = root.father
+                                        }
+                                        any_in_list = {
+                                            variable = dynasty_tribe
+                                            this = root.father
+                                        }
+                                    }
+                                }
+                            }
                         }
                     }
                 }
@@ -1344,6 +812,21 @@ CharacterTier = {
                             has_government = feudal_government
                             has_government = clan_government
                             has_government = tribal_government
+                            AND = {
+                                exists = dynasty
+                                dynasty = {
+                                    OR = {
+                                        any_in_list = {
+                                            variable = dynasty_feudalclan
+                                            this = root.mother
+                                        }
+                                        any_in_list = {
+                                            variable = dynasty_tribe
+                                            this = root.mother
+                                        }
+                                    }
+                                }
+                            }
                         }
                     }
                 }
@@ -1364,7 +847,15 @@ CharacterTier = {
     text = {
         trigger = {
             highest_held_title_tier = tier_duchy
-            is_independent_ruler = yes
+            OR = {
+                is_independent_ruler = yes
+                dynasty = {
+                    any_in_list = {
+                        variable = dynasty_independent
+                        this = root
+                    }
+                }
+            }
         }
         localization_key = independent_duke
     }
@@ -1373,15 +864,90 @@ CharacterTier = {
             NOT = {
                 has_government = theocracy_government
                 has_government = holy_order_government
+                AND = {
+                    exists = dynasty
+                    dynasty = {
+                        OR = {
+                            any_in_list = {
+                                variable = dynasty_theocrats
+                                this = root
+                            }
+                            any_in_list = {
+                                variable = dynasty_HO
+                                this = root
+                            }
+                        }
+                    }
+                }
             }
-            exists = primary_spouse
-            primary_spouse = {
-                highest_held_title_tier = tier_duchy
-                is_independent_ruler = yes
-                OR = {
-                    has_government = feudal_government
-                    has_government = clan_government
-                    has_government = tribal_government
+            OR = {
+                any_spouse = {
+                    even_if_dead = yes
+                    save_temporary_scope_as = the_spouse
+                    highest_held_title_tier = tier_duchy
+                    OR = {
+                        is_independent_ruler = yes
+                        dynasty = {
+                            any_in_list = {
+                                variable = dynasty_independent
+                                this = root
+                            }
+                        }
+                    }
+                    OR = {
+                        has_government = feudal_government
+                        has_government = clan_government
+                        has_government = tribal_government
+                        AND = {
+                            exists = dynasty
+                            dynasty = {
+                                OR = {
+                                    any_in_list = {
+                                        variable = dynasty_feudalclan
+                                        this = scope:the_spouse
+                                    }
+                                    any_in_list = {
+                                        variable = dynasty_tribe
+                                        this = scope:the_spouse
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                any_former_spouse = {
+                    even_if_dead = yes
+                    save_temporary_scope_as = the_spouse
+                    highest_held_title_tier = tier_duchy
+                    OR = {
+                        is_independent_ruler = yes
+                        dynasty = {
+                            any_in_list = {
+                                variable = dynasty_independent
+                                this = scope:the_spouse
+                            }
+                        }
+                    }
+                    OR = {
+                        has_government = feudal_government
+                        has_government = clan_government
+                        has_government = tribal_government
+                        AND = {
+                            exists = dynasty
+                            dynasty = {
+                                OR = {
+                                    any_in_list = {
+                                        variable = dynasty_feudalclan
+                                        this = scope:the_spouse
+                                    }
+                                    any_in_list = {
+                                        variable = dynasty_tribe
+                                        this = scope:the_spouse
+                                    }
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -1398,14 +964,72 @@ CharacterTier = {
             NOT = {
                 has_government = theocracy_government
                 has_government = holy_order_government
+                AND = {
+                    exists = dynasty
+                    dynasty = {
+                        OR = {
+                            any_in_list = {
+                                variable = dynasty_theocrats
+                                this = root
+                            }
+                            any_in_list = {
+                                variable = dynasty_HO
+                                this = root
+                            }
+                        }
+                    }
+                }
             }
-            exists = primary_spouse
-            primary_spouse = {
-                highest_held_title_tier = tier_duchy
-                OR = {
-                    has_government = feudal_government
-                    has_government = clan_government
-                    has_government = tribal_government
+            OR = {
+                any_spouse = {
+                    even_if_dead = yes
+                    save_temporary_scope_as = the_spouse
+                    highest_held_title_tier = tier_duchy
+                    OR = {
+                        has_government = feudal_government
+                        has_government = clan_government
+                        has_government = tribal_government
+                        AND = {
+                            exists = dynasty
+                            dynasty = {
+                                OR = {
+                                    any_in_list = {
+                                        variable = dynasty_feudalclan
+                                        this = scope:the_spouse
+                                    }
+                                    any_in_list = {
+                                        variable = dynasty_tribe
+                                        this = scope:the_spouse
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                any_former_spouse = {
+                    even_if_dead = yes
+                    save_temporary_scope_as = the_spouse
+                    highest_held_title_tier = tier_duchy
+                    OR = {
+                        has_government = feudal_government
+                        has_government = clan_government
+                        has_government = tribal_government
+                        AND = {
+                            exists = dynasty
+                            dynasty = {
+                                OR = {
+                                    any_in_list = {
+                                        variable = dynasty_feudalclan
+                                        this = scope:the_spouse
+                                    }
+                                    any_in_list = {
+                                        variable = dynasty_tribe
+                                        this = scope:the_spouse
+                                    }
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -1424,7 +1048,15 @@ CharacterTier = {
     text = {
         trigger = {
             highest_held_title_tier = tier_county
-            is_independent_ruler = yes
+            OR = {
+                is_independent_ruler = yes
+                dynasty = {
+                    any_in_list = {
+                        variable = dynasty_independent
+                        this = root
+                    }
+                }
+            }
         }
         localization_key = independent_count
     }
@@ -1433,15 +1065,90 @@ CharacterTier = {
             NOT = {
                 has_government = theocracy_government
                 has_government = holy_order_government
+                AND = {
+                    exists = dynasty
+                    dynasty = {
+                        OR = {
+                            any_in_list = {
+                                variable = dynasty_theocrats
+                                this = root
+                            }
+                            any_in_list = {
+                                variable = dynasty_HO
+                                this = root
+                            }
+                        }
+                    }
+                }
             }
-            exists = primary_spouse
-            primary_spouse = {
-                highest_held_title_tier = tier_county
-                is_independent_ruler = yes
-                OR = {
-                    has_government = feudal_government
-                    has_government = clan_government
-                    has_government = tribal_government
+            OR = {
+                any_spouse = {
+                    even_if_dead = yes
+                    save_temporary_scope_as = the_spouse
+                    highest_held_title_tier = tier_county
+                    OR = {
+                        is_independent_ruler = yes
+                        dynasty = {
+                            any_in_list = {
+                                variable = dynasty_independent
+                                this = root
+                            }
+                        }
+                    }
+                    OR = {
+                        has_government = feudal_government
+                        has_government = clan_government
+                        has_government = tribal_government
+                        AND = {
+                            exists = dynasty
+                            dynasty = {
+                                OR = {
+                                    any_in_list = {
+                                        variable = dynasty_feudalclan
+                                        this = scope:the_spouse
+                                    }
+                                    any_in_list = {
+                                        variable = dynasty_tribe
+                                        this = scope:the_spouse
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                any_former_spouse = {
+                    even_if_dead = yes
+                    save_temporary_scope_as = the_spouse
+                    highest_held_title_tier = tier_county
+                    OR = {
+                        is_independent_ruler = yes
+                        dynasty = {
+                            any_in_list = {
+                                variable = dynasty_independent
+                                this = scope:the_spouse
+                            }
+                        }
+                    }
+                    OR = {
+                        has_government = feudal_government
+                        has_government = clan_government
+                        has_government = tribal_government
+                        AND = {
+                            exists = dynasty
+                            dynasty = {
+                                OR = {
+                                    any_in_list = {
+                                        variable = dynasty_feudalclan
+                                        this = scope:the_spouse
+                                    }
+                                    any_in_list = {
+                                        variable = dynasty_tribe
+                                        this = scope:the_spouse
+                                    }
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -1458,14 +1165,72 @@ CharacterTier = {
             NOT = {
                 has_government = theocracy_government
                 has_government = holy_order_government
+                AND = {
+                    exists = dynasty
+                    dynasty = {
+                        OR = {
+                            any_in_list = {
+                                variable = dynasty_theocrats
+                                this = root
+                            }
+                            any_in_list = {
+                                variable = dynasty_HO
+                                this = root
+                            }
+                        }
+                    }
+                }
             }
-            exists = primary_spouse
-            primary_spouse = {
-                highest_held_title_tier = tier_county
-                OR = {
-                    has_government = feudal_government
-                    has_government = clan_government
-                    has_government = tribal_government
+            OR = {
+                any_spouse = {
+                    even_if_dead = yes
+                    save_temporary_scope_as = the_spouse
+                    highest_held_title_tier = tier_county
+                    OR = {
+                        has_government = feudal_government
+                        has_government = clan_government
+                        has_government = tribal_government
+                        AND = {
+                            exists = dynasty
+                            dynasty = {
+                                OR = {
+                                    any_in_list = {
+                                        variable = dynasty_feudalclan
+                                        this = scope:the_spouse
+                                    }
+                                    any_in_list = {
+                                        variable = dynasty_tribe
+                                        this = scope:the_spouse
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                any_former_spouse = {
+                    even_if_dead = yes
+                    save_temporary_scope_as = the_spouse
+                    highest_held_title_tier = tier_county
+                    OR = {
+                        has_government = feudal_government
+                        has_government = clan_government
+                        has_government = tribal_government
+                        AND = {
+                            exists = dynasty
+                            dynasty = {
+                                OR = {
+                                    any_in_list = {
+                                        variable = dynasty_feudalclan
+                                        this = scope:the_spouse
+                                    }
+                                    any_in_list = {
+                                        variable = dynasty_tribe
+                                        this = scope:the_spouse
+                                    }
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -1492,14 +1257,72 @@ CharacterTier = {
             NOT = {
                 has_government = theocracy_government
                 has_government = holy_order_government
+                AND = {
+                    exists = dynasty
+                    dynasty = {
+                        OR = {
+                            any_in_list = {
+                                variable = dynasty_theocrats
+                                this = root
+                            }
+                            any_in_list = {
+                                variable = dynasty_HO
+                                this = root
+                            }
+                        }
+                    }
+                }
             }
-            exists = primary_spouse
-            primary_spouse = {
-                highest_held_title_tier = tier_barony
-                OR = {
-                    has_government = feudal_government
-                    has_government = clan_government
-                    has_government = tribal_government
+            OR = {
+                any_spouse = {
+                    even_if_dead = yes
+                    save_temporary_scope_as = the_spouse
+                    highest_held_title_tier = tier_barony
+                    OR = {
+                        has_government = feudal_government
+                        has_government = clan_government
+                        has_government = tribal_government
+                        AND = {
+                            exists = dynasty
+                            dynasty = {
+                                OR = {
+                                    any_in_list = {
+                                        variable = dynasty_feudalclan
+                                        this = scope:the_spouse
+                                    }
+                                    any_in_list = {
+                                        variable = dynasty_tribe
+                                        this = scope:the_spouse
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                any_former_spouse = {
+                    even_if_dead = yes
+                    save_temporary_scope_as = the_spouse
+                    highest_held_title_tier = tier_barony
+                    OR = {
+                        has_government = feudal_government
+                        has_government = clan_government
+                        has_government = tribal_government
+                        AND = {
+                            exists = dynasty
+                            dynasty = {
+                                OR = {
+                                    any_in_list = {
+                                        variable = dynasty_feudalclan
+                                        this = scope:the_spouse
+                                    }
+                                    any_in_list = {
+                                        variable = dynasty_tribe
+                                        this = scope:the_spouse
+                                    }
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -1519,7 +1342,7 @@ CharacterTier = {
         trigger = {
             is_lowborn = no
             NOT = {
-                has_culture_group = culture_group:arabic_group
+                arabic_check = yes
             }
         }
         localization_key = lord
@@ -1578,6 +1401,7 @@ CharacterTier = {
 }
 CharacterGender = {
     type = character
+    log_loc_errors = no
     text = {
         trigger = {
             is_male = no
@@ -1591,6 +1415,7 @@ CharacterGender = {
 }
 CharacterGov = {
     type = character
+    log_loc_errors = no
     text = {
         trigger = {
             this = character:33922
@@ -1601,10 +1426,10 @@ CharacterGov = {
         trigger = {
             faith = {
                 has_variable_list = faith_saints
-			any_in_list = {
-				variable = faith_saints
-				this = root
-			}
+                any_in_list = {
+                    variable = faith_saints
+                    this = root
+                }
             }
         }
         localization_key = _saint
@@ -1625,12 +1450,27 @@ CharacterGov = {
         trigger = {
             exists = global_var:KoH_is_loaded
             has_trait = koh_cardinal
+            any_in_global_list = {
+                variable = global_list_dead_cardinals
+                this = root
+            }
         }
         localization_key = _cardinal
     }
     text = {
         trigger = {
-            has_government = theocracy_government
+            OR = {
+                has_government = theocracy_government
+                AND = {
+                    exists = dynasty
+                    dynasty = {
+                        any_in_list = {
+                            variable = dynasty_theocrats
+                            this = root
+                        }
+                    }
+                }
+            }
         }
         localization_key = _theo
     }
@@ -1642,6 +1482,15 @@ CharacterGov = {
                     exists = global_var:KoH_is_loaded
                     has_government = holy_order_county_government
                 }
+                AND = {
+                    exists = dynasty
+                    dynasty = {
+                        any_in_list = {
+                            variable = dynasty_HO
+                            this = root
+                        }
+                    }
+                }
             }
         }
         localization_key = _ho
@@ -1651,21 +1500,61 @@ CharacterGov = {
             OR = {
                 has_government = feudal_government
                 AND = {
-                    exists = primary_spouse
-                    primary_spouse = {
-                        has_government = feudal_government
+                    OR = {
+                        exists = primary_spouse
+                        any_former_spouse = {
+                            exists = this
+                        }
+                    }
+                    any_spouse = {
+                        even_if_dead = yes
+                        save_temporary_scope_as = the_spouse
+                        OR = {
+                            has_government = feudal_government
+                            AND = {
+                                exists = dynasty
+                                dynasty = {
+                                    any_in_list = {
+                                        variable = dynasty_feudalclan
+                                        this = scope:the_spouse
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
                 AND = {
                     exists = father
                     father = {
-                        has_government = feudal_government
+                        OR = {
+                            has_government = feudal_government
+                            AND = {
+                                exists = dynasty
+                                dynasty = {
+                                    any_in_list = {
+                                        variable = dynasty_feudalclan
+                                        this = root.father
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
                 AND = {
                     exists = mother
                     mother = {
-                        has_government = feudal_government
+                        OR = {
+                            has_government = feudal_government
+                            AND = {
+                                exists = dynasty
+                                dynasty = {
+                                    any_in_list = {
+                                        variable = dynasty_feudalclan
+                                        this = root.mother
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
             }
@@ -1677,21 +1566,61 @@ CharacterGov = {
             OR = {
                 has_government = clan_government
                 AND = {
-                    exists = primary_spouse
-                    primary_spouse = {
-                        has_government = clan_government
+                    OR = {
+                        exists = primary_spouse
+                        any_former_spouse = {
+                            exists = this
+                        }
+                    }
+                    any_spouse = {
+                        even_if_dead = yes
+                        save_temporary_scope_as = the_spouse
+                        OR = {
+                            has_government = clan_government
+                            AND = {
+                                exists = dynasty
+                                dynasty = {
+                                    any_in_list = {
+                                        variable = dynasty_feudalclan
+                                        this = scope:the_spouse
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
                 AND = {
                     exists = father
                     father = {
-                        has_government = clan_government
+                        OR = {
+                            has_government = clan_government
+                            AND = {
+                                exists = dynasty
+                                dynasty = {
+                                    any_in_list = {
+                                        variable = dynasty_feudalclan
+                                        this = root.father
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
                 AND = {
                     exists = mother
                     mother = {
-                        has_government = clan_government
+                        OR = {
+                            has_government = clan_government
+                            AND = {
+                                exists = dynasty
+                                dynasty = {
+                                    any_in_list = {
+                                        variable = dynasty_feudalclan
+                                        this = root.mother
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
             }
@@ -1703,21 +1632,61 @@ CharacterGov = {
             OR = {
                 has_government = tribal_government
                 AND = {
-                    exists = primary_spouse
-                    primary_spouse = {
-                        has_government = tribal_government
+                    OR = {
+                        exists = primary_spouse
+                        any_former_spouse = {
+                            exists = this
+                        }
+                    }
+                    any_spouse = {
+                        even_if_dead = yes
+                        save_temporary_scope_as = the_spouse
+                        OR = {
+                            has_government = tribal_government
+                            AND = {
+                                exists = dynasty
+                                dynasty = {
+                                    any_in_list = {
+                                        variable = dynasty_tribe
+                                        this = scope:the_spouse
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
                 AND = {
                     exists = father
                     father = {
-                        has_government = tribal_government
+                        OR = {
+                            has_government = tribal_government
+                            AND = {
+                                exists = dynasty
+                                dynasty = {
+                                    any_in_list = {
+                                        variable = dynasty_tribe
+                                        this = root.father
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
                 AND = {
                     exists = mother
                     mother = {
-                        has_government = tribal_government
+                        OR = {
+                            has_government = tribal_government
+                            AND = {
+                                exists = dynasty
+                                dynasty = {
+                                    any_in_list = {
+                                        variable = dynasty_tribe
+                                        this = root.mother
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
             }
@@ -1726,20 +1695,55 @@ CharacterGov = {
     }
     text = {
         trigger = {
-            has_government = republic_government
+            OR = {
+                has_government = republic_government
+                AND = {
+                    exists = dynasty
+                    dynasty = {
+                        any_in_list = {
+                            variable = dynasty_repub
+                            this = root.mother
+                        }
+                    }
+                }
+            }
         }
         localization_key = _republic
     }
     text = {
         trigger = {
-            has_government = mercenary_government
+            OR = {
+                has_government = mercenary_government
+                AND = {
+                    exists = dynasty
+                    dynasty = {
+                        any_in_list = {
+                            variable = dynasty_merc
+                            this = root.mother
+                        }
+                    }
+                }
+            }
         }
         localization_key = _merc
     }
     text = {
         trigger = {
-            has_government = monastic_government
-            exists = global_var:KoH_is_loaded
+            OR = {
+                AND = {
+                    has_government = monastic_government
+                    exists = global_var:KoH_is_loaded
+                }
+                AND = {
+                    exists = dynasty
+                    dynasty = {
+                        any_in_list = {
+                            variable = dynasty_abbot
+                            this = root.mother
+                        }
+                    }
+                }
+            }
         }
         localization_key = _abbot
     }
@@ -1750,30 +1754,49 @@ CharacterGov = {
 }
 CharacterCulture = {
     type = character
+    log_loc_errors = no
 	text = {
 		trigger = {
-			OR = {
-                has_culture = culture:danish
-                has_culture = culture:swedish
+			culture = {
+                OR = {
+                    has_name_list = name_list_swedish
+                    has_name_list = name_list_danish
+                }
+                has_cultural_pillar = language_norse
             }
 		}
 		localization_key = _swe_dan
 	}
 	text = {
 		trigger = {
-			has_culture_group = culture_group:north_germanic_group
+			culture = {
+                has_name_list = name_list_norwegian
+                has_cultural_pillar = language_norse
+            }
 		}
 		localization_key = _norweg
 	}
 	text = {
 		trigger = {
-			has_culture_group = culture_group:north_germanic_group
+            culture = {
+                has_cultural_pillar = language_norse
+            }
 		}
 		localization_key = _norse
 	}
 	text = {
 		trigger = {
-			has_culture_group = culture_group:arabic_group
+			culture = {
+                has_cultural_pillar = language_iranian
+            }
+		}
+		localization_key = _persian
+	}
+	text = {
+		trigger = {
+			culture = {
+                has_cultural_pillar = language_arabic
+            }
 		}
 		localization_key = _arabic
 	}
@@ -1784,6 +1807,7 @@ CharacterCulture = {
 }
 CharacterReligion = {
     type = character
+    log_loc_errors = no
     text = {
         trigger = {
             root.faith = faith:ashari
@@ -1961,7 +1985,6 @@ CharacterPatNick = {
                         this = root.father
                     }
                 }
-                this.culture_group = root.culture_group
             }
 		}
 		localization_key = CTP_Patronym
@@ -2026,4 +2049,52 @@ NickCheck = {
 		fallback = yes
 		localization_key = Gui_blank
 	}
+}
+CharacterTierPatwithNick = {
+    type = character
+    text = {
+        trigger = {
+            OR = {
+                is_landed = yes
+                AND = {
+                    exists = primary_spouse
+                    primary_spouse = {
+                        is_landed = yes
+                        OR = {
+                            has_government = feudal_government
+                            has_government = clan_government
+                            has_government = tribal_government
+                        }
+                    }
+                }
+                AND = {
+                    exists = father
+                    father = {
+                        highest_held_title_tier >= tier_kingdom
+                        OR = {
+                            has_government = feudal_government
+                            has_government = clan_government
+                            has_government = tribal_government
+                        }
+                    }
+                }
+                AND = {
+                    exists = mother
+                    mother = {
+                        highest_held_title_tier >= tier_kingdom
+                        OR = {
+                            has_government = feudal_government
+                            has_government = clan_government
+                            has_government = tribal_government
+                        }
+                    }
+                }
+            }
+        }
+        localization_key = do_tier_with_nick_ctp
+    }
+    text = {
+        fallback = yes
+        localization_key = do_pat_with_nick_ctp
+    }
 }

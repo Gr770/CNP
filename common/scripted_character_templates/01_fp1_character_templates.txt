@@ -55,34 +55,7 @@ fp1_ms_godi_character = {
 	learning = 0
 	prowess = 0
 	after_creation = {
-		if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_male = yes
-			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_female = yes
-			}
-			else_if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_male = yes
-			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_female = yes
-			}
+		courtier_effect_cnp = yes
 	}
 }
 
@@ -134,34 +107,7 @@ fp1_ms_reformed_missionary_character = {
 	learning = 0
 	prowess = 0
 	after_creation = {
-		if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_male = yes
-			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_female = yes
-			}
-			else_if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_male = yes
-			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_female = yes
-			}
+		courtier_effect_cnp = yes
 	}
 }
 
@@ -206,34 +152,7 @@ fp1_ms_nithing_character = {
 	learning = 0
 	prowess = 0
 	after_creation = {
-		if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_male = yes
-			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_female = yes
-			}
-			else_if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_male = yes
-			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_female = yes
-			}
+		courtier_effect_cnp = yes
 	}
 }
 
@@ -271,34 +190,7 @@ fp1_ms_warrior_character = {
 	learning = 0
 	prowess = 0
 	after_creation = {
-		if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_male = yes
-			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_female = yes
-			}
-			else_if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_male = yes
-			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_female = yes
-			}
+		courtier_effect_cnp = yes
 	}
 }
 
@@ -362,34 +254,7 @@ fp1_ms_vagrant_character = {
 	learning = 0
 	prowess = 0
 	after_creation = {
-		if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_male = yes
-			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_female = yes
-			}
-			else_if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_male = yes
-			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_female = yes
-			}
+		courtier_effect_cnp = yes
 	}
 }
 
@@ -454,34 +319,7 @@ fp1_western_warrior_character = {
 	learning = { min_template_low_skill max_template_decent_skill }
 	prowess = { min_template_decent_skill max_template_high_skill }
 	after_creation = {
-		if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_male = yes
-			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_female = yes
-			}
-			else_if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_male = yes
-			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_female = yes
-			}
+		courtier_effect_cnp = yes
 	}
 }
 
@@ -543,34 +381,7 @@ fp1_eastern_warrior_character = {
 	learning = { min_template_low_skill max_template_decent_skill }
 	prowess = { min_template_decent_skill max_template_high_skill }
 	after_creation = {
-		if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_male = yes
-			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_female = yes
-			}
-			else_if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_male = yes
-			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_female = yes
-			}
+		courtier_effect_cnp = yes
 	}
 }
 
@@ -641,6 +452,9 @@ fp1_jomsviking_bigwig = {
 	intrigue = { min_template_low_skill max_template_decent_skill }
 	learning = { min_template_low_skill max_template_decent_skill }
 	prowess = { min_template_decent_skill max_template_high_skill }
+	after_creation = {
+		courtier_effect_cnp = yes
+	}
 }
 
 # Jomsviking Retainer, Martial
@@ -700,34 +514,7 @@ fp1_jomsviking_retainer_martial = {
 	learning = { min_template_low_skill max_template_average_skill }
 	prowess = { min_template_low_skill max_template_average_skill }
 	after_creation = {
-		if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_male = yes
-			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_female = yes
-			}
-			else_if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_male = yes
-			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_female = yes
-			}
+		courtier_effect_cnp = yes
 	}
 }
 
@@ -788,34 +575,7 @@ fp1_jomsviking_retainer_prowess = {
 	learning = { min_template_low_skill max_template_average_skill }
 	prowess = { min_template_decent_skill max_template_high_skill }
 	after_creation = {
-		if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_male = yes
-			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_female = yes
-			}
-			else_if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_male = yes
-			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_female = yes
-			}
+		courtier_effect_cnp = yes
 	}
 }
 
@@ -870,34 +630,7 @@ fp1_deceitful_warrior_character = {
 	learning = { min_template_low_skill max_template_decent_skill }
 	prowess = { min_template_average_skill min_template_high_skill }
 	after_creation = {
-		if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_male = yes
-			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_female = yes
-			}
-			else_if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_male = yes
-			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_female = yes
-			}
+		courtier_effect_cnp = yes
 	}
 }
 
@@ -948,34 +681,7 @@ fp1_deceitful_explorer_character = {
 	learning = { min_template_low_skill max_template_decent_skill }
 	prowess = { min_template_low_skill max_template_decent_skill }
 	after_creation = {
-		if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_male = yes
-			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_female = yes
-			}
-			else_if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_male = yes
-			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_female = yes
-			}
+		courtier_effect_cnp = yes
 	}
 }
 
@@ -1026,34 +732,7 @@ fp1_truthful_explorer_character = {
 	learning = { min_template_low_skill max_template_decent_skill }
 	prowess = { min_template_average_skill min_template_high_skill }
 	after_creation = {
-		if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_male = yes
-			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_female = yes
-			}
-			else_if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_male = yes
-			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_female = yes
-			}
+		courtier_effect_cnp = yes
 	}
 }
 
@@ -1130,34 +809,7 @@ fp1_islamic_explorer_character = {
 	learning = { max_template_average_skill max_template_high_skill }
 	prowess = { min_template_low_skill max_template_decent_skill }
 	after_creation = {
-		if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_male = yes
-			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_female = yes
-			}
-			else_if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_male = yes
-			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_female = yes
-			}
+		courtier_effect_cnp = yes
 	}
 }
 
@@ -1218,34 +870,7 @@ fp1_capital_county_nithing_character = {
 	learning = { min_template_low_skill max_template_low_skill }
 	prowess = { min_template_low_skill max_template_low_skill }
 	after_creation = {
-		if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_male = yes
-			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_female = yes
-			}
-			else_if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_male = yes
-			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_female = yes
-			}
+		courtier_effect_cnp = yes
 	}
 }
 
@@ -1277,34 +902,7 @@ fp1_capital_county_orphan_character = {
 	learning = { min_template_low_skill max_template_low_skill }
 	prowess = { min_template_low_skill max_template_low_skill }
 	after_creation = {
-		if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_male = yes
-			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_female = yes
-			}
-			else_if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_male = yes
-			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_female = yes
-			}
+		courtier_effect_cnp = yes
 	}
 }
 
@@ -1357,6 +955,9 @@ fp1_trade_partner_merchant = {
 	intrigue = { min_template_low_skill min_template_average_skill }
 	learning = { min_template_low_skill max_template_average_skill }
 	prowess = { min_template_low_skill min_template_average_skill }
+	after_creation = {
+		courtier_effect_cnp = yes
+	}
 }
 
 fp1_trade_partner_priest = {
@@ -1515,6 +1116,9 @@ fp1_trade_partner_priest = {
 	intrigue = { min_template_low_skill min_template_average_skill }
 	learning = { min_template_decent_skill max_template_high_skill }
 	prowess = { min_template_low_skill min_template_average_skill }
+	after_creation = {
+		courtier_effect_cnp = yes
+	}
 }
 
 fp1_trade_partner_spy = {
@@ -1567,6 +1171,9 @@ fp1_trade_partner_spy = {
 	intrigue = { min_template_decent_skill max_template_high_skill }
 	learning = { min_template_low_skill max_template_average_skill }
 	prowess = { min_template_low_skill min_template_average_skill }
+	after_creation = {
+		courtier_effect_cnp = yes
+	}
 }
 
 fp1_trade_partner_warrior = {
@@ -1621,6 +1228,9 @@ fp1_trade_partner_warrior = {
 	intrigue = { min_template_low_skill min_template_average_skill }
 	learning = { min_template_low_skill max_template_average_skill }
 	prowess = { min_template_decent_skill max_template_high_skill }
+	after_creation = {
+		courtier_effect_cnp = yes
+	}
 }
 
 ##################################################
@@ -1652,5 +1262,8 @@ old_country_local_warlord_template = {
 	martial = {
 		min_template_decent_skill
 		max_template_decent_skill
+	}
+	after_creation = {
+		courtier_effect_cnp = yes
 	}
 }

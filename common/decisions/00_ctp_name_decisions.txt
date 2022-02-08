@@ -5,7 +5,9 @@
 	selection_tooltip = get_caliph_laqab_tooltip
 
     is_shown = {
-        is_ctp_supported_culture = yes
+        culture = {
+            is_cnp_supported_culture = yes
+        }
 		NOT = {
 			has_character_flag = has_caliph_laqab
 		}
@@ -42,18 +44,35 @@ get_regnal_laqab = {
     selection_tooltip = get_regnal_laqab_tooltip
 
     is_shown = {
-        is_ctp_supported_culture = yes
-        root.culture = {
-            has_cultural_era_or_later = culture_era_high_medieval 
+        culture = {
+            is_cnp_supported_culture = yes
         }
         is_independent_ruler = yes
-        highest_held_title_tier >= tier_kingdom
+        current_year >= 1050
         OR = {
-            has_culture = culture:bedouin
-            has_culture = culture:levantine
-            has_culture = culture:egyptian
-            has_culture = culture:yemeni
+            any_county_in_region = {
+                region = world_middle_east
+                this.holder = root
+            }
+            any_county_in_region = {
+                region = world_middle_east_persia
+                this.holder = root
+            }
+            any_county_in_region = {
+                region = world_india
+                this.holder = root
+            }
+            any_county_in_region = {
+                region = world_africa
+                this.holder = root
+            }
+            any_county_in_region = {
+                region = world_asia_minor
+                this.holder = root
+            }
         }
+        highest_held_title_tier >= tier_kingdom
+        has_religion = religion:islam_religion
 		NOT = {
 			has_character_flag = has_caliph_laqab
 			has_character_flag = has_regnal_laqab
@@ -86,18 +105,35 @@ get_ducal_laqab = {
     selection_tooltip = get_ducal_laqab_tooltip
 
     is_shown = {
-        is_ctp_supported_culture = yes
-        root.culture = {
-            has_cultural_era_or_later = culture_era_high_medieval 
+        culture = {
+            is_cnp_supported_culture = yes
         }
+        current_year >= 1050
         is_independent_ruler = yes
-        highest_held_title_tier = tier_duchy
         OR = {
-            has_culture = culture:bedouin
-            has_culture = culture:levantine
-            has_culture = culture:egyptian
-            has_culture = culture:yemeni
+            any_county_in_region = {
+                region = world_middle_east
+                this.holder = root
+            }
+            any_county_in_region = {
+                region = world_middle_east_persia
+                this.holder = root
+            }
+            any_county_in_region = {
+                region = world_india
+                this.holder = root
+            }
+            any_county_in_region = {
+                region = world_africa
+                this.holder = root
+            }
+            any_county_in_region = {
+                region = world_asia_minor
+                this.holder = root
+            }
         }
+        highest_held_title_tier = tier_duchy
+        has_religion = religion:islam_religion
 		NOT = {
 			has_character_flag = has_caliph_laqab
 			has_character_flag = has_regnal_laqab

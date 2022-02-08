@@ -111,7 +111,6 @@ scripted_gui_ctp_tek = {
 							this = scope:scripted_gui_eldest_son
 						}
 					}
-					this.culture_group = scope:effect_root.culture_group
 				}
 				is_male = yes
 			}
@@ -152,7 +151,6 @@ scripted_gui_ctp_tek = {
 							this = scope:scripted_gui_eldest_son
 						}
 					}
-					this.culture_group = scope:effect_root.culture_group
 				}
 				is_male = no
 			}
@@ -193,7 +191,6 @@ scripted_gui_ctp_tek = {
 							this = scope:scripted_gui_eldest_daughter
 						}
 					}
-					this.culture_group = scope:effect_root.culture_group
 				}
 				is_male = yes
 			}
@@ -234,7 +231,6 @@ scripted_gui_ctp_tek = {
 							this = scope:scripted_gui_eldest_daughter
 						}
 					}
-					this.culture_group = scope:effect_root.culture_group
 				}
 				is_male = no
 			}
@@ -1118,6 +1114,11 @@ scripted_gui_ctp_laqab = {
 					save_scope_as = laqab_adornment_worshippers_scope
 				}
 				every_in_global_list = {
+					variable = laqab_guide_truth
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_guide_truth_scope
+				}
+				every_in_global_list = {
 					variable = laqab_nobility_faith
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_nobility_faith_scope
@@ -1692,6 +1693,21 @@ scripted_gui_ctp_laqab = {
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_Husam_scope
 				}
+				every_in_global_list = {
+					variable = laqab_unsur_mali
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_unsur_mali_scope
+				}
+				every_in_global_list = {
+					variable = laqab_order_realm
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_order_realm_scope
+				}
+				every_in_global_list = {
+					variable = laqab_sharaf_mali
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_sharaf_mali_scope
+				}
 			}
 		}
 		IF = {
@@ -2140,6 +2156,26 @@ scripted_gui_ctp_laqab = {
 			}
 			custom_description_no_bullet = {
 				text = scripted_gui_trigger_laqab_victorious_will_god
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_adornment_worshippers_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_adornment_worshippers
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_guide_truth_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_guide_truth
 				subject = scope:effect_root
 				object = scope:effect_root
 			}
@@ -3294,6 +3330,36 @@ scripted_gui_ctp_laqab = {
 				object = scope:effect_root
 			}
 		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_order_realm_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_order_realm
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_unsur_mali_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_unsur_mali
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_sharaf_mali_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_sharaf_mali
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
 		else = {
 			custom_description_no_bullet = {
 				text = ctp_blank_trigger_kunya
@@ -3538,6 +3604,11 @@ scripted_gui_ctp_laqab_tek_name_check = {
 					variable = laqab_adornment_worshippers
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_adornment_worshippers_scope
+				}
+				every_in_global_list = {
+					variable = laqab_guide_truth
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_guide_truth_scope
 				}
 				every_in_global_list = {
 					variable = laqab_nobility_faith
@@ -4113,6 +4184,21 @@ scripted_gui_ctp_laqab_tek_name_check = {
 					variable = laqab_Husam
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_Husam_scope
+				}
+				every_in_global_list = {
+					variable = laqab_unsur_mali
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_unsur_mali_scope
+				}
+				every_in_global_list = {
+					variable = laqab_order_realm
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_order_realm_scope
+				}
+				every_in_global_list = {
+					variable = laqab_sharaf_mali
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_sharaf_mali_scope
 				}
 			}
 			IF = {
@@ -4649,6 +4735,26 @@ scripted_gui_ctp_laqab_tek_name_check = {
 		}
 		else_if = {
 			limit = {
+				exists = scope:laqab_adornment_worshippers_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_adornment_worshippers
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_guide_truth_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_guide_truth
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
 				exists = scope:laqab_nobility_faith_scope
 			}
 			custom_description_no_bullet = {
@@ -5799,6 +5905,36 @@ scripted_gui_ctp_laqab_tek_name_check = {
 		}
 		else_if = {
 			limit = {
+				exists = scope:laqab_order_realm_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_order_realm
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_unsur_mali_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_unsur_mali
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_sharaf_mali_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_sharaf_mali
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
 				exists = scope:scripted_gui_eldest_son
 				scope:scripted_gui_eldest_son = {
 					OR = {
@@ -5817,7 +5953,6 @@ scripted_gui_ctp_laqab_tek_name_check = {
 							this = scope:scripted_gui_eldest_son
 						}
 					}
-					this.culture_group = scope:effect_root.culture_group
 				}
 				is_male = yes
 			}
@@ -5857,7 +5992,6 @@ scripted_gui_ctp_laqab_tek_name_check = {
 							variable = name_pack_support_global
 							this = scope:scripted_gui_eldest_son
 						}
-						this.culture_group = scope:effect_root.culture_group
 					}
 				}
 				is_male = no
@@ -5898,7 +6032,6 @@ scripted_gui_ctp_laqab_tek_name_check = {
 							variable = name_pack_support_global
 							this = scope:scripted_gui_eldest_daughter
 						}
-						this.culture_group = scope:effect_root.culture_group
 					}
 				}
 				is_male = yes
@@ -5939,7 +6072,6 @@ scripted_gui_ctp_laqab_tek_name_check = {
 							variable = name_pack_support_global
 							this = scope:scripted_gui_eldest_daughter
 						}
-						this.culture_group = scope:effect_root.culture_group
 					}
 				}
 				is_male = no
@@ -5985,7 +6117,6 @@ CTP_name_dad = {
 		}
 		IF = {
 			limit = {
-				root.culture_group = scope:the_dad.culture_group
 				OR = {
 					AND = {
 						scope:the_dad = {
@@ -6022,7 +6153,6 @@ CTP_name_mom = {
 		}
 		IF = {
 			limit = {
-				root.culture_group = scope:the_mom.culture_group
 				OR = {
 					AND = {
 						scope:the_mom = {
@@ -6060,7 +6190,6 @@ CTP_name_granddad1 = {
 		IF = {
 			limit = {
 				OR = {
-					root.culture_group = scope:the_granddad.culture_group
 					AND = {
 						scope:the_granddad = {
 							has_character_flag = name_pack_support
@@ -6097,7 +6226,6 @@ CTP_name_granddad2 = {
 		IF = {
 			limit = {
 				OR = {
-					root.culture_group = scope:the_granddad.culture_group
 					AND = {
 						scope:the_granddad = {
 							has_character_flag = name_pack_support
@@ -6134,7 +6262,6 @@ CTP_name_grandmom1 = {
 		IF = {
 			limit = {
 				OR = {
-					root.culture_group = scope:the_grandmom.culture_group
 					AND = {
 						scope:the_grandmom = {
 							has_character_flag = name_pack_support
@@ -6170,7 +6297,6 @@ CTP_name_grandmom2 = {
 		}
 		IF = {
 			limit = {
-				root.culture_group = scope:the_grandmom.culture_group
 				OR = {
 					AND = {
 						scope:the_grandmom = {
@@ -6201,13 +6327,17 @@ CTP_name_grandmom2 = {
 CTP_pack_support = {
 	scope = character
 	is_shown = {
-		is_ctp_supported_culture = yes
+		culture = {
+			is_cnp_supported_culture = yes
+		}
 	}
 }
 CTP_no_pack_support = {
 	scope = character
 	is_shown = {
-		is_ctp_supported_culture = no
+		culture = {
+			is_cnp_supported_culture = no
+		}
 	}
 }
 CTP_random_ancestor = {
@@ -6234,7 +6364,6 @@ CTP_random_ancestor = {
 			}
 			IF = {
 				limit = {
-					root.culture_group = scope:the_ancestor.culture_group
 					OR = {
 						AND = {
 							scope:the_ancestor = {
@@ -6305,7 +6434,6 @@ random_saint_male_name = {
 		}
 		IF = {
 			limit = {
-				root.culture_group = scope:named_saint.culture_group
 				OR = {
 					scope:named_saint = {
 						exists = dynasty
@@ -6341,7 +6469,6 @@ random_saint_female_name = {
 		}
 		IF = {
 			limit = {
-				root.culture_group = scope:named_saint.culture_group
 				OR = {
 					scope:named_saint = {
 						exists = dynasty
@@ -6367,24 +6494,36 @@ random_saint_female_name = {
 CTP_faith_name_support = {
 	scope = character
 	is_shown = {
-		is_ctp_supported_culture = yes
-		OR = {
-			has_religion = religion:islam_religion
-			has_religion = religion:christianity_religion
-			has_religion = religion:germanic_religion
-		}
+		always = no
+		#culture = {
+		#	is_cnp_supported_culture = yes
+		#	NOT = {
+		#		has_name_list = name_list_persian
+		#		has_name_list = name_list_kurdish
+		#		has_name_list = name_list_baloch
+		#		has_name_list = name_list_daylamite
+		#		has_name_list = name_list_tajik
+		#	}
+		#}
+		#OR = {
+		#	has_religion = religion:islam_religion
+		#	has_religion = religion:christianity_religion
+		#	has_religion = religion:germanic_religion
+		#}
 	}
 }
 CTP_faith_name_no_support = {
 	scope = character
 	is_shown = {
 		NOT = {
-			is_ctp_supported_culture = yes
-			OR = {
-				has_religion = religion:islam_religion
-				has_religion = religion:christianity_religion
-				has_religion = religion:germanic_religion
+			culture = {
+				is_cnp_supported_culture = yes
 			}
+			#OR = {
+			#	has_religion = religion:islam_religion
+			#	has_religion = religion:christianity_religion
+			#	has_religion = religion:germanic_religion
+			#}
 		}
 	}
 }
@@ -6396,29 +6535,61 @@ CTP_faith_names = {
 			remove_character_flag = name_pack_support
 			IF = {
 				limit = { 
-					is_ctp_supported_culture = yes
+					culture = {
+						is_cnp_supported_culture = yes
+					}
 					is_male = yes
 				}
 				IF = {
-					limit = { has_culture_group = culture_group:arabic_group }
+					limit = {
+						culture = {
+							OR = {
+								has_cultural_pillar = heritage_arabic
+								has_cultural_pillar = language_arabic
+							}
+						}
+					}
 					arabic_pack_faith_name_male = yes
 				}
 				else_if = {
-					limit = { has_culture_group = culture_group:north_germanic_group }
+					limit = {
+						culture = {
+							OR = {
+								has_cultural_pillar = heritage_north_germanic
+								has_cultural_pillar = language_norse
+							}
+						}
+					}
 					norse_pack_faith_name_male = yes
 				}
 			}
 			IF = {
 				limit = { 
-					is_ctp_supported_culture = yes
+					culture = {
+						is_cnp_supported_culture = yes
+					}
 					is_male = no
 				}
 				IF = {
-					limit = { has_culture_group = culture_group:arabic_group }
+					limit = {
+						culture = {
+							OR = {
+								has_cultural_pillar = heritage_arabic
+								has_cultural_pillar = language_arabic
+							}
+						}
+					}
 					arabic_pack_faith_name_female = yes
 				}
 				else_if = {
-					limit = { has_culture_group = culture_group:north_germanic_group }
+					limit = {
+						culture = {
+							OR = {
+								has_cultural_pillar = heritage_north_germanic
+								has_cultural_pillar = language_norse
+							}
+						}
+					}
 					norse_pack_faith_name_female = yes
 				}
 			}
@@ -6433,32 +6604,172 @@ CTP_culture_names = {
 			remove_character_flag = name_pack_support
 			IF = {
 				limit = { 
-					is_ctp_supported_culture = yes
+					culture = {
+						is_cnp_supported_culture = yes
+					}
 					is_male = yes
 				}
 				add_character_flag = name_pack_support
 				IF = {
-					limit = { has_culture_group = culture_group:arabic_group }
-					arabic_pack_culture_name_male = yes
+					limit = {
+						culture = {
+							OR = {
+								has_name_list = name_list_bedouin
+								has_name_list = name_list_levantine
+								has_name_list = name_list_egyptian
+								has_name_list = name_list_maghrebi
+								has_name_list = name_list_andalusian
+								has_name_list = name_list_yemeni
+							}
+						}
+					}
+					arabic_pack_name_ai_male = yes
 				}
 				else_if = {
-					limit = { has_culture_group = culture_group:north_germanic_group }
-					norse_pack_culture_name_male = yes
+					limit = {
+						culture = {
+							OR = {
+								has_name_list = name_list_norse
+								has_name_list = name_list_swedish
+								has_name_list = name_list_norwegian
+								has_name_list = name_list_danish
+							}
+						}
+					}
+					norse_pack_name_ai_male = yes
+				}
+				else_if = {
+					limit = {
+						culture = {
+							OR = {
+								has_name_list = name_list_persian
+								has_name_list = name_list_kurdish
+								has_name_list = name_list_baloch
+								has_name_list = name_list_daylamite
+								has_name_list = name_list_tajik
+							}
+						}
+						has_religion = religion:christianity_religion
+					}
+					persian_christian_male_name_effect = yes
+				}
+				else_if = {
+					limit = {
+						culture = {
+							OR = {
+								has_name_list = name_list_persian
+								has_name_list = name_list_kurdish
+								has_name_list = name_list_baloch
+								has_name_list = name_list_daylamite
+								has_name_list = name_list_tajik
+							}
+						}
+						has_religion = religion:islam_religion
+					}
+					persian_islam_male_name_effect = yes
+				}
+				else_if = {
+					limit = {
+						culture = {
+							OR = {
+								has_name_list = name_list_persian
+								has_name_list = name_list_kurdish
+								has_name_list = name_list_baloch
+								has_name_list = name_list_daylamite
+								has_name_list = name_list_tajik
+							}
+						}
+						NOT = {
+							has_religion = religion:islam_religion
+							has_religion = religion:christianity_religion
+						}
+					}
+					persian_fallback_male_name_effect = yes
 				}
 			}
 			IF = {
 				limit = { 
-					is_ctp_supported_culture = yes
+					culture = {
+						is_cnp_supported_culture = yes
+					}
 					is_male = no
 				}
 				add_character_flag = name_pack_support
 				IF = {
-					limit = { has_culture_group = culture_group:arabic_group }
-					arabic_pack_culture_name_female = yes
+					limit = {
+						culture = {
+							OR = {
+								has_name_list = name_list_bedouin
+								has_name_list = name_list_levantine
+								has_name_list = name_list_egyptian
+								has_name_list = name_list_maghrebi
+								has_name_list = name_list_andalusian
+								has_name_list = name_list_yemeni
+							}
+						}
+					}
+					arabic_pack_name_ai_female = yes
 				}
 				else_if = {
-					limit = { has_culture_group = culture_group:north_germanic_group }
-					norse_pack_culture_name_female = yes
+					limit = {
+						culture = {
+							OR = {
+								has_name_list = name_list_norse
+								has_name_list = name_list_swedish
+								has_name_list = name_list_norwegian
+								has_name_list = name_list_danish
+							}
+						}
+					}
+					norse_pack_name_ai_female = yes
+				}
+				else_if = {
+					limit = {
+						culture = {
+							OR = {
+								has_name_list = name_list_persian
+								has_name_list = name_list_kurdish
+								has_name_list = name_list_baloch
+								has_name_list = name_list_daylamite
+								has_name_list = name_list_tajik
+							}
+						}
+						has_religion = religion:christianity_religion
+					}
+					persian_christian_female_name_effect = yes
+				}
+				else_if = {
+					limit = {
+						culture = {
+							OR = {
+								has_name_list = name_list_persian
+								has_name_list = name_list_kurdish
+								has_name_list = name_list_baloch
+								has_name_list = name_list_daylamite
+								has_name_list = name_list_tajik
+							}
+						}
+						has_religion = religion:islam_religion
+					}
+					persian_islam_female_name_effect = yes
+				}
+				else_if = {
+					limit = {
+						culture = {
+							OR = {
+								has_name_list = name_list_persian
+								has_name_list = name_list_kurdish
+								has_name_list = name_list_baloch
+								has_name_list = name_list_daylamite
+								has_name_list = name_list_tajik
+							}
+						}
+						NOT = {
+							has_religion = religion:islam_religion
+							has_religion = religion:christianity_religion
+						}
+					}
+					persian_fallback_female_name_effect = yes
 				}
 			}
 		}

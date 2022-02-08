@@ -1,5 +1,0 @@
-﻿l_english:
- ALL_OF_THEIR_SCHEMES:0 "All of [CHARACTER.Custom('CTPShortNamePossessiveyour')] Schemes:"
- ANY_OF_THEIR_SCHEMES:0 "Any of [CHARACTER.Custom('CTPShortNamePossessiveyour')] Schemes:"
-
- NOT_WANTS_TO_BE_SOULMATES:0 "[TARGET_CHARACTER.Custom('CTPTitledFirstName')] does not want to be soulmates"

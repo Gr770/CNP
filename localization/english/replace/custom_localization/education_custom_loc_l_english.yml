@@ -2,10 +2,10 @@
  martial_good_trait_match_good_outcome:0 "As an active and enthusiastic child, it is no surprise that [ROOT.Char.Custom('CTPFirstName')] has done well in [ROOT.Char.GetHerHis] studies of war and combat."
  martial_bad_trait_match_good_outcome:0 "To say that the unruly [ROOT.Char.Custom('CTPFirstName')] did not seem cut out for a life of war is an understatement. However, [ROOT.Char.GetSheHe] has defied all expectations."
  martial_neutral_trait_match_good_outcome:0 "With sufficient tutelage, even a child that has displayed little natural inclination towards warfare, such as [ROOT.Char.Custom('CTPFirstName')], can come to truly understand it."
- 
  martial_good_trait_match_bad_outcome:0 "[ROOT.Char.Custom('CTPFirstNamePossessive')] energetic nature was thought to be a sign of an affinity for war and combat, but perhaps it was simply unruliness. "
  martial_bad_trait_match_bad_outcome:1 "[ROOT.Char.Custom('CTPFirstName')] has never displayed much interest for the subject of warfare, but I always hoped that might be a passing phase. I was naive."
  martial_neutral_trait_match_bad_outcome:1 "For the longest time I was hoping that good tutelage would be enough to teach [ROOT.Char.Custom('CTPFirstName')] the intricacies of warfare. I was naive."
+
  diplomacy_good_trait_match_good_outcome:0 "Even as a child, [ROOT.Char.Custom('CTPFirstName')] always had a way with words. It is therefore unsurprising that [ROOT.Char.GetSheHe] has taken well to the study of diplomatic relations."
  diplomacy_good_trait_match_bad_outcome:0 "Despite being a chatty child, [ROOT.Char.Custom('CTPFirstName')] at times finds it difficult to get along with people."
  diplomacy_bad_trait_match_good_outcome:0 "Despite rarely getting along with other children, [ROOT.Char.Custom('CTPFirstName')] has shown a surprising aptitude for diplomatic maneuvering."

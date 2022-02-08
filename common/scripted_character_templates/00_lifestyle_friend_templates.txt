@@ -13,34 +13,7 @@ diplomacy_foreign_affairs_focus_friend_template = {
 	trait = diplomat
 	dynasty = none
 	after_creation = {
-		if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_male = yes
-			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_female = yes
-			}
-			else_if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_male = yes
-			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_female = yes
-			}
+		courtier_effect_cnp = yes
 	}
 }
 
@@ -57,34 +30,7 @@ diplomacy_majesty_focus_friend_template = {
 	trait = august
 	dynasty = none
 	after_creation = {
-		if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_male = yes
-			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_female = yes
-			}
-			else_if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_male = yes
-			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_female = yes
-			}
+		courtier_effect_cnp = yes
 	}
 }
 
@@ -102,34 +48,7 @@ diplomacy_family_focus_friend_template = {
 	trait = family_first
 	dynasty = none
 	after_creation = {
-		if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_male = yes
-			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_female = yes
-			}
-			else_if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_male = yes
-			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_female = yes
-			}
+		courtier_effect_cnp = yes
 	}
 }
 
@@ -148,34 +67,7 @@ martial_strategy_focus_friend_template = {
 	trait = strategist
 	dynasty = none
 	after_creation = {
-		if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_male = yes
-			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_female = yes
-			}
-			else_if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_male = yes
-			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_female = yes
-			}
+		courtier_effect_cnp = yes
 	}
 }
 
@@ -192,34 +84,7 @@ martial_authority_focus_friend_template = {
 	trait = overseer
 	dynasty = none
 	after_creation = {
-		if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_male = yes
-			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_female = yes
-			}
-			else_if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_male = yes
-			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_female = yes
-			}
+		courtier_effect_cnp = yes
 	}
 }
 
@@ -237,34 +102,7 @@ martial_chivalry_focus_friend_template = {
 	trait = gallant
 	dynasty = none
 	after_creation = {
-		if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_male = yes
-			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_female = yes
-			}
-			else_if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_male = yes
-			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_female = yes
-			}
+		courtier_effect_cnp = yes
 	}
 }
 
@@ -283,34 +121,7 @@ stewardship_wealth_focus_friend_template = {
 	trait = avaricious
 	dynasty = none
 	after_creation = {
-		if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_male = yes
-			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_female = yes
-			}
-			else_if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_male = yes
-			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_female = yes
-			}
+		courtier_effect_cnp = yes
 	}
 }
 
@@ -327,34 +138,7 @@ stewardship_domain_focus_friend_template = {
 	trait = architect
 	dynasty = none
 	after_creation = {
-		if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_male = yes
-			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_female = yes
-			}
-			else_if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_male = yes
-			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_female = yes
-			}
+		courtier_effect_cnp = yes
 	}
 }
 
@@ -371,34 +155,7 @@ stewardship_duty_focus_friend_template = {
 	trait = administrator
 	dynasty = none
 	after_creation = {
-		if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_male = yes
-			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_female = yes
-			}
-			else_if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_male = yes
-			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_female = yes
-			}
+		courtier_effect_cnp = yes
 	}
 }
 
@@ -418,34 +175,7 @@ intrigue_skulduggery_focus_friend_template = {
 	trait = schemer
 	dynasty = none
 	after_creation = {
-		if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_male = yes
-			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_female = yes
-			}
-			else_if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_male = yes
-			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_female = yes
-			}
+		courtier_effect_cnp = yes
 	}
 }
 
@@ -462,34 +192,7 @@ intrigue_temptation_focus_friend_template = {
 	trait = seducer
 	dynasty = none
 	after_creation = {
-		if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_male = yes
-			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_female = yes
-			}
-			else_if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_male = yes
-			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_female = yes
-			}
+		courtier_effect_cnp = yes
 	}
 }
 
@@ -506,34 +209,7 @@ intrigue_intimidation_focus_friend_template = {
 	trait = torturer
 	dynasty = none
 	after_creation = {
-		if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_male = yes
-			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_female = yes
-			}
-			else_if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_male = yes
-			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_female = yes
-			}
+		courtier_effect_cnp = yes
 	}
 }
 
@@ -552,34 +228,7 @@ learning_medicine_focus_friend_template = {
 	trait = whole_of_body
 	dynasty = none
 	after_creation = {
-		if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_male = yes
-			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_female = yes
-			}
-			else_if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_male = yes
-			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_female = yes
-			}
+		courtier_effect_cnp = yes
 	}
 }
 
@@ -596,34 +245,7 @@ learning_scholarship_focus_friend_template = {
 	trait = scholar
 	dynasty = none
 	after_creation = {
-		if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_male = yes
-			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_female = yes
-			}
-			else_if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_male = yes
-			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_female = yes
-			}
+		courtier_effect_cnp = yes
 	}
 }
 
@@ -640,34 +262,7 @@ learning_theology_focus_friend_template = {
 	trait = theologian
 	dynasty = none
 	after_creation = {
-		if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_male = yes
-			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:north_germanic_group
-				}
-				norse_pack_name_ai_female = yes
-			}
-			else_if = {
-				limit = {
-					is_male = yes
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_male = yes
-			}
-			else_if = {
-				limit = {
-					is_male = no
-					has_culture_group = culture_group:arabic_group
-				}
-				arabic_pack_name_ai_female = yes
-			}
+		courtier_effect_cnp = yes
 	}
 }
 

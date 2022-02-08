@@ -15,7 +15,9 @@
         scope:recipient = {
             has_religion = religion:islam_religion
             this.faith.religious_head = scope:actor
-            has_culture_group = culture_group:arabic_group
+            culture = {
+                is_cnp_supported_culture = yes
+            }
             NOT = {
                 has_character_flag = has_reg_laqab
                 has_character_flag = has_regnal_laqab
@@ -45,7 +47,9 @@
         scope:recipient = {
             has_religion = religion:islam_religion
             this.faith.religious_head = scope:actor
-            has_culture_group = culture_group:arabic_group
+            culture = {
+                is_cnp_supported_culture = yes
+            }
             NOT = {
                 has_character_flag = has_reg_laqab
                 has_character_flag = has_regnal_laqab
@@ -60,7 +64,6 @@
             }
         }
     }
-    cooldown = { years = 3 } 
     auto_accept = yes
     send_option = {
         is_shown = {
@@ -71,7 +74,9 @@
             scope:recipient = {
                 has_religion = religion:islam_religion
                 this.faith.religious_head = scope:actor
-                has_culture_group = culture_group:arabic_group
+                culture = {
+                    is_cnp_supported_culture = yes
+                }
             }
         }
         is_valid = {
@@ -89,7 +94,9 @@
             scope:recipient = {
                 has_religion = religion:islam_religion
                 this.faith.religious_head = scope:actor
-                has_culture_group = culture_group:arabic_group
+                culture = {
+                    is_cnp_supported_culture = yes
+                }
             }
         }
         current_description = assign_caliph_laqab_get_event_desc
@@ -131,13 +138,20 @@
         ai_recipients = liege
         ai_recipients = war_allies
         ai_recipients = neighboring_rulers
-        chance = 0.5
+        ai_recipients = guests
+        ai_recipients = dynasty
+        ai_recipients = courtiers
+        ai_recipients = spouses
+        ai_recipients = family
+        ai_recipients = children
+        ai_recipients = scripted_relations
+        chance = 0.25
     }
     ai_frequency = 36
     ai_potential = {
         always = yes
     }
-    ai_will_do = 100
+    ai_will_do = 75
 }
 
 assign_faith_laqab = {
@@ -154,14 +168,14 @@ assign_faith_laqab = {
             has_religion = religion:islam_religion
             is_independent_ruler = yes
             highest_held_title_tier >= tier_kingdom
-            culture = {
-                has_cultural_era_or_later = culture_era_high_medieval 
-            }
+            current_year >= 1050
         }
         scope:recipient = {
             has_religion = religion:islam_religion
-            has_culture_group = culture_group:arabic_group
-            liege_or_court_owner = scope:actor
+            culture = {
+                is_cnp_supported_culture = yes
+            }
+            top_liege = scope:actor
             NOT = {
                 has_character_flag = has_reg_laqab
                 has_character_flag = has_regnal_laqab
@@ -174,9 +188,6 @@ assign_faith_laqab = {
             has_religion = religion:islam_religion
             is_independent_ruler = yes
             highest_held_title_tier >= tier_kingdom
-            culture = {
-                has_cultural_era_or_later = culture_era_high_medieval 
-            }
             trigger_if = {
                 limit = { is_ai = yes }
                 opinion = {
@@ -184,11 +195,14 @@ assign_faith_laqab = {
                     value >= 30
                 }
             }
+            current_year >= 1050
         }
         scope:recipient = {
             has_religion = religion:islam_religion
-            has_culture_group = culture_group:arabic_group
-            liege_or_court_owner = scope:actor
+            culture = {
+                is_cnp_supported_culture = yes
+            }
+            top_liege = scope:actor
             NOT = {
                 has_character_flag = has_reg_laqab
                 has_character_flag = has_regnal_laqab
@@ -196,7 +210,6 @@ assign_faith_laqab = {
             }
         }
     }
-    cooldown = { years = 3 } 
     auto_accept = yes
     send_option = {
         is_shown = {
@@ -207,8 +220,10 @@ assign_faith_laqab = {
             }
             scope:recipient = {
                 has_religion = religion:islam_religion
-                has_culture_group = culture_group:arabic_group
-                liege_or_court_owner = scope:actor
+                culture = {
+                    is_cnp_supported_culture = yes
+                }
+                top_liege = scope:actor
             }
         }
         is_valid = {
@@ -226,8 +241,10 @@ assign_faith_laqab = {
             }
             scope:recipient = {
                 has_religion = religion:islam_religion
-                has_culture_group = culture_group:arabic_group
-                liege_or_court_owner = scope:actor
+                culture = {
+                    is_cnp_supported_culture = yes
+                }
+                top_liege = scope:actor
             }
         }
         current_description = assign_faith_laqab_get_event_desc
@@ -264,11 +281,17 @@ assign_faith_laqab = {
     ai_targets = {
         ai_recipients = realm_characters
         ai_recipients = vassals
-        chance = 0.5
+        ai_recipients = courtiers
+        ai_recipients = guests
+        ai_recipients = sub_realm_characters
+        ai_recipients = spouses
+        ai_recipients = family
+        ai_recipients = children
+        chance = 0.25
     }
     ai_frequency = 36
     ai_potential = {
         always = yes
     }
-    ai_will_do = 100
+    ai_will_do = 75
 }
