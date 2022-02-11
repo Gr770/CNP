@@ -1,0 +1,24 @@
+﻿l_english:
+ CTP_Full_Name_Irish: "#high [ROOT.Char.Custom('CTPNameCheck')][Localize(Concatenate(Concatenate(Concatenate(Concatenate(ROOT.Char.Custom('CharacterTier'),ROOT.Char.Custom('CharacterGender')),ROOT.Char.Custom('CharacterGov')),ROOT.Char.Custom('CharacterCulture')),ROOT.Char.Custom('CharacterReligion')))][ROOT.Char.Custom('CTPHousePatCheck')][ROOT.Char.Custom('CTPHouseCheck')]#!"
+
+
+ CTP_House_Pat: "[SelectLocalization(GetScriptedGui('house_pat_bool').IsValid(GuiScope.SetRoot(ROOT.Char.GetHouse.GetFounder.MakeScope).AddScope('father', ROOT.Char.GetFather.MakeScope).AddScope('character', ROOT.Char.MakeScope).End), 'Gui_blank', ROOT.Char.Custom('CharacterPat'))]"
+
+ CTP_House: " [SelectLocalization(GetScriptedGui('house_support_bool').IsValid(GuiScope.SetRoot(ROOT.Char.GetHouse.GetFounder.MakeScope).AddScope('character', ROOT.Char.MakeScope).End), Localize(Concatenate(Concatenate(Concatenate(ROOT.Char.GetHouse.GetFounder.GetFirstNameNoTooltip,ROOT.Char.Custom('CharacterCulture')),'_house'),ROOT.Char.Custom('CharacterGender'))), Concatenate(Localize(Concatenate(Concatenate('CTPHousePrefix', ROOT.Char.Custom('CharacterCulture')),ROOT.Char.Custom('CharacterGender'))), ROOT.Char.GetHouse.GetFounder.GetFirstNameNoTooltip))]"
+ CTP_supported_House: "[Localize(Concatenate(Concatenate(Concatenate(ROOT.Char.GetHouse.GetFounder.GetFirstNameNoTooltip,ROOT.Char.Custom('CharacterCulture')),'_house'),ROOT.Char.Custom('CharacterGender')))]"
+ CTP_nonsupported_House: "[Localize(Concatenate(Concatenate('CTPHousePrefix', ROOT.Char.Custom('CharacterCulture')),ROOT.Char.Custom('CharacterGender')))][ROOT.Char.GetFather.GetFirstNameNoTooltip]"
+
+ CTP_GrandPatronym: " [Localize(Concatenate(Concatenate(Concatenate(ROOT.Char.GetFather.GetFather.GetFirstNameNoTooltip,ROOT.Char.Custom('CharacterCulture')),'_pat_granddad'),ROOT.Char.Custom('CharacterGender')))]"
+ CTP_nonsupported_GrandPatronym: " [Localize(Concatenate(Concatenate('CTPGrandPatPrefix', ROOT.Char.Custom('CharacterCulture')),ROOT.Char.Custom('CharacterGender')))][ROOT.Char.GetFather.GetFather.GetFirstNameNoTooltip][Localize(Concatenate(Concatenate('CTPPatSuffix', ROOT.Char.Custom('CharacterCulture')),ROOT.Char.Custom('CharacterGender')))]"
+
+ CTPHousePrefix_irish_male: "Ó "
+ CTPHousePrefix_irish_female: "Uí "
+ CTPGrandPatPrefix_irish_male: "Mhic "
+ CTPGrandPatPrefix_irish_female: "Mhic "
+
+ CTPPatPrefix_irish_male: "Mac "
+ CTPPatPrefix_irish_female: "Inghean "
+ CTPPatSuffix_irish_male: ""
+ CTPPatSuffix_irish_female: ""
+
+CTP_House_checked: "[SelectLocalization(GetScriptedGui('house_grandpat_bool').IsValid(GuiScope.SetRoot(ROOT.Char.GetHouse.GetFounder.MakeScope).AddScope('character', ROOT.Char.MakeScope).End), ROOT.Char.Custom('CTPHouseGrandPatCheck'), ROOT.Char.Custom('CTPGrandPatCheck'))]"
