@@ -1,19 +1,19 @@
 ﻿l_english:
- anatolian_turkish_name:0 "Anatolian Turkish"
- anatolian_turkish_collective_noun:0 "Anatolian Turks"
- anatolian_turkish_prefix:0 "Turko"
+ anatolian_turkish_name:0 "Türkler"
+ anatolian_turkish_collective_noun:0 "Türkleri"
+ anatolian_turkish_prefix:0 "Türkleri"
 
  scanian_name:0 "Skáneskr"
  scanian_collective_noun:0 "Skáney"
  scanian_prefix:0 "Skáne"
 
- norse_gael_name:0 "Gall-Goídelach"
- norse_gael_collective_noun:0 "Gall-Goídelchlann"
- norse_gael_prefix:0 "Gall-Goídil"
+ norse_gael_name:0 "Gallgoídelach"
+ norse_gael_collective_noun:0 "Gallgoídil"
+ norse_gael_prefix:0 "Gallgoídil"
 
- beta_israeli_name:0 "Beta ʾƏsrāʾeli"
- beta_israeli_collective_noun:0 "Beta ʾƏsrāʾele"
- beta_israeli_prefix:0 "ʾƏsrāʾeli"
+ beta_israeli_name:0 "Aghwaya"
+ beta_israeli_collective_noun:0 "Aghea"
+ beta_israeli_prefix:0 "Aghea"
 
  avadhi_name:0 "Awadhī"
  avadhi_collective_noun:0 "Awadha"
@@ -170,9 +170,9 @@
  parsi_collective_noun:0 "Parsis"
  parsi_prefix:0 "Parsi"
 
- swiss_name:0 "Svizzer"
- swiss_collective_noun:0 "Svizzer"
- swiss_prefix:0 "Svizz"
+ swiss_name:0 "Schwyz"
+ swiss_collective_noun:0 "Schwyzer"
+ swiss_prefix:0 "Schwyz"
 
  transylvanian_name:0 "Transylvanian"
  transylvanian_collective_noun:0 "Transylvanians"
@@ -211,9 +211,9 @@
  gyalrong_collective_noun:0 "Gyalrongs"
  gyalrong_prefix:0 "Gyalo"
 
- icelandic_name:0 "Íslendingur"
+ icelandic_name:0 "Íslendskr"
  icelandic_collective_noun:0 "Íslendingar"
- icelandic_prefix:0 "Íslending"
+ icelandic_prefix:0 "Íslend"
 
  mahri_name:0 "Mahri"
  mahri_collective_noun:0 "Mahris"
@@ -232,9 +232,10 @@
  tabari_name:0 "Tabari"
  tabari_collective_noun:0 "Tabaris"
  tabari_prefix:0 "Tabari"
- ligurian_name:0 "Ligurian"
- ligurian_collective_noun:0 "Ligurians"
- ligurian_prefix:0 "Liguro"
+
+ ligurian_name:0 "Ligure"
+ ligurian_collective_noun:0 "Liguri"
+ ligurian_prefix:0 "Liguri"
 
  tuscan_name:0 "Toscano"
  tuscan_collective_noun:0 "Toscanos"
@@ -290,9 +291,9 @@
  syrian_name:0 "Syrian"
  syrian_collective_noun:0 "Syrians"
  syrian_prefix:0 "Syrio"
- iraqi_name:0 "Iraqi"
- iraqi_collective_noun:0 "Iraqis"
- iraqi_prefix:0 "Iraqio"
+ iraqi_name:0 "ʿIrāqī"
+ iraqi_collective_noun:0 "al-ʿIrāqīyūn"
+ iraqi_prefix:0 "ʿIrāqī"
  soqotri_name:0 "Soqotri"
  soqotri_collective_noun:0 "Soqotri"
  soqotri_prefix:0 "Soqotri"
@@ -335,9 +336,9 @@
  danelander_collective_noun:0 "Denelanders"
  danelander_prefix:0 "Dene"
 
- anglo_norse_name:0 "Angel-Norðrǿnn"
- anglo_norse_collective_noun:0 "Angel-Norðmęnn"
- anglo_norse_prefix:0 "Angel"
+ anglo_norse_name:0 "Norðléodisc"
+ anglo_norse_collective_noun:0 "Norðléode"
+ anglo_norse_prefix:0 "Norðléodi"
 
  engelsk_name:0 "Ænglisk"
  engelsk_collective_noun:0 "Ænglen"
@@ -350,9 +351,9 @@
  dobrujan_collective_noun:0 "Dobrujan Tatars"
  dobrujan_prefix:0 "Dobrujo"
 
- dalmatian_name:0 "Dalmazijo"
- dalmatian_collective_noun:0 "Dalmazijos"
- dalmatian_prefix:0 "Dalmazijo"
+ dalmatian_name:0 "Dalmat"
+ dalmatian_collective_noun:0 "Dalmati"
+ dalmatian_prefix:0 "Dalmati"
 
  aromanian_name:0 "Aromanian"
  aromanian_collective_noun:0 "Aromanians"
