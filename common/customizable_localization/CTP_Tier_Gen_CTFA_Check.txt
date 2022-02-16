@@ -21,7 +21,7 @@
 		localization_key = Generic_Tier_CTP
 	}
 	text = {
-		fallback
+		fallback = yes
 		localization_key = Cool_Tier_CTP
 	}
 }
