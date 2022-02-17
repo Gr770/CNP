@@ -11,6 +11,7 @@ GeneralUniUICharGetShortUINameNoTooltipU: "[Character.Custom('CTPShortNameNoTool
 GeneralUniUICharGetUINameNotMeNoTooltipU: "[Character.Custom('CTPNameNotMeNoTooltip')|U]"
 GeneralUniUICharGetUINameNotMeNoTooltip: "[Character.Custom('CTPNameNotMeNoTooltip')]"
 GeneralUniUICharGetUINameUV: "[Character.Custom('CTPName')|UV]"
+GeneralUniUICharGetShortUINameUV: "[Character.Custom('CTPShortName')|UV]"
 
 #Debug Windows
 AIWatchWindowUniUICharGetUIName: "[AIWatchWindow.GetCharacter.Custom('CTPName')]"
