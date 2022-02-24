@@ -4632,43 +4632,22 @@ norse_pack_faith_name_male = {
 					}
 					random_list = {
 						1 = {
-							change_first_name = Einsther
-						}
-						1 = {
 							change_first_name = Abdal-Ahad
-						}
-						1 = {
-							change_first_name = Mattungsther
 						}
 						1 = {
 							change_first_name = Abdal-Azim
 						}
 						1 = {
-							change_first_name = Alvitsther
-						}
-						1 = {
 							change_first_name = Abdal-Basir
-						}
-						1 = {
-							change_first_name = Sigsther
 						}
 						1 = {
 							change_first_name = Abdal-Fattah
 						}
 						1 = {
-							change_first_name = Riksther
-						}
-						1 = {
 							change_first_name = Abdal-Ghani
 						}
 						1 = {
-							change_first_name = Vissther
-						}
-						1 = {
 							change_first_name = Abdal-Hakim
-						}
-						1 = {
-							change_first_name = Alhaldsther
 						}
 						1 = {
 							change_first_name = Abdal-Halim
@@ -4728,43 +4707,22 @@ norse_pack_faith_name_male = {
 					}
 					random_list = {
 						1 = {
-							change_first_name = Einsther
-						}
-						1 = {
 							change_first_name = Abdal-Ahad
-						}
-						1 = {
-							change_first_name = Mattungsther
 						}
 						1 = {
 							change_first_name = Abdal-Azim
 						}
 						1 = {
-							change_first_name = Alvitsther
-						}
-						1 = {
 							change_first_name = Abdal-Basir
-						}
-						1 = {
-							change_first_name = Sigsther
 						}
 						1 = {
 							change_first_name = Abdal-Fattah
 						}
 						1 = {
-							change_first_name = Riksther
-						}
-						1 = {
 							change_first_name = Abdal-Ghani
 						}
 						1 = {
-							change_first_name = Vissther
-						}
-						1 = {
 							change_first_name = Abdal-Hakim
-						}
-						1 = {
-							change_first_name = Alhaldsther
 						}
 						1 = {
 							change_first_name = Abdal-Halim
@@ -5524,43 +5482,22 @@ norse_pack_name_ai_male = {
 						}
 						random_list = {
 							1 = {
-								change_first_name = Einsther
-							}
-							1 = {
 								change_first_name = Abdal-Ahad
-							}
-							1 = {
-								change_first_name = Mattungsther
 							}
 							1 = {
 								change_first_name = Abdal-Azim
 							}
 							1 = {
-								change_first_name = Alvitsther
-							}
-							1 = {
 								change_first_name = Abdal-Basir
-							}
-							1 = {
-								change_first_name = Sigsther
 							}
 							1 = {
 								change_first_name = Abdal-Fattah
 							}
 							1 = {
-								change_first_name = Riksther
-							}
-							1 = {
 								change_first_name = Abdal-Ghani
 							}
 							1 = {
-								change_first_name = Vissther
-							}
-							1 = {
 								change_first_name = Abdal-Hakim
-							}
-							1 = {
-								change_first_name = Alhaldsther
 							}
 							1 = {
 								change_first_name = Abdal-Halim
@@ -10923,17 +10860,6 @@ norse_pack_faith_name_female = {
 						}
 						1 = {
 							change_first_name = Thorny
-						}
-					}
-				}
-				0 = {
-					modifier = {
-						has_religion = religion:islam_religion
-						add = 1
-					}
-					random_list = {
-						1 = {
-							change_first_name = Gudsther
 						}
 					}
 				}
