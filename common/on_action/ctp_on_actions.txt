@@ -133,5 +133,44 @@ ctp_courtiers = {
 random_yearly_everyone_pulse = {
 	on_actions = {
 		ctp_courtiers
+		north_nick
+	}
+}
+north_nick = {
+	trigger = {
+		is_adult = yes
+		culture = {
+			has_cultural_pillar = heritage_north_germanic
+			has_cultural_pillar = language_norse
+		}
+		NOT = {
+			has_character_flag = got_north_nickname
+		}
+	}
+	effect = {
+		random_list = {
+			485 = {
+				modifier = {
+					is_male = no
+					add = 13
+				}
+			}
+			0 = {
+				modifier = {
+					is_male = yes
+					add = 15
+				}
+				add_character_flag = got_north_nickname
+				norse_pack_nick_name_effect = yes
+			}
+			0 = {
+				modifier = {
+					is_male = no
+					add = 2
+				}
+				add_character_flag = got_north_nickname
+				norse_pack_nick_name_effect = yes
+			}
+		}
 	}
 }
