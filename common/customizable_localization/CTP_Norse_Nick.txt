@@ -3457,15 +3457,15 @@ NorthNickCulture = {
     log_loc_errors = no
 	text = {
 		trigger = {
-			has_culture = norwegian
+			has_culture = culture:norwegian
 		}
         localization_key = _norweg
 	}
 	text = {
 		trigger = {
 			OR = {
-				has_culture = danish
-				has_culture = swedish
+				has_culture = culture:danish
+				has_culture = culture:swedish
 			}
 		}
         localization_key = _swe_dan

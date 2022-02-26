@@ -8,7 +8,7 @@
 			modifier = {
 				is_male = no
 				OR = {
-					faith = { is_in_family = rf_pagan }
+					religion = { is_in_family = rf_pagan }
 					has_government = tribal_government
 				}
 				add = 1
@@ -16,7 +16,7 @@
 			modifier = {
 				is_male = yes
 				OR = {
-					faith = { is_in_family = rf_pagan }
+					religion = { is_in_family = rf_pagan }
 					has_government = tribal_government
 				}
 				add = 5
@@ -30,7 +30,7 @@
 			modifier = {
 				is_male = yes
 				OR = {
-					faith = { is_in_family = rf_pagan }
+					religion = { is_in_family = rf_pagan }
 					has_government = tribal_government
 				}
 				add = 5
@@ -46,7 +46,7 @@
 			modifier = {
 				is_male = no
 				OR = {
-					faith = { is_in_family = rf_pagan }
+					religion = { is_in_family = rf_pagan }
 					has_government = tribal_government
 				}
 				add = 1
@@ -4647,13 +4647,7 @@ norse_pack_faith_name_male = {
 							change_first_name = Thorgrim
 						}
 						1 = {
-							change_first_name = Thorhallr
-						}
-						1 = {
 							change_first_name = Thorhall
-						}
-						1 = {
-							change_first_name = Thorhallr
 						}
 						1 = {
 							change_first_name = Thorolf
@@ -5674,13 +5668,7 @@ norse_pack_name_ai_male = {
 								change_first_name = Thorgrim
 							}
 							1 = {
-								change_first_name = Thorhallr
-							}
-							1 = {
 								change_first_name = Thorhall
-							}
-							1 = {
-								change_first_name = Thorhallr
 							}
 							1 = {
 								change_first_name = Thorolf
@@ -13466,7 +13454,7 @@ norse_pack_nick_name_effect = {
 		0 = {
 			modifier = {
 				is_knight = yes
-				add = 3
+				add = 0.5
 			}
 			add_to_global_variable_list = { name = Champion_byname target = scope:byname_target }
 		}

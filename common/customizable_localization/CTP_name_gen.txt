@@ -90,18 +90,6 @@ CTPShortEventName = {
     type = character
     text = {
         trigger = {
-            persian_muslim_check = yes
-        }
-		localization_key = CTP_Short_event_Persian_Muslim
-    }
-    text = {
-        trigger = {
-            persian_standard_check = yes
-        }
-		localization_key = CTP_Short_event_Persian
-    }
-    text = {
-        trigger = {
 			arabic_check = yes
 		}
 		localization_key = CTP_Short_event_Arabic
@@ -109,11 +97,17 @@ CTPShortEventName = {
     text = {
         trigger = {
 			culture = {
-                is_cnp_supported_culture = yes
+                has_cultural_pillar = heritage_north_germanic
                 has_cultural_pillar = language_norse
             }
 		}
 		localization_key = CTP_Short_event_North
+    }
+    text = {
+        trigger = {
+            persian_standard_check = yes
+        }
+		localization_key = CTP_Short_event_Persian
     }
 	text = {
 		fallback = yes

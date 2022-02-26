@@ -134,6 +134,31 @@ random_yearly_everyone_pulse = {
 	on_actions = {
 		ctp_courtiers
 		north_nick
+		north_nick_courtiers
+	}
+}
+north_nick_courtiers = {
+	trigger = {
+		is_landed = yes
+		culture = {
+			has_cultural_pillar = heritage_north_germanic
+			has_cultural_pillar = language_norse
+		}
+	}
+	effect = {
+		every_courtier = {
+			limit = {
+				is_adult = yes
+				culture = {
+					has_cultural_pillar = heritage_north_germanic
+					has_cultural_pillar = language_norse
+				}
+				NOT = {
+					has_character_flag = got_north_nickname
+				}
+			}
+			North_Give_NickName_effect = yes
+		}
 	}
 }
 north_nick = {

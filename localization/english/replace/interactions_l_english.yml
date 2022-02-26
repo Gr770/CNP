@@ -152,7 +152,7 @@
 
  EDUCATE_RECIPIENT_CHILD_REQUEST:0 "I would like for your young [recipient.Custom2('RelationToMe', SCOPE.sC('secondary_recipient'))] [secondary_recipient.Custom('CTPShortName')] to be raised by [secondary_actor.Custom('CTPShortName')] — a most skillful Guardian!"
  EDUCATE_RECIPIENT_REQUEST:0 "In order to ensure that you receive an excellent education, I would like for you to be raised by [secondary_actor.Custom('CTPShortName')] — a most skillful Guardian!"
-"
+
  SECONDARY_ACTOR_CAN_MARRY:0 "[CHARACTER.Custom('CTPShortName')|U] can and [TARGET_CHARACTER.Custom('CTPShortName')] can marry"
  NOT_SECONDARY_ACTOR_CAN_MARRY:0 "[CHARACTER.Custom('CTPShortName')|U] and [TARGET_CHARACTER.Custom('CTPShortName')] can #bold not#! marry"
  NOT_CHARACTER_IS_CLERGY_AND_CANNOT_MARRY:0 "[CHARACTER.Custom('CTPShortName')|U] belongs to the clergy"
