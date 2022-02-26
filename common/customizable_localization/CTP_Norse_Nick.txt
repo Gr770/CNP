@@ -1,5 +1,6 @@
 ﻿NorthNickList = {
     type = character
+    log_loc_errors = no
 	text = {
 		trigger = {
 			has_nickname = nick_whiteshirt
@@ -3449,5 +3450,28 @@
 	text = {
 		fallback = yes
         localization_key = Blank
+	}
+}
+NorthNickCulture = {
+	type = character
+    log_loc_errors = no
+	text = {
+		trigger = {
+			has_culture = norwegian
+		}
+        localization_key = _norweg
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_culture = danish
+				has_culture = swedish
+			}
+		}
+        localization_key = _swe_dan
+	}
+	text = {
+		fallback = yes
+        localization_key = _norse
 	}
 }
