@@ -48,6 +48,15 @@ soldier_friend_character = {
 	}
 	after_creation = {
 		courtier_effect_cnp = yes
+		if = {
+			limit = {
+				culture = {
+					has_cultural_pillar = heritage_north_germanic
+					has_cultural_pillar = language_norse
+				}
+			}
+			North_Give_NickName_effect = yes
+		}
 	}
 }
 
@@ -99,6 +108,15 @@ new_commander_character = {
 			give_random_commander_trait_effect = yes
 		}
 		courtier_effect_cnp = yes
+		if = {
+			limit = {
+				culture = {
+					has_cultural_pillar = heritage_north_germanic
+					has_cultural_pillar = language_norse
+				}
+			}
+			North_Give_NickName_effect = yes
+		}
 	}
 }
 
@@ -187,6 +205,15 @@ new_warrior_character = {
 			give_random_commander_trait_effect = yes
 		}
 		courtier_effect_cnp = yes
+		if = {
+			limit = {
+				culture = {
+					has_cultural_pillar = heritage_north_germanic
+					has_cultural_pillar = language_norse
+				}
+			}
+			North_Give_NickName_effect = yes
+		}
 	}
 }
 
@@ -242,6 +269,15 @@ new_siege_engineer = {
 			give_random_commander_trait_effect = yes
 		}
 		courtier_effect_cnp = yes
+		if = {
+			limit = {
+				culture = {
+					has_cultural_pillar = heritage_north_germanic
+					has_cultural_pillar = language_norse
+				}
+			}
+			North_Give_NickName_effect = yes
+		}
 	}
 }
 
@@ -306,5 +342,14 @@ new_berserker_character = {
 	prowess = { 8 12 }
 	after_creation = {
 		courtier_effect_cnp = yes
+		if = {
+			limit = {
+				culture = {
+					has_cultural_pillar = heritage_north_germanic
+					has_cultural_pillar = language_norse
+				}
+			}
+			North_Give_NickName_effect = yes
+		}
 	}
 }

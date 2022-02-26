@@ -21,6 +21,15 @@
 			flag = need_priest_outfit
 		}
 		courtier_effect_cnp = yes
+		if = {
+			limit = {
+				culture = {
+					has_cultural_pillar = heritage_north_germanic
+					has_cultural_pillar = language_norse
+				}
+			}
+			North_Give_NickName_effect = yes
+		}
 	}
 }
 
@@ -196,6 +205,15 @@ virtuous_priest_character_template = {
 			flag = need_priest_outfit
 		}
 		courtier_effect_cnp = yes
+		if = {
+			limit = {
+				culture = {
+					has_cultural_pillar = heritage_north_germanic
+					has_cultural_pillar = language_norse
+				}
+			}
+			North_Give_NickName_effect = yes
+		}
 	}
 }
 
@@ -219,5 +237,14 @@ monk_character_template = {
 	}
 	after_creation = {
 		courtier_effect_cnp = yes
+		if = {
+			limit = {
+				culture = {
+					has_cultural_pillar = heritage_north_germanic
+					has_cultural_pillar = language_norse
+				}
+			}
+			North_Give_NickName_effect = yes
+		}
 	}
 }

@@ -18,6 +18,15 @@ scholar_character = {
 	}
 	after_creation = {
 		courtier_effect_cnp = yes
+		if = {
+			limit = {
+				culture = {
+					has_cultural_pillar = heritage_north_germanic
+					has_cultural_pillar = language_norse
+				}
+			}
+			North_Give_NickName_effect = yes
+		}
 	}
 }
 
@@ -50,6 +59,15 @@ writer_character = {
 	}
 	after_creation = {
 		courtier_effect_cnp = yes
+		if = {
+			limit = {
+				culture = {
+					has_cultural_pillar = heritage_north_germanic
+					has_cultural_pillar = language_norse
+				}
+			}
+			North_Give_NickName_effect = yes
+		}
 	}
 }
 
@@ -72,6 +90,15 @@ capital_scholar_character = {
 	}
 	after_creation = {
 		courtier_effect_cnp = yes
+		if = {
+			limit = {
+				culture = {
+					has_cultural_pillar = heritage_north_germanic
+					has_cultural_pillar = language_norse
+				}
+			}
+			North_Give_NickName_effect = yes
+		}
 	}
 }
 
@@ -104,5 +131,14 @@ capital_writer_character = {
 	}
 	after_creation = {
 		courtier_effect_cnp = yes
+		if = {
+			limit = {
+				culture = {
+					has_cultural_pillar = heritage_north_germanic
+					has_cultural_pillar = language_norse
+				}
+			}
+			North_Give_NickName_effect = yes
+		}
 	}
 }

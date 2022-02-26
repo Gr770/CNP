@@ -15,6 +15,15 @@
 	}
 	after_creation = {
 		courtier_effect_cnp = yes
+		if = {
+			limit = {
+				culture = {
+					has_cultural_pillar = heritage_north_germanic
+					has_cultural_pillar = language_norse
+				}
+			}
+			North_Give_NickName_effect = yes
+		}
 	}
 }
 
@@ -31,6 +40,15 @@ servant_character = {
 	}
 	after_creation = {
 		courtier_effect_cnp = yes
+		if = {
+			limit = {
+				culture = {
+					has_cultural_pillar = heritage_north_germanic
+					has_cultural_pillar = language_norse
+				}
+			}
+			North_Give_NickName_effect = yes
+		}
 	}
 }
 
@@ -124,6 +142,15 @@ witchy_template = {
 	}
 	after_creation = {
 		courtier_effect_cnp = yes
+		if = {
+			limit = {
+				culture = {
+					has_cultural_pillar = heritage_north_germanic
+					has_cultural_pillar = language_norse
+				}
+			}
+			North_Give_NickName_effect = yes
+		}
 	}
 }
 
@@ -152,6 +179,15 @@ merchant_template = {
 	learning = { 5 13 }
 	after_creation = {
 		courtier_effect_cnp = yes
+		if = {
+			limit = {
+				culture = {
+					has_cultural_pillar = heritage_north_germanic
+					has_cultural_pillar = language_norse
+				}
+			}
+			North_Give_NickName_effect = yes
+		}
 	}
 }
 
@@ -196,6 +232,15 @@ hunter_template = {
 	}
 	after_creation = {
 		courtier_effect_cnp = yes
+		if = {
+			limit = {
+				culture = {
+					has_cultural_pillar = heritage_north_germanic
+					has_cultural_pillar = language_norse
+				}
+			}
+			North_Give_NickName_effect = yes
+		}
 	}
 }
 
@@ -227,6 +272,15 @@ detective_template = {
 	learning = { 5 10 }
 	after_creation = {
 		courtier_effect_cnp = yes
+		if = {
+			limit = {
+				culture = {
+					has_cultural_pillar = heritage_north_germanic
+					has_cultural_pillar = language_norse
+				}
+			}
+			North_Give_NickName_effect = yes
+		}
 	}
 }
 
@@ -259,6 +313,15 @@ generic_peasant_character = {
 	}
 	after_creation = {
 		courtier_effect_cnp = yes
+		if = {
+			limit = {
+				culture = {
+					has_cultural_pillar = heritage_north_germanic
+					has_cultural_pillar = language_norse
+				}
+			}
+			North_Give_NickName_effect = yes
+		}
 	}
 }
 
@@ -291,6 +354,15 @@ generic_female_peasant_character = {
 	}
 	after_creation = {
 		courtier_effect_cnp = yes
+		if = {
+			limit = {
+				culture = {
+					has_cultural_pillar = heritage_north_germanic
+					has_cultural_pillar = language_norse
+				}
+			}
+			North_Give_NickName_effect = yes
+		}
 	}
 }
 
@@ -312,6 +384,15 @@ challenger_peasant_character = {
 	learning = { 5 7 }
 	after_creation = {
 		courtier_effect_cnp = yes
+		if = {
+			limit = {
+				culture = {
+					has_cultural_pillar = heritage_north_germanic
+					has_cultural_pillar = language_norse
+				}
+			}
+			North_Give_NickName_effect = yes
+		}
 	}
 }
 
@@ -322,5 +403,14 @@ peasant_character = {
 	random_traits = yes
 	after_creation = {
 		courtier_effect_cnp = yes
+		if = {
+			limit = {
+				culture = {
+					has_cultural_pillar = heritage_north_germanic
+					has_cultural_pillar = language_norse
+				}
+			}
+			North_Give_NickName_effect = yes
+		}
 	}
 }

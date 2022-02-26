@@ -148,29 +148,6 @@ north_nick = {
 		}
 	}
 	effect = {
-		random_list = {
-			485 = {
-				modifier = {
-					is_male = no
-					add = 13
-				}
-			}
-			0 = {
-				modifier = {
-					is_male = yes
-					add = 15
-				}
-				add_character_flag = got_north_nickname
-				norse_pack_nick_name_effect = yes
-			}
-			0 = {
-				modifier = {
-					is_male = no
-					add = 2
-				}
-				add_character_flag = got_north_nickname
-				norse_pack_nick_name_effect = yes
-			}
-		}
+		North_Give_NickName_effect = yes
 	}
 }

@@ -56,6 +56,15 @@ fp1_ms_godi_character = {
 	prowess = 0
 	after_creation = {
 		courtier_effect_cnp = yes
+		if = {
+			limit = {
+				culture = {
+					has_cultural_pillar = heritage_north_germanic
+					has_cultural_pillar = language_norse
+				}
+			}
+			North_Give_NickName_effect = yes
+		}
 	}
 }
 
@@ -108,6 +117,15 @@ fp1_ms_reformed_missionary_character = {
 	prowess = 0
 	after_creation = {
 		courtier_effect_cnp = yes
+		if = {
+			limit = {
+				culture = {
+					has_cultural_pillar = heritage_north_germanic
+					has_cultural_pillar = language_norse
+				}
+			}
+			North_Give_NickName_effect = yes
+		}
 	}
 }
 
@@ -153,6 +171,15 @@ fp1_ms_nithing_character = {
 	prowess = 0
 	after_creation = {
 		courtier_effect_cnp = yes
+		if = {
+			limit = {
+				culture = {
+					has_cultural_pillar = heritage_north_germanic
+					has_cultural_pillar = language_norse
+				}
+			}
+			North_Give_NickName_effect = yes
+		}
 	}
 }
 
@@ -191,6 +218,15 @@ fp1_ms_warrior_character = {
 	prowess = 0
 	after_creation = {
 		courtier_effect_cnp = yes
+		if = {
+			limit = {
+				culture = {
+					has_cultural_pillar = heritage_north_germanic
+					has_cultural_pillar = language_norse
+				}
+			}
+			North_Give_NickName_effect = yes
+		}
 	}
 }
 
@@ -255,6 +291,15 @@ fp1_ms_vagrant_character = {
 	prowess = 0
 	after_creation = {
 		courtier_effect_cnp = yes
+		if = {
+			limit = {
+				culture = {
+					has_cultural_pillar = heritage_north_germanic
+					has_cultural_pillar = language_norse
+				}
+			}
+			North_Give_NickName_effect = yes
+		}
 	}
 }
 
@@ -320,6 +365,15 @@ fp1_western_warrior_character = {
 	prowess = { min_template_decent_skill max_template_high_skill }
 	after_creation = {
 		courtier_effect_cnp = yes
+		if = {
+			limit = {
+				culture = {
+					has_cultural_pillar = heritage_north_germanic
+					has_cultural_pillar = language_norse
+				}
+			}
+			North_Give_NickName_effect = yes
+		}
 	}
 }
 
@@ -382,6 +436,15 @@ fp1_eastern_warrior_character = {
 	prowess = { min_template_decent_skill max_template_high_skill }
 	after_creation = {
 		courtier_effect_cnp = yes
+		if = {
+			limit = {
+				culture = {
+					has_cultural_pillar = heritage_north_germanic
+					has_cultural_pillar = language_norse
+				}
+			}
+			North_Give_NickName_effect = yes
+		}
 	}
 }
 
@@ -454,6 +517,15 @@ fp1_jomsviking_bigwig = {
 	prowess = { min_template_decent_skill max_template_high_skill }
 	after_creation = {
 		courtier_effect_cnp = yes
+		if = {
+			limit = {
+				culture = {
+					has_cultural_pillar = heritage_north_germanic
+					has_cultural_pillar = language_norse
+				}
+			}
+			North_Give_NickName_effect = yes
+		}
 	}
 }
 
@@ -515,6 +587,15 @@ fp1_jomsviking_retainer_martial = {
 	prowess = { min_template_low_skill max_template_average_skill }
 	after_creation = {
 		courtier_effect_cnp = yes
+		if = {
+			limit = {
+				culture = {
+					has_cultural_pillar = heritage_north_germanic
+					has_cultural_pillar = language_norse
+				}
+			}
+			North_Give_NickName_effect = yes
+		}
 	}
 }
 
@@ -576,6 +657,15 @@ fp1_jomsviking_retainer_prowess = {
 	prowess = { min_template_decent_skill max_template_high_skill }
 	after_creation = {
 		courtier_effect_cnp = yes
+		if = {
+			limit = {
+				culture = {
+					has_cultural_pillar = heritage_north_germanic
+					has_cultural_pillar = language_norse
+				}
+			}
+			North_Give_NickName_effect = yes
+		}
 	}
 }
 
@@ -631,6 +721,15 @@ fp1_deceitful_warrior_character = {
 	prowess = { min_template_average_skill min_template_high_skill }
 	after_creation = {
 		courtier_effect_cnp = yes
+		if = {
+			limit = {
+				culture = {
+					has_cultural_pillar = heritage_north_germanic
+					has_cultural_pillar = language_norse
+				}
+			}
+			North_Give_NickName_effect = yes
+		}
 	}
 }
 
@@ -682,6 +781,15 @@ fp1_deceitful_explorer_character = {
 	prowess = { min_template_low_skill max_template_decent_skill }
 	after_creation = {
 		courtier_effect_cnp = yes
+		if = {
+			limit = {
+				culture = {
+					has_cultural_pillar = heritage_north_germanic
+					has_cultural_pillar = language_norse
+				}
+			}
+			North_Give_NickName_effect = yes
+		}
 	}
 }
 
@@ -733,6 +841,15 @@ fp1_truthful_explorer_character = {
 	prowess = { min_template_average_skill min_template_high_skill }
 	after_creation = {
 		courtier_effect_cnp = yes
+		if = {
+			limit = {
+				culture = {
+					has_cultural_pillar = heritage_north_germanic
+					has_cultural_pillar = language_norse
+				}
+			}
+			North_Give_NickName_effect = yes
+		}
 	}
 }
 
@@ -810,6 +927,15 @@ fp1_islamic_explorer_character = {
 	prowess = { min_template_low_skill max_template_decent_skill }
 	after_creation = {
 		courtier_effect_cnp = yes
+		if = {
+			limit = {
+				culture = {
+					has_cultural_pillar = heritage_north_germanic
+					has_cultural_pillar = language_norse
+				}
+			}
+			North_Give_NickName_effect = yes
+		}
 	}
 }
 
@@ -871,6 +997,15 @@ fp1_capital_county_nithing_character = {
 	prowess = { min_template_low_skill max_template_low_skill }
 	after_creation = {
 		courtier_effect_cnp = yes
+		if = {
+			limit = {
+				culture = {
+					has_cultural_pillar = heritage_north_germanic
+					has_cultural_pillar = language_norse
+				}
+			}
+			North_Give_NickName_effect = yes
+		}
 	}
 }
 
@@ -903,6 +1038,15 @@ fp1_capital_county_orphan_character = {
 	prowess = { min_template_low_skill max_template_low_skill }
 	after_creation = {
 		courtier_effect_cnp = yes
+		if = {
+			limit = {
+				culture = {
+					has_cultural_pillar = heritage_north_germanic
+					has_cultural_pillar = language_norse
+				}
+			}
+			North_Give_NickName_effect = yes
+		}
 	}
 }
 
@@ -957,6 +1101,15 @@ fp1_trade_partner_merchant = {
 	prowess = { min_template_low_skill min_template_average_skill }
 	after_creation = {
 		courtier_effect_cnp = yes
+		if = {
+			limit = {
+				culture = {
+					has_cultural_pillar = heritage_north_germanic
+					has_cultural_pillar = language_norse
+				}
+			}
+			North_Give_NickName_effect = yes
+		}
 	}
 }
 
@@ -1118,6 +1271,15 @@ fp1_trade_partner_priest = {
 	prowess = { min_template_low_skill min_template_average_skill }
 	after_creation = {
 		courtier_effect_cnp = yes
+		if = {
+			limit = {
+				culture = {
+					has_cultural_pillar = heritage_north_germanic
+					has_cultural_pillar = language_norse
+				}
+			}
+			North_Give_NickName_effect = yes
+		}
 	}
 }
 
@@ -1173,6 +1335,15 @@ fp1_trade_partner_spy = {
 	prowess = { min_template_low_skill min_template_average_skill }
 	after_creation = {
 		courtier_effect_cnp = yes
+		if = {
+			limit = {
+				culture = {
+					has_cultural_pillar = heritage_north_germanic
+					has_cultural_pillar = language_norse
+				}
+			}
+			North_Give_NickName_effect = yes
+		}
 	}
 }
 
@@ -1230,6 +1401,15 @@ fp1_trade_partner_warrior = {
 	prowess = { min_template_decent_skill max_template_high_skill }
 	after_creation = {
 		courtier_effect_cnp = yes
+		if = {
+			limit = {
+				culture = {
+					has_cultural_pillar = heritage_north_germanic
+					has_cultural_pillar = language_norse
+				}
+			}
+			North_Give_NickName_effect = yes
+		}
 	}
 }
 
@@ -1265,5 +1445,14 @@ old_country_local_warlord_template = {
 	}
 	after_creation = {
 		courtier_effect_cnp = yes
+		if = {
+			limit = {
+				culture = {
+					has_cultural_pillar = heritage_north_germanic
+					has_cultural_pillar = language_norse
+				}
+			}
+			North_Give_NickName_effect = yes
+		}
 	}
 }

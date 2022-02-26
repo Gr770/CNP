@@ -2,6 +2,18 @@
     type = character
 	text = {
 		trigger = {
+			has_nickname = nick_whiteshirt
+		}
+        localization_key = Whiteshirt
+	}
+	text = {
+		trigger = {
+			has_nickname = nick_the_boneless
+		}
+        localization_key = Boneless
+	}
+	text = {
+		trigger = {
 			any_in_global_list = {
 				variable = Old_byname
 				this = root
@@ -11,9 +23,12 @@
 	}
 	text = {
 		trigger = {
-			any_in_global_list = {
-				variable = White_byname
-				this = root
+			OR = {
+				any_in_global_list = {
+					variable = White_byname
+					this = root
+				}
+				has_nickname = nick_the_white
 			}
 		}
         localization_key = White
@@ -38,9 +53,12 @@
 	}
 	text = {
 		trigger = {
-			any_in_global_list = {
-				variable = Red_byname
-				this = root
+			OR = {
+				any_in_global_list = {
+					variable = Red_byname
+					this = root
+				}
+				has_nickname = nick_the_red
 			}
 		}
         localization_key = Red
@@ -1487,12 +1505,39 @@
 	}
 	text = {
 		trigger = {
-			any_in_global_list = {
-				variable = FairHair_byname
-				this = root
+			OR = {
+				any_in_global_list = {
+					variable = FairHair_byname
+					this = root
+				}
+				has_nickname = nick_fairhair
 			}
 		}
         localization_key = FairHair
+	}
+	text = {
+		trigger = {
+			has_nickname = nick_tanglehair
+		}
+        localization_key = TangleHair
+	}
+	text = {
+		trigger = {
+			has_nickname = nick_snake_in_the_eye
+		}
+        localization_key = SnakeEye
+	}
+	text = {
+		trigger = {
+			has_nickname = nick_the_stranger
+		}
+        localization_key = Stranger
+	}
+	text = {
+		trigger = {
+			has_nickname = nick_the_deep_minded
+		}
+        localization_key = DeepMind
 	}
 	text = {
 		trigger = {
@@ -1550,9 +1595,12 @@
 	}
 	text = {
 		trigger = {
-			any_in_global_list = {
-				variable = BattleTooth_byname
-				this = root
+			OR = {
+				any_in_global_list = {
+					variable = BattleTooth_byname
+					this = root
+				}
+				has_nickname = nick_hildetand
 			}
 		}
         localization_key = BattleTooth
@@ -1685,12 +1733,33 @@
 	}
 	text = {
 		trigger = {
-			any_in_global_list = {
-				variable = Ring_byname
-				this = root
+			OR = {
+				any_in_global_list = {
+					variable = Ring_byname
+					this = root
+				}
+				has_nickname = nick_ring
 			}
 		}
         localization_key = Ring
+	}
+	text = {
+		trigger = {
+			has_nickname = nick_troublemaker
+		}
+        localization_key = Troublemaker
+	}
+	text = {
+		trigger = {
+			has_nickname = nick_blue_snake
+		}
+        localization_key = BlueSnake
+	}
+	text = {
+		trigger = {
+			has_nickname = nick_the_loyal
+		}
+        localization_key = Loyal
 	}
 	text = {
 		trigger = {
@@ -1829,9 +1898,12 @@
 	}
 	text = {
 		trigger = {
-			any_in_global_list = {
-				variable = Ironsides_byname
-				this = root
+			OR = {
+				any_in_global_list = {
+					variable = Ironsides_byname
+					this = root
+				}
+				has_nickname = nick_the_ironside
 			}
 		}
         localization_key = Ironsides
@@ -2522,12 +2594,29 @@
 	}
 	text = {
 		trigger = {
-			any_in_global_list = {
-				variable = Seer_byname
-				this = root
+			is_male = yes
+			OR = {
+				any_in_global_list = {
+					variable = Seer_byname
+					this = root
+				}
+				has_nickname = nick_the_seer
 			}
 		}
-        localization_key = Seer
+        localization_key = SeerM
+	}
+	text = {
+		trigger = {
+			is_male = no
+			OR = {
+				any_in_global_list = {
+					variable = Seer_byname
+					this = root
+				}
+				has_nickname = nick_the_seer
+			}
+		}
+        localization_key = SeerF
 	}
 	text = {
 		trigger = {

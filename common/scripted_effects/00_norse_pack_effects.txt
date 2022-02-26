@@ -1,4 +1,62 @@
-﻿1066_norse_start_up_effect = {
+﻿North_Give_NickName_effect = {
+	random_list = {
+		990 = {
+			modifier = {
+				is_male = no
+				add = 8
+			}
+			modifier = {
+				is_male = no
+				OR = {
+					faith = { is_in_family = rf_pagan }
+					has_government = tribal_government
+				}
+				add = 1
+			}
+			modifier = {
+				is_male = yes
+				OR = {
+					faith = { is_in_family = rf_pagan }
+					has_government = tribal_government
+				}
+				add = 5
+			}
+		}
+		0 = {
+			modifier = {
+				is_male = yes
+				add = 5
+			}
+			modifier = {
+				is_male = yes
+				OR = {
+					faith = { is_in_family = rf_pagan }
+					has_government = tribal_government
+				}
+				add = 5
+			}
+			add_character_flag = got_north_nickname
+			norse_pack_nick_name_effect = yes
+		}
+		0 = {
+			modifier = {
+				is_male = no
+				add = 1
+			}
+			modifier = {
+				is_male = no
+				OR = {
+					faith = { is_in_family = rf_pagan }
+					has_government = tribal_government
+				}
+				add = 1
+			}
+			add_character_flag = got_north_nickname
+			norse_pack_nick_name_effect = yes
+		}
+	}
+}
+1066_norse_start_up_effect = {
     add_to_global_variable_list = { name = name_pack_support_global target = character:40611 }
     add_to_global_variable_list = { name = name_pack_support_global target = character:40614 }
     add_to_global_variable_list = { name = name_pack_support_global target = character:100510 }
@@ -847,7 +905,9 @@
     dynasty:1043500 = {
         add_to_variable_list = { name = name_pack_support_dynasty target = character:186500 }
     }
-	
+	character:167782 = {
+		add_to_global_variable_list = { name = RingSlinger_byname target = this }
+	}
 	character:194009 = {
 		change_first_name = Alf
 	}
@@ -862,6 +922,9 @@
 	}
 }
 867_ancetor_storage_norse = {
+	character:163112 = {
+		add_character_flag = got_north_nickname
+	}
 	character:167722 = {
 		add_to_variable_list = { name = male_ancestors target = character:167721 }
 	}
@@ -904,21 +967,26 @@
 		add_to_variable_list = { name = male_ancestors target = character:6866 }
 	}
 	character:40605 = {
+		add_character_flag = got_north_nickname
 		add_to_variable_list = { name = male_ancestors target = character:40697 }
 	}
 	character:163110 = {
+		add_character_flag = got_north_nickname
 		add_to_variable_list = { name = male_ancestors target = character:163109 }
 	}
 	character:163108 = {
+		add_character_flag = got_north_nickname
 		add_to_variable_list = { name = male_ancestors target = character:163109 }
 	}
 	character:163111 = {
+		add_character_flag = got_north_nickname
 		add_to_variable_list = { name = male_ancestors target = character:163109 }
 	}
 	character:168343 = {
 		add_to_variable_list = { name = male_ancestors target = character:167783 }
 	}
 	character:167782 = {
+		add_character_flag = got_north_nickname
 		add_to_variable_list = { name = male_ancestors target = character:167780 }
 	}
 	character:168333 = {
@@ -928,13 +996,21 @@
 		add_to_variable_list = { name = male_ancestors target = character:168330 }
 	}
 	character:168332 = {
+		add_character_flag = got_north_nickname
 		add_to_variable_list = { name = male_ancestors target = character:168330 }
 	}
 	character:168321 = {
 		add_to_variable_list = { name = male_ancestors target = character:168320 }
 	}
 	character:144000 = {
+		add_character_flag = got_north_nickname
 		add_to_variable_list = { name = male_ancestors target = character:168323 }
+	}
+	character:6811 = {
+		add_character_flag = got_north_nickname
+	}
+	character:40606 = {
+		add_character_flag = got_north_nickname
 	}
 	character:168328 = {
 		add_to_variable_list = { name = male_ancestors target = character:168327 }
@@ -10650,7 +10726,7 @@ norse_pack_culture_name_female = {
 					change_first_name = Olrun
 				}
 				1 = {
-					change_first_name = Ondott
+					change_first_name = Ondottr
 				}
 				1 = {
 					change_first_name = Ormhild
