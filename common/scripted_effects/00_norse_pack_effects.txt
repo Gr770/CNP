@@ -14798,4 +14798,22 @@ norse_pack_nick_name_effect = {
 			}
 		}
 	}
+	if = {
+		limit = {
+			is_ai = no
+		}
+		random_courtier = {
+			limit = {
+				is_adult = yes
+				culture = {
+					has_cultural_pillar = langauge_norse
+				}
+			}
+			save_scope_as = nick_giver
+		}
+		trigger_event = {
+			id = norsenamepack.001
+			delayed = yes
+		}
+	}
 }

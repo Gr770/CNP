@@ -1,5 +1,5 @@
 ﻿l_english:
- CTP_Full_Name_Concept_North: "#TOOLTIP:GAME_CONCEPT,given_name #high [ROOT.Char.Custom('CTPNameCheck')]#!#!#TOOLTIP:GAME_CONCEPT,nickname #color_yellow [Localize(Concatenate(ROOT.Char.Custom('NorthNickList'), ROOT.Char.Custom('NorthNickCulture')))]#!#!#TOOLTIP:GAME_CONCEPT,tier_name #clickable [ROOT.Char.Custom('CTPTierGenAfter')]#!#!#TOOLTIP:GAME_CONCEPT,patronym #color_light_blue [ROOT.Char.Custom('CharacterPat')]#!#!"
+ CTP_Full_Name_Concept_North: "#TOOLTIP:GAME_CONCEPT,given_name #high [ROOT.Char.Custom('CTPNameCheck')]#!#!#TOOLTIP:GAME_CONCEPT,nickname #color_green [Localize(Concatenate(ROOT.Char.Custom('NorthNickList'), ROOT.Char.Custom('NorthNickCulture')))]#!#!#TOOLTIP:GAME_CONCEPT,tier_name #clickable [ROOT.Char.Custom('CTPTierGenAfter')]#!#!#TOOLTIP:GAME_CONCEPT,patronym #color_light_blue [ROOT.Char.Custom('CharacterPat')]#!#!"
  CTP_Full_Name_North: "#high [ROOT.Char.Custom('CTPNameCheck')][ROOT.Char.Custom('NickCheck')][ROOT.Char.Custom('CTPTierGenAfter')][ROOT.Char.Custom('CharacterPat')]#!"
 
  CTP_First_Name_North: "#ONCLICK:CHARACTER,[ROOT.Char.GetID] #TOOLTIP:CHARACTER,[ROOT.Char.GetID] #L [ROOT.Char.Custom('CTPNameCheck')]#!#!#!"
