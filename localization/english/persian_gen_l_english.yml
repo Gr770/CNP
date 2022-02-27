@@ -1,5 +1,5 @@
 ﻿l_english:
- CTP_Full_Name_Concept_Persian: "#TOOLTIP:GAME_CONCEPT,given_name [ROOT.Char.Custom('CTPNameCheck')]#!#TOOLTIP:GAME_CONCEPT,tier_name [ROOT.Char.Custom('CTPTierGenAfter')]#!#TOOLTIP:GAME_CONCEPT,nickname [ROOT.Char.Custom('NickCheck')]#!#TOOLTIP:GAME_CONCEPT,patronym [ROOT.Char.Custom('CharacterPat')]#!"
+ CTP_Full_Name_Concept_Persian: "#TOOLTIP:GAME_CONCEPT,given_name #high [ROOT.Char.Custom('CTPNameCheck')]#!#!#TOOLTIP:GAME_CONCEPT,tier_name #clickable [ROOT.Char.Custom('CTPTierGenAfter')]#!#!#TOOLTIP:GAME_CONCEPT,nickname #color_green [ROOT.Char.Custom('NickCheck')]#!#!#TOOLTIP:GAME_CONCEPT,patronym #color_light_blue [ROOT.Char.Custom('CharacterPat')]#!#!"
 
  CTP_Full_Name_Persian: "#high [ROOT.Char.Custom('CTPNameCheck')][ROOT.Char.Custom('CTPTierGenAfter')][ROOT.Char.Custom('NickCheck')][ROOT.Char.Custom('CharacterPat')]#!"
 

@@ -1,197 +1,70 @@
 ﻿l_english:
- ##################################################
- # Misc Loc
- ## Titles
- single_combat.0000.t:0 "Single Combat:"
  single_combat.0001.t:0 "$single_combat.0000.t$ [sc_attacker.Custom('CTPTitledFirstNameNoTooltip')]"
  single_combat.0011.t:0 "$single_combat.0000.t$ [sc_defender.Custom('CTPTitledFirstNameNoTooltip')]"
- single_combat.0031.t:0 "$single_combat.0000.t$ Defeat!"
- single_combat.0041.t:0 "$single_combat.0000.t$ Victory!"
-
- ## Intro Spiels
  single_combat.0001.desc.sc_defender.intro:1 "[sc_attacker.Custom('CTPTitledFirstName')] and I stalk round each other, each weighing our options. [sc_attacker.GetSheHe|U] [sc_attacker.Custom('SignatureWeaponActionThirdPerson')] a fearsome [sc_attacker.Custom('SignatureWeaponNameOrType')], while I grip my own [sc_defender.Custom('SignatureWeaponNameOrType')] tightly. The deadly weapon feels cool and weighty in my grasp.\n\n"
- single_combat.0001.desc.capstone.intro.first_blood:0 "This fight may only be till first blood, but that doesn't ease my nerves."
- single_combat.0001.desc.capstone.intro.deadly:0 "Only one of us is walking away from here today, and I intend it to be me."
+
  single_combat.0001.desc.sc_attacker.intro:1 "For a few brief moments, [sc_defender.Custom('CTPTitledFirstName')] and I pace in lazy half-circles, each watching for an opening. I [sc_attacker.Custom('SignatureWeaponAction')] my [sc_attacker.Custom('SignatureWeaponNameOrType')], ready to defend myself, while [sc_defender.GetSheHe] clutches [sc_defender.GetHerHis] [sc_defender.Custom('SignatureWeaponNameOrType')] firmly to hand."
- single_combat.0001.desc.sc_attacker.intro.epilogue:1 "\n\nWith a sudden twitch, our bout begins.\n\n"
- ##################################################
- # Tooltips
- ## Own Duel Success Increase Tooltips
- single_combat.0001.duel_success.none:0 "#difficulty_hard NO#! increase to your [single_combat_success_chance|E]"
- single_combat.0001.duel_success.low:0 "#difficulty_hard LOW#! increase to your [single_combat_success_chance|E]"
- single_combat.0001.duel_success.medium:0 "#difficulty_medium MEDIUM#! increase to your [single_combat_success_chance|E]"
- single_combat.0001.duel_success.high:0 "#difficulty_easy HIGH#! increase to your [single_combat_success_chance|E]"
- single_combat.0001.duel_success.very_high:0 "#difficulty_easy VERY HIGH#! increase to your [single_combat_success_chance|E]"
 
- ## Own Injury Risk Increase Tooltips
- single_combat.0001.injury.none:0 "#difficulty_easy NO#! increase to your [single_combat_injury_chance|E]"
- single_combat.0001.injury.low:0 "#difficulty_easy LOW#! increase to your [single_combat_injury_chance|E]"
- single_combat.0001.injury.medium:0 "#difficulty_medium MEDIUM#! increase to your [single_combat_injury_chance|E]"
- single_combat.0001.injury.high:0 "#difficulty_hard HIGH#! increase to your [single_combat_injury_chance|E]"
- single_combat.0001.injury.very_high:0 "#difficulty_hard VERY HIGH#! increase to your [single_combat_injury_chance|E]"
-
- ## Opponent Duel Success Increase Tooltips
- single_combat.0001.duel_success.none.has_happened:0 "#difficulty_hard NO#! increase to [my_foe.GetHerHis] [single_combat_success_chance|E]"
- single_combat.0001.duel_success.low.has_happened:0 "#difficulty_hard LOW#! increase to [my_foe.GetHerHis] [single_combat_success_chance|E]"
- single_combat.0001.duel_success.medium.has_happened:0 "#difficulty_medium MEDIUM#! increase to [my_foe.GetHerHis] [single_combat_success_chance|E]"
- single_combat.0001.duel_success.high.has_happened:0 "#difficulty_easy HIGH#! increase to [my_foe.GetHerHis] [single_combat_success_chance|E]"
- single_combat.0001.duel_success.very_high.has_happened:0 "#difficulty_easy VERY HIGH#! increase to [my_foe.GetHerHis] [single_combat_success_chance|E]"
-
- ## Opponent Injury Risk Increase Tooltips
- single_combat.0001.injury.none.has_happened:0 "#difficulty_easy NO#! increase to [my_foe.GetHerHis] [single_combat_injury_chance|E]"
- single_combat.0001.injury.low.has_happened:0 "#difficulty_easy LOW#! increase to [my_foe.GetHerHis] [single_combat_injury_chance|E]"
- single_combat.0001.injury.medium.has_happened:0 "#difficulty_medium MEDIUM#! increase to [my_foe.GetHerHis] [single_combat_injury_chance|E]"
- single_combat.0001.injury.high.has_happened:0 "#difficulty_hard HIGH#! increase to [my_foe.GetHerHis] [single_combat_injury_chance|E]"
- single_combat.0001.injury.very_high.has_happened:0 "#difficulty_hard VERY HIGH#! increase to [my_foe.GetHerHis] [single_combat_injury_chance|E]"
-
- ## Duel Edge Overflow Tooltips
- single_combat.0001.tt.maximum_buff_reached:0 "Maximum [single_combat_prowess_bonus|E] reached"
- single_combat.0001.tt.maximum_debuff_reached:0 "Maximum [single_combat_prowess_malus|E] reached"
-
- ## Misc Combat Options Tooltips
- single_combat.0001.wound_threshold.minor_malus.tt:0 "It becomes slightly easier for my foe to [single_combat_injury_chance_injure|E] [my_foe.GetHerselfHimself]"
- single_combat.0001.wound_threshold.medium_malus.tt:0 "It becomes easier for my foe to [single_combat_injury_chance_injure|E] [my_foe.GetHerselfHimself]"
- single_combat.0001.wound_threshold.major_malus.tt:0 "It becomes much easier for my foe to [single_combat_injury_chance_injure|E] [my_foe.GetHerselfHimself]"
-
- single_combat.0001.wound_threshold.minor_bonus.tt:0 "It becomes slightly harder to [single_combat_injury_chance_injure|E] myself"
- single_combat.0001.wound_threshold.medium_bonus.tt:0 "It becomes harder to [single_combat_injury_chance_injure|E] myself"
- single_combat.0001.wound_threshold.major_bonus.tt:0 "It becomes much harder to [single_combat_injury_chance_injure|E] myself"
-
- ## Loser, Duel End Result Tooltips
  single_combat.0031.desc.result.skill:0 "#BOL Result:#! I lose the [single_combat_fight|E] to [sc_victor.Custom('CTPFirstNameNoTooltip')] due to [sc_victor.GetHerHis] [single_combat_success_chance_skill|E] score"
  single_combat.0031.desc.result.mistake:0 "#BOL Result:#! I lose the [single_combat_fight|E] to [sc_victor.Custom('CTPFirstNameNoTooltip')] due to my [single_combat_injury_chance_injury_risk|E] score"
  single_combat.0031.desc.result.sudden_death:0 "#BOL Result:#! I lose the [single_combat_fight|E] to [sc_victor.Custom('CTPFirstNameNoTooltip')] due to [single_combat_fight_sudden_death|E]"
 
- ## Victor, Duel End Result Tooltips
  single_combat.0041.desc.result.skill:0 "#BOL Result:#! I win the [single_combat_fight|E] against [sc_loser.Custom('CTPFirstNameNoTooltip')] due to my [single_combat_success_chance_skill|E] score"
  single_combat.0041.desc.result.mistake:0 "#BOL Result:#! I win the [single_combat_fight|E] against [sc_loser.Custom('CTPFirstNameNoTooltip')] due to [sc_loser.GetHerHis] [single_combat_injury_chance_injury_risk|E] score"
  single_combat.0041.desc.result.sudden_death:0 "#BOL Result:#! I win the [single_combat_fight|E] against [sc_loser.Custom('CTPFirstNameNoTooltip')] due to [single_combat_fight_sudden_death|E]"
 
- ## Other, Duel End Result Tooltips
- single_combat.result.tt.temporary_modifiers_removed:0 "All temporary combat [character_modifiers|E] have been removed"
-
- ##################################################
- # Status Update Fragments
- ## Own Duel Success Fragments
- single_combat.0001.desc.injury_check.personal.very_unlikely:0 "\n\nMy form is excellent, with little chance for mistake,"
- single_combat.0001.desc.injury_check.personal.unlikely:0 "\n\nMy form is good, with only small errors,"
- single_combat.0001.desc.injury_check.personal.moderate:0 "\n\nMy form is decent, with some lapses,"
- single_combat.0001.desc.injury_check.personal.likely:0 "\n\nMy form is deteriorating fast, with numerous exploitable gaps,"
- single_combat.0001.desc.injury_check.personal.very_likely:0 "\n\nMy form is non-existent, my next risky move could mean defeat,"
-
- ## Opponent Duel Success Fragments
  single_combat.0001.desc.injury_check.opponent.very_unlikely:0 "and [my_foe.Custom('CTPFirstNamePossessiveNoTooltip')] stance is incredible."
  single_combat.0001.desc.injury_check.opponent.unlikely:0 "and [my_foe.Custom('CTPFirstNamePossessiveNoTooltip')] stance is formidable."
  single_combat.0001.desc.injury_check.opponent.moderate:0 "and [my_foe.Custom('CTPFirstNamePossessiveNoTooltip')] stance is passable."
  single_combat.0001.desc.injury_check.opponent.likely:0 "and [my_foe.Custom('CTPFirstNamePossessiveNoTooltip')] stance is failing."
  single_combat.0001.desc.injury_check.opponent.very_likely:0 "and [my_foe.Custom('CTPFirstNamePossessiveNoTooltip')] stance is a disaster."
 
- ## Duel Success Each-Way Fragments
- single_combat.0001.desc.success_check.almost_impossible:0 "\n\nI have yet to open up my opponent's guard at all, and see no way yet to claim victory."
- single_combat.0001.desc.success_check.very_unlikely:0 "\n\nMy opponent's guard is fierce, and I feel far from victory."
- single_combat.0001.desc.success_check.unlikely:0 "\n\nMy opponent is still holding off my blows well, but [my_foe.GetSheHe] seems close to faltering."
- single_combat.0001.desc.success_check.moderate:0 "\n\nWe are are evenly matched, with victory balancing on a knife-edge."
- single_combat.0001.desc.success_check.likely:0 "\n\nI have my opponent on the back foot, but still need to consolidate my victory."
- single_combat.0001.desc.success_check.very_likely:0 "\n\nMy opponent is reeling from me, victory so close that I can practically taste it."
- single_combat.0001.desc.success_check.almost_certain:0 "\n\nI cannot be more than one well-placed strike away from victory."
-
- ##################################################
- # Combat Move Options
- ## Combat Move Option Copy
- single_combat.0001.wait_and_hope:0 "Maybe if I wait, [my_foe.GetSheHe]'ll trip on [my_foe.GetHerHis] [my_foe.Custom('signature_weapon')]?"
- single_combat.0001.unsure_attack:0 "Uh, have at thee! Just #EMP die#!!"
  single_combat.0001.enthusiastic_onslaught.banned_house:0 "#EMP [myself.Custom('CTPFullName2NoTooltip')]!#!"
- single_combat.0001.enthusiastic_onslaught.own_house:0 "You are a disgrace to the [myself.GetHouse.GetNameNoTooltip] name!"
- single_combat.0001.enthusiastic_onslaught.motto:0 "#EMP [myself.GetHouse.GetMotto]#!, scum!"
- single_combat.0001.hail_mary:0 "Fighting someone so skilled means I've got nothing to lose!"
- single_combat.0001.pocket_sand:0 "How about some #EMP [sc_defender.Custom('GritType')]#! in your [my_foe.Custom('EyeEyes')]? #EMP Huyah!#!"
- single_combat.0001.nut_em:0 "Let's see how you like a skulling!"
+
  single_combat.0001.guard:0 "You'll never break my guard, [my_foe.Custom('CTPFirstNameNoTooltip')]!"
- single_combat.0001.probing_attack:0 "You have to let your guard down eventually, coward!"
- single_combat.0001.onslaught:0 "Taste the wroth of [myself.GetFaith.WarGodName]!"
- single_combat.0001.surprise_attack:0 "[my_foe.GetSheHe|U]'ll never see this coming!"
- single_combat.0001.taunt:0 "Foolish [my_foe.Custom('InsultNoun')], can't you do better?"
- single_combat.0001.put_the_boot_in:0 "A blow from my [myself.Custom('signature_weapon')], and a kick to gut!"
- single_combat.0001.strict_guard:0 "Better [my_foe.GetWomenMen] than you have died trying to break my guard!"
- single_combat.0001.confident_attack:0 "I'll show you how #EMP I#! [myself.Custom('SignatureWeaponAction')] [myself.Custom('SignatureWeaponArticle')] [myself.Custom('signature_weapon')]!"
- single_combat.0001.expert_onslaught:0 "Strike! #EMP Parry!#! #BER Riposte!#!"
- single_combat.0001.attempt_disarm:0 "Let's see how you do without your [my_foe.Custom('signature_weapon')]!"
- single_combat.0001.lightning_assault:0 "Attack first, attack hard! #EMP En garde!#!"
- single_combat.0001.tire_opponent:0 "That the best you've got? You can't even hit me!"
+
  single_combat.0001.reason_you_suck_speech:0 "You know what your problem is [my_foe.Custom('CTPFirstNameNoTooltip')]? No? Well..."
- single_combat.0001.technique_from_legend:0 "This'll work just like it does in the legends, right?"
- single_combat.0001.like_a_viper:0 "An opening! Try my steel, [my_foe.Custom('InsultNoun')]!"
- single_combat.0001.pocket_silver:0 "Taste silver, [my_foe.Custom('InsultNoun')]!"
- single_combat.0001.martial_voice:0 "#EMP Maggot!#! You think you can stand against #EMP me#!?"
- single_combat.0001.mocking_boast:0 "#EMP You#! think you can beat someone as famous as #EMP me#!?"
- single_combat.0001.is_that_a_crocodile:0 "I-is that a #EMP crocodile#!?"
+
  single_combat.0001.desert_warrior:0 "Heat getting to you, [my_foe.Custom('CTPFirstNameNoTooltip')]? Weakling!"
- single_combat.0001.jungle_stalker:0 "I am one with the jungle's shadows!"
+
  single_combat.0001.open_terrain_expert:0 "With this much room to move, you're dead meat, [my_foe.Custom('CTPFirstNameNoTooltip')]!"
- single_combat.0001.rough_terrain_expert:0 "Hills, fens, mountains, this is all #EMP my#! domain!"
+
  single_combat.0001.forest_fighter:0 "These are #EMP my#! woods, [my_foe.Custom('CTPFirstNameNoTooltip')]!"
- single_combat.0001.raaargh:0 "#BER RAAARGH!#!"
- single_combat.0001.hard_grit:0 "Let me show you how a #EMP professional#! fights!"
- single_combat.0001.feint_and_stab:1 "#EMP Fool!#! Take this!"
- single_combat.0001.butchery:0 "Methinks I need to make an #EMP example#! of you..."
- single_combat.0001.stoic_veteran.general:0 "We faced tougher foes than #EMP you#! in the Guard!"
- single_combat.0001.stoic_veteran.other_varangian:0 "Shame to [my_foe.Custom('SignatureWeaponKillType')] a loyal Guards[my_foe.GetWomanMan], [my_foe.Custom('SisterBrother')]."
- single_combat.0001.blade_dance:0 "I'm the fastest blade in [myself.GetPrimaryTitle.GetNameNoTierNoTooltip]!"
- single_combat.0001.wrath_of_highgod:0 "For [myself.GetFaith.HighGodNameAlternate] and [myself.GetFaith.WarGodName], suffer blasphemer!"
- single_combat.0001.hurt_me_better:1 "#EMP Mmmmm#!, you think #EMP that#! hurts? I'll show you pain!"
- single_combat.0001.special_fallback:0 "To the floor with you!"
+
  single_combat.0001.something_to_hide:0 "Have you forgotten your #EMP debt#! to me, [my_foe.Custom('CTPFirstNameNoTooltip')]?"
 
  ## Combat Move Option Tooltips
  single_combat.0001.tt.wait_and_hope:0 "#BOL Wait & Hope:#! you stay still, patiently hoping that [my_foe.Custom('CTPFirstNameNoTooltip')] just makes a mistake"
- single_combat.0001.tt.unsure_attack:0 "#BOL Unsure Attack:#! you try, badly, to attack"
- single_combat.0001.tt.enthusiastic_onslaught:0 "#BOL Enthusiastic Onslaught:#! you charge in, swinging wildly"
- single_combat.0001.tt.hail_mary:0 "#BOL Hail Mary:#! there's nothing for it but a prayer and a wild attack"
+
  single_combat.0001.tt.pocket_sand:0 "#BOL Clouded Vision:#! you toss a handful of [sc_defender.Custom('GritType')] at [my_foe.Custom('CTPFirstNamePossessiveNoTooltip')] [my_foe.Custom('MaskFace')]"
  single_combat.0001.tt.nut_em:0 "#BOL Headbutt:#! you try to get inside [my_foe.Custom('CTPFirstNamePossessiveNoTooltip')] guard and headbutt [my_foe.GetHerHim] in the [my_foe.Custom('MaskFace')]"
  single_combat.0001.tt.guard:0 "#BOL Guard:#! you focus on holding off [my_foe.Custom('CTPFirstNameNoTooltip')]"
  single_combat.0001.tt.probing_attack:0 "#BOL Probing Attack:#! cautiously but firmly, you test the strength of [my_foe.Custom('CTPFirstNamePossessiveNoTooltip')] guard"
  single_combat.0001.tt.onslaught:0 "#BOL Onslaught:#! you harry [my_foe.Custom('CTPFirstNameNoTooltip')] with a furious onslaught"
- single_combat.0001.tt.surprise_attack:0 "#BOL Surprise Attack:#! you attack from an unexpected angle"
+
  single_combat.0001.tt.taunt:0 "#BOL Taunt:#! you try to provoke [my_foe.Custom('CTPFirstNameNoTooltip')] into make a mistake"
  single_combat.0001.tt.put_the_boot_in:0 "#BOL Put the Boot In:#! you combine a heavy attack with an unexpected kick to [my_foe.Custom('CTPFirstNamePossessiveNoTooltip')] vitals"
  single_combat.0001.tt.strict_guard:0 "#BOL Strict Guard:#! you focus entirely on fending off [my_foe.Custom('CTPFirstNameNoTooltip')]"
- single_combat.0001.tt.confident_attack:0 "#BOL Confident Attack:#! with skill and poise, you make a series of well-placed strikes"
- single_combat.0001.tt.expert_onslaught:0 "#BOL Expert Onslaught:#! you throw out a flurry of rapid attacks and counters"
+
  single_combat.0001.tt.attempt_disarm:0 "#BOL Attempt Disarm:#! with a powerful blow, you try to remove [my_foe.Custom('CTPFirstNamePossessiveNoTooltip')] weapon"
  single_combat.0001.tt.lightning_assault:0 "#BOL Lightning Assault:#! you try to overwhelm [my_foe.Custom('CTPFirstNameNoTooltip')] at the start of the bout"
  single_combat.0001.tt.tire_opponent:0 "#BOL Tire Opponent:#! playing defensively for time, you allow [my_foe.Custom('CTPFirstNameNoTooltip')] to tire [my_foe.GetHerselfHimself] while you stay fresh"
  single_combat.0001.tt.reason_you_suck_speech:0 "#BOL Disheartening Speech:#! you launch into a blistering spiel about [my_foe.Custom('CTPFirstNamePossessiveNoTooltip')] failings"
- single_combat.0001.tt.technique_from_legend:0 "#BOL Legendary Technique:#! you try to copy a famous move from your favorite book"
+
  single_combat.0001.tt.like_a_viper:0 "#BOL Like a Viper:#! with immense speed, you strike at a momentary weak-point in [my_foe.Custom('CTPFirstNamePossessiveNoTooltip')] guard"
  single_combat.0001.tt.pocket_silver:0 "#BOL Silvered Vision:#! you hurl a heavy silver purse at [my_foe.Custom('CTPFirstNamePossessiveNoTooltip')] [my_foe.Custom('MaskFace')]"
  single_combat.0001.tt.martial_voice:0 "#BOL In Command:#! you try to intimidate [my_foe.Custom('CTPFirstNameNoTooltip')] as though [my_foe.GetSheHe] were one of your soldiers"
  single_combat.0001.tt.mocking_boast:0 "#BOL Mocking Boast:#! you make fun of [my_foe.Custom('CTPFirstNamePossessiveNoTooltip')] poor [prestige_level|E]"
  single_combat.0001.tt.is_that_a_crocodile:0 "#BOL An Unexpected Ally:#! a scaly leviathan darts out of the water behind [my_foe.Custom('CTPFirstNameNoTooltip')], trying to drag [my_foe.GetHerHim] in"
- single_combat.0001.tt.terrain_expert:0 "#BOL Master of Terrain:#! your expert knowledge of the local terrain stands you in good stead"
- single_combat.0001.tt.desert_warrior:0 "$single_combat.0001.tt.terrain_expert$"
- single_combat.0001.tt.jungle_stalker:0 "$single_combat.0001.tt.terrain_expert$"
- single_combat.0001.tt.open_terrain_expert:0 "$single_combat.0001.tt.terrain_expert$"
- single_combat.0001.tt.rough_terrain_expert:0 "$single_combat.0001.tt.terrain_expert$"
- single_combat.0001.tt.forest_fighter:0 "$single_combat.0001.tt.terrain_expert$"
- single_combat.0001.tt.raaargh:0 "#BOL Berserkergang:#! rip and tear! RIP AND TEAR! #BER RIP AND TEAR!#!"
- single_combat.0001.tt.hard_grit:0 "#BOL Hard Grit:#! bringing your experience to bear, you lay down a battery of determined attacks"
- single_combat.0001.tt.feint_and_stab:0 "#BOL Feint & Stab:#! feinting left with your [myself.Custom('signature_weapon')], you stab right with an off-hand dagger"
- single_combat.0001.tt.butchery:0 "#BOL Butchery:#! you make a show of your cruel skills as a raider"
+
  single_combat.0001.tt.stoic_veteran:0 "#BOL Stoic Veteran:#! using your Varangian experience, you hew at [my_foe.Custom('CTPFirstNameNoTooltip')]"
- single_combat.0001.tt.blade_dance:0 "#BOL Blade Dance:#! a series of flashy, expert moves ensure your dueling prowess will be talked about for years"
- single_combat.0001.tt.wrath_of_highgod:0 "#BOL Divine Wrath:#! with a shouted prayer, you humble yourself before [myself.GetFaith.HighGodName]"
+
  single_combat.0001.tt.hurt_me_better:0 "#BOL Fueled by Pain:#! relishing the pain, you lean in to [my_foe.Custom('CTPFirstNamePossessiveNoTooltip')] attacks for advantage"
  single_combat.0001.tt.special_fallback:0 "#BOL Unstable Foundations:#! you kick [my_foe.Custom('CTPFirstNameNoTooltip')] in the shin"
- single_combat.0001.tt.something_to_hide:0 "#BOL Something to Hide:#! you remind your opponent of the [hook|E] you hold over [my_foe.GetHerHim]"
 
- ##################################################
- # Combat Descs
- ## Own Combat Move Feedback
  single_combat.0001.desc.my_feedback.wait_and_hope.will_die:0 "I freeze up. I could die here. If I don't do something, I #EMP will#! die here. I can't bring myself to move, trembling as I pray for [my_foe.Custom('CTPFirstNameNoTooltip')] to trip and fall so I have an opening."
  single_combat.0001.desc.my_feedback.wait_and_hope.will_live:0 "I bide my time, waiting. I may not be the best fighter, but perhaps, given enough rope, [my_foe.Custom('CTPFirstNameNoTooltip')] will hang [my_foe.GetHerselfHimself]."
- single_combat.0001.desc.my_feedback.unsure_attack:0 "I try a few perfunctory [myself.Custom('SignatureWeaponAttemptedLightPlural')], focusing mostly on trying not to lose my [myself.Custom('signature_weapon')], but nothing really even gets close to my foe."
- single_combat.0001.desc.my_feedback.enthusiastic_onslaught:0 "I have [myself.Custom('SignatureWeaponArticle')] [myself.Custom('signature_weapon')], I have an enemy, and I'm determined to introduce the two by any means. Wild swings, backhanded smacks, flailing strikes from my weapon's [myself.Custom('SignatureWeaponEndType')], anything to batter my foe."
+
  single_combat.0001.desc.my_feedback.hail_mary:0 "[myself.Custom('SignatureWeaponFlourishPresentParticiple')|U] my [myself.Custom('signature_weapon')] wildly, I rush straight at [my_foe.Custom('CTPFirstNameNoTooltip')]. If I'm to die, I'll make it a hard fight, and [my_foe.Custom('CTPFirstNameNoTooltip')] is driven back by my desperate enthusiasm."
  single_combat.0001.desc.my_feedback.pocket_sand:0 "Snatching up a handful of [sc_defender.Custom('GritType')], I toss it straight at [my_foe.Custom('CTPFirstNamePossessiveNoTooltip')] [my_foe.Custom('MaskFace')], sending [my_foe.GetHerHim] spluttering backwards."
  single_combat.0001.desc.my_feedback.nut_em:0 "Batting aside [my_foe.Custom('CTPFirstNamePossessiveNoTooltip')] [my_foe.Custom('signature_weapon')] for a crucial instant, I step inside [my_foe.GetHerHis] guard and bring my skull down on [my_foe.GetHersHis] with a sickening crunch."
@@ -278,51 +151,6 @@
  single_combat.0001.desc.opponent_response.special_fallback:0 "Unexpectedly, [my_foe.Custom('CTPFirstNameNoTooltip')] manages to swing a vicious kick for my shin, momentarily hobbling me."
  single_combat.0001.desc.opponent_response.something_to_hide:0 ""Have you forgotten your #EMP debt#! to me, [myself.Custom('CTPFirstNameNoTooltip')]?", smiles [my_foe.Custom('CTPFirstNameNoTooltip')]. When I realize what [my_foe.GetSheHe]'s talking about, my shoulders sag."
 
- ##################################################
- # Outcome Event: Loser
- ## Defender Lost, Own Combat Move Feedback
- single_combat.0031.desc.sc_defender.wait_and_hope:0 "Waiting for my opponent to move first does me no good, simply handing [sc_victor.GetHerHim] the advantage."
- single_combat.0031.desc.sc_defender.unsure_attack:0 "My feeble attacks do absolutely nothing."
- single_combat.0031.desc.sc_defender.enthusiastic_onslaught:0 "My wild [sc_loser.Custom('SignatureWeaponFlourishPresentParticiple')] is worthless, failing to do anything but tire me."
- single_combat.0031.desc.sc_defender.hail_mary:0 "My desperate all-out attack goes nowhere."
- single_combat.0031.desc.sc_defender.pocket_sand:0 "My opponent effortlessly dodges my thrown [sc_defender.Custom('GritType')]."
- single_combat.0031.desc.sc_defender.nut_em:0 "My abortive headbutt only gives my opponent a huge opening."
- single_combat.0031.desc.sc_defender.guard:0 "My opponent forces [sc_victor.GetHerHis] way through my guard."
- single_combat.0031.desc.sc_defender.probing_attack:0 "My opponent bats aside my timed blows."
- single_combat.0031.desc.sc_defender.onslaught:0 "My [sc_loser.Custom('SignatureWeaponAttemptedHeavyPlural')] fail to do much."
- single_combat.0031.desc.sc_defender.surprise_attack:0 "My opponent sees through my surprise attack."
- single_combat.0031.desc.sc_defender.taunt:0 "My taunting falls on deaf ears."
- single_combat.0031.desc.sc_defender.put_the_boot_in:0 "My initial [sc_loser.Custom('SignatureWeaponAttemptedHeavy')] connects, but my kick off-balances me."
- single_combat.0031.desc.sc_defender.strict_guard:0 "Despite my best attempts, my opponent shatters my guard."
- single_combat.0031.desc.sc_defender.confident_attack:0 "My opponent is able to parry my blows, hard."
- single_combat.0031.desc.sc_defender.expert_onslaught:0 "Even my best [sc_loser.Custom('SignatureWeaponAttemptedHeavyPlural')] seem to have no effect."
- single_combat.0031.desc.sc_defender.attempt_disarm:0 "My disarm attempt almost sends #EMP my#! [sc_loser.Custom('signature_weapon')] flying."
- ### No need for a lightning_assault, as you can't end the duel in the first round.
- single_combat.0031.desc.sc_defender.tire_opponent:0 "My attempt to bait my opponent fails, as [sc_victor.GetSheHe] ignores my theatrical dodging."
- single_combat.0031.desc.sc_defender.reason_you_suck_speech:0 "My opponent grits [sc_victor.GetHerHis] teeth and ignores my speech."
- single_combat.0031.desc.sc_defender.technique_from_legend:0 "In reality, the deeds of legend are difficult, and I fail to do much of anything."
- single_combat.0031.desc.sc_defender.like_a_viper:0 "I surge towards what I thought was a gap, only to find myself striking at empty air."
- single_combat.0031.desc.sc_defender.pocket_silver:0 "My opponent effortlessly dodges my thrown pouch, unamused."
- single_combat.0031.desc.sc_defender.martial_voice:0 "My attempt to intimidate my opponent flounders immediately."
- single_combat.0031.desc.sc_defender.mocking_boast:0 "My boasts fall on deaf ears, my opponent ignoring my teasing entirely."
- single_combat.0031.desc.sc_defender.is_that_a_crocodile:0 "The crocodile stops halfway through its charge, reconsidering its attack."
- single_combat.0031.desc.sc_defender.desert_warrior:0 "Sweaty as [sc_victor.GetSheHe] is, my opponent seems tireless."
- single_combat.0031.desc.sc_defender.jungle_stalker:0 "The jungle is usually difficult to fight in, but my opponent soldiers on."
- single_combat.0031.desc.sc_defender.open_terrain_expert:0 "Even with all the space I could ask for, my opponent proves relentless."
- single_combat.0031.desc.sc_defender.rough_terrain_expert:0 "Despite the unpleasant locale, my opponent keeps pace with my attacks."
- single_combat.0031.desc.sc_defender.forest_fighter:0 "Not everyone fights well in a forest, but my opponent keeps up, blow for blow."
- single_combat.0031.desc.sc_defender.raaargh:0 "A lull in my apoplexy renders me near catatonic; my opponent is unhurt, but I feel ragged."
- single_combat.0031.desc.sc_defender.hard_grit:0 "For all my experience, my opponent stymies each of my blows."
- single_combat.0031.desc.sc_defender.feint_and_stab:0 "My opponent sees through my feint, leaving the companion-stab pointless."
- single_combat.0031.desc.sc_defender.butchery:0 "I may be a proficient slaughterer, but it does me no good here."
- single_combat.0031.desc.sc_defender.stoic_veteran:0 "Whatever I learned in Miklagarðr, it was not enough, my opponent parrying me repeatedly."
- single_combat.0031.desc.sc_defender.blade_dance:0 "My attempts at flourishing prove misguided, with my opponent countering each in turn."
- single_combat.0031.desc.sc_defender.wrath_of_highgod:0 "My shouted prayer only furnishes my opponent with opportunity."
- single_combat.0031.desc.sc_defender.hurt_me_better:0 "Pain has often been my ally, but today, it deserts me."
- single_combat.0031.desc.sc_defender.special_fallback:0 "My opponent has no problems stepping away from my kick."
- single_combat.0031.desc.sc_defender.something_to_hide:0 "My opponent either doesn't hear or doesn't care for my implicit threats."
-
- ## Defender Lost, Opponent Finishing Move Feedback
  single_combat.0031.desc.opponent_response.wait_and_hope:0 "[sc_victor.Custom('CTPFirstNameNoTooltip')] is frozen for an instant, before trying a cautious strike"
  single_combat.0031.desc.opponent_response.unsure_attack:0 "[sc_victor.Custom('CTPFirstNameNoTooltip')] brings [sc_victor.GetHerHis] [sc_victor.Custom('signature_weapon')] up for a [sc_victor.Custom('SignatureWeaponAttemptedLight')],"
  single_combat.0031.desc.opponent_response.enthusiastic_onslaught:0 "[sc_victor.Custom('CTPFirstNameNoTooltip')] shouts something incoherent, then launches into a series of sloppy [sc_victor.Custom('SignatureWeaponAttemptedHeavyPlural')]"
@@ -920,10 +748,3 @@
 
  single_combat.1004.t:0 "It's Time to D-D-D-D-D-D-D-Duel"
  single_combat.1004.desc:0 "Sucks to be [recipient.Custom('CTPFirstName')]. Or you, I guess."
- single_combat.1004.a:0 "You are the attacker, default"
- single_combat.1004.b:0 "You are the defender, default"
- single_combat.1004.c:0 "You are the attacker, fatal"
- single_combat.1004.d:0 "You are the defender, fatal"
- single_combat.1004.e:0 "You are the attack, non-lethal"
- single_combat.1004.f:0 "You are the defender, non-lethal"
- single_combat.1004.g:0 "Actually, never mind"
