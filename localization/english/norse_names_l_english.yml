@@ -9258,8 +9258,8 @@
  Eirny_norse_tek_dad: "Ęirnýiarfaðir"
 
  Embla_norse: "Embla"
- Eirny_norse_tek_mom: "Ęirnýiarmóðir"
- Eirny_norse_tek_dad: "Ęirnýiarfaðir"
+ Embla_norse_tek_mom: "Emblumóðir"
+ Embla_norse_tek_dad: "Emblufaðir"
 
  Emma_norse: "Emma"
  Emma_norse_tek_mom: "Emmumóðir"
@@ -10336,281 +10336,561 @@
  Otkatla_norse_tek_dad: "Otkatlufaðir"
 
  Radhild_norse: "Ráðhildr" #AS
+ Radhild_norse_tek_mom: "Ráðhildarmóðir"
+ Radhild_norse_tek_dad: "Ráðhildarfaðir"
 
  Rafarta_norse: "Rafarta" #Celtic
+ Rafarta_norse_tek_mom: "Rafartumóðir"
+ Rafarta_norse_tek_dad: "Rafartufaðir"
 
  Rafnhild_norse: "Hrafnhildr"
+ Rafnhild_norse_tek_mom: "Hrafnhildarmóðir"
+ Rafnhild_norse_tek_dad: "Hrafnhildarfaðir"
 
  Ragna_norse: "Ragna"
+ Ragna_norse_tek_mom: "Ragnumóðir"
+ Ragna_norse_tek_dad: "Ragnufaðir"
 
  Ragnaelf_norse: "Ragnælf"
+ Ragnaelf_norse_tek_mom: "Ragnælfarmóðir"
+ Ragnaelf_norse_tek_dad: "Ragnælfarfaðir"
 
  Ragnbjorg_norse: "Ragnbiǫrg"
+ Ragnbjorg_norse_tek_mom: "Ragnbiargarmóðir"
+ Ragnbjorg_norse_tek_dad: "Ragnbiargarfaðir"
 
  Ragnfrid_norse: "Ragnfríðr"
+ Ragnfrid_norse_tek_mom: "Ragnfríðarmóðir"
+ Ragnfrid_norse_tek_dad: "Ragnfríðarfaðir"
 
  Ragnheid_norse: "Ragnhęiðr"
+ Ragnheid_norse_tek_mom: "Ragnhęiðarmóðir"
+ Ragnheid_norse_tek_dad: "Ragnhęiðarfaðir"
 
  Ragnhild_norse: "Ragnhildr"
+ Ragnhild_norse_tek_mom: "Ragnhildarmóðir"
+ Ragnhild_norse_tek_dad: "Ragnhildarfaðir"
 
  Ragnvi_norse: "Ragnví"
+ Ragnvi_norse_tek_mom: "Ragnvíarmóðir"
+ Ragnvi_norse_tek_dad: "Ragnvíarfaðir"
 
  Rognveig_norse: "Rǫgnvęig"
+ Ragnveig_norse_tek_mom: "Rǫgnvęigarmóðir"
+ Ragnveig_norse_tek_dad: "Rǫgnvęigarfaðir"
 
  Ragnvor_norse: "Ragnvǫr"
+ Ragnvor_norse_tek_mom: "Rǫgnvararmóðir"
+ Ragnvor_norse_tek_dad: "Rǫgnvararfaðir"
 
  Rakel_norse: "Rakel" #Christian
+ Rakel_norse_tek_mom: "Rakelarmóðir"
+ Rakel_norse_tek_dad: "Rakelarfaðir"
 
  Radalin_norse: "Randalín" #Christian
+ Radalin_norse_tek_mom: "Randalínarmóðir"
+ Radalin_norse_tek_dad: "Randalínarfaðir"
 
  Randvi_norse: "Randví"
+ Randvi_norse_tek_mom: "Randvíarmóðir"
+ Randvi_norse_tek_dad: "Randvíarfaðir"
 
  Rannveig_norse: "Rannvęig"
+ Rannveig_norse_tek_mom: "Rannvęigarmóðir"
+ Rannveig_norse_tek_dad: "Rannvęigarfaðir"
 
  Reginleif_norse: "Reginlęif"
+ Reginleif_norse_tek_mom: "Reginlęifarmóðir"
+ Reginleif_norse_tek_dad: "Reginlęifarfaðir"
 
  Rikulata_norse: "Ríkuláta"
+ Rikulata_norse_tek_mom: "Ríkulátumóðir"
+ Rikulata_norse_tek_dad: "Ríkulátufaðir"
 
  Rikvi_norse: "Ríkví"
+ Rikvi_norse_tek_mom: "Ríkvíarmóðir"
+ Rikvi_norse_tek_dad: "Ríkvíarfaðir"
 
  Rjupa_norse: "Riúpa"
+ Rjupa_norse_tek_mom: "Riúpumóðir"
+ Rjupa_norse_tek_dad: "Riúpufaðir"
 
  Rota_norse: "Róta"
+ Rota_norse_tek_mom: "Rótumóðir"
+ Rota_norse_tek_dad: "Rótufaðir"
 
  Runa_norse: "Rúna"
+ Runa_norse_tek_mom: "Rúnumóðir"
+ Runa_norse_tek_dad: "Rúnufaðir"
 
  Runfrid_norse: "Rúnfríðr"
+ Runfrid_norse_tek_mom: "Rúnfríðarmóðir"
+ Runfrid_norse_tek_dad: "Rúnfríðarfaðir"
 
  Salbjorg_norse: "Salbiǫrg"
+ Salbjorg_norse_tek_mom: "Salbiargarmóðir"
+ Salbjorg_norse_tek_dad: "Salbiargarfaðir"
 
  Saldis_norse: "Saldís"
+ Saldis_norse_tek_mom: "Saldísarmóðir"
+ Saldis_norse_tek_dad: "Saldísarfaðir"
 
  Salgerd_norse: "Salgęrðr"
+ Salgerd_norse_tek_mom: "Salgęrðarmóðir"
+ Salgerd_norse_tek_dad: "Salgęrðarfaðir"
 
  Salvor_norse: "Sǫlvǫr"
+ Salvor_norse_tek_mom: "Salvararmóðir"
+ Salvor_norse_tek_dad: "Salvararfaðir"
 
  Saehild_norse: "Sæhildr"
+ Saehild_norse_tek_mom: "Sæhildarmóðir"
+ Saehild_norse_tek_dad: "Sæhildarfaðir"
 
  Saeunn_norse: "Sæunn"
+ Saeunn_norse_tek_mom: "Sæunnarmóðir"
+ Saeunn_norse_tek_dad: "Sæunnarfaðir"
 
  Sandey_norse: "Sandøy"
+ Sandey_norse_tek_mom: "Sandøyiarmóðir"
+ Sandey_norse_tek_dad: "Sandøyiarfaðir"
 
  Sefa_norse: "Sefa"
+ Sefa_norse_tek_mom: "Sefumóðir"
+ Sefa_norse_tek_dad: "Sefufaðir"
 
  Sesilida_norse: "Sesilída" #Christian
+ Sesilida_norse_tek_mom: "Sesilídumóðir"
+ Sesilida_norse_tek_dad: "Sesilídufaðir"
 
  Sida_norse: "Síða"
+ Sida_norse_tek_mom: "Síðumóðir"
+ Sida_norse_tek_dad: "Síðufaðir"
 
  Sigbjorg_norse: "Sigbiǫrg"
+ Sigbjorg_norse_tek_mom: "Sigbiargarmóðir"
+ Sigbjorg_norse_tek_dad: "Sigbiargarfaðir"
 
  Sigga_norse: "Sigga"
+ Sigga_norse_tek_mom: "Siggumóðir"
+ Sigga_norse_tek_dad: "Siggufaðir"
 
  Siggunn_norse: "Siggunnr"
+ Siggunn_norse_tek_mom: "Siggunnarmóðir"
+ Siggunn_norse_tek_dad: "Siggunnarfaðir"
 
  Siglaug_norse: "Siglaug"
+ Siglaug_norse_tek_mom: "Siglaugarmóðir"
+ Siglaug_norse_tek_dad: "Siglaugarfaðir"
 
  Signy_norse: "Signý"
+ Signy_norse_tek_mom: "Signýiarmóðir"
+ Signy_norse_tek_dad: "Signýiarfaðir"
  Signe_norse: "Signý"
+ Signe_norse_tek_mom: "Signýiarmóðir"
+ Signe_norse_tek_dad: "Signýiarfaðir"
 
  Sigrid_norse: "Sigríðr"
+ Sigrid_norse_tek_mom: "Sigríðarmóðir"
+ Sigrid_norse_tek_dad: "Sigríðarfaðir"
  Sigfrid_norse: "Sigfríðr"
+ Sigfrid_norse_tek_mom: "Sigfríðarmóðir"
+ Sigfrid_norse_tek_dad: "Sigfríðarfaðir"
 
  Sigrun_norse: "Sigrún"
+ Sigrun_norse_tek_mom: "Sigrúnarmóðir"
+ Sigrun_norse_tek_dad: "Sigrúnarfaðir"
 
  Sigunn_norse: "Sigunnr"
+ Sigunn_norse_tek_mom: "Sigunnarmóðir"
+ Sigunn_norse_tek_dad: "Sigunnarfaðir"
 
  Sigveig_norse: "Sigvęig"
+ Sigveig_norse_tek_mom: "Sigvęigarmóðir"
+ Sigveig_norse_tek_dad: "Sigvęigarfaðir"
 
  Sigvor_norse: "Sigvǫr"
+ Sigvor_norse_tek_mom: "Sigvararmóðir"
+ Sigvor_norse_tek_dad: "Sigvararfaðir"
 
  Sigthrud_norse: "Sigþrúðr"
+ Sigthrud_norse_tek_mom: "Sigþrúðarmóðir"
+ Sigthrud_norse_tek_dad: "Sigþrúðarfaðir"
 
  Skalphaena_norse: "Skálphæna"
+ Skalphaena_norse_tek_mom: "Skálphænumóðir"
+ Skalphaena_norse_tek_dad: "Skálphænufaðir"
 
  Skirlaug_norse: "Skírlaug"
+ Skirlaug_norse_tek_mom: "Skírlaugarmóðir"
+ Skirlaug_norse_tek_dad: "Skírlaugarfaðir"
 
  Skjaldfrid_norse: "Skialdfríðr" #AS
+ Skjaldfrid_norse_tek_mom: "Skialdfríðarmóðir"
+ Skjaldfrid_norse_tek_dad: "Skialdfríðarfaðir"
 
  Snaelaug_norse: "Snælaug"
+ Snaelaug_norse_tek_mom: "Snælaugarmóðir"
+ Snaelaug_norse_tek_dad: "Snælaugarfaðir"
 
  Snotra_norse: "Snotra"
+ Snotra_norse_tek_mom: "Snotrumóðir"
+ Snotra_norse_tek_dad: "Snotrufaðir"
 
  Solva_norse: "Sǫlva"
+ Solva_norse_tek_mom: "Sǫlvumóðir"
+ Solva_norse_tek_dad: "Sǫlvufaðir"
 
  Solveig_norse: "Sǫlvęig"
+ Solveig_norse_tek_mom: "Sǫlvęigarmóðir"
+ Solveig_norse_tek_dad: "Sǫlvęigarfaðir"
 
  Solvor_norse: "Sǫlvǫr"
+ Solvor_norse_tek_mom: "Sǫlvararmóðir"
+ Solvor_norse_tek_dad: "Sǫlvararfaðir"
 
  Soma_norse: "Sóma"
+ Soma_norse_tek_mom: "Sómumóðir"
+ Soma_norse_tek_dad: "Sómufaðir"
 
  Saevor_norse: "Sævǫr"
+ Saevor_norse_tek_mom: "Sævararmóðir"
+ Saevor_norse_tek_dad: "Sævararfaðir"
 
  Spana_norse: "Spana"
+ Spana_norse_tek_mom: "Spanumóðir"
+ Spana_norse_tek_dad: "Spanufaðir"
 
  Stafnhild_norse: "Stafnhildr" #AS
+ Stafnhild_norse_tek_mom: "Stafnhildarmóðir"
+ Stafnhild_norse_tek_dad: "Stafnhildarfaðir"
 
  Steina_norse: "Stęina"
+ Steina_norse_tek_mom: "Stęinumóðir"
+ Steina_norse_tek_dad: "Stęinufaðir"
 
  Steinbjorg_norse: "Stęinbiǫrg"
+ Steinbjorg_norse_tek_mom: "Stęinbiargarmóðir"
+ Steinbjorg_norse_tek_dad: "Stęinbiargarfaðir"
 
  Steinfrid_norse: "Stęinfríðr"
+ Steinfrid_norse_tek_mom: "Stęinfríðarmóðir"
+ Steinfrid_norse_tek_dad: "Stęinfríðarfaðir"
 
  Steinhild_norse: "Stęinhildr"
+ Steinhild_norse_tek_mom: "Stęinhildarmóðir"
+ Steinhild_norse_tek_dad: "Stęinhildarfaðir"
 
  Steinlaug_norse: "Stęinlaug"
+ Steinlaug_norse_tek_mom: "Stęinlaugarmóðir"
+ Steinlaug_norse_tek_dad: "Stęinlaugarfaðir"
 
  Steinvor_norse: "Stęinvǫr"
+ Steinvor_norse_tek_mom: "Stęinvararmóðir"
+ Steinvor_norse_tek_dad: "Stęinvararfaðir"
 
  Steinunn_norse: "Stęinunn"
+ Steinunn_norse_tek_mom: "Stęinunnarmóðir"
+ Steinunn_norse_tek_dad: "Stęinunnarfaðir"
 
  Stynfrid_norse: "Stynfríðr"
+ Stynfrid_norse_tek_mom: "Stynfríðarmóðir"
+ Stynfrid_norse_tek_dad: "Stynfríðarfaðir"
 
  Svala_norse: "Svala"
+ Svala_norse_tek_mom: "Svalumóðir"
+ Svala_norse_tek_dad: "Svalufaðir"
 
  Svana_norse: "Svana"
+ Svana_norse_tek_mom: "Svanumóðir"
+ Svana_norse_tek_dad: "Svanufaðir"
 
  Svanhild_norse: "Svanhildr"
+ Svanhild_norse_tek_mom: "Svanhildarmóðir"
+ Svanhild_norse_tek_dad: "Svanhildarfaðir"
  Svanhildr_norse: "Svanhildr"
+ Svanhildr_norse_tek_mom: "Svanhildarmóðir"
+ Svanhildr_norse_tek_dad: "Svanhildarfaðir"
 
  Svanlaug_norse: "Svanlaug"
+ Svanlaug_norse_tek_mom: "Svanlaugarmóðir"
+ Svanlaug_norse_tek_dad: "Svanlaugarfaðir"
 
  Sylgja_norse: "Sylgia"
+ Sylgja_norse_tek_mom: "Sylgiumóðir"
+ Sylgja_norse_tek_dad: "Sylgiufaðir"
 
  Saga_norse: "Saga"
+ Saga_norse_tek_mom: "Sagumóðir"
+ Saga_norse_tek_dad: "Sagufaðir"
 
  Tidfrid_norse: "Tíðfríðr"
+ Tidfrid_norse_tek_mom: "Tíðfríðarmóðir"
+ Tidfrid_norse_tek_dad: "Tíðfríðarfaðir"
 
  Torfa_norse: "Torfa"
+ Torfa_norse_tek_mom: "Torfumóðir"
+ Torfa_norse_tek_dad: "Torfufaðir"
 
  Totra_norse: "Totra"
+ Totra_norse_tek_mom: "Totrumóðir"
+ Totra_norse_tek_dad: "Totrufaðir"
 
  Unn_norse: "Unn"
+ Unn_norse_tek_mom: "Unnarmóðir"
+ Unn_norse_tek_dad: "Unnarfaðir"
 
  Ulfheid_norse: "Úlfhęiðr"
+ Ulfheid_norse_tek_mom: "Úlfhęiðarmóðir"
+ Ulfheid_norse_tek_dad: "Úlfhęiðarfaðir"
 
  Ulfhild_norse: "Úlfhildr"
+ Ulfhild_norse_tek_mom: "Úlfhildarmóðir"
+ Ulfhild_norse_tek_dad: "Úlfhildarfaðir"
  Ulvhilde_norse: "Úlfhildr"
+ Ulfhilde_norse_tek_mom: "Úlfhildarmóðir"
+ Ulfhilde_norse_tek_dad: "Úlfhildarfaðir"
 
  Ulfrun_norse: "Úlfrún"
+ Ulfrun_norse_tek_mom: "Úlfrúnarmóðir"
+ Ulfrun_norse_tek_dad: "Úlfrúnarfaðir"
 
  Undrlaug_norse: "Undrlaug"
+ Undrlaug_norse_tek_mom: "Undrlaugarmóðir"
+ Undrlaug_norse_tek_dad: "Undrlaugarfaðir"
 
  Ursula_norse: "Úrsúla" #Christian
+ Ursula_norse_tek_mom: "Úrsúlumóðir"
+ Ursula_norse_tek_dad: "Úrsúlufaðir"
 
  Vethild_norse: "Vęthildr"
+ Vethild_norse_tek_mom: "Vęthildarmóðir"
+ Vethild_norse_tek_dad: "Vęthildarfaðir"
 
  Valdis_norse: "Valdís"
+ Valdis_norse_tek_mom: "Valdísarmóðir"
+ Valdis_norse_tek_dad: "Valdísarfaðir"
 
  Valgerd_norse: "Valgęrðr"
+ Valgerd_norse_tek_mom: "Valgęrðarmóðir"
+ Valgerd_norse_tek_dad: "Valgęrðarfaðir"
 
  Viaelf_norse: "Víælfr"
+ Viaelf_norse_tek_mom: "Víælfarmóðir"
+ Viaelf_norse_tek_dad: "Víælfarfaðir"
 
  Vibjorg_norse: "Víbiǫrg"
+ Vibjorg_norse_tek_mom: "Víbiargarmóðir"
+ Vibjorg_norse_tek_dad: "Víbiargarfaðir"
 
  Vidis_norse: "Vídís"
+ Vidis_norse_tek_mom: "Vídísarmóðir"
+ Vidis_norse_tek_dad: "Vídísarfaðir"
 
  Vifrid_norse: "Vífríðr"
+ Vifrid_norse_tek_mom: "Vífríðarmóðir"
+ Vifrid_norse_tek_dad: "Vífríðarfaðir"
 
  Vigunn_norse: "Vígunnr"
+ Vigunn_norse_tek_mom: "Vígunnarmóðir"
+ Vigunn_norse_tek_dad: "Vígunnarfaðir"
 
  Vigerd_norse: "Vígęrðr"
+ Vigerd_norse_tek_mom: "Vígęrðarmóðir"
+ Vigerd_norse_tek_dad: "Vígęrðarfaðir"
 
  Vilaug_norse: "Vílaug"
+ Vilaug_norse_tek_mom: "Vílaugarmóðir"
+ Vilaug_norse_tek_dad: "Vílaugarfaðir"
 
  Viny_norse: "Víný"
+ Viny_norse_tek_mom: "Vínýiarmóðir"
+ Viny_norse_tek_dad: "Vínýiarfaðir"
 
  Vireid_norse: "Víręiðr"
+ Vireid_norse_tek_mom: "Víręiðarmóðir"
+ Vireid_norse_tek_dad: "Víręiðarfaðir"
 
  Vigdis_norse: "Vígdís"
+ Vigdis_norse_tek_mom: "Vígdísarmóðir"
+ Vigdis_norse_tek_dad: "Vígdísarfaðir"
 
  Vilborg_norse: "Vilborg"
+ Vilborg_norse_tek_mom: "Vilborgarmóðir"
+ Vilborg_norse_tek_dad: "Vilborgarfaðir"
 
  Vilgerd_norse: "Vilgęrðr"
+ Vilgerd_norse_tek_mom: "Vilgęrðarmóðir"
+ Vilgerd_norse_tek_dad: "Vilgęrðarfaðir"
 
  Yrsa_norse: "Yrsa"
+ Yrsa_norse_tek_mom: "Yrsumóðir"
+ Yrsa_norse_tek_dad: "Yrsufaðir"
 
  Thjodbjorg_norse: "Þióðbiǫrg"
+ Thjodbjorg_norse_tek_mom: "Þióðbiargarmóðir"
+ Thjodbjorg_norse_tek_dad: "Þióðbiargarfaðir"
 
- Thjodgerd_norse: "Þjóðgęrðr"
+ Thjodgerd_norse: "Þióðgęrðr"
+ Thjodgerd_norse_tek_mom: "Þióðgęrðarmóðir"
+ Thjodgerd_norse_tek_dad: "Þióðgęrðarfaðir"
 
- Thjodheid_norse: "Þjóðhęiðr"
+ Thjodheid_norse: "Þióðhęiðr"
+ Thjodheid_norse_tek_mom: "Þióðhęiðarmóðir"
+ Thjodheid_norse_tek_dad: "Þióðhęiðarfaðir"
 
- Thjodhild_norse: "Þjóðhildr"
+ Thjodhild_norse: "Þióðhildr"
+ Thjodhild_norse_tek_mom: "Þióðhildarmóðir"
+ Thjodhild_norse_tek_dad: "Þióðhildarfaðir"
 
- Thjodvi_norse: "Þjóðví"
+ Thjodvi_norse: "Þióðví"
+ Thjodvi_norse_tek_mom: "Þióðvíarmóðir"
+ Thjodvi_norse_tek_dad: "Þióðvíarfaðir"
 
  Thora_norse: "Þóra"
+ Thora_norse_tek_mom: "Þórumóðir"
+ Thora_norse_tek_dad: "Þórufaðir"
 
  Thorarna_norse: "Þórarna"
+ Thorarna_norse_tek_mom: "Þórarnumóðir"
+ Thorarna_norse_tek_dad: "Þórarnufaðir"
 
  Thorberg_norse: "Þórberg"
+ Thorberg_norse_tek_mom: "Þórbergarmóðir"
+ Thorberg_norse_tek_dad: "Þórbergarfaðir"
 
  Thorbjorg_norse: "Þórbiǫrg"
+ Thorbjorg_norse_tek_mom: "Þórbiargarmóðir"
+ Thorbjorg_norse_tek_dad: "Þórbiargarfaðir"
 
  Thordis_norse: "Þórdís"
+ Thordis_norse_tek_mom: "Þórdísarmóðir"
+ Thordis_norse_tek_dad: "Þórdísarfaðir"
 
  Thorey_norse: "Þórøy"
- Thorey_norse_pat_dad_male: "Þórøyarson"
- Thorey_norse_pat_dad_female: "Þórøyardóttir"
+ Thorey_norse_tek_mom: "Þórøyiarmóðir"
+ Thorey_norse_tek_dad: "Þórøyiarfaðir"
+ Thorey_norse_pat_dad_male: "Þórøyiarson"
+ Thorey_norse_pat_dad_female: "Þórøyiardóttir"
 
- Thorelf_norse: "Þórøy"
+ Thorelf_norse: "Þórelf"
+ Thorelf_norse_tek_mom: "Þórelfarmóðir"
+ Thorelf_norse_tek_dad: "Þórelfarfaðir"
 
  Thorfinna_norse: "Þórfinna"
+ Thorfinna_norse_tek_mom: "Þórfinnumóðir"
+ Thorfinna_norse_tek_dad: "Þórfinnufaðir"
 
  Thorfrid_norse: "Þórfríðr"
+ Thorfrid_norse_tek_mom: "Þórfríðarmóðir"
+ Thorfrid_norse_tek_dad: "Þórfríðarfaðir"
 
  Thorgerd_norse: "Þórgęrðr"
+ Thorgerd_norse_tek_mom: "Þórgęrðarmóðir"
+ Thorgerd_norse_tek_dad: "Þórgęrðarfaðir"
 
  Thorgrima_norse: "Þórgríma"
+ Thorgrima_norse_tek_mom: "Þórgrímarmóðir"
+ Thorgrima_norse_tek_dad: "Þórgrímarfaðir"
 
  Thorgunn_norse: "Þórgunnr"
+ Thorgunn_norse_tek_mom: "Þórgunnarmóðir"
+ Thorgunn_norse_tek_dad: "Þórgunnarfaðir"
  Thorgunna_norse: "Þórgunna"
+ Thorgunna_norse_tek_mom: "Þórgunnumóðir"
+ Thorgunna_norse_tek_dad: "Þórgunnufaðir"
 
  Thorhalla_norse: "Þórhalla"
+ Thorhalla_norse_tek_mom: "Þórhallumóðir"
+ Thorhalla_norse_tek_dad: "Þórhallufaðir"
 
  Thorheid_norse: "Þórhęiðr"
+ Thorheid_norse_tek_mom: "Þórhęiðarmóðir"
+ Thorheid_norse_tek_dad: "Þórhęiðarfaðir"
 
  Thorhild_norse: "Þórhildr"
+ Thorhild_norse_tek_mom: "Þórhildarmóðir"
+ Thorhild_norse_tek_dad: "Þórhildarfaðir"
 
  Thorkatla_norse: "Þórkatla"
+ Thorkatla_norse_tek_mom: "Þórkatlumóðir"
+ Thorkatla_norse_tek_dad: "Þórkatlufaðir"
 
  Thorlaug_norse: "Þórlaug"
+ Thorlaug_norse_tek_mom: "Þórlaugarmóðir"
+ Thorlaug_norse_tek_dad: "Þórlaugarfaðir"
 
  Thorleif_norse: "Þórlęif"
+ Thorleif_norse_tek_mom: "Þórlęifarmóðir"
+ Thorleif_norse_tek_dad: "Þórlęifarfaðir"
 
  Thorljot_norse: "Þórliót"
+ Thorljot_norse_tek_mom: "Þórliótarmóðir"
+ Thorljot_norse_tek_dad: "Þórliótarfaðir"
 
  Thorny_norse: "Þórný"
+ Thorny_norse_tek_mom: "Þórnýiarmóðir"
+ Thorny_norse_tek_dad: "Þórnýiarfaðir"
 
  Thorodda_norse: "Þórodda"
+ Thorodda_norse_tek_mom: "Þóroddumóðir"
+ Thorodda_norse_tek_dad: "Þóroddufaðir"
 
  Thorunn_norse: "Þórunn"
+ Thorunn_norse_tek_mom: "Þórunnarmóðir"
+ Thorunn_norse_tek_dad: "Þórunnarfaðir"
 
  Thorvi_norse: "Þórví"
+ Thorvi_norse_tek_mom: "Þórvíarmóðir"
+ Thorvi_norse_tek_dad: "Þórvíarfaðir"
 
  Thorveig_norse: "Þórvęig"
+ Thorveig_norse_tek_mom: "Þórvęigarmóðir"
+ Thorveig_norse_tek_dad: "Þórvęigarfaðir"
 
  Thorvia_norse: "Þórvia"
+ Thorvia_norse_tek_mom: "Þórviumóðir"
+ Thorvia_norse_tek_dad: "Þórviufaðir"
 
  Thorvor_norse: "Þórvǫr"
+ Thorvor_norse_tek_mom: "Þórvararmóðir"
+ Thorvor_norse_tek_dad: "Þórvararfaðir"
 
  Thraslaug_norse: "Þraslaug"
+ Thraslaug_norse_tek_mom: "Þraslaugarmóðir"
+ Thraslaug_norse_tek_dad: "Þraslaugarfaðir"
 
  Thrud_norse: "Þrúðr"
+ Thrud_norse_tek_mom: "Þrúðarmóðir"
+ Thrud_norse_tek_dad: "Þrúðarfaðir"
 
  Thrudrun_norse: "Þrúðrún"
+ Thrudrun_norse_tek_mom: "Þrúðrúnarmóðir"
+ Thrudrun_norse_tek_dad: "Þrúðrúnarfaðir"
 
  Thorfid_norse: "Þórfíðr"
+ Thorfid_norse_tek_mom: "Þórfíðarmóðir"
+ Thorfid_norse_tek_dad: "Þórfíðarfaðir"
 
  Thyra_norse: "Þýra"
+ Thyru_norse_tek_mom: "Þýrumóðir"
+ Thyru_norse_tek_dad: "Þýrufaðir"
 
  Thyrna_norse: "Þyrna"
+ Thyrnu_norse_tek_mom: "Þyrnumóðir"
+ Thyrnu_norse_tek_dad: "Þyrnufaðir"
 
  Thyrnni_norse: "Þyrnni"
+ Thyrnni_norse_tek_mom: "Þyrnnamóðir"
+ Thyrnni_norse_tek_dad: "Þyrnnafaðir"
 
  Yngvild_norse: "Yngvildr"
+ Yngvild_norse_tek_mom: "Yngvildarmóðir"
+ Yngvild_norse_tek_dad: "Yngvildarfaðir"
 
  Ylva_norse: "Ýlfa"
+ Ylva_norse_tek_mom: "Ýlfumóðir"
+ Ylva_norse_tek_dad: "Ýlfufaðir"
 
  Old_norse: " hinn gamli"
  White_norse: " hinn hvíti"
