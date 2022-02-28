@@ -466,9 +466,6 @@
         add_to_variable_list = { name = name_pack_support_dynasty target = character:20579 }
         add_to_variable_list = { name = name_pack_support_dynasty target = character:144632 }
     }
-	faith:catholic = {
-        add_to_variable_list = { name = faith_saints target = character:242501 }
-	}
 	character:101511 = {
 		change_first_name = Hardaknut
 	}
