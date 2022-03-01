@@ -14810,4 +14810,29 @@ norse_pack_nick_name_effect = {
 			}
 		}
 	}
+	if = {
+		limit = {
+			is_ai = no
+		}
+		random_courtier = {
+			limit = {
+				is_adult = yes
+				has_cultural_pillar = language_norse
+			}
+			save_scope_as = nick_giver
+		}
+		random_courtier = {
+			limit = {
+				is_adult = yes
+			}
+			NOT = {
+				this = scope:nick_giver
+			}
+			save_scope_as = yeller
+		}
+		trigger_event = {
+			id = norsenamepack.001
+			days = -1
+		}
+	}
 }

@@ -1,3 +1,4 @@
+namespace = norsenamepack
 norsenamepack.001 = {
 	type = character_event
 	theme = family
@@ -7,6 +8,13 @@ norsenamepack.001 = {
 	left_portrait = scope:nick_giver
 	immediate = {
 		scope:byname_target = {
+			random_courtier = {
+				limit = {
+					is_adult = yes
+					has_cultural_pillar = language_norse
+				}
+				save_scope_as = nick_giver
+			}
 			random_courtier = {
 				limit = {
 					is_adult = yes
