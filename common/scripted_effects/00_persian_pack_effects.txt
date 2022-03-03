@@ -275,6 +275,13 @@
         add_to_variable_list = { name = dynasty_list_ctp_sons target = character:159150 }
         add_to_variable_list = { name = dynasty_list_ctp_sons target = character:159149 }
     }
+    character:93419 = {
+        change_first_name = Kaykawus
+        add_to_global_variable_list = { name = laqab_unsur_mali target = this }
+    }
+    character:93419 = {
+        change_first_name = Mansur
+    }
     character:159156 = {
         change_first_name = Marwan
     }

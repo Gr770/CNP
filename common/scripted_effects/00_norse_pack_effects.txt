@@ -72,6 +72,9 @@
     add_to_global_variable_list = { name = name_pack_support_global target = character:167630 }
     add_to_global_variable_list = { name = name_pack_support_global target = character:167641 }
     add_to_global_variable_list = { name = name_pack_support_global target = character:167649 }
+    add_to_global_variable_list = { name = name_pack_support_global target = character:242501 }
+    add_to_global_variable_list = { name = name_pack_support_global target = character:242503 }
+    add_to_global_variable_list = { name = name_pack_support_global target = character:242505 }
     dynasty:499 = {
         add_to_variable_list = { name = name_pack_support_dynasty target = character:102531 }
         add_to_variable_list = { name = name_pack_support_dynasty target = character:102536 }
@@ -463,6 +466,9 @@
         add_to_variable_list = { name = name_pack_support_dynasty target = character:20579 }
         add_to_variable_list = { name = name_pack_support_dynasty target = character:144632 }
     }
+	character:101511 = {
+		change_first_name = Hardaknut
+	}
 	character:100544 = {
 		change_first_name = Thorleifr
 	}
@@ -494,6 +500,12 @@
 1066_ancetor_storage_norse = {
 	character:201530 = {
 		add_to_variable_list = { name = male_ancestors target = character:101538 }
+	}
+	character:100526 = {
+		add_character_flag = got_north_nickname
+	}
+	character:101517 = {
+		add_character_flag = got_north_nickname
 	}
 	character:101539 = {
 		add_to_variable_list = { name = male_ancestors target = character:101538 }
@@ -5929,7 +5941,7 @@ norse_pack_name_ai_male = {
 									}
 								}
 							}
-							add = 6
+							add = 12
 						}
 						random_list = {
 							1 = {
@@ -9852,7 +9864,7 @@ norse_pack_culture_name_female = {
 									}
 								}
 							}
-						add = 2
+						add = 4
 					}
 					random_list = {
 						1 = {
@@ -11964,7 +11976,7 @@ norse_pack_name_ai_female = {
 									}
 								}
 							}
-							add = 2
+							add = 4
 						}
 						random_list = {
 							1 = {
@@ -14805,15 +14817,22 @@ norse_pack_nick_name_effect = {
 		random_courtier = {
 			limit = {
 				is_adult = yes
-				culture = {
-					has_cultural_pillar = langauge_norse
-				}
+				has_cultural_pillar = language_norse
 			}
 			save_scope_as = nick_giver
 		}
+		random_courtier = {
+			limit = {
+				is_adult = yes
+			}
+			NOT = {
+				this = scope:nick_giver
+			}
+			save_scope_as = yeller
+		}
 		trigger_event = {
 			id = norsenamepack.001
-			delayed = yes
+			days = -1
 		}
 	}
 }

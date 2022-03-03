@@ -843,10 +843,13 @@ CharacterTier = {
             highest_held_title_tier = tier_duchy
             OR = {
                 is_independent_ruler = yes
-                dynasty = {
-                    any_in_list = {
-                        variable = dynasty_independent
-                        this = root
+                AND = {
+                    exists = dynasty
+                    dynasty = {
+                        any_in_list = {
+                            variable = dynasty_independent
+                            this = root
+                        }
                     }
                 }
             }

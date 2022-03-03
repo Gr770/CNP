@@ -1349,6 +1349,11 @@
  Botstein_norse_tek_dad: "Bótstęinsfaðir"
  Botstein_norse_pat_dad_male: "Bótstęinsson"
  Botstein_norse_pat_dad_female: "Bótstęinsdóttir"
+ Botstain_norse: "Bótstęinn"
+ Botstain_norse_tek_mom: "Bótstęinsmóðir"
+ Botstain_norse_tek_dad: "Bótstęinsfaðir"
+ Botstain_norse_pat_dad_male: "Bótstęinsson"
+ Botstain_norse_pat_dad_female: "Bótstęinsdóttir"
  
  Botolf_norse: "Bótólfr"
  Botolf_norse_tek_mom: "Bótólfsmóðir"
@@ -11269,4 +11274,5 @@
  Troublemaker_norse: " hahurikkuia"
  BlueSnake_norse: " siniuss"
  Loyal_norse: " trúbár"
+ Victorious_norse: " inn sigrsæli"
  Blank_norse: ""

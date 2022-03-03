@@ -3,9 +3,21 @@
     log_loc_errors = no
 	text = {
 		trigger = {
+			has_nickname = nick_haardraade
+		}
+        localization_key = HardRuler
+	}
+	text = {
+		trigger = {
 			has_nickname = nick_whiteshirt
 		}
         localization_key = Whiteshirt
+	}
+	text = {
+		trigger = {
+			has_nickname = nick_the_hunchback
+		}
+        localization_key = Hunchback
 	}
 	text = {
 		trigger = {
@@ -15,9 +27,24 @@
 	}
 	text = {
 		trigger = {
-			any_in_global_list = {
-				variable = Old_byname
-				this = root
+			has_nickname = nick_the_victorious
+		}
+        localization_key = Victorious
+	}
+	text = {
+		trigger = {
+			has_nickname = nick_the_whetstone
+		}
+        localization_key = Whetstone
+	}
+	text = {
+		trigger = {
+			OR = {
+				any_in_global_list = {
+					variable = Old_byname
+					this = root
+				}
+				has_nickname = nick_the_old
 			}
 		}
         localization_key = Old
@@ -36,9 +63,12 @@
 	}
 	text = {
 		trigger = {
-			any_in_global_list = {
-				variable = Strong_byname
-				this = root
+			OR = {
+				any_in_global_list = {
+					variable = Strong_byname
+					this = root
+				}
+				has_nickname = nick_the_strong
 			}
 		}
         localization_key = Strong
@@ -165,9 +195,12 @@
 	}
 	text = {
 		trigger = {
-			any_in_global_list = {
-				variable = Mighty_byname
-				this = root
+			OR = {
+				any_in_global_list = {
+					variable = Mighty_byname
+					this = root
+				}
+				has_nickname = nick_the_great
 			}
 		}
         localization_key = Mighty
@@ -615,9 +648,12 @@
 	}
 	text = {
 		trigger = {
-			any_in_global_list = {
-				variable = Young_byname
-				this = root
+			OR = {
+				any_in_global_list = {
+					variable = Young_byname
+					this = root
+				}
+				has_nickname = nick_the_young
 			}
 		}
         localization_key = Young
@@ -831,9 +867,12 @@
 	}
 	text = {
 		trigger = {
-			any_in_global_list = {
-				variable = BlackTooth_byname
-				this = root
+			OR = {
+				any_in_global_list = {
+					variable = BlackTooth_byname
+					this = root
+				}
+				has_nickname = nick_bluetooth
 			}
 		}
         localization_key = BlackTooth

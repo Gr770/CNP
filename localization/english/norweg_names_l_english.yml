@@ -1349,6 +1349,11 @@
  Botstein_norweg_tek_dad: "Bótstęinsfaðir"
  Botstein_norweg_pat_dad_male: "Bótstęinsson"
  Botstein_norweg_pat_dad_female: "Bótstęinsdóttir"
+ Botstain_norweg: "Bótstęinn"
+ Botstain_norweg_tek_mom: "Bótstęinsmóðir"
+ Botstain_norweg_tek_dad: "Bótstęinsfaðir"
+ Botstain_norweg_pat_dad_male: "Bótstęinsson"
+ Botstain_norweg_pat_dad_female: "Bótstęinsdóttir"
  
  Botolf_norweg: "Bótólfr"
  Botolf_norweg_tek_mom: "Bótólfsmóðir"
@@ -11263,4 +11268,6 @@
  Troublemaker_norweg: " hahurikkuia"
  BlueSnake_norweg: " siniuss"
  Loyal_norweg: " trúbár"
+ HardRuler_norweg: " harðráði"
+ Hunchback_norweg: " krókhryggr"
  Blank_norweg: ""
