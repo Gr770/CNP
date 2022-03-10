@@ -38,6 +38,9 @@
  CTP_UI_Name_Possessive_North: "#ONCLICK:CHARACTER,[ROOT.Char.GetID] #TOOLTIP:CHARACTER,[ROOT.Char.GetID] #high #L [ROOT.Char.Custom('CTPNameCheck')][Localize(Concatenate(ROOT.Char.Custom('NorthNickList'), ROOT.Char.Custom('NorthNickCulture')))][ROOT.Char.Custom('CTPTierGenAfter')][ROOT.Char.Custom('CharacterPat')]'s#!#!#!#!"
  CTP_UI_Name_Possessive_No_Tooltip_North: "#high [ROOT.Char.Custom('CTPNameCheck')][Localize(Concatenate(ROOT.Char.Custom('NorthNickList'), ROOT.Char.Custom('NorthNickCulture')))][ROOT.Char.Custom('CTPTierGenAfter')][ROOT.Char.Custom('CharacterPat')]'s#!"
 
+ CTP_SNAT_First_North: "#high [ROOT.Char.Custom('CTPNameCheck')][Localize(Concatenate(ROOT.Char.Custom('NorthNickList'), ROOT.Char.Custom('NorthNickCulture')))]#!"
+ CTP_SNAT_First_Last_North: "#high [ROOT.Char.Custom('CTPNameCheck')][Localize(Concatenate(ROOT.Char.Custom('NorthNickList'), ROOT.Char.Custom('NorthNickCulture')))][ROOT.Char.Custom('CharacterPat')]#!"
+
  CTP_Short_event_North: "[ROOT.Char.Custom('CTPNameCheck')][ROOT.Char.Custom('CTPTierGenAfter')]"
 
  CTP_Title_Tier_Name_North: "[ROOT.Char.Custom('CTPTierGen')]"

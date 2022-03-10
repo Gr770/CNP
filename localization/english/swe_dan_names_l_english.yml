@@ -289,12 +289,6 @@
  Alfgeir_swe_dan_pat_dad_male: "Alfgerssun"
  Alfgeir_swe_dan_pat_dad_female: "Alfgersdottir"
 
- Alfgrim_swe_dan: "Alfgrímær"
- Alfgrim_swe_dan_tek_mom: "Alfgrímsmoþir"
- Alfgrim_swe_dan_tek_dad: "Alfgrímsfaþir"
- Alfgrim_swe_dan_pat_dad_male: "Alfgrímssun"
- Alfgrim_swe_dan_pat_dad_female: "Alfgrímsdottir"
-
  Alfketil_swe_dan: "Alfkætell"
  Alfketil_swe_dan_tek_mom: "Alfkætelsmoþir"
  Alfketil_swe_dan_tek_dad: "Alfkætelsfaþir"
@@ -336,12 +330,6 @@
  Alfvald_swe_dan_tek_dad: "Alfvaldsfaþir"
  Alfvald_swe_dan_pat_dad_male: "Alfvaldssun"
  Alfvald_swe_dan_pat_dad_female: "Alfvaldsdottir"
-
- Alfvard_swe_dan: "Alfvarþær"
- Alfvard_swe_dan_tek_mom: "Alfvarþarmoþir"
- Alfvard_swe_dan_tek_dad: "Alfvarþarfaþir"
- Alfvard_swe_dan_pat_dad_male: "Alfvarþarsun"
- Alfvard_swe_dan_pat_dad_female: "Alfvarþardottir"
 
  Alfvarin_swe_dan: "Alfvarin"
  Alfvarin_swe_dan_tek_mom: "Alfvarinsmoþir"
@@ -988,12 +976,6 @@
  Beggi_swe_dan_pat_dad_male: "Beggasun"
  Beggi_swe_dan_pat_dad_female: "Beggadottir"
  
- Beigan_swe_dan: "Beighan" #Celtic
- Beigan_swe_dan_tek_mom: "Beighansmoþir"
- Beigan_swe_dan_tek_dad: "Beighansfaþir"
- Beigan_swe_dan_pat_dad_male: "Beighanssun"
- Beigan_swe_dan_pat_dad_female: "Beighansdottir"
- 
  Beinir_swe_dan: "Bener"
  Beinir_swe_dan_tek_mom: "Benismoþir"
  Beinir_swe_dan_tek_dad: "Benisfaþir"
@@ -1011,24 +993,6 @@
  Beken_swe_dan_tek_dad: "Bekensfaþir"
  Beken_swe_dan_pat_dad_male: "Bekenssun"
  Beken_swe_dan_pat_dad_female: "Bekensdottir"
- 
- Bekki_swe_dan: "Bekke" #AS
- Bekki_swe_dan_tek_mom: "Bekkamoþir"
- Bekki_swe_dan_tek_dad: "Bekkafaþir"
- Bekki_swe_dan_pat_dad_male: "Bekkasun"
- Bekki_swe_dan_pat_dad_female: "Bekkadottir"
- 
- Belli_swe_dan: "Belle" #OE
- Belli_swe_dan_tek_mom: "Bellamoþir"
- Belli_swe_dan_tek_dad: "Bellafaþir"
- Belli_swe_dan_pat_dad_male: "Bellasun"
- Belli_swe_dan_pat_dad_female: "Belladottir"
- 
- Belt_swe_dan: "Beltær" #OE
- Belt_swe_dan_tek_mom: "Beltsmoþir"
- Belt_swe_dan_tek_dad: "Beltsfaþir"
- Belt_swe_dan_pat_dad_male: "Beltssun"
- Belt_swe_dan_pat_dad_female: "Beltsdottir"
 
  #Ben
  
@@ -1107,12 +1071,6 @@
  Birgir_swe_dan_tek_dad: "Bergesfaþir"
  Birgir_swe_dan_pat_dad_male: "Bergessun"
  Birgir_swe_dan_pat_dad_female: "Bergesdottir"
- 
- Bjadach_swe_dan: "Biæþachær" #Celtic
- Bjadach_swe_dan_tek_mom: "Biæþachsmoþir"
- Bjadach_swe_dan_tek_dad: "Biæþachsfaþir"
- Bjadach_swe_dan_pat_dad_male: "Biæþachssun"
- Bjadach_swe_dan_pat_dad_female: "Biæþachsdottir"
  #Bjarn
  
  Bjarn_swe_dan: "Biærne"
@@ -1262,12 +1220,6 @@
  Bogi_swe_dan_pat_dad_male: "Bogasun"
  Bogi_swe_dan_pat_dad_female: "Bogadottir"
  
- Bolnaut_swe_dan: "Bolnǿtær"
- Bolnaut_swe_dan_tek_mom: "Bolnǿtsmoþir"
- Bolnaut_swe_dan_tek_dad: "Bolnǿtsfaþir"
- Bolnaut_swe_dan_pat_dad_male: "Bolnǿtssun"
- Bolnaut_swe_dan_pat_dad_female: "Bolnǿtsdottir"
- 
  Bondi_swe_dan: "Bonde"
  Bondi_swe_dan_tek_mom: "Bondamoþir"
  Bondi_swe_dan_tek_dad: "Bondafaþir"
@@ -1301,12 +1253,6 @@
  Borgulf_swe_dan_pat_dad_female: "Borgúlfsdottir"
 
  #Bot
- 
- Boti_swe_dan: "Bote"
- Boti_swe_dan_tek_mom: "Botamoþir"
- Boti_swe_dan_tek_dad: "Botafaþir"
- Boti_swe_dan_pat_dad_male: "Botasun"
- Boti_swe_dan_pat_dad_female: "Botadottir"
  
  Botbjorn_swe_dan: "Botbiørn"
  Botbjorn_swe_dan_tek_mom: "Botbiærnarmoþir"
@@ -1386,12 +1332,6 @@
  Bragi_swe_dan_pat_dad_male: "Bragasun"
  Bragi_swe_dan_pat_dad_female: "Bragadottir"
  
- Brand_swe_dan: "Brandær"
- Brand_swe_dan_tek_mom: "Brandsmoþir"
- Brand_swe_dan_tek_dad: "Brandsfaþir"
- Brand_swe_dan_pat_dad_male: "Brandssun"
- Brand_swe_dan_pat_dad_female: "Brandsdottir"
- 
  Brandulf_swe_dan: "Brandúlfær"
  Brandulf_swe_dan_tek_mom: "Brandúlfsmoþir"
  Brandulf_swe_dan_tek_dad: "Brandúlfsfaþir"
@@ -1410,61 +1350,19 @@
  Bresi_swe_dan_pat_dad_male: "Bresasun"
  Bresi_swe_dan_pat_dad_female: "Bresadottir"
  
- Bretakoll_swe_dan: "Bretakøllær" #AS
- Bretakoll_swe_dan_tek_mom: "Bretakøllsmoþir"
- Bretakoll_swe_dan_tek_dad: "Bretakøllsfaþir"
- Bretakoll_swe_dan_pat_dad_male: "Bretakøllssun"
- Bretakoll_swe_dan_pat_dad_female: "Bretakøllsdottir"
- 
- Brian_swe_dan: "Bríán" #Celtic
- Brian_swe_dan_tek_mom: "Bríánsmoþir"
- Brian_swe_dan_tek_dad: "Bríánsfaþir"
- Brian_swe_dan_pat_dad_male: "Bríánssun"
- Brian_swe_dan_pat_dad_female: "Bríánsdottir"
- 
  Brisi_swe_dan: "Bríse"
  Brisi_swe_dan_tek_mom: "Brísamoþir"
  Brisi_swe_dan_tek_dad: "Brísafaþir"
  Brisi_swe_dan_pat_dad_male: "Brísasun"
  Brisi_swe_dan_pat_dad_female: "Brísadottir"
  
- Brjan_swe_dan: "Brián" #Celtic
- Brjan_swe_dan_tek_mom: "Briánsmoþir"
- Brjan_swe_dan_tek_dad: "Briánsfaþir"
- Brjan_swe_dan_pat_dad_male: "Briánssun"
- Brjan_swe_dan_pat_dad_female: "Briánsdottir"
- 
  Brodd_swe_dan: "Broddær"
  Brodd_swe_dan_tek_mom: "Broddsmoþir"
  Brodd_swe_dan_tek_dad: "Broddsfaþir"
  Brodd_swe_dan_pat_dad_male: "Broddssun"
  Brodd_swe_dan_pat_dad_female: "Broddsdottir"
- 
- Broklaus_swe_dan: "Brokløss" #AS
- Broklaus_swe_dan_tek_mom: "Brokløsmoþir"
- Broklaus_swe_dan_tek_dad: "Brokløsfaþir"
- Broklaus_swe_dan_pat_dad_male: "Brokløssun"
- Broklaus_swe_dan_pat_dad_female: "Brokløssdottir"
- 
- Brotulf_swe_dan: "Brotúlfær" #AS
- Brotulf_swe_dan_tek_mom: "Brotúlfsmoþir"
- Brotulf_swe_dan_tek_dad: "Brotúlfsfaþir"
- Brotulf_swe_dan_pat_dad_male: "Brotúlfssun"
- Brotulf_swe_dan_pat_dad_female: "Brotúlfsdottir"
- 
- Brud_swe_dan: "Brúþær"
- Brud_swe_dan_tek_mom: "Brúþsmoþir"
- Brud_swe_dan_tek_dad: "Brúþsfaþir"
- Brud_swe_dan_pat_dad_male: "Brúþssun"
- Brud_swe_dan_pat_dad_female: "Brúþsdottir"
 
  #Brun
- 
- Brunkarl_swe_dan: "Brúnkarl" #AS
- Brunkarl_swe_dan_tek_mom: "Brúnkarlsmoþir"
- Brunkarl_swe_dan_tek_dad: "Brúnkarlsfaþir"
- Brunkarl_swe_dan_pat_dad_male: "Brúnkarlssun"
- Brunkarl_swe_dan_pat_dad_female: "Brúnkarlsdottir"
  
  Brunkel_swe_dan: "Brúnkæll"
  Brunkel_swe_dan_tek_mom: "Brúnkælsmoþir"
@@ -1503,24 +1401,6 @@
  Brynjulf_swe_dan_pat_dad_male: "Bryniúlfssun"
  Brynjulf_swe_dan_pat_dad_female: "Bryniúlfsdottir"
  
- Brusi_swe_dan: "Brúse"
- Brusi_swe_dan_tek_mom: "Brúsamoþir"
- Brusi_swe_dan_tek_dad: "Brúsafaþir"
- Brusi_swe_dan_pat_dad_male: "Brúsasun"
- Brusi_swe_dan_pat_dad_female: "Brúsadottir"
- 
- Bryti_swe_dan: "Bryte"
- Bryti_swe_dan_tek_mom: "Brytamoþir"
- Bryti_swe_dan_tek_dad: "Brytafaþir"
- Bryti_swe_dan_pat_dad_male: "Brytasun"
- Bryti_swe_dan_pat_dad_female: "Brytadottir"
- 
- Budi_swe_dan: "Buþe"
- Budi_swe_dan_tek_mom: "Buþamoþir"
- Budi_swe_dan_tek_dad: "Buþafaþir"
- Budi_swe_dan_pat_dad_male: "Buþasun"
- Budi_swe_dan_pat_dad_female: "Buþadottir"
- 
  Buldi_swe_dan: "Bulde"
  Buldi_swe_dan_tek_mom: "Buldamoþir"
  Buldi_swe_dan_tek_dad: "Buldafaþir"
@@ -1558,14 +1438,6 @@
  Butrald_swe_dan_tek_dad: "Butraldafaþir"
  Butrald_swe_dan_pat_dad_male: "Butraldasun"
  Butrald_swe_dan_pat_dad_female: "Butraldadottir"
-
- ###
- 
- Cranebein_swe_dan: "Craneben" #AS
- Cranebein_swe_dan_tek_mom: "Cranebensmoþir"
- Cranebein_swe_dan_tek_dad: "Cranebensfaþir"
- Cranebein_swe_dan_pat_dad_male: "Cranebenssun"
- Cranebein_swe_dan_pat_dad_female: "Cranebensdottir"
 
  #Dag
  
@@ -1651,12 +1523,6 @@
  Djurgeir_swe_dan_pat_dad_male: "Diúrgerssun"
  Djurgeir_swe_dan_pat_dad_female: "Diúrgersdottir"
  
- Djur_swe_dan: "Diúre"
- Djur_swe_dan_tek_mom: "Diúramoþir"
- Djur_swe_dan_tek_dad: "Diúrafaþir"
- Djur_swe_dan_pat_dad_male: "Diúrasun"
- Djur_swe_dan_pat_dad_female: "Diúradottir"
- 
  Djurver_swe_dan: "Diúrvér"
  Djurver_swe_dan_tek_mom: "Diúrvesmoþir"
  Djurver_swe_dan_tek_dad: "Diúrvesfaþir"
@@ -1668,20 +1534,6 @@
  Dyrbjorn_swe_dan_tek_dad: "Dýrbiærnarfaþir"
  Dyrbjorn_swe_dan_pat_dad_male: "Dýrbiærnarsun"
  Dyrbjorn_swe_dan_pat_dad_female: "Dýrbiærnardottir"
-
- ###
- 
- Dofnak_swe_dan: "Dofnakær" #Celtic
- Dofnak_swe_dan_tek_mom: "Dofnaksmoþir"
- Dofnak_swe_dan_tek_dad: "Dofnaksfaþir"
- Dofnak_swe_dan_pat_dad_male: "Dofnakssun"
- Dofnak_swe_dan_pat_dad_female: "Dofnaksdottir"
- 
- Dolgfinn_swe_dan: "Dolgfinnær" #AS
- Dolgfinn_swe_dan_tek_mom: "Dolgfinnsmoþir"
- Dolgfinn_swe_dan_tek_dad: "Dolgfinnsfaþir"
- Dolgfinn_swe_dan_pat_dad_male: "Dolgfinnssun"
- Dolgfinn_swe_dan_pat_dad_female: "Dolgfinnsdottir"
 
  ###Dom
  
@@ -1696,12 +1548,6 @@
  Domar_swe_dan_tek_dad: "Dombársfaþir"
  Domar_swe_dan_pat_dad_male: "Dombárssun"
  Domar_swe_dan_pat_dad_female: "Dombársdottir"
- 
- Domnall_swe_dan: "Dombnall" #Celtic
- Domnall_swe_dan_tek_mom: "Dombnalsmoþir"
- Domnall_swe_dan_tek_dad: "Dombnalsfaþir"
- Domnall_swe_dan_pat_dad_male: "Dombnalssun"
- Domnall_swe_dan_pat_dad_female: "Dombnalsdottir"
 
  ###
  
@@ -1729,93 +1575,13 @@
  Dragmall_swe_dan_pat_dad_male: "Dragmálssun"
  Dragmall_swe_dan_pat_dad_female: "Dragmálsdottir"
  
- Drjug_swe_dan: "Driúgær" #AS
- Drjug_swe_dan_tek_mom: "Driúgsmoþir"
- Drjug_swe_dan_tek_dad: "Driúgsfaþir"
- Drjug_swe_dan_pat_dad_male: "Driúgssun"
- Drjug_swe_dan_pat_dad_female: "Driúgsdottir"
- 
- Dromund_swe_dan: "Dromundær" #AS
- Dromund_swe_dan_tek_mom: "Dromundarmoþir"
- Dromund_swe_dan_tek_dad: "Dromundarfaþir"
- Dromund_swe_dan_pat_dad_male: "Dromundarsun"
- Dromund_swe_dan_pat_dad_female: "Dromundardottir"
- 
- Drosboi_swe_dan: "Drosboe"
- Drosboi_swe_dan_tek_mom: "Drosboamoþir"
- Drosboi_swe_dan_tek_dad: "Drosboafaþir"
- Drosboi_swe_dan_pat_dad_male: "Drosboasun"
- Drosboi_swe_dan_pat_dad_female: "Drosboadottir"
- 
- Druian_swe_dan: "Druian" #Celtic
- Druian_swe_dan_tek_mom: "Druiansmoþir"
- Druian_swe_dan_tek_dad: "Druiansfaþir"
- Druian_swe_dan_pat_dad_male: "Druianssun"
- Druian_swe_dan_pat_dad_female: "Druiansdottir"
- 
  Dudi_swe_dan: "Dúþe"
  Dudi_swe_dan_tek_mom: "Dúþamoþir"
  Dudi_swe_dan_tek_dad: "Dúþafaþir"
  Dudi_swe_dan_pat_dad_male: "Dúþasun"
  Dudi_swe_dan_pat_dad_female: "Dúþadottir"
 
- #Duf (Celtic)
- 
- Dufan_swe_dan: "Dufan" #Celtic
- Dufan_swe_dan_tek_mom: "Dufansmoþir"
- Dufan_swe_dan_tek_dad: "Dufansfaþir"
- Dufan_swe_dan_pat_dad_male: "Dufanssun"
- Dufan_swe_dan_pat_dad_female: "Dufansdottir"
- 
- Dufgall_swe_dan: "Dufgall" #Celtic
- Dufgall_swe_dan_tek_mom: "Dufgalsmoþir"
- Dufgall_swe_dan_tek_dad: "Dufgalsfaþir"
- Dufgall_swe_dan_pat_dad_male: "Dufgalssun"
- Dufgall_swe_dan_pat_dad_female: "Dufgalsdottir"
- 
- Dufguss_swe_dan: "Dufgúss" #Celtic
- Dufguss_swe_dan_tek_mom: "Dufgúsmoþir"
- Dufguss_swe_dan_tek_dad: "Dufgúsfaþir"
- Dufguss_swe_dan_pat_dad_male: "Dufgússun"
- Dufguss_swe_dan_pat_dad_female: "Dufgúsdottir"
- 
- Dufnall_swe_dan: "Dufnall" #Celtic
- Dufnall_swe_dan_tek_mom: "Dufnalsmoþir"
- Dufnall_swe_dan_tek_dad: "Dufnalsfaþir"
- Dufnall_swe_dan_pat_dad_male: "Dufnalssun"
- Dufnall_swe_dan_pat_dad_female: "Dufnalsdottir"
- 
- Dufniall_swe_dan: "Dufniall" #Celtic
- Dufniall_swe_dan_tek_mom: "Dufnialsmoþir"
- Dufniall_swe_dan_tek_dad: "Dufnialsfaþir"
- Dufniall_swe_dan_pat_dad_male: "Dufnialssun"
- Dufniall_swe_dan_pat_dad_female: "Dufnialsdottir"
- 
- Dufthak_swe_dan: "Dufþakær" #Celtic
- Dufthak_swe_dan_tek_mom: "Dufþaksmoþir"
- Dufthak_swe_dan_tek_dad: "Dufþaksfaþir"
- Dufthak_swe_dan_pat_dad_male: "Dufþakssun"
- Dufthak_swe_dan_pat_dad_female: "Dufþaksdottir"
-
  ###
- 
- Dugfuss_swe_dan: "Dugfúss" #Celtic
- Dugfuss_swe_dan_tek_mom: "Dugfúsmoþir"
- Dugfuss_swe_dan_tek_dad: "Dugfúsfaþir"
- Dugfuss_swe_dan_pat_dad_male: "Dugfússun"
- Dugfuss_swe_dan_pat_dad_female: "Dugfúsdottir"
- 
- Dungad_swe_dan: "Dungaþær" #Celtic
- Dungad_swe_dan_tek_mom: "Dungaþsmoþir"
- Dungad_swe_dan_tek_dad: "Dungaþsfaþir"
- Dungad_swe_dan_pat_dad_male: "Dungaþssun"
- Dungad_swe_dan_pat_dad_female: "Dungaþsdottir"
- 
- Dungall_swe_dan: "Dungall" #Celtic
- Dungall_swe_dan_tek_mom: "Dungalsmoþir"
- Dungall_swe_dan_tek_dad: "Dungalsfaþir"
- Dungall_swe_dan_pat_dad_male: "Dungalssun"
- Dungall_swe_dan_pat_dad_female: "Dungalsdottir"
  
  Dyggvi_swe_dan: "Dyggve"
  Dyggvi_swe_dan_tek_mom: "Dyggvamoþir"
@@ -2081,12 +1847,6 @@
 
  #F
  
- Faeit_swe_dan: "Fæitær"
- Faeit_swe_dan_tek_mom: "Fæitsmoþir"
- Faeit_swe_dan_tek_dad: "Fæitsfaþir"
- Faeit_swe_dan_pat_dad_male: "Fæitssun"
- Faeit_swe_dan_pat_dad_female: "Fæitsdottir"
- 
  Falgeir_swe_dan: "Falger"
  Falgeir_swe_dan_tek_mom: "Falgersmoþir"
  Falgeir_swe_dan_tek_dad: "Falgersfaþir"
@@ -2118,12 +1878,6 @@
  Farbjorn_swe_dan_tek_dad: "Farbiærnarfaþir"
  Farbjorn_swe_dan_pat_dad_male: "Farbiærnarsun"
  Farbjorn_swe_dan_pat_dad_female: "Farbiærnardottir"
- 
- Fargrim_swe_dan: "Fargrímær"
- Fargrim_swe_dan_tek_mom: "Fargrímsmoþir"
- Fargrim_swe_dan_tek_dad: "Fargrímsfaþir"
- Fargrim_swe_dan_pat_dad_male: "Fargrímssun"
- Fargrim_swe_dan_pat_dad_female: "Fargrímsdottir"
  
  Farthegn_swe_dan: "Farþeghn"
  Farthegn_swe_dan_tek_mom: "Farþeghsmoþir"
@@ -2199,18 +1953,6 @@
  Fati_swe_dan_tek_dad: "Fatafaþir"
  Fati_swe_dan_pat_dad_male: "Fatasun"
  Fati_swe_dan_pat_dad_female: "Fatadottir"
- 
- Feig_swe_dan: "Fegær" #AS
- Feig_swe_dan_tek_mom: "Fegsmoþir"
- Feig_swe_dan_tek_dad: "Fegsfaþir"
- Feig_swe_dan_pat_dad_male: "Fegssun"
- Feig_swe_dan_pat_dad_female: "Fegsdottir"
- 
- Fiak_swe_dan: "Fiak" #Celtic
- Fiak_swe_dan_tek_mom: "Fiaksmoþir"
- Fiak_swe_dan_tek_dad: "Fiaksfaþir"
- Fiak_swe_dan_pat_dad_male: "Fiakssun"
- Fiak_swe_dan_pat_dad_female: "Fiaksdottir"
  
  Filippus_swe_dan: "Filippus" #Christian
  Filippus_swe_dan_tek_mom: "Filippusmoþir"
@@ -2313,12 +2055,6 @@
  Folkbjorn_swe_dan_pat_dad_male: "Folkbiærnarsun"
  Folkbjorn_swe_dan_pat_dad_female: "Folkbiærnardottir"
  
- Folkgeir_swe_dan: "Folkger"
- Folkgeir_swe_dan_tek_mom: "Folkgersmoþir"
- Folkgeir_swe_dan_tek_dad: "Folkgersfaþir"
- Folkgeir_swe_dan_pat_dad_male: "Folkgerssun"
- Folkgeir_swe_dan_pat_dad_female: "Folkgersdottir"
- 
  Folkmar_swe_dan: "Folkmár"
  Folkmar_swe_dan_tek_mom: "Folkmársmoþir"
  Folkmar_swe_dan_tek_dad: "Folkmársfaþir"
@@ -2362,12 +2098,6 @@
  Fothrad_swe_dan_tek_dad: "Fothraþsfaþir"
  Fothrad_swe_dan_pat_dad_male: "Fothraþssun"
  Fothrad_swe_dan_pat_dad_female: "Fothraþsdottir"
- 
- Frani_swe_dan: "Fráne" #AS
- Frani_swe_dan_tek_mom: "Fránamoþir"
- Frani_swe_dan_tek_dad: "Fránafaþir"
- Frani_swe_dan_pat_dad_male: "Fránasun"
- Frani_swe_dan_pat_dad_female: "Fránadottir"
 
  #Frey Norse
  
@@ -2471,29 +2201,11 @@
  Frirek_swe_dan_pat_dad_male: "Frírekssun"
  Frirek_swe_dan_pat_dad_female: "Fríreksdottir"
  
- Frodi_swe_dan: "Froþe"
- Frodi_swe_dan_tek_mom: "Froþamoþir"
- Frodi_swe_dan_tek_dad: "Froþafaþir"
- Frodi_swe_dan_pat_dad_male: "Froþasun"
- Frodi_swe_dan_pat_dad_female: "Froþadottir"
- 
  Frokn_swe_dan: "Frøkn"
  Frokn_swe_dan_tek_mom: "Frøksmoþir"
  Frokn_swe_dan_tek_dad: "Frøksfaþir"
  Frokn_swe_dan_pat_dad_male: "Frøkssun"
  Frokn_swe_dan_pat_dad_female: "Frøksdottir"
- 
- Frostulf_swe_dan: "Frostúlfær"
- Frostulf_swe_dan_tek_mom: "Frostúlfsmoþir"
- Frostulf_swe_dan_tek_dad: "Frostúlfsfaþir"
- Frostulf_swe_dan_pat_dad_male: "Frostúlfssun"
- Frostulf_swe_dan_pat_dad_female: "Frostúlfsdottir"
- 
- Fuldar_swe_dan: "Fuldar" #AS
- Fuldar_swe_dan_tek_mom: "Fuldarsmoþir"
- Fuldar_swe_dan_tek_dad: "Fuldarsfaþir"
- Fuldar_swe_dan_pat_dad_male: "Fuldarssun"
- Fuldar_swe_dan_pat_dad_female: "Fuldarsdottir"
  
  Fullhugi_swe_dan: "Fullhuge"
  Fullhugi_swe_dan_tek_mom: "Fullhugamoþir"
@@ -2509,41 +2221,11 @@
 
  #G
  
- Gagar_swe_dan: "Gagar"
- Gagar_swe_dan_tek_mom: "Gagarsmoþir"
- Gagar_swe_dan_tek_dad: "Gagarsfaþir"
- Gagar_swe_dan_pat_dad_male: "Gagarssun"
- Gagar_swe_dan_pat_dad_female: "Gagarsdottir"
- 
- Gag_swe_dan: "Gagær"
- Gag_swe_dan_tek_mom: "Gagsmoþir"
- Gag_swe_dan_tek_dad: "Gagsfaþir"
- Gag_swe_dan_pat_dad_male: "Gagssun"
- Gag_swe_dan_pat_dad_female: "Gagsdottir"
- 
- Galmi_swe_dan: "Galme"
- Galmi_swe_dan_tek_mom: "Galmamoþir"
- Galmi_swe_dan_tek_dad: "Galmafaþir"
- Galmi_swe_dan_pat_dad_male: "Galmasun"
- Galmi_swe_dan_pat_dad_female: "Galmadottir"
- 
  Galti_swe_dan: "Galte"
  Galti_swe_dan_tek_mom: "Galtamoþir"
  Galti_swe_dan_tek_dad: "Galtafaþir"
  Galti_swe_dan_pat_dad_male: "Galtasun"
  Galti_swe_dan_pat_dad_female: "Galtadottir"
- 
- Gamalbarn_swe_dan: "Gamalbarn" #AS
- Gamalbarn_swe_dan_tek_mom: "Gamalbarnsmoþir"
- Gamalbarn_swe_dan_tek_dad: "Gamalbarnsfaþir"
- Gamalbarn_swe_dan_pat_dad_male: "Gamalbarnssun"
- Gamalbarn_swe_dan_pat_dad_female: "Gamalbarnsdottir"
- 
- Gamalkarl_swe_dan: "Gamalkarle" #AS
- Gamalkarl_swe_dan_tek_mom: "Gamalkarlamoþir"
- Gamalkarl_swe_dan_tek_dad: "Gamalkarlafaþir"
- Gamalkarl_swe_dan_pat_dad_male: "Gamalkarlasun"
- Gamalkarl_swe_dan_pat_dad_female: "Gamalkarladottir"
  
  Gandalf_swe_dan: "Gandálfær" #POG
  Gandalf_swe_dan_tek_mom: "Gandálfsmoþir"
@@ -2557,12 +2239,6 @@
  Gangulf_swe_dan_pat_dad_male: "Gangúlfssun"
  Gangulf_swe_dan_pat_dad_female: "Gangúlfsdottir"
  
- Gapr_swe_dan: "Gapær"
- Gapr_swe_dan_tek_mom: "Gapsmoþir"
- Gapr_swe_dan_tek_dad: "Gapsfaþir"
- Gapr_swe_dan_pat_dad_male: "Gapssun"
- Gapr_swe_dan_pat_dad_female: "Gapsdottir"
- 
  Gardar_swe_dan: "Garþar"
  Gardar_swe_dan_tek_mom: "Garþarsmoþir"
  Gardar_swe_dan_tek_dad: "Garþarsfaþir"
@@ -2574,12 +2250,6 @@
  Gard_swe_dan_tek_dad: "Garþarfaþir"
  Gard_swe_dan_pat_dad_male: "Garþarsun"
  Gard_swe_dan_pat_dad_female: "Garþardottir"
- 
- Gardulf_swe_dan: "Garþúlfær" #AS
- Gardulf_swe_dan_tek_mom: "Garþúlfsmoþir"
- Gardulf_swe_dan_tek_dad: "Garþúlfsfaþir"
- Gardulf_swe_dan_pat_dad_male: "Garþúlfssun"
- Gardulf_swe_dan_pat_dad_female: "Garþúlfsdottir"
  
  Gauss_swe_dan: "Gauss"
  Gauss_swe_dan_tek_mom: "Gaussmoþir"
@@ -2600,12 +2270,6 @@
  Gautar_swe_dan_tek_dad: "Gøtarsfaþir"
  Gautar_swe_dan_pat_dad_male: "Gøtarssun"
  Gautar_swe_dan_pat_dad_female: "Gøtarsdottir"
- 
- Gautdiarf_swe_dan: "Gøtdiærfær"
- Gautdiarf_swe_dan_tek_mom: "Gøtdiærfsmoþir"
- Gautdiarf_swe_dan_tek_dad: "Gøtdiærfsfaþir"
- Gautdiarf_swe_dan_pat_dad_male: "Gøtdiærfssun"
- Gautdiarf_swe_dan_pat_dad_female: "Gøtdiærfsdottir"
  
  Gautrad_swe_dan: "Gøtráþær"
  Gautrad_swe_dan_tek_mom: "Gøtráþsmoþir"
@@ -2727,12 +2391,6 @@
  Geirmar_swe_dan_pat_dad_male: "Germárssun"
  Geirmar_swe_dan_pat_dad_female: "Germársdottir"
  
- Geirmod_swe_dan: "Germoþær"
- Geirmod_swe_dan_tek_mom: "Germoþsmoþir"
- Geirmod_swe_dan_tek_dad: "Germoþsfaþir"
- Geirmod_swe_dan_pat_dad_male: "Germoþssun"
- Geirmod_swe_dan_pat_dad_female: "Germoþsdottir"
- 
  Geirmund_swe_dan: "Germundær"
  Geirmund_swe_dan_tek_mom: "Germundarmoþir"
  Geirmund_swe_dan_tek_dad: "Germundarfaþir"
@@ -2780,18 +2438,6 @@
  Geirthjof_swe_dan_tek_dad: "Gerþiofsfaþir"
  Geirthjof_swe_dan_pat_dad_male: "Gerþiofssun"
  Geirthjof_swe_dan_pat_dad_female: "Gerþiofsdottir"
- 
- Geirvard_swe_dan: "Gervarþær"
- Geirvard_swe_dan_tek_mom: "Gervarþarmoþir"
- Geirvard_swe_dan_tek_dad: "Gervarþarfaþir"
- Geirvard_swe_dan_pat_dad_male: "Gervarþarsun"
- Geirvard_swe_dan_pat_dad_female: "Gervarþardottir"
- 
- Geirvar_swe_dan: "Gervar"
- Geirvar_swe_dan_tek_mom: "Gervarsmoþir"
- Geirvar_swe_dan_tek_dad: "Gervarsfaþir"
- Geirvar_swe_dan_pat_dad_male: "Gervarssun"
- Geirvar_swe_dan_pat_dad_female: "Gervarsdottir"
  
  Geirvid_swe_dan: "Gerveþær"
  Geirvid_swe_dan_tek_mom: "Gerveþarmoþir"
@@ -2895,12 +2541,6 @@
 
  ###
  
- Giulak_swe_dan: "Giúlákær"
- Giulak_swe_dan_tek_mom: "Giúláksmoþir"
- Giulak_swe_dan_tek_dad: "Giúláksfaþir"
- Giulak_swe_dan_pat_dad_male: "Giúlákssun"
- Giulak_swe_dan_pat_dad_female: "Giúláksdottir"
- 
  Gizur_swe_dan: "Gizur"
  Gizur_swe_dan_tek_mom: "Gizursmoþir"
  Gizur_swe_dan_tek_dad: "Gizursfaþir"
@@ -2917,12 +2557,6 @@
  Gjafvald_swe_dan_tek_dad: "Giafvaldsfaþir"
  Gjafvald_swe_dan_pat_dad_male: "Giafvaldssun"
  Gjafvald_swe_dan_pat_dad_female: "Giafvaldsdottir"
- 
- Gjalfver_swe_dan: "Gialfvér"
- Gjalfver_swe_dan_tek_mom: "Giafvesmoþir"
- Gjalfver_swe_dan_tek_dad: "Giafvesfaþir"
- Gjalfver_swe_dan_pat_dad_male: "Gialfvessun"
- Gjalfver_swe_dan_pat_dad_female: "Gialfvesdottir"
  
  Gjallandi_swe_dan: "Giallande"
  Gjallandi_swe_dan_tek_mom: "Giallandamoþir"
@@ -2942,12 +2576,6 @@
  Glam_swe_dan_pat_dad_male: "Glámssun"
  Glam_swe_dan_pat_dad_female: "Glámsdottir"
  
- Glippir_swe_dan: "Glepper"
- Glippir_swe_dan_tek_mom: "Gleppesmoþir"
- Glippir_swe_dan_tek_dad: "Gleppesfaþir"
- Glippir_swe_dan_pat_dad_male: "Gleppessun"
- Glippir_swe_dan_pat_dad_female: "Gleppesdottir"
- 
  Glodi_swe_dan: "Gloþe"
  Glodi_swe_dan_tek_mom: "Gloþamoþir"
  Glodi_swe_dan_tek_dad: "Gloþafaþir"
@@ -2959,12 +2587,6 @@
  Gloedir_swe_dan_tek_dad: "Glœþesfaþir"
  Gloedir_swe_dan_pat_dad_male: "Glœþessun"
  Gloedir_swe_dan_pat_dad_female: "Glœþesdottir"
- 
- Glogg_swe_dan: "Gløggær"
- Glogg_swe_dan_tek_mom: "Gløggsmoþir"
- Glogg_swe_dan_tek_dad: "Gløggsfaþir"
- Glogg_swe_dan_pat_dad_male: "Gløggssun"
- Glogg_swe_dan_pat_dad_female: "Gløggsdottir"
  
  Gneisti_swe_dan: "Gneiste"
  Gneisti_swe_dan_tek_mom: "Gneistamoþir"
@@ -2989,12 +2611,6 @@
  Gnypli_swe_dan_tek_dad: "Gnýplafaþir"
  Gnypli_swe_dan_pat_dad_male: "Gnýplasun"
  Gnypli_swe_dan_pat_dad_female: "Gnýpladottir"
- 
- Gnaeggir_swe_dan: "Gnægger"
- Gnaeggir_swe_dan_tek_mom: "Gnæggesmoþir"
- Gnaeggir_swe_dan_tek_dad: "Gnæggesfaþir"
- Gnaeggir_swe_dan_pat_dad_male: "Gnæggessun"
- Gnaeggir_swe_dan_pat_dad_female: "Gnæggesdottir"
 
  #Goþ
  
@@ -3045,12 +2661,6 @@
  Gudfast_swe_dan_tek_dad: "Guþfastsfaþir"
  Gudfast_swe_dan_pat_dad_male: "Guþfastssun"
  Gudfast_swe_dan_pat_dad_female: "Guþfastsdottir"
- 
- Guddiarf_swe_dan: "Guþdiærfær"
- Guddiarf_swe_dan_tek_mom: "Guþdiærfsmoþir"
- Guddiarf_swe_dan_tek_dad: "Guþdiærfsfaþir"
- Guddiarf_swe_dan_pat_dad_male: "Guþdiærfssun"
- Guddiarf_swe_dan_pat_dad_female: "Guþdiærfsdottir"
  
  Gudbrand_swe_dan: "Guþbrandær"
  Gudbrand_swe_dan_tek_mom: "Guþbrandsmoþir"
@@ -3173,18 +2783,6 @@
 
  ###
  
- Godsvein_swe_dan: "Godsven" #AS
- Godsvein_swe_dan_tek_mom: "Godsvensmoþir"
- Godsvein_swe_dan_tek_dad: "Godsvensfaþir"
- Godsvein_swe_dan_pat_dad_male: "Godsvenssun"
- Godsvein_swe_dan_pat_dad_female: "Godsvensdottir"
- 
- Goldstein_swe_dan: "Goldsten" #AS
- Goldstein_swe_dan_tek_mom: "Goldstensmoþir"
- Goldstein_swe_dan_tek_dad: "Goldstensfaþir"
- Goldstein_swe_dan_pat_dad_male: "Goldstenssun"
- Goldstein_swe_dan_pat_dad_female: "Goldstensdottir"
- 
  Gorm_swe_dan: "Gormær"
  Gorm_swe_dan_tek_mom: "Gormsmoþir"
  Gorm_swe_dan_tek_dad: "Gormsfaþir"
@@ -3224,12 +2822,6 @@
  Gregorius_swe_dan_tek_dad: "Grégoríúsfaþir"
  Gregorius_swe_dan_pat_dad_male: "Grégoríússun"
  Gregorius_swe_dan_pat_dad_female: "Grégoríúsdottir"
- 
- Greidi_swe_dan: "Greþe" #AS
- Greidi_swe_dan_tek_mom: "Greþamoþir"
- Greidi_swe_dan_tek_dad: "Greþafaþir"
- Greidi_swe_dan_pat_dad_male: "Greþasun"
- Greidi_swe_dan_pat_dad_female: "Greþadottir"
  
  Grenjad_swe_dan: "Greniaþær"
  Grenjad_swe_dan_tek_mom: "Greniaþsmoþir"
@@ -3288,12 +2880,6 @@
  Grjotgard_swe_dan_tek_dad: "Griotgarþarfaþir"
  Grjotgard_swe_dan_pat_dad_male: "Griotgarþarsun"
  Grjotgard_swe_dan_pat_dad_female: "Griotgarþardottir"
-
- Gufubein_swe_dan: "Gufuben" #AS
- Gufubein_swe_dan_tek_mom: "Gufubensmoþir"
- Gufubein_swe_dan_tek_dad: "Gufubensfaþir"
- Gufubein_swe_dan_pat_dad_male: "Gufubenssun"
- Gufubein_swe_dan_pat_dad_female: "Gufubensdottir"
 
  #Gunn
  
@@ -3433,12 +3019,6 @@
 
  #Há
  
- Habein_swe_dan: "Háben" #AS
- Habein_swe_dan_tek_mom: "Hábensmoþir"
- Habein_swe_dan_tek_dad: "Hábensfaþir"
- Habein_swe_dan_pat_dad_male: "Hábenssun"
- Habein_swe_dan_pat_dad_female: "Hábensdottir"
- 
  Hamund_swe_dan: "Hámundær"
  Hamund_swe_dan_tek_mom: "Hámundarmoþir"
  Hamund_swe_dan_tek_dad: "Hámundarfaþir"
@@ -3494,18 +3074,6 @@
  Haeng_swe_dan_tek_dad: "Hængsfaþir"
  Haeng_swe_dan_pat_dad_male: "Hængssun"
  Haeng_swe_dan_pat_dad_female: "Hængsdottir"
- 
- Haera_swe_dan: "Hæra" #Myth Male
- Haera_swe_dan_tek_mom: "Hærumoþir"
- Haera_swe_dan_tek_dad: "Hærufaþir"
- Haeng_swe_dan_pat_dad_male: "Hærusun"
- Haeng_swe_dan_pat_dad_female: "Hærudottir"
- 
- Haering_swe_dan: "Hæringær"
- Haering_swe_dan_tek_mom: "Hæringsmoþir"
- Haering_swe_dan_tek_dad: "Hæringsfaþir"
- Haering_swe_dan_pat_dad_male: "Hæringssun"
- Haering_swe_dan_pat_dad_female: "Hæringsdottir"
  
  Haetting_swe_dan: "Hættingær"
  Haetting_swe_dan_tek_mom: "Hættingsmoþir"
@@ -3575,18 +3143,6 @@
  Hagstein_swe_dan_tek_dad: "Hagstensfaþir"
  Hagstein_swe_dan_pat_dad_male: "Hagstenssun"
  Hagstein_swe_dan_pat_dad_female: "Hagstensdottir"
- 
- Hakikarl_swe_dan: "Hakikarl" #AS
- Hakikarl_swe_dan_tek_mom: "Hakikarlsmoþir"
- Hakikarl_swe_dan_tek_dad: "Hakikarlsfaþir"
- Hakikarl_swe_dan_pat_dad_male: "Hakikarlssun"
- Hakikarl_swe_dan_pat_dad_female: "Hakikarlsdottir"
- 
- Haklang_swe_dan: "Haklangær" #Myth
- Haklang_swe_dan_tek_mom: "Haklangsmoþir"
- Haklang_swe_dan_tek_dad: "Haklangsfaþir"
- Haklang_swe_dan_pat_dad_male: "Haklangssun"
- Haklang_swe_dan_pat_dad_female: "Haklangsdottir"
  
  Hakon_swe_dan: "Hákon"
  Hakon_swe_dan_tek_mom: "Hákonsmoþir"
@@ -3722,12 +3278,6 @@
 
  ###
  
- Hals_swe_dan: "Háls"
- Hals_swe_dan_tek_mom: "Hálsmoþir"
- Hals_swe_dan_tek_dad: "Hálsfaþir"
- Hals_swe_dan_pat_dad_male: "Hálssun"
- Hals_swe_dan_pat_dad_female: "Hálsdottir"
- 
  Hamal_swe_dan: "Hamall"
  Hamal_swe_dan_tek_mom: "Hamalsmoþir"
  Hamal_swe_dan_tek_dad: "Hamalsfaþir"
@@ -3803,18 +3353,6 @@
  Harri_swe_dan_tek_dad: "Harrafaþir"
  Harri_swe_dan_pat_dad_male: "Harrasun"
  Harri_swe_dan_pat_dad_female: "Harradottir"
- 
- Hauk_swe_dan: "Haukær"
- Hauk_swe_dan_tek_mom: "Hauksmoþir"
- Hauk_swe_dan_tek_dad: "Hauksfaþir"
- Hauk_swe_dan_pat_dad_male: "Haukssun"
- Hauk_swe_dan_pat_dad_female: "Hauksdottir"
- 
- Haukreidi_swe_dan: "Haukreiþe" #AS
- Haukreidi_swe_dan_tek_mom: "Haukreiþamoþir"
- Haukreidi_swe_dan_tek_dad: "Haukreiþafaþir"
- Haukreidi_swe_dan_pat_dad_male: "Haukreiþasun"
- Haukreidi_swe_dan_pat_dad_female: "Haukreiþadottir"
  
  Haurr_swe_dan: "Haur"
  Haurr_swe_dan_tek_mom: "Haursmoþir"
@@ -3996,12 +3534,6 @@
  Hergrim_swe_dan_tek_dad: "Hærgrímsfaþir"
  Hergrim_swe_dan_pat_dad_male: "Hærgrímssun"
  Hergrim_swe_dan_pat_dad_female: "Hærgrímsdottir"
- 
- Herjar_swe_dan: "Hæriar"
- Herjar_swe_dan_tek_mom: "Hæriarsmoþir"
- Herjar_swe_dan_tek_dad: "Hæriarsfaþir"
- Herjar_swe_dan_pat_dad_male: "Hæriarssun"
- Herjar_swe_dan_pat_dad_female: "Hæriarsdottir"
  
  Herjolf_swe_dan: "Hæriolfær"
  Herjolf_swe_dan_tek_mom: "Hæriolfsmoþir"
@@ -4207,12 +3739,6 @@
 
  ###
  
- Hjort_swe_dan: "Hiørtær"
- Hjort_swe_dan_tek_mom: "Hiørtsmoþir"
- Hjort_swe_dan_tek_dad: "Hiørtsfaþir"
- Hjort_swe_dan_pat_dad_male: "Hiørtssun"
- Hjort_swe_dan_pat_dad_female: "Hiørtsdottir"
- 
  Hlenni_swe_dan: "Hlenne"
  Hlenni_swe_dan_tek_mom: "Hlennamoþir"
  Hlenni_swe_dan_tek_dad: "Hlennafaþir"
@@ -4247,12 +3773,6 @@
  Hnaki_swe_dan_tek_dad: "Hnakafaþir"
  Hnaki_swe_dan_pat_dad_male: "Hnakasun"
  Hnaki_swe_dan_pat_dad_female: "Hnakadottir"
- 
- Hnefi_swe_dan: "Hnæfe"
- Hnefi_swe_dan_tek_mom: "Hnæfamoþir"
- Hnefi_swe_dan_tek_dad: "Hnæfafaþir"
- Hnefi_swe_dan_pat_dad_male: "Hnæfasun"
- Hnefi_swe_dan_pat_dad_female: "Hnæfadottir"
  
  Hneit_swe_dan: "Hnetær"
  Hneit_swe_dan_tek_mom: "Hnetsmoþir"
@@ -4366,29 +3886,11 @@
  Horgi_swe_dan_pat_dad_male: "Horgasun"
  Horgi_swe_dan_pat_dad_female: "Horgadottir"
  
- Hornbodi_swe_dan: "Hornboþe" #AS
- Hornbodi_swe_dan_tek_mom: "Hornboþamoþir"
- Hornbodi_swe_dan_tek_dad: "Hornboþafaþir"
- Hornbodi_swe_dan_pat_dad_male: "Hornboþasun"
- Hornbodi_swe_dan_pat_dad_female: "Hornboþadottir"
- 
- Horni_swe_dan: "Horne" #AS
- Horni_swe_dan_tek_mom: "Hornamoþir"
- Horni_swe_dan_tek_dad: "Hornafaþir"
- Horni_swe_dan_pat_dad_male: "Hornasun"
- Horni_swe_dan_pat_dad_female: "Hornadottir"
- 
  Hoskuld_swe_dan: "Hoskuldær"
  Hoskuld_swe_dan_tek_mom: "Hoskuldsmoþir"
  Hoskuld_swe_dan_tek_dad: "Hoskuldsfaþir"
  Hoskuld_swe_dan_pat_dad_male: "Hoskuldssun"
  Hoskuld_swe_dan_pat_dad_female: "Hoskuldsdottir"
- 
- Radi_swe_dan: "Raþe"
- Radi_swe_dan_tek_mom: "Raþamoþir"
- Radi_swe_dan_tek_dad: "Raþafaþir"
- Radi_swe_dan_pat_dad_male: "Raþasun"
- Radi_swe_dan_pat_dad_female: "Raþadottir"
  
  Rafn_swe_dan: "Rafn"
  Rafn_swe_dan_tek_mom: "Rafsmoþir"
@@ -4435,32 +3937,20 @@
  Reidmar_swe_dan: "Reþmár"
  Reidmar_swe_dan_tek_mom: "Reþmársmoþir"
  Reidmar_swe_dan_tek_dad: "Reþmársfaþir"
- Raidmar_swe_dan_pat_dad_male: "Reþmárssun"
- Raidmar_swe_dan_pat_dad_female: "Reþmársdottir"
+ Reidmar_swe_dan_pat_dad_male: "Reþmárssun"
+ Reidmar_swe_dan_pat_dad_female: "Reþmársdottir"
  
  Reidulf_swe_dan: "Reþúlfær"
  Reidulf_swe_dan_tek_mom: "Reþúlfsmoþir"
  Reidulf_swe_dan_tek_dad: "Reþúlfsfaþir"
- Raidulf_swe_dan_pat_dad_male: "Reþúlfssun"
- Raidulf_swe_dan_pat_dad_female: "Reþúlfsdottir"
- 
- Reidir_swe_dan: "Reþer"
- Reidir_swe_dan_tek_mom: "Reþesmoþir"
- Reidir_swe_dan_tek_dad: "Reþesfaþir"
- Raidir_swe_dan_pat_dad_male: "Reþessun"
- Raidir_swe_dan_pat_dad_female: "Reþesdottir"
+ Reidulf_swe_dan_pat_dad_male: "Reþúlfssun"
+ Reidulf_swe_dan_pat_dad_female: "Reþúlfsdottir"
  
  Rifli_swe_dan: "Rifle"
  Rifli_swe_dan_tek_mom: "Riflamoþir"
  Rifli_swe_dan_tek_dad: "Riflafaþir"
  Rifli_swe_dan_pat_dad_male: "Riflasun"
  Rifli_swe_dan_pat_dad_female: "Rifladottir"
- 
- Ring_swe_dan: "Ringær"
- Ring_swe_dan_tek_mom: "Ringsmoþir"
- Ring_swe_dan_tek_dad: "Ringsfaþir"
- Ring_swe_dan_pat_dad_male: "Ringssun"
- Ring_swe_dan_pat_dad_female: "Ringsdottir"
  
  Ringulf_swe_dan: "Ringúlfær"
  Ringulf_swe_dan_tek_mom: "Ringúlfsmoþir"
@@ -4582,12 +4072,6 @@
  Roi_swe_dan_pat_dad_male: "Roasun"
  Roi_swe_dan_pat_dad_female: "Roadottir"
  
- Rok_swe_dan: "Rokr" #Norse
- Rok_swe_dan_tek_mom: "Roksmoþir"
- Rok_swe_dan_tek_dad: "Roksfaþir"
- Rok_swe_dan_pat_dad_male: "Rokssun"
- Rok_swe_dan_pat_dad_female: "Roksdottir"
- 
  Hrolfr_swe_dan: "Rolfær"
  Hrolfr_swe_dan_tek_mom: "Rolfsmoþir"
  Hrolfr_swe_dan_tek_dad: "Rolfsfaþir"
@@ -4665,24 +4149,6 @@
  Hulvid_swe_dan_pat_dad_male: "Hulveþarsun"
  Hulvid_swe_dan_pat_dad_female: "Hulveþardottir"
  
- Hundifot_swe_dan: "Hundifotr" #AS
- Hundifot_swe_dan_tek_mom: "Hundifotsmoþir"
- Hundifot_swe_dan_tek_dad: "Hundifotsfaþir"
- Hundifot_swe_dan_pat_dad_male: "Hundifotssun"
- Hundifot_swe_dan_pat_dad_female: "Hundifotsdottir"
- 
- Hundigeir_swe_dan: "Hundiger" #AS
- Hundigeir_swe_dan_tek_mom: "Hundigersmoþir"
- Hundigeir_swe_dan_tek_dad: "Hundigersfaþir"
- Hundigeir_swe_dan_pat_dad_male: "Hundigerssun"
- Hundigeir_swe_dan_pat_dad_female: "Hundigersdottir"
- 
- Hundigrim_swe_dan: "Hundigrímær" #AS
- Hundigrim_swe_dan_tek_mom: "Hundigrímsmoþir"
- Hundigrim_swe_dan_tek_dad: "Hundigrímsfaþir"
- Hundigrim_swe_dan_pat_dad_male: "Hundigrímssun"
- Hundigrim_swe_dan_pat_dad_female: "Hundigrímsdottir"
- 
  Hundolf_swe_dan: "Hundolfær"
  Hundolf__swe_dan_tek_mom: "Hundolfsmoþir"
  Hundolf__swe_dan_tek_dad: "Hundolfsfaþir"
@@ -4694,12 +4160,6 @@
  Hun_swe_dan_tek_dad: "Húnsfaþir"
  Hun_swe_dan_pat_dad_male: "Húnssun"
  Hun_swe_dan_pat_dad_female: "Húnsdottir"
- 
- Hunketil_swe_dan: "Húnkætell" #AS
- Hunketil_swe_dan_tek_mom: "Húnkætelsmoþir"
- Hunketil_swe_dan_tek_dad: "Húnkætelsfaþir"
- Hunketil_swe_dan_pat_dad_male: "Húnkætelssun"
- Hunketil_swe_dan_pat_dad_female: "Húnkætelsdottir"
  
  Hunrod_swe_dan: "Húnrøþær"
  Hunrod_swe_dan_tek_mom: "Húnrøþarmoþir"
@@ -4772,24 +4232,6 @@
  Ingifast_swe_dan_tek_dad: "Ingefastsfaþir"
  Ingifast_swe_dan_pat_dad_male: "Ingefastssun"
  Ingifast_swe_dan_pat_dad_female: "Ingefastsdottir"
- 
- Ingigeir_swe_dan: "Ingeger"
- Ingigeir_swe_dan_tek_mom: "Ingegersmoþir"
- Ingigeir_swe_dan_tek_dad: "Ingegersfaþir"
- Ingigeir_swe_dan_pat_dad_male: "Ingegerssun"
- Ingigeir_swe_dan_pat_dad_female: "Ingegersdottir"
- 
- Ingikar_swe_dan: "Ingekár"
- Ingikar_swe_dan_tek_mom: "Ingekársmoþir"
- Ingikar_swe_dan_tek_dad: "Ingekársfaþir"
- Ingikar_swe_dan_pat_dad_male: "Ingekárssun"
- Ingikar_swe_dan_pat_dad_female: "Ingekársdottir"
- 
- Ingileifr_swe_dan: "Ingelefær"
- Ingileifr_swe_dan_tek_mom: "Ingelefsmoþir"
- Ingileifr_swe_dan_tek_dad: "Ingelefsfaþir"
- Ingileifr_swe_dan_pat_dad_male: "Ingelefssun"
- Ingileifr_swe_dan_pat_dad_female: "Ingelefsdottir"
  
  Ingimad_swe_dan: "Ingemaþær"
  Ingimad_swe_dan_tek_mom: "Ingemannsmoþir"
@@ -4958,12 +4400,6 @@
  Jofur_swe_dan_pat_dad_male: "Iofurssun"
  Jofur_swe_dan_pat_dad_female: "Iofursdottir"
  
- Jofurstein_swe_dan: "Iofursten"
- Jofurstein_swe_dan_tek_mom: "Iofurstensmoþir"
- Jofurstein_swe_dan_tek_dad: "Iofurstensfaþir"
- Jofurstein_swe_dan_pat_dad_male: "Iofurstenssun"
- Jofurstein_swe_dan_pat_dad_female: "Iofurstensdottir"
- 
  Jogeir_swe_dan: "Ioger"
  Jogeir_swe_dan_tek_mom: "Iogersmoþir"
  Jogeir_swe_dan_tek_dad: "Iogersfaþir"
@@ -5059,18 +4495,6 @@
  Josur_swe_dan_pat_dad_male: "Iosurssun"
  Josur_swe_dan_pat_dad_female: "Iosursdottir"
  
- Kadal_swe_dan: "Kaþall" #Celtic
- Kadal_swe_dan_tek_mom: "Kaþalsmoþir"
- Kadal_swe_dan_tek_dad: "Kaþalsfaþir"
- Kadal_swe_dan_pat_dad_male: "Kaþalssun"
- Kadal_swe_dan_pat_dad_female: "Kaþalsdottir"
- 
- Karl_swe_dan: "Karl" #Celtic
- Karl_swe_dan_tek_mom: "Karlsmoþir"
- Karl_swe_dan_tek_dad: "Karlsfaþir"
- Karl_swe_dan_pat_dad_male: "Karlssun"
- Karl_swe_dan_pat_dad_female: "Karlsdottir"
- 
  Ketilbjorn_swe_dan: "Kætilbiørn"
  Ketilbjorn_swe_dan_tek_mom: "Kætilbiærnarmoþir"
  Ketilbjorn_swe_dan_tek_dad: "Kætilbiærnarfaþir"
@@ -5124,41 +4548,6 @@
  Kilfi_swe_dan_tek_dad: "Kilfesfaþir"
  Kilfi_swe_dan_pat_dad_male: "Kilfessun"
  Kilfi_swe_dan_pat_dad_female: "Kilfesdottir"
- 
- Kiulak_swe_dan: "Kiúlákær" #Celtic
- Kiulak_swe_dan_tek_mom: "Kiúláksmoþir"
- Kiulak_swe_dan_tek_dad: "Kiúláksfaþir"
- Kiulak_swe_dan_pat_dad_male: "Kiúlákssun"
- Kiulak_swe_dan_pat_dad_female: "Kiúláksdottir"
- 
- Kjallak_swe_dan: "Kiallakær" #Celtic
- Kjallak_swe_dan_tek_mom: "Kiallaksmoþir"
- Kjallak_swe_dan_tek_dad: "Kiallaksfaþir"
- Kjallak_swe_dan_pat_dad_male: "Kiallakssun"
- Kjallak_swe_dan_pat_dad_female: "Kiallaksdottir"
- 
- Kjaran_swe_dan: "Kiaran" #Celtic
- Kjaran_swe_dan_tek_mom: "Kiaransmoþir"
- Kjaran_swe_dan_tek_dad: "Kiaransfaþir"
- Kjaran_swe_dan_pat_dad_male: "Kiaranssun"
- Kjaran_swe_dan_pat_dad_female: "Kiaransdottir"
- 
- Kjarfal_swe_dan: "Kiarfalær" #Celtic
- Kjarfal_swe_dan_tek_mom: "Kiarfalsmoþir"
- Kjarfal_swe_dan_tek_dad: "Kiarfalsfaþir"
- Kjarfal_swe_dan_pat_dad_male: "Kiarfalssun"
- Kjarfal_swe_dan_pat_dad_female: "Kiarfalsdottir"
- 
- Kjartan_swe_dan: "Kiartan" #Celtic
- Kjartan_swe_dan_tek_mom: "Kiartansmoþir"
- Kjartan_swe_dan_tek_dad: "Kiartansfaþir"
- Kjartan_swe_dan_pat_dad_male: "Kiartanssun"
- Kjartan_swe_dan_pat_dad_female: "Kiartansdottir"
- 
- Kjarval_swe_dan: "Kiarvalær" #Celtic
- Kjarval_swe_dan_tek_mom: "Kiarvalsmoþir"
- Kjarval_swe_dan_tek_dad: "Kiarvalsfaþir"
- Kjarval_swe_dan_pat_dad_male: "Kiarvalssun"
  Kjarval_swe_dan_pat_dad_female: "Kiarvalsdottir"
  
  Kjotvi_swe_dan: "Kiøtve"
@@ -5221,12 +4610,6 @@
  Knud_swe_dan_pat_dad_male: "Knútssun"
  Knud_swe_dan_pat_dad_female: "Knútsdottir"
  
- Kodran_swe_dan: "Koþrán" #Celtic
- Kodran_swe_dan_tek_mom: "Koþránsmoþir"
- Kodran_swe_dan_tek_dad: "Koþránsfaþir"
- Kodran_swe_dan_pat_dad_male: "Koþránssun"
- Kodran_swe_dan_pat_dad_female: "Koþránsdottir"
- 
  Kolbak_swe_dan: "Kolbakær"
  Kolbak_swe_dan_tek_mom: "Kolbaksmoþir"
  Kolbak_swe_dan_tek_dad: "Kolbaksfaþir"
@@ -5281,12 +4664,6 @@
  Kolsvein_swe_dan_pat_dad_male: "Kolsvenssun"
  Kolsvein_swe_dan_pat_dad_female: "Kolsvensdottir"
  
- Konall_swe_dan: "Konáll" #Celtic
- Konall_swe_dan_tek_mom: "Konálsmoþir"
- Konall_swe_dan_tek_dad: "Konálsfaþir"
- Konall_swe_dan_pat_dad_male: "Konálssun"
- Konall_swe_dan_pat_dad_female: "Konálsdottir"
- 
  Konrad_swe_dan: "Konráþær"
  Konrad_swe_dan_tek_mom: "Konráþsmoþir"
  Konrad_swe_dan_tek_dad: "Konráþsfaþir"
@@ -5305,12 +4682,6 @@
  Kori_swe_dan_pat_dad_male: "Korasun"
  Kori_swe_dan_pat_dad_female: "Koradottir"
  
- Kormak_swe_dan: "Kormákær" #Celtic
- Kormak_swe_dan_tek_mom: "Kormáksmoþir"
- Kormak_swe_dan_tek_dad: "Kormáksfaþir"
- Kormak_swe_dan_pat_dad_male: "Kormákssun"
- Kormak_swe_dan_pat_dad_female: "Kormáksdottir"
- 
  Korpulf_swe_dan: "Korpúlfær"
  Korpulf_swe_dan_tek_mom: "Korpúlfsmoþir"
  Korpulf_swe_dan_tek_dad: "Korpúlfsfaþir"
@@ -5328,12 +4699,6 @@
  Krak_swe_dan_tek_dad: "Kráksfaþir"
  Krak_swe_dan_pat_dad_male: "Krákssun"
  Krak_swe_dan_pat_dad_female: "Kráksdottir"
- 
- Krinan_swe_dan: "Krínán" #Celtic
- Krinan_swe_dan_tek_mom: "Krínánsmoþir"
- Krinan_swe_dan_tek_dad: "Krínánsfaþir"
- Krinan_swe_dan_pat_dad_male: "Krínánssun"
- Krinan_swe_dan_pat_dad_female: "Krínánsdottir"
  
  Kristolf_swe_dan: "Kristolfær" #Christian
  Kristolf_swe_dan_tek_mom: "Kristolfsmoþir"
@@ -5358,12 +4723,6 @@
  Kugaldi_swe_dan_tek_dad: "Kúgaldafaþir"
  Kugaldi_swe_dan_pat_dad_male: "Kúgaldasun"
  Kugaldi_swe_dan_pat_dad_female: "Kúgaldadottir"
- 
- Kvaran_swe_dan: "Kváran" #Celtic
- Kvaran_swe_dan_tek_mom: "Kváransmoþir"
- Kvaran_swe_dan_tek_dad: "Kváransfaþir"
- Kvaran_swe_dan_pat_dad_male: "Kváranssun"
- Kvaran_swe_dan_pat_dad_female: "Kváransdottir"
  
  Kvigbjorn_swe_dan: "Kvígbiørn"
  Kvigbjorn_swe_dan_tek_mom: "Kvígbiærnarmoþir"
@@ -5502,12 +4861,6 @@
  Ljotolf_swe_dan_pat_dad_male: "Liotolfssun"
  Ljotolf_swe_dan_pat_dad_female: "Liotolfsdottir"
  
- Ljuf_swe_dan: "Liúfær"
- Ljuf_swe_dan_tek_mom: "Liúfsmoþir"
- Ljuf_swe_dan_tek_dad: "Liúfsfaþir"
- Ljuf_swe_dan_pat_dad_male: "Liúfssun"
- Ljuf_swe_dan_pat_dad_female: "Liúfsdottir"
- 
  Ljufvin_swe_dan: "Liufvenær"
  Ljufvin_swe_dan_tek_mom: "Liufvensmoþir"
  Ljufvin_swe_dan_tek_dad: "Liufvensfaþir"
@@ -5520,23 +4873,11 @@
  Lodhott_swe_dan_pat_dad_male: "Loþhottssun"
  Lodhott_swe_dan_pat_dad_female: "Loþhottsdottir"
  
- Lodin_swe_dan: "Loþin"
- Lodin_swe_dan_tek_mom: "Loþinsmoþir"
- Lodin_swe_dan_tek_dad: "Loþinsfaþir"
- Lodin_swe_dan_pat_dad_male: "Loþinssun"
- Lodin_swe_dan_pat_dad_female: "Loþinsdottir"
- 
  Lodmund_swe_dan: "Loþmundær"
  Lodmund_swe_dan_tek_mom: "Loþmundarmoþir"
  Lodmund_swe_dan_tek_dad: "Loþmundarfaþir"
  Lodmund_swe_dan_pat_dad_male: "Loþmundarsun"
  Lodmund_swe_dan_pat_dad_female: "Loþmundardottir"
- 
- Lundvar_swe_dan: "Lundvar"
- Lundvar_swe_dan_tek_mom: "Lundvarsmoþir"
- Lundvar_swe_dan_tek_dad: "Lundvarsfaþir"
- Lundvar_swe_dan_pat_dad_male: "Lundvarssun"
- Lundvar_swe_dan_pat_dad_female: "Lundvarsdottir"
  
  Lydbjorn_swe_dan: "Lýþbiørn"
  Lydbjorn_swe_dan_tek_mom: "Lýþbiærnarmoþir"
@@ -5544,23 +4885,11 @@
  Lydbjorn_swe_dan_pat_dad_male: "Lýþbiærnarsun"
  Lydbjorn_swe_dan_pat_dad_female: "Lýþbiærnardottir"
  
- Maddad_swe_dan: "Maddaþær" #Celtic
- Maddad_swe_dan_tek_mom: "Maddaþsmoþir"
- Maddad_swe_dan_tek_dad: "Maddaþsfaþir"
- Maddad_swe_dan_pat_dad_male: "Maddaþssun"
- Maddad_swe_dan_pat_dad_female: "Maddaþsdottir"
- 
  Magnus_swe_dan: "Magnús" #Christian
  Magnus_swe_dan_tek_mom: "Magnúsmoþir"
  Magnus_swe_dan_tek_dad: "Magnúsfaþir"
  Magnus_swe_dan_pat_dad_male: "Magnússun"
  Magnus_swe_dan_pat_dad_female: "Magnúsdottir"
- 
- Makan_swe_dan: "Makan" #Celtic
- Makan_swe_dan_tek_mom: "Makansmoþir"
- Makan_swe_dan_tek_dad: "Makansfaþir"
- Makan_swe_dan_pat_dad_male: "Makanssun"
- Makan_swe_dan_pat_dad_female: "Makansdottir"
  
  Mak_swe_dan: "Mákær"
  Mak_swe_dan_tek_mom: "Máksmoþir"
@@ -5573,12 +4902,6 @@
  Mar_swe_dan_tek_dad: "Mársfaþir"
  Mar_swe_dan_pat_dad_male: "Márssun"
  Mar_swe_dan_pat_dad_female: "Mársdottir"
- 
- Margad_swe_dan: "Margaþær" #Celtic
- Margad_swe_dan_tek_mom: "Margaþsmoþir"
- Margad_swe_dan_tek_dad: "Margaþsfaþir"
- Margad_swe_dan_pat_dad_male: "Margaþssun"
- Margad_swe_dan_pat_dad_female: "Margaþsdottir"
  
  Markus_swe_dan: "Markús" #Christian
  Markus_swe_dan_tek_mom: "Markúsmoþir"
@@ -5603,48 +4926,6 @@
  Meginbjorn_swe_dan_tek_dad: "Meginbiærnarfaþir"
  Meginbjorn_swe_dan_pat_dad_male: "Meginbiærnarsun"
  Meginbjorn_swe_dan_pat_dad_female: "Meginbiærnardottir"
- 
- Melbrigd_swe_dan: "Melbrigþe" #Celtic
- Melbrigd_swe_dan_tek_mom: "Melbrigþamoþir"
- Melbrigd_swe_dan_tek_dad: "Melbrigþafaþir"
- Melbrigd_swe_dan_pat_dad_male: "Melbrigþasun"
- Melbrigd_swe_dan_pat_dad_female: "Melbrigþadottir"
- 
- Meldun_swe_dan: "Meldún" #Celtic
- Meldun_swe_dan_tek_mom: "Meldúnsmoþir"
- Meldun_swe_dan_tek_dad: "Meldúnsfaþir"
- Meldun_swe_dan_pat_dad_male: "Meldúnssun"
- Meldun_swe_dan_pat_dad_female: "Meldúnsdottir"
- 
- Melkolf_swe_dan: "Melkolfær" #Celtic
- Melkolf_swe_dan_tek_mom: "Melkolfsmoþir"
- Melkolf_swe_dan_tek_dad: "Melkolfsfaþir"
- Melkolf_swe_dan_pat_dad_male: "Melkolfssun"
- Melkolf_swe_dan_pat_dad_female: "Melkolfsdottir"
- 
- Melkolm_swe_dan: "Melkolmær" #Celtic
- Melkolm_swe_dan_tek_mom: "Melkolmsmoþir"
- Melkolm_swe_dan_tek_dad: "Melkolmsfaþir"
- Melkolm_swe_dan_pat_dad_male: "Melkolmssun"
- Melkolm_swe_dan_pat_dad_female: "Melkolmsdottir"
- 
- Melmar_swe_dan: "Melmare" #Celtic
- Melmar_swe_dan_tek_mom: "Melmaramoþir"
- Melmar_swe_dan_tek_dad: "Melmarafaþir"
- Melmar_swe_dan_pat_dad_male: "Melmarasun"
- Melmar_swe_dan_pat_dad_female: "Melmaradottir"
- 
- Melpatrik_swe_dan: "Melpatrikær" #Celtic
- Melpatrik_swe_dan_tek_mom: "Melpatriksmoþir"
- Melpatrik_swe_dan_tek_dad: "Melpatriksfaþir"
- Melpatrik_swe_dan_pat_dad_male: "Melpatrikssun"
- Melpatrik_swe_dan_pat_dad_female: "Melpatriksdottir"
- 
- Melsnat_swe_dan: "Melsnate" #Celtic
- Melsnat_swe_dan_tek_mom: "Melsnatamoþir"
- Melsnat_swe_dan_tek_dad: "Melsnatafaþir"
- Melsnat_swe_dan_pat_dad_male: "Melsnatasun"
- Melsnat_swe_dan_pat_dad_female: "Melsnatadottir"
  
  Mikjal_swe_dan: "Mikiáll" #Christian
  Mikjal_swe_dan_tek_mom: "Mikiálsmoþir"
@@ -5712,12 +4993,6 @@
  Myndil_swe_dan_pat_dad_male: "Myndilssun"
  Myndil_swe_dan_pat_dad_female: "Myndilsdottir"
  
- Myrkjartan_swe_dan: "Mýrkiartan" #Celtic
- Myrkjartan_swe_dan_tek_mom: "Mýrkiartansmoþir"
- Myrkjartan_swe_dan_tek_dad: "Mýrkiartansfaþir"
- Myrkjartan_swe_dan_pat_dad_male: "Mýrkiartanssun"
- Myrkjartan_swe_dan_pat_dad_female: "Mýrkiartansdottir"
- 
  Myskia_swe_dan: "Myskia"
  Myskia_swe_dan_tek_mom: "Myskiumoþir"
  Myskia_swe_dan_tek_dad: "Myskiufaþir"
@@ -5747,12 +5022,6 @@
  Nagli_swe_dan_tek_dad: "Naglafaþir"
  Nagli_swe_dan_pat_dad_male: "Naglasun"
  Nagli_swe_dan_pat_dad_female: "Nagladottir"
- 
- Nann_swe_dan: "Nannær"
- Nann_swe_dan_tek_mom: "Nannsmoþir"
- Nann_swe_dan_tek_dad: "Nannsfaþir"
- Nann_swe_dan_pat_dad_male: "Nannssun"
- Nann_swe_dan_pat_dad_female: "Nannsdottir"
  
  Narfi_swe_dan: "Narfe"
  Narfi_swe_dan_tek_mom: "Narfamoþir"
@@ -5829,12 +5098,6 @@
  Niusi_swe_dan_pat_dad_male: "Niúsasun"
  Niusi_swe_dan_pat_dad_female: "Niúsadottir"
  
- Njal_swe_dan: "Niáll" #Celtic
- Njal_swe_dan_tek_mom: "Niálsmoþir"
- Njal_swe_dan_tek_dad: "Niálsfaþir"
- Njal_swe_dan_pat_dad_male: "Niálssun"
- Njal_swe_dan_pat_dad_female: "Niálsdottir"
- 
  Nollar_swe_dan: "Nollar"
  Nollar_swe_dan_tek_mom: "Nollarsmoþir"
  Nollar_swe_dan_tek_dad: "Nollarsfaþir"
@@ -5864,12 +5127,6 @@
  Oblaud_swe_dan_tek_dad: "Oblauþsfaþir"
  Oblaud_swe_dan_pat_dad_male: "Oblauþssun"
  Oblaud_swe_dan_pat_dad_female: "Oblauþsdottir"
- 
- Odalfred_swe_dan: "Oþalfreþær"
- Odalfred_swe_dan_tek_mom: "Oþalfreþarmoþir"
- Odalfred_swe_dan_tek_dad: "Oþalfreþarfaþir"
- Odalfred_swe_dan_pat_dad_male: "Oþalfreþarsun"
- Odalfred_swe_dan_pat_dad_female: "Oþalfreþardottir"
  
  Odd_swe_dan: "Oddær"
  Odd_swe_dan_tek_mom: "Oddsmoþir"
@@ -5943,23 +5200,11 @@
  Ofaeti_swe_dan_pat_dad_male: "Ofætasun"
  Ofaeti_swe_dan_pat_dad_female: "Ofætadottir"
  
- Ofeig_swe_dan: "Ofegær"
- Ofeig_swe_dan_tek_mom: "Ofegsmoþir"
- Ofeig_swe_dan_tek_dad: "Ofegsfaþir"
- Ofeig_swe_dan_pat_dad_male: "Ofegssun"
- Ofeig_swe_dan_pat_dad_female: "Ofegsdottir"
- 
  Ofla_swe_dan: "Oflár"
  Ofla_swe_dan_tek_mom: "Oflásmoþir"
  Ofla_swe_dan_tek_dad: "Oflásfaþir"
  Ofla_swe_dan_pat_dad_male: "Oflássun"
  Ofla_swe_dan_pat_dad_female: "Oflásdottir"
- 
- Oflati_swe_dan: "Ofláte"
- Oflati_swe_dan_tek_mom: "Oflátamoþir"
- Oflati_swe_dan_tek_dad: "Oflátafaþir"
- Oflati_swe_dan_pat_dad_male: "Oflátasun"
- Oflati_swe_dan_pat_dad_female: "Oflátadottir"
  
  Ofrad_swe_dan: "Ofráþær"
  Ofrad_swe_dan_tek_mom: "Ofráþarmoþir"
@@ -6103,18 +5348,6 @@
  Ornolf_swe_dan_pat_dad_male: "Ørnolfssun"
  Ornolf_swe_dan_pat_dad_female: "Ørnolfsdottir"
  
- Oroekia_swe_dan: "Orœkia"
- Oroekia_swe_dan_tek_mom: "Orœkiumoþir"
- Oroekia_swe_dan_tek_dad: "Orœkiufaþir"
- Oroekia_swe_dan_pat_dad_male: "Orœkiusun"
- Oroekia_swe_dan_pat_dad_female: "Orœkiudottir"
- 
- Orri_swe_dan: "Orre"
- Orri_swe_dan_tek_mom: "Orramoþir"
- Orri_swe_dan_tek_dad: "Orrafaþir"
- Orri_swe_dan_pat_dad_male: "Orrasun"
- Orri_swe_dan_pat_dad_female: "Orradottir"
- 
  Orrusti_swe_dan: "Orruste"
  Orrusti_swe_dan_tek_mom: "Orrustamoþir"
  Orrusti_swe_dan_tek_dad: "Orrustafaþir"
@@ -6186,12 +5419,6 @@
  Otto_swe_dan_tek_dad: "Ottosfaþir"
  Otto_swe_dan_pat_dad_male: "Ottossun"
  Otto_swe_dan_pat_dad_female: "Ottosdottir"
- 
- Othvegin_swe_dan: "Oþvegin"
- Othvegin_swe_dan_tek_mom: "Oþveginsmoþir"
- Othvegin_swe_dan_tek_dad: "Oþveginsfaþir"
- Othvegin_swe_dan_pat_dad_male: "Oþveginssun"
- Othvegin_swe_dan_pat_dad_female: "Oþveginsdottir"
  
  Othyrmir_swe_dan: "Oþyrmer"
  Othyrmir_swe_dan_tek_mom: "Oþyrmesmoþir"
@@ -6354,23 +5581,11 @@
  Raudulf_swe_dan_pat_dad_male: "Rauþúlfssun"
  Raudulf_swe_dan_pat_dad_female: "Rauþúlfsdottir"
 
- Raudkar_swe_dan: "Rauþkár"
- Raudkar_swe_dan_tek_mom: "Rauþkársmoþir"
- Raudkar_swe_dan_tek_dad: "Rauþkársfaþir"
- Raudkar_swe_dan_pat_dad_male: "Rauþkárssun"
- Raudkar_swe_dan_pat_dad_female: "Rauþkársdottir"
-
  Refkel_swe_dan: "Refkæll"
  Refkel_swe_dan_tek_mom: "Refkælsmoþir"
  Refkel_swe_dan_tek_dad: "Refkælsfaþir"
  Refkel_swe_dan_pat_dad_male: "Refkælssun"
  Refkel_swe_dan_pat_dad_female: "Refkælsdottir"
-
- Ref_swe_dan: "Refær"
- Ref_swe_dan_tek_mom: "Refsmoþir"
- Ref_swe_dan_tek_dad: "Refsfaþir"
- Ref_swe_dan_pat_dad_male: "Refssun"
- Ref_swe_dan_pat_dad_female: "Refsdottir"
 
  Reginmund_swe_dan: "Reginmundær"
  Reginmund_swe_dan_tek_mom: "Reginmundarmoþir"
@@ -6468,12 +5683,6 @@
  Rognud_swe_dan_pat_dad_male: "Røgnuþssun"
  Rognud_swe_dan_pat_dad_female: "Røgnuþsdottir"
 
- Rugga_swe_dan: "Rugga"
- Rugga_swe_dan_tek_mom: "Ruggumoþir"
- Rugga_swe_dan_tek_dad: "Ruggufaþir"
- Rugga_swe_dan_pat_dad_male: "Ruggusun"
- Rugga_swe_dan_pat_dad_female: "Ruggudottir"
-
  Runfast_swe_dan: "Rúnfastær"
  Runfast_swe_dan_tek_mom: "Rúnfastsmoþir"
  Runfast_swe_dan_tek_dad: "Rúnfastsfaþir"
@@ -6485,18 +5694,6 @@
  Runi_swe_dan_tek_dad: "Rúnafaþir"
  Runi_swe_dan_pat_dad_male: "Rúnasun"
  Runi_swe_dan_pat_dad_female: "Rúnadottir"
-
- Ryding_swe_dan: "Ryþingær"
- Ryding_swe_dan_tek_mom: "Ryþingsmoþir"
- Ryding_swe_dan_tek_dad: "Ryþingsfaþir"
- Ryding_swe_dan_pat_dad_male: "Ryþingssun"
- Ryding_swe_dan_pat_dad_female: "Ryþingsdottir"
-
- Rysia_swe_dan: "Rysia"
- Rysia_swe_dan_tek_mom: "Rysiumoþir"
- Rysia_swe_dan_tek_dad: "Rysiufaþir"
- Rysia_swe_dan_pat_dad_male: "Rysiusun"
- Rysia_swe_dan_pat_dad_female: "Rysiudottir"
 
  Runvid_swe_dan: "Rúnveþær"
  Runvid_swe_dan_tek_mom: "Rúnveþarmoþir"
@@ -6897,12 +6094,6 @@
  Skage_swe_dan_pat_dad_male: "Skagasun"
  Skage_swe_dan_pat_dad_female: "Skagadottir"
 
- Skald_swe_dan: "Skálde"
- Skald_swe_dan_tek_mom: "Skáldamoþir"
- Skald_swe_dan_tek_dad: "Skáldafaþir"
- Skald_swe_dan_pat_dad_male: "Skáldasun"
- Skald_swe_dan_pat_dad_female: "Skáldadottir"
-
  Skalp_swe_dan: "Skálpær"
  Skalp_swe_dan_tek_mom: "Skálpsmoþir"
  Skalp_swe_dan_tek_dad: "Skálpsfaþir"
@@ -6944,12 +6135,6 @@
  Skefil_swe_dan_tek_dad: "Skefilsfaþir"
  Skefil_swe_dan_pat_dad_male: "Skefilssun"
  Skefil_swe_dan_pat_dad_female: "Skefilsdottir"
-
- Skeggi_swe_dan: "Skegge"
- Skeggi_swe_dan_tek_mom: "Skeggamoþir"
- Skeggi_swe_dan_tek_dad: "Skeggafaþir"
- Skeggi_swe_dan_pat_dad_male: "Skeggasun"
- Skeggi_swe_dan_pat_dad_female: "Skeggadottir"
 
  Skidi_swe_dan: "Skíþe"
  Skidi_swe_dan_tek_mom: "Skíþamoþir"
@@ -6998,12 +6183,6 @@
  Skofte_swe_dan_tek_dad: "Skoftafaþir"
  Skofte_swe_dan_pat_dad_male: "Skoftasun"
  Skofte_swe_dan_pat_dad_female: "Skoftadottir"
-
- Skog_swe_dan: "Skogær"
- Skog_swe_dan_tek_mom: "Skogsmoþir"
- Skog_swe_dan_tek_dad: "Skogsfaþir"
- Skog_swe_dan_pat_dad_male: "Skogssun"
- Skog_swe_dan_pat_dad_female: "Skogsdottir"
 
  Skorageir_swe_dan: "Skorager"
  Skorageir_swe_dan_tek_mom: "Skoragersmoþir"
@@ -7083,12 +6262,6 @@
  Snaeulf_swe_dan_pat_dad_male: "Snæúlfssun"
  Snaeulf_swe_dan_pat_dad_female: "Snæúlfsdottir"
 
- Snari_swe_dan: "Snare"
- Snari_swe_dan_tek_mom: "Snaramoþir"
- Snari_swe_dan_tek_dad: "Snarafaþir"
- Snari_swe_dan_pat_dad_male: "Snarasun"
- Snari_swe_dan_pat_dad_female: "Snaradottir"
-
  Snorri_swe_dan: "Snorre"
  Snorri_swe_dan_tek_mom: "Snorramoþir"
  Snorri_swe_dan_tek_dad: "Snorrafaþir"
@@ -7137,18 +6310,6 @@
  Spjallbodi_swe_dan_pat_dad_male: "Spiallboþasun"
  Spjallbodi_swe_dan_pat_dad_female: "Spiallboþadottir"
 
- Spjalli_swe_dan: "Spialle"
- Spjalli_swe_dan_tek_mom: "Spiallamoþir"
- Spjalli_swe_dan_tek_dad: "Spiallafaþir"
- Spjalli_swe_dan_pat_dad_male: "Spiallassun"
- Spjalli_swe_dan_pat_dad_female: "Spiallasdottir"
-
- Spjoti_swe_dan: "Spiote"
- Spjoti_swe_dan_tek_mom: "Spiotamoþir"
- Spjoti_swe_dan_tek_dad: "Spiotafaþir"
- Spjoti_swe_dan_pat_dad_male: "Spiotasun"
- Spjoti_swe_dan_pat_dad_female: "Spiotadottir"
-
  Spor_swe_dan: "Spør"
  Spor_swe_dan_tek_mom: "Spørsmoþir"
  Spor_swe_dan_tek_dad: "Spørsfaþir"
@@ -7166,24 +6327,6 @@
  Stafngrim_swe_dan_tek_dad: "Stafngrímsfaþir"
  Stafngrim_swe_dan_pat_dad_male: "Stafngrímssun"
  Stafngrim_swe_dan_pat_dad_female: "Stafngrímsdottir"
-
- Stakk_swe_dan: "Stakkær"
- Stakk_swe_dan_tek_mom: "Stakksmoþir"
- Stakk_swe_dan_tek_dad: "Stakksfaþir"
- Stakk_swe_dan_pat_dad_male: "Stakkssun"
- Stakk_swe_dan_pat_dad_female: "Stakksdottir"
-
- Stali_swe_dan: "Stále"
- Stali_swe_dan_tek_mom: "Stálamoþir"
- Stali_swe_dan_tek_dad: "Stálafaþir"
- Stali_swe_dan_pat_dad_male: "Stálasun"
- Stali_swe_dan_pat_dad_female: "Stáladottir"
-
- Stari_swe_dan: "Stare"
- Stari_swe_dan_tek_mom: "Staramoþir"
- Stari_swe_dan_tek_dad: "Starafaþir"
- Stari_swe_dan_pat_dad_male: "Starasun"
- Stari_swe_dan_pat_dad_female: "Staradottir"
 
  Starkad_swe_dan: "Starkaþær"
  Starkad_swe_dan_tek_mom: "Starkaþarmoþir"
@@ -7334,23 +6477,11 @@
  Stodkel_swe_dan_pat_dad_male: "Stoþkælssun"
  Stodkel_swe_dan_pat_dad_female: "Stoþkælsdottir"
 
- Stori_swe_dan: "Store"
- Stori_swe_dan_tek_mom: "Storamoþir"
- Stori_swe_dan_tek_dad: "Storafaþir"
- Stori_swe_dan_pat_dad_male: "Storasun"
- Stori_swe_dan_pat_dad_female: "Storadottir"
-
  Storolf_swe_dan: "Storolfær"
  Storolf_swe_dan_tek_mom: "Storolfsmoþir"
  Storolf_swe_dan_tek_dad: "Storolfsfaþir"
  Storolf_swe_dan_pat_dad_male: "Storolfssun"
  Storolf_swe_dan_pat_dad_female: "Storolfsdottir"
-
- Stuf_swe_dan: "Stúfær"
- Stuf_swe_dan_tek_mom: "Stúfsmoþir"
- Stuf_swe_dan_tek_dad: "Stúfsfaþir"
- Stuf_swe_dan_pat_dad_male: "Stúfssun"
- Stuf_swe_dan_pat_dad_female: "Stúfsdottir"
 
  Sturla_swe_dan: "Stúrla"
  Sturla_swe_dan_tek_mom: "Stúrlumoþir"
@@ -7369,12 +6500,6 @@
  Stynbjorn_swe_dan_tek_dad: "Stynbiærnarfaþir"
  Stynbjorn_swe_dan_pat_dad_male: "Stynbiærnarsun"
  Stynbjorn_swe_dan_pat_dad_female: "Stynbiærnardottir"
-
- Stygg_swe_dan: "Styggær"
- Stygg_swe_dan_tek_mom: "Styggsmoþir"
- Stygg_swe_dan_tek_dad: "Styggsfaþir"
- Stygg_swe_dan_pat_dad_male: "Styggssun"
- Stygg_swe_dan_pat_dad_female: "Styggsdottir"
 
  Styrbjorn_swe_dan: "Styrbiørn"
  Styrbjorn_swe_dan_tek_mom: "Styrbiærnarmoþir"
@@ -7489,12 +6614,6 @@
  Svarthofdi_swe_dan_tek_dad: "Svarthafþafaþir"
  Svarthofdi_swe_dan_pat_dad_male: "Svarthafþasun"
  Svarthofdi_swe_dan_pat_dad_female: "Svarthafþadottir"
-
- Svartung_swe_dan: "Svartungær"
- Svartung_swe_dan_tek_mom: "Svartungsmoþir"
- Svartung_swe_dan_tek_dad: "Svartungsfaþir"
- Svartung_swe_dan_pat_dad_male: "Svartungssun"
- Svartung_swe_dan_pat_dad_female: "Svartungsdottir"
 
  Svavar_swe_dan: "Svávar"
  Svavar_swe_dan_tek_mom: "Svávarsmoþir"
@@ -7793,12 +6912,6 @@
  Udh_swe_dan_pat_dad_male: "Uþssun"
  Udh_swe_dan_pat_dad_female: "Uþsdottir"
 
- Uggi_swe_dan: "Ugge"
- Uggi_swe_dan_tek_mom: "Uggamoþir"
- Uggi_swe_dan_tek_dad: "Uggafaþir"
- Uggi_swe_dan_pat_dad_male: "Uggasun"
- Uggi_swe_dan_pat_dad_female: "Uggadottir"
-
  Ulf_swe_dan: "Úlfær"
  Ulf_swe_dan_tek_mom: "Úlfsmoþir"
  Ulf_swe_dan_tek_dad: "Úlfsfaþir"
@@ -7877,12 +6990,6 @@
  Uni_swe_dan_pat_dad_male: "Unasun"
  Uni_swe_dan_pat_dad_female: "Unadottir"
 
- Unnketil_swe_dan: "Unnkætell"
- Unnketil_swe_dan_tek_mom: "Unnkætelsmoþir"
- Unnketil_swe_dan_tek_dad: "Unnkætelsfaþir"
- Unnketil_swe_dan_pat_dad_male: "Unnkætelssun"
- Unnketil_swe_dan_pat_dad_female: "Unnkætelsdottir"
-
  Unnar_swe_dan: "Unnar"
  Unnar_swe_dan_tek_mom: "Unnarsmoþir"
  Unnar_swe_dan_tek_dad: "Unnarsfaþir"
@@ -7924,12 +7031,6 @@
  Vagn_swe_dan_tek_dad: "Vagsfaþir"
  Vagn_swe_dan_pat_dad_male: "Vagssun"
  Vagn_swe_dan_pat_dad_female: "Vagsdottir"
-
- Vak_swe_dan: "Vakær"
- Vak_swe_dan_tek_mom: "Vaksmoþir"
- Vak_swe_dan_tek_dad: "Vaksfaþir"
- Vak_swe_dan_pat_dad_male: "Vakssun"
- Vak_swe_dan_pat_dad_female: "Vaksdottir"
 
  Valbjorn_swe_dan: "Valbiørn"
  Valbjorn_swe_dan_tek_mom: "Valbiærnarmoþir"
@@ -8050,12 +7151,6 @@
  Vilbaldr_swe_dan_tek_dad: "Velbaldsfaþir"
  Vilbaldr_swe_dan_pat_dad_male: "Velbaldssun"
  Vilbaldr_swe_dan_pat_dad_female: "Velbaldsdottir"
-
- Ved_swe_dan: "Veþær"
- Ved_swe_dan_tek_mom: "Veþsmoþir"
- Ved_swe_dan_tek_dad: "Veþsfaþir"
- Ved_swe_dan_pat_dad_male: "Veþssun"
- Ved_swe_dan_pat_dad_female: "Veþsdottir"
 
  Vedraldi_swe_dan: "Veþralde"
  Vedraldi_swe_dan_tek_mom: "Veþraldamoþir"
@@ -8279,12 +7374,6 @@
  Vidhugsi_swe_dan_pat_dad_male: "Víþhugsasun"
  Vidhugsi_swe_dan_pat_dad_female: "Víþhugsadottir"
 
- Vifil_swe_dan: "Vífill"
- Vifil_swe_dan_tek_mom: "Vífilsmoþir"
- Vifil_swe_dan_tek_dad: "Vífilsfaþir"
- Vifil_swe_dan_pat_dad_male: "Vífilssun"
- Vifil_swe_dan_pat_dad_female: "Vífilsdottir"
-
  Vidi_swe_dan: "Víþe"
  Vidi_swe_dan_tek_mom: "Víþamoþir"
  Vidi_swe_dan_tek_dad: "Víþafaþir"
@@ -8435,23 +7524,11 @@
  Vott_swe_dan_pat_dad_male: "Vøttssun"
  Vott_swe_dan_pat_dad_female: "Vøttsdottir"
 
- Vragi_swe_dan: "Vrage"
- Vragi_swe_dan_tek_mom: "Vragamoþir"
- Vragi_swe_dan_tek_dad: "Vragafaþir"
- Vragi_swe_dan_pat_dad_male: "Vragasun"
- Vragi_swe_dan_pat_dad_female: "Vragadottir"
-
  Vrai_swe_dan: "Vráe"
  Vrai_swe_dan_tek_mom: "Vrámoþir"
  Vrai_swe_dan_tek_dad: "Vráfaþir"
  Vrai_swe_dan_pat_dad_male: "Vrásun"
  Vrai_swe_dan_pat_dad_female: "Vrádottir"
-
- Vrangi_swe_dan: "Vrange"
- Vrangi_swe_dan_tek_mom: "Vrangamoþir"
- Vrangi_swe_dan_tek_dad: "Vrangafaþir"
- Vrangi_swe_dan_pat_dad_male: "Vrangasun"
- Vrangi_swe_dan_pat_dad_female: "Vrangadottir"
 
  Vreid_swe_dan: "Vreþær"
  Vreid_swe_dan_tek_mom: "Vreþarmoþir"
@@ -9048,14 +8125,6 @@
  Audhild_swe_dan_tek_mom: "Auþhildarmoþir"
  Audhild_swe_dan_tek_dad: "Auþhildarfaþir"
 
- Auga_swe_dan: "Auga"
- Auga_swe_dan_tek_mom: "Augumoþir"
- Auga_swe_dan_tek_dad: "Augufaþir"
-
- Athmiul_swe_dan: "Aþmiul" #Celtic
- Athmiul_swe_dan_tek_mom: "Aþmiularmoþir"
- Athmiul_swe_dan_tek_dad: "Aþmiularfaþir"
-
  Baugheid_swe_dan: "Baugheþær"
  Baugheid_swe_dan_tek_mom: "Baugheþarmoþir"
  Baugheid_swe_dan_tek_dad: "Baugheþarfaþir"
@@ -9095,10 +8164,6 @@
  Bjargey_swe_dan: "Biargøy"
  Bjargey_swe_dan_tek_mom: "Biargøyiarmoþir"
  Bjargey_swe_dan_tek_dad: "Biargøyiarfaþir"
-
- Bjollok_swe_dan: "Biollok" #celtic
- Bjollok_swe_dan_tek_mom: "Biollokarmoþir"
- Bjollok_swe_dan_tek_dad: "Biollokarfaþir"
 
  Bjorg_swe_dan: "biørg"
  Bjorg_swe_dan_tek_mom: "Biargamoþir"
@@ -9143,10 +8208,6 @@
  Botvi_swe_dan: "Botví"
  Botvi_swe_dan_tek_mom: "Botvíarmoþir"
  Botvi_swe_dan_tek_dad: "Botvíarfaþir"
-
- Brigida_swe_dan: "Brígiþa" #Celtic
- Brigida_swe_dan_tek_mom: "Brígiþumoþir"
- Brigida_swe_dan_tek_dad: "Brígiþufaþir"
 
  Bryngerd_swe_dan: "Bryngærþær"
  Bryngerd_swe_dan_tek_mom: "Bryngærþarmoþir"
@@ -9196,10 +8257,6 @@
  Dora_swe_dan_tek_mom: "Dorumoþir"
  Dora_swe_dan_tek_dad: "Dorufaþir"
 
- Dota_swe_dan: "Dota"
- Dota_swe_dan_tek_mom: "Dotumoþir"
- Dota_swe_dan_tek_dad: "Dotufaþir"
-
  Drifa_swe_dan: "Drífa"
  Drifa_swe_dan_tek_mom: "Drífumoþir"
  Drifa_swe_dan_tek_dad: "Drífufaþir"
@@ -9227,10 +8284,6 @@
  Edla_swe_dan: "Eþla"
  Edla_swe_dan_tek_mom: "Eþlumoþir"
  Edla_swe_dan_tek_dad: "Eþlufaþir"
-
- Edna_swe_dan: "Eþna" #Celtic
- Edna_swe_dan_tek_mom: "Eþnumoþir"
- Edna_swe_dan_tek_dad: "Eþnufaþir"
 
  Edny_swe_dan: "Eþný"
  Edny_swe_dan_tek_mom: "Eþnýiarmoþir"
@@ -9391,10 +8444,6 @@
  Fridgerd_swe_dan: "Friþgærþær"
  Fridgerd_swe_dan_tek_mom: "Fríþgærþarmoþir"
  Fridgerd_swe_dan_tek_dad: "Fríþgærþarfaþir"
-
- Frosthild_swe_dan: "Frosthildær" #AS
- Frosthild_swe_dan_tek_mom: "Fríþhildarmoþir"
- Frosthild_swe_dan_tek_dad: "Fríþhildarfaþir"
 
  Gauthild_swe_dan: "Gøthildær"
  Gauthild_swe_dan_tek_mom: "Gøthildarmoþir"
@@ -9560,12 +8609,6 @@
  Gunnaelf_swe_dan: "Gunnælfr"
  Gunnaelf_swe_dan_tek_mom: "Gunnælfarmoþir"
  Gunnaelf_swe_dan_tek_dad: "Gunnælfarfaþir"
-
- #Gunnfrid_swe_dan: "Gunnfríþær"
-
- Gunngifu_swe_dan: "Gunngifa" #AS
- Gunngifu_swe_dan_tek_mom: "Gunngifumoþir"
- Gunngifu_swe_dan_tek_dad: "Gunngifufaþir"
 
  Gunnheid_swe_dan: "Gunnheþær"
  Gunnheid_swe_dan_tek_mom: "Gunnheþarmoþir"
@@ -9772,10 +8815,6 @@
  Hjalmlaug_swe_dan_tek_mom: "Hialmlaugarmoþir"
  Hjalmlaug_swe_dan_tek_dad: "Hialmlaugarfaþir"
 
- Hjalp_swe_dan: "Hiølp"
- Hjalp_swe_dan_tek_mom: "Hiølparmoþir"
- Hjalp_swe_dan_tek_dad: "Hiølparfaþir"
-
  Hjordis_swe_dan: "Hiørdís"
  Hjordis_swe_dan_tek_mom: "Hiørdísarmoþir"
  Hjordis_swe_dan_tek_dad: "Hiørdísarfaþir"
@@ -9876,10 +8915,6 @@
  Hungerd_swe_dan_tek_mom: "Húngærþarmoþir"
  Hungerd_swe_dan_tek_dad: "Húngærþarfaþir"
 
- Hunhild_swe_dan: "Húnhildær" #AS
- Hunhild_swe_dan_tek_mom: "Húnhildarmoþir"
- Hunhild_swe_dan_tek_dad: "Húnhildarfaþir"
-
  Idun_swe_dan: "Iþunn"
  Idun_swe_dan_tek_mom: "Iþunnarmoþir"
  Idun_swe_dan_tek_dad: "Iþunnarfaþir"
@@ -9966,10 +9001,6 @@
  Isibel_swe_dan_tek_mom: "Isibelarmoþir"
  Isibel_swe_dan_tek_dad: "Isibelarfaþir"
 
- Isond_swe_dan: "Ísond" #Celtic
- Isond_swe_dan_tek_mom: "Ísondarmoþir"
- Isond_swe_dan_tek_dad: "Ísondarfaþir"
-
  Jardrud_swe_dan: "Iarþrúþær"
  Jardrud_swe_dan_tek_mom: "Iarþrúþarmoþir"
  Jardrud_swe_dan_tek_dad: "Iarþrúþarfaþir"
@@ -10026,10 +9057,6 @@
  Jutta_swe_dan_tek_mom: "Iuttumoþir"
  Jutta_swe_dan_tek_dad: "Iuttufaþir"
 
- Kadlin_swe_dan: "Kaþlín" #Celtic
- Kadlin_swe_dan_tek_mom: "Kaþlínarmoþir"
- Kadlin_swe_dan_tek_dad: "Kaþlínarfaþir"
-
  Kara_swe_dan: "Kára"
  Kara_swe_dan_tek_mom: "Kárumoþir"
  Kara_swe_dan_tek_dad: "Kárufaþir"
@@ -10085,14 +9112,6 @@
  Kolgrima_swe_dan: "Kolgríma"
  Kolgrima_swe_dan_tek_mom: "Kolgrímumoþir"
  Kolgrima_swe_dan_tek_dad: "Kolgrímufaþir"
-
- Kolla_swe_dan: "Kolla"
- Kolla_swe_dan_tek_mom: "Kollumoþir"
- Kolla_swe_dan_tek_dad: "Kollufaþir"
-
- Kormlod_swe_dan: "Kormløþ" #Celtic
- Kormlod_swe_dan_tek_mom: "Kormløþarmoþir"
- Kormlod_swe_dan_tek_dad: "Kormløþarfaþir"
 
  Krafla_swe_dan: "Krafla"
  Krafla_swe_dan_tek_mom: "Kraflumoþir"
@@ -10176,17 +9195,9 @@
  Malfrid_swe_dan_tek_mom: "Málfríþarmoþir"
  Malfrid_swe_dan_tek_dad: "Málfríþarfaþir"
 
- Mallymkun_swe_dan: "Mallymkun" #Celtic
- Mallymkun_swe_dan_tek_mom: "Mallymkunarmoþir"
- Mallymkun_swe_dan_tek_dad: "Mallymkunarfaþir"
-
  Malmfrid_swe_dan: "Málmfríþær"
  Malmfrid_swe_dan_tek_mom: "Málmfríþarmoþir"
  Malmfrid_swe_dan_tek_dad: "Málmfríþarfaþir"
-
- Malmury_swe_dan: "Malmury" #Celtic Christian
- Malmury_swe_dan_tek_mom: "Malmuryiarmoþir"
- Malmury_swe_dan_tek_dad: "Malmuryiarfaþir"
 
  Marthol_swe_dan: "Marþoll"
  Marthol_swe_dan_tek_mom: "Marþolsmoþir"
@@ -10218,10 +9229,6 @@
  Maeva_swe_dan_tek_mom: "Mævumoþir"
  Maeva_swe_dan_tek_dad: "Mævufaþir"
 
- Melkorka_swe_dan: "Melkorka" #Celtic
- Melkorka_swe_dan_tek_mom: "Melkorkumoþir"
- Melkorka_swe_dan_tek_dad: "Melkorkufaþir"
-
  Mjadveig_swe_dan: "Miaþveg"
  Mjadveig_swe_dan_tek_mom: "Miaþvegarmoþir"
  Mjadveig_swe_dan_tek_dad: "Miaþvegarfaþir"
@@ -10249,14 +9256,6 @@
  Mundgerd_swe_dan: "Mundgærþær"
  Mundgerd_swe_dan_tek_mom: "Mundgærþarmoþir"
  Mundgerd_swe_dan_tek_dad: "Mundgærþarfaþir"
-
- Myrgjol_swe_dan: "Myrgiol" #Celtic
- Myrgjol_swe_dan_tek_mom: "Myrgiolsmoþir"
- Myrgjol_swe_dan_tek_dad: "Myrgiolsfaþir"
-
- Myrun_swe_dan: "Mýrún" #Celtic
- Myrun_swe_dan_tek_mom: "Mýrúnarmoþir"
- Myrun_swe_dan_tek_dad: "Mýrúnarfaþir"
 
  Nauma_swe_dan: "Nauma"
  Nauma_swe_dan_tek_mom: "Naumumoþir"
@@ -10326,21 +9325,9 @@
  Osk_swe_dan_tek_mom: "Oskarmoþir"
  Osk_swe_dan_tek_dad: "Oskarfaþir"
 
- Otama_swe_dan: "Otama"
- Otama_swe_dan_tek_mom: "Otamumoþir"
- Otama_swe_dan_tek_dad: "Otamufaþir"
-
  Otkatla_swe_dan: "Otkatla"
  Otkatla_swe_dan_tek_mom: "Otkatlumoþir"
  Otkatla_swe_dan_tek_dad: "Otkatlufaþir"
-
- Radhild_swe_dan: "Ráþhildær" #AS
- Radhild_swe_dan_tek_mom: "Ráþhildarmoþir"
- Radhild_swe_dan_tek_dad: "Ráþhildarfaþir"
-
- Rafarta_swe_dan: "Rafarta" #Celtic
- Rafarta_swe_dan_tek_mom: "Rafartumoþir"
- Rafarta_swe_dan_tek_dad: "Rafartufaþir"
 
  Rafnhild_swe_dan: "Rafnhildær"
  Rafnhild_swe_dan_tek_mom: "Rafnhildarmoþir"
@@ -10402,10 +9389,6 @@
  Reginleif_swe_dan_tek_mom: "Reginlefarmoþir"
  Reginleif_swe_dan_tek_dad: "Reginlefarfaþir"
 
- Rikulata_swe_dan: "Ríkuláta"
- Rikulata_swe_dan_tek_mom: "Ríkulátumoþir"
- Rikulata_swe_dan_tek_dad: "Ríkulátufaþir"
-
  Rikvi_swe_dan: "Ríkví"
  Rikvi_swe_dan_tek_mom: "Ríkvíarmoþir"
  Rikvi_swe_dan_tek_dad: "Ríkvíarfaþir"
@@ -10461,10 +9444,6 @@
  Sesilida_swe_dan: "Sesilída" #Christian
  Sesilida_swe_dan_tek_mom: "Sesilídumoþir"
  Sesilida_swe_dan_tek_dad: "Sesilídufaþir"
-
- Sida_swe_dan: "Síþa"
- Sida_swe_dan_tek_mom: "Síþumoþir"
- Sida_swe_dan_tek_dad: "Síþufaþir"
 
  Sigbjorg_swe_dan: "Sigbiørg"
  Sigbjorg_swe_dan_tek_mom: "Sigbiærgarmoþir"
@@ -10524,10 +9503,6 @@
  Skirlaug_swe_dan_tek_mom: "Skírlaugarmoþir"
  Skirlaug_swe_dan_tek_dad: "Skírlaugarfaþir"
 
- Skjaldfrid_swe_dan: "Skialdfríþær" #AS
- Skjaldfrid_swe_dan_tek_mom: "Skialdfríþarmoþir"
- Skjaldfrid_swe_dan_tek_dad: "Skialdfríþarfaþir"
-
  Snaelaug_swe_dan: "Snæløg"
  Snaelaug_swe_dan_tek_mom: "Snælaugarmoþir"
  Snaelaug_swe_dan_tek_dad: "Snælaugarfaþir"
@@ -10559,10 +9534,6 @@
  Spana_swe_dan: "Spana"
  Spana_swe_dan_tek_mom: "Spanumoþir"
  Spana_swe_dan_tek_dad: "Spanufaþir"
-
- Stafnhild_swe_dan: "Stafnhildær" #AS
- Stafnhild_swe_dan_tek_mom: "Stafnhildarmoþir"
- Stafnhild_swe_dan_tek_dad: "Stafnhildarfaþir"
 
  Steina_swe_dan: "Stena"
  Steina_swe_dan_tek_mom: "Stenumoþir"

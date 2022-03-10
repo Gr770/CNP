@@ -289,12 +289,6 @@
  Alfgeir_norweg_pat_dad_male: "Alfgęirsson"
  Alfgeir_norweg_pat_dad_female: "Alfgęirsdóttir"
 
- Alfgrim_norweg: "Alfgrímr"
- Alfgrim_norweg_tek_mom: "Alfgrímsmóðir"
- Alfgrim_norweg_tek_dad: "Alfgrímsfaðir"
- Alfgrim_norweg_pat_dad_male: "Alfgrímsson"
- Alfgrim_norweg_pat_dad_female: "Alfgrímsdóttir"
-
  Alfketil_norweg: "Alfkętill"
  Alfketil_norweg_tek_mom: "Alfkętilsmóðir"
  Alfketil_norweg_tek_dad: "Alfkętilsfaðir"
@@ -336,12 +330,6 @@
  Alfvald_norweg_tek_dad: "Alfvaldsfaðir"
  Alfvald_norweg_pat_dad_male: "Alfvaldsson"
  Alfvald_norweg_pat_dad_female: "Alfvaldsdóttir"
-
- Alfvard_norweg: "Alfvarðr"
- Alfvard_norweg_tek_mom: "Alfvarðarmóðir"
- Alfvard_norweg_tek_dad: "Alfvarðarfaðir"
- Alfvard_norweg_pat_dad_male: "Alfvarðarson"
- Alfvard_norweg_pat_dad_female: "Alfvarðardóttir"
 
  Alfvarin_norweg: "Alfvarinn"
  Alfvarin_norweg_tek_mom: "Alfvarinsmóðir"
@@ -988,12 +976,6 @@
  Beggi_norweg_pat_dad_male: "Beggason"
  Beggi_norweg_pat_dad_female: "Beggadóttir"
  
- Beigan_norweg: "Beigan" #Celtic
- Beigan_norweg_tek_mom: "Beigansmóðir"
- Beigan_norweg_tek_dad: "Beigansfaðir"
- Beigan_norweg_pat_dad_male: "Beigansson"
- Beigan_norweg_pat_dad_female: "Beigansdóttir"
- 
  Beinir_norweg: "Beinir"
  Beinir_norweg_tek_mom: "Beinismóðir"
  Beinir_norweg_tek_dad: "Beinisfaðir"
@@ -1011,24 +993,6 @@
  Beken_norweg_tek_dad: "Bekensfaðir"
  Beken_norweg_pat_dad_male: "Bekensson"
  Beken_norweg_pat_dad_female: "Bekensdóttir"
- 
- Bekki_norweg: "Bekki" #AS
- Bekki_norweg_tek_mom: "Bekkamóðir"
- Bekki_norweg_tek_dad: "Bekkafaðir"
- Bekki_norweg_pat_dad_male: "Bekkason"
- Bekki_norweg_pat_dad_female: "Bekkadóttir"
- 
- Belli_norweg: "Belli" #OE
- Belli_norweg_tek_mom: "Bellamóðir"
- Belli_norweg_tek_dad: "Bellafaðir"
- Belli_norweg_pat_dad_male: "Bellason"
- Belli_norweg_pat_dad_female: "Belladóttir"
- 
- Belt_norweg: "Beltr" #OE
- Belt_norweg_tek_mom: "Beltsmóðir"
- Belt_norweg_tek_dad: "Beltsfaðir"
- Belt_norweg_pat_dad_male: "Beltsson"
- Belt_norweg_pat_dad_female: "Beltsdóttir"
 
  #Ben
  
@@ -1107,12 +1071,6 @@
  Birgir_norweg_tek_dad: "Birgisfaðir"
  Birgir_norweg_pat_dad_male: "Birgisson"
  Birgir_norweg_pat_dad_female: "Birgisdóttir"
- 
- Bjadach_norweg: "Biaðachr" #Celtic
- Bjadach_norweg_tek_mom: "Biaðachsmóðir"
- Bjadach_norweg_tek_dad: "Biaðachsfaðir"
- Bjadach_norweg_pat_dad_male: "Biaðachsson"
- Bjadach_norweg_pat_dad_female: "Biaðachsdóttir"
  #Bjarn
  
  Bjarn_norweg: "Biarni"
@@ -1262,12 +1220,6 @@
  Bogi_norweg_pat_dad_male: "Bogason"
  Bogi_norweg_pat_dad_female: "Bogadóttir"
  
- Bolnaut_norweg: "Bólnautr"
- Bolnaut_norweg_tek_mom: "Bólnautsmóðir"
- Bolnaut_norweg_tek_dad: "Bólnautsfaðir"
- Bolnaut_norweg_pat_dad_male: "Bólnautsson"
- Bolnaut_norweg_pat_dad_female: "Bólnautsdóttir"
- 
  Bondi_norweg: "Bóndi"
  Bondi_norweg_tek_mom: "Bóndamóðir"
  Bondi_norweg_tek_dad: "Bóndafaðir"
@@ -1301,12 +1253,6 @@
  Borgulf_norweg_pat_dad_female: "Borgúlfsdóttir"
 
  #Bot
- 
- Boti_norweg: "Bóti"
- Boti_norweg_tek_mom: "Bótamóðir"
- Boti_norweg_tek_dad: "Bótafaðir"
- Boti_norweg_pat_dad_male: "Bótason"
- Boti_norweg_pat_dad_female: "Bótadóttir"
  
  Botbjorn_norweg: "Bótbiǫrn"
  Botbjorn_norweg_tek_mom: "Bótbiarnarmóðir"
@@ -1386,12 +1332,6 @@
  Bragi_norweg_pat_dad_male: "Bragason"
  Bragi_norweg_pat_dad_female: "Bragadóttir"
  
- Brand_norweg: "Brandr"
- Brand_norweg_tek_mom: "Brandsmóðir"
- Brand_norweg_tek_dad: "Brandsfaðir"
- Brand_norweg_pat_dad_male: "Brandsson"
- Brand_norweg_pat_dad_female: "Brandsdóttir"
- 
  Brandulf_norweg: "Brandulfr"
  Brandulf_norweg_tek_mom: "Brandulfsmóðir"
  Brandulf_norweg_tek_dad: "Brandulfsfaðir"
@@ -1410,61 +1350,19 @@
  Bresi_norweg_pat_dad_male: "Bresason"
  Bresi_norweg_pat_dad_female: "Bresadóttir"
  
- Bretakoll_norweg: "Bretakǫllr" #AS
- Bretakoll_norweg_tek_mom: "Bretakǫllsmóðir"
- Bretakoll_norweg_tek_dad: "Bretakǫllsfaðir"
- Bretakoll_norweg_pat_dad_male: "Bretakǫllsson"
- Bretakoll_norweg_pat_dad_female: "Bretakǫllsdóttir"
- 
- Brian_norweg: "Bríán" #Celtic
- Brian_norweg_tek_mom: "Bríánsmóðir"
- Brian_norweg_tek_dad: "Bríánsfaðir"
- Brian_norweg_pat_dad_male: "Bríánsson"
- Brian_norweg_pat_dad_female: "Bríánsdóttir"
- 
  Brisi_norweg: "Brísi"
  Brisi_norweg_tek_mom: "Brísamóðir"
  Brisi_norweg_tek_dad: "Brísafaðir"
  Brisi_norweg_pat_dad_male: "Brísason"
  Brisi_norweg_pat_dad_female: "Brísadóttir"
  
- Brjan_norweg: "Briánn" #Celtic
- Brjan_norweg_tek_mom: "Briánsmóðir"
- Brjan_norweg_tek_dad: "Briánsfaðir"
- Brjan_norweg_pat_dad_male: "Briánsson"
- Brjan_norweg_pat_dad_female: "Briánsdóttir"
- 
  Brodd_norweg: "Broddr"
  Brodd_norweg_tek_mom: "Broddsmóðir"
  Brodd_norweg_tek_dad: "Broddsfaðir"
  Brodd_norweg_pat_dad_male: "Broddsson"
  Brodd_norweg_pat_dad_female: "Broddsdóttir"
- 
- Broklaus_norweg: "Bróklauss" #AS
- Broklaus_norweg_tek_mom: "Bróklausmóðir"
- Broklaus_norweg_tek_dad: "Bróklausfaðir"
- Broklaus_norweg_pat_dad_male: "Bróklausson"
- Broklaus_norweg_pat_dad_female: "Bróklaussdóttir"
- 
- Brotulf_norweg: "Brotulfr" #AS
- Brotulf_norweg_tek_mom: "Brotulfsmóðir"
- Brotulf_norweg_tek_dad: "Brotulfsfaðir"
- Brotulf_norweg_pat_dad_male: "Brotulfsson"
- Brotulf_norweg_pat_dad_female: "Brotulfsdóttir"
- 
- Brud_norweg: "Brúðr"
- Brud_norweg_tek_mom: "Brúðsmóðir"
- Brud_norweg_tek_dad: "Brúðsfaðir"
- Brud_norweg_pat_dad_male: "Brúðsson"
- Brud_norweg_pat_dad_female: "Brúðsdóttir"
 
  #Brun
- 
- Brunkarl_norweg: "Brúnkarl" #AS
- Brunkarl_norweg_tek_mom: "Brúnkarlsmóðir"
- Brunkarl_norweg_tek_dad: "Brúnkarlsfaðir"
- Brunkarl_norweg_pat_dad_male: "Brúnkarlsson"
- Brunkarl_norweg_pat_dad_female: "Brúnkarlsdóttir"
  
  Brunkel_norweg: "Brúnkęll"
  Brunkel_norweg_tek_mom: "Brúnkęlsmóðir"
@@ -1503,24 +1401,6 @@
  Brynjulf_norweg_pat_dad_male: "Bryniúlfsson"
  Brynjulf_norweg_pat_dad_female: "Bryniúlfsdóttir"
  
- Brusi_norweg: "Brúsi"
- Brusi_norweg_tek_mom: "Brúsamóðir"
- Brusi_norweg_tek_dad: "Brúsafaðir"
- Brusi_norweg_pat_dad_male: "Brúsason"
- Brusi_norweg_pat_dad_female: "Brúsadóttir"
- 
- Bryti_norweg: "Bryti"
- Bryti_norweg_tek_mom: "Brytamóðir"
- Bryti_norweg_tek_dad: "Brytafaðir"
- Bryti_norweg_pat_dad_male: "Brytason"
- Bryti_norweg_pat_dad_female: "Brytadóttir"
- 
- Budi_norweg: "Buði"
- Budi_norweg_tek_mom: "Buðamóðir"
- Budi_norweg_tek_dad: "Buðafaðir"
- Budi_norweg_pat_dad_male: "Buðason"
- Budi_norweg_pat_dad_female: "Buðadóttir"
- 
  Buldi_norweg: "Buldi"
  Buldi_norweg_tek_mom: "Buldamóðir"
  Buldi_norweg_tek_dad: "Buldafaðir"
@@ -1558,14 +1438,6 @@
  Butrald_norweg_tek_dad: "Butraldafaðir"
  Butrald_norweg_pat_dad_male: "Butraldason"
  Butrald_norweg_pat_dad_female: "Butraldadóttir"
-
- ###
- 
- Cranebein_norweg: "Cranebeinn" #AS
- Cranebein_norweg_tek_mom: "Cranebeinsmóðir"
- Cranebein_norweg_tek_dad: "Cranebeinsfaðir"
- Cranebein_norweg_pat_dad_male: "Cranebeinsson"
- Cranebein_norweg_pat_dad_female: "Cranebeinsdóttir"
 
  #Dag
  
@@ -1651,12 +1523,6 @@
  Djurgeir_norweg_pat_dad_male: "Diúrgęirsson"
  Djurgeir_norweg_pat_dad_female: "Diúrgęirsdóttir"
  
- Djur_norweg: "Diúri"
- Djur_norweg_tek_mom: "Diúramóðir"
- Djur_norweg_tek_dad: "Diúrafaðir"
- Djur_norweg_pat_dad_male: "Diúrason"
- Djur_norweg_pat_dad_female: "Diúradóttir"
- 
  Djurver_norweg: "Diúrvér"
  Djurver_norweg_tek_mom: "Diúrvésmóðir"
  Djurver_norweg_tek_dad: "Diúrvésfaðir"
@@ -1668,20 +1534,6 @@
  Dyrbjorn_norweg_tek_dad: "Dýrbiarnarfaðir"
  Dyrbjorn_norweg_pat_dad_male: "Dýrbiarnarson"
  Dyrbjorn_norweg_pat_dad_female: "Dýrbiarnardóttir"
-
- ###
- 
- Dofnak_norweg: "Dofnakr" #Celtic
- Dofnak_norweg_tek_mom: "Dofnaksmóðir"
- Dofnak_norweg_tek_dad: "Dofnaksfaðir"
- Dofnak_norweg_pat_dad_male: "Dofnaksson"
- Dofnak_norweg_pat_dad_female: "Dofnaksdóttir"
- 
- Dolgfinn_norweg: "Dolgfinnr" #AS
- Dolgfinn_norweg_tek_mom: "Dolgfinnsmóðir"
- Dolgfinn_norweg_tek_dad: "Dolgfinnsfaðir"
- Dolgfinn_norweg_pat_dad_male: "Dolgfinnsson"
- Dolgfinn_norweg_pat_dad_female: "Dolgfinnsdóttir"
 
  ###Dom
  
@@ -1696,12 +1548,6 @@
  Domar_norweg_tek_dad: "Dómársfaðir"
  Domar_norweg_pat_dad_male: "Dómársson"
  Domar_norweg_pat_dad_female: "Dómársdóttir"
- 
- Domnall_norweg: "Domnall" #Celtic
- Domnall_norweg_tek_mom: "Domnalsmóðir"
- Domnall_norweg_tek_dad: "Domnalsfaðir"
- Domnall_norweg_pat_dad_male: "Domnalsson"
- Domnall_norweg_pat_dad_female: "Domnalsdóttir"
 
  ###
  
@@ -1729,93 +1575,13 @@
  Dragmall_norweg_pat_dad_male: "Dragmálsson"
  Dragmall_norweg_pat_dad_female: "Dragmálsdóttir"
  
- Drjug_norweg: "Driúgr" #AS
- Drjug_norweg_tek_mom: "Driúgsmóðir"
- Drjug_norweg_tek_dad: "Driúgsfaðir"
- Drjug_norweg_pat_dad_male: "Driúgsson"
- Drjug_norweg_pat_dad_female: "Driúgsdóttir"
- 
- Dromund_norweg: "Drómundr" #AS
- Dromund_norweg_tek_mom: "Drómundarmóðir"
- Dromund_norweg_tek_dad: "Drómundarfaðir"
- Dromund_norweg_pat_dad_male: "Drómundarson"
- Dromund_norweg_pat_dad_female: "Drómundardóttir"
- 
- Drosboi_norweg: "Drósbói"
- Drosboi_norweg_tek_mom: "Drósbóamóðir"
- Drosboi_norweg_tek_dad: "Drósbóafaðir"
- Drosboi_norweg_pat_dad_male: "Drósbóason"
- Drosboi_norweg_pat_dad_female: "Drósbóadóttir"
- 
- Druian_norweg: "Druian" #Celtic
- Druian_norweg_tek_mom: "Druiansmóðir"
- Druian_norweg_tek_dad: "Druiansfaðir"
- Druian_norweg_pat_dad_male: "Druiansson"
- Druian_norweg_pat_dad_female: "Druiansdóttir"
- 
  Dudi_norweg: "Dúði"
  Dudi_norweg_tek_mom: "Dúðamóðir"
  Dudi_norweg_tek_dad: "Dúðafaðir"
  Dudi_norweg_pat_dad_male: "Dúðason"
  Dudi_norweg_pat_dad_female: "Dúðadóttir"
 
- #Duf (Celtic)
- 
- Dufan_norweg: "Dufan" #Celtic
- Dufan_norweg_tek_mom: "Dufansmóðir"
- Dufan_norweg_tek_dad: "Dufansfaðir"
- Dufan_norweg_pat_dad_male: "Dufansson"
- Dufan_norweg_pat_dad_female: "Dufansdóttir"
- 
- Dufgall_norweg: "Dufgall" #Celtic
- Dufgall_norweg_tek_mom: "Dufgalsmóðir"
- Dufgall_norweg_tek_dad: "Dufgalsfaðir"
- Dufgall_norweg_pat_dad_male: "Dufgalsson"
- Dufgall_norweg_pat_dad_female: "Dufgalsdóttir"
- 
- Dufguss_norweg: "Dufgúss" #Celtic
- Dufguss_norweg_tek_mom: "Dufgúsmóðir"
- Dufguss_norweg_tek_dad: "Dufgúsfaðir"
- Dufguss_norweg_pat_dad_male: "Dufgússon"
- Dufguss_norweg_pat_dad_female: "Dufgúsdóttir"
- 
- Dufnall_norweg: "Dufnall" #Celtic
- Dufnall_norweg_tek_mom: "Dufnalsmóðir"
- Dufnall_norweg_tek_dad: "Dufnalsfaðir"
- Dufnall_norweg_pat_dad_male: "Dufnalsson"
- Dufnall_norweg_pat_dad_female: "Dufnalsdóttir"
- 
- Dufniall_norweg: "Dufniall" #Celtic
- Dufniall_norweg_tek_mom: "Dufnialsmóðir"
- Dufniall_norweg_tek_dad: "Dufnialsfaðir"
- Dufniall_norweg_pat_dad_male: "Dufnialsson"
- Dufniall_norweg_pat_dad_female: "Dufnialsdóttir"
- 
- Dufthak_norweg: "Dufþakr" #Celtic
- Dufthak_norweg_tek_mom: "Dufþaksmóðir"
- Dufthak_norweg_tek_dad: "Dufþaksfaðir"
- Dufthak_norweg_pat_dad_male: "Dufþaksson"
- Dufthak_norweg_pat_dad_female: "Dufþaksdóttir"
-
  ###
- 
- Dugfuss_norweg: "Dugfúss" #Celtic
- Dugfuss_norweg_tek_mom: "Dugfúsmóðir"
- Dugfuss_norweg_tek_dad: "Dugfúsfaðir"
- Dugfuss_norweg_pat_dad_male: "Dugfússon"
- Dugfuss_norweg_pat_dad_female: "Dugfúsdóttir"
- 
- Dungad_norweg: "Dungaðr" #Celtic
- Dungad_norweg_tek_mom: "Dungaðsmóðir"
- Dungad_norweg_tek_dad: "Dungaðsfaðir"
- Dungad_norweg_pat_dad_male: "Dungaðsson"
- Dungad_norweg_pat_dad_female: "Dungaðsdóttir"
- 
- Dungall_norweg: "Dungall" #Celtic
- Dungall_norweg_tek_mom: "Dungalsmóðir"
- Dungall_norweg_tek_dad: "Dungalsfaðir"
- Dungall_norweg_pat_dad_male: "Dungalsson"
- Dungall_norweg_pat_dad_female: "Dungalsdóttir"
  
  Dyggvi_norweg: "Dyggvi"
  Dyggvi_norweg_tek_mom: "Dyggvamóðir"
@@ -2081,12 +1847,6 @@
 
  #F
  
- Faeit_norweg: "Fæitr"
- Faeit_norweg_tek_mom: "Fæitsmóðir"
- Faeit_norweg_tek_dad: "Fæitsfaðir"
- Faeit_norweg_pat_dad_male: "Fæitsson"
- Faeit_norweg_pat_dad_female: "Fæitsdóttir"
- 
  Falgeir_norweg: "Falgęirr"
  Falgeir_norweg_tek_mom: "Falgęirsmóðir"
  Falgeir_norweg_tek_dad: "Falgęirsfaðir"
@@ -2118,12 +1878,6 @@
  Farbjorn_norweg_tek_dad: "Farbiarnarfaðir"
  Farbjorn_norweg_pat_dad_male: "Farbiarnarson"
  Farbjorn_norweg_pat_dad_female: "Farbiarnardóttir"
- 
- Fargrim_norweg: "Fargrímr"
- Fargrim_norweg_tek_mom: "Fargrímsmóðir"
- Fargrim_norweg_tek_dad: "Fargrímsfaðir"
- Fargrim_norweg_pat_dad_male: "Fargrímsson"
- Fargrim_norweg_pat_dad_female: "Fargrímsdóttir"
  
  Farthegn_norweg: "Farþegn"
  Farthegn_norweg_tek_mom: "Farþegsmóðir"
@@ -2199,18 +1953,6 @@
  Fati_norweg_tek_dad: "Fatafaðir"
  Fati_norweg_pat_dad_male: "Fatason"
  Fati_norweg_pat_dad_female: "Fatadóttir"
- 
- Feig_norweg: "Feigr" #AS
- Feig_norweg_tek_mom: "Feigsmóðir"
- Feig_norweg_tek_dad: "Feigsfaðir"
- Feig_norweg_pat_dad_male: "Feigsson"
- Feig_norweg_pat_dad_female: "Feigsdóttir"
- 
- Fiak_norweg: "Fiak" #Celtic
- Fiak_norweg_tek_mom: "Fiaksmóðir"
- Fiak_norweg_tek_dad: "Fiaksfaðir"
- Fiak_norweg_pat_dad_male: "Fiaksson"
- Fiak_norweg_pat_dad_female: "Fiaksdóttir"
  
  Filippus_norweg: "Filippus" #Christian
  Filippus_norweg_tek_mom: "Filippusmóðir"
@@ -2313,12 +2055,6 @@
  Folkbjorn_norweg_pat_dad_male: "Folkbiarnarson"
  Folkbjorn_norweg_pat_dad_female: "Folkbiarnardóttir"
  
- Folkgeir_norweg: "Folkgęirr"
- Folkgeir_norweg_tek_mom: "Folkgęirsmóðir"
- Folkgeir_norweg_tek_dad: "Folkgęirsfaðir"
- Folkgeir_norweg_pat_dad_male: "Folkgęirsson"
- Folkgeir_norweg_pat_dad_female: "Folkgęirsdóttir"
- 
  Folkmar_norweg: "Folkmárr"
  Folkmar_norweg_tek_mom: "Folkmársmóðir"
  Folkmar_norweg_tek_dad: "Folkmársfaðir"
@@ -2362,12 +2098,6 @@
  Fothrad_norweg_tek_dad: "Fóthraðsfaðir"
  Fothrad_norweg_pat_dad_male: "Fóthraðsson"
  Fothrad_norweg_pat_dad_female: "Fóthraðsdóttir"
- 
- Frani_norweg: "Fráni" #AS
- Frani_norweg_tek_mom: "Fránamóðir"
- Frani_norweg_tek_dad: "Fránafaðir"
- Frani_norweg_pat_dad_male: "Fránason"
- Frani_norweg_pat_dad_female: "Fránadóttir"
 
  #Frey Norse
  
@@ -2471,29 +2201,11 @@
  Frirek_norweg_pat_dad_male: "Fríreksson"
  Frirek_norweg_pat_dad_female: "Fríreksdóttir"
  
- Frodi_norweg: "Fróði"
- Frodi_norweg_tek_mom: "Fróðamóðir"
- Frodi_norweg_tek_dad: "Fróðafaðir"
- Frodi_norweg_pat_dad_male: "Fróðason"
- Frodi_norweg_pat_dad_female: "Fróðadóttir"
- 
  Frokn_norweg: "Frøkn"
  Frokn_norweg_tek_mom: "Frøksmóðir"
  Frokn_norweg_tek_dad: "Frøksfaðir"
  Frokn_norweg_pat_dad_male: "Frøksson"
  Frokn_norweg_pat_dad_female: "Frøksdóttir"
- 
- Frostulf_norweg: "Frostulfr"
- Frostulf_norweg_tek_mom: "Frostulfsmóðir"
- Frostulf_norweg_tek_dad: "Frostulfsfaðir"
- Frostulf_norweg_pat_dad_male: "Frostulfsson"
- Frostulf_norweg_pat_dad_female: "Frostulfsdóttir"
- 
- Fuldar_norweg: "Fuldarr" #AS
- Fuldar_norweg_tek_mom: "Fuldarsmóðir"
- Fuldar_norweg_tek_dad: "Fuldarsfaðir"
- Fuldar_norweg_pat_dad_male: "Fuldarsson"
- Fuldar_norweg_pat_dad_female: "Fuldarsdóttir"
  
  Fullhugi_norweg: "Fullhugi"
  Fullhugi_norweg_tek_mom: "Fullhugamóðir"
@@ -2509,41 +2221,11 @@
 
  #G
  
- Gagar_norweg: "Gagarr"
- Gagar_norweg_tek_mom: "Gagarsmóðir"
- Gagar_norweg_tek_dad: "Gagarsfaðir"
- Gagar_norweg_pat_dad_male: "Gagarsson"
- Gagar_norweg_pat_dad_female: "Gagarsdóttir"
- 
- Gag_norweg: "Gagr"
- Gag_norweg_tek_mom: "Gagsmóðir"
- Gag_norweg_tek_dad: "Gagsfaðir"
- Gag_norweg_pat_dad_male: "Gagsson"
- Gag_norweg_pat_dad_female: "Gagsdóttir"
- 
- Galmi_norweg: "Galmi"
- Galmi_norweg_tek_mom: "Galmamóðir"
- Galmi_norweg_tek_dad: "Galmafaðir"
- Galmi_norweg_pat_dad_male: "Galmason"
- Galmi_norweg_pat_dad_female: "Galmadóttir"
- 
  Galti_norweg: "Galti"
  Galti_norweg_tek_mom: "Galtamóðir"
  Galti_norweg_tek_dad: "Galtafaðir"
  Galti_norweg_pat_dad_male: "Galtason"
  Galti_norweg_pat_dad_female: "Galtadóttir"
- 
- Gamalbarn_norweg: "Gamalbarn" #AS
- Gamalbarn_norweg_tek_mom: "Gamalbarnsmóðir"
- Gamalbarn_norweg_tek_dad: "Gamalbarnsfaðir"
- Gamalbarn_norweg_pat_dad_male: "Gamalbarnsson"
- Gamalbarn_norweg_pat_dad_female: "Gamalbarnsdóttir"
- 
- Gamalkarl_norweg: "Gamalkarli" #AS
- Gamalkarl_norweg_tek_mom: "Gamalkarlamóðir"
- Gamalkarl_norweg_tek_dad: "Gamalkarlafaðir"
- Gamalkarl_norweg_pat_dad_male: "Gamalkarlason"
- Gamalkarl_norweg_pat_dad_female: "Gamalkarladóttir"
  
  Gandalf_norweg: "Gandálfr" #POG
  Gandalf_norweg_tek_mom: "Gandálfsmóðir"
@@ -2557,12 +2239,6 @@
  Gangulf_norweg_pat_dad_male: "Gangulfsson"
  Gangulf_norweg_pat_dad_female: "Gangulfsdóttir"
  
- Gapr_norweg: "Gapr"
- Gapr_norweg_tek_mom: "Gapsmóðir"
- Gapr_norweg_tek_dad: "Gapsfaðir"
- Gapr_norweg_pat_dad_male: "Gapsson"
- Gapr_norweg_pat_dad_female: "Gapsdóttir"
- 
  Gardar_norweg: "Garðarr"
  Gardar_norweg_tek_mom: "Garðarsmóðir"
  Gardar_norweg_tek_dad: "Garðarsfaðir"
@@ -2574,12 +2250,6 @@
  Gard_norweg_tek_dad: "Garðarfaðir"
  Gard_norweg_pat_dad_male: "Garðarson"
  Gard_norweg_pat_dad_female: "Garðardóttir"
- 
- Gardulf_norweg: "Garðulfr" #AS
- Gardulf_norweg_tek_mom: "Garðulfsmóðir"
- Gardulf_norweg_tek_dad: "Garðulfsfaðir"
- Gardulf_norweg_pat_dad_male: "Garðulfsson"
- Gardulf_norweg_pat_dad_female: "Garðulfsdóttir"
  
  Gauss_norweg: "Gauss"
  Gauss_norweg_tek_mom: "Gaussmóðir"
@@ -2600,12 +2270,6 @@
  Gautar_norweg_tek_dad: "Gautarsfaðir"
  Gautar_norweg_pat_dad_male: "Gautarsson"
  Gautar_norweg_pat_dad_female: "Gautarsdóttir"
- 
- Gautdiarf_norweg: "Gautdiarfr"
- Gautdiarf_norweg_tek_mom: "Gautdiarfsmóðir"
- Gautdiarf_norweg_tek_dad: "Gautdiarfsfaðir"
- Gautdiarf_norweg_pat_dad_male: "Gautdiarfsson"
- Gautdiarf_norweg_pat_dad_female: "Gautdiarfsdóttir"
  
  Gautrad_norweg: "Gautráðr"
  Gautrad_norweg_tek_mom: "Gautráðsmóðir"
@@ -2727,12 +2391,6 @@
  Geirmar_norweg_pat_dad_male: "Gęirmársson"
  Geirmar_norweg_pat_dad_female: "Gęirmársdóttir"
  
- Geirmod_norweg: "Gęirmóðr"
- Geirmod_norweg_tek_mom: "Gęirmóðsmóðir"
- Geirmod_norweg_tek_dad: "Gęirmóðsfaðir"
- Geirmod_norweg_pat_dad_male: "Gęirmóðsson"
- Geirmod_norweg_pat_dad_female: "Gęirmóðsdóttir"
- 
  Geirmund_norweg: "Gęirmundr"
  Geirmund_norweg_tek_mom: "Gęirmundarmóðir"
  Geirmund_norweg_tek_dad: "Gęirmundarfaðir"
@@ -2780,18 +2438,6 @@
  Geirthjof_norweg_tek_dad: "Gęirþiófsfaðir"
  Geirthjof_norweg_pat_dad_male: "Gęirþiófsson"
  Geirthjof_norweg_pat_dad_female: "Gęirþiófsdóttir"
- 
- Geirvard_norweg: "Gęirvarðr"
- Geirvard_norweg_tek_mom: "Gęirvarðarmóðir"
- Geirvard_norweg_tek_dad: "Gęirvarðarfaðir"
- Geirvard_norweg_pat_dad_male: "Gęirvarðarson"
- Geirvard_norweg_pat_dad_female: "Gęirvarðardóttir"
- 
- Geirvar_norweg: "Gęirvarr"
- Geirvar_norweg_tek_mom: "Gęirvarsmóðir"
- Geirvar_norweg_tek_dad: "Gęirvarsfaðir"
- Geirvar_norweg_pat_dad_male: "Gęirvarsson"
- Geirvar_norweg_pat_dad_female: "Gęirvarsdóttir"
  
  Geirvid_norweg: "Gęirviðr"
  Geirvid_norweg_tek_mom: "Gęirviðarmóðir"
@@ -2895,12 +2541,6 @@
 
  ###
  
- Giulak_norweg: "Giúlákr"
- Giulak_norweg_tek_mom: "Giúláksmóðir"
- Giulak_norweg_tek_dad: "Giúláksfaðir"
- Giulak_norweg_pat_dad_male: "Giúláksson"
- Giulak_norweg_pat_dad_female: "Giúláksdóttir"
- 
  Gizur_norweg: "Gizurr"
  Gizur_norweg_tek_mom: "Gizursmóðir"
  Gizur_norweg_tek_dad: "Gizursfaðir"
@@ -2917,12 +2557,6 @@
  Gjafvald_norweg_tek_dad: "Giafvaldsfaðir"
  Gjafvald_norweg_pat_dad_male: "Giafvaldsson"
  Gjafvald_norweg_pat_dad_female: "Giafvaldsdóttir"
- 
- Gjalfver_norweg: "Gialfvér"
- Gjalfver_norweg_tek_mom: "Giafvésmóðir"
- Gjalfver_norweg_tek_dad: "Giafvésfaðir"
- Gjalfver_norweg_pat_dad_male: "Gialfvésson"
- Gjalfver_norweg_pat_dad_female: "Gialfvésdóttir"
  
  Gjallandi_norweg: "Giallandi"
  Gjallandi_norweg_tek_mom: "Giallandamóðir"
@@ -2942,12 +2576,6 @@
  Glam_norweg_pat_dad_male: "Glámsson"
  Glam_norweg_pat_dad_female: "Glámsdóttir"
  
- Glippir_norweg: "Glippir"
- Glippir_norweg_tek_mom: "Glippismóðir"
- Glippir_norweg_tek_dad: "Glippisfaðir"
- Glippir_norweg_pat_dad_male: "Glippisson"
- Glippir_norweg_pat_dad_female: "Glippisdóttir"
- 
  Glodi_norweg: "Glóði"
  Glodi_norweg_tek_mom: "Glóðamóðir"
  Glodi_norweg_tek_dad: "Glóðafaðir"
@@ -2959,12 +2587,6 @@
  Gloedir_norweg_tek_dad: "Glœðisfaðir"
  Gloedir_norweg_pat_dad_male: "Glœðisson"
  Gloedir_norweg_pat_dad_female: "Glœðisdóttir"
- 
- Glogg_norweg: "Glǫggr"
- Glogg_norweg_tek_mom: "Glǫggsmóðir"
- Glogg_norweg_tek_dad: "Glǫggsfaðir"
- Glogg_norweg_pat_dad_male: "Glǫggsson"
- Glogg_norweg_pat_dad_female: "Glǫggsdóttir"
  
  Gneisti_norweg: "Gneisti"
  Gneisti_norweg_tek_mom: "Gneistamóðir"
@@ -2989,12 +2611,6 @@
  Gnypli_norweg_tek_dad: "Gnýplafaðir"
  Gnypli_norweg_pat_dad_male: "Gnýplason"
  Gnypli_norweg_pat_dad_female: "Gnýpladóttir"
- 
- Gnaeggir_norweg: "Gnæggir"
- Gnaeggir_norweg_tek_mom: "Gnæggismóðir"
- Gnaeggir_norweg_tek_dad: "Gnæggisfaðir"
- Gnaeggir_norweg_pat_dad_male: "Gnæggisson"
- Gnaeggir_norweg_pat_dad_female: "Gnæggisdóttir"
 
  #Goð
  
@@ -3045,12 +2661,6 @@
  Gudfast_norweg_tek_dad: "Guðfastsfaðir"
  Gudfast_norweg_pat_dad_male: "Guðfastsson"
  Gudfast_norweg_pat_dad_female: "Guðfastsdóttir"
- 
- Guddiarf_norweg: "Guðdiarfr"
- Guddiarf_norweg_tek_mom: "Guðdiarfsmóðir"
- Guddiarf_norweg_tek_dad: "Guðdiarfsfaðir"
- Guddiarf_norweg_pat_dad_male: "Guðdiarfsson"
- Guddiarf_norweg_pat_dad_female: "Guðdiarfsdóttir"
  
  Gudbrand_norweg: "Guðbrandr"
  Gudbrand_norweg_tek_mom: "Guðbrandsmóðir"
@@ -3173,18 +2783,6 @@
 
  ###
  
- Godsvein_norweg: "Godsvęinn" #AS
- Godsvein_norweg_tek_mom: "Godsvęinsmóðir"
- Godsvein_norweg_tek_dad: "Godsvęinsfaðir"
- Godsvein_norweg_pat_dad_male: "Godsvęinsson"
- Godsvein_norweg_pat_dad_female: "Godsvęinsdóttir"
- 
- Goldstein_norweg: "Goldstęinn" #AS
- Goldstein_norweg_tek_mom: "Goldstęinsmóðir"
- Goldstein_norweg_tek_dad: "Goldstęinsfaðir"
- Goldstein_norweg_pat_dad_male: "Goldstęinsson"
- Goldstein_norweg_pat_dad_female: "Goldstęinsdóttir"
- 
  Gorm_norweg: "Gormr"
  Gorm_norweg_tek_mom: "Gormsmóðir"
  Gorm_norweg_tek_dad: "Gormsfaðir"
@@ -3224,12 +2822,6 @@
  Gregorius_norweg_tek_dad: "Grégóríúsfaðir"
  Gregorius_norweg_pat_dad_male: "Grégóríússon"
  Gregorius_norweg_pat_dad_female: "Grégóríúsdóttir"
- 
- Greidi_norweg: "Gręiði" #AS
- Greidi_norweg_tek_mom: "Gręiðamóðir"
- Greidi_norweg_tek_dad: "Gręiðafaðir"
- Greidi_norweg_pat_dad_male: "Gręiðason"
- Greidi_norweg_pat_dad_female: "Gręiðadóttir"
  
  Grenjad_norweg: "Greniaðr"
  Grenjad_norweg_tek_mom: "Greniaðsmóðir"
@@ -3288,12 +2880,6 @@
  Grjotgard_norweg_tek_dad: "Griótgarðarfaðir"
  Grjotgard_norweg_pat_dad_male: "Griótgarðarson"
  Grjotgard_norweg_pat_dad_female: "Griótgarðardóttir"
-
- Gufubein_norweg: "Gufubęinn" #AS
- Gufubein_norweg_tek_mom: "Gufubęinsmóðir"
- Gufubein_norweg_tek_dad: "Gufubęinsfaðir"
- Gufubein_norweg_pat_dad_male: "Gufubęinsson"
- Gufubein_norweg_pat_dad_female: "Gufubęinsdóttir"
 
  #Gunn
  
@@ -3433,12 +3019,6 @@
 
  #Há
  
- Habein_norweg: "Hábęinn" #AS
- Habein_norweg_tek_mom: "Hábęinsmóðir"
- Habein_norweg_tek_dad: "Hábęinsfaðir"
- Habein_norweg_pat_dad_male: "Hábęinsson"
- Habein_norweg_pat_dad_female: "Hábęinsdóttir"
- 
  Hamund_norweg: "Hámundr"
  Hamund_norweg_tek_mom: "Hámundarmóðir"
  Hamund_norweg_tek_dad: "Hámundarfaðir"
@@ -3494,18 +3074,6 @@
  Haeng_norweg_tek_dad: "Hængsfaðir"
  Haeng_norweg_pat_dad_male: "Hængsson"
  Haeng_norweg_pat_dad_female: "Hængsdóttir"
- 
- Haera_norweg: "Hæra" #Myth Male
- Haera_norweg_tek_mom: "Hærumóðir"
- Haera_norweg_tek_dad: "Hærufaðir"
- Haeng_norweg_pat_dad_male: "Hæruson"
- Haeng_norweg_pat_dad_female: "Hærudóttir"
- 
- Haering_norweg: "Hæringr"
- Haering_norweg_tek_mom: "Hæringsmóðir"
- Haering_norweg_tek_dad: "Hæringsfaðir"
- Haering_norweg_pat_dad_male: "Hæringsson"
- Haering_norweg_pat_dad_female: "Hæringsdóttir"
  
  Haetting_norweg: "Hættingr"
  Haetting_norweg_tek_mom: "Hættingsmóðir"
@@ -3575,18 +3143,6 @@
  Hagstein_norweg_tek_dad: "Hagstęinsfaðir"
  Hagstein_norweg_pat_dad_male: "Hagstęinsson"
  Hagstein_norweg_pat_dad_female: "Hagstęinsdóttir"
- 
- Hakikarl_norweg: "Hakikarl" #AS
- Hakikarl_norweg_tek_mom: "Hakikarlsmóðir"
- Hakikarl_norweg_tek_dad: "Hakikarlsfaðir"
- Hakikarl_norweg_pat_dad_male: "Hakikarlsson"
- Hakikarl_norweg_pat_dad_female: "Hakikarlsdóttir"
- 
- Haklang_norweg: "Haklangr" #Myth
- Haklang_norweg_tek_mom: "Haklangsmóðir"
- Haklang_norweg_tek_dad: "Haklangsfaðir"
- Haklang_norweg_pat_dad_male: "Haklangsson"
- Haklang_norweg_pat_dad_female: "Haklangsdóttir"
  
  Hakon_norweg: "Hákonn"
  Hakon_norweg_tek_mom: "Hákonsmóðir"
@@ -3722,12 +3278,6 @@
 
  ###
  
- Hals_norweg: "Háls"
- Hals_norweg_tek_mom: "Hálsmóðir"
- Hals_norweg_tek_dad: "Hálsfaðir"
- Hals_norweg_pat_dad_male: "Hálsson"
- Hals_norweg_pat_dad_female: "Hálsdóttir"
- 
  Hamal_norweg: "Hamall"
  Hamal_norweg_tek_mom: "Hamalsmóðir"
  Hamal_norweg_tek_dad: "Hamalsfaðir"
@@ -3803,18 +3353,6 @@
  Harri_norweg_tek_dad: "Harrafaðir"
  Harri_norweg_pat_dad_male: "Harrason"
  Harri_norweg_pat_dad_female: "Harradóttir"
- 
- Hauk_norweg: "Haukr"
- Hauk_norweg_tek_mom: "Hauksmóðir"
- Hauk_norweg_tek_dad: "Hauksfaðir"
- Hauk_norweg_pat_dad_male: "Hauksson"
- Hauk_norweg_pat_dad_female: "Hauksdóttir"
- 
- Haukreidi_norweg: "Haukreiði" #AS
- Haukreidi_norweg_tek_mom: "Haukreiðamóðir"
- Haukreidi_norweg_tek_dad: "Haukreiðafaðir"
- Haukreidi_norweg_pat_dad_male: "Haukreiðason"
- Haukreidi_norweg_pat_dad_female: "Haukreiðadóttir"
  
  Haurr_norweg: "Haurr"
  Haurr_norweg_tek_mom: "Haursmóðir"
@@ -3996,12 +3534,6 @@
  Hergrim_norweg_tek_dad: "Hęrgrímsfaðir"
  Hergrim_norweg_pat_dad_male: "Hęrgrímsson"
  Hergrim_norweg_pat_dad_female: "Hęrgrímsdóttir"
- 
- Herjar_norweg: "Hęriarr"
- Herjar_norweg_tek_mom: "Hęriarsmóðir"
- Herjar_norweg_tek_dad: "Hęriarsfaðir"
- Herjar_norweg_pat_dad_male: "Hęriarsson"
- Herjar_norweg_pat_dad_female: "Hęriarsdóttir"
  
  Herjolf_norweg: "Hęriólfr"
  Herjolf_norweg_tek_mom: "Hęriólfsmóðir"
@@ -4207,12 +3739,6 @@
 
  ###
  
- Hjort_norweg: "Hiǫrtr"
- Hjort_norweg_tek_mom: "Hiǫrtsmóðir"
- Hjort_norweg_tek_dad: "Hiǫrtsfaðir"
- Hjort_norweg_pat_dad_male: "Hiǫrtsson"
- Hjort_norweg_pat_dad_female: "Hiǫrtsdóttir"
- 
  Hlenni_norweg: "Lenni"
  Hlenni_norweg_tek_mom: "Lennamóðir"
  Hlenni_norweg_tek_dad: "Lennafaðir"
@@ -4247,12 +3773,6 @@
  Hnaki_norweg_tek_dad: "Nakafaðir"
  Hnaki_norweg_pat_dad_male: "Nakason"
  Hnaki_norweg_pat_dad_female: "Nakadóttir"
- 
- Hnefi_norweg: "Nęfi"
- Hnefi_norweg_tek_mom: "Nęfamóðir"
- Hnefi_norweg_tek_dad: "Nęfafaðir"
- Hnefi_norweg_pat_dad_male: "Nęfason"
- Hnefi_norweg_pat_dad_female: "Nęfadóttir"
  
  Hneit_norweg: "Nęitr"
  Hneit_norweg_tek_mom: "Nęitsmóðir"
@@ -4366,29 +3886,11 @@
  Horgi_norweg_pat_dad_male: "Horgason"
  Horgi_norweg_pat_dad_female: "Horgadóttir"
  
- Hornbodi_norweg: "Hornboði" #AS
- Hornbodi_norweg_tek_mom: "Hornboðamóðir"
- Hornbodi_norweg_tek_dad: "Hornboðafaðir"
- Hornbodi_norweg_pat_dad_male: "Hornboðason"
- Hornbodi_norweg_pat_dad_female: "Hornboðadóttir"
- 
- Horni_norweg: "Horni" #AS
- Horni_norweg_tek_mom: "Hornamóðir"
- Horni_norweg_tek_dad: "Hornafaðir"
- Horni_norweg_pat_dad_male: "Hornason"
- Horni_norweg_pat_dad_female: "Hornadóttir"
- 
  Hoskuld_norweg: "Hoskuldr"
  Hoskuld_norweg_tek_mom: "Hoskuldsmóðir"
  Hoskuld_norweg_tek_dad: "Hoskuldsfaðir"
  Hoskuld_norweg_pat_dad_male: "Hoskuldsson"
  Hoskuld_norweg_pat_dad_female: "Hoskuldsdóttir"
- 
- Radi_norweg: "Raði"
- Radi_norweg_tek_mom: "Raðamóðir"
- Radi_norweg_tek_dad: "Raðafaðir"
- Radi_norweg_pat_dad_male: "Raðason"
- Radi_norweg_pat_dad_female: "Raðadóttir"
  
  Rafn_norweg: "Rafn"
  Rafn_norweg_tek_mom: "Rafsmóðir"
@@ -4435,32 +3937,20 @@
  Reidmar_norweg: "Ręiðmárr"
  Reidmar_norweg_tek_mom: "Ręiðmársmóðir"
  Reidmar_norweg_tek_dad: "Ręiðmársfaðir"
- Raidmar_norweg_pat_dad_male: "Ręiðmársson"
- Raidmar_norweg_pat_dad_female: "Ręiðmársdóttir"
+ Reidmar_norweg_pat_dad_male: "Ręiðmársson"
+ Reidmar_norweg_pat_dad_female: "Ręiðmársdóttir"
  
  Reidulf_norweg: "Ręiðúlfr"
  Reidulf_norweg_tek_mom: "Ręiðúlfsmóðir"
  Reidulf_norweg_tek_dad: "Ręiðúlfsfaðir"
- Raidulf_norweg_pat_dad_male: "Ręiðúlfsson"
- Raidulf_norweg_pat_dad_female: "Ręiðúlfsdóttir"
- 
- Reidir_norweg: "Ręiðir"
- Reidir_norweg_tek_mom: "Ręiðismóðir"
- Reidir_norweg_tek_dad: "Ręiðisfaðir"
- Raidir_norweg_pat_dad_male: "Ręiðisson"
- Raidir_norweg_pat_dad_female: "Ręiðisdóttir"
+ Reidulf_norweg_pat_dad_male: "Ręiðúlfsson"
+ Reidulf_norweg_pat_dad_female: "Ręiðúlfsdóttir"
  
  Rifli_norweg: "Rifli"
  Rifli_norweg_tek_mom: "Riflamóðir"
  Rifli_norweg_tek_dad: "Riflafaðir"
  Rifli_norweg_pat_dad_male: "Riflason"
  Rifli_norweg_pat_dad_female: "Rifladóttir"
- 
- Ring_norweg: "Ringr"
- Ring_norweg_tek_mom: "Ringsmóðir"
- Ring_norweg_tek_dad: "Ringsfaðir"
- Ring_norweg_pat_dad_male: "Ringsson"
- Ring_norweg_pat_dad_female: "Ringsdóttir"
  
  Ringulf_norweg: "Ringulfr"
  Ringulf_norweg_tek_mom: "Ringulfsmóðir"
@@ -4582,12 +4072,6 @@
  Roi_norweg_pat_dad_male: "Róason"
  Roi_norweg_pat_dad_female: "Róadóttir"
  
- Rok_norweg: "Rókr" #Norse
- Rok_norweg_tek_mom: "Róksmóðir"
- Rok_norweg_tek_dad: "Róksfaðir"
- Rok_norweg_pat_dad_male: "Róksson"
- Rok_norweg_pat_dad_female: "Róksdóttir"
- 
  Hrolfr_norweg: "Rólfr"
  Hrolfr_norweg_tek_mom: "Rólfsmóðir"
  Hrolfr_norweg_tek_dad: "Rólfsfaðir"
@@ -4665,24 +4149,6 @@
  Hulvid_norweg_pat_dad_male: "Hulviðarson"
  Hulvid_norweg_pat_dad_female: "Hulviðardóttir"
  
- Hundifot_norweg: "Hundifotr" #AS
- Hundifot_norweg_tek_mom: "Hundifotsmóðir"
- Hundifot_norweg_tek_dad: "Hundifotsfaðir"
- Hundifot_norweg_pat_dad_male: "Hundifotsson"
- Hundifot_norweg_pat_dad_female: "Hundifotsdóttir"
- 
- Hundigeir_norweg: "Hundigęirr" #AS
- Hundigeir_norweg_tek_mom: "Hundigęirsmóðir"
- Hundigeir_norweg_tek_dad: "Hundigęirsfaðir"
- Hundigeir_norweg_pat_dad_male: "Hundigęirsson"
- Hundigeir_norweg_pat_dad_female: "Hundigęirsdóttir"
- 
- Hundigrim_norweg: "Hundigrímr" #AS
- Hundigrim_norweg_tek_mom: "Hundigrímsmóðir"
- Hundigrim_norweg_tek_dad: "Hundigrímsfaðir"
- Hundigrim_norweg_pat_dad_male: "Hundigrímsson"
- Hundigrim_norweg_pat_dad_female: "Hundigrímsdóttir"
- 
  Hundolf_norweg: "Hundólfr"
  Hundolf__norweg_tek_mom: "Hundólfsmóðir"
  Hundolf__norweg_tek_dad: "Hundólfsfaðir"
@@ -4694,12 +4160,6 @@
  Hun_norweg_tek_dad: "Húnsfaðir"
  Hun_norweg_pat_dad_male: "Húnsson"
  Hun_norweg_pat_dad_female: "Húnsdóttir"
- 
- Hunketil_norweg: "Húnkętill" #AS
- Hunketil_norweg_tek_mom: "Húnkętilsmóðir"
- Hunketil_norweg_tek_dad: "Húnkętilsfaðir"
- Hunketil_norweg_pat_dad_male: "Húnkętilsson"
- Hunketil_norweg_pat_dad_female: "Húnkętilsdóttir"
  
  Hunrod_norweg: "Húnrøðr"
  Hunrod_norweg_tek_mom: "Húnrøðarmóðir"
@@ -4772,24 +4232,6 @@
  Ingifast_norweg_tek_dad: "Ingifastsfaðir"
  Ingifast_norweg_pat_dad_male: "Ingifastsson"
  Ingifast_norweg_pat_dad_female: "Ingifastsdóttir"
- 
- Ingigeir_norweg: "Ingigęirr"
- Ingigeir_norweg_tek_mom: "Ingigęirsmóðir"
- Ingigeir_norweg_tek_dad: "Ingigęirsfaðir"
- Ingigeir_norweg_pat_dad_male: "Ingigęirsson"
- Ingigeir_norweg_pat_dad_female: "Ingigęirsdóttir"
- 
- Ingikar_norweg: "Ingikárr"
- Ingikar_norweg_tek_mom: "Ingikársmóðir"
- Ingikar_norweg_tek_dad: "Ingikársfaðir"
- Ingikar_norweg_pat_dad_male: "Ingikársson"
- Ingikar_norweg_pat_dad_female: "Ingikársdóttir"
- 
- Ingileifr_norweg: "Ingilęifr"
- Ingileifr_norweg_tek_mom: "Ingilęifsmóðir"
- Ingileifr_norweg_tek_dad: "Ingilęifsfaðir"
- Ingileifr_norweg_pat_dad_male: "Ingilęifsson"
- Ingileifr_norweg_pat_dad_female: "Ingilęifsdóttir"
  
  Ingimad_norweg: "Ingimaðr"
  Ingimad_norweg_tek_mom: "Ingimannsmóðir"
@@ -4958,12 +4400,6 @@
  Jofur_norweg_pat_dad_male: "Iofursson"
  Jofur_norweg_pat_dad_female: "Iofursdóttir"
  
- Jofurstein_norweg: "Iofurstęinn"
- Jofurstein_norweg_tek_mom: "Iofurstęinsmóðir"
- Jofurstein_norweg_tek_dad: "Iofurstęinsfaðir"
- Jofurstein_norweg_pat_dad_male: "Iofurstęinsson"
- Jofurstein_norweg_pat_dad_female: "Iofurstęinsdóttir"
- 
  Jogeir_norweg: "Iógęirr"
  Jogeir_norweg_tek_mom: "Iógęirsmóðir"
  Jogeir_norweg_tek_dad: "Iógęirsfaðir"
@@ -5059,18 +4495,6 @@
  Josur_norweg_pat_dad_male: "Iosursson"
  Josur_norweg_pat_dad_female: "Iosursdóttir"
  
- Kadal_norweg: "Kaðall" #Celtic
- Kadal_norweg_tek_mom: "Kaðalsmóðir"
- Kadal_norweg_tek_dad: "Kaðalsfaðir"
- Kadal_norweg_pat_dad_male: "Kaðalsson"
- Kadal_norweg_pat_dad_female: "Kaðalsdóttir"
- 
- Karl_norweg: "Karl" #Celtic
- Karl_norweg_tek_mom: "Karlsmóðir"
- Karl_norweg_tek_dad: "Karlsfaðir"
- Karl_norweg_pat_dad_male: "Karlsson"
- Karl_norweg_pat_dad_female: "Karlsdóttir"
- 
  Ketilbjorn_norweg: "Kętilbiǫrn"
  Ketilbjorn_norweg_tek_mom: "Kętilbiarnarmóðir"
  Ketilbjorn_norweg_tek_dad: "Kętilbiarnarfaðir"
@@ -5124,42 +4548,6 @@
  Kilfi_norweg_tek_dad: "Kilfisfaðir"
  Kilfi_norweg_pat_dad_male: "Kilfisson"
  Kilfi_norweg_pat_dad_female: "Kilfisdóttir"
- 
- Kiulak_norweg: "Kiúlákr" #Celtic
- Kiulak_norweg_tek_mom: "Kiúláksmóðir"
- Kiulak_norweg_tek_dad: "Kiúláksfaðir"
- Kiulak_norweg_pat_dad_male: "Kiúláksson"
- Kiulak_norweg_pat_dad_female: "Kiúláksdóttir"
- 
- Kjallak_norweg: "Kiallakr" #Celtic
- Kjallak_norweg_tek_mom: "Kiallaksmóðir"
- Kjallak_norweg_tek_dad: "Kiallaksfaðir"
- Kjallak_norweg_pat_dad_male: "Kiallaksson"
- Kjallak_norweg_pat_dad_female: "Kiallaksdóttir"
- 
- Kjaran_norweg: "Kiaran" #Celtic
- Kjaran_norweg_tek_mom: "Kiaransmóðir"
- Kjaran_norweg_tek_dad: "Kiaransfaðir"
- Kjaran_norweg_pat_dad_male: "Kiaransson"
- Kjaran_norweg_pat_dad_female: "Kiaransdóttir"
- 
- Kjarfal_norweg: "Kiarfalr" #Celtic
- Kjarfal_norweg_tek_mom: "Kiarfalsmóðir"
- Kjarfal_norweg_tek_dad: "Kiarfalsfaðir"
- Kjarfal_norweg_pat_dad_male: "Kiarfalsson"
- Kjarfal_norweg_pat_dad_female: "Kiarfalsdóttir"
- 
- Kjartan_norweg: "Kiartann" #Celtic
- Kjartan_norweg_tek_mom: "Kiartansmóðir"
- Kjartan_norweg_tek_dad: "Kiartansfaðir"
- Kjartan_norweg_pat_dad_male: "Kiartansson"
- Kjartan_norweg_pat_dad_female: "Kiartansdóttir"
- 
- Kjarval_norweg: "Kiarvalr" #Celtic
- Kjarval_norweg_tek_mom: "Kiarvalsmóðir"
- Kjarval_norweg_tek_dad: "Kiarvalsfaðir"
- Kjarval_norweg_pat_dad_male: "Kiarvalsson"
- Kjarval_norweg_pat_dad_female: "Kiarvalsdóttir"
  
  Kjotvi_norweg: "Kiǫtvi"
  Kjotvi_norweg_tek_mom: "Kiǫtvamóðir"
@@ -5221,12 +4609,6 @@
  Knud_norweg_pat_dad_male: "Knútsson"
  Knud_norweg_pat_dad_female: "Knútsdóttir"
  
- Kodran_norweg: "Koðrán" #Celtic
- Kodran_norweg_tek_mom: "Koðránsmóðir"
- Kodran_norweg_tek_dad: "Koðránsfaðir"
- Kodran_norweg_pat_dad_male: "Koðránsson"
- Kodran_norweg_pat_dad_female: "Koðránsdóttir"
- 
  Kolbak_norweg: "Kolbakr"
  Kolbak_norweg_tek_mom: "Kolbaksmóðir"
  Kolbak_norweg_tek_dad: "Kolbaksfaðir"
@@ -5281,12 +4663,6 @@
  Kolsvein_norweg_pat_dad_male: "Kolsvęinsson"
  Kolsvein_norweg_pat_dad_female: "Kolsvęinsdóttir"
  
- Konall_norweg: "Konáll" #Celtic
- Konall_norweg_tek_mom: "Konálsmóðir"
- Konall_norweg_tek_dad: "Konálsfaðir"
- Konall_norweg_pat_dad_male: "Konálsson"
- Konall_norweg_pat_dad_female: "Konálsdóttir"
- 
  Konrad_norweg: "Konráðr"
  Konrad_norweg_tek_mom: "Konráðsmóðir"
  Konrad_norweg_tek_dad: "Konráðsfaðir"
@@ -5305,12 +4681,6 @@
  Kori_norweg_pat_dad_male: "Kórason"
  Kori_norweg_pat_dad_female: "Kóradóttir"
  
- Kormak_norweg: "Kormákr" #Celtic
- Kormak_norweg_tek_mom: "Kormáksmóðir"
- Kormak_norweg_tek_dad: "Kormáksfaðir"
- Kormak_norweg_pat_dad_male: "Kormáksson"
- Kormak_norweg_pat_dad_female: "Kormáksdóttir"
- 
  Korpulf_norweg: "Korpúlfr"
  Korpulf_norweg_tek_mom: "Korpúlfsmóðir"
  Korpulf_norweg_tek_dad: "Korpúlfsfaðir"
@@ -5328,12 +4698,6 @@
  Krak_norweg_tek_dad: "Kráksfaðir"
  Krak_norweg_pat_dad_male: "Kráksson"
  Krak_norweg_pat_dad_female: "Kráksdóttir"
- 
- Krinan_norweg: "Krínán" #Celtic
- Krinan_norweg_tek_mom: "Krínánsmóðir"
- Krinan_norweg_tek_dad: "Krínánsfaðir"
- Krinan_norweg_pat_dad_male: "Krínánsson"
- Krinan_norweg_pat_dad_female: "Krínánsdóttir"
  
  Kristolf_norweg: "Kristólfr" #Christian
  Kristolf_norweg_tek_mom: "Kristólfsmóðir"
@@ -5358,12 +4722,6 @@
  Kugaldi_norweg_tek_dad: "Kúgaldafaðir"
  Kugaldi_norweg_pat_dad_male: "Kúgaldason"
  Kugaldi_norweg_pat_dad_female: "Kúgaldadóttir"
- 
- Kvaran_norweg: "Kváran" #Celtic
- Kvaran_norweg_tek_mom: "Kváransmóðir"
- Kvaran_norweg_tek_dad: "Kváransfaðir"
- Kvaran_norweg_pat_dad_male: "Kváransson"
- Kvaran_norweg_pat_dad_female: "Kváransdóttir"
  
  Kvigbjorn_norweg: "Kvígbiǫrn"
  Kvigbjorn_norweg_tek_mom: "Kvígbiarnarmóðir"
@@ -5502,12 +4860,6 @@
  Ljotolf_norweg_pat_dad_male: "Liótólfsson"
  Ljotolf_norweg_pat_dad_female: "Liótólfsdóttir"
  
- Ljuf_norweg: "Liúfr"
- Ljuf_norweg_tek_mom: "Liúfsmóðir"
- Ljuf_norweg_tek_dad: "Liúfsfaðir"
- Ljuf_norweg_pat_dad_male: "Liúfsson"
- Ljuf_norweg_pat_dad_female: "Liúfsdóttir"
- 
  Ljufvin_norweg: "Liufvinr"
  Ljufvin_norweg_tek_mom: "Liufvinsmóðir"
  Ljufvin_norweg_tek_dad: "Liufvinsfaðir"
@@ -5520,23 +4872,11 @@
  Lodhott_norweg_pat_dad_male: "Loðhottsson"
  Lodhott_norweg_pat_dad_female: "Loðhottsdóttir"
  
- Lodin_norweg: "Loðinn"
- Lodin_norweg_tek_mom: "Loðinsmóðir"
- Lodin_norweg_tek_dad: "Loðinsfaðir"
- Lodin_norweg_pat_dad_male: "Loðinsson"
- Lodin_norweg_pat_dad_female: "Loðinsdóttir"
- 
  Lodmund_norweg: "Loðmundr"
  Lodmund_norweg_tek_mom: "Loðmundarmóðir"
  Lodmund_norweg_tek_dad: "Loðmundarfaðir"
  Lodmund_norweg_pat_dad_male: "Loðmundarson"
  Lodmund_norweg_pat_dad_female: "Loðmundardóttir"
- 
- Lundvar_norweg: "Lundvarr"
- Lundvar_norweg_tek_mom: "Lundvarsmóðir"
- Lundvar_norweg_tek_dad: "Lundvarsfaðir"
- Lundvar_norweg_pat_dad_male: "Lundvarsson"
- Lundvar_norweg_pat_dad_female: "Lundvarsdóttir"
  
  Lydbjorn_norweg: "Lýðbiǫrn"
  Lydbjorn_norweg_tek_mom: "Lýðbiarnarmóðir"
@@ -5544,23 +4884,11 @@
  Lydbjorn_norweg_pat_dad_male: "Lýðbiarnarson"
  Lydbjorn_norweg_pat_dad_female: "Lýðbiarnardóttir"
  
- Maddad_norweg: "Maddaðr" #Celtic
- Maddad_norweg_tek_mom: "Maddaðsmóðir"
- Maddad_norweg_tek_dad: "Maddaðsfaðir"
- Maddad_norweg_pat_dad_male: "Maddaðsson"
- Maddad_norweg_pat_dad_female: "Maddaðsdóttir"
- 
  Magnus_norweg: "Magnús" #Christian
  Magnus_norweg_tek_mom: "Magnúsmóðir"
  Magnus_norweg_tek_dad: "Magnúsfaðir"
  Magnus_norweg_pat_dad_male: "Magnússon"
  Magnus_norweg_pat_dad_female: "Magnúsdóttir"
- 
- Makan_norweg: "Makan" #Celtic
- Makan_norweg_tek_mom: "Makansmóðir"
- Makan_norweg_tek_dad: "Makansfaðir"
- Makan_norweg_pat_dad_male: "Makansson"
- Makan_norweg_pat_dad_female: "Makansdóttir"
  
  Mak_norweg: "Mákr"
  Mak_norweg_tek_mom: "Máksmóðir"
@@ -5573,12 +4901,6 @@
  Mar_norweg_tek_dad: "Mársfaðir"
  Mar_norweg_pat_dad_male: "Mársson"
  Mar_norweg_pat_dad_female: "Mársdóttir"
- 
- Margad_norweg: "Margaðr" #Celtic
- Margad_norweg_tek_mom: "Margaðsmóðir"
- Margad_norweg_tek_dad: "Margaðsfaðir"
- Margad_norweg_pat_dad_male: "Margaðsson"
- Margad_norweg_pat_dad_female: "Margaðsdóttir"
  
  Markus_norweg: "Markús" #Christian
  Markus_norweg_tek_mom: "Markúsmóðir"
@@ -5603,48 +4925,6 @@
  Meginbjorn_norweg_tek_dad: "Meginbiarnarfaðir"
  Meginbjorn_norweg_pat_dad_male: "Meginbiarnarson"
  Meginbjorn_norweg_pat_dad_female: "Meginbiarnardóttir"
- 
- Melbrigd_norweg: "Melbrigði" #Celtic
- Melbrigd_norweg_tek_mom: "Melbrigðamóðir"
- Melbrigd_norweg_tek_dad: "Melbrigðafaðir"
- Melbrigd_norweg_pat_dad_male: "Melbrigðason"
- Melbrigd_norweg_pat_dad_female: "Melbrigðadóttir"
- 
- Meldun_norweg: "Meldún" #Celtic
- Meldun_norweg_tek_mom: "Meldúnsmóðir"
- Meldun_norweg_tek_dad: "Meldúnsfaðir"
- Meldun_norweg_pat_dad_male: "Meldúnsson"
- Meldun_norweg_pat_dad_female: "Meldúnsdóttir"
- 
- Melkolf_norweg: "Melkólfr" #Celtic
- Melkolf_norweg_tek_mom: "Melkólfsmóðir"
- Melkolf_norweg_tek_dad: "Melkólfsfaðir"
- Melkolf_norweg_pat_dad_male: "Melkólfsson"
- Melkolf_norweg_pat_dad_female: "Melkólfsdóttir"
- 
- Melkolm_norweg: "Melkólmr" #Celtic
- Melkolm_norweg_tek_mom: "Melkólmsmóðir"
- Melkolm_norweg_tek_dad: "Melkólmsfaðir"
- Melkolm_norweg_pat_dad_male: "Melkólmsson"
- Melkolm_norweg_pat_dad_female: "Melkólmsdóttir"
- 
- Melmar_norweg: "Melmari" #Celtic
- Melmar_norweg_tek_mom: "Melmaramóðir"
- Melmar_norweg_tek_dad: "Melmarafaðir"
- Melmar_norweg_pat_dad_male: "Melmarason"
- Melmar_norweg_pat_dad_female: "Melmaradóttir"
- 
- Melpatrik_norweg: "Melpatrikr" #Celtic
- Melpatrik_norweg_tek_mom: "Melpatriksmóðir"
- Melpatrik_norweg_tek_dad: "Melpatriksfaðir"
- Melpatrik_norweg_pat_dad_male: "Melpatriksson"
- Melpatrik_norweg_pat_dad_female: "Melpatriksdóttir"
- 
- Melsnat_norweg: "Melsnati" #Celtic
- Melsnat_norweg_tek_mom: "Melsnatamóðir"
- Melsnat_norweg_tek_dad: "Melsnatafaðir"
- Melsnat_norweg_pat_dad_male: "Melsnatason"
- Melsnat_norweg_pat_dad_female: "Melsnatadóttir"
  
  Mikjal_norweg: "Mikiáll" #Christian
  Mikjal_norweg_tek_mom: "Mikiálsmóðir"
@@ -5712,12 +4992,6 @@
  Myndil_norweg_pat_dad_male: "Myndilsson"
  Myndil_norweg_pat_dad_female: "Myndilsdóttir"
  
- Myrkjartan_norweg: "Mýrkiartan" #Celtic
- Myrkjartan_norweg_tek_mom: "Mýrkiartansmóðir"
- Myrkjartan_norweg_tek_dad: "Mýrkiartansfaðir"
- Myrkjartan_norweg_pat_dad_male: "Mýrkiartansson"
- Myrkjartan_norweg_pat_dad_female: "Mýrkiartansdóttir"
- 
  Myskia_norweg: "Myskia"
  Myskia_norweg_tek_mom: "Myskiumóðir"
  Myskia_norweg_tek_dad: "Myskiufaðir"
@@ -5747,12 +5021,6 @@
  Nagli_norweg_tek_dad: "Naglafaðir"
  Nagli_norweg_pat_dad_male: "Naglason"
  Nagli_norweg_pat_dad_female: "Nagladóttir"
- 
- Nann_norweg: "Nannr"
- Nann_norweg_tek_mom: "Nannsmóðir"
- Nann_norweg_tek_dad: "Nannsfaðir"
- Nann_norweg_pat_dad_male: "Nannsson"
- Nann_norweg_pat_dad_female: "Nannsdóttir"
  
  Narfi_norweg: "Narfi"
  Narfi_norweg_tek_mom: "Narfamóðir"
@@ -5829,12 +5097,6 @@
  Niusi_norweg_pat_dad_male: "Niúsason"
  Niusi_norweg_pat_dad_female: "Niúsadóttir"
  
- Njal_norweg: "Niáll" #Celtic
- Njal_norweg_tek_mom: "Niálsmóðir"
- Njal_norweg_tek_dad: "Niálsfaðir"
- Njal_norweg_pat_dad_male: "Niálsson"
- Njal_norweg_pat_dad_female: "Niálsdóttir"
- 
  Nollar_norweg: "Nollarr"
  Nollar_norweg_tek_mom: "Nollarsmóðir"
  Nollar_norweg_tek_dad: "Nollarsfaðir"
@@ -5864,12 +5126,6 @@
  Oblaud_norweg_tek_dad: "Óblauðsfaðir"
  Oblaud_norweg_pat_dad_male: "Óblauðsson"
  Oblaud_norweg_pat_dad_female: "Óblauðsdóttir"
- 
- Odalfred_norweg: "Óðalfreðr"
- Odalfred_norweg_tek_mom: "Óðalfreðarmóðir"
- Odalfred_norweg_tek_dad: "Óðalfreðarfaðir"
- Odalfred_norweg_pat_dad_male: "Óðalfreðarson"
- Odalfred_norweg_pat_dad_female: "Óðalfreðardóttir"
  
  Odd_norweg: "Oddr"
  Odd_norweg_tek_mom: "Oddsmóðir"
@@ -5943,23 +5199,11 @@
  Ofaeti_norweg_pat_dad_male: "Ofætason"
  Ofaeti_norweg_pat_dad_female: "Ofætadóttir"
  
- Ofeig_norweg: "Ófeigr"
- Ofeig_norweg_tek_mom: "Ófeigsmóðir"
- Ofeig_norweg_tek_dad: "Ófeigsfaðir"
- Ofeig_norweg_pat_dad_male: "Ófeigsson"
- Ofeig_norweg_pat_dad_female: "Ófeigsdóttir"
- 
  Ofla_norweg: "Óflár"
  Ofla_norweg_tek_mom: "Óflásmóðir"
  Ofla_norweg_tek_dad: "Óflásfaðir"
  Ofla_norweg_pat_dad_male: "Óflásson"
  Ofla_norweg_pat_dad_female: "Óflásdóttir"
- 
- Oflati_norweg: "Ofláti"
- Oflati_norweg_tek_mom: "Oflátamóðir"
- Oflati_norweg_tek_dad: "Oflátafaðir"
- Oflati_norweg_pat_dad_male: "Oflátason"
- Oflati_norweg_pat_dad_female: "Oflátadóttir"
  
  Ofrad_norweg: "Ofráðr"
  Ofrad_norweg_tek_mom: "Ofráðarmóðir"
@@ -6103,18 +5347,6 @@
  Ornolf_norweg_pat_dad_male: "Ǫrnólfsson"
  Ornolf_norweg_pat_dad_female: "Ǫrnólfsdóttir"
  
- Oroekia_norweg: "Órœkia"
- Oroekia_norweg_tek_mom: "Órœkiumóðir"
- Oroekia_norweg_tek_dad: "Órœkiufaðir"
- Oroekia_norweg_pat_dad_male: "Órœkiuson"
- Oroekia_norweg_pat_dad_female: "Órœkiudóttir"
- 
- Orri_norweg: "Orri"
- Orri_norweg_tek_mom: "Orramóðir"
- Orri_norweg_tek_dad: "Orrafaðir"
- Orri_norweg_pat_dad_male: "Orrason"
- Orri_norweg_pat_dad_female: "Orradóttir"
- 
  Orrusti_norweg: "Orrusti"
  Orrusti_norweg_tek_mom: "Orrustamóðir"
  Orrusti_norweg_tek_dad: "Orrustafaðir"
@@ -6186,12 +5418,6 @@
  Otto_norweg_tek_dad: "Ottósfaðir"
  Otto_norweg_pat_dad_male: "Ottósson"
  Otto_norweg_pat_dad_female: "Ottósdóttir"
- 
- Othvegin_norweg: "Óþveginn"
- Othvegin_norweg_tek_mom: "Óþveginsmóðir"
- Othvegin_norweg_tek_dad: "Óþveginsfaðir"
- Othvegin_norweg_pat_dad_male: "Óþveginsson"
- Othvegin_norweg_pat_dad_female: "Óþveginsdóttir"
  
  Othyrmir_norweg: "Óþyrmir"
  Othyrmir_norweg_tek_mom: "Óþyrmismóðir"
@@ -6354,23 +5580,11 @@
  Raudulf_norweg_pat_dad_male: "Rauðúlfsson"
  Raudulf_norweg_pat_dad_female: "Rauðúlfsdóttir"
 
- Raudkar_norweg: "Rauðkárr"
- Raudkar_norweg_tek_mom: "Rauðkársmóðir"
- Raudkar_norweg_tek_dad: "Rauðkársfaðir"
- Raudkar_norweg_pat_dad_male: "Rauðkársson"
- Raudkar_norweg_pat_dad_female: "Rauðkársdóttir"
-
  Refkel_norweg: "Refkęll"
  Refkel_norweg_tek_mom: "Refkęlsmóðir"
  Refkel_norweg_tek_dad: "Refkęlsfaðir"
  Refkel_norweg_pat_dad_male: "Refkęlsson"
  Refkel_norweg_pat_dad_female: "Refkęlsdóttir"
-
- Ref_norweg: "Refr"
- Ref_norweg_tek_mom: "Refsmóðir"
- Ref_norweg_tek_dad: "Refsfaðir"
- Ref_norweg_pat_dad_male: "Refsson"
- Ref_norweg_pat_dad_female: "Refsdóttir"
 
  Reginmund_norweg: "Reginmundr"
  Reginmund_norweg_tek_mom: "Reginmundarmóðir"
@@ -6468,12 +5682,6 @@
  Rognud_norweg_pat_dad_male: "Rǫgnuðsson"
  Rognud_norweg_pat_dad_female: "Rǫgnuðsdóttir"
 
- Rugga_norweg: "Rugga"
- Rugga_norweg_tek_mom: "Ruggumóðir"
- Rugga_norweg_tek_dad: "Ruggufaðir"
- Rugga_norweg_pat_dad_male: "Rugguson"
- Rugga_norweg_pat_dad_female: "Ruggudóttir"
-
  Runfast_norweg: "Rúnfastr"
  Runfast_norweg_tek_mom: "Rúnfastsmóðir"
  Runfast_norweg_tek_dad: "Rúnfastsfaðir"
@@ -6485,18 +5693,6 @@
  Runi_norweg_tek_dad: "Rúnafaðir"
  Runi_norweg_pat_dad_male: "Rúnason"
  Runi_norweg_pat_dad_female: "Rúnadóttir"
-
- Ryding_norweg: "Ryðingr"
- Ryding_norweg_tek_mom: "Ryðingsmóðir"
- Ryding_norweg_tek_dad: "Ryðingsfaðir"
- Ryding_norweg_pat_dad_male: "Ryðingsson"
- Ryding_norweg_pat_dad_female: "Ryðingsdóttir"
-
- Rysia_norweg: "Rysia"
- Rysia_norweg_tek_mom: "Rysiumóðir"
- Rysia_norweg_tek_dad: "Rysiufaðir"
- Rysia_norweg_pat_dad_male: "Rysiuson"
- Rysia_norweg_pat_dad_female: "Rysiudóttir"
 
  Runvid_norweg: "Rúnviðr"
  Runvid_norweg_tek_mom: "Rúnviðarmóðir"
@@ -6897,12 +6093,6 @@
  Skage_norweg_pat_dad_male: "Skagason"
  Skage_norweg_pat_dad_female: "Skagadóttir"
 
- Skald_norweg: "Skáldi"
- Skald_norweg_tek_mom: "Skáldamóðir"
- Skald_norweg_tek_dad: "Skáldafaðir"
- Skald_norweg_pat_dad_male: "Skáldason"
- Skald_norweg_pat_dad_female: "Skáldadóttir"
-
  Skalp_norweg: "Skálpr"
  Skalp_norweg_tek_mom: "Skálpsmóðir"
  Skalp_norweg_tek_dad: "Skálpsfaðir"
@@ -6944,12 +6134,6 @@
  Skefil_norweg_tek_dad: "Skefilsfaðir"
  Skefil_norweg_pat_dad_male: "Skefilsson"
  Skefil_norweg_pat_dad_female: "Skefilsdóttir"
-
- Skeggi_norweg: "Skeggi"
- Skeggi_norweg_tek_mom: "Skeggamóðir"
- Skeggi_norweg_tek_dad: "Skeggafaðir"
- Skeggi_norweg_pat_dad_male: "Skeggason"
- Skeggi_norweg_pat_dad_female: "Skeggadóttir"
 
  Skidi_norweg: "Skíði"
  Skidi_norweg_tek_mom: "Skíðamóðir"
@@ -6998,12 +6182,6 @@
  Skofte_norweg_tek_dad: "Skoftafaðir"
  Skofte_norweg_pat_dad_male: "Skoftason"
  Skofte_norweg_pat_dad_female: "Skoftadóttir"
-
- Skog_norweg: "Skógr"
- Skog_norweg_tek_mom: "Skógsmóðir"
- Skog_norweg_tek_dad: "Skógsfaðir"
- Skog_norweg_pat_dad_male: "Skógsson"
- Skog_norweg_pat_dad_female: "Skógsdóttir"
 
  Skorageir_norweg: "Skoragęirr"
  Skorageir_norweg_tek_mom: "Skoragęirsmóðir"
@@ -7083,12 +6261,6 @@
  Snaeulf_norweg_pat_dad_male: "Snæúlfsson"
  Snaeulf_norweg_pat_dad_female: "Snæúlfsdóttir"
 
- Snari_norweg: "Snari"
- Snari_norweg_tek_mom: "Snaramóðir"
- Snari_norweg_tek_dad: "Snarafaðir"
- Snari_norweg_pat_dad_male: "Snarason"
- Snari_norweg_pat_dad_female: "Snaradóttir"
-
  Snorri_norweg: "Snorri"
  Snorri_norweg_tek_mom: "Snorramóðir"
  Snorri_norweg_tek_dad: "Snorrafaðir"
@@ -7137,18 +6309,6 @@
  Spjallbodi_norweg_pat_dad_male: "Spiallboðason"
  Spjallbodi_norweg_pat_dad_female: "Spiallboðadóttir"
 
- Spjalli_norweg: "Spialli"
- Spjalli_norweg_tek_mom: "Spiallamóðir"
- Spjalli_norweg_tek_dad: "Spiallafaðir"
- Spjalli_norweg_pat_dad_male: "Spiallasson"
- Spjalli_norweg_pat_dad_female: "Spiallasdóttir"
-
- Spjoti_norweg: "Spióti"
- Spjoti_norweg_tek_mom: "Spiótamóðir"
- Spjoti_norweg_tek_dad: "Spiótafaðir"
- Spjoti_norweg_pat_dad_male: "Spiótason"
- Spjoti_norweg_pat_dad_female: "Spiótadóttir"
-
  Spor_norweg: "Spǫrr"
  Spor_norweg_tek_mom: "Spǫrsmóðir"
  Spor_norweg_tek_dad: "Spǫrsfaðir"
@@ -7166,24 +6326,6 @@
  Stafngrim_norweg_tek_dad: "Stafngrímsfaðir"
  Stafngrim_norweg_pat_dad_male: "Stafngrímsson"
  Stafngrim_norweg_pat_dad_female: "Stafngrímsdóttir"
-
- Stakk_norweg: "Stakkr"
- Stakk_norweg_tek_mom: "Stakksmóðir"
- Stakk_norweg_tek_dad: "Stakksfaðir"
- Stakk_norweg_pat_dad_male: "Stakksson"
- Stakk_norweg_pat_dad_female: "Stakksdóttir"
-
- Stali_norweg: "Stáli"
- Stali_norweg_tek_mom: "Stálamóðir"
- Stali_norweg_tek_dad: "Stálafaðir"
- Stali_norweg_pat_dad_male: "Stálason"
- Stali_norweg_pat_dad_female: "Stáladóttir"
-
- Stari_norweg: "Stari"
- Stari_norweg_tek_mom: "Staramóðir"
- Stari_norweg_tek_dad: "Starafaðir"
- Stari_norweg_pat_dad_male: "Starason"
- Stari_norweg_pat_dad_female: "Staradóttir"
 
  Starkad_norweg: "Starkaðr"
  Starkad_norweg_tek_mom: "Starkaðarmóðir"
@@ -7334,23 +6476,11 @@
  Stodkel_norweg_pat_dad_male: "Stóðkęlsson"
  Stodkel_norweg_pat_dad_female: "Stóðkęlsdóttir"
 
- Stori_norweg: "Stóri"
- Stori_norweg_tek_mom: "Stóramóðir"
- Stori_norweg_tek_dad: "Stórafaðir"
- Stori_norweg_pat_dad_male: "Stórason"
- Stori_norweg_pat_dad_female: "Stóradóttir"
-
  Storolf_norweg: "Stórólfr"
  Storolf_norweg_tek_mom: "Stórólfsmóðir"
  Storolf_norweg_tek_dad: "Stórólfsfaðir"
  Storolf_norweg_pat_dad_male: "Stórólfsson"
  Storolf_norweg_pat_dad_female: "Stórólfsdóttir"
-
- Stuf_norweg: "Stúfr"
- Stuf_norweg_tek_mom: "Stúfsmóðir"
- Stuf_norweg_tek_dad: "Stúfsfaðir"
- Stuf_norweg_pat_dad_male: "Stúfsson"
- Stuf_norweg_pat_dad_female: "Stúfsdóttir"
 
  Sturla_norweg: "Stúrla"
  Sturla_norweg_tek_mom: "Stúrlumóðir"
@@ -7369,13 +6499,6 @@
  Stynbjorn_norweg_tek_dad: "Stynbiarnarfaðir"
  Stynbjorn_norweg_pat_dad_male: "Stynbiarnarson"
  Stynbjorn_norweg_pat_dad_female: "Stynbiarnardóttir"
-
- Stygg_norweg: "Styggr"
- Stygg_norweg_tek_mom: "Styggsmóðir"
- Stygg_norweg_tek_dad: "Styggsfaðir"
- Stygg_norweg_pat_dad_male: "Styggsson"
- Stygg_norweg_pat_dad_female: "Styggsdóttir"
-
  Styrbjorn_norweg: "Styrbiǫrn"
  Styrbjorn_norweg_tek_mom: "Styrbiarnarmóðir"
  Styrbjorn_norweg_tek_dad: "Styrbiarnarfaðir"
@@ -7489,12 +6612,6 @@
  Svarthofdi_norweg_tek_dad: "Svarthǫfðafaðir"
  Svarthofdi_norweg_pat_dad_male: "Svarthǫfðason"
  Svarthofdi_norweg_pat_dad_female: "Svarthǫfðadóttir"
-
- Svartung_norweg: "Svartungr"
- Svartung_norweg_tek_mom: "Svartungsmóðir"
- Svartung_norweg_tek_dad: "Svartungsfaðir"
- Svartung_norweg_pat_dad_male: "Svartungsson"
- Svartung_norweg_pat_dad_female: "Svartungsdóttir"
 
  Svavar_norweg: "Svávarr"
  Svavar_norweg_tek_mom: "Svávarsmóðir"
@@ -7793,12 +6910,6 @@
  Udh_norweg_pat_dad_male: "Uðsson"
  Udh_norweg_pat_dad_female: "Uðsdóttir"
 
- Uggi_norweg: "Uggi"
- Uggi_norweg_tek_mom: "Uggamóðir"
- Uggi_norweg_tek_dad: "Uggafaðir"
- Uggi_norweg_pat_dad_male: "Uggason"
- Uggi_norweg_pat_dad_female: "Uggadóttir"
-
  Ulf_norweg: "Úlfr"
  Ulf_norweg_tek_mom: "Úlfsmóðir"
  Ulf_norweg_tek_dad: "Úlfsfaðir"
@@ -7877,12 +6988,6 @@
  Uni_norweg_pat_dad_male: "Unason"
  Uni_norweg_pat_dad_female: "Unadóttir"
 
- Unnketil_norweg: "Unnkętill"
- Unnketil_norweg_tek_mom: "Unnkętilsmóðir"
- Unnketil_norweg_tek_dad: "Unnkętilsfaðir"
- Unnketil_norweg_pat_dad_male: "Unnkętilsson"
- Unnketil_norweg_pat_dad_female: "Unnkętilsdóttir"
-
  Unnar_norweg: "Unnarr"
  Unnar_norweg_tek_mom: "Unnarsmóðir"
  Unnar_norweg_tek_dad: "Unnarsfaðir"
@@ -7924,12 +7029,6 @@
  Vagn_norweg_tek_dad: "Vagsfaðir"
  Vagn_norweg_pat_dad_male: "Vagsson"
  Vagn_norweg_pat_dad_female: "Vagsdóttir"
-
- Vak_norweg: "Vakr"
- Vak_norweg_tek_mom: "Vaksmóðir"
- Vak_norweg_tek_dad: "Vaksfaðir"
- Vak_norweg_pat_dad_male: "Vaksson"
- Vak_norweg_pat_dad_female: "Vaksdóttir"
 
  Valbjorn_norweg: "Valbiǫrn"
  Valbjorn_norweg_tek_mom: "Valbiarnarmóðir"
@@ -8050,12 +7149,6 @@
  Vilbaldr_norweg_tek_dad: "Vilbaldsfaðir"
  Vilbaldr_norweg_pat_dad_male: "Vilbaldsson"
  Vilbaldr_norweg_pat_dad_female: "Vilbaldsdóttir"
-
- Ved_norweg: "Veðr"
- Ved_norweg_tek_mom: "Veðsmóðir"
- Ved_norweg_tek_dad: "Veðsfaðir"
- Ved_norweg_pat_dad_male: "Veðsson"
- Ved_norweg_pat_dad_female: "Veðsdóttir"
 
  Vedraldi_norweg: "Veðraldi"
  Vedraldi_norweg_tek_mom: "Veðraldamóðir"
@@ -8278,13 +7371,6 @@
  Vidhugsi_norweg_tek_dad: "Víðhugsafaðir"
  Vidhugsi_norweg_pat_dad_male: "Víðhugsason"
  Vidhugsi_norweg_pat_dad_female: "Víðhugsadóttir"
-
- Vifil_norweg: "Vífill"
- Vifil_norweg_tek_mom: "Vífilsmóðir"
- Vifil_norweg_tek_dad: "Vífilsfaðir"
- Vifil_norweg_pat_dad_male: "Vífilsson"
- Vifil_norweg_pat_dad_female: "Vífilsdóttir"
-
  Vidi_norweg: "Víði"
  Vidi_norweg_tek_mom: "Víðamóðir"
  Vidi_norweg_tek_dad: "Víðafaðir"
@@ -8435,23 +7521,11 @@
  Vott_norweg_pat_dad_male: "Vǫttsson"
  Vott_norweg_pat_dad_female: "Vǫttsdóttir"
 
- Vragi_norweg: "Vragi"
- Vragi_norweg_tek_mom: "Vragamóðir"
- Vragi_norweg_tek_dad: "Vragafaðir"
- Vragi_norweg_pat_dad_male: "Vragason"
- Vragi_norweg_pat_dad_female: "Vragadóttir"
-
  Vrai_norweg: "Vrái"
  Vrai_norweg_tek_mom: "Vrámóðir"
  Vrai_norweg_tek_dad: "Vráfaðir"
  Vrai_norweg_pat_dad_male: "Vráson"
  Vrai_norweg_pat_dad_female: "Vrádóttir"
-
- Vrangi_norweg: "Vrangi"
- Vrangi_norweg_tek_mom: "Vrangamóðir"
- Vrangi_norweg_tek_dad: "Vrangafaðir"
- Vrangi_norweg_pat_dad_male: "Vrangason"
- Vrangi_norweg_pat_dad_female: "Vrangadóttir"
 
  Vreid_norweg: "Vręiðr"
  Vreid_norweg_tek_mom: "Vręiðarmóðir"
@@ -9048,14 +8122,6 @@
  Audhild_norweg_tek_mom: "Auðhildarmóðir"
  Audhild_norweg_tek_dad: "Auðhildarfaðir"
 
- Auga_norweg: "Auga"
- Auga_norweg_tek_mom: "Augumóðir"
- Auga_norweg_tek_dad: "Augufaðir"
-
- Athmiul_norweg: "Aþmiul" #Celtic
- Athmiul_norweg_tek_mom: "Aþmiularmóðir"
- Athmiul_norweg_tek_dad: "Aþmiularfaðir"
-
  Baugheid_norweg: "Baughęiðr"
  Baugheid_norweg_tek_mom: "Baughęiðarmóðir"
  Baugheid_norweg_tek_dad: "Baughęiðarfaðir"
@@ -9095,10 +8161,6 @@
  Bjargey_norweg: "Biargøy"
  Bjargey_norweg_tek_mom: "Biargøyiarmóðir"
  Bjargey_norweg_tek_dad: "Biargøyiarfaðir"
-
- Bjollok_norweg: "Biollok" #celtic
- Bjollok_norweg_tek_mom: "Biollokarmóðir"
- Bjollok_norweg_tek_dad: "Biollokarfaðir"
 
  Bjorg_norweg: "Biǫrg"
  Bjorg_norweg_tek_mom: "Biargamóðir"
@@ -9143,10 +8205,6 @@
  Botvi_norweg: "Bótví"
  Botvi_norweg_tek_mom: "Bótvíarmóðir"
  Botvi_norweg_tek_dad: "Bótvíarfaðir"
-
- Brigida_norweg: "Brígiða" #Celtic
- Brigida_norweg_tek_mom: "Brígiðumóðir"
- Brigida_norweg_tek_dad: "Brígiðufaðir"
 
  Bryngerd_norweg: "Bryngęrðr"
  Bryngerd_norweg_tek_mom: "Bryngęrðarmóðir"
@@ -9196,10 +8254,6 @@
  Dora_norweg_tek_mom: "Dórumóðir"
  Dora_norweg_tek_dad: "Dórufaðir"
 
- Dota_norweg: "Dóta"
- Dota_norweg_tek_mom: "Dótumóðir"
- Dota_norweg_tek_dad: "Dótufaðir"
-
  Drifa_norweg: "Drífa"
  Drifa_norweg_tek_mom: "Drífumóðir"
  Drifa_norweg_tek_dad: "Drífufaðir"
@@ -9227,10 +8281,6 @@
  Edla_norweg: "Eðla"
  Edla_norweg_tek_mom: "Eðlumóðir"
  Edla_norweg_tek_dad: "Eðlufaðir"
-
- Edna_norweg: "Eðna" #Celtic
- Edna_norweg_tek_mom: "Eðnumóðir"
- Edna_norweg_tek_dad: "Eðnufaðir"
 
  Edny_norweg: "Eðný"
  Edny_norweg_tek_mom: "Eðnýiarmóðir"
@@ -9391,10 +8441,6 @@
  Fridgerd_norweg: "Friðgęrðr"
  Fridgerd_norweg_tek_mom: "Fríðgęrðarmóðir"
  Fridgerd_norweg_tek_dad: "Fríðgęrðarfaðir"
-
- Frosthild_norweg: "Frosthildr" #AS
- Frosthild_norweg_tek_mom: "Fríðhildarmóðir"
- Frosthild_norweg_tek_dad: "Fríðhildarfaðir"
 
  Gauthild_norweg: "Gauthildr"
  Gauthild_norweg_tek_mom: "Gauthildarmóðir"
@@ -9560,12 +8606,6 @@
  Gunnaelf_norweg: "Gunnælfr"
  Gunnaelf_norweg_tek_mom: "Gunnælfarmóðir"
  Gunnaelf_norweg_tek_dad: "Gunnælfarfaðir"
-
- #Gunnfrid_norweg: "Gunnfríðr"
-
- Gunngifu_norweg: "Gunngifa" #AS
- Gunngifu_norweg_tek_mom: "Gunngifumóðir"
- Gunngifu_norweg_tek_dad: "Gunngifufaðir"
 
  Gunnheid_norweg: "Gunnhęiðr"
  Gunnheid_norweg_tek_mom: "Gunnhęiðarmóðir"
@@ -9772,10 +8812,6 @@
  Hjalmlaug_norweg_tek_mom: "Hialmlaugarmóðir"
  Hjalmlaug_norweg_tek_dad: "Hialmlaugarfaðir"
 
- Hjalp_norweg: "Hiǫlp"
- Hjalp_norweg_tek_mom: "Hiǫlparmóðir"
- Hjalp_norweg_tek_dad: "Hiǫlparfaðir"
-
  Hjordis_norweg: "Hiǫrdís"
  Hjordis_norweg_tek_mom: "Hiǫrdísarmóðir"
  Hjordis_norweg_tek_dad: "Hiǫrdísarfaðir"
@@ -9876,10 +8912,6 @@
  Hungerd_norweg_tek_mom: "Húngęrðarmóðir"
  Hungerd_norweg_tek_dad: "Húngęrðarfaðir"
 
- Hunhild_norweg: "Húnhildr" #AS
- Hunhild_norweg_tek_mom: "Húnhildarmóðir"
- Hunhild_norweg_tek_dad: "Húnhildarfaðir"
-
  Idun_norweg: "Iðunn"
  Idun_norweg_tek_mom: "Iðunnarmóðir"
  Idun_norweg_tek_dad: "Iðunnarfaðir"
@@ -9966,10 +8998,6 @@
  Isibel_norweg_tek_mom: "Isibelarmóðir"
  Isibel_norweg_tek_dad: "Isibelarfaðir"
 
- Isond_norweg: "Ísond" #Celtic
- Isond_norweg_tek_mom: "Ísondarmóðir"
- Isond_norweg_tek_dad: "Ísondarfaðir"
-
  Jardrud_norweg: "Iarðrúðr"
  Jardrud_norweg_tek_mom: "Iarðrúðarmóðir"
  Jardrud_norweg_tek_dad: "Iarðrúðarfaðir"
@@ -10026,10 +9054,6 @@
  Jutta_norweg_tek_mom: "Iuttumóðir"
  Jutta_norweg_tek_dad: "Iuttufaðir"
 
- Kadlin_norweg: "Kaðlín" #Celtic
- Kadlin_norweg_tek_mom: "Kaðlínarmóðir"
- Kadlin_norweg_tek_dad: "Kaðlínarfaðir"
-
  Kara_norweg: "Kára"
  Kara_norweg_tek_mom: "Kárumóðir"
  Kara_norweg_tek_dad: "Kárufaðir"
@@ -10085,14 +9109,6 @@
  Kolgrima_norweg: "Kolgríma"
  Kolgrima_norweg_tek_mom: "Kolgrímumóðir"
  Kolgrima_norweg_tek_dad: "Kolgrímufaðir"
-
- Kolla_norweg: "Kolla"
- Kolla_norweg_tek_mom: "Kollumóðir"
- Kolla_norweg_tek_dad: "Kollufaðir"
-
- Kormlod_norweg: "Kormlǫð" #Celtic
- Kormlod_norweg_tek_mom: "Kormlǫðarmóðir"
- Kormlod_norweg_tek_dad: "Kormlǫðarfaðir"
 
  Krafla_norweg: "Krafla"
  Krafla_norweg_tek_mom: "Kraflumóðir"
@@ -10176,17 +9192,9 @@
  Malfrid_norweg_tek_mom: "Málfríðarmóðir"
  Malfrid_norweg_tek_dad: "Málfríðarfaðir"
 
- Mallymkun_norweg: "Mallymkun" #Celtic
- Mallymkun_norweg_tek_mom: "Mallymkunarmóðir"
- Mallymkun_norweg_tek_dad: "Mallymkunarfaðir"
-
  Malmfrid_norweg: "Málmfríðr"
  Malmfrid_norweg_tek_mom: "Málmfríðarmóðir"
  Malmfrid_norweg_tek_dad: "Málmfríðarfaðir"
-
- Malmury_norweg: "Malmury" #Celtic Christian
- Malmury_norweg_tek_mom: "Malmuryiarmóðir"
- Malmury_norweg_tek_dad: "Malmuryiarfaðir"
 
  Marthol_norweg: "Marþoll"
  Marthol_norweg_tek_mom: "Marþolsmóðir"
@@ -10218,10 +9226,6 @@
  Maeva_norweg_tek_mom: "Mævumóðir"
  Maeva_norweg_tek_dad: "Mævufaðir"
 
- Melkorka_norweg: "Melkorka" #Celtic
- Melkorka_norweg_tek_mom: "Melkorkumóðir"
- Melkorka_norweg_tek_dad: "Melkorkufaðir"
-
  Mjadveig_norweg: "Miaðvęig"
  Mjadveig_norweg_tek_mom: "Miaðvęigarmóðir"
  Mjadveig_norweg_tek_dad: "Miaðvęigarfaðir"
@@ -10249,14 +9253,6 @@
  Mundgerd_norweg: "Mundgęrðr"
  Mundgerd_norweg_tek_mom: "Mundgęrðarmóðir"
  Mundgerd_norweg_tek_dad: "Mundgęrðarfaðir"
-
- Myrgjol_norweg: "Myrgiol" #Celtic
- Myrgjol_norweg_tek_mom: "Myrgiolsmóðir"
- Myrgjol_norweg_tek_dad: "Myrgiolsfaðir"
-
- Myrun_norweg: "Mýrún" #Celtic
- Myrun_norweg_tek_mom: "Mýrúnarmóðir"
- Myrun_norweg_tek_dad: "Mýrúnarfaðir"
 
  Nauma_norweg: "Nauma"
  Nauma_norweg_tek_mom: "Naumumóðir"
@@ -10326,21 +9322,9 @@
  Osk_norweg_tek_mom: "Óskarmóðir"
  Osk_norweg_tek_dad: "Óskarfaðir"
 
- Otama_norweg: "Ótama"
- Otama_norweg_tek_mom: "Ótamumóðir"
- Otama_norweg_tek_dad: "Ótamufaðir"
-
  Otkatla_norweg: "Otkatla"
  Otkatla_norweg_tek_mom: "Otkatlumóðir"
  Otkatla_norweg_tek_dad: "Otkatlufaðir"
-
- Radhild_norweg: "Ráðhildr" #AS
- Radhild_norweg_tek_mom: "Ráðhildarmóðir"
- Radhild_norweg_tek_dad: "Ráðhildarfaðir"
-
- Rafarta_norweg: "Rafarta" #Celtic
- Rafarta_norweg_tek_mom: "Rafartumóðir"
- Rafarta_norweg_tek_dad: "Rafartufaðir"
 
  Rafnhild_norweg: "Rafnhildr"
  Rafnhild_norweg_tek_mom: "Rafnhildarmóðir"
@@ -10402,10 +9386,6 @@
  Reginleif_norweg_tek_mom: "Reginlęifarmóðir"
  Reginleif_norweg_tek_dad: "Reginlęifarfaðir"
 
- Rikulata_norweg: "Ríkuláta"
- Rikulata_norweg_tek_mom: "Ríkulátumóðir"
- Rikulata_norweg_tek_dad: "Ríkulátufaðir"
-
  Rikvi_norweg: "Ríkví"
  Rikvi_norweg_tek_mom: "Ríkvíarmóðir"
  Rikvi_norweg_tek_dad: "Ríkvíarfaðir"
@@ -10461,10 +9441,6 @@
  Sesilida_norweg: "Sesilída" #Christian
  Sesilida_norweg_tek_mom: "Sesilídumóðir"
  Sesilida_norweg_tek_dad: "Sesilídufaðir"
-
- Sida_norweg: "Síða"
- Sida_norweg_tek_mom: "Síðumóðir"
- Sida_norweg_tek_dad: "Síðufaðir"
 
  Sigbjorg_norweg: "Sigbiǫrg"
  Sigbjorg_norweg_tek_mom: "Sigbiargarmóðir"
@@ -10524,10 +9500,6 @@
  Skirlaug_norweg_tek_mom: "Skírlaugarmóðir"
  Skirlaug_norweg_tek_dad: "Skírlaugarfaðir"
 
- Skjaldfrid_norweg: "Skialdfríðr" #AS
- Skjaldfrid_norweg_tek_mom: "Skialdfríðarmóðir"
- Skjaldfrid_norweg_tek_dad: "Skialdfríðarfaðir"
-
  Snaelaug_norweg: "Snælaug"
  Snaelaug_norweg_tek_mom: "Snælaugarmóðir"
  Snaelaug_norweg_tek_dad: "Snælaugarfaðir"
@@ -10559,10 +9531,6 @@
  Spana_norweg: "Spana"
  Spana_norweg_tek_mom: "Spanumóðir"
  Spana_norweg_tek_dad: "Spanufaðir"
-
- Stafnhild_norweg: "Stafnhildr" #AS
- Stafnhild_norweg_tek_mom: "Stafnhildarmóðir"
- Stafnhild_norweg_tek_dad: "Stafnhildarfaðir"
 
  Steina_norweg: "Stęina"
  Steina_norweg_tek_mom: "Stęinumóðir"

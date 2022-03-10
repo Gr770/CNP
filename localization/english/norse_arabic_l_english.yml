@@ -25,11 +25,11 @@
  Agaut_arabic_pat_dad_male: "ibn ʿĀjut"
  Agaut_arabic_pat_dad_female: "bint ʿĀjut"
 
- Ageir_arabic: "ʿĀjay"
- Ageir_arabic_tek_mom: "ʾUmm ʿĀjay"
- Ageir_arabic_tek_dad: "ʾAbū ʿĀjay"
- Ageir_arabic_pat_dad_male: "ibn ʿĀjay"
- Ageir_arabic_pat_dad_female: "bint ʿĀjay"
+ Ageir_arabic: "ʿĀjayr"
+ Ageir_arabic_tek_mom: "ʾUmm ʿĀjayr"
+ Ageir_arabic_tek_dad: "ʾAbū ʿĀjayr"
+ Ageir_arabic_pat_dad_male: "ibn ʿĀjayr"
+ Ageir_arabic_pat_dad_female: "bint ʿĀjayr"
 
  Aleif_arabic: "ʿĀlyf" #Olaf
  Aleif_arabic_tek_mom: "ʾUmm ʿĀlyf"
@@ -81,11 +81,11 @@
  Adalbrikt_arabic_pat_dad_male: "ibn Aṯilbrikt"
  Adalbrikt_arabic_pat_dad_female: "bint Aṯilbrikt"
 
- Adalgeir_arabic: "Aṯiljay"
- Adalgeir_arabic_tek_mom: "ʾUmm Aṯiljay"
- Adalgeir_arabic_tek_dad: "ʾAbū Aṯiljay"
- Adalgeir_arabic_pat_dad_male: "ibn Aṯiljay"
- Adalgeir_arabic_pat_dad_female: "bint Aṯiljay"
+ Adalgeir_arabic: "Aṯiljayr"
+ Adalgeir_arabic_tek_mom: "ʾUmm Aṯiljayr"
+ Adalgeir_arabic_tek_dad: "ʾAbū Aṯiljayr"
+ Adalgeir_arabic_pat_dad_male: "ibn Aṯiljayr"
+ Adalgeir_arabic_pat_dad_female: "bint Aṯiljayr"
 
  Adalrad_arabic: "Aṯilrāḏ"
  Adalrad_arabic_tek_mom: "ʾUmm Aṯilrāḏ"
@@ -271,17 +271,11 @@
  Alfgaut_arabic_pat_dad_male: "ibn ʿAlfjut"
  Alfgaut_arabic_pat_dad_female: "bint ʿAlfjut"
 
- Alfgeir_arabic: "ʿAlfjay"
- Alfgeir_arabic_tek_mom: "ʾUmm ʿAlfjay"
- Alfgeir_arabic_tek_dad: "ʾAbū ʿAlfjay"
- Alfgeir_arabic_pat_dad_male: "ibn ʿAlfjay"
- Alfgeir_arabic_pat_dad_female: "bint ʿAlfjay"
-
- Alfgrim_arabic: "ʿAlfġrīm"
- Alfgrim_arabic_tek_mom: "ʾUmm ʿAlfġrīm"
- Alfgrim_arabic_tek_dad: "ʾAbū ʿAlfġrīm"
- Alfgrim_arabic_pat_dad_male: "ibn ʿAlfġrīm"
- Alfgrim_arabic_pat_dad_female: "bint ʿAlfġrīm"
+ Alfgeir_arabic: "ʿAlfjayr"
+ Alfgeir_arabic_tek_mom: "ʾUmm ʿAlfjayr"
+ Alfgeir_arabic_tek_dad: "ʾAbū ʿAlfjayr"
+ Alfgeir_arabic_pat_dad_male: "ibn ʿAlfjayr"
+ Alfgeir_arabic_pat_dad_female: "bint ʿAlfjayr"
 
  Alfketil_arabic: "ʿAlfqaytil"
  Alfketil_arabic_tek_mom: "ʾUmm ʿAlfqaytil"
@@ -325,12 +319,6 @@
  Alfvald_arabic_pat_dad_male: "ibn ʿAlfwald"
  Alfvald_arabic_pat_dad_female: "bint ʿAlfwald"
 
- Alfvard_arabic: "ʿAlfward"
- Alfvard_arabic_tek_mom: "ʾUmm ʿAlfward"
- Alfvard_arabic_tek_dad: "ʾAbū ʿAlfward"
- Alfvard_arabic_pat_dad_male: "ibn ʿAlfward"
- Alfvard_arabic_pat_dad_female: "bint ʿAlfward"
-
  Alfvarin_arabic: "ʿAlfwarayn"
  Alfvarin_arabic_tek_mom: "ʾUmm ʿAlfwarayn"
  Alfvarin_arabic_tek_dad: "ʾAbū ʿAlfwarayn"
@@ -359,11 +347,11 @@
  Almgaut_arabic_pat_dad_male: "ibn ʿAlmjut"
  Almgaut_arabic_pat_dad_female: "bint ʿAlmjut"
 
- Almgeir_arabic: "ʿAlmjay"
- Almgeir_arabic_tek_mom: "ʾUmm ʿAlmjay"
- Almgeir_arabic_tek_dad: "ʾAbū ʿAlmjay"
- Almgeir_arabic_pat_dad_male: "ibn ʿAlmjay"
- Almgeir_arabic_pat_dad_female: "bint ʿAlmjay"
+ Almgeir_arabic: "ʿAlmjayr"
+ Almgeir_arabic_tek_mom: "ʾUmm ʿAlmjayr"
+ Almgeir_arabic_tek_dad: "ʾAbū ʿAlmjayr"
+ Almgeir_arabic_pat_dad_male: "ibn ʿAlmjayr"
+ Almgeir_arabic_pat_dad_female: "bint ʿAlmjayr"
 
  Almar_arabic: "ʿAlma"
  Almar_arabic_tek_mom: "ʾUmm ʿAlma"
@@ -463,11 +451,11 @@
  Arnfid_arabic_pat_dad_male: "ibn ʾArnfiḏ"
  Arnfid_arabic_pat_dad_female: "bint ʾArnfiḏ"
 
- Arngeir_arabic: "ʾArnjay"
- Arngeir_arabic_tek_mom: "ʾUmm ʾArnjay"
- Arngeir_arabic_tek_dad: "ʾAbū ʾArnjay"
- Arngeir_arabic_pat_dad_male: "ibn ʾArnjay"
- Arngeir_arabic_pat_dad_female: "bint ʾArnjay"
+ Arngeir_arabic: "ʾArnjayr"
+ Arngeir_arabic_tek_mom: "ʾUmm ʾArnjayr"
+ Arngeir_arabic_tek_dad: "ʾAbū ʾArnjayr"
+ Arngeir_arabic_pat_dad_male: "ibn ʾArnjayr"
+ Arngeir_arabic_pat_dad_female: "bint ʾArnjayr"
 
  Arngrim_arabic: "ʾArnġrīm"
  Arngrim_arabic_tek_mom: "ʾUmm ʾArnġrīm"
@@ -634,11 +622,11 @@
  Asgaut_arabic_pat_dad_male: "ibn Āsjut"
  Asgaut_arabic_pat_dad_female: "bint Āsjut"
 
- Asgeir_arabic: "Āsjay"
- Asgeir_arabic_tek_mom: "ʾUmm Āsjay"
- Asgeir_arabic_tek_dad: "ʾAbū Āsjay"
- Asgeir_arabic_pat_dad_male: "ibn Āsjay"
- Asgeir_arabic_pat_dad_female: "bint Āsjay"
+ Asgeir_arabic: "Āsjayr"
+ Asgeir_arabic_tek_mom: "ʾUmm Āsjayr"
+ Asgeir_arabic_tek_dad: "ʾAbū Āsjayr"
+ Asgeir_arabic_pat_dad_male: "ibn Āsjayr"
+ Asgeir_arabic_pat_dad_female: "bint Āsjayr"
 
  Asgis_arabic: "Āsjīs"
  Asgis_arabic_tek_mom: "ʾUmm Āsjīs"
@@ -806,11 +794,11 @@
  Audfinn_arabic_pat_dad_male: "ibn ʾAyḏfinn"
  Audfinn_arabic_pat_dad_female: "bint ʾAyḏfinn"
 
- Audgeir_arabic: "ʾAyḏjay"
- Audgeir_arabic_tek_mom: "ʾUmm ʾAyḏjay"
- Audgeir_arabic_tek_dad: "ʾAbū ʾAyḏjay"
- Audgeir_arabic_pat_dad_male: "ibn ʾAyḏjay"
- Audgeir_arabic_pat_dad_female: "bint ʾAyḏjay"
+ Audgeir_arabic: "ʾAyḏjayr"
+ Audgeir_arabic_tek_mom: "ʾUmm ʾAyḏjayr"
+ Audgeir_arabic_tek_dad: "ʾAbū ʾAyḏjayr"
+ Audgeir_arabic_pat_dad_male: "ibn ʾAyḏjayr"
+ Audgeir_arabic_pat_dad_female: "bint ʾAyḏjayr"
 
  Audgisl_arabic: "ʾAyḏjīs"
  Audgisl_arabic_tek_mom: "ʾUmm ʾAyḏjīs"
@@ -970,12 +958,6 @@
  Beggi_arabic_pat_dad_male: "ibn Bekke"
  Beggi_arabic_pat_dad_female: "bint Bekke"
  
- Beigan_arabic: "Bayjan" #Celtic
- Beigan_arabic_tek_mom: "ʾUmm Bayjan"
- Beigan_arabic_tek_dad: "ʾAbū Bayjan"
- Beigan_arabic_pat_dad_male: "ibn Bayjan"
- Beigan_arabic_pat_dad_female: "bint Bayjan"
- 
  Beinir_arabic: "Bayni"
  Beinir_arabic_tek_mom: "ʾUmm Bayni"
  Beinir_arabic_tek_dad: "ʾAbū Bayni"
@@ -993,24 +975,6 @@
  Beken_arabic_tek_dad: "ʾAbū Beken"
  Beken_arabic_pat_dad_male: "ibn Beken"
  Beken_arabic_pat_dad_female: "bint Beken"
- 
- Bekki_arabic: "Bekke" #AS
- Bekki_arabic_tek_mom: "ʾUmm Bekke"
- Bekki_arabic_tek_dad: "ʾAbū Bekke"
- Bekki_arabic_pat_dad_male: "ibn Bekke"
- Bekki_arabic_pat_dad_female: "bint Bekke"
- 
- Belli_arabic: "Belle" #OE
- Belli_arabic_tek_mom: "ʾUmm Belle"
- Belli_arabic_tek_dad: "ʾAbū Belle"
- Belli_arabic_pat_dad_male: "ibn Belle"
- Belli_arabic_pat_dad_female: "bint Belle"
- 
- Belt_arabic: "Belt" #OE
- Belt_arabic_tek_mom: "ʾUmm Belt"
- Belt_arabic_tek_dad: "ʾAbū Belt"
- Belt_arabic_pat_dad_male: "ibn Belt"
- Belt_arabic_pat_dad_female: "bint Belt"
 
  #Ben
  
@@ -1026,11 +990,11 @@
  Beni_arabic_pat_dad_male: "ibn Bin"
  Beni_arabic_pat_dad_female: "bint Bin"
  
- Bengeir_arabic: "Binjay"
- Bengeir_arabic_tek_mom: "ʾUmm Binjay"
- Bengeir_arabic_tek_dad: "ʾAbū Binjay"
- Bengeir_arabic_pat_dad_male: "ibn Binjay"
- Bengeir_arabic_pat_dad_female: "bint Binjay"
+ Bengeir_arabic: "Binjayr"
+ Bengeir_arabic_tek_mom: "ʾUmm Binjayr"
+ Bengeir_arabic_tek_dad: "ʾAbū Binjayr"
+ Bengeir_arabic_pat_dad_male: "ibn Binjayr"
+ Bengeir_arabic_pat_dad_female: "bint Binjayr"
  
  Bentein_arabic: "Bintayn"
  Bentein_arabic_tek_mom: "ʾUmm Bintayn"
@@ -1089,12 +1053,6 @@
  Birgir_arabic_tek_dad: "ʾAbū Birji"
  Birgir_arabic_pat_dad_male: "ibn Birji"
  Birgir_arabic_pat_dad_female: "bint Birji"
- 
- Bjadach_arabic: "Biaḏak" #Celtic
- Bjadach_arabic_tek_mom: "ʾUmm Biaḏak"
- Bjadach_arabic_tek_dad: "ʾAbū Biaḏak"
- Bjadach_arabic_pat_dad_male: "ibn Biaḏak"
- Bjadach_arabic_pat_dad_female: "bint Biaḏak"
  #Bjarn
  
  Bjarn_arabic: "Biārn"
@@ -1103,11 +1061,11 @@
  Bjarn_arabic_pat_dad_male: "ibn Biārn"
  Bjarn_arabic_pat_dad_female: "bint Biārn"
  
- Bjarngeir_arabic: "Biārnjay"
- Bjarngeir_arabic_tek_mom: "ʾUmm Biārnjay"
- Bjarngeir_arabic_tek_dad: "ʾAbū Biārnjay"
- Bjarngeir_arabic_pat_dad_male: "ibn Biārnjay"
- Bjarngeir_arabic_pat_dad_female: "bint Biārnjay"
+ Bjarngeir_arabic: "Biārnjayr"
+ Bjarngeir_arabic_tek_mom: "ʾUmm Biārnjayr"
+ Bjarngeir_arabic_tek_dad: "ʾAbū Biārnjayr"
+ Bjarngeir_arabic_pat_dad_male: "ibn Biārnjayr"
+ Bjarngeir_arabic_pat_dad_female: "bint Biārnjayr"
  
  Bjarnhard_arabic: "Biārnḥard"
  Bjarnhard_arabic_tek_mom: "ʾUmm Biārnḥard"
@@ -1224,11 +1182,11 @@
  Bodolf_arabic_pat_dad_male: "ibn Buḏūlf"
  Bodolf_arabic_pat_dad_female: "bint Buḏūlf"
  
- Bodvar_arabic: "Buḏwa"
- Bodvar_arabic_tek_mom: "ʾUmm Buḏwa"
- Bodvar_arabic_tek_dad: "ʾAbū Buḏwa"
- Bodvar_arabic_pat_dad_male: "ibn Buḏwa"
- Bodvar_arabic_pat_dad_female: "bint Buḏwa"
+ Bodvar_arabic: "Buḏwar"
+ Bodvar_arabic_tek_mom: "ʾUmm Buḏwar"
+ Bodvar_arabic_tek_dad: "ʾAbū Buḏwar"
+ Bodvar_arabic_pat_dad_male: "ibn Buḏwar"
+ Bodvar_arabic_pat_dad_female: "bint Buḏwar"
 
  ###
  
@@ -1244,12 +1202,6 @@
  Bogi_arabic_pat_dad_male: "ibn Buk"
  Bogi_arabic_pat_dad_female: "bint Buk"
  
- Bolnaut_arabic: "Būlnawt"
- Bolnaut_arabic_tek_mom: "ʾUmm Būlnawt"
- Bolnaut_arabic_tek_dad: "ʾAbū Būlnawt"
- Bolnaut_arabic_pat_dad_male: "ibn Būlnawt"
- Bolnaut_arabic_pat_dad_female: "bint Būlnawt"
- 
  Bondi_arabic: "Būnd"
  Bondi_arabic_tek_mom: "ʾUmm Būnd"
  Bondi_arabic_tek_dad: "ʾAbū Būnd"
@@ -1264,11 +1216,11 @@
 
  #Borg
  
- Borggeir_arabic: "Burjjay"
- Borggeir_arabic_tek_mom: "ʾUmm Burjjay"
- Borggeir_arabic_tek_dad: "ʾAbū Burjjay"
- Borggeir_arabic_pat_dad_male: "ibn Burjjay"
- Borggeir_arabic_pat_dad_female: "bint Burjjay"
+ Borggeir_arabic: "Burjjayr"
+ Borggeir_arabic_tek_mom: "ʾUmm Burjjayr"
+ Borggeir_arabic_tek_dad: "ʾAbū Burjjayr"
+ Borggeir_arabic_pat_dad_male: "ibn Burjjayr"
+ Borggeir_arabic_pat_dad_female: "bint Burjjayr"
  
  Borgfast_arabic: "Burjfast"
  Borgfast_arabic_tek_mom: "ʾUmm Burjfast"
@@ -1284,12 +1236,6 @@
 
  #Bot
  
- Boti_arabic: "Būt"
- Boti_arabic_tek_mom: "ʾUmm Būt"
- Boti_arabic_tek_dad: "ʾAbū Būt"
- Boti_arabic_pat_dad_male: "ibn Būt"
- Boti_arabic_pat_dad_female: "bint Būt"
- 
  Botbjorn_arabic: "Būtbyurn"
  Botbjorn_arabic_tek_mom: "ʾUmm Būtbyurn"
  Botbjorn_arabic_tek_dad: "ʾAbū Būtbyurn"
@@ -1302,11 +1248,11 @@
  Botfuss_arabic_pat_dad_male: "ibn Būtfūz"
  Botfuss_arabic_pat_dad_female: "bint Būtfūz"
  
- Botgeir_arabic: "Būtjay"
- Botgeir_arabic_tek_mom: "ʾUmm Būtjay"
- Botgeir_arabic_tek_dad: "ʾAbū Būtjay"
- Botgeir_arabic_pat_dad_male: "ibn Būtjay"
- Botgeir_arabic_pat_dad_female: "bint Būtjay"
+ Botgeir_arabic: "Būtjayr"
+ Botgeir_arabic_tek_mom: "ʾUmm Būtjayr"
+ Botgeir_arabic_tek_dad: "ʾAbū Būtjayr"
+ Botgeir_arabic_pat_dad_male: "ibn Būtjayr"
+ Botgeir_arabic_pat_dad_female: "bint Būtjayr"
  
  Bothvat_arabic: "Būtḥwat"
  Bothvat_arabic_tek_mom: "ʾUmm Būtḥwat"
@@ -1368,12 +1314,6 @@
  Bragi_arabic_pat_dad_male: "ibn Braj"
  Bragi_arabic_pat_dad_female: "bint Braj"
  
- Brand_arabic: "Brand"
- Brand_arabic_tek_mom: "ʾUmm Brand"
- Brand_arabic_tek_dad: "ʾAbū Brand"
- Brand_arabic_pat_dad_male: "ibn Brand"
- Brand_arabic_pat_dad_female: "bint Brand"
- 
  Brandulf_arabic: "Brandūlf"
  Brandulf_arabic_tek_mom: "ʾUmm Brandūlf"
  Brandulf_arabic_tek_dad: "ʾAbū Brandūlf"
@@ -1392,61 +1332,19 @@
  Bresi_arabic_pat_dad_male: "ibn Brays"
  Bresi_arabic_pat_dad_female: "bint Brays"
  
- Bretakoll_arabic: "Braytaqayl" #AS
- Bretakoll_arabic_tek_mom: "ʾUmm Braytaqayl"
- Bretakoll_arabic_tek_dad: "ʾAbū Braytaqayl"
- Bretakoll_arabic_pat_dad_male: "ibn Braytaqayl"
- Bretakoll_arabic_pat_dad_female: "bint BretakǫllBraytaqaylsdūtti"
- 
- Brian_arabic: "Brīān" #Celtic
- Brian_arabic_tek_mom: "ʾUmm Brīān"
- Brian_arabic_tek_dad: "ʾAbū Brīān"
- Brian_arabic_pat_dad_male: "ibn Brīān"
- Brian_arabic_pat_dad_female: "bint Brīān"
- 
  Brisi_arabic: "Brīs"
  Brisi_arabic_tek_mom: "ʾUmm Brīs"
  Brisi_arabic_tek_dad: "ʾAbū Brīs"
  Brisi_arabic_pat_dad_male: "ibn Brīs"
  Brisi_arabic_pat_dad_female: "bint Brīs"
  
- Brjan_arabic: "Brīān" #Celtic
- Brjan_arabic_tek_mom: "ʾUmm Brīān"
- Brjan_arabic_tek_dad: "ʾAbū Brīān"
- Brjan_arabic_pat_dad_male: "ibn Brīān"
- Brjan_arabic_pat_dad_female: "bint Brīān"
- 
  Brodd_arabic: "Bruḏ"
  Brodd_arabic_tek_mom: "ʾUmm Bruḏ"
  Brodd_arabic_tek_dad: "ʾAbū Bruḏ"
  Brodd_arabic_pat_dad_male: "ibn Bruḏ"
  Brodd_arabic_pat_dad_female: "bint Bruḏ"
- 
- Broklaus_arabic: "Brūklaws" #AS
- Broklaus_arabic_tek_mom: "ʾUmm Brūklaws"
- Broklaus_arabic_tek_dad: "ʾAbū Brūklaws"
- Broklaus_arabic_pat_dad_male: "ibn Brūklaws"
- Broklaus_arabic_pat_dad_female: "bint Brūklaws"
- 
- Brotulf_arabic: "Brutūlf" #AS
- Brotulf_arabic_tek_mom: "ʾUmm Brutūlf"
- Brotulf_arabic_tek_dad: "ʾAbū Brutūlf"
- Brotulf_arabic_pat_dad_male: "ibn Brutūlf"
- Brotulf_arabic_pat_dad_female: "bint Brutūlf"
- 
- Brud_arabic: "Brūḏ"
- Brud_arabic_tek_mom: "ʾUmm Brūḏ"
- Brud_arabic_tek_dad: "ʾAbū Brūḏ"
- Brud_arabic_pat_dad_male: "ibn Brūḏ"
- Brud_arabic_pat_dad_female: "bint Brūḏ"
 
  #Brun
- 
- Brunkarl_arabic: "Brūnkarl" #AS
- Brunkarl_arabic_tek_mom: "ʾUmm Brūnkarl"
- Brunkarl_arabic_tek_dad: "ʾAbū Brūnkarl"
- Brunkarl_arabic_pat_dad_male: "ibn Brūnkarl"
- Brunkarl_arabic_pat_dad_female: "bint Brūnkarl"
  
  Brunkel_arabic: "Brūnqayl"
  Brunkel_arabic_tek_mom: "ʾUmm Brūnqayl"
@@ -1485,24 +1383,6 @@
  Brynjulf_arabic_pat_dad_male: "ibn Brynūlf"
  Brynjulf_arabic_pat_dad_female: "bint Brynūlf"
  
- Brusi_arabic: "Brūs"
- Brusi_arabic_tek_mom: "ʾUmm Brūs"
- Brusi_arabic_tek_dad: "ʾAbū Brūs"
- Brusi_arabic_pat_dad_male: "ibn Brūs"
- Brusi_arabic_pat_dad_female: "bint Brūs"
- 
- Bryti_arabic: "Bryt"
- Bryti_arabic_tek_mom: "ʾUmm Bryt"
- Bryti_arabic_tek_dad: "ʾAbū Bryt"
- Bryti_arabic_pat_dad_male: "ibn Bryt"
- Bryti_arabic_pat_dad_female: "bint Bryt"
- 
- Budi_arabic: "Buḏ"
- Budi_arabic_tek_mom: "ʾUmm Buḏ"
- Budi_arabic_tek_dad: "ʾAbū Buḏ"
- Budi_arabic_pat_dad_male: "ibn Buḏ"
- Budi_arabic_pat_dad_female: "bint Buḏ"
- 
  Buldi_arabic: "Buld"
  Buldi_arabic_tek_mom: "ʾUmm Buld"
  Buldi_arabic_tek_dad: "ʾAbū Buld"
@@ -1540,14 +1420,6 @@
  Butrald_arabic_tek_dad: "ʾAbū Butrald"
  Butrald_arabic_pat_dad_male: "ibn Butrald"
  Butrald_arabic_pat_dad_female: "bint Butrald"
-
- ###
- 
- Cranebein_arabic: "Kranbayn" #AS
- Cranebein_arabic_tek_mom: "ʾUmm Kranbayn"
- Cranebein_arabic_tek_dad: "ʾAbū Kranbayn"
- Cranebein_arabic_pat_dad_male: "ibn Kranbayn"
- Cranebein_arabic_pat_dad_female: "bint Kranbayn"
 
  #Dag
  
@@ -1621,17 +1493,11 @@
  Dyri_arabic_pat_dad_male: "ibn Diyry"
  Dyri_arabic_pat_dad_female: "bint Diyry"
  
- Djurgeir_arabic: "Dyūrjay"
- Djurgeir_arabic_tek_mom: "ʾUmm Dyūrjay"
- Djurgeir_arabic_tek_dad: "ʾAbū Dyūrjay"
- Djurgeir_arabic_pat_dad_male: "ibn Dyūrjay"
- Djurgeir_arabic_pat_dad_female: "bint Dyūrjay"
- 
- Djur_arabic: "Dyū"
- Djur_arabic_tek_mom: "ʾUmm Dyū"
- Djur_arabic_tek_dad: "ʾAbū Dyū"
- Djur_arabic_pat_dad_male: "ibn Dyū"
- Djur_arabic_pat_dad_female: "bint Dyū"
+ Djurgeir_arabic: "Dyūrjayr"
+ Djurgeir_arabic_tek_mom: "ʾUmm Dyūrjayr"
+ Djurgeir_arabic_tek_dad: "ʾAbū Dyūrjayr"
+ Djurgeir_arabic_pat_dad_male: "ibn Dyūrjayr"
+ Djurgeir_arabic_pat_dad_female: "bint Dyūrjayr"
  
  Djurver_arabic: "Dyūrwī"
  Djurver_arabic_tek_mom: "ʾUmm Dyūrwī"
@@ -1644,20 +1510,6 @@
  Dyrbjorn_arabic_tek_dad: "ʾAbū Diyrbyurn"
  Dyrbjorn_arabic_pat_dad_male: "ibn Diyrbyurn"
  Dyrbjorn_arabic_pat_dad_female: "bint Diyrbyurn"
-
- ###
- 
- Dofnak_arabic: "Dufnak" #Celtic
- Dofnak_arabic_tek_mom: "ʾUmm Dufnak"
- Dofnak_arabic_tek_dad: "ʾAbū Dufnak"
- Dofnak_arabic_pat_dad_male: "ibn Dufnak"
- Dofnak_arabic_pat_dad_female: "bint Dufnak"
- 
- Dolgfinn_arabic: "Duljfinn" #AS
- Dolgfinn_arabic_tek_mom: "ʾUmm Duljfinn"
- Dolgfinn_arabic_tek_dad: "ʾAbū Duljfinn"
- Dolgfinn_arabic_pat_dad_male: "ibn Duljfinn"
- Dolgfinn_arabic_pat_dad_female: "bint Duljfinn"
 
  ###Dom
  
@@ -1672,12 +1524,6 @@
  Domar_arabic_tek_dad: "ʾAbū Dūma"
  Domar_arabic_pat_dad_male: "ibn Dūma"
  Domar_arabic_pat_dad_female: "bint Dūma"
- 
- Domnall_arabic: "Dumnayl" #Celtic
- Domnall_arabic_tek_mom: "ʾUmm Dumnayl"
- Domnall_arabic_tek_dad: "ʾAbū Dumnayl"
- Domnall_arabic_pat_dad_male: "ibn Dumnayl"
- Domnall_arabic_pat_dad_female: "bint Dumnayl"
 
  ###
  
@@ -1705,93 +1551,11 @@
  Dragmall_arabic_pat_dad_male: "ibn Drajmāl"
  Dragmall_arabic_pat_dad_female: "bint Drajmāl"
  
- Drjug_arabic: "Driūj" #AS
- Drjug_arabic_tek_mom: "ʾUmm Driūj"
- Drjug_arabic_tek_dad: "ʾAbū Driūj"
- Drjug_arabic_pat_dad_male: "ibn Driūj"
- Drjug_arabic_pat_dad_female: "bint Driūj"
- 
- Dromund_arabic: "Drūmund" #AS
- Dromund_arabic_tek_mom: "ʾUmm Drūmund"
- Dromund_arabic_tek_dad: "ʾAbū Drūmund"
- Dromund_arabic_pat_dad_male: "ibn Drūmund"
- Dromund_arabic_pat_dad_female: "bint Drūmund"
- 
- Drosboi_arabic: "Drūsbūy"
- Drosboi_arabic_tek_mom: "ʾUmm Drūsbūy"
- Drosboi_arabic_tek_dad: "ʾAbū Drūsbūy"
- Drosboi_arabic_pat_dad_male: "ibn Drūsbūy"
- Drosboi_arabic_pat_dad_female: "bint Drūsbūy"
- 
- Druian_arabic: "Druian" #Celtic
- Druian_arabic_tek_mom: "ʾUmm Druian"
- Druian_arabic_tek_dad: "ʾAbū Druian"
- Druian_arabic_pat_dad_male: "ibn Druian"
- Druian_arabic_pat_dad_female: "bint Druian"
- 
  Dudi_arabic: "Dūḏ"
  Dudi_arabic_tek_mom: "ʾUmm Dūḏ"
  Dudi_arabic_tek_dad: "ʾAbū Dūḏ"
  Dudi_arabic_pat_dad_male: "ibn Dūḏ"
  Dudi_arabic_pat_dad_female: "bint Dūḏ"
-
- #Duf (Celtic)
- 
- Dufan_arabic: "Dufan" #Celtic
- Dufan_arabic_tek_mom: "ʾUmm Dufan"
- Dufan_arabic_tek_dad: "ʾAbū Dufan"
- Dufan_arabic_pat_dad_male: "ibn Dufan"
- Dufan_arabic_pat_dad_female: "bint Dufan"
- 
- Dufgall_arabic: "Dufġal" #Celtic
- Dufgall_arabic_tek_mom: "ʾUmm Dufġal"
- Dufgall_arabic_tek_dad: "ʾAbū Dufġal"
- Dufgall_arabic_pat_dad_male: "ibn Dufġal"
- Dufgall_arabic_pat_dad_female: "bint Dufġal"
- 
- Dufguss_arabic: "Dufġūs" #Celtic
- Dufguss_arabic_tek_mom: "ʾUmm Dufġūs"
- Dufguss_arabic_tek_dad: "ʾAbū Dufġūs"
- Dufguss_arabic_pat_dad_male: "ibn Dufġūs"
- Dufguss_arabic_pat_dad_female: "bint Dufġūs"
- 
- Dufnall_arabic: "Dufnayl" #Celtic
- Dufnall_arabic_tek_mom: "ʾUmm Dufnayl"
- Dufnall_arabic_tek_dad: "ʾAbū Dufnayl"
- Dufnall_arabic_pat_dad_male: "ibn Dufnayl"
- Dufnall_arabic_pat_dad_female: "bint Dufnayl"
- 
- Dufniall_arabic: "Dufnayl" #Celtic
- Dufniall_arabic_tek_mom: "ʾUmm Dufnayl"
- Dufniall_arabic_tek_dad: "ʾAbū Dufnayl"
- Dufniall_arabic_pat_dad_male: "ibn Dufnayl"
- Dufniall_arabic_pat_dad_female: "bint Dufnayl"
- 
- Dufthak_arabic: "Dufṯak" #Celtic
- Dufthak_arabic_tek_mom: "ʾUmm Dufṯak"
- Dufthak_arabic_tek_dad: "ʾAbū Dufṯak"
- Dufthak_arabic_pat_dad_male: "ibn Dufṯak"
- Dufthak_arabic_pat_dad_female: "bint Dufṯak"
-
- ###
- 
- Dugfuss_arabic: "Duġfūz" #Celtic
- Dugfuss_arabic_tek_mom: "ʾUmm Duġfūz"
- Dugfuss_arabic_tek_dad: "ʾAbū Duġfūz"
- Dugfuss_arabic_pat_dad_male: "ibn Duġfūz"
- Dugfuss_arabic_pat_dad_female: "bint Duġfūz"
- 
- Dungad_arabic: "Dunġaḏ" #Celtic
- Dungad_arabic_tek_mom: "ʾUmm Dunġaḏ"
- Dungad_arabic_tek_dad: "ʾAbū Dunġaḏ"
- Dungad_arabic_pat_dad_male: "ibn Dunġaḏ"
- Dungad_arabic_pat_dad_female: "bint Dunġaḏ"
- 
- Dungall_arabic: "Dunġal" #Celtic
- Dungall_arabic_tek_mom: "ʾUmm Dunġal"
- Dungall_arabic_tek_dad: "ʾAbū Dunġal"
- Dungall_arabic_pat_dad_male: "ibn Dunġal"
- Dungall_arabic_pat_dad_female: "bint Dunġal"
  
  Dyggvi_arabic: "Dykkvy"
  Dyggvi_arabic_tek_mom: "ʾUmm Dykkvy"
@@ -2057,17 +1821,11 @@
 
  #F
  
- Faeit_arabic: "Fayt"
- Faeit_arabic_tek_mom: "ʾUmm Fayt"
- Faeit_arabic_tek_dad: "ʾAbū Fayt"
- Faeit_arabic_pat_dad_male: "ibn Fayt"
- Faeit_arabic_pat_dad_female: "bint Fayt"
- 
- Falgeir_arabic: "Faljay"
- Falgeir_arabic_tek_mom: "ʾUmm Faljay"
- Falgeir_arabic_tek_dad: "ʾAbū Faljay"
- Falgeir_arabic_pat_dad_male: "ibn Faljay"
- Falgeir_arabic_pat_dad_female: "bint Faljay"
+ Falgeir_arabic: "Faljayr"
+ Falgeir_arabic_tek_mom: "ʾUmm Faljayr"
+ Falgeir_arabic_tek_dad: "ʾAbū Faljayr"
+ Falgeir_arabic_pat_dad_male: "ibn Faljayr"
+ Falgeir_arabic_pat_dad_female: "bint Faljayr"
  
  Falki_arabic: "Fālk"
  Falki_arabic_tek_mom: "ʾUmm Fālk"
@@ -2094,12 +1852,6 @@
  Farbjorn_arabic_tek_dad: "ʾAbū Farbyurn"
  Farbjorn_arabic_pat_dad_male: "ibn Farbyurn"
  Farbjorn_arabic_pat_dad_female: "bint Farbyurn"
- 
- Fargrim_arabic: "Farġrīm"
- Fargrim_arabic_tek_mom: "ʾUmm Farġrīm"
- Fargrim_arabic_tek_dad: "ʾAbū Farġrīm"
- Fargrim_arabic_pat_dad_male: "ibn Farġrīm"
- Fargrim_arabic_pat_dad_female: "bint Farġrīm"
  
  Farthegn_arabic: "Farṯeġn"
  Farthegn_arabic_tek_mom: "ʾUmm Farṯeġn"
@@ -2144,11 +1896,11 @@
  Fastbjorn_arabic_pat_dad_male: "ibn Fastbyurn"
  Fastbjorn_arabic_pat_dad_female: "bint Fastbyurn"
  
- Fastgeir_arabic: "Fastjay"
- Fastgeir_arabic_tek_mom: "ʾUmm Fastjay"
- Fastgeir_arabic_tek_dad: "ʾAbū Fastjay"
- Fastgeir_arabic_pat_dad_male: "ibn Fastjay"
- Fastgeir_arabic_pat_dad_female: "bint Fastjay"
+ Fastgeir_arabic: "Fastjayr"
+ Fastgeir_arabic_tek_mom: "ʾUmm Fastjayr"
+ Fastgeir_arabic_tek_dad: "ʾAbū Fastjayr"
+ Fastgeir_arabic_pat_dad_male: "ibn Fastjayr"
+ Fastgeir_arabic_pat_dad_female: "bint Fastjayr"
  
  Fastmund_arabic: "Fastmund"
  Fastmund_arabic_tek_mom: "ʾUmm Fastmund"
@@ -2176,18 +1928,6 @@
  Fati_arabic_pat_dad_male: "ibn Fat"
  Fati_arabic_pat_dad_female: "bint Fat"
  
- Feig_arabic: "Fayj" #AS
- Feig_arabic_tek_mom: "ʾUmm Fayj"
- Feig_arabic_tek_dad: "ʾAbū Fayj"
- Feig_arabic_pat_dad_male: "ibn Fayj"
- Feig_arabic_pat_dad_female: "bint Fayj"
- 
- Fiak_arabic: "Fiak" #Celtic
- Fiak_arabic_tek_mom: "ʾUmm Fiak"
- Fiak_arabic_tek_dad: "ʾAbū Fiak"
- Fiak_arabic_pat_dad_male: "ibn Fiak"
- Fiak_arabic_pat_dad_female: "bint Fiak"
- 
  Filippus_arabic: "Filib" #Christian
  Filippus_arabic_tek_mom: "ʾUmm Filib"
  Filippus_arabic_tek_dad: "ʾAbū Filib"
@@ -2214,11 +1954,11 @@
  Finnbogi_arabic_pat_dad_male: "ibn Finnbuj"
  Finnbogi_arabic_pat_dad_female: "bint Finnbuj"
  
- Finngeir_arabic: "Finnjay"
- Finngeir_arabic_tek_mom: "ʾUmm Finnjay"
- Finngeir_arabic_tek_dad: "ʾAbū Finnjay"
- Finngeir_arabic_pat_dad_male: "ibn Finnjay"
- Finngeir_arabic_pat_dad_female: "bint Finnjay"
+ Finngeir_arabic: "Finnjayr"
+ Finngeir_arabic_tek_mom: "ʾUmm Finnjayr"
+ Finngeir_arabic_tek_dad: "ʾAbū Finnjayr"
+ Finngeir_arabic_pat_dad_male: "ibn Finnjayr"
+ Finngeir_arabic_pat_dad_female: "bint Finnjayr"
  
  Finnolf_arabic: "Finnūlf"
  Finnolf_arabic_tek_mom: "ʾUmm Finnūlf"
@@ -2240,11 +1980,11 @@
 
  ###
  
- Fjallgeir_arabic: "Fialjay"
- Fjallgeir_arabic_tek_mom: "ʾUmm Fialjay"
- Fjallgeir_arabic_tek_dad: "ʾAbū Fialjay"
- Fjallgeir_arabic_pat_dad_male: "ibn Fialjay"
- Fjallgeir_arabic_pat_dad_female: "bint Fialjay"
+ Fjallgeir_arabic: "Fialjayr"
+ Fjallgeir_arabic_tek_mom: "ʾUmm Fialjayr"
+ Fjallgeir_arabic_tek_dad: "ʾAbū Fialjayr"
+ Fjallgeir_arabic_pat_dad_male: "ibn Fialjayr"
+ Fjallgeir_arabic_pat_dad_female: "bint Fialjayr"
  
  Fjolmodr_arabic: "Fialmuḏ" #Norse
  Fjolmodr_arabic_tek_mom: "ʾUmm Fialmuḏ"
@@ -2252,11 +1992,11 @@
  Fjolmodr_arabic_pat_dad_male: "ibn Fialmuḏ"
  Fjolmodr_arabic_pat_dad_female: "bint Fialmuḏ"
  
- Fjolvar_arabic: "Fialwa" #norse
- Fjolvar_arabic_tek_mom: "ʾUmm Fialwa"
- Fjolvar_arabic_tek_dad: "ʾAbū Fialwa"
- Fjolvar_arabic_pat_dad_male: "ibn Fialwa"
- Fjolvar_arabic_pat_dad_female: "bint Fialwa"
+ Fjolvar_arabic: "Fialwar" #norse
+ Fjolvar_arabic_tek_mom: "ʾUmm Fialwar"
+ Fjolvar_arabic_tek_dad: "ʾAbū Fialwar"
+ Fjolvar_arabic_pat_dad_male: "ibn Fialwar"
+ Fjolvar_arabic_pat_dad_female: "bint Fialwar"
  
  Flosi_arabic: "Flus"
  Flosi_arabic_tek_mom: "ʾUmm Flus"
@@ -2288,12 +2028,6 @@
  Folkbjorn_arabic_tek_dad: "ʾAbū Fūlkbyurn"
  Folkbjorn_arabic_pat_dad_male: "ibn Fūlkbyurn"
  Folkbjorn_arabic_pat_dad_female: "bint Fūlkbyurn"
- 
- Folkgeir_arabic: "Fūlkjay"
- Folkgeir_arabic_tek_mom: "ʾUmm Fūlkjay"
- Folkgeir_arabic_tek_dad: "ʾAbū Fūlkjay"
- Folkgeir_arabic_pat_dad_male: "ibn Fūlkjay"
- Folkgeir_arabic_pat_dad_female: "bint Fūlkjay"
  
  Folkmar_arabic: "Fūlkma"
  Folkmar_arabic_tek_mom: "ʾUmm Fūlkma"
@@ -2338,12 +2072,6 @@
  Fothrad_arabic_tek_dad: "ʾAbū Fūtḥraḏ"
  Fothrad_arabic_pat_dad_male: "ibn Fūtḥraḏ"
  Fothrad_arabic_pat_dad_female: "bint Fūtḥraḏ"
- 
- Frani_arabic: "Frān" #AS
- Frani_arabic_tek_mom: "ʾUmm Frān"
- Frani_arabic_tek_dad: "ʾAbū Frān"
- Frani_arabic_pat_dad_male: "ibn Frān"
- Frani_arabic_pat_dad_female: "bint Frān"
 
  #Frey Norse
  
@@ -2353,11 +2081,11 @@
  Freybjorn_arabic_pat_dad_male: "ibn Fārībyurn"
  Freybjorn_arabic_pat_dad_female: "bint Fārībyurn"
  
- Freygeir_arabic: "Fārījay"
- Freygeir_arabic_tek_mom: "ʾUmm Fārījay"
- Freygeir_arabic_tek_dad: "ʾAbū Fārījay"
- Freygeir_arabic_pat_dad_male: "ibn Fārījay"
- Freygeir_arabic_pat_dad_female: "bint Fārījay"
+ Freygeir_arabic: "Fārījayr"
+ Freygeir_arabic_tek_mom: "ʾUmm Fārījayr"
+ Freygeir_arabic_tek_dad: "ʾAbū Fārījayr"
+ Freygeir_arabic_pat_dad_male: "ibn Fārījayr"
+ Freygeir_arabic_pat_dad_female: "bint Fārījayr"
  
  Freyrik_arabic: "Fārīrīq"
  Freyrik_arabic_tek_mom: "ʾUmm Fārīrīq"
@@ -2391,11 +2119,11 @@
  Fridbjorn_arabic_pat_dad_male: "ibn Frīdbyurn"
  Fridbjorn_arabic_pat_dad_female: "bint Frīdbyurn"
  
- Fridgeir_arabic: "Frīdjay"
- Fridgeir_arabic_tek_mom: "ʾUmm Frīdjay"
- Fridgeir_arabic_tek_dad: "ʾAbū Frīdjay"
- Fridgeir_arabic_pat_dad_male: "ibn Frīdjay"
- Fridgeir_arabic_pat_dad_female: "bint Frīdjay"
+ Fridgeir_arabic: "Frīdjayr"
+ Fridgeir_arabic_tek_mom: "ʾUmm Frīdjayr"
+ Fridgeir_arabic_tek_dad: "ʾAbū Frīdjayr"
+ Fridgeir_arabic_pat_dad_male: "ibn Frīdjayr"
+ Fridgeir_arabic_pat_dad_female: "bint Frīdjayr"
  
  Fridgest_arabic: "Frīdġest"
  Fridgest_arabic_tek_mom: "ʾUmm Frīdġest"
@@ -2447,29 +2175,11 @@
  Frirek_arabic_pat_dad_male: "ibn Frīrīq"
  Frirek_arabic_pat_dad_female: "bint Frīrīq"
  
- Frodi_arabic: "Frūd"
- Frodi_arabic_tek_mom: "ʾUmm Frūd"
- Frodi_arabic_tek_dad: "ʾAbū Frūd"
- Frodi_arabic_pat_dad_male: "ibn Frūd"
- Frodi_arabic_pat_dad_female: "bint Frūd"
- 
  Frokn_arabic: "Frakn"
  Frokn_arabic_tek_mom: "ʾUmm Frakn"
  Frokn_arabic_tek_dad: "ʾAbū Frakn"
  Frokn_arabic_pat_dad_male: "ibn Frakn"
  Frokn_arabic_pat_dad_female: "bint Frakn"
- 
- Frostulf_arabic: "Frustūlf"
- Frostulf_arabic_tek_mom: "ʾUmm Frustūlf"
- Frostulf_arabic_tek_dad: "ʾAbū Frustūlf"
- Frostulf_arabic_pat_dad_male: "ibn Frustūlf"
- Frostulf_arabic_pat_dad_female: "bint Frustūlf"
- 
- Fuldar_arabic: "Fuldar" #AS
- Fuldar_arabic_tek_mom: "ʾUmm Fuldar"
- Fuldar_arabic_tek_dad: "ʾAbū Fuldar"
- Fuldar_arabic_pat_dad_male: "ibn Fuldar"
- Fuldar_arabic_pat_dad_female: "bint Fuldar"
  
  Fullhugi_arabic: "Fulhuġ"
  Fullhugi_arabic_tek_mom: "ʾUmm Fulhuġ"
@@ -2485,41 +2195,11 @@
 
  #G
  
- Gagar_arabic: "Ġajay"
- Gagar_arabic_tek_mom: "ʾUmm Ġajay"
- Gagar_arabic_tek_dad: "ʾAbū Ġajay"
- Gagar_arabic_pat_dad_male: "ibn Ġajay"
- Gagar_arabic_pat_dad_female: "bint Ġajay"
- 
- Gag_arabic: "Ġaj"
- Gag_arabic_tek_mom: "ʾUmm Ġaj"
- Gag_arabic_tek_dad: "ʾAbū Ġaj"
- Gag_arabic_pat_dad_male: "ibn Ġaj"
- Gag_arabic_pat_dad_female: "bint Ġaj"
- 
- Galmi_arabic: "Ġalm"
- Galmi_arabic_tek_mom: "ʾUmm Ġalm"
- Galmi_arabic_tek_dad: "ʾAbū Ġalm"
- Galmi_arabic_pat_dad_male: "ibn Ġalm"
- Galmi_arabic_pat_dad_female: "bint Ġalm"
- 
  Galti_arabic: "Ġalt"
  Galti_arabic_tek_mom: "ʾUmm Ġalt"
  Galti_arabic_tek_dad: "ʾAbū Ġalt"
  Galti_arabic_pat_dad_male: "ibn Ġalt"
  Galti_arabic_pat_dad_female: "bint Ġalt"
- 
- Gamalbarn_arabic: "Ġamalbarn" #AS
- Gamalbarn_arabic_tek_mom: "ʾUmm Ġamalbarn"
- Gamalbarn_arabic_tek_dad: "ʾAbū Ġamalbarn"
- Gamalbarn_arabic_pat_dad_male: "ibn Ġamalbarn"
- Gamalbarn_arabic_pat_dad_female: "bint Ġamalbarn"
- 
- Gamalkarl_arabic: "Ġamalkarl" #AS
- Gamalkarl_arabic_tek_mom: "ʾUmm Ġamalkarl"
- Gamalkarl_arabic_tek_dad: "ʾAbū Ġamalkarl"
- Gamalkarl_arabic_pat_dad_male: "ibn Ġamalkarl"
- Gamalkarl_arabic_pat_dad_female: "bint Ġamalkarl"
  
  Gandalf_arabic: "Ġandalf" #POG
  Gandalf_arabic_tek_mom: "ʾUmm Ġandalf"
@@ -2533,12 +2213,6 @@
  Gangulf_arabic_pat_dad_male: "ibn Ġanjūlf"
  Gangulf_arabic_pat_dad_female: "bint Ġanjūlf"
  
- Gapr_arabic: "Ġab"
- Gapr_arabic_tek_mom: "ʾUmm Ġab"
- Gapr_arabic_tek_dad: "ʾAbū Ġab"
- Gapr_arabic_pat_dad_male: "ibn Ġab"
- Gapr_arabic_pat_dad_female: "bint Ġab"
- 
  Gardar_arabic: "Ġardar"
  Gardar_arabic_tek_mom: "ʾUmm Ġardar"
  Gardar_arabic_tek_dad: "ʾAbū Ġardar"
@@ -2550,12 +2224,6 @@
  Gard_arabic_tek_dad: "ʾAbū Ġard"
  Gard_arabic_pat_dad_male: "ibn Ġard"
  Gard_arabic_pat_dad_female: "bint Ġard"
- 
- Gardulf_arabic: "Ġardūlf" #AS
- Gardulf_arabic_tek_mom: "ʾUmm Ġardūlf"
- Gardulf_arabic_tek_dad: "ʾAbū Ġardūlf"
- Gardulf_arabic_pat_dad_male: "ibn Ġardūlf"
- Gardulf_arabic_pat_dad_female: "bint Ġardūlf"
  
  Gauss_arabic: "Ġawz"
  Gauss_arabic_tek_mom: "ʾUmm Ġawz"
@@ -2576,12 +2244,6 @@
  Gautar_arabic_tek_dad: "ʾAbū Jutar"
  Gautar_arabic_pat_dad_male: "ibn Jutar"
  Gautar_arabic_pat_dad_female: "bint Jutar"
- 
- Gautdiarf_arabic: "Jutdyarf"
- Gautdiarf_arabic_tek_mom: "ʾUmm Jutdyarf"
- Gautdiarf_arabic_tek_dad: "ʾAbū Jutdyarf"
- Gautdiarf_arabic_pat_dad_male: "ibn Jutdyarf"
- Gautdiarf_arabic_pat_dad_female: "bint Jutdyarf"
  
  Gautrad_arabic: "Jutrāḏ"
  Gautrad_arabic_tek_mom: "ʾUmm Jutrāḏ"
@@ -2703,12 +2365,6 @@
  Geirmar_arabic_pat_dad_male: "ibn Jayrma"
  Geirmar_arabic_pat_dad_female: "bint Jayrma"
  
- Geirmod_arabic: "Jayrmuḏ"
- Geirmod_arabic_tek_mom: "ʾUmm Jayrmuḏ"
- Geirmod_arabic_tek_dad: "ʾAbū Jayrmuḏ"
- Geirmod_arabic_pat_dad_male: "ibn Jayrmuḏ"
- Geirmod_arabic_pat_dad_female: "bint Jayrmuḏ"
- 
  Geirmund_arabic: "Jayrmund"
  Geirmund_arabic_tek_mom: "ʾUmm Jayrmund"
  Geirmund_arabic_tek_dad: "ʾAbū Jayrmund"
@@ -2756,18 +2412,6 @@
  Geirthjof_arabic_tek_dad: "ʾAbū Jayrṯyūf"
  Geirthjof_arabic_pat_dad_male: "ibn Jayrṯyūf"
  Geirthjof_arabic_pat_dad_female: "bint Jayrṯyūf"
- 
- Geirvard_arabic: "Jayrward"
- Geirvard_arabic_tek_mom: "ʾUmm Jayrward"
- Geirvard_arabic_tek_dad: "ʾAbū Jayrward"
- Geirvard_arabic_pat_dad_male: "ibn Jayrward"
- Geirvard_arabic_pat_dad_female: "bint Jayrward"
- 
- Geirvar_arabic: "Jayrwa"
- Geirvar_arabic_tek_mom: "ʾUmm Jayrwa"
- Geirvar_arabic_tek_dad: "ʾAbū Jayrwa"
- Geirvar_arabic_pat_dad_male: "ibn Jayrwa"
- Geirvar_arabic_pat_dad_female: "bint Jayrwa"
  
  Geirvid_arabic: "Jayrwiḏ"
  Geirvid_arabic_tek_mom: "ʾUmm Jayrwiḏ"
@@ -2871,12 +2515,6 @@
 
  ###
  
- Giulak_arabic: "Jūlāk"
- Giulak_arabic_tek_mom: "ʾUmm Jūlāk"
- Giulak_arabic_tek_dad: "ʾAbū Jūlāk"
- Giulak_arabic_pat_dad_male: "ibn Jūlāk"
- Giulak_arabic_pat_dad_female: "bint Jūlāk"
- 
  Gizur_arabic: "Ġizu"
  Gizur_arabic_tek_mom: "ʾUmm Ġizu"
  Gizur_arabic_tek_dad: "ʾAbū Ġizu"
@@ -2893,12 +2531,6 @@
  Gjafvald_arabic_tek_dad: "ʾAbū Jafwald"
  Gjafvald_arabic_pat_dad_male: "ibn Jafwald"
  Gjafvald_arabic_pat_dad_female: "bint GiafvJafwaldaldsdūtti"
- 
- Gjalfver_arabic: "Jalfwī"
- Gjalfver_arabic_tek_mom: "ʾUmm Jalfwī"
- Gjalfver_arabic_tek_dad: "ʾAbū Jalfwī"
- Gjalfver_arabic_pat_dad_male: "ibn Jalfwī"
- Gjalfver_arabic_pat_dad_female: "bint Jalfwī"
  
  Gjallandi_arabic: "Jalland"
  Gjallandi_arabic_tek_mom: "ʾUmm Jalland"
@@ -2918,12 +2550,6 @@
  Glam_arabic_pat_dad_male: "ibn Ġlām"
  Glam_arabic_pat_dad_female: "bint Ġlām"
  
- Glippir_arabic: "Ġlibbi"
- Glippir_arabic_tek_mom: "ʾUmm Ġlibbi"
- Glippir_arabic_tek_dad: "ʾAbū Ġlibbi"
- Glippir_arabic_pat_dad_male: "ibn Ġlibbi"
- Glippir_arabic_pat_dad_female: "bint Ġlibbi"
- 
  Glodi_arabic: "Ġlūḏ"
  Glodi_arabic_tek_mom: "ʾUmm Glūḏ"
  Glodi_arabic_tek_dad: "ʾAbū Glūḏ"
@@ -2935,12 +2561,6 @@
  Gloedir_arabic_tek_dad: "ʾAbū Ġluyḏi"
  Gloedir_arabic_pat_dad_male: "ibn Ġluyḏi"
  Gloedir_arabic_pat_dad_female: "bint Ġluyḏi"
- 
- Glogg_arabic: "Ġlak"
- Glogg_arabic_tek_mom: "ʾUmm Ġlak"
- Glogg_arabic_tek_dad: "ʾAbū Ġlak"
- Glogg_arabic_pat_dad_male: "ibn Ġlak"
- Glogg_arabic_pat_dad_female: "bint Ġlak"
  
  Gneisti_arabic: "Ġnayst"
  Gneisti_arabic_tek_mom: "ʾUmm Ġnayst"
@@ -2965,12 +2585,6 @@
  Gnypli_arabic_tek_dad: "ʾAbū Ġniybly"
  Gnypli_arabic_pat_dad_male: "ibn Ġniybly"
  Gnypli_arabic_pat_dad_female: "bint Ġniybly"
- 
- Gnaeggir_arabic: "Ġnayki"
- Gnaeggir_arabic_tek_mom: "ʾUmm Ġnayki"
- Gnaeggir_arabic_tek_dad: "ʾAbū Ġnayki"
- Gnaeggir_arabic_pat_dad_male: "ibn Ġnayki"
- Gnaeggir_arabic_pat_dad_female: "bint Ġnayki"
 
  #Goḏ
  
@@ -3021,12 +2635,6 @@
  Gudfast_arabic_tek_dad: "ʾAbū Guḏfastsmūḏi"
  Gudfast_arabic_pat_dad_male: "ibn Guḏfastsson"
  Gudfast_arabic_pat_dad_female: "bint Guḏfastsdūtti"
- 
- Guddiarf_arabic: "Ġuḏdyarf"
- Guddiarf_arabic_tek_mom: "ʾUmm Ġuḏdyarf"
- Guddiarf_arabic_tek_dad: "ʾAbū Ġuḏdyarf"
- Guddiarf_arabic_pat_dad_male: "ibn Ġuḏdyarf"
- Guddiarf_arabic_pat_dad_female: "bint Ġuḏdyarf"
  
  Gudbrand_arabic: "Ġuḏbrand"
  Gudbrand_arabic_tek_mom: "ʾUmm Ġuḏbrand"
@@ -3141,25 +2749,13 @@
  Gudvard_arabic_pat_dad_male: "ibn Ġuḏward"
  Gudvard_arabic_pat_dad_female: "bint Ġuḏward"
  
- Gudvar_arabic: "Ġuḏwa"
- Gudvar_arabic_tek_mom: "ʾUmm Ġuḏwa"
- Gudvar_arabic_tek_dad: "ʾAbū Ġuḏwa"
- Gudvar_arabic_pat_dad_male: "ibn Ġuḏwa"
- Gudvar_arabic_pat_dad_female: "bint Ġuḏwa"
+ Gudvar_arabic: "Ġuḏwar"
+ Gudvar_arabic_tek_mom: "ʾUmm Ġuḏwar"
+ Gudvar_arabic_tek_dad: "ʾAbū Ġuḏwar"
+ Gudvar_arabic_pat_dad_male: "ibn Ġuḏwar"
+ Gudvar_arabic_pat_dad_female: "bint Ġuḏwar"
 
  ###
- 
- Godsvein_arabic: "Ġuḏswayn" #AS
- Godsvein_arabic_tek_mom: "ʾUmm Ġuḏswayn"
- Godsvein_arabic_tek_dad: "ʾAbū Ġuḏswayn"
- Godsvein_arabic_pat_dad_male: "ibn Ġuḏswayn"
- Godsvein_arabic_pat_dad_female: "bint Ġuḏswayn"
- 
- Goldstein_arabic: "Ġuldsṭayn" #AS
- Goldstein_arabic_tek_mom: "ʾUmm Ġuldsṭayn"
- Goldstein_arabic_tek_dad: "ʾAbū Ġuldsṭayn"
- Goldstein_arabic_pat_dad_male: "ibn Ġuldsṭayn"
- Goldstein_arabic_pat_dad_female: "bint Ġuldsṭayn"
  
  Gorm_arabic: "Ġurm"
  Gorm_arabic_tek_mom: "ʾUmm Ġurm"
@@ -3200,12 +2796,6 @@
  Gregorius_arabic_tek_dad: "ʾAbū Ġrijury"
  Gregorius_arabic_pat_dad_male: "ibn Ġrijury"
  Gregorius_arabic_pat_dad_female: "bint Ġrijury"
- 
- Greidi_arabic: "Krayḏ" #AS
- Greidi_arabic_tek_mom: "ʾUmm Krayḏ"
- Greidi_arabic_tek_dad: "ʾAbū Krayḏ"
- Greidi_arabic_pat_dad_male: "ibn Krayḏ"
- Greidi_arabic_pat_dad_female: "bint Krayḏ"
  
  Grenjad_arabic: "Kreniaḏ"
  Grenjad_arabic_tek_mom: "ʾUmm Kreniaḏ"
@@ -3264,12 +2854,6 @@
  Grjotgard_arabic_tek_dad: "ʾAbū Ġrjūtġard"
  Grjotgard_arabic_pat_dad_male: "ibn Ġrjūtġard"
  Grjotgard_arabic_pat_dad_female: "bint Ġrjūtġard"
-
- Gufubein_arabic: "Ġufubayn" #AS
- Gufubein_arabic_tek_mom: "ʾUmm Ġufubayn"
- Gufubein_arabic_tek_dad: "ʾAbū Ġufubayn"
- Gufubein_arabic_pat_dad_male: "ibn Ġufubayn"
- Gufubein_arabic_pat_dad_female: "bint Ġufubayn"
 
  #Gunn
  
@@ -3375,11 +2959,11 @@
  Gunnvard_arabic_pat_dad_male: "ibn Ġunward"
  Gunnvard_arabic_pat_dad_female: "bint Ġunward"
  
- Gunnvar_arabic: "Ġunwa"
- Gunnvar_arabic_tek_mom: "ʾUmm Ġunwa"
- Gunnvar_arabic_tek_dad: "ʾAbū Ġunwa"
- Gunnvar_arabic_pat_dad_male: "ibn Ġunwa"
- Gunnvar_arabic_pat_dad_female: "bint Ġunwa"
+ Gunnvar_arabic: "Ġunwar"
+ Gunnvar_arabic_tek_mom: "ʾUmm Ġunwar"
+ Gunnvar_arabic_tek_dad: "ʾAbū Ġunwar"
+ Gunnvar_arabic_pat_dad_male: "ibn Ġunwar"
+ Gunnvar_arabic_pat_dad_female: "bint Ġunwar"
  
  Gunnvid_arabic: "Ġunwiḏ"
  Gunnvid_arabic_tek_mom: "ʾUmm Ġunwiḏ"
@@ -3408,12 +2992,6 @@
  Gylaug_arabic_pat_dad_female: "bint Ġiyylauġ"
 
  #Hā
- 
- Habein_arabic: "Ḥābayn" #AS
- Habein_arabic_tek_mom: "ʾUmm Ḥābayn"
- Habein_arabic_tek_dad: "ʾAbū Ḥābayn"
- Habein_arabic_pat_dad_male: "ibn Ḥābayn"
- Habein_arabic_pat_dad_female: "bint Ḥābayn"
  
  Hamund_arabic: "Ḥāmund"
  Hamund_arabic_tek_mom: "ʾUmm Ḥāmund"
@@ -3451,11 +3029,11 @@
  Havard_arabic_pat_dad_male: "ibn Ḥāward"
  Havard_arabic_pat_dad_female: "bint Ḥāward"
  
- Havar_arabic: "Ḥāwa"
- Havar_arabic_tek_mom: "ʾUmm Ḥāwa"
- Havar_arabic_tek_dad: "ʾAbū Ḥāwa"
- Havar_arabic_pat_dad_male: "ibn Ḥāwa"
- Havar_arabic_pat_dad_female: "bint Ḥāwa"
+ Havar_arabic: "Ḥāwar"
+ Havar_arabic_tek_mom: "ʾUmm Ḥāwar"
+ Havar_arabic_tek_dad: "ʾAbū Ḥāwar"
+ Havar_arabic_pat_dad_male: "ibn Ḥāwar"
+ Havar_arabic_pat_dad_female: "bint Ḥāwar"
 
  ###
  
@@ -3470,18 +3048,6 @@
  Haeng_arabic_tek_dad: "ʾAbū Haynġ"
  Haeng_arabic_pat_dad_male: "ibn Haynġ"
  Haeng_arabic_pat_dad_female: "bint Haynġ"
- 
- Haera_arabic: "Hayra" #Myth Male
- Haera_arabic_tek_mom: "ʾUmm Hayra"
- Haera_arabic_tek_dad: "ʾAbū Hayra"
- Haeng_arabic_pat_dad_male: "ibn Hayra"
- Haeng_arabic_pat_dad_female: "bint Hayra"
- 
- Haering_arabic: "Hayrinġ"
- Haering_arabic_tek_mom: "ʾUmm Hayrinġ"
- Haering_arabic_tek_dad: "ʾAbū Hayrinġ"
- Haering_arabic_pat_dad_male: "ibn Hayrinġ"
- Haering_arabic_pat_dad_female: "bint Hayrinġ"
  
  Haetting_arabic: "Hayttinġ"
  Haetting_arabic_tek_mom: "ʾUmm Hayttinġ"
@@ -3552,18 +3118,6 @@
  Hagstein_arabic_pat_dad_male: "ibn Haġsṭayn"
  Hagstein_arabic_pat_dad_female: "bint Haġsṭayn"
  
- Hakikarl_arabic: "Hakekarl" #AS
- Hakikarl_arabic_tek_mom: "ʾUmm Hakekarl"
- Hakikarl_arabic_tek_dad: "ʾAbū Hakekarl"
- Hakikarl_arabic_pat_dad_male: "ibn Hakekarl"
- Hakikarl_arabic_pat_dad_female: "bint Hakekarl"
- 
- Haklang_arabic: "Haklanj" #Myth
- Haklang_arabic_tek_mom: "ʾUmm Haklanj"
- Haklang_arabic_tek_dad: "ʾAbū Haklanj"
- Haklang_arabic_pat_dad_male: "ibn Haklanj"
- Haklang_arabic_pat_dad_female: "bint Haklanj"
- 
  Hakon_arabic: "Ḥākun"
  Hakon_arabic_tek_mom: "ʾUmm Ḥākun"
  Hakon_arabic_tek_dad: "ʾAbū Ḥākun"
@@ -3590,11 +3144,11 @@
  Halfdan_arabic_pat_dad_male: "ibn Hālfdān"
  Halfdan_arabic_pat_dad_female: "bint Hālfdān"
  
- Halfgeir_arabic: "Hālfjay"
- Halfgeir_arabic_tek_mom: "ʾUmm Hālfjay"
- Halfgeir_arabic_tek_dad: "ʾAbū Hālfjay"
- Halfgeir_arabic_pat_dad_male: "ibn Hālfjay"
- Halfgeir_arabic_pat_dad_female: "bint Hālfjay"
+ Halfgeir_arabic: "Hālfjayr"
+ Halfgeir_arabic_tek_mom: "ʾUmm Hālfjayr"
+ Halfgeir_arabic_tek_dad: "ʾAbū Hālfjayr"
+ Halfgeir_arabic_pat_dad_male: "ibn Hālfjayr"
+ Halfgeir_arabic_pat_dad_female: "bint Hālfjayr"
 
  #Hall
  
@@ -3638,16 +3192,16 @@
  Hallfred_arabic_pat_dad_male: "ibn Halfrīd"
  Hallfred_arabic_pat_dad_female: "bint Halfrīd"
  
- Hallgeir_arabic: "Haljay"
- Hallgeir_arabic_tek_mom: "ʾUmm Haljay"
- Hallgeir_arabic_tek_dad: "ʾAbū Haljay"
- Hallgeir_arabic_pat_dad_male: "ibn Haljay"
- Hallgeir_arabic_pat_dad_female: "bint Haljay"
- Hallgarir_arabic: "Haljay"
- Hallgarir_arabic_tek_mom: "ʾUmm Haljay"
- Hallgarir_arabic_tek_dad: "ʾAbū Haljay"
- Hallgarir_arabic_pat_dad_male: "ibn Haljay"
- Hallgarir_arabic_pat_dad_female: "bint Haljay"
+ Hallgeir_arabic: "Haljayr"
+ Hallgeir_arabic_tek_mom: "ʾUmm Haljayr"
+ Hallgeir_arabic_tek_dad: "ʾAbū Haljayr"
+ Hallgeir_arabic_pat_dad_male: "ibn Haljayr"
+ Hallgeir_arabic_pat_dad_female: "bint Haljayr"
+ Hallgarir_arabic: "Haljayr"
+ Hallgarir_arabic_tek_mom: "ʾUmm Haljayr"
+ Hallgarir_arabic_tek_dad: "ʾAbū Haljayr"
+ Hallgarir_arabic_pat_dad_male: "ibn Haljayr"
+ Hallgarir_arabic_pat_dad_female: "bint Haljayr"
  
  Hallgils_arabic: "Haljīs"
  Hallgils_arabic_tek_mom: "ʾUmm Haljīs"
@@ -3698,12 +3252,6 @@
 
  ###
  
- Hals_arabic: "Ḥāls"
- Hals_arabic_tek_mom: "ʾUmm Ḥāls"
- Hals_arabic_tek_dad: "ʾAbū Ḥāls"
- Hals_arabic_pat_dad_male: "ibn Ḥāls"
- Hals_arabic_pat_dad_female: "bint Ḥāls"
- 
  Hamal_arabic: "Ḥamal"
  Hamal_arabic_tek_mom: "ʾUmm Ḥamal"
  Hamal_arabic_tek_dad: "ʾAbū Ḥamal"
@@ -3748,11 +3296,11 @@
  Hardbein_arabic_pat_dad_male: "ibn Ḥardbayn"
  Hardbein_arabic_pat_dad_female: "bint Ḥardbayn"
  
- Hardgeir_arabic: "Ḥardjay"
- Hardgeir_arabic_tek_mom: "ʾUmm Ḥardjay"
- Hardgeir_arabic_tek_dad: "ʾAbū Ḥardjay"
- Hardgeir_arabic_pat_dad_male: "ibn Ḥardjay"
- Hardgeir_arabic_pat_dad_female: "bint Ḥardjay"
+ Hardgeir_arabic: "Ḥardjayr"
+ Hardgeir_arabic_tek_mom: "ʾUmm Ḥardjayr"
+ Hardgeir_arabic_tek_dad: "ʾAbū Ḥardjayr"
+ Hardgeir_arabic_pat_dad_male: "ibn Ḥardjayr"
+ Hardgeir_arabic_pat_dad_female: "bint Ḥardjayr"
  
  Hardnef_arabic: "Ḥardnayf"
  Hardnef_arabic_tek_mom: "ʾUmm Ḥardnayf"
@@ -3780,18 +3328,6 @@
  Harri_arabic_pat_dad_male: "ibn Harry"
  Harri_arabic_pat_dad_female: "bint Harry"
  
- Hauk_arabic: "Hawk"
- Hauk_arabic_tek_mom: "ʾUmm Hawk"
- Hauk_arabic_tek_dad: "ʾAbū Hawk"
- Hauk_arabic_pat_dad_male: "ibn Hawk"
- Hauk_arabic_pat_dad_female: "bint Hawk"
- 
- Haukreidi_arabic: "Hawkrayḏ" #AS
- Haukreidi_arabic_tek_mom: "ʾUmm Hawkrayḏ"
- Haukreidi_arabic_tek_dad: "ʾAbū Hawkrayḏ"
- Haukreidi_arabic_pat_dad_male: "ibn Hawkrayḏ"
- Haukreidi_arabic_pat_dad_female: "bint Hawkrayḏ"
- 
  Haurr_arabic: "Haw"
  Haurr_arabic_tek_mom: "ʾUmm Haw"
  Haurr_arabic_tek_dad: "ʾAbū Haw"
@@ -3818,11 +3354,11 @@
  Hedinfastr_arabic_pat_dad_male: "ibn Ḥiḏenfast"
  Hedinfastr_arabic_pat_dad_female: "bint Ḥiḏenfast"
  
- Hedingeir_arabic: "Ḥiḏenjay"
- Hedingeir_arabic_tek_mom: "ʾUmm Ḥiḏenjay"
- Hedingeir_arabic_tek_dad: "ʾAbū Ḥiḏenjay"
- Hedingeir_arabic_pat_dad_male: "ibn Ḥiḏenjay"
- Hedingeir_arabic_pat_dad_female: "bint Ḥiḏenjay"
+ Hedingeir_arabic: "Ḥiḏenjayr"
+ Hedingeir_arabic_tek_mom: "ʾUmm Ḥiḏenjayr"
+ Hedingeir_arabic_tek_dad: "ʾAbū Ḥiḏenjayr"
+ Hedingeir_arabic_pat_dad_male: "ibn Ḥiḏenjayr"
+ Hedingeir_arabic_pat_dad_female: "bint Ḥiḏenjayr"
 
  #Heg
  
@@ -3876,11 +3412,11 @@
  Heilfuss_arabic_pat_dad_male: "ibn Haylfūz"
  Heilfuss_arabic_pat_dad_female: "bint Haylfūz"
  
- Heilgeir_arabic: "Hayljay"
- Heilgeir_arabic_tek_mom: "ʾUmm Hayljay"
- Heilgeir_arabic_tek_dad: "ʾAbū Hayljay"
- Heilgeir_arabic_pat_dad_male: "ibn Hayljay"
- Heilgeir_arabic_pat_dad_female: "bint Hayljay"
+ Heilgeir_arabic: "Hayljayr"
+ Heilgeir_arabic_tek_mom: "ʾUmm Hayljayr"
+ Heilgeir_arabic_tek_dad: "ʾAbū Hayljayr"
+ Heilgeir_arabic_pat_dad_male: "ibn Hayljayr"
+ Heilgeir_arabic_pat_dad_female: "bint Hayljayr"
  
  Heimkel_arabic: "Haymqayl"
  Heimkel_arabic_tek_mom: "ʾUmm Haymqayl"
@@ -3955,11 +3491,11 @@
  Herfinn_arabic_pat_dad_male: "ibn Hayrfinn"
  Herfinn_arabic_pat_dad_female: "bint Hayrfinn"
  
- Hergeir_arabic: "Hayrjay"
- Hergeir_arabic_tek_mom: "ʾUmm Hayrjay"
- Hergeir_arabic_tek_dad: "ʾAbū Hayrjay"
- Hergeir_arabic_pat_dad_male: "ibn Hayrjay"
- Hergeir_arabic_pat_dad_female: "bint Hayrjay"
+ Hergeir_arabic: "Hayrjayr"
+ Hergeir_arabic_tek_mom: "ʾUmm Hayrjayr"
+ Hergeir_arabic_tek_dad: "ʾAbū Hayrjayr"
+ Hergeir_arabic_pat_dad_male: "ibn Hayrjayr"
+ Hergeir_arabic_pat_dad_female: "bint Hayrjayr"
  
  Hergils_arabic: "Hayrjīs"
  Hergils_arabic_tek_mom: "ʾUmm Hayrjīs"
@@ -3972,12 +3508,6 @@
  Hergrim_arabic_tek_dad: "ʾAbū Hayrġrīm"
  Hergrim_arabic_pat_dad_male: "ibn Hayrġrīm"
  Hergrim_arabic_pat_dad_female: "bint Hayrġrīm"
- 
- Herjar_arabic: "Hayria"
- Herjar_arabic_tek_mom: "ʾUmm Hayria"
- Herjar_arabic_tek_dad: "ʾAbū Hayria"
- Herjar_arabic_pat_dad_male: "ibn Hayria"
- Herjar_arabic_pat_dad_female: "bint Hayria"
  
  Herjolf_arabic: "Hayrūlf"
  Herjolf_arabic_tek_mom: "ʾUmm Hayrūlf"
@@ -4055,11 +3585,11 @@
  Hildibrand_arabic_pat_dad_male: "ibn Hildbrand"
  Hildibrand_arabic_pat_dad_female: "bint Hildbrand"
  
- Hildigeir_arabic: "Ḥildjay"
- Hildigeir_arabic_tek_mom: "ʾUmm Hildjay"
- Hildigeir_arabic_tek_dad: "ʾAbū Hildjay"
- Hildigeir_arabic_pat_dad_male: "ibn Hildjay"
- Hildigeir_arabic_pat_dad_female: "bint Hildjay"
+ Hildigeir_arabic: "Ḥildjayr"
+ Hildigeir_arabic_tek_mom: "ʾUmm Hildjayr"
+ Hildigeir_arabic_tek_dad: "ʾAbū Hildjayr"
+ Hildigeir_arabic_pat_dad_male: "ibn Hildjayr"
+ Hildigeir_arabic_pat_dad_female: "bint Hildjayr"
  
  Hildiglum_arabic: "Ḥildġlūm"
  Hildiglum_arabic_tek_mom: "ʾUmm Hildġlūm"
@@ -4085,11 +3615,11 @@
  Hjalli_arabic_pat_dad_male: "ibn Hial"
  Hjalli_arabic_pat_dad_female: "bint Hial"
  
- Hjallkar_arabic: "Hialqā"
- Hjallkar_arabic_tek_mom: "ʾUmm Hialqā"
- Hjallkar_arabic_tek_dad: "ʾAbū Hialqā"
- Hjallkar_arabic_pat_dad_male: "ibn Hialqā"
- Hjallkar_arabic_pat_dad_female: "bint Hialqā"
+ Hjallkar_arabic: "Hialqār"
+ Hjallkar_arabic_tek_mom: "ʾUmm Hialqār"
+ Hjallkar_arabic_tek_dad: "ʾAbū Hialqār"
+ Hjallkar_arabic_pat_dad_male: "ibn Hialqār"
+ Hjallkar_arabic_pat_dad_female: "bint Hialqār"
 
  #Hjalm
  
@@ -4111,11 +3641,11 @@
  Hjalmfast_arabic_pat_dad_male: "ibn Ḥiālmfast"
  Hjalmfast_arabic_pat_dad_female: "bint Ḥiālmfast"
  
- Hjalmgeir_arabic: "Ḥiālmjay"
- Hjalmgeir_arabic_tek_mom: "ʾUmm Ḥiālmjay"
- Hjalmgeir_arabic_tek_dad: "ʾAbū Ḥiālmjay"
- Hjalmgeir_arabic_pat_dad_male: "ibn Ḥiālmjay"
- Hjalmgeir_arabic_pat_dad_female: "bint Ḥiālmjay"
+ Hjalmgeir_arabic: "Ḥiālmjayr"
+ Hjalmgeir_arabic_tek_mom: "ʾUmm Ḥiālmjayr"
+ Hjalmgeir_arabic_tek_dad: "ʾAbū Ḥiālmjayr"
+ Hjalmgeir_arabic_pat_dad_male: "ibn Ḥiālmjayr"
+ Hjalmgeir_arabic_pat_dad_female: "bint Ḥiālmjayr"
  
  Hjalmgrim_arabic: "Ḥiālmġrīm"
  Hjalmgrim_arabic_tek_mom: "ʾUmm Ḥiālmġrīm"
@@ -4183,12 +3713,6 @@
 
  ###
  
- Hjort_arabic: "Ḥiart"
- Hjort_arabic_tek_mom: "ʾUmm Ḥiart"
- Hjort_arabic_tek_dad: "ʾAbū Ḥiart"
- Hjort_arabic_pat_dad_male: "ibn Ḥiart"
- Hjort_arabic_pat_dad_female: "bint Ḥiart"
- 
  Hlenni_arabic: "Ḥlen"
  Hlenni_arabic_tek_mom: "ʾUmm Ḥlen"
  Hlenni_arabic_tek_dad: "ʾAbū Ḥlen"
@@ -4223,12 +3747,6 @@
  Hnaki_arabic_tek_dad: "ʾAbū Ḥnak"
  Hnaki_arabic_pat_dad_male: "ibn Ḥnak"
  Hnaki_arabic_pat_dad_female: "bint Ḥnak"
- 
- Hnefi_arabic: "Ḥnayf"
- Hnefi_arabic_tek_mom: "ʾUmm Ḥnayf"
- Hnefi_arabic_tek_dad: "ʾAbū Ḥnayf"
- Hnefi_arabic_pat_dad_male: "ibn Ḥnayf"
- Hnefi_arabic_pat_dad_female: "bint Ḥnayf"
  
  Hneit_arabic: "Ḥnayt"
  Hneit_arabic_tek_mom: "ʾUmm Ḥnayt"
@@ -4280,17 +3798,17 @@
  Holmfast_arabic_pat_dad_male: "ibn Hūlmfast"
  Holmfast_arabic_pat_dad_female: "bint Hūlmfast"
  
- Holmger_arabic: "Hūlmjay"
- Holmger_arabic_tek_mom: "ʾUmm Hūlmjay"
- Holmger_arabic_tek_dad: "ʾAbū Hūlmjay"
- Holmger_arabic_pat_dad_male: "ibn Hūlmjay"
- Holmger_arabic_pat_dad_female: "bint Hūlmjay"
+ Holmger_arabic: "Hūlmjayr"
+ Holmger_arabic_tek_mom: "ʾUmm Hūlmjayr"
+ Holmger_arabic_tek_dad: "ʾAbū Hūlmjayr"
+ Holmger_arabic_pat_dad_male: "ibn Hūlmjayr"
+ Holmger_arabic_pat_dad_female: "bint Hūlmjayr"
  
- Holmgeir_arabic: "Hūlmjay"
- Holmgeir_arabic_tek_mom: "ʾUmm Hūlmjay"
- Holmgeir_arabic_tek_dad: "ʾAbū Hūlmjay"
- Holmgeir_arabic_pat_dad_male: "ibn Hūlmjay"
- Holmgeir_arabic_pat_dad_female: "bint Hūlmjay"
+ Holmgeir_arabic: "Hūlmjayr"
+ Holmgeir_arabic_tek_mom: "ʾUmm Hūlmjayr"
+ Holmgeir_arabic_tek_dad: "ʾAbū Hūlmjayr"
+ Holmgeir_arabic_pat_dad_male: "ibn Hūlmjayr"
+ Holmgeir_arabic_pat_dad_female: "bint Hūlmjayr"
  
  Holmgaut_arabic: "Hūlmjūt"
  Holmgaut_arabic_tek_mom: "ʾUmm Hūlmjūt"
@@ -4342,29 +3860,11 @@
  Horgi_arabic_pat_dad_male: "ibn Hurġ"
  Horgi_arabic_pat_dad_female: "bint Hurġ"
  
- Hornbodi_arabic: "Hurnbuḏ" #AS
- Hornbodi_arabic_tek_mom: "ʾUmm Hurnbuḏ"
- Hornbodi_arabic_tek_dad: "ʾAbū Hurnbuḏ"
- Hornbodi_arabic_pat_dad_male: "ibn Hurnbuḏ"
- Hornbodi_arabic_pat_dad_female: "bint Hurnbuḏ"
- 
- Horni_arabic: "Hurn" #AS
- Horni_arabic_tek_mom: "ʾUmm Hurn"
- Horni_arabic_tek_dad: "ʾAbū Hurn"
- Horni_arabic_pat_dad_male: "ibn Hurn"
- Horni_arabic_pat_dad_female: "bint Hurn"
- 
  Hoskuld_arabic: "Huskuld"
  Hoskuld_arabic_tek_mom: "ʾUmm Huskuld"
  Hoskuld_arabic_tek_dad: "ʾAbū Huskuld"
  Hoskuld_arabic_pat_dad_male: "ibn Huskuld"
  Hoskuld_arabic_pat_dad_female: "bint Huskuld"
- 
- Radi_arabic: "Ḥraḏ"
- Radi_arabic_tek_mom: "ʾUmm Ḥraḏ"
- Radi_arabic_tek_dad: "ʾAbū Ḥraḏ"
- Radi_arabic_pat_dad_male: "ibn Ḥraḏ"
- Radi_arabic_pat_dad_female: "bint Ḥraḏ"
  
  Rafn_arabic: "Ḥrafn"
  Rafn_arabic_tek_mom: "ʾUmm Ḥrafn"
@@ -4411,32 +3911,20 @@
  Reidmar_arabic: "Ḥrayḏma"
  Reidmar_arabic_tek_mom: "ʾUmm Ḥrayḏma"
  Reidmar_arabic_tek_dad: "ʾAbū Ḥrayḏma"
- Raidmar_arabic_pat_dad_male: "ibn Ḥrayḏma"
- Raidmar_arabic_pat_dad_female: "bint Ḥrayḏma"
+ Reidmar_arabic_pat_dad_male: "ibn Ḥrayḏma"
+ Reidmar_arabic_pat_dad_female: "bint Ḥrayḏma"
  
  Reidulf_arabic: "Ḥrayḏūlf"
  Reidulf_arabic_tek_mom: "ʾUmm Ḥrayḏūlf"
  Reidulf_arabic_tek_dad: "ʾAbū Ḥrayḏūlf"
- Raidulf_arabic_pat_dad_male: "ibn Ḥrayḏūlf"
- Raidulf_arabic_pat_dad_female: "bint Ḥrayḏūlf"
- 
- Reidir_arabic: "Ḥrayḏi"
- Reidir_arabic_tek_mom: "ʾUmm Ḥrayḏi"
- Reidir_arabic_tek_dad: "ʾAbū Ḥrayḏi"
- Raidir_arabic_pat_dad_male: "ibn Ḥrayḏi"
- Raidir_arabic_pat_dad_female: "bint Ḥrayḏi"
+ Reidulf_arabic_pat_dad_male: "ibn Ḥrayḏūlf"
+ Reidulf_arabic_pat_dad_female: "bint Ḥrayḏūlf"
  
  Rifli_arabic: "Ḥrifly"
  Rifli_arabic_tek_mom: "ʾUmm Ḥrifly"
  Rifli_arabic_tek_dad: "ʾAbū Ḥrifly"
  Rifli_arabic_pat_dad_male: "ibn Ḥrifly"
  Rifli_arabic_pat_dad_female: "bint Ḥrifly"
- 
- Ring_arabic: "Ḥrinġ"
- Ring_arabic_tek_mom: "ʾUmm Ḥrinġ"
- Ring_arabic_tek_dad: "ʾAbū Ḥrinġ"
- Ring_arabic_pat_dad_male: "ibn Ḥrinġ"
- Ring_arabic_pat_dad_female: "bint Ḥrinġ"
  
  Ringulf_arabic: "Ḥrinġūlf"
  Ringulf_arabic_tek_mom: "ʾUmm Ḥrinġūlf"
@@ -4474,11 +3962,11 @@
  Rodfus_arabic_pat_dad_male: "ibn Ḥrūḏfūz"
  Rodfus_arabic_pat_dad_female: "bint Ḥrūḏfūz"
  
- Rodgeir_arabic: "Ḥrūḏjay"
- Rodgeir_arabic_tek_mom: "ʾUmm Ḥrūḏjay"
- Rodgeir_arabic_tek_dad: "ʾAbū Ḥrūḏjay"
- Rodgeir_arabic_pat_dad_male: "ibn Ḥrūḏjay"
- Rodgeir_arabic_pat_dad_female: "bint Ḥrūḏjay"
+ Rodgeir_arabic: "Ḥrūḏjayr"
+ Rodgeir_arabic_tek_mom: "ʾUmm Ḥrūḏjayr"
+ Rodgeir_arabic_tek_dad: "ʾAbū Ḥrūḏjayr"
+ Rodgeir_arabic_pat_dad_male: "ibn Ḥrūḏjayr"
+ Rodgeir_arabic_pat_dad_female: "bint Ḥrūḏjayr"
  
  Rodgaut_arabic: "Ḥrūḏjūt"
  Rodgaut_arabic_tek_mom: "ʾUmm Ḥrūḏjūt"
@@ -4558,12 +4046,6 @@
  Roi_arabic_pat_dad_male: "ibn Ḥrūwi"
  Roi_arabic_pat_dad_female: "bint Ḥrūwi"
  
- Rok_arabic: "Ḥrūk" #Norse
- Rok_arabic_tek_mom: "ʾUmm Ḥrūk"
- Rok_arabic_tek_dad: "ʾAbū Ḥrūk"
- Rok_arabic_pat_dad_male: "ibn Ḥrūk"
- Rok_arabic_pat_dad_female: "bint Ḥrūk"
- 
  Hrolfr_arabic: "Ḥrūlf"
  Hrolfr_arabic_tek_mom: "ʾUmm Ḥrūlf"
  Hrolfr_arabic_tek_dad: "ʾAbū Ḥrūlf"
@@ -4641,24 +4123,6 @@
  Hulvid_arabic_pat_dad_male: "ibn Hulwiḏ"
  Hulvid_arabic_pat_dad_female: "bint Hulwiḏ"
  
- Hundifot_arabic: "Hundfut" #AS
- Hundifot_arabic_tek_mom: "ʾUmm Hundfut"
- Hundifot_arabic_tek_dad: "ʾAbū Hundfut"
- Hundifot_arabic_pat_dad_male: "ibn Hundfut"
- Hundifot_arabic_pat_dad_female: "bint Hundfut"
- 
- Hundigeir_arabic: "Hundjay" #AS
- Hundigeir_arabic_tek_mom: "ʾUmm Hundjay"
- Hundigeir_arabic_tek_dad: "ʾAbū Hundjay"
- Hundigeir_arabic_pat_dad_male: "ibn Hundjay"
- Hundigeir_arabic_pat_dad_female: "bint Hundjay"
- 
- Hundigrim_arabic: "Hundġrīm" #AS
- Hundigrim_arabic_tek_mom: "ʾUmm Hundġrīm"
- Hundigrim_arabic_tek_dad: "ʾAbū Hundġrīm"
- Hundigrim_arabic_pat_dad_male: "ibn Hundġrīm"
- Hundigrim_arabic_pat_dad_female: "bint Hundġrīm"
- 
  Hundolf_arabic: "Hundūlf"
  Hundolf_arabic_tek_mom: "ʾUmm Hundūlf"
  Hundolf_arabic_tek_dad: "ʾAbū Hundūlf"
@@ -4670,12 +4134,6 @@
  Hun_arabic_tek_dad: "ʾAbū Hūn"
  Hun_arabic_pat_dad_male: "ibn Hūn"
  Hun_arabic_pat_dad_female: "bint Hūn"
- 
- Hunketil_arabic: "Hūnqaytil" #AS
- Hunketil_arabic_tek_mom: "ʾUmm Hūnqaytil"
- Hunketil_arabic_tek_dad: "ʾAbū Hūnqaytil"
- Hunketil_arabic_pat_dad_male: "ibn Hūnqaytil"
- Hunketil_arabic_pat_dad_female: "bint Hūnqaytil"
  
  Hunrod_arabic: "Hūnrīd"
  Hunrod_arabic_tek_mom: "ʾUmm Hūnrīd"
@@ -4707,17 +4165,17 @@
  Hunbjorn_arabic_pat_dad_male: "ibn Hūnbyurn"
  Hunbjorn_arabic_pat_dad_female: "bint Hūnbyurn"
  
- Hvatgeir_arabic: "Ḥwatjay"
- Hvatgeir_arabic_tek_mom: "ʾUmm Ḥwatjay"
- Hvatgeir_arabic_tek_dad: "ʾAbū Ḥwatjay"
- Hvatgeir_arabic_pat_dad_male: "ibn Ḥwatjay"
- Hvatgeir_arabic_pat_dad_female: "bint Ḥwatjay"
+ Hvatgeir_arabic: "Ḥwatjayr"
+ Hvatgeir_arabic_tek_mom: "ʾUmm Ḥwatjayr"
+ Hvatgeir_arabic_tek_dad: "ʾAbū Ḥwatjayr"
+ Hvatgeir_arabic_pat_dad_male: "ibn Ḥwatjayr"
+ Hvatgeir_arabic_pat_dad_female: "bint Ḥwatjayr"
  
- Hvitkar_arabic: "Ḥwītqā"
- Hvitkar_arabic_tek_mom: "ʾUmm Ḥwītqā"
- Hvitkar_arabic_tek_dad: "ʾAbū Ḥwītqā"
- Hvitkar_arabic_pat_dad_male: "ibn Ḥwītqā"
- Hvitkar_arabic_pat_dad_female: "bint Ḥwītqā"
+ Hvitkar_arabic: "Ḥwītqār"
+ Hvitkar_arabic_tek_mom: "ʾUmm Ḥwītqār"
+ Hvitkar_arabic_tek_dad: "ʾAbū Ḥwītqār"
+ Hvitkar_arabic_pat_dad_male: "ibn Ḥwītqār"
+ Hvitkar_arabic_pat_dad_female: "bint Ḥwītqār"
  
  Igulbjorn_arabic: "Īġulbyurn"
  Igulbjorn_arabic_tek_mom: "ʾUmm Īġulbyurn"
@@ -4748,24 +4206,6 @@
  Ingifast_arabic_tek_dad: "ʾAbū Ynġfast"
  Ingifast_arabic_pat_dad_male: "ibn Ynġfast"
  Ingifast_arabic_pat_dad_female: "bint Ynġfast"
- 
- Ingigeir_arabic: "Ynġjay"
- Ingigeir_arabic_tek_mom: "ʾUmm Ynġjay"
- Ingigeir_arabic_tek_dad: "ʾAbū Ynġjay"
- Ingigeir_arabic_pat_dad_male: "ibn Ynġjay"
- Ingigeir_arabic_pat_dad_female: "bint Ynġjay"
- 
- Ingikar_arabic: "Ynġqā"
- Ingikar_arabic_tek_mom: "ʾUmm Ynġqā"
- Ingikar_arabic_tek_dad: "ʾAbū Ynġqā"
- Ingikar_arabic_pat_dad_male: "ibn Ynġqā"
- Ingikar_arabic_pat_dad_female: "bint Ynġqā"
- 
- Ingileifr_arabic: "Ynġlyf"
- Ingileifr_arabic_tek_mom: "ʾUmm Ynġlyf"
- Ingileifr_arabic_tek_dad: "ʾAbū Ynġlyf"
- Ingileifr_arabic_pat_dad_male: "ibn Ynġlyf"
- Ingileifr_arabic_pat_dad_female: "bint Ynġlyf"
  
  Ingimad_arabic: "Ynġman"
  Ingimad_arabic_tek_mom: "ʾUmm Ynġman"
@@ -4826,11 +4266,11 @@
  Isolf_arabic_pat_dad_male: "ibn Īsūlf"
  Isolf_arabic_pat_dad_female: "bint Īsūlf"
  
- Ivar_arabic: "Īwa"
- Ivar_arabic_tek_mom: "ʾUmm Īwa"
- Ivar_arabic_tek_dad: "ʾAbū Īwa"
- Ivar_arabic_pat_dad_male: "ibn Īwa"
- Ivar_arabic_pat_dad_female: "bint Īwa"
+ Ivar_arabic: "Īwar"
+ Ivar_arabic_tek_mom: "ʾUmm Īwar"
+ Ivar_arabic_tek_dad: "ʾAbū Īwar"
+ Ivar_arabic_pat_dad_male: "ibn Īwar"
+ Ivar_arabic_pat_dad_female: "bint Īwar"
  
  Jakob_arabic: "Yaʿqūb" #Christian
  Jakob_arabic_tek_mom: "ʾUmm Yaʿqūb"
@@ -4838,11 +4278,11 @@
  Jakob_arabic_pat_dad_male: "ibn Yaʿqūb"
  Jakob_arabic_pat_dad_female: "bint Yaʿqūb"
  
- Jargeir_arabic: "Yarjay"
- Jargeir_arabic_tek_mom: "ʾUmm Yarjay"
- Jargeir_arabic_tek_dad: "ʾAbū Yarjay"
- Jargeir_arabic_pat_dad_male: "ibn Yarjay"
- Jargeir_arabic_pat_dad_female: "bint Yarjay"
+ Jargeir_arabic: "Yarjayr"
+ Jargeir_arabic_tek_mom: "ʾUmm Yarjayr"
+ Jargeir_arabic_tek_dad: "ʾAbū Yarjayr"
+ Jargeir_arabic_pat_dad_male: "ibn Yarjayr"
+ Jargeir_arabic_pat_dad_female: "bint Yarjayr"
  
  Jarmar_arabic: "Yarma"
  Jarmar_arabic_tek_mom: "ʾUmm Yarma"
@@ -4868,11 +4308,11 @@
  Jarpulf_arabic_pat_dad_male: "ibn Yarbūlf"
  Jarpulf_arabic_pat_dad_female: "bint Yarbūlf"
  
- Jatgeir_arabic: "Yātjay"
- Jatgeir_arabic_tek_mom: "ʾUmm Yātjay"
- Jatgeir_arabic_tek_dad: "ʾAbū Yātjay"
- Jatgeir_arabic_pat_dad_male: "ibn Yātjay"
- Jatgeir_arabic_pat_dad_female: "bint Yātjay"
+ Jatgeir_arabic: "Yātjayr"
+ Jatgeir_arabic_tek_mom: "ʾUmm Yātjayr"
+ Jatgeir_arabic_tek_dad: "ʾAbū Yātjayr"
+ Jatgeir_arabic_pat_dad_male: "ibn Yātjayr"
+ Jatgeir_arabic_pat_dad_female: "bint Yātjayr"
  
  Jatmund_arabic: "Yātmund"
  Jatmund_arabic_tek_mom: "ʾUmm Yātmund"
@@ -4898,11 +4338,11 @@
  Jatvig_arabic_pat_dad_male: "ibn Yātvīj"
  Jatvig_arabic_pat_dad_female: "bint Yātvīj"
  
- Joar_arabic: "Yūwa"
- Joar_arabic_tek_mom: "ʾUmm Yūwa"
- Joar_arabic_tek_dad: "ʾAbū Yūwa"
- Joar_arabic_pat_dad_male: "ibn Yūwa"
- Joar_arabic_pat_dad_female: "bint Yūwa"
+ Joar_arabic: "Yūwar"
+ Joar_arabic_tek_mom: "ʾUmm Yūwar"
+ Joar_arabic_tek_dad: "ʾAbū Yūwar"
+ Joar_arabic_pat_dad_male: "ibn Yūwar"
+ Joar_arabic_pat_dad_female: "bint Yūwar"
  
  Jobjorn_arabic: "Yūbyurn"
  Jobjorn_arabic_tek_mom: "ʾUmm Yūbyurn"
@@ -4910,11 +4350,11 @@
  Jobjorn_arabic_pat_dad_male: "ibn Yūbyurn"
  Jobjorn_arabic_pat_dad_female: "bint Yūbyurn"
  
- Jodur_arabic: "Yūḏu"
- Jodur_arabic_tek_mom: "ʾUmm Yūḏu"
- Jodur_arabic_tek_dad: "ʾAbū Yūḏu"
- Jodur_arabic_pat_dad_male: "ibn Yūḏu"
- Jodur_arabic_pat_dad_female: "bint Yūḏu"
+ Jodur_arabic: "Yūḏur"
+ Jodur_arabic_tek_mom: "ʾUmm Yūḏur"
+ Jodur_arabic_tek_dad: "ʾAbū Yūḏur"
+ Jodur_arabic_pat_dad_male: "ibn Yūḏur"
+ Jodur_arabic_pat_dad_female: "bint Yūḏur"
  
  Jofrey_arabic: "Yūfārī" #Norse
  Jofrey_arabic_tek_mom: "ʾUmm Yūfārī"
@@ -4928,23 +4368,17 @@
  Jofurbjorn_arabic_pat_dad_male: "ibn Yūfurbyurn"
  Jofurbjorn_arabic_pat_dad_female: "bint Yūfurbyurn"
  
- Jofur_arabic: "Yūfu"
- Jofur_arabic_tek_mom: "ʾUmm Yūfu"
- Jofur_arabic_tek_dad: "ʾAbū Yūfu"
- Jofur_arabic_pat_dad_male: "ibn Yūfu"
- Jofur_arabic_pat_dad_female: "bint Yūfu"
+ Jofur_arabic: "Yūfur"
+ Jofur_arabic_tek_mom: "ʾUmm Yūfur"
+ Jofur_arabic_tek_dad: "ʾAbū Yūfur"
+ Jofur_arabic_pat_dad_male: "ibn Yūfur"
+ Jofur_arabic_pat_dad_female: "bint Yūfur"
  
- Jofurstein_arabic: "Yūfursṭayn"
- Jofurstein_arabic_tek_mom: "ʾUmm Yūfursṭayn"
- Jofurstein_arabic_tek_dad: "ʾAbū Yūfursṭayn"
- Jofurstein_arabic_pat_dad_male: "ibn Yūfursṭayn"
- Jofurstein_arabic_pat_dad_female: "bint Yūfursṭayn"
- 
- Jogeir_arabic: "Yūjay"
- Jogeir_arabic_tek_mom: "ʾUmm Yūjay"
- Jogeir_arabic_tek_dad: "ʾAbū Yūjay"
- Jogeir_arabic_pat_dad_male: "ibn Yūjay"
- Jogeir_arabic_pat_dad_female: "bint Yūjay"
+ Jogeir_arabic: "Yūjayr"
+ Jogeir_arabic_tek_mom: "ʾUmm Yūjayr"
+ Jogeir_arabic_tek_dad: "ʾAbū Yūjayr"
+ Jogeir_arabic_pat_dad_male: "ibn Yūjayr"
+ Jogeir_arabic_pat_dad_female: "bint Yūjayr"
  
  Johannes_arabic: "Yūḥyā" #Christian
  Johannes_arabic_tek_mom: "ʾUmm Yūḥyā"
@@ -4970,11 +4404,11 @@
  Jofreid_arabic_pat_dad_male: "ibn Yūfrayḏ"
  Jofreid_arabic_pat_dad_female: "bint Yūfrayḏ"
  
- Jolgeir_arabic: "Yūljay"
- Jolgeir_arabic_tek_mom: "ʾUmm Yūljay"
- Jolgeir_arabic_tek_dad: "ʾAbū Yūljay"
- Jolgeir_arabic_pat_dad_male: "ibn Yūljay"
- Jolgeir_arabic_pat_dad_female: "bint Yūljay"
+ Jolgeir_arabic: "Yūljayr"
+ Jolgeir_arabic_tek_mom: "ʾUmm Yūljayr"
+ Jolgeir_arabic_tek_dad: "ʾAbū Yūljayr"
+ Jolgeir_arabic_pat_dad_male: "ibn Yūljayr"
+ Jolgeir_arabic_pat_dad_female: "bint Yūljayr"
  
  Jon_arabic: "Yūn"
  Jon_arabic_tek_mom: "ʾUmm Yūn"
@@ -4982,11 +4416,11 @@
  Jon_arabic_pat_dad_male: "ibn Yūn"
  Jon_arabic_pat_dad_female: "bint Yūn"
  
- Jongeir_arabic: "Yūnjay" #Christian
- Jongeir_arabic_tek_mom: "ʾUmm Yūnjay"
- Jongeir_arabic_tek_dad: "ʾAbū Yūnjay"
- Jongeir_arabic_pat_dad_male: "ibn Yūnjay"
- Jongeir_arabic_pat_dad_female: "bint Yūnjay"
+ Jongeir_arabic: "Yūnjayr" #Christian
+ Jongeir_arabic_tek_mom: "ʾUmm Yūnjayr"
+ Jongeir_arabic_tek_dad: "ʾAbū Yūnjayr"
+ Jongeir_arabic_pat_dad_male: "ibn Yūnjayr"
+ Jongeir_arabic_pat_dad_female: "bint Yūnjayr"
  
  Jorkel_arabic: "Yūrqayl"
  Jorkel_arabic_tek_mom: "ʾUmm Yūrqayl"
@@ -5034,18 +4468,6 @@
  Josur_arabic_tek_dad: "ʾAbū Yūsu"
  Josur_arabic_pat_dad_male: "ibn Yūsu"
  Josur_arabic_pat_dad_female: "bint Yūsu"
- 
- Kadal_arabic: "Ḵaḏal" #Celtic
- Kadal_arabic_tek_mom: "ʾUmm Ḵaḏal"
- Kadal_arabic_tek_dad: "ʾAbū Ḵaḏal"
- Kadal_arabic_pat_dad_male: "ibn Ḵaḏal"
- Kadal_arabic_pat_dad_female: "bint Ḵaḏal"
- 
- Karl_arabic: "Karl" #Celtic
- Karl_arabic_tek_mom: "ʾUmm Karl"
- Karl_arabic_tek_dad: "ʾAbū Karl"
- Karl_arabic_pat_dad_male: "ibn Karl"
- Karl_arabic_pat_dad_female: "bint Karl"
  
  Ketilbjorn_arabic: "Qaytilbyurn"
  Ketilbjorn_arabic_tek_mom: "ʾUmm Qaytilbyurn"
@@ -5100,42 +4522,6 @@
  Kilfi_arabic_tek_dad: "ʾAbū Qilfi"
  Kilfi_arabic_pat_dad_male: "ibn Qilfi"
  Kilfi_arabic_pat_dad_female: "bint Qilfi"
- 
- Kiulak_arabic: "Ḵiūlāk" #Celtic
- Kiulak_arabic_tek_mom: "ʾUmm Ḵiūlāk"
- Kiulak_arabic_tek_dad: "ʾAbū Ḵiūlāk"
- Kiulak_arabic_pat_dad_male: "ibn Ḵiūlāk"
- Kiulak_arabic_pat_dad_female: "bint Ḵiūlāk"
- 
- Kjallak_arabic: "Ḵyallak" #Celtic
- Kjallak_arabic_tek_mom: "ʾUmm Ḵyallak"
- Kjallak_arabic_tek_dad: "ʾAbū Ḵyallak"
- Kjallak_arabic_pat_dad_male: "ibn Ḵyallak"
- Kjallak_arabic_pat_dad_female: "bint Ḵyallak"
- 
- Kjaran_arabic: "Ḵyaran" #Celtic
- Kjaran_arabic_tek_mom: "ʾUmm Ḵyaran"
- Kjaran_arabic_tek_dad: "ʾAbū Ḵyaran"
- Kjaran_arabic_pat_dad_male: "ibn Ḵyaran"
- Kjaran_arabic_pat_dad_female: "bint Ḵyaran"
- 
- Kjarfal_arabic: "Ḵyarfal" #Celtic
- Kjarfal_arabic_tek_mom: "ʾUmm Ḵyarfal"
- Kjarfal_arabic_tek_dad: "ʾAbū Ḵyarfal"
- Kjarfal_arabic_pat_dad_male: "ibn Ḵyarfal"
- Kjarfal_arabic_pat_dad_female: "bint Ḵyarfal"
- 
- Kjartan_arabic: "Ḵyartan" #Celtic
- Kjartan_arabic_tek_mom: "ʾUmm Ḵyartan"
- Kjartan_arabic_tek_dad: "ʾAbū Ḵyartan"
- Kjartan_arabic_pat_dad_male: "ibn Ḵyartan"
- Kjartan_arabic_pat_dad_female: "bint Ḵyartan"
- 
- Kjarval_arabic: "Ḵyarwal" #Celtic
- Kjarval_arabic_tek_mom: "ʾUmm Ḵyarwal"
- Kjarval_arabic_tek_dad: "ʾAbū Ḵyarwal"
- Kjarval_arabic_pat_dad_male: "ibn Ḵyarwal"
- Kjarval_arabic_pat_dad_female: "bint Ḵyarwal"
  
  Kjotvi_arabic: "Kyatwy"
  Kjotvi_arabic_tek_mom: "ʾUmm Kyatwy"
@@ -5197,12 +4583,6 @@
  Knud_arabic_pat_dad_male: "ibn Knūt"
  Knud_arabic_pat_dad_female: "bint Knūt"
  
- Kodran_arabic: "Ḵuḏrān" #Celtic
- Kodran_arabic_tek_mom: "ʾUmm Ḵuḏrān"
- Kodran_arabic_tek_dad: "ʾAbū Ḵuḏrān"
- Kodran_arabic_pat_dad_male: "ibn Ḵuḏrān"
- Kodran_arabic_pat_dad_female: "bint Ḵuḏrān"
- 
  Kolbak_arabic: "Qulbak"
  Kolbak_arabic_tek_mom: "ʾUmm Qulbak"
  Kolbak_arabic_tek_dad: "ʾAbū Qulbak"
@@ -5257,12 +4637,6 @@
  Kolsvein_arabic_pat_dad_male: "ibn Qulswayn"
  Kolsvein_arabic_pat_dad_female: "bint Qulswayn"
  
- Konall_arabic: "Ḵunyāll" #Celtic
- Konall_arabic_tek_mom: "ʾUmm Ḵunyāll"
- Konall_arabic_tek_dad: "ʾAbū Ḵunyāll"
- Konall_arabic_pat_dad_male: "ibn Ḵunyāll"
- Konall_arabic_pat_dad_female: "bint Ḵunyāll"
- 
  Konrad_arabic: "Qunrāḏ"
  Konrad_arabic_tek_mom: "ʾUmm Qunrāḏ"
  Konrad_arabic_tek_dad: "ʾAbū Qunrāḏ"
@@ -5281,12 +4655,6 @@
  Kori_arabic_pat_dad_male: "ibn Qūri"
  Kori_arabic_pat_dad_female: "bint Qūri"
  
- Kormak_arabic: "Ḵurmāk" #Celtic
- Kormak_arabic_tek_mom: "ʾUmm Ḵurmāk"
- Kormak_arabic_tek_dad: "ʾAbū Ḵurmāk"
- Kormak_arabic_pat_dad_male: "ibn Ḵurmāk"
- Kormak_arabic_pat_dad_female: "bint Ḵurmāk"
- 
  Korpulf_arabic: "Qurbūlf"
  Korpulf_arabic_tek_mom: "ʾUmm Qurbūlf"
  Korpulf_arabic_tek_dad: "ʾAbū Qurbūlf"
@@ -5304,12 +4672,6 @@
  Krak_arabic_tek_dad: "ʾAbū Krāk"
  Krak_arabic_pat_dad_male: "ibn Krāk"
  Krak_arabic_pat_dad_female: "bint Krāk"
- 
- Krinan_arabic: "Ḵrīnān" #Celtic
- Krinan_arabic_tek_mom: "ʾUmm Ḵrīnān"
- Krinan_arabic_tek_dad: "ʾAbū Ḵrīnān"
- Krinan_arabic_pat_dad_male: "ibn Ḵrīnān"
- Krinan_arabic_pat_dad_female: "bint Ḵrīnān"
  
  Kristolf_arabic: "Kristūlf" #Christian
  Kristolf_arabic_tek_mom: "ʾUmm Kristūlf"
@@ -5334,12 +4696,6 @@
  Kugaldi_arabic_tek_dad: "ʾAbū Qūġald"
  Kugaldi_arabic_pat_dad_male: "ibn Qūġald"
  Kugaldi_arabic_pat_dad_female: "bint Qūġald"
- 
- Kvaran_arabic: "Kwāran" #Celtic
- Kvaran_arabic_tek_mom: "ʾUmm Kwāran"
- Kvaran_arabic_tek_dad: "ʾAbū Kwāran"
- Kvaran_arabic_pat_dad_male: "ibn Kwāran"
- Kvaran_arabic_pat_dad_female: "bint Kwāran"
  
  Kvigbjorn_arabic: "Kwījbyurn"
  Kvigbjorn_arabic_tek_mom: "ʾUmm Kwījbyurn"
@@ -5371,11 +4727,11 @@
  Lamb_arabic_pat_dad_male: "ibn Lamb"
  Lamb_arabic_pat_dad_female: "bint Lamb"
  
- Lambkar_arabic: "Lambqā"
- Lambkar_arabic_tek_mom: "ʾUmm Lambqā"
- Lambkar_arabic_tek_dad: "ʾAbū Lambqā"
- Lambkar_arabic_pat_dad_male: "ibn Lambqā"
- Lambkar_arabic_pat_dad_female: "bint Lambqā"
+ Lambkar_arabic: "Lambqār"
+ Lambkar_arabic_tek_mom: "ʾUmm Lambqār"
+ Lambkar_arabic_tek_dad: "ʾAbū Lambqār"
+ Lambkar_arabic_pat_dad_male: "ibn Lambqār"
+ Lambkar_arabic_pat_dad_female: "bint Lambqār"
  
  Legg_arabic: "Leġ"
  Legg_arabic_tek_mom: "ʾUmm Leġ"
@@ -5478,12 +4834,6 @@
  Ljotolf_arabic_pat_dad_male: "ibn Lyūtūlf"
  Ljotolf_arabic_pat_dad_female: "bint Lyūtūlf"
  
- Ljuf_arabic: "Lyuf"
- Ljuf_arabic_tek_mom: "ʾUmm Lyuf"
- Ljuf_arabic_tek_dad: "ʾAbū Lyuf"
- Ljuf_arabic_pat_dad_male: "ibn Lyuf"
- Ljuf_arabic_pat_dad_female: "bint Lyuf"
- 
  Ljufvin_arabic: "Lyufwin"
  Ljufvin_arabic_tek_mom: "ʾUmm Lyufwin"
  Ljufvin_arabic_tek_dad: "ʾAbū Lyufwin"
@@ -5496,23 +4846,11 @@
  Lodhott_arabic_pat_dad_male: "ibn Loḏhottsson"
  Lodhott_arabic_pat_dad_female: "bint Loḏhottsdūtti"
  
- Lodin_arabic: "Luḏin"
- Lodin_arabic_tek_mom: "ʾUmm Luḏin"
- Lodin_arabic_tek_dad: "ʾAbū Luḏin"
- Lodin_arabic_pat_dad_male: "ibn Luḏin"
- Lodin_arabic_pat_dad_female: "bint Luḏin"
- 
  Lodmund_arabic: "Luḏmund"
  Lodmund_arabic_tek_mom: "ʾUmm Luḏmund"
  Lodmund_arabic_tek_dad: "ʾAbū Luḏmund"
  Lodmund_arabic_pat_dad_male: "ibn Luḏmund"
  Lodmund_arabic_pat_dad_female: "bint Luḏmund"
- 
- Lundvar_arabic: "Lundwa"
- Lundvar_arabic_tek_mom: "ʾUmm Lundwa"
- Lundvar_arabic_tek_dad: "ʾAbū Lundwa"
- Lundvar_arabic_pat_dad_male: "ibn Lundwa"
- Lundvar_arabic_pat_dad_female: "bint Lundwa"
  
  Lydbjorn_arabic: "Liyḏbyurn"
  Lydbjorn_arabic_tek_mom: "ʾUmm Liyḏbyurn"
@@ -5520,23 +4858,11 @@
  Lydbjorn_arabic_pat_dad_male: "ibn Liyḏbyurn"
  Lydbjorn_arabic_pat_dad_female: "bint Liyḏbyurn"
  
- Maddad_arabic: "Maḏaḏ" #Celtic
- Maddad_arabic_tek_mom: "ʾUmm Maḏaḏ"
- Maddad_arabic_tek_dad: "ʾAbū Maḏaḏ"
- Maddad_arabic_pat_dad_male: "ibn Maḏaḏ"
- Maddad_arabic_pat_dad_female: "bint Maḏaḏ"
- 
  Magnus_arabic: "Maġnūs" #Christian
  Magnus_arabic_tek_mom: "ʾUmm Maġnūs"
  Magnus_arabic_tek_dad: "ʾAbū Maġnūs"
  Magnus_arabic_pat_dad_male: "ibn Maġnūs"
  Magnus_arabic_pat_dad_female: "bint Maġnūs"
- 
- Makan_arabic: "Maḵan" #Celtic
- Makan_arabic_tek_mom: "ʾUmm Maḵan"
- Makan_arabic_tek_dad: "ʾAbū Maḵan"
- Makan_arabic_pat_dad_male: "ibn Maḵan"
- Makan_arabic_pat_dad_female: "bint Maḵan"
  
  Mak_arabic: "Māq"
  Mak_arabic_tek_mom: "ʾUmm Māq"
@@ -5549,12 +4875,6 @@
  Mar_arabic_tek_dad: "ʾAbū Mar"
  Mar_arabic_pat_dad_male: "ibn Mar"
  Mar_arabic_pat_dad_female: "bint Mar"
- 
- Margad_arabic: "Marġaḏ" #Celtic
- Margad_arabic_tek_mom: "ʾUmm Marġaḏ"
- Margad_arabic_tek_dad: "ʾAbū Marġaḏ"
- Margad_arabic_pat_dad_male: "ibn Marġaḏ"
- Margad_arabic_pat_dad_female: "bint Marġaḏ"
  
  Markus_arabic: "Marqūs" #Christian
  Markus_arabic_tek_mom: "ʾUmm Marqūs"
@@ -5579,48 +4899,6 @@
  Meginbjorn_arabic_tek_dad: "ʾAbū Meġinbyurn"
  Meginbjorn_arabic_pat_dad_male: "ibn Meġinbyurn"
  Meginbjorn_arabic_pat_dad_female: "bint Meġinbyurn"
- 
- Melbrigd_arabic: "Melbrijḏ" #Celtic
- Melbrigd_arabic_tek_mom: "ʾUmm Melbrijḏ"
- Melbrigd_arabic_tek_dad: "ʾAbū Melbrijḏ"
- Melbrigd_arabic_pat_dad_male: "ibn Melbrijḏ"
- Melbrigd_arabic_pat_dad_female: "bint Melbrijḏ"
- 
- Meldun_arabic: "Meldūn" #Celtic
- Meldun_arabic_tek_mom: "ʾUmm Meldūn"
- Meldun_arabic_tek_dad: "ʾAbū Meldūn"
- Meldun_arabic_pat_dad_male: "ibn Meldūn"
- Meldun_arabic_pat_dad_female: "bint Meldūn"
- 
- Melkolf_arabic: "Melqūlf" #Celtic
- Melkolf_arabic_tek_mom: "ʾUmm Melqūlf"
- Melkolf_arabic_tek_dad: "ʾAbū Melqūlf"
- Melkolf_arabic_pat_dad_male: "ibn Melqūlf"
- Melkolf_arabic_pat_dad_female: "bint Melqūlf"
- 
- Melkolm_arabic: "Melqūlm" #Celtic
- Melkolm_arabic_tek_mom: "ʾUmm Melqūlm"
- Melkolm_arabic_tek_dad: "ʾAbū Melqūlm"
- Melkolm_arabic_pat_dad_male: "ibn Melqūlm"
- Melkolm_arabic_pat_dad_female: "bint Melqūlm"
- 
- Melmar_arabic: "Melmaryam" #Celtic
- Melmar_arabic_tek_mom: "ʾUmm Melmaryam"
- Melmar_arabic_tek_dad: "ʾAbū Melmaryam"
- Melmar_arabic_pat_dad_male: "ibn Melmaryam"
- Melmar_arabic_pat_dad_female: "bint Melmaryam"
- 
- Melpatrik_arabic: "Melbatriq" #Celtic
- Melpatrik_arabic_tek_mom: "ʾUmm Melbatriq"
- Melpatrik_arabic_tek_dad: "ʾAbū Melbatriq"
- Melpatrik_arabic_pat_dad_male: "ibn Melbatriq"
- Melpatrik_arabic_pat_dad_female: "bint Melbatriq"
- 
- Melsnat_arabic: "Melsnat" #Celtic
- Melsnat_arabic_tek_mom: "ʾUmm Melsnat"
- Melsnat_arabic_tek_dad: "ʾAbū Melsnat"
- Melsnat_arabic_pat_dad_male: "ibn Melsnat"
- Melsnat_arabic_pat_dad_female: "bint Melsnat"
  
  Mikjal_arabic: "Miḵyʾāl" #Christian
  Mikjal_arabic_tek_mom: "ʾUmm Miḵyʾāl"
@@ -5664,11 +4942,11 @@
  Munan_arabic_pat_dad_male: "ibn Munān"
  Munan_arabic_pat_dad_female: "bint Munān"
  
- Mundgeir_arabic: "Mundjay"
- Mundgeir_arabic_tek_mom: "ʾUmm Mundjay"
- Mundgeir_arabic_tek_dad: "ʾAbū Mundjay"
- Mundgeir_arabic_pat_dad_male: "ibn Mundjay"
- Mundgeir_arabic_pat_dad_female: "bint Mundjay"
+ Mundgeir_arabic: "Mundjayr"
+ Mundgeir_arabic_tek_mom: "ʾUmm Mundjayr"
+ Mundgeir_arabic_tek_dad: "ʾAbū Mundjayr"
+ Mundgeir_arabic_pat_dad_male: "ibn Mundjayr"
+ Mundgeir_arabic_pat_dad_female: "bint Mundjayr"
  
  Mund_arabic: "Mund"
  Mund_arabic_tek_mom: "ʾUmm Mund"
@@ -5687,12 +4965,6 @@
  Myndil_arabic_tek_dad: "ʾAbū Myndil"
  Myndil_arabic_pat_dad_male: "ibn Myndil"
  Myndil_arabic_pat_dad_female: "bint Myndil"
- 
- Myrkjartan_arabic: "Miyrḵyartan" #Celtic
- Myrkjartan_arabic_tek_mom: "ʾUmm Miyrḵyartan"
- Myrkjartan_arabic_tek_dad: "ʾAbū Miyrḵyartan"
- Myrkjartan_arabic_pat_dad_male: "ibn Miyrḵyartan"
- Myrkjartan_arabic_pat_dad_female: "bint Miyrḵyartan"
  
  Myskia_arabic: "Mysqiyya"
  Myskia_arabic_tek_mom: "ʾUmm Mysqiyya"
@@ -5724,12 +4996,6 @@
  Nagli_arabic_pat_dad_male: "ibn Naġl"
  Nagli_arabic_pat_dad_female: "bint Naġl"
  
- Nann_arabic: "Nan"
- Nann_arabic_tek_mom: "ʾUmm Nan"
- Nann_arabic_tek_dad: "ʾAbū Nan"
- Nann_arabic_pat_dad_male: "ibn Nan"
- Nann_arabic_pat_dad_female: "bint Nan"
- 
  Narfi_arabic: "Narf"
  Narfi_arabic_tek_mom: "ʾUmm Narf"
  Narfi_arabic_tek_dad: "ʾAbū Narf"
@@ -5742,11 +5008,11 @@
  Nefbjorn_arabic_pat_dad_male: "ibn Nayfbyurn"
  Nefbjorn_arabic_pat_dad_female: "bint Nayfbyurn"
  
- Nefgeir_arabic: "Nayfjay"
- Nefgeir_arabic_tek_mom: "ʾUmm Nayfjay"
- Nefgeir_arabic_tek_dad: "ʾAbū Nayfjay"
- Nefgeir_arabic_pat_dad_male: "ibn Nayfjay"
- Nefgeir_arabic_pat_dad_female: "bint Nayfjay"
+ Nefgeir_arabic: "Nayfjayr"
+ Nefgeir_arabic_tek_mom: "ʾUmm Nayfjayr"
+ Nefgeir_arabic_tek_dad: "ʾAbū Nayfjayr"
+ Nefgeir_arabic_pat_dad_male: "ibn Nayfjayr"
+ Nefgeir_arabic_pat_dad_female: "bint Nayfjayr"
  
  Nef_arabic: "Nayf" #Norse
  Nef_arabic_tek_mom: "ʾUmm Nayf"
@@ -5805,12 +5071,6 @@
  Niusi_arabic_pat_dad_male: "ibn Niūs"
  Niusi_arabic_pat_dad_female: "bint Niūs"
  
- Njal_arabic: "Nyāl" #Celtic
- Njal_arabic_tek_mom: "ʾUmm Nyāl"
- Njal_arabic_tek_dad: "ʾAbū Nyāl"
- Njal_arabic_pat_dad_male: "ibn Nyāl"
- Njal_arabic_pat_dad_female: "bint Nyāl"
- 
  Nollar_arabic: "Nulla"
  Nollar_arabic_tek_mom: "ʾUmm Nulla"
  Nollar_arabic_tek_dad: "ʾAbū Nulla"
@@ -5841,12 +5101,6 @@
  Oblaud_arabic_pat_dad_male: "ibn Ūblawḏ"
  Oblaud_arabic_pat_dad_female: "bint Ūblawḏ"
  
- Odalfred_arabic: "Ūḏalfrīd"
- Odalfred_arabic_tek_mom: "ʾUmm Ūḏalfrīd"
- Odalfred_arabic_tek_dad: "ʾAbū Ūḏalfrīd"
- Odalfred_arabic_pat_dad_male: "ibn Ūḏalfrīd"
- Odalfred_arabic_pat_dad_female: "bint Ūḏalfrīd"
- 
  Odd_arabic: "ʿUd"
  Odd_arabic_tek_mom: "ʾUmm Od"
  Odd_arabic_tek_dad: "ʾAbū Od"
@@ -5865,11 +5119,11 @@
  Oddbjorn_arabic_pat_dad_male: "ibn Odbyurn"
  Oddbjorn_arabic_pat_dad_female: "bint Odbyurn"
  
- Oddgeir_arabic: "ʿUdjay"
- Oddgeir_arabic_tek_mom: "ʾUmm Odjay"
- Oddgeir_arabic_tek_dad: "ʾAbū Odjay"
- Oddgeir_arabic_pat_dad_male: "ibn Odjay"
- Oddgeir_arabic_pat_dad_female: "bint Odjay"
+ Oddgeir_arabic: "ʿUdjayr"
+ Oddgeir_arabic_tek_mom: "ʾUmm Odjayr"
+ Oddgeir_arabic_tek_dad: "ʾAbū Odjayr"
+ Oddgeir_arabic_pat_dad_male: "ibn Odjayr"
+ Oddgeir_arabic_pat_dad_female: "bint Odjayr"
  
  Oddkel_arabic: "ʿUdqayl"
  Oddkel_arabic_tek_mom: "ʾUmm Odqayl"
@@ -5895,17 +5149,17 @@
  Oddulf_arabic_pat_dad_male: "ibn Odūlf"
  Oddulf_arabic_pat_dad_female: "bint Odūlf"
  
- Oddvar_arabic: "ʿUdwa"
- Oddvar_arabic_tek_mom: "ʾUmm Odwa"
- Oddvar_arabic_tek_dad: "ʾAbū Odwa"
- Oddvar_arabic_pat_dad_male: "ibn Odwa"
- Oddvar_arabic_pat_dad_female: "bint Odwa"
+ Oddvar_arabic: "ʿUdwar"
+ Oddvar_arabic_tek_mom: "ʾUmm Odwar"
+ Oddvar_arabic_tek_dad: "ʾAbū Odwar"
+ Oddvar_arabic_pat_dad_male: "ibn Odwar"
+ Oddvar_arabic_pat_dad_female: "bint Odwar"
  
- Odinkar_arabic: "Ūḏinqā"
- Odinkar_arabic_tek_mom: "ʾUmm Ūḏinqā"
- Odinkar_arabic_tek_dad: "ʾAbū Ūḏinqā"
- Odinkar_arabic_pat_dad_male: "ibn Ūḏinqā"
- Odinkar_arabic_pat_dad_female: "bint Ūḏinqā"
+ Odinkar_arabic: "Ūḏinqār"
+ Odinkar_arabic_tek_mom: "ʾUmm Ūḏinqār"
+ Odinkar_arabic_tek_dad: "ʾAbū Ūḏinqār"
+ Odinkar_arabic_pat_dad_male: "ibn Ūḏinqār"
+ Odinkar_arabic_pat_dad_female: "bint Ūḏinqār"
  
  OEpi_arabic: "ʿUwbi"
  OEpi_arabic_tek_mom: "ʾUmm Owbi"
@@ -5919,23 +5173,11 @@
  Ofaeti_arabic_pat_dad_male: "ibn Ufayt"
  Ofaeti_arabic_pat_dad_female: "bint Ufayt"
  
- Ofeig_arabic: "Ūfayġ"
- Ofeig_arabic_tek_mom: "ʾUmm Ūfayġ"
- Ofeig_arabic_tek_dad: "ʾAbū Ūfayġ"
- Ofeig_arabic_pat_dad_male: "ibn Ūfayġ"
- Ofeig_arabic_pat_dad_female: "bint Ūfayġ"
- 
  Ofla_arabic: "Ūflā"
  Ofla_arabic_tek_mom: "ʾUmm Ūflā"
  Ofla_arabic_tek_dad: "ʾAbū Ūflā"
  Ofla_arabic_pat_dad_male: "ibn Ūflā"
  Ofla_arabic_pat_dad_female: "bint Ūflā"
- 
- Oflati_arabic: "ʿUflāt"
- Oflati_arabic_tek_mom: "ʾUmm Uflāt"
- Oflati_arabic_tek_dad: "ʾAbū Uflāt"
- Oflati_arabic_pat_dad_male: "ibn Uflāt"
- Oflati_arabic_pat_dad_female: "bint Uflāt"
  
  Ofrad_arabic: "ʿUfrāḏ"
  Ofrad_arabic_tek_mom: "ʾUmm Ufrāḏ"
@@ -6055,11 +5297,11 @@
  Ormr_arabic_pat_dad_male: "ibn Urm"
  Ormr_arabic_pat_dad_female: "bint Urm"
  
- Ormgeir_arabic: "ʿUrmjay"
- Ormgeir_arabic_tek_mom: "ʾUmm Urmjay"
- Ormgeir_arabic_tek_dad: "ʾAbū Urmjay"
- Ormgeir_arabic_pat_dad_male: "ibn Urmjay"
- Ormgeir_arabic_pat_dad_female: "bint Urmjay"
+ Ormgeir_arabic: "ʿUrmjayr"
+ Ormgeir_arabic_tek_mom: "ʾUmm Urmjayr"
+ Ormgeir_arabic_tek_dad: "ʾAbū Urmjayr"
+ Ormgeir_arabic_pat_dad_male: "ibn Urmjayr"
+ Ormgeir_arabic_pat_dad_female: "bint Urmjayr"
  
  Ormulf_arabic: "ʿUrmūlf"
  Ormulf_arabic_tek_mom: "ʾUmm Urmūlf"
@@ -6078,18 +5320,6 @@
  Ornolf_arabic_tek_dad: "ʾAbū Arnūlf"
  Ornolf_arabic_pat_dad_male: "ibn Arnūlf"
  Ornolf_arabic_pat_dad_female: "bint Arnūlf"
- 
- Oroekia_arabic: "Ūrowqiyya"
- Oroekia_arabic_tek_mom: "ʾUmm Ūrowqiyya"
- Oroekia_arabic_tek_dad: "ʾAbū Ūrowqiyya"
- Oroekia_arabic_pat_dad_male: "ibn Ūrowqiyya"
- Oroekia_arabic_pat_dad_female: "bint Ūrowqiyya"
- 
- Orri_arabic: "ʿU"
- Orri_arabic_tek_mom: "ʾUmm U"
- Orri_arabic_tek_dad: "ʾAbū U"
- Orri_arabic_pat_dad_male: "ibn U"
- Orri_arabic_pat_dad_female: "bint U"
  
  Orrusti_arabic: "ʿUrrust"
  Orrusti_arabic_tek_mom: "ʾUmm Urrust"
@@ -6162,12 +5392,6 @@
  Otto_arabic_tek_dad: "ʾAbū Uttū"
  Otto_arabic_pat_dad_male: "ibn Uttū"
  Otto_arabic_pat_dad_female: "bint Uttū"
- 
- Othvegin_arabic: "Ūṯweġin"
- Othvegin_arabic_tek_mom: "ʾUmm Ūṯweġin"
- Othvegin_arabic_tek_dad: "ʾAbū Ūṯweġin"
- Othvegin_arabic_pat_dad_male: "ibn Ūṯweġin"
- Othvegin_arabic_pat_dad_female: "bint ÓṯvegŪṯweġininsdūtti"
  
  Othyrmir_arabic: "Ūṯyrmi"
  Othyrmir_arabic_tek_mom: "ʾUmm Ūṯyrmi"
@@ -6325,28 +5549,16 @@
  Raudbjorn_arabic_pat_dad_female: "bint Rawḏbyurn"
 
  Raudulf_arabic: "Rawḏūlf"
- Raudulf_arabic_tek_mom: "ʾUmm Rauḏūlfsfaḏi"
- Raudulf_arabic_tek_dad: "ʾAbū Rauḏūlfsmūḏi"
- Raudulf_arabic_pat_dad_male: "ibn Rauḏūlfsson"
- Raudulf_arabic_pat_dad_female: "bint Rauḏūlfsdūtti"
-
- Raudkar_arabic: "Rawḏqā"
- Raudkar_arabic_tek_mom: "ʾUmm Rawḏqā"
- Raudkar_arabic_tek_dad: "ʾAbū Rawḏqā"
- Raudkar_arabic_pat_dad_male: "ibn Rawḏqā"
- Raudkar_arabic_pat_dad_female: "bint Rawḏqā"
+ Raudulf_arabic_tek_mom: "ʾUmm Rawḏūlf"
+ Raudulf_arabic_tek_dad: "ʾAbū Rawḏūlf"
+ Raudulf_arabic_pat_dad_male: "ibn Rawḏūlf"
+ Raudulf_arabic_pat_dad_female: "bint Rawḏūlf"
 
  Refkel_arabic: "Refqayl"
  Refkel_arabic_tek_mom: "ʾUmm Refqayl"
  Refkel_arabic_tek_dad: "ʾAbū Refqayl"
  Refkel_arabic_pat_dad_male: "ibn Refqayl"
  Refkel_arabic_pat_dad_female: "bint Refqayl"
-
- Ref_arabic: "Ref"
- Ref_arabic_tek_mom: "ʾUmm Ref"
- Ref_arabic_tek_dad: "ʾAbū Ref"
- Ref_arabic_pat_dad_male: "ibn Ref"
- Ref_arabic_pat_dad_female: "bint Ref"
 
  Reginmund_arabic: "Rajinmund"
  Reginmund_arabic_tek_mom: "ʾUmm Reginmund"
@@ -6444,12 +5656,6 @@
  Rognud_arabic_pat_dad_male: "ibn Raġnuḏ"
  Rognud_arabic_pat_dad_female: "bint Raġnuḏ"
 
- Rugga_arabic: "Ruġ"
- Rugga_arabic_tek_mom: "ʾUmm Ruġ"
- Rugga_arabic_tek_dad: "ʾAbū Ruġ"
- Rugga_arabic_pat_dad_male: "ibn Ruġ"
- Rugga_arabic_pat_dad_female: "bint Ruġ"
-
  Runfast_arabic: "Rūnfast"
  Runfast_arabic_tek_mom: "ʾUmm Rūnfast"
  Runfast_arabic_tek_dad: "ʾAbū Rūnfast"
@@ -6461,18 +5667,6 @@
  Runi_arabic_tek_dad: "ʾAbū Rūn"
  Runi_arabic_pat_dad_male: "ibn Rūn"
  Runi_arabic_pat_dad_female: "bint Rūn"
-
- Ryding_arabic: "Ryḏinġ"
- Ryding_arabic_tek_mom: "ʾUmm Ryḏinġ"
- Ryding_arabic_tek_dad: "ʾAbū Ryḏinġ"
- Ryding_arabic_pat_dad_male: "ibn Ryḏinġ"
- Ryding_arabic_pat_dad_female: "bint Ryḏinġ"
-
- Rysia_arabic: "Rysiyya"
- Rysia_arabic_tek_mom: "ʾUmm Rysiyya"
- Rysia_arabic_tek_dad: "ʾAbū Rysiyya"
- Rysia_arabic_pat_dad_male: "ibn Rysiyya"
- Rysia_arabic_pat_dad_female: "bint Rysiyya"
 
  Runvid_arabic: "Rūnwiḏ"
  Runvid_arabic_tek_mom: "ʾUmm Rūnviḏarfaḏi"
@@ -6510,11 +5704,11 @@
  Saefus_arabic_pat_dad_male: "ibn Sayyfūz"
  Saefus_arabic_pat_dad_female: "bint Sayyfūz"
 
- Saegeir_arabic: "Sayyjay"
- Saegeir_arabic_tek_mom: "ʾUmm Sayyjay"
- Saegeir_arabic_tek_dad: "ʾAbū Sayyjay"
- Saegeir_arabic_pat_dad_male: "ibn Sayyjay"
- Saegeir_arabic_pat_dad_female: "bint Sayyjay"
+ Saegeir_arabic: "Sayyjayr"
+ Saegeir_arabic_tek_mom: "ʾUmm Sayyjayr"
+ Saegeir_arabic_tek_dad: "ʾAbū Sayyjayr"
+ Saegeir_arabic_pat_dad_male: "ibn Sayyjayr"
+ Saegeir_arabic_pat_dad_female: "bint Sayyjayr"
 
  Saegrim_arabic: "Sayyġrīm"
  Saegrim_arabic_tek_mom: "ʾUmm Sayyġrīm"
@@ -6563,11 +5757,11 @@
  Saeulf_arabic_pat_dad_male: "ibn Sayyūlf"
  Saeulf_arabic_pat_dad_female: "bint Sayyūlf"
 
- Saevar_arabic: "Sayywa"
- Saevar_arabic_tek_mom: "ʾUmm Sayywa"
- Saevar_arabic_tek_dad: "ʾAbū Sayywa"
- Saevar_arabic_pat_dad_male: "ibn Sayywa"
- Saevar_arabic_pat_dad_female: "bint Sayywa"
+ Saevar_arabic: "Sayywar"
+ Saevar_arabic_tek_mom: "ʾUmm Sayywar"
+ Saevar_arabic_tek_dad: "ʾAbū Sayywar"
+ Saevar_arabic_pat_dad_male: "ibn Sayywar"
+ Saevar_arabic_pat_dad_female: "bint Sayywar"
 
  Saevini_arabic: "Sayywin"
  Saevini_arabic_tek_mom: "ʾUmm Sayywin"
@@ -6688,11 +5882,11 @@
  Sigfus_arabic_pat_dad_male: "ibn Siġfūz"
  Sigfus_arabic_pat_dad_female: "bint Siġfūz"
 
- Siggeir_arabic: "Siġjay"
- Siggeir_arabic_tek_mom: "ʾUmm Siġjay"
- Siggeir_arabic_tek_dad: "ʾAbū Siġjay"
- Siggeir_arabic_pat_dad_male: "ibn Siġjay"
- Siggeir_arabic_pat_dad_female: "bint Siġjay"
+ Siggeir_arabic: "Siġjayr"
+ Siggeir_arabic_tek_mom: "ʾUmm Siġjayr"
+ Siggeir_arabic_tek_dad: "ʾAbū Siġjayr"
+ Siggeir_arabic_pat_dad_male: "ibn Siġjayr"
+ Siggeir_arabic_pat_dad_female: "bint Siġjayr"
 
  Siggi_arabic: "Siġ"
  Siggi_arabic_tek_mom: "ʾUmm Siġ"
@@ -6867,12 +6061,6 @@
  Skage_arabic_pat_dad_male: "ibn Skaġ"
  Skage_arabic_pat_dad_female: "bint Skaġ"
 
- Skald_arabic: "Skāld"
- Skald_arabic_tek_mom: "ʾUmm Skāld"
- Skald_arabic_tek_dad: "ʾAbū Skāld"
- Skald_arabic_pat_dad_male: "ibn Skāld"
- Skald_arabic_pat_dad_female: "bint Skāld"
-
  Skalp_arabic: "Skālb"
  Skalp_arabic_tek_mom: "ʾUmm Skālb"
  Skalp_arabic_tek_dad: "ʾAbū Skālb"
@@ -6914,12 +6102,6 @@
  Skefil_arabic_tek_dad: "ʾAbū Skefil"
  Skefil_arabic_pat_dad_male: "ibn Skefil"
  Skefil_arabic_pat_dad_female: "bint Skefil"
-
- Skeggi_arabic: "Skeġ"
- Skeggi_arabic_tek_mom: "ʾUmm Skeġ"
- Skeggi_arabic_tek_dad: "ʾAbū Skeġ"
- Skeggi_arabic_pat_dad_male: "ibn Skeġ"
- Skeggi_arabic_pat_dad_female: "bint Skeġ"
 
  Skidi_arabic: "Skīḏ"
  Skidi_arabic_tek_mom: "ʾUmm Skīḏ"
@@ -6969,17 +6151,11 @@
  Skofte_arabic_pat_dad_male: "ibn Skuft"
  Skofte_arabic_pat_dad_female: "bint Skuft"
 
- Skog_arabic: "Skūġ"
- Skog_arabic_tek_mom: "ʾUmm Skūgsfaḏi"
- Skog_arabic_tek_dad: "ʾAbū Skūgsmūḏi"
- Skog_arabic_pat_dad_male: "ibn Skūgsson"
- Skog_arabic_pat_dad_female: "bint Skūgsdūtti"
-
- Skorageir_arabic: "Skurajay"
- Skorageir_arabic_tek_mom: "ʾUmm Skurajay"
- Skorageir_arabic_tek_dad: "ʾAbū Skurajay"
- Skorageir_arabic_pat_dad_male: "ibn Skurajay"
- Skorageir_arabic_pat_dad_female: "bint Skurajay"
+ Skorageir_arabic: "Skurajayr"
+ Skorageir_arabic_tek_mom: "ʾUmm Skurajayr"
+ Skorageir_arabic_tek_dad: "ʾAbū Skurajayr"
+ Skorageir_arabic_pat_dad_male: "ibn Skurajayr"
+ Skorageir_arabic_pat_dad_female: "bint Skurajayr"
 
  Skorri_arabic: "Sku"
  Skorri_arabic_tek_mom: "ʾUmm Sku"
@@ -7053,12 +6229,6 @@
  Snaeulf_arabic_pat_dad_male: "ibn Snayūlf"
  Snaeulf_arabic_pat_dad_female: "bint Snayūlf"
 
- Snari_arabic: "Sna"
- Snari_arabic_tek_mom: "ʾUmm Sna"
- Snari_arabic_tek_dad: "ʾAbū Sna"
- Snari_arabic_pat_dad_male: "ibn Sna"
- Snari_arabic_pat_dad_female: "bint Sna"
-
  Snorri_arabic: "Snu"
  Snorri_arabic_tek_mom: "ʾUmm Snu"
  Snorri_arabic_tek_dad: "ʾAbū Snu"
@@ -7077,7 +6247,7 @@
  Solmund_arabic_pat_dad_male: "ibn Salmund"
  Solmund_arabic_pat_dad_female: "bint Salmund"
 
- Solvar_arabic: "Salwa"
+ Solvar_arabic: "Salwar"
  Solvar_arabic_tek_mom: "ʾUmm Sǫlvarsfaḏi"
  Solvar_arabic_tek_dad: "ʾAbū Sǫlvarsmūḏi"
  Solvar_arabic_pat_dad_male: "ibn Sǫlvarsson"
@@ -7107,18 +6277,6 @@
  Spjallbodi_arabic_pat_dad_male: "ibn Sbyalbuḏ"
  Spjallbodi_arabic_pat_dad_female: "bint Sbyalbuḏ"
 
- Spjalli_arabic: "Sbyal"
- Spjalli_arabic_tek_mom: "ʾUmm Sbyal"
- Spjalli_arabic_tek_dad: "ʾAbū Sbyal"
- Spjalli_arabic_pat_dad_male: "ibn Sbyal"
- Spjalli_arabic_pat_dad_female: "bint Sbyal"
-
- Spjoti_arabic: "Sbyūt"
- Spjoti_arabic_tek_mom: "ʾUmm Sbyūt"
- Spjoti_arabic_tek_dad: "ʾAbū Sbyūt"
- Spjoti_arabic_pat_dad_male: "ibn Sbyūt"
- Spjoti_arabic_pat_dad_female: "bint Sbyūt"
-
  Spor_arabic: "Sba"
  Spor_arabic_tek_mom: "ʾUmm Sba"
  Spor_arabic_tek_dad: "ʾAbū Sba"
@@ -7136,24 +6294,6 @@
  Stafngrim_arabic_tek_dad: "ʾAbū Sṭafnġrīm"
  Stafngrim_arabic_pat_dad_male: "ibn Sṭafnġrīm"
  Stafngrim_arabic_pat_dad_female: "bint Sṭafnġrīm"
-
- Stakk_arabic: "Sṭaq"
- Stakk_arabic_tek_mom: "ʾUmm Sṭaq"
- Stakk_arabic_tek_dad: "ʾAbū Sṭaq"
- Stakk_arabic_pat_dad_male: "ibn Sṭaq"
- Stakk_arabic_pat_dad_female: "bint Sṭaq"
-
- Stali_arabic: "Sṭāl"
- Stali_arabic_tek_mom: "ʾUmm Sṭāl"
- Stali_arabic_tek_dad: "ʾAbū Sṭāl"
- Stali_arabic_pat_dad_male: "ibn Sṭāl"
- Stali_arabic_pat_dad_female: "bint Sṭāl"
-
- Stari_arabic: "Sṭa"
- Stari_arabic_tek_mom: "ʾUmm Sṭa"
- Stari_arabic_tek_dad: "ʾAbū Sṭa"
- Stari_arabic_pat_dad_male: "ibn Sṭa"
- Stari_arabic_pat_dad_female: "bint Sṭa"
 
  Starkad_arabic: "Sṭarqaḏ"
  Starkad_arabic_tek_mom: "ʾUmm Sṭarqaḏ"
@@ -7304,23 +6444,11 @@
  Stodkel_arabic_pat_dad_male: "ibn Sṭūḏqayl"
  Stodkel_arabic_pat_dad_female: "bint Sṭūḏqayl"
 
- Stori_arabic: "Sṭū"
- Stori_arabic_tek_mom: "ʾUmm Sṭū"
- Stori_arabic_tek_dad: "ʾAbū Sṭū"
- Stori_arabic_pat_dad_male: "ibn Sṭū"
- Stori_arabic_pat_dad_female: "bint Sṭū"
-
  Storolf_arabic: "Sṭūrūlf"
  Storolf_arabic_tek_mom: "ʾUmm Sṭūrūlf"
  Storolf_arabic_tek_dad: "ʾAbū Sṭūrūlf"
  Storolf_arabic_pat_dad_male: "ibn Sṭūrūlf"
  Storolf_arabic_pat_dad_female: "bint Sṭūrūlf"
-
- Stuf_arabic: "Sṭūf"
- Stuf_arabic_tek_mom: "ʾUmm Sṭūf"
- Stuf_arabic_tek_dad: "ʾAbū Sṭūf"
- Stuf_arabic_pat_dad_male: "ibn Sṭūf"
- Stuf_arabic_pat_dad_female: "bint Sṭūf"
 
  Sturla_arabic: "Sṭūrla"
  Sturla_arabic_tek_mom: "ʾUmm Sṭūrla"
@@ -7340,12 +6468,6 @@
  Stynbjorn_arabic_pat_dad_male: "ibn Sṭynbyurn"
  Stynbjorn_arabic_pat_dad_female: "bint Sṭynbyurn"
 
- Stygg_arabic: "Sṭyġ"
- Stygg_arabic_tek_mom: "ʾUmm Sṭyġ"
- Stygg_arabic_tek_dad: "ʾAbū Sṭyġ"
- Stygg_arabic_pat_dad_male: "ibn Sṭyġ"
- Stygg_arabic_pat_dad_female: "bint Sṭyġ"
-
  Styrbjorn_arabic: "Sṭyrbyurn"
  Styrbjorn_arabic_tek_mom: "ʾUmm Sṭyrbyurn"
  Styrbjorn_arabic_tek_dad: "ʾAbū Sṭyrbyurn"
@@ -7364,11 +6486,11 @@
  Styrimad_arabic_pat_dad_male: "ibn Sṭiyrman"
  Styrimad_arabic_pat_dad_female: "bint Sṭiyrman"
 
- Styrkar_arabic: "Sṭyrqā"
- Styrkar_arabic_tek_mom: "ʾUmm Sṭyrqā"
- Styrkar_arabic_tek_dad: "ʾAbū Sṭyrqā"
- Styrkar_arabic_pat_dad_male: "ibn Sṭyrqā"
- Styrkar_arabic_pat_dad_female: "bint Sṭyrqā"
+ Styrkar_arabic: "Sṭyrqār"
+ Styrkar_arabic_tek_mom: "ʾUmm Sṭyrqār"
+ Styrkar_arabic_tek_dad: "ʾAbū Sṭyrqār"
+ Styrkar_arabic_pat_dad_male: "ibn Sṭyrqār"
+ Styrkar_arabic_pat_dad_female: "bint Sṭyrqār"
 
  Styrlak_arabic: "Sṭyrlaq"
  Styrlak_arabic_tek_mom: "ʾUmm Sṭyrlaq"
@@ -7448,11 +6570,11 @@
  Svartabrand_arabic_pat_dad_male: "ibn Swartabrand"
  Svartabrand_arabic_pat_dad_female: "bint Swartabrand"
 
- Svartgeir_arabic: "Swartjay"
- Svartgeir_arabic_tek_mom: "ʾUmm Swartjay"
- Svartgeir_arabic_tek_dad: "ʾAbū Swartjay"
- Svartgeir_arabic_pat_dad_male: "ibn Swartjay"
- Svartgeir_arabic_pat_dad_female: "bint Swartjay"
+ Svartgeir_arabic: "Swartjayr"
+ Svartgeir_arabic_tek_mom: "ʾUmm Swartjayr"
+ Svartgeir_arabic_tek_dad: "ʾAbū Swartjayr"
+ Svartgeir_arabic_pat_dad_male: "ibn Swartjayr"
+ Svartgeir_arabic_pat_dad_female: "bint Swartjayr"
 
  Svarthofdi_arabic: "Swarthāfḏ"
  Svarthofdi_arabic_tek_mom: "ʾUmm Swarthāfḏ"
@@ -7460,17 +6582,11 @@
  Svarthofdi_arabic_pat_dad_male: "ibn Swarthāfḏ"
  Svarthofdi_arabic_pat_dad_female: "bint Swarthāfḏ"
 
- Svartung_arabic: "Swartunġ"
- Svartung_arabic_tek_mom: "ʾUmm Swartunġ"
- Svartung_arabic_tek_dad: "ʾAbū Swartunġ"
- Svartung_arabic_pat_dad_male: "ibn Swartunġ"
- Svartung_arabic_pat_dad_female: "bint Swartunġ"
-
- Svavar_arabic: "Swāwa"
- Svavar_arabic_tek_mom: "ʾUmm Swāwa"
- Svavar_arabic_tek_dad: "ʾAbū Swāwa"
- Svavar_arabic_pat_dad_male: "ibn Swāwa"
- Svavar_arabic_pat_dad_female: "bint Swāwa"
+ Svavar_arabic: "Swāwar"
+ Svavar_arabic_tek_mom: "ʾUmm Swāwar"
+ Svavar_arabic_tek_dad: "ʾAbū Swāwar"
+ Svavar_arabic_pat_dad_male: "ibn Swāwar"
+ Svavar_arabic_pat_dad_female: "bint Swāwar"
 
  Svein_arabic: "Swayn"
  Svein_arabic_tek_mom: "ʾUmm Swayn"
@@ -7505,11 +6621,11 @@
  Sveinbjorn_arabic_pat_dad_male: "ibn Swaynbyurn"
  Sveinbjorn_arabic_pat_dad_female: "bint Swaynbyurn"
 
- Sveingeir_arabic: "Swaynjay"
- Sveingeir_arabic_tek_mom: "ʾUmm Swaynjay"
- Sveingeir_arabic_tek_dad: "ʾAbū Swaynjay"
- Sveingeir_arabic_pat_dad_male: "ibn Swaynjay"
- Sveingeir_arabic_pat_dad_female: "bint Swaynjay"
+ Sveingeir_arabic: "Swaynjayr"
+ Sveingeir_arabic_tek_mom: "ʾUmm Swaynjayr"
+ Sveingeir_arabic_tek_dad: "ʾAbū Swaynjayr"
+ Sveingeir_arabic_pat_dad_male: "ibn Swaynjayr"
+ Sveingeir_arabic_pat_dad_female: "bint Swaynjayr"
 
  Sveinung_arabic: "Swaynunġ"
  Sveinung_arabic_tek_mom: "ʾUmm Swaynunġ"
@@ -7727,11 +6843,11 @@
  Torgils_arabic_pat_dad_male: "ibn Ṯūrjīs"
  Torgils_arabic_pat_dad_female: "bint Ṯūrjīs"
 
- Thorvar_arabic: "Ṯūrwa"
- Thorvar_arabic_tek_mom: "ʾUmm Ṯūrwa"
- Thorvar_arabic_tek_dad: "ʾAbū Ṯūrwa"
- Thorvar_arabic_pat_dad_male: "ibn Ṯūrwa"
- Thorvar_arabic_pat_dad_female: "bint Ṯūrwa"
+ Thorvar_arabic: "Ṯūrwar"
+ Thorvar_arabic_tek_mom: "ʾUmm Ṯūrwar"
+ Thorvar_arabic_tek_dad: "ʾAbū Ṯūrwar"
+ Thorvar_arabic_pat_dad_male: "ibn Ṯūrwar"
+ Thorvar_arabic_pat_dad_female: "bint Ṯūrwar"
 
  Tyke_arabic: "Tiyq"
  Tyke_arabic_tek_mom: "ʾUmm Tiyq"
@@ -7763,12 +6879,6 @@
  Udh_arabic_pat_dad_male: "ibn Uḏ"
  Udh_arabic_pat_dad_female: "bint Uḏ"
 
- Uggi_arabic: "ʿUġ"
- Uggi_arabic_tek_mom: "ʾUmm Uġ"
- Uggi_arabic_tek_dad: "ʾAbū Uġ"
- Uggi_arabic_pat_dad_male: "ibn Uġ"
- Uggi_arabic_pat_dad_female: "bint Uġ"
-
  Ulf_arabic: "Ūlf"
  Ulf_arabic_tek_mom: "ʾUmm Ūlf"
  Ulf_arabic_tek_dad: "ʾAbū Ūlf"
@@ -7787,11 +6897,11 @@
  Ulfar_arabic_pat_dad_male: "ibn Ūlfar"
  Ulfar_arabic_pat_dad_female: "bint Ūlfar"
 
- Ulfgeir_arabic: "Ūlfjay"
- Ulfgeir_arabic_tek_mom: "ʾUmm Ūlfjay"
- Ulfgeir_arabic_tek_dad: "ʾAbū Ūlfjay"
- Ulfgeir_arabic_pat_dad_male: "ibn Ūlfjay"
- Ulfgeir_arabic_pat_dad_female: "bint Ūlfjay"
+ Ulfgeir_arabic: "Ūlfjayr"
+ Ulfgeir_arabic_tek_mom: "ʾUmm Ūlfjayr"
+ Ulfgeir_arabic_tek_dad: "ʾAbū Ūlfjayr"
+ Ulfgeir_arabic_pat_dad_male: "ibn Ūlfjayr"
+ Ulfgeir_arabic_pat_dad_female: "bint Ūlfjayr"
 
  Ulfhedin_arabic: "Ūlfḥiḏen"
  Ulfhedin_arabic_tek_mom: "ʾUmm Ūlfḥiḏen"
@@ -7847,12 +6957,6 @@
  Uni_arabic_pat_dad_male: "ibn Un"
  Uni_arabic_pat_dad_female: "bint Un"
 
- Unnketil_arabic: "ʿUnqaytil"
- Unnketil_arabic_tek_mom: "ʾUmm Unqaytil"
- Unnketil_arabic_tek_dad: "ʾAbū Unqaytil"
- Unnketil_arabic_pat_dad_male: "ibn Unqaytil"
- Unnketil_arabic_pat_dad_female: "bint Unqaytil"
-
  Unnar_arabic: "ʿUna"
  Unnar_arabic_tek_mom: "ʾUmm Una"
  Unnar_arabic_tek_dad: "ʾAbū Una"
@@ -7894,12 +6998,6 @@
  Vagn_arabic_tek_dad: "ʾAbū Waġn"
  Vagn_arabic_pat_dad_male: "ibn Waġn"
  Vagn_arabic_pat_dad_female: "bint Waġn"
-
- Vak_arabic: "Waq"
- Vak_arabic_tek_mom: "ʾUmm Waq"
- Vak_arabic_tek_dad: "ʾAbū Waq"
- Vak_arabic_pat_dad_male: "ibn Waq"
- Vak_arabic_pat_dad_female: "bint Waq"
 
  Valbjorn_arabic: "Walbyurn"
  Valbjorn_arabic_tek_mom: "ʾUmm Walbyurn"
@@ -7991,11 +7089,11 @@
  Varghos_arabic_pat_dad_male: "ibn Warġaz"
  Varghos_arabic_pat_dad_female: "bint Warġaz"
 
- Varr_arabic: "Wa"
- Varr_arabic_tek_mom: "ʾUmm Wa"
- Varr_arabic_tek_dad: "ʾAbū Wa"
- Varr_arabic_pat_dad_male: "ibn Wa"
- Varr_arabic_pat_dad_female: "bint Wa"
+ Varr_arabic: "war"
+ Varr_arabic_tek_mom: "ʾUmm war"
+ Varr_arabic_tek_dad: "ʾAbū war"
+ Varr_arabic_pat_dad_male: "ibn war"
+ Varr_arabic_pat_dad_female: "bint war"
 
  Vibjorn_arabic: "Wībyurn"
  Vibjorn_arabic_tek_mom: "ʾUmm Wībyurn"
@@ -8020,12 +7118,6 @@
  Vilbaldr_arabic_tek_dad: "ʾAbū Wilbald"
  Vilbaldr_arabic_pat_dad_male: "ibn Wilbald"
  Vilbaldr_arabic_pat_dad_female: "bint Wilbald"
-
- Ved_arabic: "Weḏ"
- Ved_arabic_tek_mom: "ʾUmm Weḏ"
- Ved_arabic_tek_dad: "ʾAbū Weḏ"
- Ved_arabic_pat_dad_male: "ibn Weḏ"
- Ved_arabic_pat_dad_female: "bint Weḏ"
 
  Vedraldi_arabic: "Weḏrald"
  Vedraldi_arabic_tek_mom: "ʾUmm Weḏrald"
@@ -8069,11 +7161,11 @@
  Vigaut_arabic_pat_dad_male: "ibn Wījūt"
  Vigaut_arabic_pat_dad_female: "bint Wījūt"
 
- Vigeir_arabic: "Wījay"
- Vigeir_arabic_tek_mom: "ʾUmm Wījay"
- Vigeir_arabic_tek_dad: "ʾAbū Wījay"
- Vigeir_arabic_pat_dad_male: "ibn Wījay"
- Vigeir_arabic_pat_dad_female: "bint Wījay"
+ Vigeir_arabic: "Wījayr"
+ Vigeir_arabic_tek_mom: "ʾUmm Wījayr"
+ Vigeir_arabic_tek_dad: "ʾAbū Wījayr"
+ Vigeir_arabic_pat_dad_male: "ibn Wījayr"
+ Vigeir_arabic_pat_dad_female: "bint Wījayr"
 
  Vigest_arabic: "Wīġest"
  Vigest_arabic_tek_mom: "ʾUmm Wīġest"
@@ -8147,11 +7239,11 @@
  Vistein_arabic_pat_dad_male: "ibn Wīsṭayn"
  Vistein_arabic_pat_dad_female: "bint Wīsṭayn"
 
- Vestgeir_arabic: "Westjay"
- Vestgeir_arabic_tek_mom: "ʾUmm Westjay"
- Vestgeir_arabic_tek_dad: "ʾAbū Westjay"
- Vestgeir_arabic_pat_dad_male: "ibn Westjay"
- Vestgeir_arabic_pat_dad_female: "bint Westjay"
+ Vestgeir_arabic: "Westjayr"
+ Vestgeir_arabic_tek_mom: "ʾUmm Westjayr"
+ Vestgeir_arabic_tek_dad: "ʾAbū Westjayr"
+ Vestgeir_arabic_pat_dad_male: "ibn Westjayr"
+ Vestgeir_arabic_pat_dad_female: "bint Westjayr"
 
  Vestlidi_arabic: "Westliḏ"
  Vestlidi_arabic_tek_mom: "ʾUmm Westliḏ"
@@ -8248,12 +7340,6 @@
  Vidhugsi_arabic_tek_dad: "ʾAbū Wīḏhuġs"
  Vidhugsi_arabic_pat_dad_male: "ibn Wīḏhuġs"
  Vidhugsi_arabic_pat_dad_female: "bint Wīḏhuġs"
-
- Vifil_arabic: "Wīfil"
- Vifil_arabic_tek_mom: "ʾUmm Wīfil"
- Vifil_arabic_tek_dad: "ʾAbū Wīfil"
- Vifil_arabic_pat_dad_male: "ibn Wīfil"
- Vifil_arabic_pat_dad_female: "bint Wīfil"
 
  Vidi_arabic: "Wīḏ"
  Vidi_arabic_tek_mom: "ʾUmm Wīḏ"
@@ -8405,23 +7491,11 @@
  Vott_arabic_pat_dad_male: "ibn Wat"
  Vott_arabic_pat_dad_female: "bint Wat"
 
- Vragi_arabic: "Wraġ"
- Vragi_arabic_tek_mom: "ʾUmm Wraġ"
- Vragi_arabic_tek_dad: "ʾAbū Wraġ"
- Vragi_arabic_pat_dad_male: "ibn Wraġ"
- Vragi_arabic_pat_dad_female: "bint Wraġ"
-
  Vrai_arabic: "Wrā"
  Vrai_arabic_tek_mom: "ʾUmm Wrā"
  Vrai_arabic_tek_dad: "ʾAbū Wrā"
  Vrai_arabic_pat_dad_male: "ibn Wrā"
  Vrai_arabic_pat_dad_female: "bint Wrā"
-
- Vrangi_arabic: "Wranġ"
- Vrangi_arabic_tek_mom: "ʾUmm Wranġ"
- Vrangi_arabic_tek_dad: "ʾAbū Wranġ"
- Vrangi_arabic_pat_dad_male: "ibn Wranġ"
- Vrangi_arabic_pat_dad_female: "bint Wranġ"
 
  Vreid_arabic: "Wrayḏ"
  Vreid_arabic_tek_mom: "ʾUmm Wrayḏ"
@@ -8435,11 +7509,11 @@
  Vreist_arabic_pat_dad_male: "ibn Wrayst"
  Vreist_arabic_pat_dad_female: "bint Wrayst"
 
- Yngvar_arabic: "Ynġwa"
- Yngvar_arabic_tek_mom: "ʾUmm Yngwa"
- Yngvar_arabic_tek_dad: "ʾAbū Yngwa"
- Yngvar_arabic_pat_dad_male: "ibn Yngwa"
- Yngvar_arabic_pat_dad_female: "bint Yngwa"
+ Yngvar_arabic: "Ynġwar"
+ Yngvar_arabic_tek_mom: "ʾUmm Yngwar"
+ Yngvar_arabic_tek_dad: "ʾAbū Yngwar"
+ Yngvar_arabic_pat_dad_male: "ibn Yngwar"
+ Yngvar_arabic_pat_dad_female: "bint Yngwar"
 
  Thangbrand_arabic: "Ṯanġbrand"
  Thangbrand_arabic_tek_mom: "ʾUmm Ṯanġbrand"
@@ -8482,11 +7556,11 @@
  Thjodar_arabic_pat_dad_male: "ibn Ṯyūḏa"
  Thjodar_arabic_pat_dad_female: "bint Ṯyūḏa"
 
- Thjodgeir_arabic: "Ṯyūḏjay"
- Thjodgeir_arabic_tek_mom: "ʾUmm Ṯyūḏjay"
- Thjodgeir_arabic_tek_dad: "ʾAbū Ṯyūḏjay"
- Thjodgeir_arabic_pat_dad_male: "ibn Ṯyūḏjay"
- Thjodgeir_arabic_pat_dad_female: "bint Ṯyūḏjay"
+ Thjodgeir_arabic: "Ṯyūḏjayr"
+ Thjodgeir_arabic_tek_mom: "ʾUmm Ṯyūḏjayr"
+ Thjodgeir_arabic_tek_dad: "ʾAbū Ṯyūḏjayr"
+ Thjodgeir_arabic_pat_dad_male: "ibn Ṯyūḏjayr"
+ Thjodgeir_arabic_pat_dad_female: "bint Ṯyūḏjayr"
 
  Thjodmar_arabic: "Ṯyūḏma"
  Thjodmar_arabic_tek_mom: "ʾUmm Ṯyūḏma"
@@ -8594,12 +7668,12 @@
  Thrugot_arabic_pat_dad_male: "ibn Ṯūrjūt"
  Thrugot_arabic_pat_dad_female: "bint Ṯūrjūt"
 
- Thorgeir_arabic: "Ṯūrjay"
- Thorgeir_arabic_tek_mom: "ʾUmm Ṯūrjay"
- Thorgeir_arabic_tek_dad: "ʾAbū Ṯūrjay"
- Thorgeir_arabic_pat_dad_male: "ibn Ṯūrjay"
- Thorgeir_arabic_pat_dad_female: "bint Ṯūrjay"
- Torgeir_arabic: "Ṯūrjay"
+ Thorgeir_arabic: "Ṯūrjayr"
+ Thorgeir_arabic_tek_mom: "ʾUmm Ṯūrjayr"
+ Thorgeir_arabic_tek_dad: "ʾAbū Ṯūrjayr"
+ Thorgeir_arabic_pat_dad_male: "ibn Ṯūrjayr"
+ Thorgeir_arabic_pat_dad_female: "bint Ṯūrjayr"
+ Torgeir_arabic: "Ṯūrjayr"
  Torgeir_arabic_tek_mom: "ʾUmm Þūrgayrsfaḏi"
  Torgeir_arabic_tek_dad: "ʾAbū Þūrgayrsmūḏi"
  Torgeir_arabic_pat_dad_male: "ibn Þūrgayrsson"
@@ -9018,14 +8092,6 @@
  Audhild_arabic_tek_mom: "ʾUmm Awḏḥild"
  Audhild_arabic_tek_dad: "ʾAbū Awḏḥild"
 
- Auga_arabic: "Awġa"
- Auga_arabic_tek_mom: "ʾUmm Awga"
- Auga_arabic_tek_dad: "ʾAbū Awga"
-
- Athmiul_arabic: "Aṯmiwl" #Celtic
- Athmiul_arabic_tek_mom: "ʾUmm Aṯmiwl"
- Athmiul_arabic_tek_dad: "ʾAbū Aṯmiwl"
-
  Baugheid_arabic: "Bawġḥayḏ"
  Baugheid_arabic_tek_mom: "ʾUmm Bawġḥayḏ"
  Baugheid_arabic_tek_dad: "ʾAbū Bawġḥayḏ"
@@ -9065,10 +8131,6 @@
  Bjargey_arabic: "Byarġiyya"
  Bjargey_arabic_tek_mom: "ʾUmm Byarġiyya"
  Bjargey_arabic_tek_dad: "ʾAbū Byarġiyya"
-
- Bjollok_arabic: "Byolloq" #celtic
- Bjollok_arabic_tek_mom: "ʾUmm Byolloq"
- Bjollok_arabic_tek_dad: "ʾAbū Byolloq"
 
  Bjorg_arabic: "Byarġ"
  Bjorg_arabic_tek_mom: "ʾUmm Byarġ"
@@ -9113,10 +8175,6 @@
  Botvi_arabic: "Būtwī"
  Botvi_arabic_tek_mom: "ʾUmm Būtwī"
  Botvi_arabic_tek_dad: "ʾAbū Būtwī"
-
- Brigida_arabic: "Brījiḏa" #Celtic
- Brigida_arabic_tek_mom: "ʾUmm Brījiḏa"
- Brigida_arabic_tek_dad: "ʾAbū Brījiḏa"
 
  Bryngerd_arabic: "Brynġayrḏ"
  Bryngerd_arabic_tek_mom: "ʾUmm Brynġayrḏ"
@@ -9166,10 +8224,6 @@
  Dora_arabic_tek_mom: "ʾUmm Dūra"
  Dora_arabic_tek_dad: "ʾAbū Dūra"
 
- Dota_arabic: "Dūta"
- Dota_arabic_tek_mom: "ʾUmm Dūta"
- Dota_arabic_tek_dad: "ʾAbū Dūta"
-
  Drifa_arabic: "Drīfa"
  Drifa_arabic_tek_mom: "ʾUmm Drīfa"
  Drifa_arabic_tek_dad: "ʾAbū Drīfa"
@@ -9197,10 +8251,6 @@
  Edla_arabic: "Eḏla"
  Edla_arabic_tek_mom: "ʾUmm Eḏla"
  Edla_arabic_tek_dad: "ʾAbū Eḏla"
-
- Edna_arabic: "Eḏna" #Celtic
- Edna_arabic_tek_mom: "ʾUmm Eḏna"
- Edna_arabic_tek_dad: "ʾAbū Eḏna"
 
  Edny_arabic: "Eḏniyya"
  Edny_arabic_tek_mom: "ʾUmm Eḏniyya"
@@ -9361,10 +8411,6 @@
  Fridgerd_arabic: "Friḏġayrḏ"
  Fridgerd_arabic_tek_mom: "ʾUmm Friḏġayrḏ"
  Fridgerd_arabic_tek_dad: "ʾAbū Friḏġayrḏ"
-
- Frosthild_arabic: "Frostḥild" #AS
- Frosthild_arabic_tek_mom: "ʾUmm Frostḥild"
- Frosthild_arabic_tek_dad: "ʾAbū Frostḥild"
 
  Gauthild_arabic: "Ġawtḥild"
  Gauthild_arabic_tek_mom: "ʾUmm Gawtḥild"
@@ -9530,12 +8576,6 @@
  Gunnaelf_arabic: "Ġunaylf"
  Gunnaelf_arabic_tek_mom: "ʾUmm Ġunaylf"
  Gunnaelf_arabic_tek_dad: "ʾAbū Ġunaylf"
-
- #Gunnfrid_arabic: "Ġunfrīḏ"
-
- Gunngifu_arabic: "Ġunġifa" #AS
- Gunngifu_arabic_tek_mom: "ʾUmm Ġunġifa"
- Gunngifu_arabic_tek_dad: "ʾAbū Ġunġifa"
 
  Gunnheid_arabic: "Ġunḥayḏ"
  Gunnheid_arabic_tek_mom: "ʾUmm Ġunḥayḏ"
@@ -9742,10 +8782,6 @@
  Hjalmlaug_arabic_tek_mom: "ʾUmm Ḥyalmlawġ"
  Hjalmlaug_arabic_tek_dad: "ʾAbū Ḥyalmlawġ"
 
- Hjalp_arabic: "Hyalb"
- Hjalp_arabic_tek_mom: "ʾUmm Hyalb"
- Hjalp_arabic_tek_dad: "ʾAbū Hyalb"
-
  Hjordis_arabic: "Hyardīs"
  Hjordis_arabic_tek_mom: "ʾUmm Hyardīs"
  Hjordis_arabic_tek_dad: "ʾAbū Hyardīs"
@@ -9846,10 +8882,6 @@
  Hungerd_arabic_tek_mom: "ʾUmm Hūnġayrḏ"
  Hungerd_arabic_tek_dad: "ʾAbū Hūnġayrḏ"
 
- Hunhild_arabic: "Hūnḥild" #AS
- Hunhild_arabic_tek_mom: "ʾUmm Hūnḥild"
- Hunhild_arabic_tek_dad: "ʾAbū Hūnḥild"
-
  Idun_arabic: "Iḏunn"
  Idun_arabic_tek_mom: "ʾUmm Iḏunn"
  Idun_arabic_tek_dad: "ʾAbū Iḏunn"
@@ -9936,10 +8968,6 @@
  Isibel_arabic_tek_mom: "ʾUmm Isebel"
  Isibel_arabic_tek_dad: "ʾAbū Isebel"
 
- Isond_arabic: "Īsond" #Celtic
- Isond_arabic_tek_mom: "ʾUmm Īsond"
- Isond_arabic_tek_dad: "ʾAbū Īsond"
-
  Jardrud_arabic: "Yarḏrūḏ"
  Jardrud_arabic_tek_mom: "ʾUmm Yarḏrūḏ"
  Jardrud_arabic_tek_dad: "ʾAbū Yarḏrūḏ"
@@ -9996,10 +9024,6 @@
  Jutta_arabic_tek_mom: "ʾUmm Yutta"
  Jutta_arabic_tek_dad: "ʾAbū Yutta"
 
- Kadlin_arabic: "Ḵaḏlīn" #Celtic
- Kadlin_arabic_tek_mom: "ʾUmm Ḵaḏlīn"
- Kadlin_arabic_tek_dad: "ʾAbū Ḵaḏlīn"
-
  Kara_arabic: "Qāra"
  Kara_arabic_tek_mom: "ʾUmm Qāra"
  Kara_arabic_tek_dad: "ʾAbū Qāra"
@@ -10055,14 +9079,6 @@
  Kolgrima_arabic: "Qulġrīma"
  Kolgrima_arabic_tek_mom: "ʾUmm Qulġrīma"
  Kolgrima_arabic_tek_dad: "ʾAbū Qulġrīma"
-
- Kolla_arabic: "Qulla"
- Kolla_arabic_tek_mom: "ʾUmm Qulla"
- Kolla_arabic_tek_dad: "ʾAbū Qulla"
-
- Kormlod_arabic: "Kormlaḏ" #Celtic
- Kormlod_arabic_tek_mom: "ʾUmm Kormlǫḏarmūḏi"
- Kormlod_arabic_tek_dad: "ʾAbū Kormlǫḏarfaḏi"
 
  Krafla_arabic: "Ḵrafla"
  Krafla_arabic_tek_mom: "ʾUmm Ḵrafla"
@@ -10146,17 +9162,9 @@
  Malfrid_arabic_tek_mom: "ʾUmm Mālfrīḏ"
  Malfrid_arabic_tek_dad: "ʾAbū Mālfrīḏ"
 
- Mallymkun_arabic: "Mallymḵun" #Celtic
- Mallymkun_arabic_tek_mom: "ʾUmm Mallymḵun"
- Mallymkun_arabic_tek_dad: "ʾAbū Mallymḵun"
-
  Malmfrid_arabic: "Mālmfrīḏ"
  Malmfrid_arabic_tek_mom: "ʾUmm Mālmfrīḏ"
  Malmfrid_arabic_tek_dad: "ʾAbū Mālmfrīḏ"
-
- Malmury_arabic: "Malmaryam" #Celtic Christian
- Malmury_arabic_tek_mom: "ʾUmm Malmaryam"
- Malmury_arabic_tek_dad: "ʾAbū Malmaryam"
 
  Marthol_arabic: "Marṯol"
  Marthol_arabic_tek_mom: "ʾUmm Marṯol"
@@ -10180,13 +9188,9 @@
  Matthild_arabic_tek_mom: "ʾUmm Mattḥild"
  Matthild_arabic_tek_dad: "ʾAbū Mattḥild"
 
- Maeva_arabic: "Maywa"
- Maeva_arabic_tek_mom: "ʾUmm Maywa"
- Maeva_arabic_tek_dad: "ʾAbū Maywa"
-
- Melkorka_arabic: "Melḵorḵa" #Celtic
- Melkorka_arabic_tek_mom: "ʾUmm Melḵorḵa"
- Melkorka_arabic_tek_dad: "ʾAbū Melḵorḵa"
+ Maeva_arabic: "Maywar"
+ Maeva_arabic_tek_mom: "ʾUmm Maywar"
+ Maeva_arabic_tek_dad: "ʾAbū Maywar"
 
  Mjadveig_arabic: "Myaḏwayj"
  Mjadveig_arabic_tek_mom: "ʾUmm Myaḏwayj"
@@ -10215,14 +9219,6 @@
  Mundgerd_arabic: "Mundġayrḏ"
  Mundgerd_arabic_tek_mom: "ʾUmm Mundġayrḏ"
  Mundgerd_arabic_tek_dad: "ʾAbū Mundġayrḏ"
-
- Myrgjol_arabic: "Myrġyol" #Celtic
- Myrgjol_arabic_tek_mom: "ʾUmm Myrġyol"
- Myrgjol_arabic_tek_dad: "ʾAbū Myrġyol"
-
- Myrun_arabic: "Miyrūn" #Celtic
- Myrun_arabic_tek_mom: "ʾUmm Miyrūn"
- Myrun_arabic_tek_dad: "ʾAbū Miyrūn"
 
  Nauma_arabic: "Nawma"
  Nauma_arabic_tek_mom: "ʾUmm Nawma"
@@ -10292,21 +9288,9 @@
  Osk_arabic_tek_mom: "ʾUmm ʿUsq"
  Osk_arabic_tek_dad: "ʾAbū ʿUsq"
 
- Otama_arabic: "ʿUtama"
- Otama_arabic_tek_mom: "ʾUmm ʿUtama"
- Otama_arabic_tek_dad: "ʾAbū ʿUtama"
-
  Otkatla_arabic: "ʿUtqatla"
  Otkatla_arabic_tek_mom: "ʾUmm ʿUtqatla"
  Otkatla_arabic_tek_dad: "ʾAbū ʿUtqatla"
-
- Radhild_arabic: "Rāḏḥild" #AS
- Radhild_arabic_tek_mom: "ʾUmm Rāḏḥild"
- Radhild_arabic_tek_dad: "ʾAbū Rāḏḥild"
-
- Rafarta_arabic: "Rafarta" #Celtic
- Rafarta_arabic_tek_mom: "ʾUmm Rafarta"
- Rafarta_arabic_tek_dad: "ʾAbū Rafarta"
 
  Rafnhild_arabic: "Ḥrafnḥild"
  Rafnhild_arabic_tek_mom: "ʾUmm Ḥrafnḥild"
@@ -10368,10 +9352,6 @@
  Reginleif_arabic_tek_mom: "ʾUmm Rajinlyf"
  Reginleif_arabic_tek_dad: "ʾAbū Rajinlyf"
 
- Rikulata_arabic: "Rīqulāta"
- Rikulata_arabic_tek_mom: "ʾUmm Rīqulāta"
- Rikulata_arabic_tek_dad: "ʾAbū Rīqulāta"
-
  Rikvi_arabic: "Rīqwī"
  Rikvi_arabic_tek_mom: "ʾUmm Rīqwī"
  Rikvi_arabic_tek_dad: "ʾAbū Rīqwī"
@@ -10427,10 +9407,6 @@
  Sesilida_arabic: "Sesilīda" #Christian
  Sesilida_arabic_tek_mom: "ʾUmm Sesilīda"
  Sesilida_arabic_tek_dad: "ʾAbū Sesilīda"
-
- Sida_arabic: "Sīḏa"
- Sida_arabic_tek_mom: "ʾUmm Sīḏa"
- Sida_arabic_tek_dad: "ʾAbū Sīḏa"
 
  Sigbjorg_arabic: "Sijbyarġ"
  Sigbjorg_arabic_tek_mom: "ʾUmm Sijbyarġ"
@@ -10490,10 +9466,6 @@
  Skirlaug_arabic_tek_mom: "ʾUmm Skīrlawġ"
  Skirlaug_arabic_tek_dad: "ʾAbū Skīrlawġ"
 
- Skjaldfrid_arabic: "Skyaldfrīḏ" #AS
- Skjaldfrid_arabic_tek_mom: "ʾUmm Skyaldfrīḏ"
- Skjaldfrid_arabic_tek_dad: "ʾAbū Skyaldfrīḏ"
-
  Snaelaug_arabic: "Snaylawġ"
  Snaelaug_arabic_tek_mom: "ʾUmm Snaylawġ"
  Snaelaug_arabic_tek_dad: "ʾAbū Snaylawġ"
@@ -10502,9 +9474,9 @@
  Snotra_arabic_tek_mom: "ʾUmm Snotra"
  Snotra_arabic_tek_dad: "ʾAbū Snotra"
 
- Solva_arabic: "Salwa"
- Solva_arabic_tek_mom: "ʾUmm Salwa"
- Solva_arabic_tek_dad: "ʾAbū Salwa"
+ Solva_arabic: "Salwar"
+ Solva_arabic_tek_mom: "ʾUmm Salwar"
+ Solva_arabic_tek_dad: "ʾAbū Salwar"
 
  Solveig_arabic: "Salwayj"
  Solveig_arabic_tek_mom: "ʾUmm Salwayj"
@@ -10525,10 +9497,6 @@
  Spana_arabic: "Sbana"
  Spana_arabic_tek_mom: "ʾUmm Sbana"
  Spana_arabic_tek_dad: "ʾAbū Sbana"
-
- Stafnhild_arabic: "Stafnḥild" #AS
- Stafnhild_arabic_tek_mom: "ʾUmm Stafnḥild"
- Stafnhild_arabic_tek_dad: "ʾAbū Stafnḥild"
 
  Steina_arabic: "Stayna"
  Steina_arabic_tek_mom: "ʾUmm Stayna"

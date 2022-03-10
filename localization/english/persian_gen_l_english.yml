@@ -38,6 +38,9 @@
  CTP_UI_Name_Possessive_Persian: "#ONCLICK:CHARACTER,[ROOT.Char.GetID] #TOOLTIP:CHARACTER,[ROOT.Char.GetID] #high #L [ROOT.Char.Custom('CTPNameCheck')][ROOT.Char.Custom('CTPTierGenAfter')][ROOT.Char.Custom('CharacterPat')]'s#!#!#!#!"
  CTP_UI_Name_Possessive_No_Tooltip_Persian: "#high [ROOT.Char.Custom('CTPNameCheck')][ROOT.Char.Custom('CTPTierGenAfter')][ROOT.Char.Custom('CharacterPat')]'s#!"
 
+ CTP_SNAT_First_Persian: "#high [ROOT.Char.Custom('CTPNameCheck')][ROOT.Char.Custom('NickCheck')]#!"
+ CTP_SNAT_First_Last_Persian: "#high [ROOT.Char.Custom('CTPNameCheck')][ROOT.Char.Custom('NickCheck')][ROOT.Char.Custom('CharacterPat')]#!"
+
  CTP_Short_event_Persian: "[ROOT.Char.Custom('CTPNameCheck')][ROOT.Char.Custom('CTPTierGenAfter')]"
 
  CTPPatPrefix_persian_male: "ī "

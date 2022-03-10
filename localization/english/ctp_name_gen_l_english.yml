@@ -21,7 +21,7 @@
  CTP_Full_Name_Default: "[ROOT.Char.GetUINameNotMeNoTooltip]"
 
  CTP_First_Name_Default: "[ROOT.Char.GetFirstName]"
- CTP_First_Name_Nick_Default: "[ROOT.Char.GetFirstName]"
+ CTP_First_Name_Nick_Default: "[ROOT.Char.GetFirstNameNicknamed]"
  CTP_First_Name_Default_no_tooltip: "[ROOT.Char.GetFirstNameNoTooltip]"
  CTP_First_Name_Or_Me_Default: "[ROOT.Char.GetFirstNameOrMe]"
  CTP_First_Name_Default_possessive: "[ROOT.Char.GetFirstNamePossessive]"
@@ -115,9 +115,14 @@
  ctp_space_kunya: " "
 
 #Get Name
- scripted_gui_get_name: "[CHARACTER.Custom('CTPNameCheck')][CHARACTER.Custom('CharacterPat')]"
+ scripted_gui_get_name: "[CHARACTER.Custom('CTPNameCheck')]"
  scripted_gui_grab_name_widget_done: "[CHARACTER.GetFirstNameBase]"
  scripted_gui_grab_name_widget_no_support_done: "[Localize(CHARACTER.GetFirstNameBase)]"
+
+#SNAT
+ CTP_SNAT_first: "[ROOT.Char.GetFirstNameNicknamedNoTooltipRegnal]"
+ CTP_SNAT_first_last: "[ROOT.Char.GetFirstNameNicknamedNoTooltipRegnal] [ROOT.Char.GetDynastyHouseNameNoTooltip]"
+ CTP_SNAT_first_last_nick: "[ROOT.Char.GetFirstNameNoTooltipRegnal] '[ROOT.Char.GetNickname]' [ROOT.Char.GetDynastyHouseNameNoTooltip]"
 
 #Arab Laqabs
  scripted_gui_laqab_strengthened_god: "al-Muʿtazz bi-ʾllāh "
