@@ -622,3 +622,65 @@ CTPTitledFirstNameRegnal = {
 		localization_key = CTP_Titled_first_Name_Default_regnal
 	}
 }
+CTPSNATFirst = {
+    type = character
+	text = {
+		trigger = {
+			arabic_check = yes
+		}
+		localization_key = CTP_SNAT_First_Arabic
+	}
+    text = {
+		trigger = {
+			persian_standard_check = yes
+		}
+		localization_key = CTP_SNAT_First_Persian
+    }
+	text = {
+		trigger = {
+			culture = {
+                is_cnp_supported_culture = yes
+                has_cultural_pillar = language_norse
+            }
+		}
+		localization_key = CTP_SNAT_First_North
+	}
+	text = {
+		fallback = yes
+		localization_key = CTP_SNAT_first
+	}
+}
+CTPSNATFirstLast = {
+    type = character
+	text = {
+		trigger = {
+			arabic_check = yes
+		}
+		localization_key = CTP_SNAT_First_Last_Arabic
+	}
+    text = {
+		trigger = {
+			persian_standard_check = yes
+		}
+		localization_key = CTP_SNAT_First_Last_Persian
+    }
+	text = {
+		trigger = {
+			culture = {
+                is_cnp_supported_culture = yes
+                has_cultural_pillar = language_norse
+            }
+		}
+		localization_key = CTP_SNAT_First_Last_North
+	}
+	text = {
+		trigger = {
+			has_any_nickname = yes
+		}
+		localization_key = CTP_SNAT_first_last_nick
+	}
+	text = {
+		fallback = yes
+		localization_key = CTP_SNAT_first_last
+	}
+}

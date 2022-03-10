@@ -293,7 +293,7 @@ CharacterTier = {
         trigger = {
             highest_held_title_tier = tier_empire
         }
-        localization_key = Emperor
+        localization_key = EmperorA
     }
     text = {
         trigger = {
@@ -369,7 +369,7 @@ CharacterTier = {
                 }
             }
         }
-        localization_key = Emperor_consort
+        localization_key = EmperorA_consort
     }
     text = {
         trigger = {
@@ -451,7 +451,7 @@ CharacterTier = {
                 }
             }
         }
-        localization_key = Emperor_prince
+        localization_key = EmperorA_prince
     }
     text = {
         trigger = {
@@ -461,7 +461,7 @@ CharacterTier = {
                 highest_held_title_tier = tier_empire
             }
         }
-        localization_key = Emperor_chaplain
+        localization_key = EmperorA_chaplain
     }
     text = {
         trigger = {

@@ -1,4 +1,4 @@
-namespace = norsenamepack
+﻿namespace = norsenamepack
 norsenamepack.001 = {
 	type = character_event
 	theme = family
@@ -11,7 +11,9 @@ norsenamepack.001 = {
 			random_courtier = {
 				limit = {
 					is_adult = yes
-					has_cultural_pillar = language_norse
+					culture = {
+						has_cultural_pillar = language_norse
+					}
 				}
 				save_scope_as = nick_giver
 			}
