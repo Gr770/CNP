@@ -263,6 +263,12 @@
  Ata_arabic_pat_dad_male: "ibn ʿAṭā"
  Ata_arabic_pat_dad_female: "bint ʿAṭā"
 
+ Awar_arabic: "al-Aʿwar"
+ Awar_arabic_tek_mom: "ʾUmm al-Aʿwar"
+ Awar_arabic_tek_dad: "ʾAbū l-Aʿwar"
+ Awar_arabic_pat_dad_male: "ibn al-Aʿwar"
+ Awar_arabic_pat_dad_female: "bint al-Aʿwar"
+
  Awn_arabic: "ʿAwn"
  Awn_arabic_tek_mom: "ʾUmm ʿAwn"
  Awn_arabic_tek_dad: "ʾAbū ʿAwn"
@@ -1349,6 +1355,12 @@
  Mamar_arabic_pat_dad_male: "ibn Maʿmar"
  Mamar_arabic_pat_dad_female: "bint Maʿmar"
 
+ Mani_arabic: "Manīʿ"
+ Mani_arabic_tek_mom: "ʾUmm Manīʿ"
+ Mani_arabic_tek_dad: "ʾAbū Manīʿ"
+ Mani_arabic_pat_dad_male: "ibn Manīʿ"
+ Mani_arabic_pat_dad_female: "bint Manīʿ"
+
  Mansur_arabic: "Manṣūr"
  Mansur_arabic_tek_mom: "ʾUmm Manṣūr"
  Mansur_arabic_tek_dad: "ʾAbū Manṣūr"
@@ -1896,6 +1908,12 @@
  Ridwan_arabic_pat_dad_male: "ibn Riḍwān"
  Ridwan_arabic_pat_dad_female: "bint Riḍwān"
 
+ Rifaa_arabic: "Rifāʿa"
+ Rifaa_arabic_tek_mom: "ʾUmm Rifāʿa"
+ Rifaa_arabic_tek_dad: "ʾAbū Rifāʿa"
+ Rifaa_arabic_pat_dad_male: "ibn Rifāʿa"
+ Rifaa_arabic_pat_dad_female: "bint Rifāʿa"
+
  Ramiro_arabic: "Ruḏmīr"
  Ramiro_arabic_tek_mom: "ʾUmm Ruḏmīr"
  Ramiro_arabic_tek_dad: "ʾAbū Ruḏmīr"
@@ -1940,6 +1958,12 @@
  Sad_arabic_tek_dad: "ʾAbū Saʿd"
  Sad_arabic_pat_dad_male: "ibn Saʿd"
  Sad_arabic_pat_dad_female: "bint Saʿd"
+
+ Sadi_arabic: "Saʿdī"
+ Sadi_arabic_tek_mom: "ʾUmm Saʿdī"
+ Sadi_arabic_tek_dad: "ʾAbū Saʿdī"
+ Sadi_arabic_pat_dad_male: "ibn Saʿdī"
+ Sadi_arabic_pat_dad_female: "bint Saʿdī"
 
  Sadiq_arabic: "Ṣadīq"
  Sadiq_arabic_tek_mom: "ʾUmm Ṣadīq"
@@ -2354,6 +2378,12 @@
  Wasim_arabic_pat_dad_male: "ibn Wasīm"
  Wasim_arabic_pat_dad_female: "bint Wasīm"
 
+ Waththab_arabic: "Waṯṯāb"
+ Waththab_arabic_tek_mom: "ʾUmm Waṯṯāb"
+ Waththab_arabic_tek_dad: "ʾAbū Waṯṯāb"
+ Waththab_arabic_pat_dad_male: "ibn Waṯṯāb"
+ Waththab_arabic_pat_dad_female: "bint Waṯṯāb"
+
  John_arabic: "Yaḥyā"
  John_arabic_tek_mom: "ʾUmm Yaḥyā"
  John_arabic_tek_dad: "ʾAbū Yaḥyā"
@@ -2409,6 +2439,12 @@
  Yazid_arabic_tek_dad: "ʾAbū Yazīd"
  Yazid_arabic_pat_dad_male: "ibn Yazīd"
  Yazid_arabic_pat_dad_female: "bint Yazīd"
+
+ Yufir_arabic: "Yuʿfir"
+ Yufir_arabic_tek_mom: "ʾUmm Yuʿfir"
+ Yufir_arabic_tek_dad: "ʾAbū Yuʿfir"
+ Yufir_arabic_pat_dad_male: "ibn Yuʿfir"
+ Yufir_arabic_pat_dad_female: "bint Yuʿfir"
 
  Jonas_arabic: "Yūnus"
  Jonas_arabic_tek_mom: "ʾUmm Yūnus"

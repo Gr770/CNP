@@ -85,6 +85,10 @@
         add_to_variable_list = { name = dynasty_list_ctp_sons target = character:166995 }
         add_to_variable_list = { name = dynasty_list_ctp_sons target = character:20703 }
     }
+    character:20703 = {
+        change_first_name = Kaykawus
+        add_to_global_variable_list = { name = laqab_unsur_mali target = this }
+    }
     dynasty:1029026 = {
         add_to_variable_list = { name = name_pack_support_dynasty target = character:41607 }
     }
@@ -274,10 +278,6 @@
         add_to_variable_list = { name = dynasty_list_ctp_sons target = character:159151 }
         add_to_variable_list = { name = dynasty_list_ctp_sons target = character:159150 }
         add_to_variable_list = { name = dynasty_list_ctp_sons target = character:159149 }
-    }
-    character:93419 = {
-        change_first_name = Kaykawus
-        add_to_global_variable_list = { name = laqab_unsur_mali target = this }
     }
     character:93419 = {
         change_first_name = Mansur
@@ -781,6 +781,20 @@
     }
     dynasty:1101801 = { #Jahnashahids
         add_to_variable_list = { name = name_pack_support_dynasty target = character:1230301 }
+    }
+    dynasty:7513 = {
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:41605 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:180755 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:180757 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:180758 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:180752 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:180750 }
+    }
+    character:180758 = {
+        change_first_name = Khusraw-Peroz
+    }
+    character:41605 = {
+        change_first_name = Wehsudan
     }
     character:45106 = {
         change_first_name = Farrukhzad

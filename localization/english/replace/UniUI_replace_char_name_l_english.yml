@@ -48,3 +48,7 @@ HiredTroopUniUIGetUIName: "[HiredTroop.GetTitle.GetHolder.Custom('CTPName')]"
 #War
 WarParticipantItemUniUIGetName: "[WarParticipantItem.GetCharacter.Custom('CTPRegName')]"
 WarOverviewWindowItemUniUIGetBeneficiaryName: "[WarOverviewWindow.GetBeneficiaryName]"
+
+#realm
+
+MyRealmPlayerHeirGetUINameNoTooltip: "[MyRealmWindow.GetCharacter.GetPlayerHeir.Custom('CTPNameNoTooltip')]"

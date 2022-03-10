@@ -2201,6 +2201,12 @@
  Frirek_norse_pat_dad_male: "Fríreksson"
  Frirek_norse_pat_dad_female: "Fríreksdóttir"
  
+ Frodi_norse: "Fróði"
+ Frodi_norse_tek_mom: "Fróðamóðir"
+ Frodi_norse_tek_dad: "Fróðafaðir"
+ Frodi_norse_pat_dad_male: "Fróðason"
+ Frodi_norse_pat_dad_female: "Fróðadóttir"
+ 
  Frokn_norse: "Frøkn"
  Frokn_norse_tek_mom: "Frøksmóðir"
  Frokn_norse_tek_dad: "Frøksfaðir"
@@ -4258,8 +4264,8 @@
  Ingimund_norse_pat_dad_female: "Ingimundardóttir"
  
  Ingjald_norse: "Ingialdr"
- Ingiald_norse_tek_mom: "Ingialdsmóðir"
- Ingiald_norse_tek_dad: "Ingialdsfaðir"
+ Ingjald_norse_tek_mom: "Ingialdsmóðir"
+ Ingjald_norse_tek_dad: "Ingialdsfaðir"
  Ingjald_norse_pat_dad_male: "Ingialdsson"
  Ingjald_norse_pat_dad_female: "Ingialdsdóttir"
  
@@ -4500,6 +4506,12 @@
  Josur_norse_tek_dad: "Iosursfaðir"
  Josur_norse_pat_dad_male: "Iosursson"
  Josur_norse_pat_dad_female: "Iosursdóttir"
+ 
+ Karl_norse: "Karl"
+ Karl_norse_tek_mom: "Karlsmóðir"
+ Karl_norse_tek_dad: "Karlsfaðir"
+ Karl_norse_pat_dad_male: "Karlsson"
+ Karl_norse_pat_dad_female: "Karlsdóttir"
  
  Ketilbjorn_norse: "Kętilbiǫrn"
  Ketilbjorn_norse_tek_mom: "Kętilbiarnarmóðir"
@@ -4877,6 +4889,12 @@
  Lodhott_norse_tek_dad: "Loðhottsfaðir"
  Lodhott_norse_pat_dad_male: "Loðhottsson"
  Lodhott_norse_pat_dad_female: "Loðhottsdóttir"
+ 
+ Lodin_norse: "Loðinn"
+ Lodin_norse_tek_mom: "Loðinsmóðir"
+ Lodin_norse_tek_dad: "Loðinsfaðir"
+ Lodin_norse_pat_dad_male: "Loðinsson"
+ Lodin_norse_pat_dad_female: "Loðinsdóttir"
  
  Lodmund_norse: "Loðmundr"
  Lodmund_norse_tek_mom: "Loðmundarmóðir"

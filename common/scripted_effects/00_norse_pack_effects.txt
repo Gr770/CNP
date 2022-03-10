@@ -405,6 +405,7 @@
         add_to_variable_list = { name = name_pack_support_dynasty target = character:101504 }
         add_to_variable_list = { name = name_pack_support_dynasty target = character:101500 }
         add_to_variable_list = { name = name_pack_support_dynasty target = character:100512 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:101515 }
         add_to_variable_list = { name = name_pack_support_dynasty target = character:101517 }
         add_to_variable_list = { name = name_pack_support_dynasty target = character:101519 }
         add_to_variable_list = { name = name_pack_support_dynasty target = character:101522 }
@@ -694,7 +695,11 @@
     }
     dynasty:1043304 = {
         add_to_variable_list = { name = name_pack_support_dynasty target = character:186011 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:186012 }
     }
+	character:186012 = {
+		change_first_name = Thorir
+	}
     dynasty:9612 = {
         add_to_variable_list = { name = name_pack_support_dynasty target = character:168610 }
         add_to_variable_list = { name = name_pack_support_dynasty target = character:168611 }
@@ -731,7 +736,11 @@
         add_to_variable_list = { name = name_pack_support_dynasty target = character:167779 }
         add_to_variable_list = { name = name_pack_support_dynasty target = character:167776 }
         add_to_variable_list = { name = name_pack_support_dynasty target = character:168647 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:167778 }
     }
+	character:167778 = {
+		change_first_name = Ali
+	}
     dynasty:490 = {
         add_to_variable_list = { name = name_pack_support_dynasty target = character:163111 }
         add_to_variable_list = { name = name_pack_support_dynasty target = character:6814 }
@@ -762,6 +771,7 @@
         add_to_variable_list = { name = name_pack_support_dynasty target = character:101549 }
         add_to_variable_list = { name = name_pack_support_dynasty target = character:306012 }
         add_to_variable_list = { name = name_pack_support_dynasty target = character:306013 }
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:194031 }
         add_to_variable_list = { name = dynasty_independent target = character:194004 }
         add_to_variable_list = { name = dynasty_independent target = character:194028 }
         add_to_variable_list = { name = dynasty_independent target = character:194029 }
@@ -917,6 +927,13 @@
     dynasty:1043500 = {
         add_to_variable_list = { name = name_pack_support_dynasty target = character:186500 }
     }
+    dynasty:1043306 = {
+        add_to_variable_list = { name = name_pack_support_dynasty target = character:186014 }
+    }
+	character:186014 = {
+		change_first_name = Geirmund
+		add_to_global_variable_list = { name = Strongskin_byname target = this }
+	}
 	character:167782 = {
 		add_to_global_variable_list = { name = RingSlinger_byname target = this }
 	}
@@ -934,6 +951,9 @@
 	}
 }
 867_ancetor_storage_norse = {
+	character:186014 = {
+		add_character_flag = got_north_nickname
+	}
 	character:163112 = {
 		add_character_flag = got_north_nickname
 	}
