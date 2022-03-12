@@ -2338,9 +2338,6 @@ norse_pack_culture_name_male = {
 					change_first_name = Borgfast
 				}
 				1 = {
-					change_first_name = Boti
-				}
-				1 = {
 					change_first_name = Botbjorn
 				}
 				1 = {
@@ -4064,9 +4061,6 @@ norse_pack_culture_name_male = {
 				}
 				1 = {
 					change_first_name = Spjoti
-				}
-				1 = {
-					change_first_name = Spraki
 				}
 				1 = {
 					change_first_name = Spor
@@ -7412,9 +7406,6 @@ norse_pack_name_ai_male = {
 						change_first_name = Borgfast
 					}
 					1 = {
-						change_first_name = Boti
-					}
-					1 = {
 						change_first_name = Botbjorn
 					}
 					1 = {
@@ -9138,9 +9129,6 @@ norse_pack_name_ai_male = {
 					}
 					1 = {
 						change_first_name = Spjoti
-					}
-					1 = {
-						change_first_name = Spraki
 					}
 					1 = {
 						change_first_name = Spor
